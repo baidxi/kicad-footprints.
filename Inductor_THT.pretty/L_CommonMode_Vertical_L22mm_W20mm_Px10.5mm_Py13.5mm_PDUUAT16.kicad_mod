@@ -75,4 +75,18 @@
   (pad "2" thru_hole circle (at 13.5 0) (size 1.7 1.7) (drill 0.9) (layers *.Cu *.Mask) (tstamp 9d541d6f-313d-4469-a000-68242c1dd6d6))
   (pad "3" thru_hole circle (at 13.5 10.5) (size 1.7 1.7) (drill 0.9) (layers *.Cu *.Mask) (tstamp cad44c02-7fd2-4e9a-b93a-e1b73d6a3ee6))
   (pad "4" thru_hole circle (at 0 10.5) (size 1.7 1.7) (drill 0.9) (layers *.Cu *.Mask) (tstamp b2cac11a-5f3b-43d7-88e5-8d0241ac6453))
+  (zone (net 0) (net_name "") (layers *.Cu "F.SilkS") (tstamp 481354ed-51b9-4db2-9835-781681979b4b) (hatch edge 0.508)
+    (connect_pads (clearance 0))
+    (min_thickness 0.254)
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints allowed))
+    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 12.05 14)
+        (xy 1.45 14)
+        (xy 1.45 -3.5)
+        (xy 12.05 -3.5)
+      )
+    )
+  )
 )
