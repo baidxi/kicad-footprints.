@@ -1,0 +1,238 @@
+(footprint "KyoceraAVX_00-9159_10Way"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "10-position board-to-board card edge connector https://datasheets.kyocera-avx.com/OpenEndedCardEdge_00-9159.pdf")
+	(tags "Kyocera AVX")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(uuid "c6f7268c-c862-4ac0-b347-3e9dd165867d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KyoceraAVX_00-9159_10Way"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "caffe589-b14b-4811-9f91-64c9f9ebad31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "495fc3a8-40ba-4964-8045-b40f60876459")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9dbcd59-1b7b-42ac-bdfc-78d5f2395927")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -1.3 -2.5)
+		(end -5 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "52be54b3-9d19-4792-8768-eb0343ea310c")
+	)
+	(fp_line
+		(start -1.3 -2.5)
+		(end -1.3 0.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "098eb8b6-caca-4d37-b592-09e54e85c95e")
+	)
+	(fp_line
+		(start -0.7 0.3)
+		(end -0.7 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7c727984-de45-4308-b2fe-21f25aa99fde")
+	)
+	(fp_line
+		(start 5 -2.5)
+		(end -0.7 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8eace403-9ac0-46f1-8390-5b624b9ab628")
+	)
+	(fp_arc
+		(start -0.7 0.3)
+		(mid -1 0.6)
+		(end -1.3 0.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f4d30513-33a5-4224-b068-60cdbb0cf7b3")
+	)
+	(fp_rect
+		(start -5 -2.5)
+		(end 5 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "83a67ca8-cf76-46df-8986-5a2ecf41e3b8")
+	)
+	(fp_rect
+		(start -5 -2.5)
+		(end 5 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3a789fa3-1470-4630-909e-00d403b4c564")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4 0)
+		(layer "F.Fab")
+		(uuid "f2eb8b82-0230-4e8f-8428-76f1d1609260")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" connect rect
+		(at -4 0)
+		(size 1 4)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2773f46b-62ac-4cec-9ec8-eb0ad792686a")
+	)
+	(pad "2" connect rect
+		(at -2 0)
+		(size 1 4)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7ecd44c6-173f-4c10-9904-cd2f468de74a")
+	)
+	(pad "3" connect rect
+		(at 0 0)
+		(size 1 4)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "1e8aae2c-2a15-478b-abc3-50c9c56987cd")
+	)
+	(pad "4" connect rect
+		(at 2 0)
+		(size 1 4)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "083470ac-818d-4357-bd84-8a38d956e9d1")
+	)
+	(pad "5" connect rect
+		(at 4 0)
+		(size 1 4)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "62b74164-45b0-40b8-8223-660a5300caad")
+	)
+	(pad "6" connect rect
+		(at -4 0)
+		(size 1 4)
+		(layers "B.Cu" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "5712488b-8350-4e46-b6a9-a71d61acf4c5")
+	)
+	(pad "7" connect rect
+		(at -2 0)
+		(size 1 4)
+		(layers "B.Cu" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7e83836e-2b1b-414b-bac2-6b6095cf4e4a")
+	)
+	(pad "8" connect rect
+		(at 0 0)
+		(size 1 4)
+		(layers "B.Cu" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ee7d180f-4c87-471a-a0e1-8c536e53632d")
+	)
+	(pad "9" connect rect
+		(at 2 0)
+		(size 1 4)
+		(layers "B.Cu" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8ee300c8-e3bd-4524-85ac-0d25d9a7f940")
+	)
+	(pad "10" connect rect
+		(at 4 0)
+		(size 1 4)
+		(layers "B.Cu" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2c11ffa1-f157-45ee-b540-f9d3ac731586")
+	)
+	(group ""
+		(uuid "cdf03fb5-5730-4174-8afa-40ac5472da7c")
+		(members "083470ac-818d-4357-bd84-8a38d956e9d1" "098eb8b6-caca-4d37-b592-09e54e85c95e"
+			"1e8aae2c-2a15-478b-abc3-50c9c56987cd" "2773f46b-62ac-4cec-9ec8-eb0ad792686a"
+			"2c11ffa1-f157-45ee-b540-f9d3ac731586" "3a789fa3-1470-4630-909e-00d403b4c564"
+			"52be54b3-9d19-4792-8768-eb0343ea310c" "5712488b-8350-4e46-b6a9-a71d61acf4c5"
+			"62b74164-45b0-40b8-8223-660a5300caad" "7c727984-de45-4308-b2fe-21f25aa99fde"
+			"7e83836e-2b1b-414b-bac2-6b6095cf4e4a" "7ecd44c6-173f-4c10-9904-cd2f468de74a"
+			"83a67ca8-cf76-46df-8986-5a2ecf41e3b8" "8eace403-9ac0-46f1-8390-5b624b9ab628"
+			"8ee300c8-e3bd-4524-85ac-0d25d9a7f940" "ee7d180f-4c87-471a-a0e1-8c536e53632d"
+			"f4d30513-33a5-4224-b068-60cdbb0cf7b3"
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PCBEdge.3dshapes/KyoceraAVX_00-9159_10Way.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
