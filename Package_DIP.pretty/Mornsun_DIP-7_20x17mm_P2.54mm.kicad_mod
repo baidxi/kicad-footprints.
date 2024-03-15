@@ -67,8 +67,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -10 8.5)
-		(end -10 -6)
+		(start -10.1 8.6)
+		(end -10.1 -6.1)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -77,8 +77,8 @@
 		(uuid "3ab61bd6-e0bc-4f0a-b5d1-3118a950fa35")
 	)
 	(fp_line
-		(start -7.5 -8.5)
-		(end -10 -6)
+		(start -7.6 -8.6)
+		(end -10.1 -6.1)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -87,8 +87,8 @@
 		(uuid "63995551-3965-4e71-8312-23350398ff79")
 	)
 	(fp_line
-		(start 10 -8.5)
-		(end -7.5 -8.5)
+		(start 10.1 -8.6)
+		(end -7.6 -8.6)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -97,8 +97,8 @@
 		(uuid "c408797b-0b3b-4b16-9028-a5a8bc759f3f")
 	)
 	(fp_line
-		(start 10 -8.5)
-		(end 10 8.5)
+		(start 10.1 -8.6)
+		(end 10.1 8.6)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -107,8 +107,8 @@
 		(uuid "f2c9b7d9-bbce-4e4c-a676-2afd3cfc2d81")
 	)
 	(fp_line
-		(start 10 8.5)
-		(end -10 8.5)
+		(start 10.1 8.6)
+		(end -10.1 8.6)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -117,8 +117,8 @@
 		(uuid "b69153fd-ee73-4a70-9217-76211b15f325")
 	)
 	(fp_line
-		(start -10.2 -6.1)
-		(end -10.2 8.7)
+		(start -10.3 -6.1)
+		(end -10.3 8.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -127,8 +127,8 @@
 		(uuid "1554e381-3c1d-42ca-8e0b-8f31e4f6212d")
 	)
 	(fp_line
-		(start -10.2 8.7)
-		(end 10.2 8.7)
+		(start -10.3 8.8)
+		(end 10.3 8.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -137,8 +137,8 @@
 		(uuid "4abebcd1-8077-4a06-9a3d-dca92f5a4564")
 	)
 	(fp_line
-		(start -7.6 -8.7)
-		(end -10.2 -6.1)
+		(start -7.6 -8.8)
+		(end -10.3 -6.1)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -147,8 +147,8 @@
 		(uuid "b504058a-e3f3-4323-8cb6-5ca6e3dbe957")
 	)
 	(fp_line
-		(start 10.2 -8.7)
-		(end -7.6 -8.7)
+		(start 10.3 -8.8)
+		(end -7.6 -8.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -157,8 +157,8 @@
 		(uuid "d4641944-9fde-43c6-bf15-b643e2b28db4")
 	)
 	(fp_line
-		(start 10.2 8.7)
-		(end 10.2 -8.7)
+		(start 10.3 8.8)
+		(end 10.3 -8.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -227,12 +227,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at -7.62 -3.81 270)
 		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
 		(uuid "4b99257d-17bc-47b4-98c8-bfd32b57167a")
 	)
 	(pad "2" thru_hole circle
