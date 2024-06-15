@@ -410,6 +410,35 @@
 		(clearance 0.05)
 		(uuid "51790f32-1329-405c-bc5d-1206286fe09e")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F&B.Cu")
+		(uuid "17228618-59aa-472d-94c2-3d4998244129")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -11.95 -10.85) (xy 7.55 -10.85) (xy 7.55 -8.55) (xy 11.95 -8.55) (xy 11.95 -6.05) (xy 11.2 -6.05)
+				(xy 11.2 -4.45) (xy 11.95 -4.45) (xy 11.95 -0.1) (xy -11.95 -0.1)
+			)
+		)
+	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_Card.3dshapes/SD_Card_Device.wrl"
 		(offset
 			(xyz 0 0 0)
