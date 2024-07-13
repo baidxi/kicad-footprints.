@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "USB Type-C receptacle for USB 2.0, 6 pin")
+	(descr "USB Type-C receptacle for USB 2.0, 6 pin, https://omo-oss-file.thefastfile.com/portal-saas/new2023011311465142457/cms/file/134891b2-9b01-4104-89d3-96207243f692.pdf")
 	(tags "usb usb-c 2.0 pd")
 	(property "Reference" "REF**"
 		(at 0 -5.25 0)
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "USB_C_Receptacle_HRO_TYPE-C-31-M-17"
+	(property "Footprint" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -36,10 +36,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
-	(property "Datasheet" "https://omo-oss-file.thefastfile.com/portal-saas/new2023011311465142457/cms/file/134891b2-9b01-4104-89d3-96207243f692.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -205,40 +208,46 @@
 			)
 		)
 	)
-	(pad "A5" smd rect
+	(pad "A5" smd roundrect
 		(at -0.5 -3.18)
 		(size 0.7 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "93953890-acba-456b-bb6d-b1e79179ffa0")
 	)
-	(pad "A9" smd rect
+	(pad "A9" smd roundrect
 		(at 1.52 -3.18)
 		(size 0.8 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "a35f3da7-7460-43f1-99b7-9ed521817778")
 	)
-	(pad "A12" smd rect
+	(pad "A12" smd roundrect
 		(at 2.75 -3.18)
 		(size 0.9 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "3795b0f1-50f9-473e-9d26-381fc08b3c2d")
 	)
-	(pad "B5" smd rect
+	(pad "B5" smd roundrect
 		(at 0.5 -3.18)
 		(size 0.7 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "45f8f791-f545-4341-9848-fb81a03703a6")
 	)
-	(pad "B9" smd rect
+	(pad "B9" smd roundrect
 		(at -1.52 -3.18)
 		(size 0.8 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "70539c09-2020-4a42-a156-43d1513170d0")
 	)
-	(pad "B12" smd rect
+	(pad "B12" smd roundrect
 		(at -2.75 -3.18)
 		(size 0.9 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "eda87c04-3a59-4e2c-a9bd-f59ed31672aa")
 	)
 	(pad "S1" thru_hole oval
