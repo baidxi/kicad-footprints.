@@ -1,11 +1,11 @@
-(footprint "Winbond_USON-8-1EP_4x3mm_P0.8mm_EP0.2x2.4mm"
+(footprint "Winbond_USON-8-1EP_3x4mm_P0.8mm_EP0.2x2.4mm"
 	(version 20240108)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Winbond  USON, 8 Pin (https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q16JV.1#page=69), generated with kicad-footprint-generator ipc_noLead_generator.py")
 	(tags "Winbond USON NoLead")
 	(property "Reference" "REF**"
-		(at 0 -2.45 0)
+		(at 0 -2.95 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -14,8 +14,8 @@
 			)
 		)
 	)
-	(property "Value" "Winbond_USON-8-1EP_4x3mm_P0.8mm_EP0.2x2.4mm"
-		(at 0 2.45 0)
+	(property "Value" "Winbond_USON-8-1EP_3x4mm_P0.8mm_EP0.2x2.4mm"
+		(at 0 2.95 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -26,8 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2 -1.61)
-		(end 2 -1.61)
+		(start -1.5 -2.11)
+		(end 1.5 -2.11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2 1.61)
-		(end 2 1.61)
+		(start -1.5 2.11)
+		(end 1.5 2.11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -45,10 +45,10 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.54 -1.52)
-			(xy -3.02 -1.52)
-			(xy -2.54 -2)
-			(xy -2.54 -1.52)
+			(xy -2.04 -1.52)
+			(xy -2.52 -1.52)
+			(xy -2.04 -2)
+			(xy -2.04 -1.52)
 		)
 		(stroke
 			(width 0.12)
@@ -58,8 +58,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.63 -1.75)
-		(end -2.63 1.75)
+		(start -2.13 -2.25)
+		(end -2.13 2.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -67,8 +67,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -2.63 1.75)
-		(end 2.63 1.75)
+		(start -2.13 2.25)
+		(end 2.13 2.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -76,8 +76,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 2.63 -1.75)
-		(end -2.63 -1.75)
+		(start 2.13 -2.25)
+		(end -2.13 -2.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -85,8 +85,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 2.63 1.75)
-		(end 2.63 -1.75)
+		(start 2.13 2.25)
+		(end 2.13 -2.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -94,8 +94,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -2 -0.75)
-		(end -1.25 -1.5)
+		(start -1.5 -1.25)
+		(end -0.75 -2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -103,8 +103,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -2 1.5)
-		(end -2 -0.75)
+		(start -1.5 2)
+		(end -1.5 -1.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -112,8 +112,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -1.25 -1.5)
-		(end 2 -1.5)
+		(start -0.75 -2)
+		(end 1.5 -2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -121,8 +121,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 2 -1.5)
-		(end 2 1.5)
+		(start 1.5 -2)
+		(end 1.5 2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -130,8 +130,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 2 1.5)
-		(end -2 1.5)
+		(start 1.5 2)
+		(end -1.5 2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -139,7 +139,7 @@
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0 90)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -155,49 +155,49 @@
 		(roundrect_rratio 0.25)
 	)
 	(pad "1" smd roundrect
-		(at -1.85 -1.2)
+		(at -1.35 -1.2)
 		(size 1.05 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 	)
 	(pad "2" smd roundrect
-		(at -1.85 -0.4)
+		(at -1.35 -0.4)
 		(size 1.05 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 	)
 	(pad "3" smd roundrect
-		(at -1.85 0.4)
+		(at -1.35 0.4)
 		(size 1.05 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 	)
 	(pad "4" smd roundrect
-		(at -1.85 1.2)
+		(at -1.35 1.2)
 		(size 1.05 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 	)
 	(pad "5" smd roundrect
-		(at 1.85 1.2)
+		(at 1.35 1.2)
 		(size 1.05 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 	)
 	(pad "6" smd roundrect
-		(at 1.85 0.4)
+		(at 1.35 0.4)
 		(size 1.05 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 	)
 	(pad "7" smd roundrect
-		(at 1.85 -0.4)
+		(at 1.35 -0.4)
 		(size 1.05 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 	)
 	(pad "8" smd roundrect
-		(at 1.85 -1.2)
+		(at 1.35 -1.2)
 		(size 1.05 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -209,7 +209,7 @@
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/Winbond_USON-8-1EP_4x3mm_P0.8mm_EP0.2x2.4mm.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/Winbond_USON-8-1EP_3x4mm_P0.8mm_EP0.2x2.4mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
