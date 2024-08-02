@@ -1,4 +1,4 @@
-(footprint "Winbond_USON-8-1EP_3x4mm_P0.8mm_EP0.2x2.4mm"
+(footprint "Winbond_USON-8-1EP_3x4mm_P0.8mm_EP0.2x3.2mm"
 	(version 20240108)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "Winbond_USON-8-1EP_3x4mm_P0.8mm_EP0.2x2.4mm"
+	(property "Value" "Winbond_USON-8-1EP_3x4mm_P0.8mm_EP0.2x3.2mm"
 		(at 0 2.95 0)
 		(layer "F.Fab")
 		(effects
@@ -149,8 +149,14 @@
 		)
 	)
 	(pad "" smd roundrect
-		(at 0 0)
-		(size 0.16 1.93)
+		(at 0 -0.8)
+		(size 0.1 0.8)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+	)
+	(pad "" smd roundrect
+		(at 0 0.8)
+		(size 0.1 0.8)
 		(layers "F.Paste")
 		(roundrect_rratio 0.25)
 	)
@@ -204,12 +210,12 @@
 	)
 	(pad "9" smd rect
 		(at 0 0)
-		(size 0.2 2.4)
+		(size 0.2 3.2)
 		(property pad_prop_heatsink)
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/Winbond_USON-8-1EP_3x4mm_P0.8mm_EP0.2x2.4mm.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/Winbond_USON-8-1EP_3x4mm_P0.8mm_EP0.2x3.2mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
