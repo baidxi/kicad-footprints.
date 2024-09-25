@@ -198,6 +198,17 @@
 		(layer "F.Fab")
 		(uuid "2b25c03d-f65a-4448-8d85-ff2ea8ad29ec")
 	)
+	(fp_text user "1"
+		(at -4.3 -1.6 0)
+		(layer "F.SilkS")
+		(uuid "1991bcce-5f4f-4679-9bf2-e994d4835c0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -210,32 +221,32 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at 2.55 1.6)
-		(size 1.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
-		(uuid "98c0776d-12ee-4925-979d-e6f185bef9ce")
-	)
-	(pad "2" smd roundrect
-		(at 2.55 -1.6)
-		(size 1.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
-		(uuid "9f7c7f30-2e0e-4df5-af1d-1d3853e2776e")
-	)
-	(pad "3" smd roundrect
 		(at -2.55 -1.6)
 		(size 1.8 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1)
 		(uuid "088f7fe1-40a9-4e05-8019-68bb65ef1a2c")
 	)
-	(pad "4" smd roundrect
+	(pad "2" smd roundrect
 		(at -2.55 1.6)
 		(size 1.8 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1)
 		(uuid "fb2ff826-1449-44e4-95ed-947ecaa01cb9")
+	)
+	(pad "3" smd roundrect
+		(at 2.55 1.6)
+		(size 1.8 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "98c0776d-12ee-4925-979d-e6f185bef9ce")
+	)
+	(pad "4" smd roundrect
+		(at 2.55 -1.6)
+		(size 1.8 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "9f7c7f30-2e0e-4df5-af1d-1d3853e2776e")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/LED_OPSCO_SK6812_PLCC4_5.0x5.0mm_P3.1mm.wrl"
 		(offset
