@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Connector XT30 Horizontal PCB Female, https://www.tme.eu/en/Document/5e47640ba39fa492dbd4c0f4c8ae7b93/MR30PW%20SPEC.pdf")
-	(tags "RC Connector XT30")
+	(descr "Connector MR30 Horizontal PCB Female, https://www.tme.eu/Document/4a6895c4a2c7eddf355b391fd904cb53/MR30PW-FB.pdf")
+	(tags "RC Connector MR30")
 	(property "Reference" "REF**"
 		(at -3.5 -15.3 0)
 		(layer "F.SilkS")
@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -415,12 +418,13 @@
 		(remove_unused_layers no)
 		(uuid "26cf6642-4ed1-42e1-b583-563c20a78adf")
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 3 3)
 		(drill 1.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
 		(uuid "cc50a675-25d1-4aee-a932-34b3e5bfefb1")
 	)
 	(pad "2" thru_hole circle
