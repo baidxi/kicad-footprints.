@@ -68,8 +68,18 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.7 -2.75)
-		(end 2.7 -2.75)
+		(start -3.75 -2.75)
+		(end -3.75 2.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4509de51-767c-40c8-b4c7-b4939f84ebd1")
+	)
+	(fp_line
+		(start -3.75 -2.75)
+		(end 3.7 -2.75)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -78,14 +88,14 @@
 		(uuid "c91a7d7a-a64c-4999-bcfb-4b13f642a3a6")
 	)
 	(fp_line
-		(start -2.7 -2.4)
-		(end -2.7 -2.75)
+		(start -3.75 2.75)
+		(end 3.225 2.75)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c91a7d7a-a64c-4999-bcfb-4b13f642a3a6")
+		(uuid "385fb898-31ca-4ac4-a3aa-2280c1edc2b9")
 	)
 	(fp_line
 		(start -2.7 0.75)
@@ -98,46 +108,6 @@
 		(uuid "d3fea178-85a2-4e98-84c4-47c25bc002c0")
 	)
 	(fp_line
-		(start -2.7 2.4)
-		(end -2.7 2.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "385fb898-31ca-4ac4-a3aa-2280c1edc2b9")
-	)
-	(fp_line
-		(start -2.7 2.75)
-		(end 0.8 2.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "385fb898-31ca-4ac4-a3aa-2280c1edc2b9")
-	)
-	(fp_line
-		(start 0.8 2.75)
-		(end 1.4 2.1)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "05700fb7-4799-44e9-a314-2ab857b6c763")
-	)
-	(fp_line
-		(start 2.7 -2.75)
-		(end 2.7 -2.4)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "606cf0e2-0aaa-4de0-b22b-216cf0925daf")
-	)
-	(fp_line
 		(start 2.7 0.8)
 		(end 2.7 -0.7)
 		(stroke
@@ -146,6 +116,26 @@
 		)
 		(layer "F.SilkS")
 		(uuid "4b276f08-1917-403f-929a-79f04dfff990")
+	)
+	(fp_line
+		(start 3.225 2.75)
+		(end 3.7 2.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "72c4787f-059b-4764-b0b3-0c760d2b3728")
+	)
+	(fp_line
+		(start 3.7 2.25)
+		(end 3.7 -2.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "16ce9b64-c137-4054-9a6d-910307bdb863")
 	)
 	(fp_line
 		(start -3.7 -2.75)
@@ -249,7 +239,7 @@
 		(uuid "2b25c03d-f65a-4448-8d85-ff2ea8ad29ec")
 	)
 	(fp_text user "1"
-		(at -4.3 -1.6 0)
+		(at -4.4 -1.6 0)
 		(layer "F.SilkS")
 		(uuid "1991bcce-5f4f-4679-9bf2-e994d4835c0c")
 		(effects
@@ -299,6 +289,17 @@
 		(uuid "9f7c7f30-2e0e-4df5-af1d-1d3853e2776e")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_OPSCO_SK6812_PLCC4_5.0x5.0mm_P3.1mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
