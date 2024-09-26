@@ -68,16 +68,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3.7 2.75)
-		(end 3.05 2.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d06c4716-2586-4ad6-8c98-b46ec5cb1195")
-	)
-	(fp_line
 		(start -3.5 -2.75)
 		(end -3.5 2.75)
 		(stroke
@@ -89,7 +79,7 @@
 	)
 	(fp_line
 		(start -3.5 -2.75)
-		(end 3.7 -2.75)
+		(end 3.5 -2.75)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -98,18 +88,28 @@
 		(uuid "573c7881-33a6-4295-bd4f-329ce6e6a77a")
 	)
 	(fp_line
-		(start -2.7 0.75)
-		(end -2.7 -0.75)
+		(start -3.5 2.75)
+		(end 3.05 2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d06c4716-2586-4ad6-8c98-b46ec5cb1195")
+	)
+	(fp_line
+		(start -2.7 0.9)
+		(end -2.7 -0.9)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "241e514b-b87e-450b-9641-434493a2b7ca")
+		(uuid "70a46f64-3e11-45ae-819c-05dbd3fba0a4")
 	)
 	(fp_line
-		(start 2.7 0.8)
-		(end 2.7 -0.7)
+		(start 2.7 0.9)
+		(end 2.7 -0.9)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -260,28 +260,32 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -2.45 -1.65)
 		(size 1.5 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
 		(uuid "303fa036-5e50-4d6d-bb86-5cdfd4b88a9f")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at -2.45 1.65)
 		(size 1.5 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
 		(uuid "19ff1e90-56ef-461a-889c-61ffea674474")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 2.45 1.65)
 		(size 1.5 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
 		(uuid "abc776f0-6816-4443-a596-fad8645d4ac8")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 2.45 -1.65)
 		(size 1.5 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
 		(uuid "e6e3b1bc-4064-4031-9b80-d1df61337d0a")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.wrl"
