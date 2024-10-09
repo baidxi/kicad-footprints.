@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,39 +62,80 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_line
-		(start -3.65 -2.75)
-		(end 3.65 -2.75)
+		(start -3.5 -2.75)
+		(end -3.5 2.75)
 		(stroke
 			(width 0.12)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "6ed77aa4-f296-4996-819b-3cc749559f49")
+		(uuid "1601d4d8-3063-4120-a409-b9aa03a5adfe")
 	)
 	(fp_line
-		(start -3.65 2.75)
-		(end 3.65 2.75)
+		(start -3.5 -2.75)
+		(end 3.5 -2.75)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ca1d06bb-c27e-4859-b633-e45a2345f320")
+		(uuid "573c7881-33a6-4295-bd4f-329ce6e6a77a")
 	)
 	(fp_line
-		(start 3.65 2.75)
-		(end 3.65 1.6)
+		(start -3.5 2.75)
+		(end 3.05 2.75)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e860fd23-f087-40be-9473-9d8e25d5ffe3")
+		(uuid "d06c4716-2586-4ad6-8c98-b46ec5cb1195")
+	)
+	(fp_line
+		(start -2.7 0.9)
+		(end -2.7 -0.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "70a46f64-3e11-45ae-819c-05dbd3fba0a4")
+	)
+	(fp_line
+		(start 2.7 0.9)
+		(end 2.7 -0.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e48bb817-0d37-416b-af68-406e0f0e1db7")
+	)
+	(fp_line
+		(start 3.05 2.75)
+		(end 3.5 2.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "adcb7da5-562b-4661-a20c-0af79a7f5e56")
+	)
+	(fp_line
+		(start 3.5 2.3)
+		(end 3.5 -2.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fde6eec1-7c4a-4028-8baf-43dcaa915462")
 	)
 	(fp_line
 		(start -3.45 -2.75)
@@ -198,7 +241,7 @@
 	(fp_text user "1"
 		(at -4.15 -1.6 0)
 		(layer "F.SilkS")
-		(uuid "d09dbb95-d0d6-4d24-828b-5464671de2a8")
+		(uuid "1dd9b978-b912-45e0-83fd-c616325b2a91")
 		(effects
 			(font
 				(size 1 1)
@@ -217,28 +260,32 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -2.45 -1.65)
 		(size 1.5 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
 		(uuid "303fa036-5e50-4d6d-bb86-5cdfd4b88a9f")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at -2.45 1.65)
 		(size 1.5 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
 		(uuid "19ff1e90-56ef-461a-889c-61ffea674474")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 2.45 1.65)
 		(size 1.5 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
 		(uuid "abc776f0-6816-4443-a596-fad8645d4ac8")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 2.45 -1.65)
 		(size 1.5 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
 		(uuid "e6e3b1bc-4064-4031-9b80-d1df61337d0a")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.wrl"

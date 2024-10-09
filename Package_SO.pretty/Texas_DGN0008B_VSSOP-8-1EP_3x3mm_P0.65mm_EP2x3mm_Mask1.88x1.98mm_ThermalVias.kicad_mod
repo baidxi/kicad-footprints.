@@ -26,44 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3.18 -1.75)
-		(end -3.18 1.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -3.18 1.75)
-		(end 3.18 1.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 3.18 1.75)
-		(end 3.18 -1.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 3.18 -1.75)
-		(end -3.18 -1.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 1.235584 1.61)
-		(end 1.5 1.61)
+		(start -1.235584 -1.61)
+		(end -1.5 -1.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -89,13 +53,81 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -1.235584 -1.61)
-		(end -1.5 -1.61)
+		(start 1.235584 1.61)
+		(end 1.5 1.61)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
+	)
+	(fp_poly
+		(pts
+			(xy -2.2125 -1.485)
+			(xy -2.4525 -1.815)
+			(xy -1.9725 -1.815)
+			(xy -2.2125 -1.485)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -3.18 -1.75)
+		(end -3.18 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -3.18 1.75)
+		(end 3.18 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.18 -1.75)
+		(end -3.18 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.18 1.75)
+		(end 3.18 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
 	)
 	(fp_line
 		(start -0.75 -1.5)
@@ -124,174 +156,13 @@
 		)
 		(layer "F.Fab")
 	)
-	(fp_line
-		(start -1.5 1.5)
-		(end -1.5 -0.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
 		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.5 -0.75)
-		(end -0.75 -1.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(pad "1" smd roundrect
-		(at -2.2 -0.975)
-		(size 1.45 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-	)
-	(pad "2" smd roundrect
-		(at -2.2 -0.325)
-		(size 1.45 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-	)
-	(pad "3" smd roundrect
-		(at -2.2 0.325)
-		(size 1.45 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-	)
-	(pad "4" smd roundrect
-		(at -2.2 0.975)
-		(size 1.45 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-	)
-	(pad "5" smd roundrect
-		(at 2.2 0.975)
-		(size 1.45 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-	)
-	(pad "6" smd roundrect
-		(at 2.2 0.325)
-		(size 1.45 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-	)
-	(pad "7" smd roundrect
-		(at 2.2 -0.325)
-		(size 1.45 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-	)
-	(pad "8" smd roundrect
-		(at 2.2 -0.975)
-		(size 1.45 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-	)
-	(pad "" smd rect
-		(at 0 0)
-		(size 1.88 1.98)
-		(layers "F.Mask")
-	)
-	(pad "9" smd rect
-		(at 0 0)
-		(size 2 3)
-		(property pad_prop_heatsink)
-		(layers "F.Cu")
-		(zone_connect 2)
-	)
-	(pad "9" thru_hole circle
-		(at -0.55 -1.22)
-		(size 0.5 0.5)
-		(drill 0.2)
-		(property pad_prop_heatsink)
-		(layers "*.Cu")
-	)
-	(pad "9" thru_hole circle
-		(at 0.55 -1.22)
-		(size 0.5 0.5)
-		(drill 0.2)
-		(property pad_prop_heatsink)
-		(layers "*.Cu")
-	)
-	(pad "9" thru_hole circle
-		(at -0.55 0)
-		(size 0.5 0.5)
-		(drill 0.2)
-		(property pad_prop_heatsink)
-		(layers "*.Cu")
-	)
-	(pad "9" thru_hole circle
-		(at 0.55 0)
-		(size 0.5 0.5)
-		(drill 0.2)
-		(property pad_prop_heatsink)
-		(layers "*.Cu")
-	)
-	(pad "9" thru_hole circle
-		(at -0.55 1.22)
-		(size 0.5 0.5)
-		(drill 0.2)
-		(property pad_prop_heatsink)
-		(layers "*.Cu")
-	)
-	(pad "9" thru_hole circle
-		(at 0.55 1.22)
-		(size 0.5 0.5)
-		(drill 0.2)
-		(property pad_prop_heatsink)
-		(layers "*.Cu")
-	)
-	(pad "9" smd rect
-		(at 0 0)
-		(size 1.6 2.94)
-		(property pad_prop_heatsink)
-		(layers "B.Cu")
-		(zone_connect 2)
-	)
-	(pad "" smd custom
-		(at 0 -0.495)
-		(size 0.756363 0.756363)
-		(layers "F.Paste")
-		(options
-			(clearance outline)
-			(anchor circle)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy -0.375311 -0.32768)
-					(xy 0.375311 -0.32768)
-					(xy 0.375311 0.244007)
-					(xy 0.291638 0.32768)
-					(xy -0.291638 0.32768)
-					(xy -0.375311 0.244007)
-				)
-				(width 0.202005)
-			)
-		)
-	)
-	(pad "" smd custom
-		(at 0 0.495)
-		(size 0.756363 0.756363)
-		(layers "F.Paste")
-		(options
-			(clearance outline)
-			(anchor circle)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy -0.375311 -0.244007)
-					(xy -0.291638 -0.32768)
-					(xy 0.291638 -0.32768)
-					(xy 0.375311 -0.244007)
-					(xy 0.375311 0.32768)
-					(xy -0.375311 0.32768)
-				)
-				(width 0.202005)
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
 			)
 		)
 	)
@@ -338,6 +209,55 @@
 		)
 	)
 	(pad "" smd custom
+		(at 0 -0.495)
+		(size 0.756363 0.756363)
+		(layers "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.375311 -0.32768)
+					(xy 0.375311 -0.32768)
+					(xy 0.375311 0.244007)
+					(xy 0.291638 0.32768)
+					(xy -0.291638 0.32768)
+					(xy -0.375311 0.244007)
+				)
+				(width 0.202005)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at 0 0)
+		(size 1.88 1.98)
+		(layers "F.Mask")
+	)
+	(pad "" smd custom
+		(at 0 0.495)
+		(size 0.756363 0.756363)
+		(layers "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.375311 -0.244007)
+					(xy -0.291638 -0.32768)
+					(xy 0.291638 -0.32768)
+					(xy 0.375311 -0.244007)
+					(xy 0.375311 0.32768)
+					(xy -0.375311 0.32768)
+				)
+				(width 0.202005)
+			)
+		)
+	)
+	(pad "" smd custom
 		(at 0.745 -0.495)
 		(size 0.203117 0.203117)
 		(layers "F.Paste")
@@ -379,29 +299,109 @@
 			)
 		)
 	)
-	(fp_poly
-		(pts
-			(xy -2.2125 -1.485)
-			(xy -2.4525 -1.815)
-			(xy -1.9725 -1.815)
-			(xy -2.2125 -1.485)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
+	(pad "1" smd roundrect
+		(at -2.2 -0.975)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.11)
-			)
-		)
+	(pad "2" smd roundrect
+		(at -2.2 -0.325)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(pad "3" smd roundrect
+		(at -2.2 0.325)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(pad "4" smd roundrect
+		(at -2.2 0.975)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(pad "5" smd roundrect
+		(at 2.2 0.975)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(pad "6" smd roundrect
+		(at 2.2 0.325)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(pad "7" smd roundrect
+		(at 2.2 -0.325)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(pad "8" smd roundrect
+		(at 2.2 -0.975)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(pad "9" thru_hole circle
+		(at -0.55 -1.22)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+	)
+	(pad "9" thru_hole circle
+		(at -0.55 0)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+	)
+	(pad "9" thru_hole circle
+		(at -0.55 1.22)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 1.6 2.94)
+		(property pad_prop_heatsink)
+		(layers "B.Cu")
+		(zone_connect 2)
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 2 3)
+		(property pad_prop_heatsink)
+		(layers "F.Cu")
+		(zone_connect 2)
+	)
+	(pad "9" thru_hole circle
+		(at 0.55 -1.22)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+	)
+	(pad "9" thru_hole circle
+		(at 0.55 0)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+	)
+	(pad "9" thru_hole circle
+		(at 0.55 1.22)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/Texas_DGN0008B_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x3mm_Mask1.88x1.98mm.wrl"
 		(offset
