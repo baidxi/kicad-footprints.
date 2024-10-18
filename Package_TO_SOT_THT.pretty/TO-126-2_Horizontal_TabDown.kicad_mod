@@ -25,72 +25,9 @@
 		)
 	)
 	(attr through_hole)
-	(fp_circle
-		(center 2.54 -11.1)
-		(end 4.14 -11.1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
 	(fp_line
-		(start -1.46 -4)
-		(end -1.46 -15)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.46 -15)
-		(end 6.54 -15)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.54 -15)
-		(end 6.54 -4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.54 -4)
-		(end -1.46 -4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0 -4)
-		(end 0 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 5.08 -4)
-		(end 5.08 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.58 -3.88)
-		(end 6.66 -3.88)
+		(start -1.58 -15.12)
+		(end -1.58 -3.88)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -107,16 +44,7 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -1.58 -15.12)
-		(end -1.58 -3.88)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 6.66 -15.12)
+		(start -1.58 -3.88)
 		(end 6.66 -3.88)
 		(stroke
 			(width 0.12)
@@ -143,6 +71,15 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 6.66 -15.12)
+		(end 6.66 -3.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start -1.71 -15.25)
 		(end -1.71 1.15)
 		(stroke
@@ -161,6 +98,15 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
+		(start 6.79 -15.25)
+		(end -1.71 -15.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
 		(start 6.79 1.15)
 		(end 6.79 -15.25)
 		(stroke
@@ -170,13 +116,78 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 6.79 -15.25)
-		(end -1.71 -15.25)
+		(start -1.46 -15)
+		(end 6.54 -15)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -1.46 -4)
+		(end -1.46 -15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 0 -4)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 5.08 -4)
+		(end 5.08 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 6.54 -15)
+		(end 6.54 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 6.54 -4)
+		(end -1.46 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center 2.54 -11.1)
+		(end 4.14 -11.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(fill none)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -16.12 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "" np_thru_hole circle
 		(at 2.54 -11.1)
@@ -188,23 +199,15 @@
 		(at 0 0)
 		(size 1.8 1.8)
 		(drill 1)
+		(remove_unused_layers no)
 		(layers "*.Cu" "*.Mask")
 	)
 	(pad "2" thru_hole circle
 		(at 5.08 0)
 		(size 1.8 1.8)
 		(drill 1)
+		(remove_unused_layers no)
 		(layers "*.Cu" "*.Mask")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 2.54 -16.12 0)
-		(layer "F.Fab")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-126-2_Horizontal_TabDown.wrl"
 		(offset
