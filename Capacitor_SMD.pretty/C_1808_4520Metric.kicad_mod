@@ -2,7 +2,7 @@
 	(version 20240108)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Capacitor SMD 1808 (4520 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(descr "Capacitor SMD 1808 (4520 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: datasheet page 3, https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_soft_en.pdf), generated with kicad-footprint-generator")
 	(tags "capacitor")
 	(property "Reference" "REF**"
 		(at 0 -2.1 0)
@@ -26,8 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.147369 -1.135)
-		(end 1.147369 -1.135)
+		(start -1.647369 -1.135)
+		(end 1.647369 -1.135)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -1.147369 1.135)
-		(end 1.147369 1.135)
+		(start -1.647369 1.135)
+		(end 1.647369 1.135)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +44,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -3 -1.4)
-		(end 3 -1.4)
+		(start -3.1 -1.4)
+		(end 3.1 -1.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -53,8 +53,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -3 1.4)
-		(end -3 -1.4)
+		(start -3.1 1.4)
+		(end -3.1 -1.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -62,8 +62,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 3 -1.4)
-		(end 3 1.4)
+		(start 3.1 -1.4)
+		(end 3.1 1.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -71,8 +71,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 3 1.4)
-		(end -3 1.4)
+		(start 3.1 1.4)
+		(end -3.1 1.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -80,8 +80,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -2.25 -1.025)
-		(end 2.25 -1.025)
+		(start -2.275 -1.025)
+		(end 2.275 -1.025)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -89,8 +89,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -2.25 1.025)
-		(end -2.25 -1.025)
+		(start -2.275 1.025)
+		(end -2.275 -1.025)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -98,8 +98,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 2.25 -1.025)
-		(end 2.25 1.025)
+		(start 2.275 -1.025)
+		(end 2.275 1.025)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -107,8 +107,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 2.25 1.025)
-		(end -2.25 1.025)
+		(start 2.275 1.025)
+		(end -2.275 1.025)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -126,16 +126,16 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -2.05 0)
-		(size 1.4 2.3)
+		(at -2.35 0)
+		(size 1 2.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.178571)
+		(roundrect_rratio 0.25)
 	)
 	(pad "2" smd roundrect
-		(at 2.05 0)
-		(size 1.4 2.3)
+		(at 2.35 0)
+		(size 1 2.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.178571)
+		(roundrect_rratio 0.25)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1808_4520Metric.wrl"
 		(offset
