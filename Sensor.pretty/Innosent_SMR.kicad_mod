@@ -6,7 +6,7 @@
 	(descr "Innosent SMT mountable K-Band sensor, https://media.digikey.com/pdf/Data%20Sheets/InnoSenT/200728_Data_Sheet_SMR-3X3_2.2.pdf")
 	(tags "innosent radar k-band")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 -8.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e38a3b30-3a7b-498b-a7d4-9b5a08f7c406")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "Innosent_SMR"
-		(at 0 8.75 0)
+		(at 0 8.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "63f267fb-c563-4949-b769-a8972fe68aef")
@@ -80,7 +80,7 @@
 		(uuid "2cdf3389-b5be-4841-b88b-74d315d3d23c")
 	)
 	(fp_line
-		(start -10.81 -4.86)
+		(start -10.81 -5.07)
 		(end -10.81 -7.61)
 		(stroke
 			(width 0.12)
@@ -90,7 +90,7 @@
 		(uuid "582cdd22-16a1-46f5-a6cc-a0cd0c072dd0")
 	)
 	(fp_line
-		(start -10.81 4.86)
+		(start -10.81 5.07)
 		(end -10.81 7.61)
 		(stroke
 			(width 0.12)
@@ -100,7 +100,7 @@
 		(uuid "a775b725-b882-4068-8f77-ec223cfdc3a8")
 	)
 	(fp_line
-		(start 10.81 -4.86)
+		(start 10.81 -5.07)
 		(end 10.81 -7.61)
 		(stroke
 			(width 0.12)
@@ -110,7 +110,7 @@
 		(uuid "72e04ab7-3a5f-4036-9250-59ba6701e219")
 	)
 	(fp_line
-		(start 10.81 4.86)
+		(start 10.81 5.07)
 		(end 10.81 7.61)
 		(stroke
 			(width 0.12)
@@ -153,7 +153,7 @@
 		(uuid "bcaed2b5-6b19-4e07-a2dc-c3ab7b2e9eac")
 	)
 	(fp_line
-		(start -10.7 -6.5)
+		(start -10.7 -7)
 		(end -10.7 7.5)
 		(stroke
 			(width 0.1)
@@ -163,8 +163,8 @@
 		(uuid "5c6ced24-256b-463c-a33f-2d12ac1f6b0b")
 	)
 	(fp_line
-		(start -10.7 -6.5)
-		(end -9.7 -7.5)
+		(start -10.7 -7)
+		(end -10.2 -7.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -183,8 +183,58 @@
 		(uuid "778d5a64-1fdc-4b61-964f-91212577c2ee")
 	)
 	(fp_line
+		(start -10.2 -6.5)
+		(end -10.2 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2fdebf08-5867-4ef8-9276-c4dae1203323")
+	)
+	(fp_line
+		(start -10.2 7)
+		(end 10.2 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "81940b0f-b5d7-4d37-bc9e-e1dd53ad9e9f")
+	)
+	(fp_line
+		(start -9.7 -7)
+		(end -10.2 -6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1357931b-0367-442d-bb82-8afd1cacb321")
+	)
+	(fp_line
+		(start 10.2 -7)
+		(end -9.7 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "41e1eb98-661d-414c-8d72-ba5dd879102b")
+	)
+	(fp_line
+		(start 10.2 7)
+		(end 10.2 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cfe18864-6002-4a7f-9015-4480a1be917f")
+	)
+	(fp_line
 		(start 10.7 -7.5)
-		(end -9.7 -7.5)
+		(end -10.2 -7.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -216,72 +266,82 @@
 	)
 	(pad "1" smd roundrect
 		(at -10.35 -4)
-		(size 1.5 1.2)
+		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2083333333)
+		(clearance 0.2)
 		(uuid "3a2215e5-2005-4945-ae4c-2031de7e1d63")
 	)
 	(pad "2" smd roundrect
 		(at -10.35 -2)
-		(size 1.5 1.2)
+		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2083333333)
+		(clearance 0.2)
 		(uuid "d9f2777b-59bb-4922-9bd9-da040097b75c")
 	)
 	(pad "3" smd roundrect
 		(at -10.35 0)
-		(size 1.5 1.2)
+		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2083333333)
+		(clearance 0.2)
 		(uuid "e32d634b-71da-4a01-8689-24ef99443a26")
 	)
 	(pad "4" smd roundrect
 		(at -10.35 2)
-		(size 1.5 1.2)
+		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2083333333)
+		(clearance 0.2)
 		(uuid "f32c6ff6-e301-40b2-85c5-dace4417ffb1")
 	)
 	(pad "5" smd roundrect
 		(at -10.35 4)
-		(size 1.5 1.2)
+		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2083333333)
+		(clearance 0.2)
 		(uuid "77e5dd47-0572-4ce0-939a-40e71cdf45f6")
 	)
 	(pad "6" smd roundrect
 		(at 10.35 4)
-		(size 1.5 1.2)
+		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2083333333)
+		(clearance 0.2)
 		(uuid "f8bc1ab3-fdf8-4dd7-972f-5880856896d3")
 	)
 	(pad "7" smd roundrect
 		(at 10.35 2)
-		(size 1.5 1.2)
+		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2083333333)
+		(clearance 0.2)
 		(uuid "256370da-dbf2-4467-850a-10c5a131b79b")
 	)
 	(pad "8" smd roundrect
 		(at 10.35 0)
-		(size 1.5 1.2)
+		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2083333333)
+		(clearance 0.2)
 		(uuid "f48fa394-86f9-44a8-9459-645dc098cb35")
 	)
 	(pad "9" smd roundrect
 		(at 10.35 -2)
-		(size 1.5 1.2)
+		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2083333333)
+		(clearance 0.2)
 		(uuid "9be50b63-e907-4de1-a1ba-c28b6fbfa3a3")
 	)
 	(pad "10" smd roundrect
 		(at 10.35 -4)
-		(size 1.5 1.2)
+		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2083333333)
+		(clearance 0.2)
 		(uuid "ba0afc5b-a91f-4919-9345-2aa24003aae3")
 	)
 )
