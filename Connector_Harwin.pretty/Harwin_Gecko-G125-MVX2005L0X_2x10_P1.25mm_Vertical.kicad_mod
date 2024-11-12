@@ -6,7 +6,7 @@
 	(descr "Harwin Gecko Connector, 20 pins, dual row male, vertical entry, no latches, PN:G125-MVX2005L0X")
 	(tags "connector harwin gecko")
 	(property "Reference" "REF**"
-		(at 5.625 3.5 0)
+		(at 5.625 -4.3 0)
 		(layer "F.SilkS")
 		(uuid "99da1dc8-159f-4259-b33f-a933e139f5dd")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Harwin_Gecko-G125-MVX2005L0X_2x10_P1.25mm_Vertical"
-		(at 5.625 -4.3 0)
+		(at 5.625 3.5 0)
 		(layer "F.Fab")
 		(uuid "261fd278-e9ad-419e-b1be-f7f4b47a38d0")
 		(effects
@@ -119,13 +119,13 @@
 	)
 	(fp_line
 		(start -1.15 1.825)
-		(end 12.4 1.825)
+		(end -0.3 1.825)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fbb20248-9d03-4552-b4c4-eeab2589e6cd")
+		(uuid "9ba89f0b-1fa0-445d-85c3-0850b7d4b2a0")
 	)
 	(fp_line
 		(start -0.9 -2.125)
@@ -176,6 +176,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "6058993b-9a86-4cee-b88e-8ed26d89e86e")
+	)
+	(fp_line
+		(start 0.3 1.825)
+		(end 12.4 1.825)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a204f0b-26b6-4e6f-9876-d03185e0084e")
 	)
 	(fp_line
 		(start 0.35 1.125)
@@ -415,36 +425,37 @@
 		(layer "F.SilkS")
 		(uuid "335237dd-596f-4e69-9ac3-b9998098a03c")
 	)
-	(fp_circle
-		(center -2.25 1.5)
-		(end -2 1.5)
+	(fp_poly
+		(pts
+			(xy 0 1.83) (xy -0.34 2.3) (xy 0.34 2.3) (xy 0 1.83)
+		)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "a65bcee1-c730-415f-99e6-2767239fbaa9")
+		(uuid "ed4ec8a4-b47b-4f0e-9cc0-b694a3978103")
 	)
 	(fp_line
 		(start -2.4 -3.58)
-		(end -2.4 -2.58)
+		(end -2.4 2.33)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "64f58653-b1bc-4106-b540-696857818b22")
+		(uuid "131fc7de-4d60-4590-8066-bf659e54b6ee")
 	)
 	(fp_line
-		(start -2.4 -2.58)
-		(end 13.65 -2.58)
+		(start -2.4 2.33)
+		(end 13.65 2.33)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0adc04a3-2b1e-467c-86e9-d58724d678ad")
+		(uuid "83f183f8-f1ed-49a7-9ad8-9f7b550eaeba")
 	)
 	(fp_line
 		(start 13.65 -3.58)
@@ -457,8 +468,8 @@
 		(uuid "67e35d15-3c87-4849-9778-80a7a75f5e80")
 	)
 	(fp_line
-		(start 13.65 -2.58)
-		(end 13.65 -3.58)
+		(start 13.65 -3.58)
+		(end 13.65 2.33)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -577,8 +588,8 @@
 		(uuid "c4dabfe6-b69f-41b2-8b93-018cf72455b4")
 	)
 	(fp_line
-		(start -0.3 0.85)
-		(end 0.3 0.85)
+		(start -0.3 1.425)
+		(end 0.3 1.425)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -587,8 +598,8 @@
 		(uuid "cdd8ae46-a0d5-4fbd-ba6d-41797f82a30d")
 	)
 	(fp_line
-		(start 0 0.25)
-		(end -0.3 0.85)
+		(start 0 0.825)
+		(end -0.3 1.425)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -597,8 +608,8 @@
 		(uuid "1599c3e4-0591-40d0-bbf2-df32b6d11f4b")
 	)
 	(fp_line
-		(start 0.3 0.85)
-		(end 0 0.25)
+		(start 0.3 1.425)
+		(end 0 0.825)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -845,7 +856,7 @@
 		(uuid "4b59a8db-2b17-4500-b433-ae14e1bed1d1")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.625 0 0)
+		(at 5.625 -0.625 0)
 		(layer "F.Fab")
 		(uuid "04c5f915-d68d-470b-8cac-29c1976094e8")
 		(effects

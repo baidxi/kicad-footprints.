@@ -6,7 +6,7 @@
 	(descr "Harwin Gecko Connector, 20 pins, dual row female, vertical entry, PN:G125-FVX2005L0X")
 	(tags "connector harwin gecko")
 	(property "Reference" "REF**"
-		(at 5.625 4.3 0)
+		(at 5.625 -3.5 0)
 		(layer "F.SilkS")
 		(uuid "1f899d25-588c-4712-bad9-c34d7740dafe")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Harwin_Gecko-G125-FVX2005L0X_2x10_P1.25mm_Vertical"
-		(at 5.625 -3.5 0)
+		(at 5.625 4.3 0)
 		(layer "F.Fab")
 		(uuid "47a8f918-e41d-456b-836f-c7bba4fcb016")
 		(effects
@@ -79,13 +79,13 @@
 	)
 	(fp_line
 		(start -1.15 -1.825)
-		(end 12.4 -1.825)
+		(end -0.3 -1.825)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f9e141ac-9f3e-4895-80ce-1aef4bd04f37")
+		(uuid "0fbc21d3-cde7-4b86-8d8d-02279f2f43d7")
 	)
 	(fp_line
 		(start -1.15 3.075)
@@ -126,6 +126,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "bbafeeaf-3f3f-4dee-9397-c308952db5b3")
+	)
+	(fp_line
+		(start 0.3 -1.825)
+		(end 12.4 -1.825)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfe39f85-5c24-4b66-a39c-e62a3f9a7e07")
 	)
 	(fp_line
 		(start 0.35 -1.325)
@@ -315,16 +325,17 @@
 		(layer "F.SilkS")
 		(uuid "8c17f166-3289-4717-9398-4dfdd8326189")
 	)
-	(fp_circle
-		(center -2 -2)
-		(end -1.75 -2)
+	(fp_poly
+		(pts
+			(xy 0 -1.83) (xy -0.34 -2.3) (xy 0.34 -2.3) (xy 0 -1.83)
+		)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "79793b50-00c4-44c9-a4d5-35088bd53488")
+		(uuid "6dc9a710-ea29-48bc-b93a-e204f2ae0cbe")
 	)
 	(fp_line
 		(start -2.4 -2.33)
@@ -427,8 +438,8 @@
 		(uuid "dc9f58f6-02e9-4cad-8d8e-72e230f9861d")
 	)
 	(fp_line
-		(start -0.3 -0.6)
-		(end 0.3 -0.6)
+		(start -0.3 -1.325)
+		(end 0.3 -1.325)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -437,8 +448,8 @@
 		(uuid "44484790-1607-4aab-99bf-74d5156cbd73")
 	)
 	(fp_line
-		(start 0 0)
-		(end -0.3 -0.6)
+		(start 0 -0.725)
+		(end -0.3 -1.325)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -447,8 +458,8 @@
 		(uuid "9f84313d-468e-4f2a-a63f-ea2be2c89b55")
 	)
 	(fp_line
-		(start 0.3 -0.6)
-		(end 0 0)
+		(start 0.3 -1.325)
+		(end 0 -0.725)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -645,7 +656,7 @@
 		(uuid "3ce72e01-5539-47af-a0cf-7e3279b85cb0")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.625 0 0)
+		(at 5.625 0.625 0)
 		(layer "F.Fab")
 		(uuid "5ac2a8c4-9667-43d9-a651-4735ee82bbc6")
 		(effects
