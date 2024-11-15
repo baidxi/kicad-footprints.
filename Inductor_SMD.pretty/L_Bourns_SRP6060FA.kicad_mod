@@ -2,11 +2,11 @@
 	(version 20240108)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Inductor, Bourns, SRP6060FA, 6.4mmx6.6mm (Script generated with StandardBox.py) (https://www.bourns.com/docs/Product-Datasheets/SRP6060FA.pdf)")
-	(tags "Inductor Bourns_SRP6060FA")
-	(property "Reference" "REF**"
-		(at -1.05 -4.39 0)
-		(layer "F.SilkS")
+	(descr "Inductor, Bourns, SRP6060FA, 6.4x6.6x5.8mm, (https://www.bourns.com/docs/Product-Datasheets/SRP6060FA.pdf), generated with kicad-footprint-generator gen_inductor.py")
+	(tags "Inductor power shielded")
+	(property "Value" "L_Bourns_SRP6060FA"
+		(at 0 4.3 0)
+		(layer "F.Fab")
 		(effects
 			(font
 				(size 1 1)
@@ -14,9 +14,9 @@
 			)
 		)
 	)
-	(property "Value" "L_Bourns_SRP6060FA"
-		(at 0 4.55 0)
-		(layer "F.Fab")
+	(property "Reference" "REF**"
+		(at 0 -4.3 0)
+		(layer "F.SilkS")
 		(effects
 			(font
 				(size 1 1)
@@ -26,53 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3.55 -3.65)
-		(end -1.416667 -3.65)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -3.55 -1.516667)
-		(end -3.55 -3.65)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -3.31 -3.41)
-		(end -3.31 3.41)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -3.31 -3.41)
-		(end 3.31 -3.41)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -3.31 3.41)
-		(end 3.31 3.41)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 3.31 -3.41)
-		(end 3.31 3.41)
+		(start -3.46 -3.56)
+		(end -3.46 -3.06)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -81,34 +36,52 @@
 	)
 	(fp_line
 		(start -3.46 -3.56)
-		(end -3.46 3.56)
+		(end 3.46 -3.56)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -3.46 3.56)
+		(end -3.46 3.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
 	)
 	(fp_line
 		(start -3.46 3.56)
 		(end 3.46 3.56)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "F.SilkS")
 	)
 	(fp_line
 		(start 3.46 -3.56)
-		(end -3.46 -3.56)
+		(end 3.46 -3.06)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "F.SilkS")
 	)
 	(fp_line
 		(start 3.46 3.56)
-		(end 3.46 -3.56)
+		(end 3.46 3.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -3.45 -3.55)
+		(end -3.45 3.55)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -116,8 +89,35 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -3.2 -2.3)
-		(end -2.2 -3.3)
+		(start -3.45 3.55)
+		(end 3.45 3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.45 -3.55)
+		(end -3.45 -3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.45 3.55)
+		(end 3.45 -3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -3.2 -3.3)
+		(end -3.2 3.3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -126,24 +126,6 @@
 	)
 	(fp_line
 		(start -3.2 3.3)
-		(end -3.2 -2.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2.2 -3.3)
-		(end 3.2 -3.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 3.2 -3.3)
 		(end 3.2 3.3)
 		(stroke
 			(width 0.1)
@@ -152,8 +134,17 @@
 		(layer "F.Fab")
 	)
 	(fp_line
+		(start 3.2 -3.3)
+		(end -3.2 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
 		(start 3.2 3.3)
-		(end -3.2 3.3)
+		(end 3.2 -3.3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -165,8 +156,8 @@
 		(layer "F.Fab")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.516667 0.516667)
+				(thickness 0.0775)
 			)
 		)
 	)
