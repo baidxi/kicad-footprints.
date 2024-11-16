@@ -484,6 +484,7 @@
 		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
+		(remove_unused_layers no)
 	)
 	(pad "41" thru_hole circle
 		(at -1.51 0)
@@ -491,6 +492,7 @@
 		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
+		(remove_unused_layers no)
 	)
 	(pad "41" thru_hole circle
 		(at -1.51 1.06)
@@ -498,6 +500,7 @@
 		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
+		(remove_unused_layers no)
 	)
 	(pad "41" thru_hole circle
 		(at -0.503333 -1.06)
@@ -505,6 +508,7 @@
 		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
+		(remove_unused_layers no)
 	)
 	(pad "41" thru_hole circle
 		(at -0.503333 0)
@@ -512,6 +516,7 @@
 		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
+		(remove_unused_layers no)
 	)
 	(pad "41" thru_hole circle
 		(at -0.503333 1.06)
@@ -519,13 +524,7 @@
 		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
-	)
-	(pad "41" smd rect
-		(at 0 0)
-		(size 3.52 2.62)
-		(property pad_prop_heatsink)
-		(layers "B.Cu")
-		(zone_connect 2)
+		(remove_unused_layers no)
 	)
 	(pad "41" smd rect
 		(at 0 0)
@@ -534,12 +533,20 @@
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
 	)
+	(pad "41" smd rect
+		(at 0 0)
+		(size 3.52 2.62)
+		(property pad_prop_heatsink)
+		(layers "B.Cu")
+		(zone_connect 2)
+	)
 	(pad "41" thru_hole circle
 		(at 0.503333 -1.06)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
+		(remove_unused_layers no)
 	)
 	(pad "41" thru_hole circle
 		(at 0.503333 0)
@@ -547,6 +554,7 @@
 		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
+		(remove_unused_layers no)
 	)
 	(pad "41" thru_hole circle
 		(at 0.503333 1.06)
@@ -554,6 +562,7 @@
 		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
+		(remove_unused_layers no)
 	)
 	(pad "41" thru_hole circle
 		(at 1.51 -1.06)
@@ -561,6 +570,7 @@
 		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
+		(remove_unused_layers no)
 	)
 	(pad "41" thru_hole circle
 		(at 1.51 0)
@@ -568,6 +578,7 @@
 		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
+		(remove_unused_layers no)
 	)
 	(pad "41" thru_hole circle
 		(at 1.51 1.06)
@@ -575,6 +586,7 @@
 		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
+		(remove_unused_layers no)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RHA0040E_VQFN-40-1EP_6x6mm_P0.5mm_EP3.52x2.62mm.wrl"
 		(offset
