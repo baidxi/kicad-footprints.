@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "AI accelerated MCU with optional wifi, https://dl.sipeed.com/MAIX/HDK/Sipeed-M1&M1W/Specifications")
+	(descr "MAIX Dual Core RISC-V MCU, https://dl.sipeed.com/MAIX/HDK/Sipeed-M1&M1W/Specifications")
 	(tags "AI Kendryte K210 RISC-V")
 	(property "Reference" "REF**"
 		(at 0 14.6 0)
@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -164,9 +167,21 @@
 		(layer "F.SilkS")
 		(uuid "e83b9c3a-5e3b-463d-a5a7-74cf479eb0a5")
 	)
+	(fp_poly
+		(pts
+			(xy -13.8 -10.8) (xy -14.13 -10.56) (xy -14.13 -11.04) (xy -13.8 -10.8)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "87c276ff-1184-4cd1-932c-de2d9f52f4ba")
+	)
 	(fp_line
-		(start -13.7541 -13.7541)
-		(end 13.7541 -13.7541)
+		(start -13.5 -13.5)
+		(end 13.5 -13.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -175,8 +190,8 @@
 		(uuid "dcbe4d69-b76f-4132-89c6-bbca3a216cb6")
 	)
 	(fp_line
-		(start -13.7541 13.7541)
-		(end -13.7541 -13.7541)
+		(start -13.5 13.5)
+		(end -13.5 -13.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -185,8 +200,8 @@
 		(uuid "dd3455c4-e9ed-4c52-bf4a-ed7463dda115")
 	)
 	(fp_line
-		(start 13.7541 -13.7541)
-		(end 13.7541 13.7541)
+		(start 13.5 -13.5)
+		(end 13.5 13.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -195,8 +210,8 @@
 		(uuid "62fab269-4a79-41b7-9243-b2c9556bd8e0")
 	)
 	(fp_line
-		(start 13.7541 13.7541)
-		(end -13.7541 13.7541)
+		(start 13.5 13.5)
+		(end -13.5 13.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -265,6 +280,12 @@
 			)
 		)
 	)
+	(pad "" smd rect
+		(at -12.4 12.4 90)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d30c78af-4f6a-4dee-8b94-b24c7c76213b")
+	)
 	(pad "" smd roundrect
 		(at -6.8 -6.5825)
 		(size 1.18 1.355)
@@ -278,6 +299,12 @@
 		(layers "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6fef9070-2bd2-42d2-b502-31c5c17a53e9")
+	)
+	(pad "" smd rect
+		(at -6.135 -5.83)
+		(size 2.67 3.02)
+		(layers "F.Cu" "F.Mask")
+		(uuid "9e0ccaff-35ef-473f-b0a1-c5f4e3058034")
 	)
 	(pad "" smd roundrect
 		(at -5.47 -6.5825)
@@ -307,6 +334,12 @@
 		(roundrect_rratio 0.25)
 		(uuid "bb7d4869-426f-43e7-b52e-d00b94038208")
 	)
+	(pad "" smd rect
+		(at 7.65 5.26)
+		(size 1.98 1.98)
+		(layers "F.Cu" "F.Mask")
+		(uuid "8cb412fd-803f-4972-a0f3-da0ff7a6b7e5")
+	)
 	(pad "" smd roundrect
 		(at 8.1425 4.7619)
 		(size 0.835 0.835)
@@ -320,6 +353,18 @@
 		(layers "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5bc5e95b-e445-4784-8f0e-ed101b6e7e22")
+	)
+	(pad "" smd rect
+		(at 12.4 -12.4 90)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "17c69520-8143-4451-954a-fa57d20a2435")
+	)
+	(pad "" smd rect
+		(at 12.4 12.4 90)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ddb5f8d3-4451-45fe-ac8d-782785867db6")
 	)
 	(pad "1" smd roundrect
 		(at -12.7 -10.795)
@@ -824,36 +869,6 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "2110ccd3-df57-42d0-87ff-0bf007e733fb")
-	)
-	(pad "73" smd rect
-		(at -6.135 -5.83)
-		(size 2.67 3.02)
-		(layers "F.Cu" "F.Mask")
-		(uuid "9e0ccaff-35ef-473f-b0a1-c5f4e3058034")
-	)
-	(pad "74" smd rect
-		(at 7.65 5.26)
-		(size 1.98 1.98)
-		(layers "F.Cu" "F.Mask")
-		(uuid "8cb412fd-803f-4972-a0f3-da0ff7a6b7e5")
-	)
-	(pad "75" smd rect
-		(at 12.4 12.4 90)
-		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "ddb5f8d3-4451-45fe-ac8d-782785867db6")
-	)
-	(pad "76" smd rect
-		(at 12.4 -12.4 90)
-		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "17c69520-8143-4451-954a-fa57d20a2435")
-	)
-	(pad "77" smd rect
-		(at -12.4 12.4 90)
-		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "d30c78af-4f6a-4dee-8b94-b24c7c76213b")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Sipeed-M1.wrl"
 		(offset
