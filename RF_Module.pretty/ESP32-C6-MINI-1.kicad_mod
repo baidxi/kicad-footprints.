@@ -70,28 +70,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -7.1 -11.5)
-		(end -7.1 -9.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b9370aa2-25bf-467e-871f-4d99405114e5")
-	)
-	(fp_line
-		(start -7.1 -11.5)
-		(end -5.1 -11.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "fb34caff-a8c7-4a53-b6fd-4c37931426f5")
-	)
-	(fp_line
-		(start -6.8 -11.2)
-		(end 6.8 -11.2)
+		(start -6.75 -11.15)
+		(end 6.75 -11.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -100,8 +80,8 @@
 		(uuid "5c9bad3f-dce7-4158-8490-59db2002cdf7")
 	)
 	(fp_line
-		(start -6.8 5.8)
-		(end -6.8 -11.2)
+		(start -6.75 5.75)
+		(end -6.75 -11.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -110,8 +90,8 @@
 		(uuid "f8645333-7b0a-42c7-938f-31c860b0e6a6")
 	)
 	(fp_line
-		(start 6.8 -11.2)
-		(end 6.8 5.8)
+		(start 6.75 -11.15)
+		(end 6.75 5.75)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -120,8 +100,8 @@
 		(uuid "4f838866-25c4-4bcd-95b4-3345c6feac46")
 	)
 	(fp_line
-		(start 6.8 5.8)
-		(end -6.8 5.8)
+		(start 6.75 5.75)
+		(end -6.75 5.75)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -142,8 +122,8 @@
 		(uuid "e69eec11-8079-440c-aa62-5c8972b16240")
 	)
 	(fp_line
-		(start -22.7 -25.1)
-		(end 22.7 -25.1)
+		(start -21.6 -26)
+		(end 21.6 -26)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -152,8 +132,8 @@
 		(uuid "90bc09a6-737d-433e-a693-9bd0f0dee08a")
 	)
 	(fp_line
-		(start -22.7 -5.6)
-		(end -22.7 -25.1)
+		(start -21.6 -5.6)
+		(end -21.6 -26)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -163,7 +143,7 @@
 	)
 	(fp_line
 		(start -6.85 -5.6)
-		(end -22.7 -5.6)
+		(end -21.6 -5.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -193,7 +173,7 @@
 	)
 	(fp_line
 		(start 6.85 -5.6)
-		(end 22.7 -5.6)
+		(end 21.6 -5.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -212,8 +192,8 @@
 		(uuid "4b92a0bf-13b3-4bc0-aa94-84498e0f03b1")
 	)
 	(fp_line
-		(start 22.7 -5.6)
-		(end 22.7 -25.1)
+		(start 21.6 -5.6)
+		(end 21.6 -26)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -242,7 +222,7 @@
 		(uuid "e4ff07ed-9a3c-44b3-83b1-ea06745c6ac8")
 	)
 	(fp_line
-		(start -6.6 5.6)
+		(start -6.6 4.6)
 		(end -6.6 -11)
 		(stroke
 			(width 0.1)
@@ -250,6 +230,16 @@
 		)
 		(layer "F.Fab")
 		(uuid "0d7678a7-6fe5-4a41-9e9b-8900d13349b8")
+	)
+	(fp_line
+		(start -5.6 5.6)
+		(end -6.6 4.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ccb82c04-d971-4e55-b8af-dbb2af18fda9")
 	)
 	(fp_line
 		(start 6.6 -11)
@@ -263,24 +253,13 @@
 	)
 	(fp_line
 		(start 6.6 5.6)
-		(end -6.6 5.6)
+		(end -5.6 5.6)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "2c5f4710-367a-4ac4-94dd-f7a3fc041f50")
-	)
-	(fp_circle
-		(center -6.1 5.1)
-		(end -5.988197 5.1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Fab")
-		(uuid "0cacc6a0-518c-436e-8912-4fa78a6855df")
 	)
 	(fp_text user "Keepout Area"
 		(at -0.01 -15.36 0)
@@ -710,7 +689,7 @@
 		)
 		(polygon
 			(pts
-				(xy 22.7 -5.6) (xy -22.7 -5.6) (xy -22.7 -25.1) (xy 22.7 -25.1)
+				(xy 21.6 -5.6) (xy -21.6 -5.6) (xy -21.6 -26) (xy 21.6 -26)
 			)
 		)
 	)
