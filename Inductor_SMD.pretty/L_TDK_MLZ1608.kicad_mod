@@ -2,18 +2,8 @@
 	(version 20240108)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Inductor, TDK, MLZ1608, 1.6x0.8x0.8mm,  \"https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz1608_en.pdf\"")
+	(descr "Inductor, TDK, MLZ1608, 1.6x0.8x0.8mm, ( \"https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz1608_en.pdf\"), generated with kicad-footprint-generator gen_inductor.py")
 	(tags "Inductor MLZ")
-	(property "Reference" "REF**"
-		(at 0 -1.4 0)
-		(layer "F.SilkS")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Value" "L_TDK_MLZ1608"
 		(at 0 1.4 0)
 		(layer "F.Fab")
@@ -24,42 +14,34 @@
 			)
 		)
 	)
+	(property "Reference" "REF**"
+		(at 0 -1.4 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
 	(fp_line
-		(start -0.8 -0.4)
-		(end -0.8 0.4)
+		(start -1.06 -0.66)
+		(end 1.06 -0.66)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.8 0.4)
-		(end 0.8 0.4)
+		(start -1.06 0.66)
+		(end 1.06 0.66)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0.8 0.4)
-		(end 0.8 -0.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0.8 -0.4)
-		(end -0.8 -0.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 	)
 	(fp_line
 		(start -1.05 -0.65)
@@ -80,15 +62,6 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 1.05 0.65)
-		(end 1.05 -0.65)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
 		(start 1.05 -0.65)
 		(end -1.05 -0.65)
 		(stroke
@@ -98,32 +71,49 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -1.06 -0.66)
-		(end 1.06 -0.66)
+		(start 1.05 0.65)
+		(end 1.05 -0.65)
 		(stroke
-			(width 0.12)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -1.06 0.66)
-		(end 1.06 0.66)
+		(start -0.8 -0.4)
+		(end -0.8 0.4)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 	)
-	(pad "1" smd rect
-		(at -0.4 0)
-		(size 0.6 0.8)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+	(fp_line
+		(start -0.8 0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
 	)
-	(pad "2" smd rect
-		(at 0.4 0)
-		(size 0.6 0.8)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+	(fp_line
+		(start 0.8 -0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
@@ -134,6 +124,18 @@
 				(thickness 0.075)
 			)
 		)
+	)
+	(pad "1" smd roundrect
+		(at -0.4 0)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(pad "2" smd roundrect
+		(at 0.4 0)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_TDK_MLZ1608.wrl"
 		(offset

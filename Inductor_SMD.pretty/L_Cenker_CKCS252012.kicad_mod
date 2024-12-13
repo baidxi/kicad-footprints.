@@ -2,18 +2,8 @@
 	(version 20240108)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Inductor, Cenker, CKCS252012, 2.5x2.0x1.25mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf")
+	(descr "Inductor, Cenker, CKCS252012, 2.5x2.0x1.25mm, (https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf), generated with kicad-footprint-generator gen_inductor.py")
 	(tags "Inductor ckcs")
-	(property "Reference" "REF**"
-		(at 0 -2.25 0)
-		(layer "F.SilkS")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Value" "L_Cenker_CKCS252012"
 		(at 0 2.25 0)
 		(layer "F.Fab")
@@ -24,42 +14,34 @@
 			)
 		)
 	)
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
 	(fp_line
-		(start -1.25 -1)
-		(end -1.25 1)
+		(start -1.51 -1.51)
+		(end 1.51 -1.51)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -1.25 1)
-		(end 1.25 1)
+		(start -1.51 1.51)
+		(end 1.51 1.51)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 1.25 1)
-		(end 1.25 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 1.25 -1)
-		(end -1.25 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 	)
 	(fp_line
 		(start -1.85 -1.5)
@@ -80,15 +62,6 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 1.85 1.5)
-		(end 1.85 -1.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
 		(start 1.85 -1.5)
 		(end -1.85 -1.5)
 		(stroke
@@ -98,32 +71,49 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -1.51 -1.51)
-		(end 1.51 -1.51)
+		(start 1.85 1.5)
+		(end 1.85 -1.5)
 		(stroke
-			(width 0.12)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -1.51 1.51)
-		(end 1.51 1.51)
+		(start -1.25 -1)
+		(end -1.25 1)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 	)
-	(pad "1" smd rect
-		(at -0.9 0)
-		(size 1.4 2.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+	(fp_line
+		(start -1.25 1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
 	)
-	(pad "2" smd rect
-		(at 0.9 0)
-		(size 1.4 2.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+	(fp_line
+		(start 1.25 -1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
@@ -134,6 +124,18 @@
 				(thickness 0.075)
 			)
 		)
+	)
+	(pad "1" smd roundrect
+		(at -0.9 0)
+		(size 1.4 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.178571)
+	)
+	(pad "2" smd roundrect
+		(at 0.9 0)
+		(size 1.4 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.178571)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Cenker_CKCS252012.wrl"
 		(offset
