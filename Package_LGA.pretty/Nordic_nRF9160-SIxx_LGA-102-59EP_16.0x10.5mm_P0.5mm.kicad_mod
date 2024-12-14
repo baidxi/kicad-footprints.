@@ -1483,4 +1483,33 @@
 		(thermal_bridge_angle 45)
 		(uuid "fae7bb57-d1a9-450c-a80a-ac2fef24d370")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "3f4856a8-02c3-4dbb-894c-c56707300b1b")
+		(name "No Copper Fill")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -8.14 -5.39) (xy 8.14 -5.39) (xy 8.14 5.39) (xy -8.14 5.39)
+			)
+		)
+	)
 )
