@@ -1,11 +1,11 @@
-(footprint "OnSemi_751EP_SOIC-4_4.725x3.9mm_P2.54mm"
+(footprint "OnSemi_751EP_SOIC-4_3.9x4.725mm_P2.54mm"
 	(version 20240108)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "OnSemi 751EP SOIC, 4 Pin (https://www.onsemi.com/pdf/datasheet/mb8s-d.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "OnSemi SOIC Diode_SMD OnSemi_MB8S OnSemi_SOIC4W")
 	(property "Reference" "REF**"
-		(at 0 -2.9 0)
+		(at 0 -3.31 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -14,8 +14,8 @@
 			)
 		)
 	)
-	(property "Value" "OnSemi_751EP_SOIC-4_4.725x3.9mm_P2.54mm"
-		(at 0 2.9 0)
+	(property "Value" "OnSemi_751EP_SOIC-4_3.9x4.725mm_P2.54mm"
+		(at 0 3.31 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -26,8 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start 0 -2.21)
-		(end -2.153563 -2.21)
+		(start 0 -2.4725)
+		(end -1.95 -2.4725)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 -2.21)
-		(end 2.153563 -2.21)
+		(start 0 -2.4725)
+		(end 1.95 -2.4725)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +44,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 2.21)
-		(end -2.153563 2.21)
+		(start 0 2.4725)
+		(end -1.95 2.4725)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +53,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 2.21)
-		(end 2.153563 2.21)
+		(start 0 2.4725)
+		(end 1.95 2.4725)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -63,10 +63,10 @@
 	)
 	(fp_poly
 		(pts
-			(xy -4.56 -1.27)
-			(xy -4.89 -1.51)
-			(xy -4.89 -1.03)
-			(xy -4.56 -1.27)
+			(xy -3.125 -2.305)
+			(xy -3.365 -2.635)
+			(xy -2.885 -2.635)
+			(xy -3.125 -2.305)
 		)
 		(stroke
 			(width 0.12)
@@ -76,8 +76,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -4.55 -2.2)
-		(end -4.55 2.2)
+		(start -4.55 -2.61)
+		(end -4.55 2.61)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -85,8 +85,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -4.55 2.2)
-		(end 4.55 2.2)
+		(start -4.55 2.61)
+		(end 4.55 2.61)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -94,8 +94,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 4.55 -2.2)
-		(end -4.55 -2.2)
+		(start 4.55 -2.61)
+		(end -4.55 -2.61)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -103,8 +103,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 4.55 2.2)
-		(end 4.55 -2.2)
+		(start 4.55 2.61)
+		(end 4.55 -2.61)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -112,8 +112,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -2.3625 -0.975)
-		(end -1.3875 -1.95)
+		(start -1.95 -1.3875)
+		(end -0.975 -2.3625)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -121,8 +121,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -2.3625 1.95)
-		(end -2.3625 -0.975)
+		(start -1.95 2.3625)
+		(end -1.95 -1.3875)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -130,8 +130,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -1.3875 -1.95)
-		(end 2.3625 -1.95)
+		(start -0.975 -2.3625)
+		(end 1.95 -2.3625)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -139,8 +139,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 2.3625 -1.95)
-		(end 2.3625 1.95)
+		(start 1.95 -2.3625)
+		(end 1.95 2.3625)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -148,8 +148,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 2.3625 1.95)
-		(end -2.3625 1.95)
+		(start 1.95 2.3625)
+		(end -1.95 2.3625)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -161,7 +161,7 @@
 		(layer "F.Fab")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.98 0.98)
 				(thickness 0.15)
 			)
 		)
@@ -190,7 +190,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.16129)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/OnSemi_751EP_SOIC-4_4.725x3.9mm_P2.54mm.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/OnSemi_751EP_SOIC-4_3.9x4.725mm_P2.54mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
