@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Raspberry Pi Pico W (wireless only) surface-mount footprint for reflow soldering with test points and debug pads (not compatible with original Pico), https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf")
+	(descr "Raspberry Pi Pico W surface-mount footprint for reflow soldering with test points and debug pads (not compatible with non-wireless Pico), supports Raspberry Pi Pico 2 W, https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf")
 	(tags "Raspberry Pi Pico module usb pcb swd antenna")
 	(property "Reference" "REF**"
 		(at 11.7475 24.765 0)
@@ -315,7 +315,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "14079fed-315f-4f55-9d13-e96890f1d951")
+		(uuid "0f29a643-b548-44ca-8e3f-b0706a90b2f6")
 	)
 	(fp_line
 		(start 4.235 -25.61)
@@ -1075,25 +1075,25 @@
 		(at -2.725 -24)
 		(size 1.1 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "1370ec12-74d6-4a78-ab68-5ff6f297df91")
+		(uuid "10e8979c-3ac4-4149-925f-ad71aa668b1d")
 	)
 	(pad "" smd oval
 		(at -2.425 -20.97)
 		(size 1.05 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "fd390b20-7457-4dc3-9833-38b6bea3747c")
+		(uuid "d5a1fea9-bc71-4372-821a-42576809e9c9")
 	)
 	(pad "" smd oval
 		(at 2.425 -20.97)
 		(size 1.05 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "3109f4f5-7a08-4929-ab75-6dced719f1c6")
+		(uuid "4c4cd380-62b4-4df4-8824-be7199efe65c")
 	)
 	(pad "" smd oval
 		(at 2.725 -24)
 		(size 1.1 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "e75f2a11-e248-49c8-9d17-75b2b47817da")
+		(uuid "3a588944-1853-4c7d-af4a-38601c997172")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.7 -23.5)
@@ -1945,42 +1945,42 @@
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(uuid "d695a2ac-0e15-4754-bca7-12d1d0f73cae")
+		(uuid "e25e8c15-3365-4273-acc4-42782bccaa80")
 	)
 	(pad "TP2" smd roundrect
 		(at 1 -24.3)
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(uuid "3b201e5f-b0d1-44bf-b3b9-bd56413254e0")
+		(uuid "1e91c76b-2561-4be0-8b94-e1928aa86129")
 	)
 	(pad "TP3" smd roundrect
 		(at -1 -24.3)
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(uuid "3849534a-5dd8-45dc-abf6-136c4ee843d9")
+		(uuid "97389c8b-aaa7-4834-a9af-ed0145ae6f3a")
 	)
 	(pad "TP4" smd roundrect
 		(at -2.5 -16)
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(uuid "c58d42a4-89b5-4882-91da-8391ade0bdfe")
+		(uuid "74dd815b-f5e8-482a-a457-e341e7e2739f")
 	)
 	(pad "TP5" smd roundrect
 		(at -2.5 -13.5)
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(uuid "49d00ae3-7a82-46ad-9a8d-134a139622fe")
+		(uuid "1d176dfc-1b65-4722-9b6e-92484b2d2b27")
 	)
 	(pad "TP6" smd roundrect
 		(at -2.5 -11)
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(uuid "51149454-62d0-40f0-b02f-67bb857a31c6")
+		(uuid "464b5738-8f9a-4a58-8fa2-18b436f5525a")
 	)
 	(zone
 		(net 0)
@@ -2084,13 +2084,13 @@
 		)
 	)
 	(group ""
-		(uuid "c8e0ec42-913c-43c6-80ba-42935267a9ce")
-		(members "1370ec12-74d6-4a78-ab68-5ff6f297df91" "14079fed-315f-4f55-9d13-e96890f1d951"
-			"3109f4f5-7a08-4929-ab75-6dced719f1c6" "3849534a-5dd8-45dc-abf6-136c4ee843d9"
-			"3b201e5f-b0d1-44bf-b3b9-bd56413254e0" "49d00ae3-7a82-46ad-9a8d-134a139622fe"
-			"51149454-62d0-40f0-b02f-67bb857a31c6" "c58d42a4-89b5-4882-91da-8391ade0bdfe"
-			"d695a2ac-0e15-4754-bca7-12d1d0f73cae" "e75f2a11-e248-49c8-9d17-75b2b47817da"
-			"fd390b20-7457-4dc3-9833-38b6bea3747c"
+		(uuid "78bba8d5-65f2-454d-a2a9-bd7c8e3e9744")
+		(members "0f29a643-b548-44ca-8e3f-b0706a90b2f6" "10e8979c-3ac4-4149-925f-ad71aa668b1d"
+			"1d176dfc-1b65-4722-9b6e-92484b2d2b27" "1e91c76b-2561-4be0-8b94-e1928aa86129"
+			"3a588944-1853-4c7d-af4a-38601c997172" "464b5738-8f9a-4a58-8fa2-18b436f5525a"
+			"4c4cd380-62b4-4df4-8824-be7199efe65c" "74dd815b-f5e8-482a-a457-e341e7e2739f"
+			"97389c8b-aaa7-4834-a9af-ed0145ae6f3a" "d5a1fea9-bc71-4372-821a-42576809e9c9"
+			"e25e8c15-3365-4273-acc4-42782bccaa80"
 		)
 	)
 	(group ""

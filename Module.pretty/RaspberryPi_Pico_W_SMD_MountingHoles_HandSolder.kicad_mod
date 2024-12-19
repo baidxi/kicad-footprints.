@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Raspberry Pi Pico W (wireless only) surface-mount footprint with debug pads for hand soldering (not compatible with original Pico), https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf")
+	(descr "Raspberry Pi Pico W surface-mount footprint with debug pads for hand soldering (not compatible with non-wireless Pico), supports Raspberry Pi Pico 2 W, https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf")
 	(tags "Raspberry Pi Pico module usb pcb swd antenna handsolder")
 	(property "Reference" "REF**"
 		(at 11.7475 24.765 0)
@@ -315,7 +315,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "19f33b35-b74a-46b3-a29f-840e68bb3558")
+		(uuid "dc68825b-786a-424a-bd5f-274c587b6f75")
 	)
 	(fp_line
 		(start -3.9 -25.61)
@@ -325,7 +325,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "42b532c0-74cd-40e6-90c0-cd9478ab205b")
+		(uuid "e0b570f7-7e92-4798-be4e-570af3f234c4")
 	)
 	(fp_line
 		(start -3.9 -22.306)
@@ -345,7 +345,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f61e3210-4f4c-49c2-aec5-972ffd9f6762")
+		(uuid "59355f4c-2aaa-4ed6-8836-548d31ce803a")
 	)
 	(fp_line
 		(start -1.24609 -21.09)
@@ -355,7 +355,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "663cdfc2-7207-4068-82b0-381a6bd8e226")
+		(uuid "d73a0606-151a-4d62-bcc1-82b7492e9f4d")
 	)
 	(fp_line
 		(start 3.60391 -21.09)
@@ -365,7 +365,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3dc4f6c5-a47c-4f1b-84eb-eaaad39796d8")
+		(uuid "d1c33bf1-b122-4dc5-8785-a06f0b463cde")
 	)
 	(fp_line
 		(start 3.9 -25.61)
@@ -375,7 +375,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e50f12d2-6ca8-4e5e-b0e6-a22890fc3212")
+		(uuid "ca7c24c9-65d8-4a0d-a89c-da447f203d2d")
 	)
 	(fp_line
 		(start 3.9 -22.306)
@@ -881,18 +881,6 @@
 			)
 		)
 	)
-	(fp_text user "Keep"
-		(at 0 -21.3175 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "21ff254f-84d5-4300-9bee-61cc0a3299cb")
-		(effects
-			(font
-				(size 0.3333 0.3333)
-				(thickness 0.05)
-			)
-		)
-	)
 	(fp_text user "Keep unobstructed by metal as far as possible in all dimensions"
 		(at 0 33.9725 0)
 		(unlocked yes)
@@ -917,18 +905,6 @@
 			)
 		)
 	)
-	(fp_text user "Exposed Copper Keep Out"
-		(at -2.5 -14.25 90)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "3f2c9bb8-c1d3-4a7f-9da4-642763bcd19e")
-		(effects
-			(font
-				(size 0.3333 0.3333)
-				(thickness 0.05)
-			)
-		)
-	)
 	(fp_text user "Keep Out"
 		(at 0 -36.195 0)
 		(unlocked yes)
@@ -945,7 +921,7 @@
 		(at 0 -24.6175 0)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "64d43c90-888a-47ce-82f8-870e0943b672")
+		(uuid "4c13e7df-6bf1-4032-9e6c-aca994159fc4")
 		(effects
 			(font
 				(size 0.3333 0.3333)
@@ -957,7 +933,7 @@
 		(at 0 -20.6825 0)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "71d33df7-3cad-4061-ba9d-94e62637294a")
+		(uuid "6cb45818-e915-488f-a4f1-31919a80052f")
 		(effects
 			(font
 				(size 0.3333 0.3333)
@@ -1017,7 +993,31 @@
 		(at 0 -23.9825 0)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "ec61adcd-6108-41ea-8333-ea4eafe02b78")
+		(uuid "ea255f60-a225-4be6-a6da-d87ec7fab039")
+		(effects
+			(font
+				(size 0.3333 0.3333)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "Exposed Copper Keep Out"
+		(at -2.5 -14.25 90)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "ed9b560d-539e-4ff7-9155-7987886cd252")
+		(effects
+			(font
+				(size 0.3333 0.3333)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "Keep"
+		(at 0 -21.3175 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "f9b45167-cc69-49db-942e-20438789f661")
 		(effects
 			(font
 				(size 0.3333 0.3333)
@@ -1230,28 +1230,28 @@
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "*.Mask")
-		(uuid "2833da51-cf17-415a-87ba-9e3a3ec3628a")
+		(uuid "5f01c559-3fa4-4a94-bc71-5c029d530c63")
 	)
 	(pad "" np_thru_hole circle
 		(at -2.425 -20.97)
 		(size 1.85 1.85)
 		(drill 1.85)
 		(layers "*.Mask")
-		(uuid "8ba25b3e-2946-4b7e-8037-f6f59ee84fb4")
+		(uuid "32188cba-c5e5-4f04-8914-a32c884b0583")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.425 -20.97)
 		(size 1.85 1.85)
 		(drill 1.85)
 		(layers "*.Mask")
-		(uuid "fea1532b-ef1a-4487-b7b0-e00952ec4534")
+		(uuid "2d05abc7-d539-4f2c-87e2-d3820ab70ac0")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.725 -24)
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "*.Mask")
-		(uuid "b53e0c40-5e18-456f-9ff2-f7d4ac5db949")
+		(uuid "7248e108-7e52-4d00-b4ca-9419084f6c9d")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.7 -23.5)
@@ -2167,7 +2167,7 @@
 		(net 0)
 		(net_name "")
 		(layers "F.Cu" "F.Paste")
-		(uuid "7d3357f2-ef82-4d54-89ea-6b31439f2839")
+		(uuid "5ccbda23-9acf-430e-aa67-4fd854f408de")
 		(name "Pad Keep Out TP6")
 		(hatch full 0.5)
 		(connect_pads
@@ -2200,7 +2200,7 @@
 		(net 0)
 		(net_name "")
 		(layers "F.Cu" "F.Paste")
-		(uuid "c0aa8a0c-7d90-4bc2-aaa9-c02cd420f72b")
+		(uuid "2acf6b67-e730-4350-848b-cb76c7369a8e")
 		(name "Pad Keep Out TP3")
 		(hatch full 0.5)
 		(connect_pads
@@ -2233,7 +2233,7 @@
 		(net 0)
 		(net_name "")
 		(layers "F.Cu" "F.Paste")
-		(uuid "88653ab7-2fa9-4737-9aaa-fda3341db49a")
+		(uuid "ec86efdf-9e37-4431-bf7c-5f84d216f1a1")
 		(name "Pad Keep Out TP4")
 		(hatch full 0.5)
 		(connect_pads
@@ -2266,7 +2266,7 @@
 		(net 0)
 		(net_name "")
 		(layers "F.Cu" "F.Paste")
-		(uuid "549ca8a3-d2e6-4ab8-bde8-08a9b7ff1cee")
+		(uuid "876ddab4-8720-4fda-b5fa-84351c2e8758")
 		(name "Pad Keep Out TP3")
 		(hatch full 0.5)
 		(connect_pads
@@ -2299,7 +2299,7 @@
 		(net 0)
 		(net_name "")
 		(layers "F.Cu" "F.Paste")
-		(uuid "640bf58c-4134-4c24-b471-649229bd454f")
+		(uuid "53b802c3-72bf-4815-9dd6-da151f1e9165")
 		(name "Pad Keep Out TP1")
 		(hatch full 0.5)
 		(connect_pads
@@ -2332,7 +2332,7 @@
 		(net 0)
 		(net_name "")
 		(layers "F.Cu" "F.Paste")
-		(uuid "b0dafd6a-36d4-421a-a5c5-7d28f3930106")
+		(uuid "61b6e209-0a8d-48b2-ac1c-a02230c6b546")
 		(name "Pad Keep Out TP1")
 		(hatch full 0.5)
 		(connect_pads
@@ -2364,7 +2364,7 @@
 		(net 0)
 		(net_name "")
 		(layers "F.Cu" "F.Paste")
-		(uuid "2f5337c9-33d2-463a-9115-25582e0ac080")
+		(uuid "fec2d731-89f9-4871-9906-2ee387e368e8")
 		(name "Pad Keep Out TP2")
 		(hatch full 0.5)
 		(connect_pads
@@ -2396,7 +2396,7 @@
 		(net 0)
 		(net_name "")
 		(layers "F.Cu" "F.Paste")
-		(uuid "921e5ca3-7a65-4e43-9061-9764b1ec1683")
+		(uuid "498fe5a4-b0a2-4c35-b799-ad3e9d089a3f")
 		(name "Pad Keep Out TP2")
 		(hatch full 0.5)
 		(connect_pads
@@ -2526,19 +2526,19 @@
 		)
 	)
 	(group ""
-		(uuid "07dd5ee6-ef29-4f27-87aa-e89fbfaa3d89")
-		(members "19f33b35-b74a-46b3-a29f-840e68bb3558" "21ff254f-84d5-4300-9bee-61cc0a3299cb"
-			"2833da51-cf17-415a-87ba-9e3a3ec3628a" "2f5337c9-33d2-463a-9115-25582e0ac080"
-			"3dc4f6c5-a47c-4f1b-84eb-eaaad39796d8" "3f2c9bb8-c1d3-4a7f-9da4-642763bcd19e"
-			"42b532c0-74cd-40e6-90c0-cd9478ab205b" "549ca8a3-d2e6-4ab8-bde8-08a9b7ff1cee"
-			"640bf58c-4134-4c24-b471-649229bd454f" "64d43c90-888a-47ce-82f8-870e0943b672"
-			"663cdfc2-7207-4068-82b0-381a6bd8e226" "71d33df7-3cad-4061-ba9d-94e62637294a"
-			"7d3357f2-ef82-4d54-89ea-6b31439f2839" "88653ab7-2fa9-4737-9aaa-fda3341db49a"
-			"8ba25b3e-2946-4b7e-8037-f6f59ee84fb4" "921e5ca3-7a65-4e43-9061-9764b1ec1683"
-			"b0dafd6a-36d4-421a-a5c5-7d28f3930106" "b53e0c40-5e18-456f-9ff2-f7d4ac5db949"
-			"c0aa8a0c-7d90-4bc2-aaa9-c02cd420f72b" "e50f12d2-6ca8-4e5e-b0e6-a22890fc3212"
-			"ec61adcd-6108-41ea-8333-ea4eafe02b78" "f61e3210-4f4c-49c2-aec5-972ffd9f6762"
-			"fea1532b-ef1a-4487-b7b0-e00952ec4534"
+		(uuid "e65c0d35-3e50-41ba-9034-4ec91ab5178b")
+		(members "2acf6b67-e730-4350-848b-cb76c7369a8e" "2d05abc7-d539-4f2c-87e2-d3820ab70ac0"
+			"32188cba-c5e5-4f04-8914-a32c884b0583" "498fe5a4-b0a2-4c35-b799-ad3e9d089a3f"
+			"4c13e7df-6bf1-4032-9e6c-aca994159fc4" "53b802c3-72bf-4815-9dd6-da151f1e9165"
+			"59355f4c-2aaa-4ed6-8836-548d31ce803a" "5ccbda23-9acf-430e-aa67-4fd854f408de"
+			"5f01c559-3fa4-4a94-bc71-5c029d530c63" "61b6e209-0a8d-48b2-ac1c-a02230c6b546"
+			"6cb45818-e915-488f-a4f1-31919a80052f" "7248e108-7e52-4d00-b4ca-9419084f6c9d"
+			"876ddab4-8720-4fda-b5fa-84351c2e8758" "ca7c24c9-65d8-4a0d-a89c-da447f203d2d"
+			"d1c33bf1-b122-4dc5-8785-a06f0b463cde" "d73a0606-151a-4d62-bcc1-82b7492e9f4d"
+			"dc68825b-786a-424a-bd5f-274c587b6f75" "e0b570f7-7e92-4798-be4e-570af3f234c4"
+			"ea255f60-a225-4be6-a6da-d87ec7fab039" "ec86efdf-9e37-4431-bf7c-5f84d216f1a1"
+			"ed9b560d-539e-4ff7-9155-7987886cd252" "f9b45167-cc69-49db-942e-20438789f661"
+			"fec2d731-89f9-4871-9906-2ee387e368e8"
 		)
 	)
 	(group ""
