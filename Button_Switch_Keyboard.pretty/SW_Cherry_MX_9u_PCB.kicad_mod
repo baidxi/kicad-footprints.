@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "Cherry MX keyswitch, 9u, PCB mount, https://www.digikey.at/en/htmldatasheets/production/57428/0/0/1/mx-series (page 10-4, lower right, Leveling Mechanism Kits)")
 	(tags "Cherry MX keyswitch 9u PCB")
-	(property "Reference" "${REFERENCE}"
+	(property "Reference" "REF**"
 		(at -2.54 -3.048 0)
 		(layer "F.SilkS")
 		(uuid "c1c5ca41-32cb-4206-bd9d-7ae085e3bbcf")
@@ -226,6 +226,19 @@
 		)
 		(layer "F.Fab")
 		(uuid "5fb43c1b-2bf7-416c-becc-765840a2dd84")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -7.75 -2.51 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "79be27ca-9caa-4c53-a7db-d5177692f980")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "" np_thru_hole circle
 		(at -69.215 -1.92)
