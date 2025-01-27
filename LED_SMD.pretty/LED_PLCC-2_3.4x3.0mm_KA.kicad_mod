@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://dammedia.osram.info/media/resource/hires/osram-dam-6035009/SFH%204253_EN.pdf")
+	(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 	(tags "LED PLCC-2 SMD TOPLED")
 	(property "Reference" "REF**"
 		(at 0 -2.5 0)
@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.4 -1.6)
-		(end -2.4 1.6)
+		(start -2.51 -1.6)
+		(end -2.51 1.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -79,7 +79,7 @@
 	)
 	(fp_line
 		(start 2.25 -1.6)
-		(end -2.4 -1.6)
+		(end -2.51 -1.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -89,7 +89,7 @@
 	)
 	(fp_line
 		(start 2.25 1.6)
-		(end -2.4 1.6)
+		(end -2.51 1.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -98,8 +98,8 @@
 		(uuid "5e4d0cb3-4a8f-4484-9400-5325e175c34b")
 	)
 	(fp_line
-		(start -2.65 -1.85)
-		(end 2.5 -1.85)
+		(start -2.5 -1.75)
+		(end 2.5 -1.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -108,8 +108,8 @@
 		(uuid "a83b0f6b-dcc7-4730-b0d7-6ed388582ecb")
 	)
 	(fp_line
-		(start -2.65 1.85)
-		(end -2.65 -1.85)
+		(start -2.5 1.75)
+		(end -2.5 -1.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -118,8 +118,8 @@
 		(uuid "c0e5c2cb-ec63-408e-85c8-641b0c5fc65f")
 	)
 	(fp_line
-		(start 2.5 -1.85)
-		(end 2.5 1.85)
+		(start 2.5 -1.75)
+		(end 2.5 1.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -128,8 +128,8 @@
 		(uuid "34ea9ea4-41c1-4192-bf82-f95d2287be8b")
 	)
 	(fp_line
-		(start 2.5 1.85)
-		(end -2.65 1.85)
+		(start 2.5 1.75)
+		(end -2.5 1.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -204,21 +204,23 @@
 		(uuid "197c825c-8be5-4669-8e17-556f73f34e56")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
+				(size 0.6 0.6)
+				(thickness 0.09)
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.5 0)
 		(size 1.5 2.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
 		(uuid "5d440233-cf4b-4d73-b2b4-08f095b9246e")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.5 0)
 		(size 1.5 2.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
 		(uuid "bfae2e89-43c2-4db3-8f7d-78937bea6625")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC-2_3.4x3.0mm_KA.wrl"
