@@ -2,8 +2,8 @@
 	(version 20240108)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Terminal Block WAGO 804-103, 45Degree (cable under 45degree), 3 pins, pitch 5mm, size 16.5x15mm^2, drill diameter 1.2mm, pad diameter 3mm, see , script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_WAGO")
-	(tags "THT Terminal Block WAGO 804-103 45Degree pitch 5mm size 16.5x15mm^2 drill 1.2mm pad 3mm")
+	(descr "Terminal Block WAGO 804-103, 45Degree (cable under 45degree), 3 pins, pitch 5mm, size 16.5x15mm, drill diameter 1.2mm, pad diameter 3mm, , script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_WAGO")
+	(tags "THT Terminal Block WAGO 804-103 45Degree pitch 5mm size 16.5x15mm drill 1.2mm pad 3mm")
 	(property "Reference" "REF**"
 		(at 5.5 -9.42 0)
 		(layer "F.SilkS")
@@ -25,24 +25,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -3.11 4.82)
-		(end -3.11 7.06)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -3.11 7.06)
-		(end -1.11 7.06)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
 	(fp_line
 		(start -2.87 -8.42)
 		(end -2.87 6.82)
@@ -72,7 +54,7 @@
 	)
 	(fp_line
 		(start -2.87 6.82)
-		(end 13.87 6.82)
+		(end -0.3 6.82)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -127,6 +109,15 @@
 	(fp_line
 		(start -0.75 2.2)
 		(end 3.25 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.3 6.82)
+		(end 13.87 6.82)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -386,9 +377,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start -0.200865 5.250424)
-		(mid 1.250296 4.099926)
-		(end 2.701 5.251)
+		(start -0.199969 5.249867)
+		(mid 1.250068 4.099899)
+		(end 2.7 5.25)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -396,9 +387,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 1.040798 -4.264067)
-		(mid -0.146039 -6.300306)
-		(end 2.111 -6.979)
+		(start 1.02 -4.268)
+		(mid -0.141815 -6.308637)
+		(end 2.10843 -6.979765)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -416,9 +407,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 4.799135 5.250424)
-		(mid 6.250296 4.099926)
-		(end 7.701 5.251)
+		(start 4.800031 5.249867)
+		(mid 6.250068 4.099899)
+		(end 7.7 5.25)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -426,9 +417,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 6.040798 -4.264067)
-		(mid 4.853961 -6.300306)
-		(end 7.111 -6.979)
+		(start 6.02 -4.268)
+		(mid 4.858185 -6.308637)
+		(end 7.10843 -6.979765)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -446,9 +437,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 9.799135 5.250424)
-		(mid 11.250296 4.099926)
-		(end 12.701 5.251)
+		(start 9.800031 5.249867)
+		(mid 11.250068 4.099899)
+		(end 12.7 5.25)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -456,9 +447,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 11.040798 -4.264067)
-		(mid 9.853961 -6.300306)
-		(end 12.111 -6.979)
+		(start 11.02 -4.268)
+		(mid 9.858185 -6.308637)
+		(end 12.10843 -6.979765)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -473,6 +464,20 @@
 			(width 0.12)
 			(type solid)
 		)
+		(layer "F.SilkS")
+	)
+	(fp_poly
+		(pts
+			(xy 0 6.82)
+			(xy 0.44 7.43)
+			(xy -0.44 7.43)
+			(xy 0 6.82)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -908,12 +913,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 2 3)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
 	)
 	(pad "1" thru_hole rect
 		(at 2.5 -5)
