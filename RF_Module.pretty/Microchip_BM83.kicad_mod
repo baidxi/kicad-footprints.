@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Microchip_BM83"
-		(at 0 17 0)
+		(at 0 19 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b2a6edfb-9755-489d-9d7c-19d482be2c93")
@@ -421,11 +421,37 @@
 			)
 		)
 	)
+	(fp_text user "Under module"
+		(at 0 11.5 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "494af503-1dc7-4939-9ad8-c3206d12bdda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
 	(fp_text user "Antenna area"
 		(at -0.4 -10 0)
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "9dd1bcc7-535f-42b8-9e2f-6cc6465faa5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "Avoid traces"
+		(at 0 9.5 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "e106f89e-231d-4f39-9e19-a1136928285d")
 		(effects
 			(font
 				(size 1 1)
@@ -864,44 +890,11 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "F.Cu")
-		(uuid "94656e76-bfb7-4c05-b8dc-70cae834a4da")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -6.3 -6) (xy -6.3 14.6) (xy -7.5 14.6) (xy -7.5 16) (xy -5 16) (xy -5 14.8) (xy 5 14.8) (xy 5 16)
-				(xy 7.5 16) (xy 7.5 14.6) (xy 6.3 14.6) (xy 6.3 -6)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "Cmts.User" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu"
-			"In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu"
-			"In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu"
-			"In28.Cu" "In29.Cu" "In30.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
 		)
 		(uuid "f9dcc025-6266-4445-9149-7f7539c52a55")
 		(hatch edge 0.5)
