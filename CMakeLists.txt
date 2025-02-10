@@ -3,6 +3,39 @@ cmake_minimum_required( VERSION 3.10 FATAL_ERROR )
 project( kicad-footprints NONE )
 
 
+# This target will do any post-processing of the footprints
+# before they are installed.
+add_custom_target(compile_footprints
+    ALL
+)
+
+# By default, with no post-processing, the footprints are installed as-is
+# from the source directory.
+set(KICAD_FOOTPRINT_SOURCE_DIR ${PROJECT_SOURCE_DIR})
+mark_as_advanced(KICAD_FOOTPRINT_SOURCE_DIR)
+
+#================================================
+# 3D model stripping
+#================================================
+
+if( NOT KICAD_3DMODEL_LIST_FILE )
+    message( MESSAGE "KICAD_3DMODEL_LIST_FILE not set - cannot clean models" )
+else()
+    set(KICAD_FOOTPRINT_SOURCE_DIR ${PROJECT_BINARY_DIR}/cleaned)
+
+    add_custom_target(clean_3d_models
+        COMMAND ${CMAKE_COMMAND} -E env PYTHONPATH=${PROJECT_SOURCE_DIR}/tools
+            python3
+            ${PROJECT_SOURCE_DIR}/tools/clean_3d_models.py -v
+            -e ${KICAD_3DMODEL_LIST_FILE}
+            -d ${PROJECT_SOURCE_DIR}
+            -o ${KICAD_FOOTPRINT_SOURCE_DIR}
+        COMMENT "Stripping 3D models from footprints using ${KICAD_3DMODEL_LIST_FILE}"
+    )
+    add_dependencies(compile_footprints clean_3d_models)
+endif()
+
+
 #================================================
 # Locations for install targets.
 #================================================
@@ -43,7 +76,7 @@ add_custom_target( uninstall
 # Installed files.
 #================================================
 # select pretty directories
-file (GLOB PRETTY_DIRS "*.pretty")
+file (GLOB PRETTY_DIRS "${KICAD_FOOTPRINT_SOURCE_DIR}/*.pretty")
 
 # Install the contents of all of the .pretty folders in to the modules path.
 install( DIRECTORY ${PRETTY_DIRS}
