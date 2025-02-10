@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,11 +62,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(zone_connect 1)
-	(attr exclude_from_pos_files exclude_from_bom)
+	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 	(net_tie_pad_groups "1, 2")
 	(fp_poly
 		(pts
@@ -161,6 +164,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "c460c934-a8c8-4aa7-9658-728a2e573236")
+	)
+	(fp_rect
+		(start -0.75 -0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "b23d872e-8f09-43f7-aaf0-66dced7fc131")
 	)
 	(fp_line
 		(start -2.3 -1.25)
