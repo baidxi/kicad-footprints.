@@ -26,24 +26,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -1.33 -1.39)
-		(end -1.33 6.47)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -1.33 6.47)
-		(end 8.95 6.47)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 1.16 -1.33)
 		(end 1.16 6.41)
 		(stroke
@@ -88,22 +70,14 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start 8.95 -1.39)
-		(end -1.33 -1.39)
+	(fp_rect
+		(start -1.33 -1.39)
+		(end 8.95 6.47)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 8.95 6.47)
-		(end 8.95 -1.39)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
+		(fill none)
 		(layer "F.SilkS")
 	)
 	(fp_arc
@@ -116,59 +90,15 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -1.52 -1.58)
-		(end -1.52 6.66)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.52 6.66)
 		(end 9.14 6.66)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill none)
 		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 9.14 -1.58)
-		(end -1.52 -1.58)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 9.14 6.66)
-		(end 9.14 -1.58)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.27 -1.33)
-		(end -1.27 6.41)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.27 6.41)
-		(end 8.89 6.41)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
 	)
 	(fp_line
 		(start 0.635 -0.27)
@@ -215,22 +145,14 @@
 		)
 		(layer "F.Fab")
 	)
-	(fp_line
-		(start 8.89 -1.33)
-		(end -1.27 -1.33)
+	(fp_rect
+		(start -1.27 -1.33)
+		(end 8.89 6.41)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 8.89 6.41)
-		(end 8.89 -1.33)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill none)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -243,12 +165,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
 	)
 	(pad "2" thru_hole circle
 		(at 0 2.54)
