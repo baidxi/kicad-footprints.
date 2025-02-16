@@ -80,40 +80,14 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -1.45 -1.53)
-		(end -1.45 49.78)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.45 49.78)
 		(end 26.85 49.78)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 26.85 -1.53)
-		(end -1.45 -1.53)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 26.85 49.78)
-		(end 26.85 -1.53)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill none)
 		(layer "F.CrtYd")
 	)
 	(fp_line
@@ -171,12 +145,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 2.4 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
 	)
 	(pad "2" thru_hole oval
 		(at 0 2.54)
