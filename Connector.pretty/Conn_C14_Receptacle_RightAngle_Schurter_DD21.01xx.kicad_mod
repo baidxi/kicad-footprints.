@@ -1,12 +1,12 @@
 (footprint "Conn_C14_Receptacle_RightAngle_Schurter_DD21.01xx"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "C14 Power Receptacle https://www.schurter.com/en/datasheet/typ_DD21.pdf")
 	(tags "C14 IEC 250V Schurter")
 	(property "Reference" "REF**"
-		(at 0 -20.2 0)
+		(at 0 -25.96 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c9c0257f-5d61-4ea1-81db-7dec11891a64")
@@ -18,23 +18,10 @@
 		)
 	)
 	(property "Value" "Conn_C14_Receptacle_RightAngle_Schurter_DD21.01xx"
-		(at 0 21.8 0)
+		(at 0 14.41 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "84fe00a0-cfee-4021-abbd-2f51576ba616")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0.8 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "702ae463-b823-446f-b3a5-e642f4cf96eb")
 		(effects
 			(font
 				(size 1 1)
@@ -70,6 +57,36 @@
 	)
 	(attr through_hole)
 	(fp_line
+		(start -28.11 -4.61)
+		(end -23.41 -4.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41e60e6e-b521-4c0c-98fe-22137079d57d")
+	)
+	(fp_line
+		(start -23.41 -25.21)
+		(end 9.209961 -25.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01b11f07-16e6-48ea-a7cc-f197b2d39c2a")
+	)
+	(fp_line
+		(start -23.41 -4.61)
+		(end -23.41 -25.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfa1a8ba-ee72-49a7-a80c-c95fa509b8f9")
+	)
+	(fp_line
 		(start -17.9 -12.033013)
 		(end -17.4 -12.033013)
 		(stroke
@@ -99,6 +116,17 @@
 		(layer "F.SilkS")
 		(uuid "95897ee4-a372-41db-8a8b-ba6bc49147f7")
 	)
+	(fp_rect
+		(start -32.75 -25.35)
+		(end 32.75 13.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "53ea4a05-0651-4efc-abad-e7f8b27818cf")
+	)
 	(fp_line
 		(start -32.5 9.5)
 		(end -32.5 0)
@@ -121,10 +149,10 @@
 	)
 	(fp_line
 		(start -23.3 -25.1)
-		(end 9.1 -25.05)
+		(end 9.099961 -25.1)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "fd9d4202-f75b-47f9-8025-0c5a58871f40")
@@ -161,10 +189,10 @@
 	)
 	(fp_line
 		(start 9.1 -14.9)
-		(end 9.1 -25.05)
+		(end 9.1 -25.1)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "cc540e65-5dc1-4894-a4fd-fd6c5bc9e267")
@@ -262,7 +290,7 @@
 		(uuid "f2ee2eaf-a713-45c8-82f5-2ea2b6760c73")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0.8 0)
+		(at 0 -0.11 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "6b7141fb-687f-433e-af8a-3b95b48e7feb")
@@ -312,4 +340,5 @@
 		(remove_unused_layers no)
 		(uuid "2f6ac2a7-e478-4b7a-a5ec-8eab999f9a02")
 	)
+	(embedded_fonts no)
 )
