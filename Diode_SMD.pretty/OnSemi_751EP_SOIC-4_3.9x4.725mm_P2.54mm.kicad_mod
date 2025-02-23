@@ -1,5 +1,5 @@
 (footprint "OnSemi_751EP_SOIC-4_3.9x4.725mm_P2.54mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "OnSemi 751EP SOIC, 4 Pin (https://www.onsemi.com/pdf/datasheet/mb8s-d.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
@@ -72,7 +72,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -169,27 +169,28 @@
 	(pad "1" smd roundrect
 		(at -3.25 -1.27)
 		(size 2.1 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.16129)
 	)
 	(pad "2" smd roundrect
 		(at -3.25 1.27)
 		(size 2.1 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.16129)
 	)
 	(pad "3" smd roundrect
 		(at 3.25 1.27)
 		(size 2.1 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.16129)
 	)
 	(pad "4" smd roundrect
 		(at 3.25 -1.27)
 		(size 2.1 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.16129)
 	)
+	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/OnSemi_751EP_SOIC-4_3.9x4.725mm_P2.54mm.wrl"
 		(offset
 			(xyz 0 0 0)
