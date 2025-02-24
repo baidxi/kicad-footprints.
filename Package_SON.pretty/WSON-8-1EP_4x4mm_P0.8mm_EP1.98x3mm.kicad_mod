@@ -48,7 +48,6 @@
 			(xy -2.54 -1.52)
 			(xy -3.02 -1.52)
 			(xy -2.54 -2)
-			(xy -2.54 -1.52)
 		)
 		(stroke
 			(width 0.12)
@@ -57,85 +56,29 @@
 		(fill yes)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -2.63 -2.25)
-		(end -2.63 2.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -2.63 2.25)
 		(end 2.63 2.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start 2.63 -2.25)
-		(end -2.63 -2.25)
-		(stroke
-			(width 0.05)
-			(type solid)
+	(fp_poly
+		(pts
+			(xy -2 -1)
+			(xy -2 2)
+			(xy 2 2)
+			(xy 2 -2)
+			(xy -1 -2)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 2.63 2.25)
-		(end 2.63 -2.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -2 -1)
-		(end -1 -2)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2 2)
-		(end -2 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1 -2)
-		(end 2 -2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 2 -2)
-		(end 2 2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 2 2)
-		(end -2 2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
