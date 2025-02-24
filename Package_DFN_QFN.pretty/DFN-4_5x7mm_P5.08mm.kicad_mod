@@ -1,5 +1,5 @@
 (footprint "DFN-4_5x7mm_P5.08mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "DFN, 4 Pin (https://ww1.microchip.com/downloads/aemDocuments/documents/TCG/ProductDocuments/DataSheets/DSC1001-3-4-1.8V-3.3V-Low-Power-Precision-CMOS-Oscillators-DS20005529.pdf#page=14), generated with kicad-footprint-generator ipc_noLead_generator.py")
@@ -54,7 +54,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -151,25 +151,25 @@
 	(pad "1" smd roundrect
 		(at -2.0375 -2.54)
 		(size 1.675 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.178571)
 	)
 	(pad "2" smd roundrect
 		(at -2.0375 2.54)
 		(size 1.675 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.178571)
 	)
 	(pad "3" smd roundrect
 		(at 2.0375 2.54)
 		(size 1.675 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.178571)
 	)
 	(pad "4" smd roundrect
 		(at 2.0375 -2.54)
 		(size 1.675 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.178571)
 	)
 	(zone
@@ -181,16 +181,23 @@
 		(connect_pads
 			(clearance 0)
 		)
-		(filled_areas_thickness no)
 		(min_thickness 0.25)
+		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
-			(copperpour not_allowed)
 			(pads allowed)
+			(copperpour not_allowed)
 			(footprints allowed)
 		)
-		(fill)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
 		(polygon
 			(pts
 				(xy -1.9 -1.25)
@@ -201,6 +208,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-4_5x7mm_P5.08mm.wrl"
 		(offset
 			(xyz 0 0 0)
