@@ -1,5 +1,5 @@
 (footprint "L_Cenker_CKCS201610"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Inductor, Cenker, CKCS201610, 2.0x1.6x1.05mm, (https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf), generated with kicad-footprint-generator gen_inductor.py")
@@ -128,15 +128,16 @@
 	(pad "1" smd roundrect
 		(at -0.7 0)
 		(size 1.1 2.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.227273)
 	)
 	(pad "2" smd roundrect
 		(at 0.7 0)
 		(size 1.1 2.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.227273)
 	)
+	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Cenker_CKCS201610.wrl"
 		(offset
 			(xyz 0 0 0)
