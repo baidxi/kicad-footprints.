@@ -1,7 +1,7 @@
 (footprint "LED_1812_4532Metric"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LED SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
 	(tags "LED")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "575e130b-103a-4fec-8839-4f2aa3bf46e2")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -198,18 +188,19 @@
 	(pad "1" smd roundrect
 		(at -2.1375 0)
 		(size 1.125 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.222222)
 		(uuid "ed9babea-ea0b-48d3-a2fe-db8b1c59fd6c")
 	)
 	(pad "2" smd roundrect
 		(at 2.1375 0)
 		(size 1.125 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.222222)
 		(uuid "f137c639-dadb-48c4-9afe-9242c483ea4e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1812_4532Metric.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1812_4532Metric.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

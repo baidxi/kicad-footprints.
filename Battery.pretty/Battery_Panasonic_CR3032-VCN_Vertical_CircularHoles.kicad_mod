@@ -1,7 +1,7 @@
 (footprint "Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D508.PDF")
 	(tags "battery CR-3032 coin cell vertical")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "11ec3b26-b64b-429d-ba6d-854ae1a0892d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -242,7 +232,8 @@
 		(remove_unused_layers no)
 		(uuid "7d199fb6-043a-4292-af46-abdcd726f2c7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

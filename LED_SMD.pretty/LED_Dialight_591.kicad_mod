@@ -1,7 +1,7 @@
 (footprint "LED_Dialight_591"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LED SMD 3mm Right Angle series (http://www.dialightsignalsandcomponents.com/Assets/Drawings/2D_Drawings_DrawingDetailedSpec/C17354.pdf)")
 	(tags "LED Dialight 591")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "582c970b-33b9-416e-bd00-edc1f2789142")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -219,16 +209,17 @@
 	(pad "1" smd rect
 		(at -1.6 0)
 		(size 2.01 2.39)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1e44315d-ab42-4a82-9b92-72ea4cbca16a")
 	)
 	(pad "2" smd rect
 		(at 1.6 0)
 		(size 2.01 2.39)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "32c1f32a-c97a-4c89-b0d2-581477b12951")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Dialight_591.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Dialight_591.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "D_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 	(tags "diode handsolder")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1e7565e5-ffab-48ab-ac01-f416a115da51")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "99dbaa52-28be-4ac1-b27d-c8d7ddb01c7f")
 	)
@@ -214,7 +204,8 @@
 		(roundrect_rratio 0.25)
 		(uuid "e7652e7a-5fd8-4005-a5f9-6c7c80dfaee0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0201_0603Metric.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0201_0603Metric.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

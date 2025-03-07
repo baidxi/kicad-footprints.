@@ -1,7 +1,7 @@
 (footprint "SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
 	(tags "solder jumper open")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "10c7532c-6b07-4a95-befd-bb549cdcb016")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,11 +49,23 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(zone_connect 1)
-	(attr exclude_from_pos_files exclude_from_bom)
+	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+	(fp_rect
+		(start -0.15 -0.75)
+		(end 0.15 0.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "3b5e2732-2a4c-4917-b09e-a67ffc4435d7")
+	)
 	(fp_line
 		(start -1.4 -1)
 		(end 1.4 -1)
@@ -157,4 +158,5 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "a5e10e8c-d3d0-475e-966d-105f9d5f626e")
 	)
+	(embedded_fonts no)
 )

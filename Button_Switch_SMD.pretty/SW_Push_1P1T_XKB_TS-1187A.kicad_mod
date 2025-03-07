@@ -1,7 +1,7 @@
 (footprint "SW_Push_1P1T_XKB_TS-1187A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Tactile Switch, http://www.helloxkb.com/public/images/pdf/TS-1187A-X-X-X.pdf")
 	(tags "SPST Tactile Switch")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9fb4ec74-bc0d-43d4-b9ef-86a1b02ead6c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -351,7 +341,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d09fe098-c854-4f1a-b216-9e4782c5f368")
 	)
@@ -363,7 +353,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "6f05189b-050e-4df1-8cce-c345e106f690")
 	)
@@ -375,7 +365,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8ea09fd2-29cd-4b39-95d0-f6b8cccaf50e")
 	)
@@ -387,7 +377,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f0572845-8e71-4b9a-a23c-9946e1f5ae0f")
 	)
@@ -399,7 +389,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ed4771a9-6196-4694-ad9c-6d04b1154a7b")
 	)
@@ -412,7 +402,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "46819414-db13-4f18-a0be-9ad4fd5f1f26")
 	)
@@ -427,7 +417,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "bc77dbbd-56d3-4c6c-aa13-ea19fc3167c2")
 	)
@@ -445,28 +435,29 @@
 	(pad "1" smd rect
 		(at -3 -1.875)
 		(size 1 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2fdf9f96-3bc8-4370-a497-47cf413d8eb6")
 	)
 	(pad "1" smd rect
 		(at 3 -1.875)
 		(size 1 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ef152499-9140-4e95-9a81-89d58a4473ba")
 	)
 	(pad "2" smd rect
 		(at -3 1.875)
 		(size 1 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c0f8e203-3d85-4d5e-bbf8-0a1cf32bcf1b")
 	)
 	(pad "2" smd rect
 		(at 3 1.875)
 		(size 1 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0320eeb2-6a91-4d2d-9032-8bc9cc0cb72d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_XKB_TS-1187A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_XKB_TS-1187A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

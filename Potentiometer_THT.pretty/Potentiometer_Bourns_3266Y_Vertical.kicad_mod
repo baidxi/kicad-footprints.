@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Bourns_3266Y_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Potentiometer, vertical, Bourns 3266Y, https://www.bourns.com/docs/Product-Datasheets/3266.pdf")
 	(tags "Potentiometer vertical Bourns 3266Y")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5ccfec2c-fb99-4798-bc01-137dd89bb3ff")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -231,7 +221,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "3d56c9f9-a8f2-4ad8-9a49-b6efd2c53cca")
 	)
@@ -270,7 +260,8 @@
 		(remove_unused_layers no)
 		(uuid "338a1328-b7b1-4439-a6ae-4124f7e2b041")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3266Y_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3266Y_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

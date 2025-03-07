@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Vishay_DFSFlat"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD diode bridge Low Profile DFS \"Flat\", see http://www.vishay.com/docs/88874/dfl15005.pdf")
 	(tags "DFS")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "154d871c-d762-48f5-bf3d-457afad76d54")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "3464f32e-eca5-4f34-bc42-e3b90e8e9098")
 	)
@@ -200,28 +190,29 @@
 	(pad "1" smd rect
 		(at -4.37 -2.55)
 		(size 2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c99cda20-f691-457b-bcbf-12a9eb7dc93a")
 	)
 	(pad "2" smd rect
 		(at -4.37 2.55)
 		(size 2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0023b9d1-711c-4a2a-80d5-2c45fe8589b4")
 	)
 	(pad "3" smd rect
 		(at 4.37 2.55)
 		(size 2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "40a79367-5b7f-4470-83ee-a4f8d9f953a8")
 	)
 	(pad "4" smd rect
 		(at 4.37 -2.55)
 		(size 2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4048d645-23e0-4e97-a9c3-aae191cfa9a8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Vishay_DFSFlat.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Vishay_DFSFlat.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

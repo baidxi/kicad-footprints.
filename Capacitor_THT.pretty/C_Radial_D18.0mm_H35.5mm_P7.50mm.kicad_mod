@@ -1,14 +1,12 @@
 (footprint "C_Radial_D18.0mm_H35.5mm_P7.50mm"
-	(version 20240108)
-	(generator "pcbnew")
-	(generator_version "8.0")
+	(version 20241229)
+	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "C, Radial series, Radial, pin pitch=7.50mm, diameter=18mm, height=35.5mm, Non-Polar Electrolytic Capacitor")
 	(tags "C Radial series Radial pin pitch 7.50mm diameter 18mm height 35.5mm Non-Polar Electrolytic Capacitor")
 	(property "Reference" "REF**"
 		(at 3.75 -10.25 0)
 		(layer "F.SilkS")
-		(uuid "b60c2d2c-fec8-4852-b427-64b97603a215")
 		(effects
 			(font
 				(size 1 1)
@@ -19,47 +17,10 @@
 	(property "Value" "C_Radial_D18.0mm_H35.5mm_P7.50mm"
 		(at 3.75 10.25 0)
 		(layer "F.Fab")
-		(uuid "f83e4816-f2f0-4a09-9c34-48b08f226537")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "90336dd1-12ec-4aed-88fc-3d970a983feb")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Datasheet" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "639d9b22-f3d1-4b3b-b2e3-9f8ae14be5c6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Description" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "165839d6-fedc-427a-9a23-7f95575139bd")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -71,9 +32,8 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "82fd1f5e-e01f-4936-abe2-09cf55026e67")
 	)
 	(fp_circle
 		(center 3.75 0)
@@ -82,9 +42,8 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "584dec6c-e0e0-4708-9231-f8ee3c6c055a")
 	)
 	(fp_circle
 		(center 3.75 0)
@@ -93,14 +52,12 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "7aeb2f19-6284-4103-ae5a-7fd9d2f158e0")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 3.75 0 0)
 		(layer "F.Fab")
-		(uuid "696be6ab-e888-4931-88fb-c411c0e9057b")
 		(effects
 			(font
 				(size 1 1)
@@ -114,7 +71,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "bf992a9b-eb68-4ed6-bdb8-8cf193eeae04")
 	)
 	(pad "2" thru_hole circle
 		(at 7.5 0)
@@ -122,9 +78,9 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "df440029-10a6-4a35-83da-ee6ed22e833d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D18.0mm_H35.5mm_P7.50mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D18.0mm_H35.5mm_P7.50mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

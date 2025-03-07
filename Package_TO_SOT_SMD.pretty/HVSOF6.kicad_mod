@@ -1,7 +1,7 @@
 (footprint "HVSOF6"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "HVSOF6, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hvsof6_1-e.pdf, http://rohmfs.rohm.com/en/products/databook/datasheet/ic/audio_video/video_amplifier/bh76106hfv-e.pdf")
 	(tags "HVSOF6")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "211406a7-9201-4272-95fd-45034f59ac8e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ce754f12-26d1-438a-ac6d-5463956090b5")
 	)
@@ -200,52 +190,53 @@
 	(pad "1" smd roundrect
 		(at -1.38 -0.5 270)
 		(size 0.25 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c9d208b2-b080-4438-9c89-17798d2b566e")
 	)
 	(pad "2" smd roundrect
 		(at -1.38 0 270)
 		(size 0.25 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "41277801-38b5-4fbf-ab62-65022bf447a2")
 	)
 	(pad "3" smd roundrect
 		(at -1.38 0.5 270)
 		(size 0.25 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "690ec424-98e4-4263-a030-09bac19c24f5")
 	)
 	(pad "4" smd roundrect
 		(at 1.38 0.5 270)
 		(size 0.25 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1b8af49f-51d8-41a2-a610-945b40a9f2a2")
 	)
 	(pad "5" smd roundrect
 		(at 1.38 0 270)
 		(size 0.25 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d14c98ea-1725-421e-b775-3dfc8cf44fa0")
 	)
 	(pad "6" smd roundrect
 		(at 1.38 -0.5 270)
 		(size 0.25 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3046bb73-8fbc-4a3c-9693-77e98ab07385")
 	)
 	(pad "7" smd rect
 		(at 0 0)
 		(size 1.6 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2772569e-6af7-46b4-af49-12fb7124dcda")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/HVSOF6.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/HVSOF6.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

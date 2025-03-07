@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Artesyn_ATA_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DCDC-Converter, Artesyn, ATA Series, 3W Single and Dual Output, 1500VDC Isolation, 24.0x13.7x8.0mm https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf https://www.artesyn.com/power/assets/trn_dc-dc_ata_3w_series_releas1430412818_techref.pdf")
 	(tags "DCDC SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "01c2f5a7-4d19-47e3-a6ae-3f9c33dac7ba")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -338,46 +328,47 @@
 	(pad "1" smd rect
 		(at -8.25 -8.89)
 		(size 2.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e2b6e30a-3f11-4b15-a53f-cbce6856a02b")
 	)
 	(pad "2" smd rect
 		(at -8.25 -6.35)
 		(size 2.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6180ed10-ff6e-4da3-864e-0e44520a824c")
 	)
 	(pad "7" smd rect
 		(at -8.25 6.35)
 		(size 2.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2a8563b7-e378-4c76-993d-ed49b8e1600a")
 	)
 	(pad "8" smd rect
 		(at -8.25 8.89)
 		(size 2.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b207e73a-2dec-492a-9928-65a93e700abd")
 	)
 	(pad "9" smd rect
 		(at 8.25 8.89)
 		(size 2.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "90f33609-19c3-4b66-aa98-dc2f19d6b6f7")
 	)
 	(pad "10" smd rect
 		(at 8.25 6.35)
 		(size 2.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e7c0be02-d5ab-4ebd-b7d9-d6cda752dcbd")
 	)
 	(pad "16" smd rect
 		(at 8.25 -8.89)
 		(size 2.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5ac949d1-7fa3-46ad-994a-e05d7bb57291")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Artesyn_ATA_SMD.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Artesyn_ATA_SMD.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

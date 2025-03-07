@@ -1,7 +1,7 @@
 (footprint "SolderWire-0.25sqmm_1x03_P4.5mm_D0.65mm_OD2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Soldered wire connection, for 3 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 	(tags "connector wire 0.25sqmm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a6c22aa3-a9ca-4e0b-b833-43d81a4b57dd")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -191,7 +181,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0c34608f-a61a-4eb8-95da-ebb0cc78904c")
 	)
@@ -202,7 +192,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1c5a9ab2-eeb3-447a-bee7-a1913312a5ca")
 	)
@@ -213,7 +203,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c2904b75-1c65-4f4a-92e6-ae92e3afa17b")
 	)
@@ -253,7 +243,8 @@
 		(remove_unused_layers no)
 		(uuid "8de6623c-2e03-424f-a412-bbb21144e0cb")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x03_P4.5mm_D0.65mm_OD2mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x03_P4.5mm_D0.65mm_OD2mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

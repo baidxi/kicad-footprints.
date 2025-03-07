@@ -1,7 +1,7 @@
 (footprint "EA_eDIP320X-XXX"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LCD display 320x340 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip320-8e.pdf")
 	(tags "LCD display 320x340 RS-232 I2C or SPI")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "79dbc3ce-3139-4ddd-a03f-159408509287")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -679,7 +669,8 @@
 		(remove_unused_layers no)
 		(uuid "dcb47a08-bd58-49bf-aa6a-060b4c4cc89c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/EA_eDIP320X-XXX.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display.3dshapes/EA_eDIP320X-XXX.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

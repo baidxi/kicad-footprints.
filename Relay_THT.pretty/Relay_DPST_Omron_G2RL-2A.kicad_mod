@@ -1,7 +1,7 @@
 (footprint "Relay_DPST_Omron_G2RL-2A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Omron Relay, DPST, https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf")
 	(tags "Omron Relay DPST")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "97de4cb4-7430-46f5-bbf2-e5eca5897f65")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -333,7 +323,8 @@
 		(remove_unused_layers no)
 		(uuid "e5fffc09-c261-46f2-8a5f-edcd87ba8c53")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPST_Omron_G2RL-2A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPST_Omron_G2RL-2A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

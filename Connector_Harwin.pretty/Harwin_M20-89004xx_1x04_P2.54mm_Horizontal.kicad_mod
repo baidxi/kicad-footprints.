@@ -1,7 +1,7 @@
 (footprint "Harwin_M20-89004xx_1x04_P2.54mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Harwin Male Horizontal Surface Mount Single Row 2.54mm (0.1 inch) Pitch PCB Connector, M20-89004xx, 4 Pins per row (https://cdn.harwin.com/pdfs/M20-890.pdf), generated with kicad-footprint-generator")
 	(tags "connector Harwin M20-890 horizontal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3a04bb47-ad3f-4cb7-a078-9d0374f968ff")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -674,28 +664,29 @@
 	(pad "1" smd rect
 		(at -5.525 -3.81)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5d6bb9e8-2c75-4d0a-b949-a62c4d7477cf")
 	)
 	(pad "2" smd rect
 		(at -5.525 -1.27)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "edfd2407-4ce2-4413-b4eb-b14784ff3287")
 	)
 	(pad "3" smd rect
 		(at -5.525 1.27)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "19536ef3-6ada-446c-9ce1-d16d3dea8dbe")
 	)
 	(pad "4" smd rect
 		(at -5.525 3.81)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "92dddc00-5abc-46bc-9aa4-648d87748c8b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_M20-89004xx_1x04_P2.54mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_M20-89004xx_1x04_P2.54mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

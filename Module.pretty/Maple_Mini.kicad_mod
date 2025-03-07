@@ -1,7 +1,7 @@
 (footprint "Maple_Mini"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Maple Mini, http://docs.leaflabs.com/static.leaflabs.com/pub/leaflabs/maple-docs/0.0.12/hardware/maple-mini.html")
 	(tags "Maple Mini")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e58acaf6-d15e-43b6-b58e-f7b2bd382e70")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -635,7 +625,8 @@
 		(remove_unused_layers no)
 		(uuid "2080d5a5-b907-442e-9194-630e46667882")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Maple_Mini.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/Maple_Mini.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

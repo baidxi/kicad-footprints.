@@ -1,7 +1,7 @@
 (footprint "Adafruit_Feather_WICED"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint for the Adafruit Feather WICED Wifi board, https://learn.adafruit.com/introducing-the-adafruit-wiced-feather-wifi")
 	(tags "Adafruit Feather WICED Wifi")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7eb7a3ff-22e8-4318-962a-330bec1c7c36")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -347,7 +337,7 @@
 		(uuid "7835eca4-4a13-440a-97f1-14de7c9e0b74")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 10.16 19.05 -90)
+		(at 10.16 19.05 270)
 		(layer "F.Fab")
 		(uuid "37bb95ff-c045-4c7a-8ef6-b80fe321ffe2")
 		(effects
@@ -648,7 +638,8 @@
 		(remove_unused_layers no)
 		(uuid "419a0325-1804-41b5-9035-be5dd518b641")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Adafruit_Feather_WICED.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/Adafruit_Feather_WICED.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

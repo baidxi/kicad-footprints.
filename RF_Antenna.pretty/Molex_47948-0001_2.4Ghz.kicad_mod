@@ -1,7 +1,7 @@
 (footprint "Molex_47948-0001_2.4Ghz"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD antenna 2400-2500Mhz, 3.7dBi, https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/productspecificationpdf/479/47948/PS-47948-001-001.pdf?inline")
 	(tags "rf antenna")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b5b95f98-0089-4d83-b0ca-0adf6cdd225f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -123,7 +113,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "2c351eff-9323-4d6d-aada-46096c28e2fa")
 	)
@@ -154,7 +144,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "edd878e6-b4db-42fe-9f55-b9b737b5f714")
 	)
@@ -165,7 +155,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4f7e52e0-c536-4044-9542-90375aacd62c")
 	)
@@ -176,7 +166,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1046d291-3417-4234-ae9b-4778ce3db1d4")
 	)
@@ -195,7 +185,7 @@
 	(pad "1" smd roundrect
 		(at -1.075 -1.075)
 		(size 1.35 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1851851852)
 		(thermal_bridge_angle 45)
 		(uuid "28b8e807-69a8-46c7-bd98-0135dd000d73")
@@ -203,7 +193,7 @@
 	(pad "MP" smd roundrect
 		(at -1.075 1.075)
 		(size 1.35 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1851851852)
 		(thermal_bridge_angle 45)
 		(uuid "27fce22f-6f56-4329-bcf7-163e8f9f479c")
@@ -211,7 +201,7 @@
 	(pad "MP" smd roundrect
 		(at 1.075 -1.075)
 		(size 1.35 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1851851852)
 		(thermal_bridge_angle 45)
 		(uuid "40d62e5e-e62e-445b-9f0a-04341ae699c1")
@@ -219,7 +209,7 @@
 	(pad "MP" smd roundrect
 		(at 1.075 1.075)
 		(size 1.35 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1851851852)
 		(thermal_bridge_angle 45)
 		(uuid "20ce750e-6bca-49f3-9d74-cf93d8aba406")
@@ -227,7 +217,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "a93000c4-0be4-4e40-b0a3-4b12ccbbd0d1")
 		(hatch edge 0.508)
 		(connect_pads
@@ -241,6 +236,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -256,7 +255,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "cdbc0c76-4055-4ee4-8597-5ba1d5c61e8e")
 		(hatch edge 0.508)
 		(connect_pads
@@ -270,6 +274,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -285,11 +293,11 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
-			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
-			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
-			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
-			"In30.Cu" "B.Cu" "F.SilkS"
+		(layers "B.Cu" "In1.Cu" "F.SilkS" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
 		)
 		(uuid "4a1aafeb-6076-496e-97bb-3da23a57987f")
 		(hatch edge 0.508)
@@ -305,6 +313,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -315,7 +327,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Antenna.3dshapes/Molex_47948-0001_2.4Ghz.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Antenna.3dshapes/Molex_47948-0001_2.4Ghz.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

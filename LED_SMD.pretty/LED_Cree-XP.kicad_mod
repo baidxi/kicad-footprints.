@@ -1,7 +1,7 @@
 (footprint "LED_Cree-XP"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LED Cree-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf")
 	(tags "LED Cree XP")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cee11359-6e46-4102-9066-2a907a56d1e1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -276,13 +266,13 @@
 	(pad "1" smd rect
 		(at -1.4 0)
 		(size 0.5 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0df090fb-c406-4418-a9c6-d8e9a6c3e9a3")
 	)
 	(pad "2" smd rect
 		(at 1.4 0)
 		(size 0.5 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7db8302b-23a4-45ab-b648-9eb644183cd9")
 	)
 	(pad "3" smd rect
@@ -291,7 +281,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "e845eecd-1c3c-47e6-b542-fc6fb58a479c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Cree-XP.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Cree-XP.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

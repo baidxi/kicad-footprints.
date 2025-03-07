@@ -1,7 +1,7 @@
 (footprint "Jack_3.5mm_PJ31060-I_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PJ31060-I 6pin SMD 3.5mm headphones jack (http://www.china-bsun.com/Product48/1577.html)")
 	(tags "headphones jack plug stereo 3.5mm PJ31060-I PJ31060")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a1ade42e-8d83-4a2b-bdb2-89368e48d928")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -341,7 +331,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4f9f706e-c509-4dd2-abbb-c55adb0096ab")
 	)
@@ -366,40 +356,41 @@
 	(pad "R1" smd rect
 		(at -3.65 -1.65)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "30a72bae-2871-48bc-9695-a48a7b4feb5d")
 	)
 	(pad "R1N" smd rect
 		(at -3.65 3.45)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3f796024-ebff-4e6a-a73d-904b89beca9b")
 	)
 	(pad "R2" smd rect
 		(at 3 -4.35)
 		(size 3.4 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a8b0f727-7971-43bb-863b-4ee8ef2e917a")
 	)
 	(pad "S" smd rect
 		(at -3.65 -4.35)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "954e5802-67ad-4510-8009-e9716a3f6040")
 	)
 	(pad "T" smd rect
 		(at 3.65 2.15)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "abffaf20-ad35-4eef-9b6c-b252517180cd")
 	)
 	(pad "TN" smd rect
 		(at 3.2 4.35)
 		(size 3.4 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f5c6c4fb-df5b-4d0a-95e5-40e605d7a55b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_PJ31060-I_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_PJ31060-I_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

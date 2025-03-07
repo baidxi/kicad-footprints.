@@ -1,7 +1,7 @@
 (footprint "LED_LiteOn_LTST-S326"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://optoelectronics.liteon.com/upload/download/DS22-2000-287/LTST-S326KGJRKT.PDF")
 	(tags "LED SMD right angle  CCA")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5da67589-ea17-4276-ac60-25c46f4003e4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,30 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -1 -1.75)
-		(end -1 -1.25)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "88fb456f-4068-49be-bbfe-1f4f5e7886f3")
-	)
-	(fp_line
-		(start -1 1.75)
-		(end -1 0.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "28836bed-0685-4ec7-9937-8cba9fd0a78d")
-	)
 	(fp_line
 		(start 1 -1.75)
 		(end 1 -1.25)
@@ -124,16 +94,17 @@
 		(layer "F.SilkS")
 		(uuid "8a939c17-5642-4e17-b0c3-ed5457ef4217")
 	)
-	(fp_circle
-		(center -1 -0.75)
-		(end -0.9 -0.75)
+	(fp_poly
+		(pts
+			(xy -1 -1.4) (xy -1.33 -1.16) (xy -1.33 -1.64) (xy -1 -1.4)
+		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "6395ef02-1759-44db-a76c-1e27a98e2253")
+		(uuid "7f4fed86-81a8-4744-b92e-d67b69c86ce9")
 	)
 	(fp_line
 		(start -1.35 -2)
@@ -250,22 +221,23 @@
 	(pad "1" smd rect
 		(at 0 -1.375 180)
 		(size 1.5 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "26cbfe81-8920-4631-bbab-ccc14dd5aa10")
 	)
 	(pad "2" smd rect
 		(at -0.65 0 180)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "61f39ef5-d2d6-4420-9e3f-554a7484bac6")
 	)
 	(pad "3" smd rect
 		(at 0 1.375 180)
 		(size 1.5 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ad6a9f07-3ee4-4fe2-9bff-76d7dd4d7c5b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_LiteOn_LTST-S326.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_LiteOn_LTST-S326.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

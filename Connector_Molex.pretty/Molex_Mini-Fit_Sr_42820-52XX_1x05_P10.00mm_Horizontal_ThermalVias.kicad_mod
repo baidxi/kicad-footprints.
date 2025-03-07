@@ -1,7 +1,7 @@
 (footprint "Molex_Mini-Fit_Sr_42820-52XX_1x05_P10.00mm_Horizontal_ThermalVias"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Mini-Fit Sr. Power Connectors, 42820-52XX, With thermal vias in pads, 5 Pins per row (http://www.molex.com/pdm_docs/sd/428202214_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex Mini-Fit_Sr top entry")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "176098de-8a6c-49a0-98b4-95eb0d77f528")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,50 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -2.81 -2.66)
-		(end -2.81 2.66)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "80bab776-8e24-43e5-b995-f9481a66df23")
-	)
-	(fp_line
-		(start -2.81 2.66)
-		(end 7.81 2.66)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "22c60401-c3d0-4eca-8339-71ee7809d18b")
-	)
-	(fp_line
-		(start 7.81 -2.66)
-		(end -2.81 -2.66)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "750eed05-fae5-45ce-9d28-70e709b9d583")
-	)
-	(fp_line
-		(start 7.81 2.66)
-		(end 7.81 -2.66)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "36b01a06-3bca-4121-9d65-a6a61319d5f4")
-	)
 	(fp_line
 		(start 6.45 -7.02)
 		(end 12 -7.02)
@@ -233,6 +183,46 @@
 		)
 		(layer "F.SilkS")
 		(uuid "07260295-af05-4f07-8857-58f7673bac5a")
+	)
+	(fp_line
+		(start -2.81 -2.66)
+		(end -2.81 2.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "80bab776-8e24-43e5-b995-f9481a66df23")
+	)
+	(fp_line
+		(start -2.81 2.66)
+		(end 7.81 2.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "22c60401-c3d0-4eca-8339-71ee7809d18b")
+	)
+	(fp_line
+		(start 7.81 -2.66)
+		(end -2.81 -2.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "750eed05-fae5-45ce-9d28-70e709b9d583")
+	)
+	(fp_line
+		(start 7.81 2.66)
+		(end 7.81 -2.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "36b01a06-3bca-4121-9d65-a6a61319d5f4")
 	)
 	(fp_line
 		(start -3.05 -8.23)
@@ -1214,7 +1204,8 @@
 		(remove_unused_layers no)
 		(uuid "f4a7f083-5573-4b7c-93d8-00130009b74c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Sr_42820-52XX_1x05_P10.00mm_Horizontal_ThermalVias.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Sr_42820-52XX_1x05_P10.00mm_Horizontal_ThermalVias.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

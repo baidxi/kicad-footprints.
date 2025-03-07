@@ -1,7 +1,7 @@
 (footprint "CP_EIA-7260-20_AVX-M"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Tantalum Capacitor SMD AVX-M (7260-20 Metric), IPC_7351 nominal, (Body size from: http://datasheets.avx.com/F72-F75.pdf), generated with kicad-footprint-generator")
 	(tags "capacitor tantalum")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2aba5bfb-c2eb-4b1b-8b42-8f28e078bc97")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -198,18 +188,19 @@
 	(pad "1" smd roundrect
 		(at -2.85 0)
 		(size 2.5 6.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "b67ed07c-35ba-4bbc-b48b-72292f61c3ff")
 	)
 	(pad "2" smd roundrect
 		(at 2.85 0)
 		(size 2.5 6.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "3b132a42-ec21-4264-b422-35126d74e105")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-7260-20_AVX-M.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-7260-20_AVX-M.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

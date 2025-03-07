@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Eagle_12BH611-GR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://eu.mouser.com/datasheet/2/209/EPD-200766-1274481.pdf")
 	(tags "9V Battery Holder")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "687a9d88-152b-4dca-91bd-55c039e13891")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -474,7 +464,8 @@
 		(remove_unused_layers no)
 		(uuid "4befa7d1-7995-4bc6-878d-d6544c8f6c8a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Eagle_12BH611-GR.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Eagle_12BH611-GR.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Jack_speakON_Neutrik_NL4MDXX-H-2_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "speakON Chassis Connectors, 4 pole chassis connector, black D-size flange, mirrored self tapping screw holes (A-screw), horizontal PCB mount, replaces NL4MD-H-2, https://www.neutrik.com/en/product/nl4mdxx-h-2")
 	(tags "neutrik speakon")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f5e6dac6-22f0-47c1-800c-d1c62d09b8f2")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -447,7 +437,8 @@
 		(remove_unused_layers no)
 		(uuid "6a52f29a-9931-40c3-99a8-01d967f4708d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_speakON_Neutrik_NL4MDXX-H-2_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_speakON_Neutrik_NL4MDXX-H-2_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

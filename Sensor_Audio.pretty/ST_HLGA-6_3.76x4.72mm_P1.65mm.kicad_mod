@@ -1,7 +1,7 @@
 (footprint "ST_HLGA-6_3.76x4.72mm_P1.65mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/27/62/48/98/44/54/4d/36/DM00303211/files/DM00303211.pdf/jcr:content/translations/en.DM00303211.pdf")
 	(tags "HLGA Sensor Audio")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0865bd20-10e7-4348-9f05-a89cdc3f62ad")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,7 +102,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "51892d99-e1f6-4250-bcbe-ddae1bd1ae4f")
 	)
@@ -220,31 +210,31 @@
 	(pad "1" smd circle
 		(at -1.17 -1.65)
 		(size 0.91 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0e417eb3-cf0c-4424-a838-6e00eeea4b4a")
 	)
 	(pad "2" smd circle
 		(at -1.17 0)
 		(size 0.91 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1ca70b72-a153-4d09-9aae-db121fe748f6")
 	)
 	(pad "3" smd circle
 		(at -1.17 1.65)
 		(size 0.91 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d3cce5e8-680b-4c15-8326-8397aa6cb4aa")
 	)
 	(pad "4" smd circle
 		(at 1.17 1.65)
 		(size 0.91 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "77269d92-615c-4000-8bbf-ed843b972a35")
 	)
 	(pad "5" smd circle
 		(at 1.17 0)
 		(size 0.91 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f2864cf5-260a-408c-954d-ccde01370f76")
 	)
 	(pad "6" smd oval
@@ -253,10 +243,11 @@
 		(drill
 			(offset -0.141421 0)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "00502f04-c26e-4f49-9bcf-dd2770050afd")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Audio.3dshapes/ST_HLGA-6_3.76x4.72mm_P1.65mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Audio.3dshapes/ST_HLGA-6_3.76x4.72mm_P1.65mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

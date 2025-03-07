@@ -1,7 +1,7 @@
 (footprint "Relay_SPST_RAYEX-L90A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf")
 	(tags "Relay RAYEX L90A SPST NO")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "34350a68-6c54-48b0-8177-3e8c58fd14f7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -423,7 +413,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "95dcf7b4-71da-4d4f-a13d-d04102953156")
 	)
@@ -767,7 +757,8 @@
 		(remove_unused_layers no)
 		(uuid "ea683001-5506-4a3d-a2c5-fc973da7ba5f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPST_RAYEX-L90A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPST_RAYEX-L90A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

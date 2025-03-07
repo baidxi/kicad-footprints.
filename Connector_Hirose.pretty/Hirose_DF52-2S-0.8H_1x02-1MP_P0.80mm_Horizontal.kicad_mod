@@ -1,7 +1,7 @@
 (footprint "Hirose_DF52-2S-0.8H_1x02-1MP_P0.80mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Hirose  series connector, DF52-2S-0.8H (https://www.hirose.com/product/en/products/DF52/DF52-3S-0.8H%2821%29/), generated with kicad-footprint-generator")
 	(tags "connector Hirose  top entry")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8ba0d4ed-a251-42a1-b0ca-9fe58158a1db")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -268,32 +258,33 @@
 	(pad "1" smd roundrect
 		(at -0.4 -1.11)
 		(size 0.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "fb62f525-c805-434d-87c2-0f34d6df5782")
 	)
 	(pad "2" smd roundrect
 		(at 0.4 -1.11)
 		(size 0.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "552f10b2-39c2-489b-b276-848dadbd6b03")
 	)
 	(pad "MP" smd roundrect
 		(at -1.65 0.81)
 		(size 0.9 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "2f64e74e-8dad-4944-ae13-51993e84a3e1")
 	)
 	(pad "MP" smd roundrect
 		(at 1.65 0.81)
 		(size 0.9 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1d7bdfa2-f0e4-4f05-ad5b-b64fe9a4d04f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Hirose.3dshapes/Hirose_DF52-2S-0.8H_1x02-1MP_P0.80mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Hirose.3dshapes/Hirose_DF52-2S-0.8H_1x02-1MP_P0.80mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Knowles_SPH0645LM4H-6_3.5x2.65mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Knowles MEMS I2S Microphone: https://www.knowles.com/subdepartment/dpt-microphones/subdpt-sisonic-surface-mount-mems")
 	(tags "microphone MEMS I2S SPH0645LM4H Knowles")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b0c35513-7417-47d9-a056-80756345aa76")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,66 +51,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy -0.6409 1.2094) (xy -0.7233 1.08) (xy -0.78 0.9374) (xy -0.8089 0.7867) (xy -0.8089 0.6333) (xy -0.78 0.4826)
-			(xy -0.7233 0.34) (xy -0.6409 0.2106) (xy -0.4261 0.4253) (xy -0.4678 0.5007) (xy -0.4963 0.582)
-			(xy -0.5107 0.6669) (xy -0.5107 0.7531) (xy -0.4963 0.838) (xy -0.4678 0.9193) (xy -0.4261 0.9947)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "1d457ba1-3985-48c6-a45d-10cd61add669")
-	)
-	(fp_poly
-		(pts
-			(xy -0.4994 0.0691) (xy -0.37 -0.0133) (xy -0.2274 -0.07) (xy -0.0767 -0.0989) (xy 0.0767 -0.0989)
-			(xy 0.2274 -0.07) (xy 0.37 -0.0133) (xy 0.4994 0.0691) (xy 0.2847 0.2839) (xy 0.2093 0.2422) (xy 0.128 0.2137)
-			(xy 0.0431 0.1993) (xy -0.0431 0.1993) (xy -0.128 0.2137) (xy -0.2093 0.2422) (xy -0.2847 0.2839)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "ae9741b4-edff-4365-b4f6-474036ba1a13")
-	)
-	(fp_poly
-		(pts
-			(xy 0.4994 1.3509) (xy 0.37 1.4333) (xy 0.2274 1.49) (xy 0.0767 1.5189) (xy -0.0767 1.5189) (xy -0.2274 1.49)
-			(xy -0.37 1.4333) (xy -0.4994 1.3509) (xy -0.2847 1.1361) (xy -0.2093 1.1778) (xy -0.128 1.2063)
-			(xy -0.0431 1.2207) (xy 0.0431 1.2207) (xy 0.128 1.2063) (xy 0.2093 1.1778) (xy 0.2847 1.1361)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "1c98edcd-debc-4ea6-9bcd-e7a8a1b2e08a")
-	)
-	(fp_poly
-		(pts
-			(xy 0.6409 0.2106) (xy 0.7233 0.34) (xy 0.78 0.4826) (xy 0.8089 0.6333) (xy 0.8089 0.7867) (xy 0.78 0.9374)
-			(xy 0.7233 1.08) (xy 0.6409 1.2094) (xy 0.4261 0.9947) (xy 0.4678 0.9193) (xy 0.4963 0.838) (xy 0.5107 0.7531)
-			(xy 0.5107 0.6669) (xy 0.4963 0.582) (xy 0.4678 0.5007) (xy 0.4261 0.4253)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "aa1910e2-7d35-42c6-98fb-5fd89700d4f7")
-	)
 	(fp_line
 		(start -1.425 1.85)
 		(end -1.425 -1.55)
@@ -170,9 +104,65 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "107e72a0-ade4-4cd8-bc1c-eb4b033fe03c")
+	)
+	(fp_poly
+		(pts
+			(xy -0.6409 1.2094) (xy -0.7233 1.08) (xy -0.78 0.9374) (xy -0.8089 0.7867) (xy -0.8089 0.6333) (xy -0.78 0.4826)
+			(xy -0.7233 0.34) (xy -0.6409 0.2106) (xy -0.4261 0.4253) (xy -0.4678 0.5007) (xy -0.4963 0.582)
+			(xy -0.5107 0.6669) (xy -0.5107 0.7531) (xy -0.4963 0.838) (xy -0.4678 0.9193) (xy -0.4261 0.9947)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "1d457ba1-3985-48c6-a45d-10cd61add669")
+	)
+	(fp_poly
+		(pts
+			(xy -0.4994 0.0691) (xy -0.37 -0.0133) (xy -0.2274 -0.07) (xy -0.0767 -0.0989) (xy 0.0767 -0.0989)
+			(xy 0.2274 -0.07) (xy 0.37 -0.0133) (xy 0.4994 0.0691) (xy 0.2847 0.2839) (xy 0.2093 0.2422) (xy 0.128 0.2137)
+			(xy 0.0431 0.1993) (xy -0.0431 0.1993) (xy -0.128 0.2137) (xy -0.2093 0.2422) (xy -0.2847 0.2839)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "ae9741b4-edff-4365-b4f6-474036ba1a13")
+	)
+	(fp_poly
+		(pts
+			(xy 0.4994 1.3509) (xy 0.37 1.4333) (xy 0.2274 1.49) (xy 0.0767 1.5189) (xy -0.0767 1.5189) (xy -0.2274 1.49)
+			(xy -0.37 1.4333) (xy -0.4994 1.3509) (xy -0.2847 1.1361) (xy -0.2093 1.1778) (xy -0.128 1.2063)
+			(xy -0.0431 1.2207) (xy 0.0431 1.2207) (xy 0.128 1.2063) (xy 0.2093 1.1778) (xy 0.2847 1.1361)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "1c98edcd-debc-4ea6-9bcd-e7a8a1b2e08a")
+	)
+	(fp_poly
+		(pts
+			(xy 0.6409 0.2106) (xy 0.7233 0.34) (xy 0.78 0.4826) (xy 0.8089 0.6333) (xy 0.8089 0.7867) (xy 0.78 0.9374)
+			(xy 0.7233 1.08) (xy 0.6409 1.2094) (xy 0.4261 0.9947) (xy 0.4678 0.9193) (xy 0.4963 0.838) (xy 0.5107 0.7531)
+			(xy 0.5107 0.6669) (xy 0.4963 0.582) (xy 0.4678 0.5007) (xy 0.4261 0.4253)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "aa1910e2-7d35-42c6-98fb-5fd89700d4f7")
 	)
 	(fp_rect
 		(start -1.58 -2)
@@ -181,7 +171,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "0053db91-9473-40e8-b783-8c56d92f31bc")
 	)
@@ -257,14 +247,14 @@
 	(pad "1" smd roundrect
 		(at -0.9 -1.364)
 		(size 0.6 0.522)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "84565542-0188-4498-9f4b-b45cd6688ab7")
 	)
 	(pad "2" smd roundrect
 		(at -0.9 -0.542)
 		(size 0.6 0.522)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "123f8982-5bf7-46ae-8a7d-b274c6270321")
 	)
@@ -289,25 +279,26 @@
 	(pad "4" smd roundrect
 		(at 0.9 -0.542)
 		(size 0.6 0.522)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "25dab54c-8782-483d-a617-27955def6ffb")
 	)
 	(pad "5" smd roundrect
 		(at 0.9 -1.364)
 		(size 0.6 0.522)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "abb4a5ca-71a8-4c95-91df-f8acc8b352c1")
 	)
 	(pad "6" smd roundrect
 		(at 0 -1.364)
 		(size 0.6 0.522)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "348890e6-d22a-4a83-8acd-99c7fcf74918")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Audio.3dshapes/Knowles_SPH0645LM4H-6_3.5x2.65mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Audio.3dshapes/Knowles_SPH0645LM4H-6_3.5x2.65mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "molex_EDGELOCK_6-CKT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.molex.com/pdm_docs/sd/2008900106_sd.pdf")
 	(tags "Connector PCBEdge molex EDGELOCK")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "52058027-0f6b-456a-93f3-5905798fb557")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -610,7 +600,8 @@
 		(roundrect_rratio 0.2)
 		(uuid "bac7b8ab-8d5d-4747-b993-cfde901abe1c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PCBEdge.3dshapes/molex_EDGELOCK_6-CKT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PCBEdge.3dshapes/molex_EDGELOCK_6-CKT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

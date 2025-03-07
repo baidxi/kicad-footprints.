@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_SeikoEpson_MA506-4Pin_12.7x5.1mm_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal Seiko Epson MC-506 http://media.digikey.com/pdf/Data%20Sheets/Epson%20PDFs/MA-505,506.pdf, hand-soldering, 12.7x5.1mm^2 package")
 	(tags "SMD SMT crystal hand-soldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b0359e58-57ee-4358-8096-ccf123046dbc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -228,28 +218,29 @@
 	(pad "1" smd rect
 		(at -6.575 2.2875)
 		(size 6.15 3.075)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bff95f48-7e12-4e49-918f-cb9a88a695af")
 	)
 	(pad "2" smd rect
 		(at 6.575 2.2875)
 		(size 6.15 3.075)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "052b8c9b-6a3c-4418-b1af-4e7e1a259446")
 	)
 	(pad "3" smd rect
 		(at 6.575 -2.2875)
 		(size 6.15 3.075)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dd252874-8732-4f85-9028-95d8de70bde8")
 	)
 	(pad "4" smd rect
 		(at -6.575 -2.2875)
 		(size 6.15 3.075)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "17aaa1e0-b0f2-45cb-be83-2d92fee22ff5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_MA506-4Pin_12.7x5.1mm_HandSoldering.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_MA506-4Pin_12.7x5.1mm_HandSoldering.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

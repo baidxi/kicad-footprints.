@@ -1,7 +1,7 @@
 (footprint "D_MELF"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode, MELF,,")
 	(tags "Diode MELF ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b4b48106-73bd-4824-bcfb-bd682dd31d19")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -248,18 +238,19 @@
 	(pad "1" smd roundrect
 		(at -2.4 0)
 		(size 1.5 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(uuid "f664be36-685c-4b56-bbed-6cddce27032f")
 	)
 	(pad "2" smd roundrect
 		(at 2.4 0)
 		(size 1.5 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(uuid "de8dbd06-c580-4566-a3d2-c40ff056a54e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MELF.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MELF.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

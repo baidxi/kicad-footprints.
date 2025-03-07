@@ -1,7 +1,7 @@
 (footprint "MLF-8-1EP_3x3mm_P0.65mm_EP1.55x2.3mm_ThermalVias"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "8-Pin ePad 3mm x 3mm MLF - 3x3x0.85 mm Body (see Microchip datasheet http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf)")
 	(tags "DFN MLF 0.65")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "92e2080a-6c7d-446a-ab80-985780d16e76")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -122,7 +112,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "3736f8d4-9898-4965-a0e9-9dbea725f2b1")
 	)
@@ -251,56 +241,56 @@
 	(pad "1" smd roundrect
 		(at -1.36 -0.975)
 		(size 0.48 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d376a7bc-6536-4b53-8cad-6e77610cdce5")
 	)
 	(pad "2" smd roundrect
 		(at -1.36 -0.325)
 		(size 0.48 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e520e005-61fc-475d-aac1-04e4436cd0ec")
 	)
 	(pad "3" smd roundrect
 		(at -1.36 0.325)
 		(size 0.48 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "2aad6e11-9f30-44ed-bbf5-52c59de7d699")
 	)
 	(pad "4" smd roundrect
 		(at -1.36 0.975)
 		(size 0.48 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6adb3407-5122-4d9a-9e47-d1523c2f396c")
 	)
 	(pad "5" smd roundrect
 		(at 1.36 0.975)
 		(size 0.48 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "948bb463-e7b8-48e4-b96e-802e2338b989")
 	)
 	(pad "6" smd roundrect
 		(at 1.36 0.325)
 		(size 0.48 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "387e7fdb-a033-4101-b4fd-d6c350b58fbb")
 	)
 	(pad "7" smd roundrect
 		(at 1.36 -0.325)
 		(size 0.48 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "61429405-ab85-4627-a526-7b2bc7d91fda")
 	)
 	(pad "8" smd roundrect
 		(at 1.36 -0.975)
 		(size 0.48 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "406ae0fc-4640-4376-88e5-0889a12e1fdf")
 	)
@@ -332,7 +322,8 @@
 		(remove_unused_layers no)
 		(uuid "74c42a64-322d-4445-b045-e7f81e863c7f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/MLF-8-1EP_3x3mm_P0.65mm_EP1.55x2.3mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/MLF-8-1EP_3x3mm_P0.65mm_EP1.55x2.3mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

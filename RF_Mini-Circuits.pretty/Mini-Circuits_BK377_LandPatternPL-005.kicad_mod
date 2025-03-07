@@ -1,7 +1,7 @@
 (footprint "Mini-Circuits_BK377_LandPatternPL-005"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint for Mini-Circuits case BK377 (https://ww2.minicircuits.com/case_style/BK276.pdf) according to land-pattern PL-005, including GND vias (https://ww2.minicircuits.com/pcb/98-pl005.pdf)")
 	(tags "Mini-circuits VCXO JTOS PL-005")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3a02b55f-8d2d-45b0-b488-0e2981052259")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "e931e445-7753-4eff-b455-3e2b9304bd7c")
 	)
@@ -309,7 +299,7 @@
 		(drill
 			(offset 1.27 0)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "d6c27d7e-5518-42a0-980f-2fbf86162c9c")
 	)
@@ -552,7 +542,7 @@
 	(pad "2" smd rect
 		(at -5.3975 -5.08)
 		(size 2.54 1.651)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.889)
 		(zone_connect 2)
 		(uuid "3cd0e4e6-dfc4-4ccd-8dcc-8c2c32062a02")
@@ -563,7 +553,7 @@
 		(drill
 			(offset 1.27 0)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "1a1d95a9-5532-4ad3-976b-5bd81e19d76f")
 	)
@@ -573,14 +563,14 @@
 		(drill
 			(offset 1.27 0)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "e42f44ff-55f9-42d8-a0f1-fa289507825f")
 	)
 	(pad "5" smd rect
 		(at -5.3975 2.54)
 		(size 2.54 1.651)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.889)
 		(zone_connect 2)
 		(uuid "c6a4a479-8de9-4276-89ae-76d501fd3453")
@@ -591,7 +581,7 @@
 		(drill
 			(offset 1.27 0)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "099c8bf7-0a05-4af8-9938-181a59129530")
 	)
@@ -601,7 +591,7 @@
 		(drill
 			(offset 1.27 0)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "c313b3ad-373b-4606-b000-5ae601fdf496")
 	)
@@ -611,7 +601,7 @@
 		(drill
 			(offset -1.27 0)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "a6e62ded-47ac-4214-a3b9-fe7f28f29f76")
 	)
@@ -621,7 +611,7 @@
 		(drill
 			(offset -1.27 0)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "dc6847ee-b598-4d80-b2f3-fb765e2919cd")
 	)
@@ -631,7 +621,7 @@
 		(drill
 			(offset -1.27 0)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "225607ed-ac7e-47c0-b01f-0dc6c110b5a4")
 	)
@@ -641,7 +631,7 @@
 		(drill
 			(offset -1.27 0)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "0176d704-b487-4daa-a049-8e6ab4142015")
 	)
@@ -651,14 +641,14 @@
 		(drill
 			(offset -1.27 0)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "ad0bdf8e-4d12-4236-aad3-e5932404251c")
 	)
 	(pad "13" smd rect
 		(at 5.3975 -5.08)
 		(size 2.54 1.651)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.889)
 		(zone_connect 2)
 		(uuid "c797d0a9-724e-4d93-bda9-6db366d48871")
@@ -666,11 +656,12 @@
 	(pad "14" smd rect
 		(at 5.3975 -7.62)
 		(size 2.54 1.651)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "5b54aacd-6aa3-4c7e-a5da-0db43f2f9c5b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_BK377.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_BK377.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

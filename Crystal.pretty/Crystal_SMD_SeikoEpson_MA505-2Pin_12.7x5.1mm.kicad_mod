@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_SeikoEpson_MA505-2Pin_12.7x5.1mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal Seiko Epson MC-505 http://media.digikey.com/pdf/Data%20Sheets/Epson%20PDFs/MA-505,506.pdf, 12.7x5.1mm^2 package")
 	(tags "SMD SMT crystal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8108ea04-e69a-41b1-9f05-0f2f41c39fbc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -198,16 +188,17 @@
 	(pad "1" smd rect
 		(at -5.55 0)
 		(size 4.1 5.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d92036d7-a18c-4546-933f-75260b2c993d")
 	)
 	(pad "2" smd rect
 		(at 5.55 0)
 		(size 4.1 5.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "77989b0e-2086-4b92-9431-8acd4f6ec3af")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_MA505-2Pin_12.7x5.1mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_MA505-2Pin_12.7x5.1mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

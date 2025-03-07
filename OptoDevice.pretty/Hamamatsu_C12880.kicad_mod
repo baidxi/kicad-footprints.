@@ -1,7 +1,7 @@
 (footprint "Hamamatsu_C12880"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Hamamatsu spectrometer, see http://www.hamamatsu.com/resources/pdf/ssd/c12880ma_kacc1226e.pdf")
 	(tags "opto spectrometer Hamamatsu")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6661f07c-8576-4baf-a207-84c54cc60cde")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -267,7 +257,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e6eadffe-444f-458b-bf90-5df6a84d2736")
 	)
@@ -363,7 +353,8 @@
 		(remove_unused_layers no)
 		(uuid "ced60393-2178-4318-b85d-755a763b2a35")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Hamamatsu_C12880.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Hamamatsu_C12880.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

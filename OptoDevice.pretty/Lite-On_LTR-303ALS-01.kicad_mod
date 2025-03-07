@@ -1,7 +1,7 @@
 (footprint "Lite-On_LTR-303ALS-01"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "ambient light sensor, i2c interface, 6-pin chipled package, http://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf")
 	(tags "ambient light sensor chipled")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cf81553b-b2b7-4405-a95e-370c6efb118b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "6a5522a5-1f51-4430-8923-4bce6a934ba9")
 	)
@@ -200,46 +190,47 @@
 	(pad "1" smd roundrect
 		(at -0.9 -0.65)
 		(size 0.65 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "df502f22-fd9b-4c6e-bfbd-afdb5a93e881")
 	)
 	(pad "2" smd roundrect
 		(at -0.9 0)
 		(size 0.65 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6ed42848-5d22-40f8-bebe-5a9ba9adca86")
 	)
 	(pad "3" smd roundrect
 		(at -0.9 0.65)
 		(size 0.65 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c35e918f-84a2-42a8-ad8a-9fd194c39c4d")
 	)
 	(pad "4" smd roundrect
 		(at 0.9 0.65)
 		(size 0.65 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d1a18675-c056-42e4-bc6a-ba8b2c51cd5c")
 	)
 	(pad "5" smd roundrect
 		(at 0.9 0)
 		(size 0.65 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f67b5992-6361-40cf-9968-ac6412f19b7a")
 	)
 	(pad "6" smd roundrect
 		(at 0.9 -0.65)
 		(size 0.65 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "930f666b-0d6d-4e8c-81ba-cf3e5bca3b28")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Lite-On_LTR-303ALS-01.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Lite-On_LTR-303ALS-01.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

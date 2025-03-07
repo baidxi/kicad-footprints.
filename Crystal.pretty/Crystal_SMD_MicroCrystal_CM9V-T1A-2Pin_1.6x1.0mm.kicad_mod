@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal MicroCrystal CM9V-T1A series https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM9V-T1A.pdf, 1.6x1.0mm^2 package")
 	(tags "SMD SMT crystal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4ce30b9c-3d2f-4034-82ac-15983dc377db")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -198,16 +188,17 @@
 	(pad "1" smd rect
 		(at -0.6 0)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0ec89329-7e35-4036-89da-026fb9ec9287")
 	)
 	(pad "2" smd rect
 		(at 0.6 0)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "22c46bcb-b315-419c-b76f-0158d5b6054f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

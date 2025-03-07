@@ -1,7 +1,7 @@
 (footprint "SMA_Molex_73251-2120_EdgeMount_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex SMA RF Connector, Edge Mount, (http://www.molex.com/pdm_docs/sd/732512120_sd.pdf)")
 	(tags "sma edge")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "00a12505-329e-4306-875b-f187749c6ebf")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -565,7 +555,7 @@
 		(uuid "57dea40a-0743-480c-8239-62692b86543c")
 	)
 	(fp_text user "PCB Edge"
-		(at 2.155 0 -90)
+		(at 2.155 0 270)
 		(layer "Dwgs.User")
 		(uuid "406ed19a-165c-4c9b-8d60-1f4962bce10b")
 		(effects
@@ -589,7 +579,7 @@
 	(pad "1" smd roundrect
 		(at -0.25 0)
 		(size 3.69 1.78)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1404494382)
 		(uuid "32662d1c-173d-4263-a1bc-a9a0ccf2fcaf")
 	)
@@ -612,32 +602,33 @@
 	(pad "2" smd roundrect
 		(at -0.25 -3.4925)
 		(size 3.69 2.665)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.09380863039)
 		(uuid "ecdf45c8-3097-4a07-81f5-e9c844eea3ff")
 	)
 	(pad "2" smd roundrect
 		(at -0.25 -3.4925)
 		(size 3.69 2.665)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.09380863039)
 		(uuid "22bd8a37-1f5e-430b-ba9d-56150300f054")
 	)
 	(pad "2" smd roundrect
 		(at -0.25 3.4925)
 		(size 3.69 2.665)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.09380863039)
 		(uuid "09bf18b3-0ada-4092-ae5c-41b274b9352f")
 	)
 	(pad "2" smd roundrect
 		(at -0.25 3.4925)
 		(size 3.69 2.665)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.09380863039)
 		(uuid "3f4dbb80-333f-419f-896b-25dc2a5e90cd")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Molex_73251-2120_EdgeMount_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Molex_73251-2120_EdgeMount_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

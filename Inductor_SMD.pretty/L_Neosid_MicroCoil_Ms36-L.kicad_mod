@@ -1,7 +1,7 @@
 (footprint "L_Neosid_MicroCoil_Ms36-L"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Neosid, Micro Coil, Inductor, Ms36-L, SMD, Fixed inductor, anti clockwise, https://neosid.de/en/products/inductors/rod-core-chokes/smd-rod-core-chokes/52026/ms-36/7-h?c=94")
 	(tags "Neosid Micro Coil Inductor Ms36-L SMD Fixed inductor anti clockwise")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "95828507-3bcc-4a69-8310-6fed9c1de1af")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -258,16 +248,17 @@
 	(pad "1" smd rect
 		(at -4 0)
 		(size 3 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2ee96385-4027-42b4-a29f-083e47658ea9")
 	)
 	(pad "2" smd rect
 		(at 4 0)
 		(size 3 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9c3b83b0-702f-4582-9853-664b35e9c576")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_MicroCoil_Ms36-L.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_MicroCoil_Ms36-L.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

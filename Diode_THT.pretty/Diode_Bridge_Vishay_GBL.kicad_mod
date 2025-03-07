@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Vishay_GBL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Vishay GBL rectifier package, 5.08mm pitch, see http://www.vishay.com/docs/88609/gbl005.pdf")
 	(tags "Vishay GBL rectifier diode bridge")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5162f380-f007-45f5-b969-4a5da66c6e72")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -297,7 +287,8 @@
 		(remove_unused_layers no)
 		(uuid "433ce3d3-f934-46f4-9cfd-5251984f1907")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Vishay_GBL.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Vishay_GBL.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

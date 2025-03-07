@@ -1,7 +1,7 @@
 (footprint "R_2816_7142Metric"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Resistor SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator")
 	(tags "resistor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "471a88a0-0cca-461a-b12b-bcc2de85cd9f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -178,18 +168,19 @@
 	(pad "1" smd roundrect
 		(at -2.5125 0)
 		(size 3.025 4.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.082645)
 		(uuid "2d8ddbb0-7654-4ebb-8158-566228d8f454")
 	)
 	(pad "2" smd roundrect
 		(at 2.5125 0)
 		(size 3.025 4.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.082645)
 		(uuid "c75a3b07-facb-4404-b33e-dade322bf5df")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2816_7142Metric.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2816_7142Metric.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

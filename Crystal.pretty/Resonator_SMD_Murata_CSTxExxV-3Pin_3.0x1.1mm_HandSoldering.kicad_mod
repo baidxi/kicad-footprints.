@@ -1,7 +1,7 @@
 (footprint "Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Resomator/Filter Murata CSTCE, https://www.murata.com/en-eu/products/productdata/8801162264606/SPEC-CSTNE16M0VH3C000R0.pdf")
 	(tags "SMD SMT ceramic resonator filter")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "92c15a0f-e394-493e-b7f8-8f40428c8754")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -288,22 +278,23 @@
 	(pad "1" smd rect
 		(at -1.2 0)
 		(size 0.4 3.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "15f95be3-9d8c-4508-8930-b828173698e4")
 	)
 	(pad "2" smd rect
 		(at 0 0)
 		(size 0.4 3.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "86a17056-efdf-475d-b7e8-7be5502d3f99")
 	)
 	(pad "3" smd rect
 		(at 1.2 0)
 		(size 0.4 3.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c43fae5e-f72a-43ef-93e9-4cf9dfb6f6e4")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

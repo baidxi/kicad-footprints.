@@ -1,7 +1,7 @@
 (footprint "Relay_Socket_4PDT_Omron_PY14-02"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "21.4x25.8mm, 4Pole mounting socket, 3A, 1.5kV AC / minute, 1e2Mohm, https://www.omron.com.tw/data_pdf/cat/common_sockets_ds_e_6_1_csm1819.pdf?#page=19")
 	(tags "relay socket")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a7285ea5-38f2-438a-9812-b79108cbe09a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -93,7 +83,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "81954ba9-b7db-4e19-b111-41db5c957c19")
 	)
@@ -144,7 +134,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "f0c4f73e-66cb-4579-80f1-5b81adf159c1")
 	)
@@ -155,7 +145,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "515655c2-ad52-43c9-9e8f-05c183d930c8")
 	)
@@ -166,12 +156,12 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2b97690e-3835-4a05-a3e5-8d29b99e86e2")
 	)
 	(fp_text user "Panel cutout"
-		(at -6.4 7.6 -90)
+		(at -6.4 7.6 270)
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "361b11de-112f-4cc2-a88c-35c13c919aed")
@@ -321,7 +311,8 @@
 		(remove_unused_layers no)
 		(uuid "b8372c75-01cc-49b4-b692-73fb9a5bcdb8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_Socket_4PDT_Omron_PY14-02.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_Socket_4PDT_Omron_PY14-02.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

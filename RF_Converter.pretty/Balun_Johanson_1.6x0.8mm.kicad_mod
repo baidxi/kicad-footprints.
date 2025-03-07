@@ -1,7 +1,7 @@
 (footprint "Balun_Johanson_1.6x0.8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "6-pin 1.6x0.8 mm balun footprint")
 	(tags "Johanson balun filter")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bb010691-079f-419c-9674-d1387258b403")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "8aead4cd-fa5b-4bbd-bf96-823696377dfa")
 	)
@@ -210,46 +200,47 @@
 	(pad "1" smd roundrect
 		(at -0.41 -0.5 180)
 		(size 0.45 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "aa9649bc-c0fe-4881-9006-8d4bfdb62911")
 	)
 	(pad "2" smd roundrect
 		(at -0.41 0)
 		(size 0.45 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "9333ca64-d7ee-47ea-a9e8-6b827662b493")
 	)
 	(pad "3" smd roundrect
 		(at -0.41 0.5)
 		(size 0.45 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3d355562-8ce4-4e13-b4aa-5b7a46f29ba3")
 	)
 	(pad "4" smd roundrect
 		(at 0.41 0.5)
 		(size 0.45 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f6a1fe11-3030-4b73-b364-275c077bb01f")
 	)
 	(pad "5" smd roundrect
 		(at 0.41 0)
 		(size 0.45 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "12bbad67-4a0a-43c4-8d74-888ba06842bf")
 	)
 	(pad "6" smd roundrect
 		(at 0.41 -0.5)
 		(size 0.45 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "61ce82da-9746-4a1b-8751-247290394e5b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Converter.3dshapes/Balun_Johanson_1.6x0.8mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Converter.3dshapes/Balun_Johanson_1.6x0.8mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

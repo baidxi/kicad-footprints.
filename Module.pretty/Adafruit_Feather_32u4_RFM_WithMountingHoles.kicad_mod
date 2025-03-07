@@ -1,7 +1,7 @@
 (footprint "Adafruit_Feather_32u4_RFM_WithMountingHoles"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint for the Adafruit Feather 32u4 RFM series of boards, https://learn.adafruit.com/adafruit-feather-32u4-radio-with-rfm69hcw-module")
 	(tags "Adafruit Feather 32u4 RFM")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d1e22d63-3454-4b5b-8193-a14ae7e13c33")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -347,7 +337,7 @@
 		(uuid "1d117f48-9c0c-403f-ad1b-4eb6ca4a0bef")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 10.16 19.05 -90)
+		(at 10.16 19.05 270)
 		(layer "F.Fab")
 		(uuid "ce17ce74-ccd6-4fc2-b957-ff6915d50c60")
 		(effects
@@ -696,7 +686,8 @@
 		(remove_unused_layers no)
 		(uuid "03fe9b99-a0b4-49bc-89df-0bfc9606a09e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Adafruit_Feather_32u4_RFM.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/Adafruit_Feather_32u4_RFM.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "LEM_HTFS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LEM HTFS x00-P current transducer (https://www.lem.com/sites/default/files/products_datasheets/htfs_200_800-p.pdf)")
 	(tags "HTFS current transducer")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4d7edbb8-90b1-44ab-aaf1-07c23b0a53d6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -554,7 +544,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7caa5640-9b35-4e86-81bf-8ce4d672b838")
 	)
@@ -636,7 +626,8 @@
 		(remove_unused_layers no)
 		(uuid "237dab32-bfd3-413b-a5da-5b8518422d65")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Current.3dshapes/LEM_HTFS.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Current.3dshapes/LEM_HTFS.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

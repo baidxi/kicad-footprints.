@@ -1,7 +1,7 @@
 (footprint "EPC_BGA-4_0.9x0.9mm_Layout2x2_P0.45mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "EPC BGA-4, 0.9x09mm, Pitch 0.4mm, https://epc-co.com/epc/Portals/0/epc/documents/datasheets/EPC2035_datasheet.pdf")
 	(tags "EPC BGA-4")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aead5c0f-1df4-419f-ad60-c003080c3c3a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -113,7 +103,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "7876bc2f-58cc-4aee-a7ff-97d3c67a5794")
 	)
@@ -264,14 +254,6 @@
 		(uuid "f8209d12-0028-4436-86c5-615805bfeb82")
 	)
 	(pad "3" smd circle
-		(at 0.225 0.225)
-		(size 0.225 0.225)
-		(property pad_prop_bga)
-		(layers "F.Cu" "F.Mask")
-		(solder_mask_margin -0.01)
-		(uuid "d31c5b46-206b-494c-8e9b-785a6c7d1d18")
-	)
-	(pad "4" smd circle
 		(at 0.225 -0.225)
 		(size 0.225 0.225)
 		(property pad_prop_bga)
@@ -279,7 +261,16 @@
 		(solder_mask_margin -0.01)
 		(uuid "bbecd3ee-36d7-43d3-805d-20cbf144ee51")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/EPC_BGA-4_0.9x0.9mm_Layout2x2_P0.45mm.wrl"
+	(pad "4" smd circle
+		(at 0.225 0.225)
+		(size 0.225 0.225)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin -0.01)
+		(uuid "d31c5b46-206b-494c-8e9b-785a6c7d1d18")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/EPC_BGA-4_0.9x0.9mm_Layout2x2_P0.45mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

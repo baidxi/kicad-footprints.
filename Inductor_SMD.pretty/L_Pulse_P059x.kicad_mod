@@ -1,7 +1,7 @@
 (footprint "L_Pulse_P059x"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1:1, Power Inductor, https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/p0599nl")
 	(tags "inductor coil choke")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5a4852d4-7907-4597-9397-c93d07d78bc9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -133,7 +123,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "e41c4923-b76b-41b6-9ab8-fc420e29595c")
 	)
@@ -202,28 +192,29 @@
 	(pad "1" smd rect
 		(at -7.62 -13.93)
 		(size 10.16 3.94)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "df939c93-fb78-479a-bd7f-7568da38b4e1")
 	)
 	(pad "2" smd rect
 		(at 7.62 -13.93)
 		(size 10.16 3.94)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d3e8089b-b03d-4f16-8641-6cc133dfa486")
 	)
 	(pad "3" smd rect
 		(at 7.62 13.93)
 		(size 10.16 3.94)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "396895b7-7507-4d50-b70e-676691ccd990")
 	)
 	(pad "4" smd rect
 		(at -7.62 13.93)
 		(size 10.16 3.94)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4b07d4cb-d068-48ff-9258-1c91062be070")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Pulse_P059x.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Pulse_P059x.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

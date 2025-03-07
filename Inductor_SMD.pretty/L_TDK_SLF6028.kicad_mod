@@ -1,7 +1,7 @@
 (footprint "L_TDK_SLF6028"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Inductor, TDK, SLF6028, 6.0mmx6.0mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/document/catalog/smd/inductor_commercial_power_slf6028_en.pdf)")
 	(tags "Inductor TDK_SLF6028")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2864fc8f-5359-4fdc-a60b-28f27269dfef")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -328,18 +318,19 @@
 	(pad "1" smd roundrect
 		(at -2.75 0)
 		(size 1.5 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "04114407-630c-40f4-8768-febdb414a82d")
 	)
 	(pad "2" smd roundrect
 		(at 2.75 0)
 		(size 1.5 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5540e11c-2660-4827-9249-5ac9bb1a0216")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_TDK_SLF6028.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_TDK_SLF6028.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

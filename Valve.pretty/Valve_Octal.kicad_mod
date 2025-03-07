@@ -1,7 +1,7 @@
 (footprint "Valve_Octal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "8-pin round valve")
 	(tags "valve")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e11efbd1-10aa-475b-8594-42090f6af18f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "63f9b515-f7f5-4a65-b50d-1f10848cd1f1")
 	)
@@ -82,7 +72,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "982a49d2-1b3c-4dca-b6ac-7cf8137bf9f6")
 	)
@@ -93,7 +83,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "502ac3fa-55b3-445d-a8fa-9588437196c7")
 	)
@@ -104,7 +94,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "eae53555-a574-4aec-b4d9-7dc5e76855e8")
 	)
@@ -191,7 +181,8 @@
 		(remove_unused_layers no)
 		(uuid "156fa16d-98c7-4035-bc5e-4cd1966c76a7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Valve.3dshapes/Valve_Octal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Valve.3dshapes/Valve_Octal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

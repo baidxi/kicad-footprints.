@@ -1,7 +1,7 @@
 (footprint "Texas_RNN0018A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments, VQFN-HR RNN0018A (http://www.ti.com/lit/ds/symlink/tps568215.pdf)")
 	(tags "ti vqfn-hr rnn0018a")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7f7826fa-9b2a-4505-b638-0802397c04fc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -143,7 +133,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "b0572413-b6cf-4cd6-9412-242027b9f020")
 	)
@@ -307,7 +297,7 @@
 	(pad "1" smd roundrect
 		(at -1.65 -0.925)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "81378806-7e98-478d-94b4-dee6dc3fb8ea")
 	)
@@ -321,21 +311,21 @@
 	(pad "3" smd roundrect
 		(at -1.375 0.3)
 		(size 1.15 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "262c5bba-9bec-4efc-9594-41bc8046e015")
 	)
 	(pad "4" smd roundrect
 		(at -1.375 0.85)
 		(size 1.15 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "4786b23e-1ac3-44cf-8be1-190b8c913cc6")
 	)
 	(pad "5" smd roundrect
 		(at -1.375 1.4)
 		(size 1.15 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "cb8c916e-95c8-4de1-aec5-53463b798eb8")
 	)
@@ -356,21 +346,21 @@
 	(pad "8" smd roundrect
 		(at 1.375 1.4)
 		(size 1.15 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "510c3b1a-0040-40e1-b70e-357f5c8dc9e2")
 	)
 	(pad "9" smd roundrect
 		(at 1.375 0.85)
 		(size 1.15 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "13b0fc0f-e042-4ed0-8309-e77e4c774e4a")
 	)
 	(pad "10" smd roundrect
 		(at 1.375 0.3)
 		(size 1.15 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "bac9b4a1-08b5-4387-9eea-847e7df02aea")
 	)
@@ -384,53 +374,54 @@
 	(pad "12" smd roundrect
 		(at 1.65 -0.925)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "af7c599b-4715-4784-be79-c0445d1211f7")
 	)
 	(pad "13" smd roundrect
 		(at 1.25 -1.65)
 		(size 0.25 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "9397e8fe-3c93-45a4-9e54-260db20fce09")
 	)
 	(pad "14" smd roundrect
 		(at 0.75 -1.65)
 		(size 0.25 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "2cd68260-92a9-4500-aa71-ca5e3325ed27")
 	)
 	(pad "15" smd roundrect
 		(at 0.25 -1.65)
 		(size 0.25 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "ffef202a-6f42-4b20-8d2b-54f076d1a054")
 	)
 	(pad "16" smd roundrect
 		(at -0.25 -1.65)
 		(size 0.25 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "7da89469-5b17-4ead-80a9-fd6303bec778")
 	)
 	(pad "17" smd roundrect
 		(at -0.75 -1.65)
 		(size 0.25 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "7c155248-4e4f-4cd9-8414-872200365c9f")
 	)
 	(pad "18" smd roundrect
 		(at -1.25 -1.65)
 		(size 0.25 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "53fb3083-2d85-4ee4-8813-8ec798902ae1")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RNN0018A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RNN0018A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

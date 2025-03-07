@@ -1,7 +1,7 @@
 (footprint "Jack_6.35mm_Neutrik_NJ5FD-V_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "6.35mm (1/4 in) Vertical Jack, 2 x switching (normalling) stereo jack (T/TN/R/RN/S), https://www.neutrik.com/en/product/nj5fd-v")
 	(tags "neutrik jack vertical")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "322c03bd-2908-4af2-bc14-b87b7a25b27c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -345,7 +335,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8f93cc2d-5d67-428a-afd0-af0940c16835")
 	)
@@ -414,7 +404,8 @@
 		(remove_unused_layers no)
 		(uuid "37340f32-f3f4-46f2-aba0-5d1f22bc132c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_6.35mm_Neutrik_NJ5FD-V_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_6.35mm_Neutrik_NJ5FD-V_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

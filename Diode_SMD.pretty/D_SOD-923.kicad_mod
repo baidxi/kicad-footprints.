@@ -1,7 +1,7 @@
 (footprint "D_SOD-923"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF#page=4")
 	(tags "Diode SOD923")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "abfd004e-4891-4e55-b393-fd78761c8292")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -328,18 +318,19 @@
 	(pad "1" smd roundrect
 		(at -0.42 0 180)
 		(size 0.36 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "da7e7dc2-c28a-46d5-84ab-e4c3b3e4b3c2")
 	)
 	(pad "2" smd roundrect
 		(at 0.42 0 180)
 		(size 0.36 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "48d51772-ba39-4b52-91fb-8a3ce1d91c8d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-923.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-923.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

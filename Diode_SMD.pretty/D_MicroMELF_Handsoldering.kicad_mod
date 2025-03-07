@@ -1,7 +1,7 @@
 (footprint "D_MicroMELF_Handsoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode, MicroMELF, Hand Soldering, http://www.vishay.com/docs/85597/bzm55.pdf")
 	(tags "MicroMELF Diode")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "55749947-5bea-4eef-91eb-1fd40bb323d9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -248,18 +238,19 @@
 	(pad "1" smd roundrect
 		(at -1.45 0)
 		(size 2.2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(uuid "7b5a3131-94ce-4be0-be14-9362534f679e")
 	)
 	(pad "2" smd roundrect
 		(at 1.45 0)
 		(size 2.2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(uuid "dde48f5a-7a95-407a-a65a-a8b76959c276")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MicroMELF.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MicroMELF.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

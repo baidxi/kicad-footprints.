@@ -1,7 +1,7 @@
 (footprint "Nidec_Copal_SH-7010A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "4-bit rotary coded switch, J-hook, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf")
 	(tags "rotary switch bcd")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "116044ab-faf5-4bde-89ce-1105d960da6e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -288,40 +278,41 @@
 	(pad "1" smd rect
 		(at -3.25 -2.54)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "caed159a-d8a6-432f-8272-c73bd5f2e507")
 	)
 	(pad "2" smd rect
 		(at 3.25 2.54)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "75fd156a-b638-400c-9fde-28f248d8bcdb")
 	)
 	(pad "4" smd rect
 		(at -3.25 2.54)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8f10a8c9-3d61-4080-b139-01870e3af2a5")
 	)
 	(pad "8" smd rect
 		(at 3.25 -2.54)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6a2b6959-22b1-4dd7-8eee-9a07cdbf0a8c")
 	)
 	(pad "C" smd rect
 		(at -3.25 0)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4d501b96-6f34-40b9-81e7-350833820913")
 	)
 	(pad "C" smd rect
 		(at 3.25 0)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3815046d-27f5-4ccb-94bf-edfbe0a80d74")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/Nidec_Copal_SH-7010A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/Nidec_Copal_SH-7010A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

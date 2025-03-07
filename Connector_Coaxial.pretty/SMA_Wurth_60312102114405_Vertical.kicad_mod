@@ -1,7 +1,7 @@
 (footprint "SMA_Wurth_60312102114405_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Würth WR-SMA PCB SMT Jack, Vertical (https://www.we-online.com/components/products/datasheet/60312102114405.pdf)")
 	(tags "Coaxial Connector 50 ohms Female")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "903c42e0-2b74-4f2a-a892-982b8283bc07")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,62 +51,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy -1.6523 1.205) (xy -3.56 1.205) (xy -3.56 3.555) (xy -1.205 3.555) (xy -1.205 1.6523) (xy -1.331585 1.556258)
-			(xy -1.556258 1.331585)
-		)
-		(stroke
-			(width 0.001)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "e4274375-2c45-4f4f-946a-f2ccf090c6bc")
-	)
-	(fp_poly
-		(pts
-			(xy -1.205 -1.6523) (xy -1.205 -3.555) (xy -3.56 -3.555) (xy -3.56 -1.205) (xy -1.6523 -1.205) (xy -1.556258 -1.331585)
-			(xy -1.331585 -1.556258)
-		)
-		(stroke
-			(width 0.001)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "77940124-2729-47d9-b8e7-4187eac881a3")
-	)
-	(fp_poly
-		(pts
-			(xy 1.205 1.6523) (xy 1.205 3.555) (xy 3.56 3.555) (xy 3.56 1.205) (xy 1.6523 1.205) (xy 1.556258 1.331585)
-			(xy 1.331585 1.556258)
-		)
-		(stroke
-			(width 0.001)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "694c2d0e-4380-46d8-82bb-75255b40c259")
-	)
-	(fp_poly
-		(pts
-			(xy 1.6523 -1.205) (xy 3.56 -1.205) (xy 3.56 -3.555) (xy 1.205 -3.555) (xy 1.205 -1.6523) (xy 1.331585 -1.556258)
-			(xy 1.556258 -1.331585)
-		)
-		(stroke
-			(width 0.001)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "9311c512-ca71-4cce-9a20-4f6ff5eebd0a")
-	)
 	(fp_line
 		(start -3.29 -0.5)
 		(end -3.29 0.5)
@@ -138,6 +76,58 @@
 		(layer "F.SilkS")
 		(uuid "43c54dff-ae8d-43e9-90f0-4771e95e069d")
 	)
+	(fp_poly
+		(pts
+			(xy -1.6523 1.205) (xy -3.56 1.205) (xy -3.56 3.555) (xy -1.205 3.555) (xy -1.205 1.6523) (xy -1.331585 1.556258)
+			(xy -1.556258 1.331585)
+		)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "e4274375-2c45-4f4f-946a-f2ccf090c6bc")
+	)
+	(fp_poly
+		(pts
+			(xy -1.205 -1.6523) (xy -1.205 -3.555) (xy -3.56 -3.555) (xy -3.56 -1.205) (xy -1.6523 -1.205) (xy -1.556258 -1.331585)
+			(xy -1.331585 -1.556258)
+		)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "77940124-2729-47d9-b8e7-4187eac881a3")
+	)
+	(fp_poly
+		(pts
+			(xy 1.205 1.6523) (xy 1.205 3.555) (xy 3.56 3.555) (xy 3.56 1.205) (xy 1.6523 1.205) (xy 1.556258 1.331585)
+			(xy 1.331585 1.556258)
+		)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "694c2d0e-4380-46d8-82bb-75255b40c259")
+	)
+	(fp_poly
+		(pts
+			(xy 1.6523 -1.205) (xy 3.56 -1.205) (xy 3.56 -3.555) (xy 1.205 -3.555) (xy 1.205 -1.6523) (xy 1.331585 -1.556258)
+			(xy 1.556258 -1.331585)
+		)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "9311c512-ca71-4cce-9a20-4f6ff5eebd0a")
+	)
 	(fp_rect
 		(start 4.06 -4.06)
 		(end -4.06 4.06)
@@ -145,7 +135,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "85399777-5a98-453b-8c26-97f8c94780f1")
 	)
@@ -156,7 +146,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0147ec00-0ef8-4cfc-bdae-780212a634b0")
 	)
@@ -175,7 +165,7 @@
 	(pad "1" smd circle
 		(at 0 0 270)
 		(size 1.73 1.73)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "defb487a-7128-4ec2-9282-f506f34d3485")
 	)
 	(pad "2" smd custom
@@ -224,7 +214,8 @@
 		)
 		(uuid "4925b157-9005-4cce-96e1-250446c4a1c9")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Wurth_60312102114405_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Wurth_60312102114405_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "LED_Avago_PLCC6_3x2.8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://docs.broadcom.com/docs/AV02-3793EN")
 	(tags "LED Avago PLCC-6 ASMT-YTB7-0AA02")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "21f30cb4-6491-4f2c-8511-9348f5dd5c06")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,13 +49,44 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_line
-		(start -2.2 -1.51)
-		(end 1.5 -1.51)
+		(start -2.55 -1.15)
+		(end -2.55 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "365341c7-a1bd-4331-9138-9abadc8100a1")
+	)
+	(fp_line
+		(start -2.55 1.5)
+		(end 2.5 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c49b5dd-75c8-4902-bd4e-59fecc56aa15")
+	)
+	(fp_line
+		(start -2.2 -1.5)
+		(end -2.55 -1.15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cb28c9bb-4afa-4c0b-a364-57ee3145ca4f")
+	)
+	(fp_line
+		(start -2.2 -1.5)
+		(end 2.5 -1.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -75,14 +95,14 @@
 		(uuid "c8f1c1b1-3b4e-4a2f-a198-b2b8b36d4f9a")
 	)
 	(fp_line
-		(start -1.5 1.51)
-		(end 1.5 1.51)
+		(start 2.5 -1.5)
+		(end 2.5 1.5)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5c49b5dd-75c8-4902-bd4e-59fecc56aa15")
+		(uuid "17fd1e26-4acd-4651-a6e0-091a198989fc")
 	)
 	(fp_line
 		(start -2.53 -1.65)
@@ -188,40 +208,41 @@
 	(pad "1" smd rect
 		(at -1.475 -0.9)
 		(size 1.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e7613b15-9ee8-4dca-ac03-1ffdbda05d09")
 	)
 	(pad "2" smd rect
 		(at -1.475 0)
 		(size 1.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "35e8ff78-2370-408d-83b8-87355a1babd1")
 	)
 	(pad "3" smd rect
 		(at -1.475 0.9)
 		(size 1.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "86c13ca7-0a80-4168-995d-b562a130755b")
 	)
 	(pad "4" smd rect
 		(at 1.475 0.9)
 		(size 1.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "69be222f-fb27-4b61-8b79-c398d4befb7b")
 	)
 	(pad "5" smd rect
 		(at 1.475 0)
 		(size 1.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "53b34fc8-ed67-4078-b96b-f9deda6de42a")
 	)
 	(pad "6" smd rect
 		(at 1.475 -0.9)
 		(size 1.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9be17273-2e40-4e39-b409-67645d475622")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Avago_PLCC6_3x2.8mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Avago_PLCC6_3x2.8mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

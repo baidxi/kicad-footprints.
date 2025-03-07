@@ -1,7 +1,7 @@
 (footprint "Quectel_L96"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Quectel L96 GPS GLONASS Galileo BeiDou Module, internal chip antenna, https://static6.arrow.com/aropdfconversion/50213b4bc5cb920911b62909a5ca765b1c5ab3d1/quectel_l96_hardware_design_v1.2.pdf")
 	(tags "Quectel GPS GNSS")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "309067bb-951b-4495-b6c4-6adaed5f5fc8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -143,7 +133,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "a75c5ace-54bf-44f5-8c11-8d578b91cb89")
 	)
@@ -314,7 +304,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "fe187a99-a247-4efa-93c3-0cc7748c5775")
 	)
@@ -332,7 +322,7 @@
 	(pad "1" smd roundrect
 		(at -4.8 -6.2)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "54543928-b3a8-423f-97e2-a2a4aa8a942e")
@@ -340,7 +330,7 @@
 	(pad "2" smd roundrect
 		(at -4.8 -5.2)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "3f1440e7-b690-49e9-a0bc-186f44a8cce6")
@@ -348,7 +338,7 @@
 	(pad "3" smd roundrect
 		(at -4.8 -4.2)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "07ac225a-9c26-42cb-a310-495034c829cf")
@@ -356,7 +346,7 @@
 	(pad "4" smd roundrect
 		(at -4.8 -3.2)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "274f3e77-8675-4358-a2cd-ed4b9d359f87")
@@ -364,7 +354,7 @@
 	(pad "5" smd roundrect
 		(at -4.8 -2.2)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "f70c14cd-f954-4f9c-965c-5adb97fe84b1")
@@ -372,7 +362,7 @@
 	(pad "6" smd roundrect
 		(at -4.8 -1.2)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "25e2f650-5259-4f09-8861-ecf326fa2128")
@@ -380,7 +370,7 @@
 	(pad "7" smd roundrect
 		(at -4.8 -0.2)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "4d7461cb-6239-47d0-b1ff-5b2971e13770")
@@ -388,7 +378,7 @@
 	(pad "8" smd roundrect
 		(at -4.8 0.8)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "f48a1074-defc-4e40-938e-ec72603489f0")
@@ -396,7 +386,7 @@
 	(pad "9" smd roundrect
 		(at -4.8 1.8)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "03c41b45-d9f5-4b40-93dd-c189024de29f")
@@ -404,7 +394,7 @@
 	(pad "10" smd roundrect
 		(at -4.8 2.8)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "925d1bdb-c723-4010-b662-8fd244d915ba")
@@ -412,7 +402,7 @@
 	(pad "11" smd roundrect
 		(at -4.8 3.8)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "8368a4d1-dc2a-444a-bb6f-835e57f2edc9")
@@ -420,7 +410,7 @@
 	(pad "12" smd roundrect
 		(at -4.8 4.8)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "c34df228-b30d-48ed-bbc4-fa99ad5ff129")
@@ -428,7 +418,7 @@
 	(pad "13" smd roundrect
 		(at -4.8 5.95)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "eb99fb22-7d96-47ca-a1e0-7bc3f71be805")
@@ -436,7 +426,7 @@
 	(pad "14" smd roundrect
 		(at 4.8 5.95)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "71139f0e-4a42-4d34-8641-5ec639a0b6ec")
@@ -444,7 +434,7 @@
 	(pad "15" smd roundrect
 		(at 4.8 4.8)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "9f81c20a-088c-4187-9766-55497a49256b")
@@ -452,7 +442,7 @@
 	(pad "16" smd roundrect
 		(at 4.8 3.8)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "1b921cc9-0ef8-4a03-968d-09ff46a0912c")
@@ -460,7 +450,7 @@
 	(pad "17" smd roundrect
 		(at 4.8 2.8)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "04c400e9-92b8-4e3e-baab-b05a9e19615c")
@@ -468,7 +458,7 @@
 	(pad "18" smd roundrect
 		(at 4.8 1.8)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "b0af4c78-7fe8-450a-b019-c210de384821")
@@ -476,7 +466,7 @@
 	(pad "19" smd roundrect
 		(at 4.8 0.8)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "2445afe8-7258-488d-a0d5-3addc7f1fd93")
@@ -484,7 +474,7 @@
 	(pad "20" smd roundrect
 		(at 4.8 -0.2)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "6a5212ca-6152-4c51-b824-ed541bbc5dc5")
@@ -492,7 +482,7 @@
 	(pad "21" smd roundrect
 		(at 4.8 -1.2)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "b5553850-7a87-4abe-b952-7cd1012cb1a6")
@@ -500,7 +490,7 @@
 	(pad "22" smd roundrect
 		(at 4.8 -2.2)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "3ca2659e-8f55-49fd-992b-a5e93c51286c")
@@ -508,7 +498,7 @@
 	(pad "23" smd roundrect
 		(at 4.8 -3.2)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "83f67479-70f1-4b82-8f0a-07e842c565da")
@@ -516,7 +506,7 @@
 	(pad "24" smd roundrect
 		(at 4.8 -4.2)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "9c3c8e26-37f4-4f2b-9b0c-622e115f039c")
@@ -524,7 +514,7 @@
 	(pad "25" smd roundrect
 		(at 4.8 -5.2)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "e93ca99f-2d6c-46f9-8a83-891de5ec6f17")
@@ -532,7 +522,7 @@
 	(pad "26" smd roundrect
 		(at 4.8 -6.2)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "170354b4-2f02-4039-8b57-feaeb1908c16")
@@ -540,7 +530,7 @@
 	(pad "27" smd roundrect
 		(at 2 -7 90)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "49d34eac-43fa-46a5-a402-14659327ee06")
@@ -548,7 +538,7 @@
 	(pad "28" smd roundrect
 		(at 1 -7 90)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "4f490013-fca0-4cbb-a996-20e14ec5e610")
@@ -556,7 +546,7 @@
 	(pad "29" smd roundrect
 		(at 0 -7 90)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "47dbc397-64df-4944-a722-7e1d09607de5")
@@ -564,7 +554,7 @@
 	(pad "30" smd roundrect
 		(at -1 -7 90)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "e9f97b11-53e5-4088-8bbe-b754d88e2c93")
@@ -572,7 +562,7 @@
 	(pad "31" smd roundrect
 		(at -2 -7 90)
 		(size 2.15 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "7ffca24f-0a05-43a8-bd37-2a92cb6993b2")
@@ -580,7 +570,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu" "F.CrtYd")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"F.CrtYd" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu"
+			"In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu"
+			"In28.Cu" "In29.Cu" "In30.Cu"
+		)
 		(uuid "b99b33b9-bb2c-4fac-a214-4936676d7442")
 		(hatch edge 0.508)
 		(connect_pads
@@ -595,6 +590,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -606,7 +605,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_GPS.3dshapes/Quectel_L96.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_GPS.3dshapes/Quectel_L96.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

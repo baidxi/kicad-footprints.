@@ -1,7 +1,7 @@
 (footprint "L_Bourns_SRP2313AA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Bourns SRR1260 series SMD inductor http://www.bourns.com/docs/product-datasheets/srp2313aa.pdf")
 	(tags "Bourns SRR1260 SMD inductor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c90a3268-0ff7-434f-8e1d-0e90ba03e844")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -354,30 +344,31 @@
 	(pad "1" smd roundrect
 		(at -9.125 0)
 		(size 5.75 19.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07)
 		(uuid "c4bca9a8-ba65-4ad4-b61c-b4ad88c87a51")
 	)
 	(pad "1" smd rect
 		(at -7.25 0)
 		(size 2 19.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7474b28d-3010-4e0f-a831-b10b081bc814")
 	)
 	(pad "2" smd rect
 		(at 7.25 0)
 		(size 2 19.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "116b706b-7ac9-4524-b2ad-e5821e8a1693")
 	)
 	(pad "2" smd roundrect
 		(at 9.125 0)
 		(size 5.75 19.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07)
 		(uuid "16b78a80-70f9-4ced-a8a5-9710255117ce")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRP2313AA.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRP2313AA.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "BarrelJack_Wuerth_694106106102_2.0x5.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Wuerth Elektronik 694106106102 Barrel Jack, 2.0x5.5mm, https://www.we-online.com/components/products/datasheet/694106106102.pdf")
 	(tags "barrel jack Wuerth Elektronik 694106106102")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "22ef539a-288e-43b0-8d59-3e6b19dfb2a8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,10 +49,33 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
+	(fp_circle
+		(center 0 -1.425)
+		(end 0.9 -1.425)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.Mask")
+		(uuid "016e237d-8758-4548-b3ef-67f9e20fbd3c")
+	)
+	(fp_circle
+		(center 0 3.075)
+		(end 0.8 3.075)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.Mask")
+		(uuid "1dc6184b-163f-4f25-b67f-62e73a1d77ca")
+	)
 	(fp_line
 		(start -6.76 -4.01)
 		(end -6.76 -2.14)
@@ -153,28 +165,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "27a5b2cb-460b-4241-9794-71acd28cc926")
-	)
-	(fp_circle
-		(center 0 -1.425)
-		(end 0.9 -1.425)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "B.Mask")
-		(uuid "016e237d-8758-4548-b3ef-67f9e20fbd3c")
-	)
-	(fp_circle
-		(center 0 3.075)
-		(end 0.8 3.075)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "B.Mask")
-		(uuid "1dc6184b-163f-4f25-b67f-62e73a1d77ca")
 	)
 	(fp_line
 		(start -7 -4.58)
@@ -514,32 +504,33 @@
 	(pad "1" smd roundrect
 		(at -5.5 -3.075)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(uuid "6a80ade8-5b9a-4b8a-96d9-223f4f460b0a")
 	)
 	(pad "1" smd roundrect
 		(at -5.5 3.075)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(uuid "852d004a-169d-4d05-b9a0-4bb1d23b3625")
 	)
 	(pad "2" smd roundrect
 		(at 5.5 3.075)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(uuid "c73ba864-782a-472e-b0f1-59fa412cc125")
 	)
 	(pad "3" smd roundrect
 		(at 5.5 -3.075)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(uuid "7e044fab-20b5-4f6d-95b8-67e01b8bb751")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Wuerth_694106106102_2.0x5.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Wuerth_694106106102_2.0x5.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

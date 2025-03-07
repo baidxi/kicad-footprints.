@@ -1,7 +1,7 @@
 (footprint "LED_RGB_Wuerth_150080M153000"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RGB LED 0805 2.0mm x 1.3mm, orientation marker at common anode https://www.we-online.com/components/products/datasheet/150080M153000.pdf")
 	(tags "RGB LED 0805")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "41fc6944-ef1b-4839-b1bb-df4befba4709")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -222,7 +212,7 @@
 		(uuid "c0a39480-ad4f-4e68-a9f6-e1f4249b96d5")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.12)
 			)
 			(justify left bottom)
@@ -242,32 +232,33 @@
 	(pad "1" smd roundrect
 		(at 0.925 -0.625 180)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "02e7ea78-b3e4-432f-b0c0-1e3f40bf69e2")
 	)
 	(pad "2" smd roundrect
 		(at 0.925 0.625 180)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7855e7e3-0539-4787-85fc-be9b7845f60f")
 	)
 	(pad "3" smd roundrect
 		(at -0.925 0.625 180)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1f88c38c-91df-47c0-abea-ad0d456a7f0c")
 	)
 	(pad "4" smd roundrect
 		(at -0.925 -0.625 180)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3e00e01d-7cc9-4751-a3ad-042fd4f38205")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_Wuerth_150080M153000.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_Wuerth_150080M153000.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

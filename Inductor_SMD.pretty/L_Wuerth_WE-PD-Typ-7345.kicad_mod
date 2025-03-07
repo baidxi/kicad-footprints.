@@ -1,7 +1,7 @@
 (footprint "L_Wuerth_WE-PD-Typ-7345"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Shielded Power Inductor, Wuerth Elektronik, WE-PD, SMD, 7345, https://katalog.we-online.com/pbs/datasheet/744777001.pdf")
 	(tags "Choke Shielded Power Inductor WE-PD 7345 Wuerth")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "91f2b148-7551-4a06-a9ca-05db4d7ee9f0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -291,7 +281,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c49a5129-bbb8-423a-973e-38a916acc2f3")
 	)
@@ -309,16 +299,17 @@
 	(pad "1" smd rect
 		(at -3 0)
 		(size 2 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "af5f9977-4a2a-4171-977d-23a2bc368187")
 	)
 	(pad "2" smd rect
 		(at 3 0)
 		(size 2 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "292390f7-4732-4df6-92eb-2deb9251ff3d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_WE-PD-Typ-7345.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_WE-PD-Typ-7345.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

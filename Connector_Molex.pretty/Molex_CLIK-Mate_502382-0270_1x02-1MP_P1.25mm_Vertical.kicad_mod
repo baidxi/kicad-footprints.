@@ -1,7 +1,7 @@
 (footprint "Molex_CLIK-Mate_502382-0270_1x02-1MP_P1.25mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex CLIK-Mate series connector, 502382-0270 (http://www.molex.com/pdm_docs/sd/5023820270_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex CLIK-Mate side entry")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "abdbcbba-3be4-495d-bbcc-fd7aab2dd57d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -258,32 +248,33 @@
 	(pad "1" smd roundrect
 		(at -0.625 1.95)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3b5f947b-2c5b-4a42-98ad-733120b38439")
 	)
 	(pad "2" smd roundrect
 		(at 0.625 1.95)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "888ed1a5-09d4-42f4-b717-acc983fba86d")
 	)
 	(pad "MP" smd roundrect
 		(at -2.475 -1.4)
 		(size 1 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "bf400222-f19a-4049-844c-c62384b93de0")
 	)
 	(pad "MP" smd roundrect
 		(at 2.475 -1.4)
 		(size 1 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "45f8d407-3eb1-40db-8250-17fbbcb8860a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_CLIK-Mate_502382-0270_1x02-1MP_P1.25mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_CLIK-Mate_502382-0270_1x02-1MP_P1.25mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

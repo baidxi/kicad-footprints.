@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_FOX_FQ7050-2Pin_7.0x5.0mm_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "FOX SMD Crystal SERIES SMD7050/4 https://www.foxonline.com/pdfs/FQ7050.pdf, hand-soldering, 7.0x5.0mm^2 package")
 	(tags "SMD SMT crystal hand-soldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3b149164-2544-4489-9f5e-6e1a0c1333c8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,54 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 0.093333 0)
-		(stroke
-			(width 0.186667)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "2167624f-66c9-4524-a41c-b90cb2d0e335")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.213333 0)
-		(stroke
-			(width 0.133333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "9c108aeb-d968-4f0b-844f-b58441d0488b")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.333333 0)
-		(stroke
-			(width 0.133333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "a6519734-ff82-43a6-9bba-5270bd2ca511")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.4 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "68721b13-92a7-4e6a-8f96-7d9283757d0c")
-	)
 	(fp_line
 		(start -6.3 -2.7)
 		(end -6.3 2.7)
@@ -137,6 +83,50 @@
 		)
 		(layer "F.SilkS")
 		(uuid "58001a24-d03c-42ff-ad89-74b419cc82f8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.093333 0)
+		(stroke
+			(width 0.186667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "2167624f-66c9-4524-a41c-b90cb2d0e335")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.213333 0)
+		(stroke
+			(width 0.133333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "9c108aeb-d968-4f0b-844f-b58441d0488b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.333333 0)
+		(stroke
+			(width 0.133333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "a6519734-ff82-43a6-9bba-5270bd2ca511")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "68721b13-92a7-4e6a-8f96-7d9283757d0c")
 	)
 	(fp_line
 		(start -6.4 -2.8)
@@ -282,16 +272,17 @@
 	(pad "1" smd rect
 		(at -3.65 0)
 		(size 4.9 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "61f46430-643b-4c62-897e-35c793b1c2e9")
 	)
 	(pad "2" smd rect
 		(at 3.65 0)
 		(size 4.9 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2deb1a8a-6123-4784-937c-c36720e57521")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_FOX_FQ7050-2Pin_7.0x5.0mm_HandSoldering.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_FOX_FQ7050-2Pin_7.0x5.0mm_HandSoldering.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

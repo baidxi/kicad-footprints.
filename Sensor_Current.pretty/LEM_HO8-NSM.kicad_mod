@@ -1,7 +1,7 @@
 (footprint "LEM_HO8-NSM"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LEM HO 8/15/25-NSM Current Transducer (https://www.lem.com/sites/default/files/products_datasheets/ho-nsm-0000_series.pdf)")
 	(tags "current transducer")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8f1c3cf9-9b7a-49e0-8243-4187341575a9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -183,7 +173,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ba950546-531d-476c-aa08-6d2f4a0d7077")
 	)
@@ -381,82 +371,83 @@
 	(pad "1" smd rect
 		(at -3.81 -10.545)
 		(size 0.8 4.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3d62c73f-67df-4dc0-8e2c-d5061c81b340")
 	)
 	(pad "2" smd rect
 		(at -2.54 -10.545)
 		(size 0.8 4.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "38ac61f1-1ab5-406b-b565-6c18cb220937")
 	)
 	(pad "3" smd rect
 		(at -1.27 -10.545)
 		(size 0.8 4.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "963af0f4-969a-4223-ab41-ab6e9211c847")
 	)
 	(pad "4" smd rect
 		(at 0 -10.545)
 		(size 0.8 4.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "361e0437-f426-47d1-8261-5121d4f985e1")
 	)
 	(pad "5" smd rect
 		(at 1.27 -10.545)
 		(size 0.8 4.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0d137a0c-d4fe-4724-8c51-a9699aa74400")
 	)
 	(pad "6" smd rect
 		(at 2.54 -10.545)
 		(size 0.8 4.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "627eea6a-7a08-4a5a-82a4-18d3fa806e14")
 	)
 	(pad "7" smd rect
 		(at 3.81 -10.545)
 		(size 0.8 4.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "83dbae9c-fbe1-4868-9727-e77c0b32656c")
 	)
 	(pad "8" smd rect
 		(at 4.9 1.485)
 		(size 5.8 2.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c6f92b8e-f7b4-4d99-a396-aa0e8e9db505")
 	)
 	(pad "9" smd rect
 		(at 4.9 4.585)
 		(size 5.8 2.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9c7db729-bbfe-41cc-b0b6-8a331137b490")
 	)
 	(pad "10" smd rect
 		(at 4.9 7.685)
 		(size 5.8 2.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4060130b-2e10-403b-9088-84796d5cfce1")
 	)
 	(pad "11" smd rect
 		(at -4.9 7.685)
 		(size 5.8 2.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7d7ca06b-5c3c-41d5-81bd-8f55a218ca30")
 	)
 	(pad "12" smd rect
 		(at -4.9 4.585)
 		(size 5.8 2.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "06517c76-ac2c-479a-9ccf-9a8e2dac1425")
 	)
 	(pad "13" smd rect
 		(at -4.9 1.485)
 		(size 5.8 2.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e09fca0c-b57f-4cfb-8d55-809c3f2b4941")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Current.3dshapes/LEM_HO8-NSM.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Current.3dshapes/LEM_HO8-NSM.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

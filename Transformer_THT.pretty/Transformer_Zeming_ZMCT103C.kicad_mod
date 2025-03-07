@@ -1,7 +1,7 @@
 (footprint "Transformer_Zeming_ZMCT103C"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Qingxian Zeming Langxi Electronic ZMCT103C current transformer 1000:1, https://5krorwxhmqqirik.leadongcdn.com/ZMCT103C+specification-aidirBqoKomRilSjpimnokp.pdf")
 	(tags "current transformer ZMCT")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fafc79fa-a018-4206-9a81-33b40a98bcd6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -91,7 +81,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "122a8296-1242-4240-9f5a-abee9581f96c")
 	)
@@ -102,7 +92,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "59250671-af71-4ce3-ab1d-1effbed42477")
 	)
@@ -183,7 +173,8 @@
 		(remove_unused_layers no)
 		(uuid "bc76381d-b443-4610-8338-19590f7a1091")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_Zeming_ZMCT103C.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_Zeming_ZMCT103C.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

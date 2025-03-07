@@ -1,7 +1,7 @@
 (footprint "LaserDiode_TO56-3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Laser Diode, TO-56, 3pin")
 	(tags "Laser Diode TO56")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bf51d08d-4620-4bc5-8f6a-111fe8cf6b0e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -101,7 +91,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "5ff82795-57ed-44f6-aac1-7efbbb761203")
 	)
@@ -112,7 +102,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "48e4035c-4ceb-4fc8-ab5f-e88f4caa3b2e")
 	)
@@ -193,7 +183,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8a1f0ac7-8ff0-4c76-bb75-ae4eacffcb92")
 	)
@@ -204,7 +194,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b9535dc3-3fd8-49dd-a68a-a0b115e27052")
 	)
@@ -244,7 +234,8 @@
 		(remove_unused_layers no)
 		(uuid "2d73384a-a837-4207-8d28-50c88820116b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/LaserDiode_TO56-3.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/LaserDiode_TO56-3.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

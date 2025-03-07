@@ -1,7 +1,7 @@
 (footprint "SW_Push_1P1T_NO_CK_KSC7xxJ"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "CK components KSC7 tactile switch https://www.ckswitches.com/media/1973/ksc7.pdf")
 	(tags "tactile switch ksc7")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "be31e20d-b51b-413a-badb-13770e3fb04f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -231,7 +221,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "552de40f-c054-4d97-92da-c7dacf926f68")
 	)
@@ -249,28 +239,29 @@
 	(pad "1" smd rect
 		(at -2.9 -2)
 		(size 2.8 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "57a849e0-1264-4c78-b44f-60e66530d138")
 	)
 	(pad "1" smd rect
 		(at 2.9 -2)
 		(size 2.8 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "56ade057-1bd3-4846-9790-86556159c6ab")
 	)
 	(pad "2" smd rect
 		(at -2.9 2)
 		(size 2.8 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8485b137-1ad7-4b93-8d74-4a64c5c8af3c")
 	)
 	(pad "2" smd rect
 		(at 2.9 2)
 		(size 2.8 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9434f712-3a2c-4ad9-8063-03ae2214cb94")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_push_1P1T_NO_CK_KSC7xxJxxx.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_push_1P1T_NO_CK_KSC7xxJxxx.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

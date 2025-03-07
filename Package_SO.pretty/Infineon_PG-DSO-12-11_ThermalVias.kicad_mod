@@ -1,7 +1,7 @@
 (footprint "Infineon_PG-DSO-12-11_ThermalVias"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Infineon PG-DSO 12 pin, exposed pad: 4.5x8.1mm, with thermal vias (https://www.infineon.com/cms/en/product/packages/PG-DSO/PG-DSO-12-11/)")
 	(tags "PG-DSO")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b85da16f-6f31-4e7a-9bfe-a975b14cc1fe")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -152,7 +142,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c1d0dd7b-6d1c-447a-b275-04fe0df22488")
 	)
@@ -400,73 +390,73 @@
 	(pad "1" smd rect
 		(at -4.8 -2.5)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "474cec2a-7445-425d-b3fe-2d83f768b718")
 	)
 	(pad "2" smd rect
 		(at -4.8 -1.5)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ca15b965-4951-4d88-9216-28c3926475f7")
 	)
 	(pad "3" smd rect
 		(at -4.8 -0.5)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "aad07520-a616-4b17-bc20-90615bec2dc4")
 	)
 	(pad "4" smd rect
 		(at -4.8 0.5)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "97772572-7c99-4798-b180-92941591a8ac")
 	)
 	(pad "5" smd rect
 		(at -4.8 1.5)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "69562021-fe7c-4622-b9d9-248e61b6b427")
 	)
 	(pad "6" smd rect
 		(at -4.8 2.5)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "44a8e1ec-3b65-4867-9dc9-9d2519630fdc")
 	)
 	(pad "7" smd rect
 		(at 4.8 2.5)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c5cf2973-3d98-42bd-9c2a-724f79155c1c")
 	)
 	(pad "8" smd rect
 		(at 4.8 1.5)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e31dbfcc-db4a-43fe-8b93-615fcad6a9da")
 	)
 	(pad "9" smd rect
 		(at 4.8 0.5)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "53392bdc-d13d-46e7-9d3b-07c4a6c706db")
 	)
 	(pad "10" smd rect
 		(at 4.8 -0.5)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "49700a84-c67e-4501-a684-c05c849699a9")
 	)
 	(pad "11" smd rect
 		(at 4.8 -1.5)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8a37863c-7a58-43fe-a4b8-6476b712f644")
 	)
 	(pad "12" smd rect
 		(at 4.8 -2.5)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "40ade27e-65f3-419e-bff0-8c20625a31b5")
 	)
 	(pad "13" thru_hole circle
@@ -625,7 +615,8 @@
 		(remove_unused_layers no)
 		(uuid "9b9fb4a6-2317-4eaa-a912-300739f97db4")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/Infineon_PG-DSO-12-11.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Infineon_PG-DSO-12-11.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

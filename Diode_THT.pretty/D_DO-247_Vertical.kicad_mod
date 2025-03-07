@@ -1,7 +1,7 @@
 (footprint "D_DO-247_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode, DO-247 series, Vertical, P 10.9mm")
 	(tags "diode rectifier")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0595acf3-e13b-4a4d-96bb-727b67f97104")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "5df7c09e-0688-4817-88c6-5c75d55d545c")
 	)
@@ -263,7 +253,8 @@
 		(remove_unused_layers no)
 		(uuid "4e6ea11c-9dd8-44bd-b13d-7e3cf1bc5a47")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-247_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-247_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal Oscillator Seiko Epson SG-8002CE https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC, 3.2x2.5mm^2 package")
 	(tags "SMD SMT crystal oscillator")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2c54fcaa-6a51-4cee-bb5e-6c0005c734f7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,54 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 0.058333 0)
-		(stroke
-			(width 0.116667)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "e01caf7c-b8cc-47df-a1c8-fe53add21ec7")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.133333 0)
-		(stroke
-			(width 0.083333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "882b3139-aa00-4344-8345-a791a6a9d689")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.208333 0)
-		(stroke
-			(width 0.083333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "f4f39b27-2df4-408c-b058-9556665863ef")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.25 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "d1569810-75c0-4ce6-93ce-5e35b45d9ccc")
-	)
 	(fp_line
 		(start -2.1 -1.75)
 		(end -2.1 1.75)
@@ -127,6 +73,50 @@
 		)
 		(layer "F.SilkS")
 		(uuid "4a180e33-97e3-431b-873c-766724fea419")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.058333 0)
+		(stroke
+			(width 0.116667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "e01caf7c-b8cc-47df-a1c8-fe53add21ec7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.133333 0)
+		(stroke
+			(width 0.083333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "882b3139-aa00-4344-8345-a791a6a9d689")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.208333 0)
+		(stroke
+			(width 0.083333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "f4f39b27-2df4-408c-b058-9556665863ef")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "d1569810-75c0-4ce6-93ce-5e35b45d9ccc")
 	)
 	(fp_line
 		(start -2.2 -1.8)
@@ -272,28 +262,29 @@
 	(pad "1" smd rect
 		(at -1.2 0.95)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "26641b35-0215-4322-ba92-7beababecaf5")
 	)
 	(pad "2" smd rect
 		(at 1.2 0.95)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a75adcdf-953c-4ec2-80b5-f2de19c95823")
 	)
 	(pad "3" smd rect
 		(at 1.2 -0.95)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a3573c23-1a58-45be-9117-e0778f9cbcd3")
 	)
 	(pad "4" smd rect
 		(at -1.2 -0.95)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "acba47c4-93e2-4645-868d-a0038de8c792")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

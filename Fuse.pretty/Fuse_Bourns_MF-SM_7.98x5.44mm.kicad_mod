@@ -1,7 +1,7 @@
 (footprint "Fuse_Bourns_MF-SM_7.98x5.44mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.bourns.com/docs/Product-Datasheets/mfsm.pdf")
 	(tags "bourns ptc resettable fuse polyfuse MF-SM MF-SMHT")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d013bba7-a141-4805-aa66-629a5cf35c3e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -218,16 +208,17 @@
 	(pad "1" smd rect
 		(at -3.7 0)
 		(size 2.3 3.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3c3dd7b4-46c5-4f15-886f-ae7eb9b44838")
 	)
 	(pad "2" smd rect
 		(at 3.7 0)
 		(size 2.3 3.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f15bca7d-e42f-4486-8778-245d3b6c0982")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Bourns_MF-SM_7.98x5.44mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Bourns_MF-SM_7.98x5.44mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

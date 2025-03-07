@@ -1,7 +1,7 @@
 (footprint "LEM_HX02-P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LEM HX02-P hall effect current transducer (https://www.lem.com/sites/default/files/products_datasheets/hx%202_6-p_e%20v5.pdf)")
 	(tags "hall current")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "158e3d91-4e79-4b04-b573-02d6fe34dcc8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -273,7 +263,8 @@
 		(remove_unused_layers no)
 		(uuid "1825ed2f-87d8-4a5e-81ef-a506703699c3")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Current.3dshapes/LEM_HX02-P.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Current.3dshapes/LEM_HX02-P.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

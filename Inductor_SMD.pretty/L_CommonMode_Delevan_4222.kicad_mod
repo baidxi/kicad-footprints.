@@ -1,7 +1,7 @@
 (footprint "L_CommonMode_Delevan_4222"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "API Delevan, Surface Mount Common Mode Bead, 4222 4222R, http://www.delevan.com/seriesPDFs/4222.pdf")
 	(tags "surface mount common mode bead")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "43dba8e4-08f8-4583-a94e-4cb28cdd83cd")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -258,28 +248,29 @@
 	(pad "1" smd rect
 		(at -3.75 -1.27)
 		(size 3 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "85d6c310-683f-4892-b0b1-09501fd3d279")
 	)
 	(pad "2" smd rect
 		(at -3.75 1.27)
 		(size 3 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "128de372-e4c7-4a2a-bd4a-3559759fd84c")
 	)
 	(pad "3" smd rect
 		(at 3.75 1.27)
 		(size 3 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e65431d8-612d-411d-a411-9581dc62f382")
 	)
 	(pad "4" smd rect
 		(at 3.75 -1.27)
 		(size 3 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "481f132d-a0d4-426a-ae46-efa7836e1d5b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonMode_Delevan_4222.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonMode_Delevan_4222.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

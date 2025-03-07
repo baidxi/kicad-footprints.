@@ -1,7 +1,7 @@
 (footprint "UDFN-4-1EP_1x1mm_P0.65mm_EP0.48x0.48mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "UDFN-4_1x1mm_P0.65mm, http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550x-300mA-Single-Output-LDO-in-Small-Packages-DS20006006A.pdf")
 	(tags "UDFN-4_1x1mm_P0.65mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d78bb92d-3b01-4b3e-a2b3-bd3fa2c22c29")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "023cc539-a2ad-4a0b-850c-74877b3da6d0")
 	)
@@ -200,7 +190,7 @@
 	(pad "1" smd custom
 		(at -0.54 -0.325)
 		(size 0.22 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -221,7 +211,7 @@
 	(pad "2" smd custom
 		(at -0.54 0.325)
 		(size 0.22 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -242,7 +232,7 @@
 	(pad "3" smd custom
 		(at 0.54 0.325)
 		(size 0.22 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -263,7 +253,7 @@
 	(pad "4" smd custom
 		(at 0.54 -0.325)
 		(size 0.22 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -284,10 +274,11 @@
 	(pad "5" smd rect
 		(at 0 0 45)
 		(size 0.48 0.48)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "70dcad89-5843-4cf9-9b69-28d26d21fcda")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/UDFN-4-1EP_1x1mm_P0.65mm_EP0.48x0.48mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/UDFN-4-1EP_1x1mm_P0.65mm_EP0.48x0.48mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "SOIC-8-N7_3.9x4.9mm_P1.27mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC], pin 7 removed (Microchip Packaging Specification 00000049BS.pdf, http://www.onsemi.com/pub/Collateral/NCP1207B.PDF)")
 	(tags "SOIC 1.27")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "17a2215e-2bcd-4f86-9020-dedae362d0db")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "2ac3ef49-be21-4913-b775-4f32519c8055")
 	)
@@ -240,46 +230,47 @@
 	(pad "1" smd rect
 		(at -2.7 -1.905)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b8ae0d20-58b3-45ea-9404-e43af827d982")
 	)
 	(pad "2" smd rect
 		(at -2.7 -0.635)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7782aadf-6ba0-4279-83b5-c0305220d63d")
 	)
 	(pad "3" smd rect
 		(at -2.7 0.635)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7fff5f87-faff-4a85-9382-f747224cd5be")
 	)
 	(pad "4" smd rect
 		(at -2.7 1.905)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "335afd12-198c-44a5-9b6b-e3d45f7262cf")
 	)
 	(pad "5" smd rect
 		(at 2.7 1.905)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "498a80ea-fe1e-4105-8337-75d37f6febc0")
 	)
 	(pad "6" smd rect
 		(at 2.7 0.635)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "45bd5eb4-69f0-4402-81d8-43422ba5cbfa")
 	)
 	(pad "8" smd rect
 		(at 2.7 -1.905)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c6438eb2-b08d-4fe3-9aa1-9a731cf73de1")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-N7_3.9x4.9mm_P1.27mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-N7_3.9x4.9mm_P1.27mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

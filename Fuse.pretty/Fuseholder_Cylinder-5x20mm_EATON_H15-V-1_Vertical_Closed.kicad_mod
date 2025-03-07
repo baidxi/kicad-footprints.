@@ -1,7 +1,7 @@
 (footprint "Fuseholder_Cylinder-5x20mm_EATON_H15-V-1_Vertical_Closed"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PCB fuse holders for 5 mm x 20 mm fuses; 250V; 10A (http://www.cooperindustries.com/content/dam/public/bussmann/Electronics/Resources/product-datasheets/bus-elx-ds-4426-h15.pdf)")
 	(tags "fuse holder vertical 5x20mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a349f096-edec-40e0-a6c7-e1eb2128e07d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -133,7 +123,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c8f4d2da-9a9c-4f14-a65a-45e5a95a3a03")
 	)
@@ -216,7 +206,8 @@
 		(remove_unused_layers no)
 		(uuid "90ed731f-a421-44e1-ba32-4492f672e812")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Cylinder-5x20mm_EATON_H15-V-1_Vertical_Closed.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Cylinder-5x20mm_EATON_H15-V-1_Vertical_Closed.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

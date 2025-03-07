@@ -1,7 +1,7 @@
 (footprint "PQFN-8-EP_6x5mm_P1.27mm_Generic"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Universal Footprint for Thermally-enhanced SO-8 packages; compatible with Vishay PowerPAK SO−8, International Rectifier PQFN, Texas Instrument SON 5 × 6 mm (Q5A), Alpha and Omega DFN 5 × 6, ST Microelectronics PowerFLAT™ 5 × 6, Toshiba SOP Advance, Infineon Super SO8, NXP LFPAK (SOT669), Renesas WPAK(3F) / LFPAK, Fairchild Power 56, APEC PMPAK 5 × 6, MagnaChip PowerDFN56, ROHM HSOP8, UBIQ PRPAK56, NIKO−SEM PDFN 5 × 6, NEC 8-pin HVSON. Datasheets: https://www.onsemi.com/pub/Collateral/AND9137-D.PDF, https://assets.nexperia.com/documents/leaflet/75016838.pdf")
 	(tags "Thermally-enhanced SO-8 PowerPAK PQFN Q5A PowerFLAT LFPAK SOT669 WPAK(3F) LFPAK Power56 PMPAK PowerDFN56 HSOP8 PRPAK56 PDFN HVSON")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "df9cfc90-9ac5-41fc-b5e5-4564bd191dc2")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -102,7 +92,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "bcd03952-d057-492a-9180-3b883291d5bd")
 	)
@@ -113,7 +103,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "bca2787e-2f66-4996-98c8-655c3507b89b")
 	)
@@ -293,7 +283,7 @@
 	(pad "1" smd roundrect
 		(at -2.725 -1.905 90)
 		(size 0.7 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.05)
 		(uuid "098a989c-f45f-43dc-b059-a5c73a36b52d")
@@ -301,7 +291,7 @@
 	(pad "2" smd roundrect
 		(at -2.725 -0.635 90)
 		(size 0.7 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.05)
 		(uuid "299a79f4-59ea-4091-b728-371ab24768c1")
@@ -309,7 +299,7 @@
 	(pad "3" smd roundrect
 		(at -2.725 0.635 90)
 		(size 0.7 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.05)
 		(uuid "29462a1b-869d-42f2-acb0-7036dc6a233c")
@@ -317,7 +307,7 @@
 	(pad "4" smd roundrect
 		(at -2.725 1.905 90)
 		(size 0.7 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.05)
 		(uuid "8051e3de-79fe-4638-997a-6ad4facd7bc9")
@@ -343,7 +333,8 @@
 		)
 		(uuid "fd4aa3c6-ee21-4859-adb6-d52c743e3c06")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/PQFN-8-EP_6x5mm_P1.27mm_Generic.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/PQFN-8-EP_6x5mm_P1.27mm_Generic.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

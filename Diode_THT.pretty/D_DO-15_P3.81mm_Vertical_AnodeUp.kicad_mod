@@ -1,7 +1,7 @@
 (footprint "D_DO-15_P3.81mm_Vertical_AnodeUp"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=3.81mm, , length*diameter=7.6*3.6mm^2, , http://www.diodes.com/_files/packages/DO-15.pdf")
 	(tags "Diode DO-15 series Axial Vertical pin pitch 3.81mm  length 7.6mm diameter 3.6mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "de9b8b92-44e8-425a-abb5-4d4bcbd47098")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -81,7 +71,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a831f9ae-19cf-4ac4-9735-a7763b522f12")
 	)
@@ -142,7 +132,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0f79809b-c875-493b-8449-5178b6c8ce5b")
 	)
@@ -195,7 +185,8 @@
 		(remove_unused_layers no)
 		(uuid "b9ad0b7b-7fe4-4a83-9d15-5ffdcb7e5376")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-15_P3.81mm_Vertical_AnodeUp.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-15_P3.81mm_Vertical_AnodeUp.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Jack_XLR-6.35mm_Neutrik_NCJ6FA-V_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Combo A series, 3 pole XLR female receptacle with 6.35mm (1/4in) stereo jack, vertical PCB mount, https://www.neutrik.com/en/product/ncj6fa-v")
 	(tags "neutrik jack combo a")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "871a691a-0622-486c-b092-2f19c5f1b318")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -453,7 +443,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "bf1fbab7-8826-4f10-86d9-b61c976b3ffd")
 	)
@@ -863,7 +853,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "35440521-da56-4010-b88a-5da52e9626ab")
 	)
@@ -874,7 +864,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a3a7b9f2-57e0-4d2e-8841-e4c674893c57")
 	)
@@ -885,7 +875,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d08f89b6-9d3f-4d58-b0a6-346feb230723")
 	)
@@ -896,7 +886,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "abddfe61-1a8e-4582-9380-4acc0ef92a0d")
 	)
@@ -907,7 +897,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8ae80c37-0b84-476e-a0ce-9d9868489ae4")
 	)
@@ -1028,7 +1018,8 @@
 		(remove_unused_layers no)
 		(uuid "a626e5c7-70d5-478b-9f68-ab6518f394cb")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_XLR-6.35mm_Neutrik_NCJ6FA-V_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_XLR-6.35mm_Neutrik_NCJ6FA-V_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

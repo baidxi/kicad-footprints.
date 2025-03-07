@@ -1,7 +1,7 @@
 (footprint "R_Array_Convex_2x0606"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Precision Thin Film Chip Resistor Array, VISHAY (see http://www.vishay.com/docs/28770/acasat.pdf)")
 	(tags "resistor array")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "946d6414-5729-4caf-8887-77e3fa3eedb7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -178,28 +168,29 @@
 	(pad "1" smd rect
 		(at -0.7 -0.47)
 		(size 0.7 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4d023ee5-fb4c-4175-9931-3034e3a49469")
 	)
 	(pad "2" smd rect
 		(at -0.7 0.47)
 		(size 0.7 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b5556266-477b-4c1a-8d3a-626ee3984666")
 	)
 	(pad "3" smd rect
 		(at 0.7 0.47)
 		(size 0.7 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ba307330-966b-480a-be36-9a4dea8e96f6")
 	)
 	(pad "4" smd rect
 		(at 0.7 -0.47)
 		(size 0.7 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "625028a1-18cf-46d0-ac8a-ec971d71189d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Convex_2x0606.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Convex_2x0606.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

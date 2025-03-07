@@ -1,7 +1,7 @@
 (footprint "NiceRF_SW868-TH13_868Mhz"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "868Mhz copper string antenna, right angle, approx. 15mm coil length, 5.5mm OD, 0.8 wire diameter, https://www.nicerf.com/item/868mhz-spring-antenna-sw868-th13")
 	(tags "antenna rf")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "32deca18-670e-4e9e-8cbe-55ceafb25f79")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -222,7 +212,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7c0b7aa8-f0c2-4bec-9157-135014c9625c")
 	)
@@ -233,7 +223,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "270048b5-6a1c-4267-8988-3a4c59be5a3c")
 	)
@@ -257,7 +247,8 @@
 		(roundrect_rratio 0.1640419948)
 		(uuid "2ca5d6b4-7cea-42b9-bc2a-a2ea7c44f6cc")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Antenna.3dshapes/NiceRF_SW868-TH13_868Mhz.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Antenna.3dshapes/NiceRF_SW868-TH13_868Mhz.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)

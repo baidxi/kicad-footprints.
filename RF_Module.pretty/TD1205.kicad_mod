@@ -1,7 +1,7 @@
 (footprint "TD1205"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1205%20Datasheet.pdf")
 	(tags "SIGFOX Module")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "09344e74-76dc-4428-a863-ef72d224fccc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -377,7 +367,8 @@
 		(remove_unused_layers no)
 		(uuid "7ff48960-994b-4e42-92cd-050776acfa70")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/TD1205.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/TD1205.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

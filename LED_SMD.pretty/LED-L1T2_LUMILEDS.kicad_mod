@@ -1,7 +1,7 @@
 (footprint "LED-L1T2_LUMILEDS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.lumileds.com/uploads/438/DS133-pdf")
 	(tags "LUMILEDS LUXEON TX L1T2 LED")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e625c88f-c4e2-45d4-a347-a5fd75082c67")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -191,29 +181,30 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e739186f-33eb-4164-9398-aaa904258cb2")
 	)
 	(pad "1" smd rect
 		(at 0.45 0.52)
 		(size 0.55 0.38)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "729c14e6-8272-4644-bd11-e1d57ba503ef")
 	)
 	(pad "2" smd rect
 		(at -0.45 0.52)
 		(size 0.55 0.38)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "aaafa543-62c2-40cb-94ef-d55d9d7f2a5d")
 	)
 	(pad "3" smd rect
 		(at 0 -0.52)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "746bdede-620e-4e4a-897c-add260156b88")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED-L1T2_LUMILEDS.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED-L1T2_LUMILEDS.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

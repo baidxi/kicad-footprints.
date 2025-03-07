@@ -1,7 +1,7 @@
 (footprint "ZETA-433-SO_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RF transceiver SMD style https://www.rfsolutions.co.uk/downloads/1456219226DS-ZETA.pdf")
 	(tags "RF transceiver SMD style")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dbeb8542-8afe-4f8f-b681-be0902a55455")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -122,7 +112,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "755590b3-a194-4cb0-bb5a-4374305f8b1e")
 	)
@@ -250,76 +240,77 @@
 	(pad "1" smd rect
 		(at -7.25 -6.35)
 		(size 3 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d381bc4e-a400-49c3-91dd-9c180bdfd871")
 	)
 	(pad "2" smd rect
 		(at -7.25 -3.81)
 		(size 3 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "68dfa038-9f8f-4b66-855f-afb4bde3d78c")
 	)
 	(pad "3" smd rect
 		(at -7.25 -1.27)
 		(size 3 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d8a795e4-bd3f-4c5b-a252-1c968832c120")
 	)
 	(pad "4" smd rect
 		(at -7.25 1.27)
 		(size 3 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "07a2f465-a4e2-47a1-87ef-83842d9ca3a6")
 	)
 	(pad "5" smd rect
 		(at -7.25 3.81)
 		(size 3 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cedc1e43-466a-4b6f-8ce1-ee3e514519f8")
 	)
 	(pad "6" smd rect
 		(at -7.25 6.35)
 		(size 3 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1a55bddf-7174-4991-8209-bb0a76412b8c")
 	)
 	(pad "7" smd rect
 		(at 7.25 6.35)
 		(size 3 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e7c4423c-1fca-4c1f-96d7-973bc95c1681")
 	)
 	(pad "8" smd rect
 		(at 7.25 3.81)
 		(size 3 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ddc5e1f4-0234-4940-8993-9f261d6b1b32")
 	)
 	(pad "9" smd rect
 		(at 7.25 1.27)
 		(size 3 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bab855f5-2cf8-4854-a9c0-5bb4c13176cb")
 	)
 	(pad "10" smd rect
 		(at 7.25 -1.27)
 		(size 3 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "619ae794-6912-4ad4-98f5-bf22ed8b5ff0")
 	)
 	(pad "11" smd rect
 		(at 7.25 -3.81)
 		(size 3 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dde13b36-47c9-4c5a-b2a7-48fc5b4008e6")
 	)
 	(pad "12" smd rect
 		(at 7.25 -6.35)
 		(size 3 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "899f7f8a-559b-4dbd-b45d-f130ac253181")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/ZETA-433-SO_SMD.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/ZETA-433-SO_SMD.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

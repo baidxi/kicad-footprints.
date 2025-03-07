@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Bourns_3269W_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Potentiometer, vertical, Bourns 3269W, https://www.bourns.com/docs/Product-Datasheets/3269.pdf")
 	(tags "Potentiometer vertical Bourns 3269W")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9fa1a0d8-3cda-49eb-b520-5d06d01c7115")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -221,7 +211,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b17b5359-aca5-4514-987f-8fa3ff68d0cd")
 	)
@@ -239,22 +229,23 @@
 	(pad "1" smd rect
 		(at 2.54 -2.415)
 		(size 1.19 2.79)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "facabd9f-4fdf-458b-8dc1-79dfdc9e3639")
 	)
 	(pad "2" smd rect
 		(at 0 2.415)
 		(size 1.19 2.79)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "31a13a01-f8ce-4870-b450-3a74d3bceb6e")
 	)
 	(pad "3" smd rect
 		(at -2.54 -2.415)
 		(size 1.19 2.79)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3cd600ae-79e9-4baa-9c9a-04305df8940b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3269W_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3269W_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

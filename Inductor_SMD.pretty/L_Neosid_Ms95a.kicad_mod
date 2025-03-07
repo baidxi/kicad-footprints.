@@ -1,7 +1,7 @@
 (footprint "L_Neosid_Ms95a"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Neosid,Inductor,Ms95, Ms95a, Ms95T, Fixed inductor, SMD, https://neosid.de/import-data/product-pdf/neoFestind_Ms95a.pdf")
 	(tags "NeosidInductorMs95 Ms95a Ms95T Fixed inductor SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f3181422-520c-4740-b2fc-c348b7822626")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -338,16 +328,17 @@
 	(pad "1" smd rect
 		(at -5.25 0)
 		(size 2.9 4.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4e88d9fe-8374-4ede-bf01-86ca724c8aeb")
 	)
 	(pad "2" smd rect
 		(at 5.25 0)
 		(size 2.9 4.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "88cf8530-948b-4ba3-8b20-80f5e65ac474")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_Ms95a.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_Ms95a.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Knowles_LGA-5_3.5x2.65mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.knowles.com/docs/default-source/model-downloads/sph0641lu4h-1-revb.pdf")
 	(tags "MEMS Microphone LGA")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b77434ea-cb03-40ed-b81f-84d8051c0bc5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,54 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_arc
-		(start -0.6 0.49)
-		(mid -0.464769 0.298418)
-		(end -0.271239 0.165989)
-		(stroke
-			(width 0.3)
-			(type solid)
-		)
-		(layer "F.Paste")
-		(uuid "84cb3d9f-3315-4c36-8054-e7aab3850e99")
-	)
-	(fp_arc
-		(start -0.28 1.37)
-		(mid -0.471582 1.234769)
-		(end -0.604011 1.041239)
-		(stroke
-			(width 0.3)
-			(type solid)
-		)
-		(layer "F.Paste")
-		(uuid "acfdc3a9-9ae5-491c-bf75-a5374ee59815")
-	)
-	(fp_arc
-		(start 0.28 0.17)
-		(mid 0.471401 0.305047)
-		(end 0.603799 0.49829)
-		(stroke
-			(width 0.3)
-			(type solid)
-		)
-		(layer "F.Paste")
-		(uuid "b6f14af8-bce8-4bc7-ac1d-c5137215e781")
-	)
-	(fp_arc
-		(start 0.6 1.05)
-		(mid 0.464769 1.241582)
-		(end 0.271239 1.374011)
-		(stroke
-			(width 0.3)
-			(type solid)
-		)
-		(layer "F.Paste")
-		(uuid "87a3860b-0102-4c1e-b4ab-fa4ba6aa4d30")
-	)
 	(fp_line
 		(start -1.44 1.86)
 		(end -1.44 -1.56)
@@ -156,9 +102,53 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "8a9cac9f-8955-4c43-9602-0beec28f6841")
+	)
+	(fp_arc
+		(start -0.6 0.49)
+		(mid -0.464769 0.298418)
+		(end -0.271239 0.165989)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "84cb3d9f-3315-4c36-8054-e7aab3850e99")
+	)
+	(fp_arc
+		(start -0.28 1.37)
+		(mid -0.471582 1.234769)
+		(end -0.604011 1.041239)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "acfdc3a9-9ae5-491c-bf75-a5374ee59815")
+	)
+	(fp_arc
+		(start 0.28 0.17)
+		(mid 0.471401 0.305047)
+		(end 0.603799 0.49829)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "b6f14af8-bce8-4bc7-ac1d-c5137215e781")
+	)
+	(fp_arc
+		(start 0.6 1.05)
+		(mid 0.464769 1.241582)
+		(end 0.271239 1.374011)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "87a3860b-0102-4c1e-b4ab-fa4ba6aa4d30")
 	)
 	(fp_line
 		(start -1.58 -2)
@@ -271,13 +261,13 @@
 	(pad "1" smd rect
 		(at -0.8375 -1.304)
 		(size 0.725 0.522)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fa368c8e-cf33-4b27-b64b-578d3599b465")
 	)
 	(pad "2" smd rect
 		(at -0.8375 -0.482)
 		(size 0.725 0.522)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "97d99428-b1d5-46e0-8817-5f0bd1710f81")
 	)
 	(pad "3" smd custom
@@ -302,16 +292,17 @@
 	(pad "4" smd rect
 		(at 0.8375 -0.482)
 		(size 0.725 0.522)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "52940a40-48af-4424-87be-82eb66cd3630")
 	)
 	(pad "5" smd rect
 		(at 0.8375 -1.304)
 		(size 0.725 0.522)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "752abe99-a60a-4b76-a0b9-b21754997f3d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Audio.3dshapes/Knowles_LGA-5_3.5x2.65mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Audio.3dshapes/Knowles_LGA-5_3.5x2.65mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

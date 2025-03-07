@@ -1,7 +1,7 @@
 (footprint "SW_SPST_Omron_B3F-315x_Angled"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "tactile switch, 7.3mm x 6.25mm  x 7.4mm, right angle, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf")
 	(tags "tactile switch Omron B3F right angle through hole")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1a2e4623-384a-46f6-9daf-5e4fec6cd6e0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -501,7 +491,8 @@
 		(remove_unused_layers no)
 		(uuid "d0f2e135-3a09-49ca-8017-384ff9a9336f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_SPST_Omron_B3F-315x_Angled.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_SPST_Omron_B3F-315x_Angled.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

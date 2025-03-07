@@ -1,7 +1,7 @@
 (footprint "HVSOF5"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "HVSOF5, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hvsof5_1-e.pdf, http://rohmfs.rohm.com/en/products/databook/datasheet/ic/sensor/hall/bu52001gul-e.pdf")
 	(tags "HVSOF5")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9d5c3998-4663-4963-99bf-0fb27b2ca056")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "9e3a5219-e4e5-4c40-b06f-5e289fbe80fc")
 	)
@@ -200,14 +190,14 @@
 	(pad "1" smd roundrect
 		(at -0.675 -0.5)
 		(size 0.35 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "91063a9e-f57a-4667-a241-0edc8e3d09ff")
 	)
 	(pad "2" smd custom
 		(at 0 0)
 		(size 0.4 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -229,25 +219,26 @@
 	(pad "3" smd roundrect
 		(at -0.675 0.5)
 		(size 0.35 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "762531dd-2f6f-47eb-bb6f-f037c65d3f7d")
 	)
 	(pad "4" smd roundrect
 		(at 0.675 0.5)
 		(size 0.35 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f4d270ee-40fa-4ce2-b177-3721437cafbc")
 	)
 	(pad "5" smd roundrect
 		(at 0.675 -0.5)
 		(size 0.35 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5b006b4e-c871-4ce7-91ca-69b9aa76d61c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/HVSOF5.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/HVSOF5.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

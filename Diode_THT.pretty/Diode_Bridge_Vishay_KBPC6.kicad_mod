@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Vishay_KBPC6"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Single phase bridge rectifier case KBPC6, see http://www.vishay.com/docs/93585/vs-kbpc1series.pdf")
 	(tags "Diode Bridge")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0de8f1e9-2bae-4877-9d2e-c3d4391ef5ae")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -121,7 +111,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "1d250e5a-90f1-46e6-bb0c-ed117adaeb09")
 	)
@@ -268,7 +258,8 @@
 		(remove_unused_layers no)
 		(uuid "6dbb085b-faae-424d-baca-6da912c8be6b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Vishay_KBPC6.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Vishay_KBPC6.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

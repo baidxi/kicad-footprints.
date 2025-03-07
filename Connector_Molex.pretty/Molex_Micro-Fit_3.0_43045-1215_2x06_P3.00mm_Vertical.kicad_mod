@@ -1,7 +1,7 @@
 (footprint "Molex_Micro-Fit_3.0_43045-1215_2x06_P3.00mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Micro-Fit 3.0 Connector System, 43045-1215 (compatible alternatives: 43045-1216, 43045-1217), 6 Pins per row (http://www.molex.com/pdm_docs/sd/430450217_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex Micro-Fit_3.0 vertical")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c60a966a-eb5d-4ee0-a503-f6f1c6851723")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -512,76 +502,77 @@
 	(pad "1" smd rect
 		(at -7.5 -4.7)
 		(size 1.27 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4b59adaf-b953-4be2-9d78-7651a1f661c4")
 	)
 	(pad "2" smd rect
 		(at -4.5 -4.7)
 		(size 1.27 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c35253cb-7b30-4b32-84b1-d83ee0dd4e51")
 	)
 	(pad "3" smd rect
 		(at -1.5 -4.7)
 		(size 1.27 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8056b110-31ae-4ac6-9845-0a633aa88461")
 	)
 	(pad "4" smd rect
 		(at 1.5 -4.7)
 		(size 1.27 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "255274d2-ad88-4c46-b925-13b29a19f28e")
 	)
 	(pad "5" smd rect
 		(at 4.5 -4.7)
 		(size 1.27 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bee72d87-8a79-47d4-8321-a795bc6fa326")
 	)
 	(pad "6" smd rect
 		(at 7.5 -4.7)
 		(size 1.27 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "94533718-77f3-4cea-bbdd-13dc09634d23")
 	)
 	(pad "7" smd rect
 		(at -7.5 4.7)
 		(size 1.27 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b752e7e2-7998-4f58-b4ab-57afb0a35626")
 	)
 	(pad "8" smd rect
 		(at -4.5 4.7)
 		(size 1.27 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "339dd3e4-d302-4add-8563-1c1a538b5790")
 	)
 	(pad "9" smd rect
 		(at -1.5 4.7)
 		(size 1.27 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bb1e3da4-0623-423f-9dbc-b785691af738")
 	)
 	(pad "10" smd rect
 		(at 1.5 4.7)
 		(size 1.27 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "114d08f1-c47a-4616-a388-7d24b04266ed")
 	)
 	(pad "11" smd rect
 		(at 4.5 4.7)
 		(size 1.27 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "705faac8-2a8f-4496-9231-b11876eab72e")
 	)
 	(pad "12" smd rect
 		(at 7.5 4.7)
 		(size 1.27 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1da7e3aa-2077-430b-b7b9-f5205fe2099d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-1215_2x06_P3.00mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-1215_2x06_P3.00mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

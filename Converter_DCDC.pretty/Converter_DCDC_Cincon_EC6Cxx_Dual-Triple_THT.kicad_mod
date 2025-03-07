@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Cincon_EC6Cxx_Dual-Triple_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DCDC-Converter, CINCON, EC6Cxx, dual or tripple output, http://www.cincon.com/upload/media/data%20sheets/Data%20Sheet%20(DC)/C%20CASE/SPEC-EC6C-V12.pdf")
 	(tags "DCDC-Converter CINCON EC6Cxx dual or tripple output")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "24a9810b-4ee2-4721-b073-4b5ef1b610d4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -372,7 +362,8 @@
 		(remove_unused_layers no)
 		(uuid "30f41f69-6567-403b-bebc-4f24b7291d28")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Cincon_EC6Cxx_Dual-Triple_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Cincon_EC6Cxx_Dual-Triple_THT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

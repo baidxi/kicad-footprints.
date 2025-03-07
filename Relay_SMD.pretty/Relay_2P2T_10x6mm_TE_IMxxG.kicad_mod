@@ -1,7 +1,7 @@
 (footprint "Relay_2P2T_10x6mm_TE_IMxxG"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf")
 	(tags "TE IM-Series Relay DPDT Form C")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "68ce5d8a-8dad-4981-86e6-b933f7f3ca10")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -288,52 +278,53 @@
 	(pad "1" smd rect
 		(at -3 -3.8)
 		(size 2 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d56f9e5f-ad02-45d8-bc8e-3ddc9a4edcc8")
 	)
 	(pad "2" smd rect
 		(at -3 -0.6)
 		(size 2 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8d973875-df4e-4451-a7ef-0258993c6f80")
 	)
 	(pad "3" smd rect
 		(at -3 1.6)
 		(size 2 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0f275f48-36d7-40b6-88b2-c9899e7ffa46")
 	)
 	(pad "4" smd rect
 		(at -3 3.8)
 		(size 2 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "43195080-c30b-43cb-b9cc-2940f571e33d")
 	)
 	(pad "5" smd rect
 		(at 3 3.8)
 		(size 2 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8eb2009f-30b8-4dcb-99cc-2956d4bb1422")
 	)
 	(pad "6" smd rect
 		(at 3 1.6)
 		(size 2 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d5940833-8806-4fb4-93eb-ca6c2cffdab8")
 	)
 	(pad "7" smd rect
 		(at 3 -0.6)
 		(size 2 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8912290a-f834-49c5-835a-9e3ceaac6c15")
 	)
 	(pad "8" smd rect
 		(at 3 -3.8)
 		(size 2 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "05564115-e718-47f4-aa29-b021b54d4e8a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_SMD.3dshapes/Relay_2P2T_10x6mm_TE_IMxxG.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_SMD.3dshapes/Relay_2P2T_10x6mm_TE_IMxxG.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

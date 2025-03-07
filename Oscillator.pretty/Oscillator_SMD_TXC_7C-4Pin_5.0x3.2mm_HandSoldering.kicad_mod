@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_TXC_7C-4Pin_5.0x3.2mm_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Miniature Crystal Clock Oscillator TXC 7C series, http://www.txccorp.com/download/products/osc/7C_o.pdf, hand-soldering, 5.0x3.2mm^2 package")
 	(tags "SMD SMT crystal oscillator hand-soldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "20580d57-c008-435a-9115-a0643bd396c9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,54 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 0.116667 0)
-		(stroke
-			(width 0.233333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "56c7d716-c414-4cf6-be93-84e2dc89c39a")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.266667 0)
-		(stroke
-			(width 0.166667)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "688d9e16-0c96-4695-a92e-4c73a8d982a2")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.416667 0)
-		(stroke
-			(width 0.166667)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "ac429332-d7d1-48d4-85b6-018efacb69ab")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.5 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "994c5d52-ee0c-4997-95a5-f4bd71b0aafe")
-	)
 	(fp_line
 		(start -2.7 -1.8)
 		(end -2.31 -1.8)
@@ -207,6 +153,50 @@
 		)
 		(layer "F.SilkS")
 		(uuid "c37b2734-e4a5-41b0-b5bf-659978a4216b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.116667 0)
+		(stroke
+			(width 0.233333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "56c7d716-c414-4cf6-be93-84e2dc89c39a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.266667 0)
+		(stroke
+			(width 0.166667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "688d9e16-0c96-4695-a92e-4c73a8d982a2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.416667 0)
+		(stroke
+			(width 0.166667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "ac429332-d7d1-48d4-85b6-018efacb69ab")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "994c5d52-ee0c-4997-95a5-f4bd71b0aafe")
 	)
 	(fp_line
 		(start -2.8 -2.6)
@@ -352,28 +342,29 @@
 	(pad "1" smd rect
 		(at -1.34 1.4)
 		(size 1.54 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "daa8795a-d529-4d93-82d0-b2eec33db79a")
 	)
 	(pad "2" smd rect
 		(at 1.34 1.4)
 		(size 1.54 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "74bd6e48-84f7-44f0-92f0-aabc978b1fd1")
 	)
 	(pad "3" smd rect
 		(at 1.34 -1.4)
 		(size 1.54 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d98d01cd-16bf-4907-a00c-16ad459be6f2")
 	)
 	(pad "4" smd rect
 		(at -1.34 -1.4)
 		(size 1.54 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bb46169b-cc08-4b5a-9119-79f03488eafd")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_TXC_7C-4Pin_5.0x3.2mm_HandSoldering.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_TXC_7C-4Pin_5.0x3.2mm_HandSoldering.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

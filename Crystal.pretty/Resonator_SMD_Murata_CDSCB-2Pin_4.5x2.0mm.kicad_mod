@@ -1,7 +1,7 @@
 (footprint "Resonator_SMD_Murata_CDSCB-2Pin_4.5x2.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Resomator/Filter Murata CDSCB, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, 4.5x2.0mm^2 package")
 	(tags "SMD SMT ceramic resonator filter filter")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4969de2c-8794-4e4f-840b-b3038e33087c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -198,16 +188,17 @@
 	(pad "1" smd rect
 		(at -1.5 0)
 		(size 1 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "32819b74-2c54-4699-90e8-186c996afc08")
 	)
 	(pad "2" smd rect
 		(at 1.5 0)
 		(size 1 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f8dd36e5-da6c-4636-a57c-99578db86857")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Resonator_SMD_Murata_CDSCB-2Pin_4.5x2.0mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Resonator_SMD_Murata_CDSCB-2Pin_4.5x2.0mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

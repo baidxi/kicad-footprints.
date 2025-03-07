@@ -1,7 +1,7 @@
 (footprint "PowerMacro_M234_NoHole"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TO-50-4 Power Macro Package Style M234")
 	(tags "TO-50-4 Power Macro Package Style M234")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2cf66d47-ac88-49e3-bd40-392253cc3114")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a0dafb38-5d93-4e36-8369-1231824b2993")
 	)
@@ -83,7 +73,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "e41cb643-f065-4953-8ada-1c9e389ceeca")
 	)
@@ -254,7 +244,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a722e80f-d284-4350-b401-6333f4f09ce7")
 	)
@@ -272,28 +262,29 @@
 	(pad "1" smd rect
 		(at -7.5 0 90)
 		(size 1.5 7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5191e9a5-e4c8-426b-b9b9-a6d9e717b301")
 	)
 	(pad "2" smd rect
 		(at -0.7 6.8 90)
 		(size 7 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ce8b272c-0e96-4cf1-987a-de38a0c6b6a7")
 	)
 	(pad "3" smd rect
 		(at 7.5 0 90)
 		(size 3.5 10)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "02f7b9c1-5fd1-4141-ba4d-f397e24cf08c")
 	)
 	(pad "4" smd rect
 		(at -0.7 -6.8 90)
 		(size 7 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f02a13c9-93b4-4748-8a5d-b09618ea839d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/PowerMacro_M234_NoHole.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/PowerMacro_M234_NoHole.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

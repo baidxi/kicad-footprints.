@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Cyntec_MUN12AD01-SH"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD01-SH_Datasheet.pdf")
 	(tags "Power Module uPOL MUN12AD01")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "361f922d-e7e0-48a6-b2a6-6eaf8a2d3290")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -229,49 +219,49 @@
 	(pad "1" smd rect
 		(at -1.6 -1.2)
 		(size 0.7 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c104b7cd-a735-4dba-af30-b37a537141b9")
 	)
 	(pad "2" smd rect
 		(at -1.6 -0.4)
 		(size 0.7 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7fb8ae49-ce7c-4942-8524-f7a7ea6b1691")
 	)
 	(pad "3" smd rect
 		(at -1.6 0.4)
 		(size 0.7 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "46ffb769-4052-401f-9359-e3fa9e29f1bc")
 	)
 	(pad "4" smd rect
 		(at -1.6 1.2)
 		(size 0.7 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "35e2d48a-67d3-4d93-b76b-0cbeaf1ec46e")
 	)
 	(pad "5" smd rect
 		(at 1.6 1.2)
 		(size 0.7 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0789303a-2550-409b-afc1-ba63a74ac19e")
 	)
 	(pad "6" smd rect
 		(at 1.6 0.4)
 		(size 0.7 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4b8df9f5-9d0a-4d60-9ab0-979df7ff85dd")
 	)
 	(pad "7" smd rect
 		(at 1.6 -0.4)
 		(size 0.7 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5ce2ad24-5287-42fd-a38c-7d0adfc9c600")
 	)
 	(pad "8" smd rect
 		(at 1.6 -1.2)
 		(size 0.7 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a50fe9f1-a5a0-41d4-a619-9d1a92d9092e")
 	)
 	(pad "9" smd custom
@@ -294,7 +284,8 @@
 		)
 		(uuid "e09b7c63-2231-445d-b4fd-98cdc3826644")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Cyntec_MUN12AD0x-SH.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Cyntec_MUN12AD0x-SH.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

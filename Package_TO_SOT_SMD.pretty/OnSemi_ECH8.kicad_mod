@@ -1,7 +1,7 @@
 (footprint "OnSemi_ECH8"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "On Semiconductor ECH8, https://www.onsemi.com/pub/Collateral/318BF.PDF")
 	(tags "ECH8 SOT28-FL SOT-28-FL")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4c420fce-1002-43b3-97d4-ce88e7463c31")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "5becb5be-d38b-442e-b35a-d6749a0c86ea")
 	)
@@ -187,7 +177,7 @@
 		(uuid "5c24cce3-a85a-45fa-9416-69e86e71fb3e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(uuid "c148a3ee-1b67-43d5-9a7b-31b16ef6b9dc")
 		(effects
@@ -200,60 +190,61 @@
 	(pad "1" smd roundrect
 		(at -1.4 -0.975 270)
 		(size 0.4 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "fc3de994-3153-45ff-8eb5-0d2be74fad37")
 	)
 	(pad "2" smd roundrect
 		(at -1.4 -0.325 270)
 		(size 0.4 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5e08dedf-ff34-44ae-a217-58a08c9a6b2a")
 	)
 	(pad "3" smd roundrect
 		(at -1.4 0.325 270)
 		(size 0.4 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "28a96d8f-7bf4-4186-8406-3e57d93b4d95")
 	)
 	(pad "4" smd roundrect
 		(at -1.4 0.975 270)
 		(size 0.4 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c114a188-b219-4603-a8ff-d533ec7909b2")
 	)
 	(pad "5" smd roundrect
 		(at 1.4 0.975 270)
 		(size 0.4 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3ca3178a-cc18-49e0-a67a-b175e4e4617d")
 	)
 	(pad "6" smd roundrect
 		(at 1.4 0.325 270)
 		(size 0.4 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "123f29cb-e9fd-4e2e-8fb8-b91c7930d8c8")
 	)
 	(pad "7" smd roundrect
 		(at 1.4 -0.325 270)
 		(size 0.4 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "2751278c-2799-4be0-b198-46c80e2146af")
 	)
 	(pad "8" smd roundrect
 		(at 1.4 -0.975 270)
 		(size 0.4 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a385edae-630d-4cdc-8d7e-c89980732139")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/OnSemi_ECH8.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/OnSemi_ECH8.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

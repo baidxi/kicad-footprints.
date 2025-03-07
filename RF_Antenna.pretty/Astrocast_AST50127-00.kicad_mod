@@ -1,7 +1,7 @@
 (footprint "Astrocast_AST50127-00"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "L-band patch antenna, https://docs.astrocast.com/dl/0534-DOC-M2M-ASTRO-Patch_Antenna-Datasheet.pdf")
 	(tags "L-band antenna astrocast Patch Antenna")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a20800a5-67cf-4ffc-98ed-a1c31b4b3203")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,10 +51,41 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 17.49 -0.05) (xy 17.5 22.19) (xy -17.5 22.2) (xy -17.49 -0.01) (xy -1.46 0.01) (xy -1.43 0.23)
+			(xy -1.39 0.41) (xy -1.31 0.6) (xy -1.2 0.8) (xy -1.03 1.03) (xy -0.78 1.22) (xy -0.48 1.37) (xy -0.17 1.44)
+			(xy 0.23 1.44) (xy 0.66 1.3) (xy 1.02 1.03) (xy 1.19 0.82) (xy 1.33 0.58) (xy 1.42 0.33) (xy 1.44 0.17)
+			(xy 1.46 -0.01) (xy 17.51 -0.01)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "51bfc500-4658-47ee-8287-12da0a0d8630")
+	)
+	(fp_poly
+		(pts
+			(xy 17.51 -0.01) (xy 1.46 -0.01) (xy 1.44 -0.14) (xy 1.43 -0.27) (xy 1.39 -0.42) (xy 1.36 -0.52)
+			(xy 1.28 -0.68) (xy 1.18 -0.84) (xy 1.02 -1.04) (xy 0.86 -1.18) (xy 0.59 -1.34) (xy 0.2 -1.45) (xy -0.14 -1.46)
+			(xy -0.46 -1.38) (xy -0.66 -1.3) (xy -0.97 -1.1) (xy -1.15 -0.91) (xy -1.29 -0.7) (xy -1.39 -0.46)
+			(xy -1.45 -0.23) (xy -1.46 -0.01) (xy -1.46 0.01) (xy -17.49 -0.01) (xy -17.51 -12.81) (xy 17.51 -12.8)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "884433bf-10b8-48eb-b9c5-c6194c76613b")
+	)
 	(fp_line
 		(start -17.62 -12.92)
 		(end 17.62 -12.92)
@@ -105,36 +125,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "dd95db23-5224-4f0f-88aa-4fc08f7b523a")
-	)
-	(fp_poly
-		(pts
-			(xy 17.49 -0.05) (xy 17.5 22.19) (xy -17.5 22.2) (xy -17.49 -0.01) (xy -1.46 0.01) (xy -1.43 0.23)
-			(xy -1.39 0.41) (xy -1.31 0.6) (xy -1.2 0.8) (xy -1.03 1.03) (xy -0.78 1.22) (xy -0.48 1.37) (xy -0.17 1.44)
-			(xy 0.23 1.44) (xy 0.66 1.3) (xy 1.02 1.03) (xy 1.19 0.82) (xy 1.33 0.58) (xy 1.42 0.33) (xy 1.44 0.17)
-			(xy 1.46 -0.01) (xy 17.51 -0.01)
-		)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "51bfc500-4658-47ee-8287-12da0a0d8630")
-	)
-	(fp_poly
-		(pts
-			(xy 17.51 -0.01) (xy 1.46 -0.01) (xy 1.44 -0.14) (xy 1.43 -0.27) (xy 1.39 -0.42) (xy 1.36 -0.52)
-			(xy 1.28 -0.68) (xy 1.18 -0.84) (xy 1.02 -1.04) (xy 0.86 -1.18) (xy 0.59 -1.34) (xy 0.2 -1.45) (xy -0.14 -1.46)
-			(xy -0.46 -1.38) (xy -0.66 -1.3) (xy -0.97 -1.1) (xy -1.15 -0.91) (xy -1.29 -0.7) (xy -1.39 -0.46)
-			(xy -1.45 -0.23) (xy -1.46 -0.01) (xy -1.46 0.01) (xy -17.49 -0.01) (xy -17.51 -12.81) (xy 17.51 -12.8)
-		)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "884433bf-10b8-48eb-b9c5-c6194c76613b")
 	)
 	(fp_line
 		(start -18 -13.3)
@@ -267,6 +257,10 @@
 			(copperpour allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -277,7 +271,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Antenna.3dshapes/Astrocast_AST50127-00.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Antenna.3dshapes/Astrocast_AST50127-00.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

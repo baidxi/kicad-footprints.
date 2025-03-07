@@ -1,7 +1,7 @@
 (footprint "Infineon_PG-LLGA-5-2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Infineon, IP57, XENSIV, LGA-5, https://www.infineon.com/dgdl/Infineon-IM73A135-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c7f2a768a017fadec36b84500")
 	(tags "MEMS Microphone LGA Dust Water")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cc555b61-235b-495e-a554-f963b0ab2ee1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,10 +49,63 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -2.18 -1.38)
+		(end -2.18 1.68)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86e7b32f-b9c0-473a-8d2d-2073b55216d4")
+	)
+	(fp_line
+		(start -2.18 1.68)
+		(end 2.18 1.68)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb3cb566-8a57-47b8-9f2f-6ce1bd8041c9")
+	)
+	(fp_line
+		(start -1.88 -1.68)
+		(end 2.18 -1.68)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58aa7dc8-0a8e-4324-a334-939a3fbfc2b6")
+	)
+	(fp_line
+		(start 2.18 -1.68)
+		(end 2.18 1.68)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec21edee-8dc0-4833-8e61-dc405a0bbe19")
+	)
+	(fp_poly
+		(pts
+			(xy -2.18 -1.68) (xy -2.46 -1.68) (xy -2.18 -1.96) (xy -2.18 -1.68)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "01f5efc5-65ee-4f82-b21a-7d5280b72de1")
+	)
 	(fp_line
 		(start -1.5 -0.75)
 		(end -1.5 -0.95)
@@ -169,58 +211,6 @@
 		)
 		(layer "F.Paste")
 		(uuid "87a3860b-0102-4c1e-b4ab-fa4ba6aa4d30")
-	)
-	(fp_line
-		(start -2.18 -1.38)
-		(end -2.18 1.68)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "86e7b32f-b9c0-473a-8d2d-2073b55216d4")
-	)
-	(fp_line
-		(start -2.18 1.68)
-		(end 2.18 1.68)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "bb3cb566-8a57-47b8-9f2f-6ce1bd8041c9")
-	)
-	(fp_line
-		(start -1.88 -1.68)
-		(end 2.18 -1.68)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "58aa7dc8-0a8e-4324-a334-939a3fbfc2b6")
-	)
-	(fp_line
-		(start 2.18 -1.68)
-		(end 2.18 1.68)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ec21edee-8dc0-4833-8e61-dc405a0bbe19")
-	)
-	(fp_poly
-		(pts
-			(xy -2.18 -1.68) (xy -2.46 -1.68) (xy -2.18 -1.96) (xy -2.18 -1.68)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "01f5efc5-65ee-4f82-b21a-7d5280b72de1")
 	)
 	(fp_line
 		(start -2.25 -1.75)
@@ -377,7 +367,8 @@
 		)
 		(uuid "8c2d513b-19ba-4270-bed6-a2599d0a2f44")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Audio.3dshapes/Infineon_PG-LLGA-5-2.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Audio.3dshapes/Infineon_PG-LLGA-5-2.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

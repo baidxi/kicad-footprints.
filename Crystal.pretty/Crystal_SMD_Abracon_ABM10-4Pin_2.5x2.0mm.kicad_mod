@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Abracon Miniature Ceramic Smd Crystal ABM10 http://www.abracon.com/Resonators/ABM10.pdf")
 	(tags "SMD SMT crystal Abracon ABM10")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b9b4384d-bac7-4deb-b2fc-3eda0f985d2b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -208,28 +198,29 @@
 	(pad "1" smd rect
 		(at -0.625 -0.825)
 		(size 0.8 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0bb8492f-fdbe-4b81-beef-f1fb9fd4b4fb")
 	)
 	(pad "2" smd rect
 		(at -0.625 0.825)
 		(size 0.8 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bec4a386-fdd8-4bb5-845f-1fd800367804")
 	)
 	(pad "3" smd rect
 		(at 0.625 0.825)
 		(size 0.8 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b778782d-fe0b-451d-9fa5-65b875987742")
 	)
 	(pad "4" smd rect
 		(at 0.625 -0.825)
 		(size 0.8 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d440c2d4-a167-48a4-b99c-b8a3534bef4b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

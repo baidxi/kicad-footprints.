@@ -1,7 +1,7 @@
 (footprint "DIP-5-6_W8.89mm_SMDSocket_LongPads"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "5-lead though-hole mounted DIP package, row spacing 8.89 mm (350 mils), SMDSocket, LongPads")
 	(tags "THT DIP DIL PDIP 2.54mm 8.89mm 350mil SMDSocket LongPads")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "873c588f-64a9-4cd6-87e0-dc921e46d2a6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -309,34 +299,35 @@
 	(pad "1" smd rect
 		(at -4.445 -2.54)
 		(size 3.1 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0a53e132-2a7d-4558-835e-1eb752633b04")
 	)
 	(pad "2" smd rect
 		(at -4.445 0)
 		(size 3.1 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "18f5e3fc-af8e-4585-b116-abd1f9ca8d42")
 	)
 	(pad "3" smd rect
 		(at -4.445 2.54)
 		(size 3.1 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "73e2dff3-bdfd-4e0a-af37-0eef025e8a57")
 	)
 	(pad "4" smd rect
 		(at 4.445 2.54)
 		(size 3.1 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b84881f1-1115-4e15-ab27-68e2d859286f")
 	)
 	(pad "6" smd rect
 		(at 4.445 -2.54)
 		(size 3.1 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b5cf128f-daf2-4d27-ab91-932f7017c1ec")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-5-6_W8.89mm_SMDSocket.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-5-6_W8.89mm_SMDSocket.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

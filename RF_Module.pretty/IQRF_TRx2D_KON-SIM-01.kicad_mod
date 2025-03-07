@@ -1,7 +1,7 @@
 (footprint "IQRF_TRx2D_KON-SIM-01"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "8 pin SIM connector for IQRF TR-x2D(C)(T) modules, http://iqrf.org/weben/downloads.php?id=104")
 	(tags "IQRF_KON-SIM-01 IQRF_TRx2D IQRF_TRx2DC")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "39b0e775-7fa3-43b7-a714-50ed2cf704b5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -152,7 +142,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "8b861856-358c-4542-a3d6-dff8126bfd3e")
 	)
@@ -330,64 +320,65 @@
 	(pad "" smd rect
 		(at -7.075 -1.07)
 		(size 1.7 4.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c7e22d67-008d-4374-96e0-cd4d3ee698c1")
 	)
 	(pad "" smd rect
 		(at 7.075 -1.07)
 		(size 1.7 4.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f485e076-3559-4989-b834-eca62b93b69b")
 	)
 	(pad "C1" smd rect
 		(at -3.895 -4.975)
 		(size 1 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bc178213-c48d-43f2-b532-b8cfb94906da")
 	)
 	(pad "C2" smd rect
 		(at -1.355 -4.975)
 		(size 1 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "03d5f20c-00b6-48eb-80c8-53cda929397b")
 	)
 	(pad "C3" smd rect
 		(at 1.185 -4.975)
 		(size 1 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "981e27bd-aef9-49f2-b256-15b5419a1341")
 	)
 	(pad "C4" smd rect
 		(at 3.725 -4.975)
 		(size 1 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1cb12808-b1e4-4bc2-aa3c-efbb883068df")
 	)
 	(pad "C5" smd rect
 		(at -3.895 4.975)
 		(size 1 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "89690a7d-c84f-4fd8-b38a-c2246fe10e34")
 	)
 	(pad "C6" smd rect
 		(at -1.355 4.975)
 		(size 1 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "81d7c0ee-2a91-4046-be26-96a4908cedd4")
 	)
 	(pad "C7" smd rect
 		(at 1.185 4.975)
 		(size 1 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "67928760-5e91-488d-a26a-257ce74abf8b")
 	)
 	(pad "C8" smd rect
 		(at 3.725 4.975)
 		(size 1 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7a948f72-fa79-4ece-9025-7cd73e4d6a23")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/IQRF_TRx2D_KON-SIM-01.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/IQRF_TRx2D_KON-SIM-01.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
 	(tags "test point wire loop bead")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6f5895aa-ea4a-4006-923e-994a2f94655b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a9b3acce-1d5a-4789-b15d-720e51999b27")
 	)
@@ -82,7 +72,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "9dbcd10c-310f-4db0-bb5f-19a0fe7fa5e2")
 	)
@@ -133,7 +123,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e3cc5e3a-686a-4771-a6fa-1ec17a2e4b9d")
 	)
@@ -156,7 +146,8 @@
 		(remove_unused_layers no)
 		(uuid "e6088c25-4b84-4024-b6d0-847a29396859")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

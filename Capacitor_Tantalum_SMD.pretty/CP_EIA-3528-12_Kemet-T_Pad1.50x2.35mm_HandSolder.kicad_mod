@@ -1,7 +1,7 @@
 (footprint "CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Tantalum Capacitor SMD Kemet-T (3528-12 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 	(tags "capacitor tantalum")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0fe3f0ed-ede3-411f-9f52-52298b7fb09a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -198,18 +188,19 @@
 	(pad "1" smd roundrect
 		(at -1.625 0)
 		(size 1.5 2.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.166667)
 		(uuid "50d557cf-3b7f-4ac9-8147-4a9ad5a56133")
 	)
 	(pad "2" smd roundrect
 		(at 1.625 0)
 		(size 1.5 2.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.166667)
 		(uuid "5221d0f2-d048-4ad6-9965-63e06b1d7999")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3528-12_Kemet-T.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3528-12_Kemet-T.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

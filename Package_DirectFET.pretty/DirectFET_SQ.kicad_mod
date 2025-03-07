@@ -1,7 +1,7 @@
 (footprint "DirectFET_SQ"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DirectFET SQ https://www.infineon.com/dgdl/Infineon-AN-1035-ApplicationNotes-v29_01-EN.pdf?fileId=5546d462533600a40153559159020f76#page=17")
 	(tags "DirectFET SQ MOSFET Infineon")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c8f5d553-2b12-4822-acfb-6b2a628ea326")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -388,40 +378,41 @@
 	(pad "1" smd rect
 		(at -2.45 -0.825)
 		(size 0.9 1.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "750e6f76-8289-4eba-ab81-ed49dce2bd62")
 	)
 	(pad "1" smd rect
 		(at -2.45 0.825)
 		(size 0.9 1.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "648b6f14-3165-49de-8ef5-53f31960e840")
 	)
 	(pad "1" smd rect
 		(at 2.45 -0.825)
 		(size 0.9 1.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "76e6be1b-6373-40a2-92b1-7577e2eaf4c3")
 	)
 	(pad "1" smd rect
 		(at 2.45 0.825)
 		(size 0.9 1.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fc254861-cf71-4285-913e-8cf3c0fb94ec")
 	)
 	(pad "2" smd rect
 		(at -0.8 0)
 		(size 0.55 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fadb6725-33fa-48e7-bc48-3c81b373b5b0")
 	)
 	(pad "3" smd rect
 		(at 0.5 0)
 		(size 0.95 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4bb69025-c99d-4967-9a05-1046436433a5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DirectFET.3dshapes/DirectFET_SQ.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DirectFET.3dshapes/DirectFET_SQ.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

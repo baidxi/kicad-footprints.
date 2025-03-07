@@ -1,7 +1,7 @@
 (footprint "Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PQFN 22 leads, 5x6mm, 0.127mm stencil (https://www.infineon.com/dgdl/ir4301.pdf?fileId=5546d462533600a4015355d5fc691819, https://www.infineon.com/dgdl/Infineon-AN1170-AN-v05_00-EN.pdf?fileId=5546d462533600a40153559ac3e51134)")
 	(tags "pqfn 22 5x6mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "457480ab-c0f8-43e6-a2e3-122a0c84aea6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -162,7 +152,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "1b887354-1c24-4bf4-b869-dfc12d292724")
 	)
@@ -644,7 +634,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "b146e786-6b74-43dc-ba93-6d02b972a1aa")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

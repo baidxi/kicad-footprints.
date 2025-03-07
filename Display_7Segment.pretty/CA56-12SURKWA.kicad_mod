@@ -1,7 +1,7 @@
 (footprint "CA56-12SURKWA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "4 digit 7 segment green LED, http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12SURKWA(Ver.8A).pdf")
 	(tags "4 digit 7 segment green LED")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "50902d12-88ff-4de1-8fab-742debd5963e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -331,7 +321,8 @@
 		(remove_unused_layers no)
 		(uuid "20331883-a51d-4755-bb11-b38e8ecb2abf")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display_7Segment.3dshapes/CA56-12SURKWA.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display_7Segment.3dshapes/CA56-12SURKWA.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

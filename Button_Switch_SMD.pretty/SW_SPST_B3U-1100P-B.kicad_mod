@@ -1,7 +1,7 @@
 (footprint "SW_SPST_B3U-1100P-B"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, with Ground Terminal, with Boss")
 	(tags "Tactile Switch")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d03540e5-da19-48ff-886b-006e5e838388")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -261,7 +251,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d41e1f37-5ddc-4000-8b01-07b391882a06")
 	)
@@ -286,22 +276,23 @@
 	(pad "1" smd rect
 		(at -1.7 -0.82)
 		(size 0.9 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "41062845-8ee9-4ae4-994e-c0aad228941c")
 	)
 	(pad "2" smd rect
 		(at 1.7 -0.82)
 		(size 0.9 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fe3e8b19-81da-4400-9c1a-e43480e268fb")
 	)
 	(pad "3" smd rect
 		(at 0 0.82)
 		(size 0.8 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f8a55c1f-6010-4acc-b9c1-ecf75d25668f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1100P-B.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1100P-B.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

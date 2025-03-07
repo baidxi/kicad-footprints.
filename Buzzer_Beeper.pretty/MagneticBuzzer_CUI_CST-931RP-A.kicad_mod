@@ -1,7 +1,7 @@
 (footprint "MagneticBuzzer_CUI_CST-931RP-A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "CST-931RP-A, http://www.cui.com/product/resource/cst-931rp-a.pdf")
 	(tags "CST-931RP-A")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b2754b17-aa16-4c6f-adeb-01d607376997")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "0c2ded3a-f9ba-4209-b15c-a8cf89e7e579")
 	)
@@ -206,7 +196,8 @@
 		(remove_unused_layers no)
 		(uuid "75395605-dd1d-49e4-8f74-0cd2b1775791")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/MagneticBuzzer_CUI_CST-931RP-A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/MagneticBuzzer_CUI_CST-931RP-A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Piher_T-16L_Single_Vertical_Hole"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Potentiometer, vertical, shaft hole, Piher T-16L Single, http://www.piher-nacesa.com/pdf/22-T16v03.pdf")
 	(tags "Potentiometer vertical hole Piher T-16L Single")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "60296c7f-507c-4563-b3f0-bc056fb79bd7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -131,7 +121,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "c923ab5b-ae84-404a-ba8d-8d96bc541c45")
 	)
@@ -212,7 +202,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "058e91b3-616f-444f-8e24-88e1e76c601b")
 	)
@@ -258,7 +248,8 @@
 		(remove_unused_layers no)
 		(uuid "dc8ddd53-3e05-4b97-8a19-1a3f46a3eff9")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Piher_T-16L_Single_Vertical_Hole.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Piher_T-16L_Single_Vertical_Hole.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

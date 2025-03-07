@@ -1,7 +1,7 @@
 (footprint "Filter_SAW_Epcos_DCC6C_3x3mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "EPCOS/TDK Electronics/Qualcomm DCC6c SAW filter package based on EPCOS app note 93 (https://www.catagle.com/45-2/PDF_AN93.htm)")
 	(tags "SAW filter 6-pin")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "69e5ed5d-4d79-4010-b006-0134466c9981")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -144,7 +134,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "0bd13c58-04f4-4c89-bf55-ca819d47cd23")
 	)
@@ -155,7 +145,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "794584d2-3c93-487f-b5bc-4a3177451942")
 	)
@@ -224,40 +214,41 @@
 	(pad "1" smd rect
 		(at -1 -1.2)
 		(size 2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e546ff5f-90df-48b3-a28d-5256cf4dfcee")
 	)
 	(pad "2" smd rect
 		(at -1.45 0)
 		(size 1.1 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "40848fed-ce8c-4005-b77c-903d773deecc")
 	)
 	(pad "3" smd rect
 		(at -1.45 1.2)
 		(size 1.1 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5ff135dd-680a-48e3-a060-4f58f2080d8a")
 	)
 	(pad "4" smd rect
 		(at 1.45 1.2)
 		(size 1.1 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e70420b2-5d90-4673-b190-277eb48d994e")
 	)
 	(pad "5" smd rect
 		(at 1.45 0)
 		(size 1.1 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "449ac277-58d6-4aba-b2a5-6e58ea74d430")
 	)
 	(pad "6" smd rect
 		(at 1.45 -1.2)
 		(size 1.1 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7f83f4cc-368d-42ff-b7ec-d3103883a81c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Filter.3dshapes/Filter_SAW_Epcos_DCC6C_3x3mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_SAW_Epcos_DCC6C_3x3mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

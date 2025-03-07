@@ -1,7 +1,7 @@
 (footprint "L_Abracon_ASPI-0630LR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "smd shielded power inductor https://abracon.com/Magnetics/power/ASPI-0630LR.pdf")
 	(tags "inductor abracon smd shielded")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bcd087e1-d0e6-4dbf-b47f-66cb630eb906")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -298,18 +288,19 @@
 	(pad "1" smd roundrect
 		(at -3.025 0)
 		(size 2.35 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "beae5ae5-abe6-48e6-8f98-ed453414f3c5")
 	)
 	(pad "2" smd roundrect
 		(at 3.025 0)
 		(size 2.35 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "88d41203-4061-477d-ae8d-021c6f6187c7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Abracon_ASPI-0630LR.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Abracon_ASPI-0630LR.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

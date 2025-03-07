@@ -1,7 +1,7 @@
 (footprint "Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments HSOP 9, 1.27mm pitch, 3.9x4.9mm body, exposed pad, thermal vias, DDA0008J (http://www.ti.com/lit/ds/symlink/tps5430.pdf)")
 	(tags "HSOP 1.27")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d3fc8058-0749-4afa-9a03-322ae074e8c8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "4fa6c244-aa3e-4547-a1fa-c8504a64f62f")
 	)
@@ -200,61 +190,61 @@
 	(pad "" smd rect
 		(at 0 0)
 		(size 2.6 3.1)
-		(layers "F.Paste")
-		(uuid "82dc6f84-0be4-4027-934e-75a3d53d7b9f")
+		(layers "F.Mask")
+		(uuid "ea884461-6d59-492a-8a7f-802ed00348b9")
 	)
 	(pad "" smd rect
 		(at 0 0)
 		(size 2.6 3.1)
-		(layers "F.Mask")
-		(uuid "ea884461-6d59-492a-8a7f-802ed00348b9")
+		(layers "F.Paste")
+		(uuid "82dc6f84-0be4-4027-934e-75a3d53d7b9f")
 	)
 	(pad "1" smd rect
 		(at -2.7 -1.905)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "20079642-40c8-41fa-b68e-9bbb061c2fd5")
 	)
 	(pad "2" smd rect
 		(at -2.7 -0.635)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e0ccde7d-d941-47ba-b067-db35bfaae858")
 	)
 	(pad "3" smd rect
 		(at -2.7 0.635)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c25b8479-19e5-4d4a-b300-e960ef8c60f6")
 	)
 	(pad "4" smd rect
 		(at -2.7 1.905)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9e7e5544-ba4b-40ae-9fca-c05eb7735a17")
 	)
 	(pad "5" smd rect
 		(at 2.7 1.905)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "69917da2-6d81-418f-920a-de83f2386f9d")
 	)
 	(pad "6" smd rect
 		(at 2.7 0.635)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b477445d-3ed2-4d20-8c1d-01207c8dfc63")
 	)
 	(pad "7" smd rect
 		(at 2.7 -0.635)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a8ac801e-3606-4a63-bf1e-0b7ca6b7c597")
 	)
 	(pad "8" smd rect
 		(at 2.7 -1.905)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6f6a287f-8a40-4636-a681-30b5e31f506c")
 	)
 	(pad "9" thru_hole circle
@@ -333,7 +323,8 @@
 		(remove_unused_layers no)
 		(uuid "421a1292-06ad-46b6-9f86-bfba1233a7d8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

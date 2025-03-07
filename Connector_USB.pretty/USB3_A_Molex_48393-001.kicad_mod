@@ -1,7 +1,7 @@
 (footprint "USB3_A_Molex_48393-001"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB 3.0, type A, right angle, http://www.molex.com/pdm_docs/sd/483930003_sd.pdf")
 	(tags "USB 3.0 type A right angle")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "938a4e9e-048c-448f-a723-3c55748df189")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -340,7 +330,8 @@
 		(remove_unused_layers no)
 		(uuid "0b752de3-fff7-4498-8dc5-e254fbf4b6e8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB3_A_Molex_48393-001.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB3_A_Molex_48393-001.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

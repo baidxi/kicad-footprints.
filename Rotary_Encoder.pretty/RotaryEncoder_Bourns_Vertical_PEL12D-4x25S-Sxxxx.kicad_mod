@@ -1,7 +1,7 @@
 (footprint "RotaryEncoder_Bourns_Vertical_PEL12D-4x25S-Sxxxx"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Rotary encoder with switch and illuminated 13mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf")
 	(tags "rotary encoder illuminated switch vertical")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 90)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "61813be9-7afd-42f3-b238-d84ab0d5ab39")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 90)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -352,7 +342,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "983eca9b-7bf7-4ad2-9376-f19343504492")
 	)
@@ -363,7 +353,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "05f0e4ff-f378-49a4-bcee-b52f9733f98a")
 	)
@@ -374,7 +364,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "291ebaf1-8d59-473a-aa53-eda9f974e6c5")
 	)
@@ -462,7 +452,8 @@
 		(remove_unused_layers no)
 		(uuid "5ec72dd7-9003-4497-8359-5bc81d6677bf")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Bourns_Vertical_PEL12D-4x25S-Sxxxx.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Bourns_Vertical_PEL12D-4x25S-Sxxxx.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

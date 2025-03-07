@@ -1,7 +1,7 @@
 (footprint "Adafruit_Feather_M0_Wifi_WithMountingHoles"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint for the Adafruit Feather M0 Wifi board, https://learn.adafruit.com/adafruit-feather-m0-wifi-atwinc1500/")
 	(tags "Adafruit Feather M0 Wifi")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4305c14e-06dc-4037-a275-86662d180c90")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -347,7 +337,7 @@
 		(uuid "da8f3c05-d78c-48e5-8262-777e1452ebdf")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 10.16 20.32 -90)
+		(at 10.16 20.32 270)
 		(layer "F.Fab")
 		(uuid "99caf7d3-7ffb-46b4-8263-177a3d0469a1")
 		(effects
@@ -666,7 +656,8 @@
 		(remove_unused_layers no)
 		(uuid "3d2fefa8-4b85-40b0-b825-83e4118dce7e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Adafruit_Feather_M0_Wifi.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/Adafruit_Feather_M0_Wifi.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

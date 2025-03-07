@@ -1,7 +1,7 @@
 (footprint "RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Nxxxx"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Bourns rotary encoder, PEC12R, without switch, with bushing, vertical shaft, 17.5mm shaft, https://www.bourns.com/docs/product-datasheets/pec12r.pdf")
 	(tags "rotary encoder")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "069a9db4-ac64-4de6-90c7-6a795894ebd9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -371,7 +361,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c6ae4ebe-e321-4e94-be0d-bdfe51572cb2")
 	)
@@ -382,7 +372,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "324e5028-a173-41b0-979b-b562ba145804")
 	)
@@ -438,7 +428,8 @@
 		(remove_unused_layers no)
 		(uuid "f195600b-e0d3-4ca4-8695-0ea573417407")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Nxxxx.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Nxxxx.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

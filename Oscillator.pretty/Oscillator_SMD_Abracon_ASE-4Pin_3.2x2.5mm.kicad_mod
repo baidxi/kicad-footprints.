@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Miniature Crystal Clock Oscillator Abracon ASE series, http://www.abracon.com/Oscillators/ASEseries.pdf, 3.2x2.5mm^2 package")
 	(tags "SMD SMT crystal oscillator")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f0b205f3-39ac-45b6-b77c-758ba7d18d70")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,54 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 0.058333 0)
-		(stroke
-			(width 0.116667)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "0f35a3a0-aca4-4430-9eea-8ef4288c3fcd")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.133333 0)
-		(stroke
-			(width 0.083333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "c50d7bee-b2f0-4f6c-9712-6d0cac04c590")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.208333 0)
-		(stroke
-			(width 0.083333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "22f8b9e9-ff9e-4d0e-95b6-42c79bc7ee9f")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.25 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "e96379d0-bcfe-4424-8f30-9ca1ee95c55f")
-	)
 	(fp_line
 		(start -1.9 -1.575)
 		(end -1.9 1.575)
@@ -127,6 +73,50 @@
 		)
 		(layer "F.SilkS")
 		(uuid "b84ef4fb-6cfb-4cf4-9d6b-ae3622dc0891")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.058333 0)
+		(stroke
+			(width 0.116667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "0f35a3a0-aca4-4430-9eea-8ef4288c3fcd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.133333 0)
+		(stroke
+			(width 0.083333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "c50d7bee-b2f0-4f6c-9712-6d0cac04c590")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.208333 0)
+		(stroke
+			(width 0.083333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "22f8b9e9-ff9e-4d0e-95b6-42c79bc7ee9f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "e96379d0-bcfe-4424-8f30-9ca1ee95c55f")
 	)
 	(fp_line
 		(start -2 -1.7)
@@ -272,28 +262,29 @@
 	(pad "1" smd rect
 		(at -1.05 0.825)
 		(size 1.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d563f19e-4337-4867-ae6e-6dba9fd6cdc4")
 	)
 	(pad "2" smd rect
 		(at 1.05 0.825)
 		(size 1.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5a8fcc62-6270-467c-998a-646f4e5ebf7e")
 	)
 	(pad "3" smd rect
 		(at 1.05 -0.825)
 		(size 1.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1ee7d87b-6c09-47a7-be63-b64f4cb977f5")
 	)
 	(pad "4" smd rect
 		(at -1.05 -0.825)
 		(size 1.3 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "829a4785-63c2-4b89-bcf3-b873cd2828c7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

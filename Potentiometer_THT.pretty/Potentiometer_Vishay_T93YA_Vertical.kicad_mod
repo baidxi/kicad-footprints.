@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Vishay_T93YA_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Potentiometer, vertical, Vishay, https://www.vishay.com/docs/51026/t93.pdf")
 	(tags "Potentiometer vertical vishay")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "24c8a9a6-119d-441e-b092-b934ce82f242")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -122,7 +112,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "a6bae630-b25a-49aa-81b7-8974c3faa768")
 	)
@@ -133,7 +123,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "78d2abf9-a61a-453a-af2a-2d9d2e9b9705")
 	)
@@ -194,7 +184,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1bf57c83-07d9-458c-9dff-c22c93baffdd")
 	)
@@ -234,7 +224,8 @@
 		(remove_unused_layers no)
 		(uuid "3f69bd43-fa5f-446e-b368-66466a088202")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Vishay_T93YA_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Vishay_T93YA_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

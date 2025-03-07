@@ -1,7 +1,7 @@
 (footprint "Osram_SFH2201"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PhotoDiode, Clear Silicone, Osram TOPLED, 4x5.09mm, area: 2.85x2.85mm, Orientation mark at cathode, https://dammedia.osram.info/media/resource/hires/osram-dam-25688470/SFH%202201%20A01_EN.pdf")
 	(tags "PhotoDiode silicone")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6d84ec8a-a4cc-4ea2-b3fb-04934c4a2776")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -103,7 +93,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "8a8910a2-fd37-422a-ae68-79d121dc011e")
 	)
@@ -323,7 +313,8 @@
 		)
 		(uuid "de6f3a99-316a-4632-8aea-f68a5b9dffd4")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Osram_SFH2201.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Osram_SFH2201.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

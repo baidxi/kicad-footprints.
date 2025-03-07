@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Bourns_3339P_Vertical_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Potentiometer, vertical, Bourns 3339P, hand-soldering, http://www.bourns.com/docs/Product-Datasheets/3339.pdf")
 	(tags "Potentiometer vertical Bourns 3339P hand-soldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d25b91c8-6634-45aa-8299-b3084fdeb3af")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "8b2d094e-0818-40e7-b65b-5ee1a66c9ec4")
 	)
@@ -142,7 +132,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "da3e41ed-7937-4022-8f26-bd4831cd9218")
 	)
@@ -153,7 +143,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9e3da778-457c-4410-90aa-1fd3dbc09c81")
 	)
@@ -192,7 +182,8 @@
 		(remove_unused_layers no)
 		(uuid "d4dd1e1e-4c04-453a-93d7-ca8f34d3698a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3339P_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3339P_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

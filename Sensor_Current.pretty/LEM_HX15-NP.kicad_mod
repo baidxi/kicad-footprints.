@@ -1,7 +1,7 @@
 (footprint "LEM_HX15-NP"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LEM HX15-NP hall effect current transducer (https://www.lem.com/sites/default/files/products_datasheets/hx%205_15-np_e%20v10.pdf)")
 	(tags "hall current")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f6b72a9e-eb5c-47c6-a99c-d73d75df0940")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -289,7 +279,8 @@
 		(remove_unused_layers no)
 		(uuid "400e24c1-0493-4b53-8ae5-f7ab1b0efd4a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Current.3dshapes/LEM_HX15-NP.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Current.3dshapes/LEM_HX15-NP.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

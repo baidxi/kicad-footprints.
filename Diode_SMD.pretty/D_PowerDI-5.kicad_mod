@@ -1,7 +1,7 @@
 (footprint "D_PowerDI-5"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PowerDI,Diode,Vishay,https://www.diodes.com/assets/Package-Files/PowerDI5.pdf")
 	(tags "PowerDI diode vishay")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0bd8403d-9444-451f-a463-c9d4d652588d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -258,22 +248,23 @@
 	(pad "1" smd rect
 		(at -1.12 0 180)
 		(size 4.86 3.36)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "855295f9-5b59-4bf5-8be5-0566223aa185")
 	)
 	(pad "2" smd rect
 		(at 2.862 -0.92 180)
 		(size 1.4 1.39)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "43c10d65-7848-46e8-939f-d0409f323a7d")
 	)
 	(pad "2" smd rect
 		(at 2.862 0.92 180)
 		(size 1.4 1.39)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e882a68b-de47-4a6f-bab6-66a450a5928d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_PowerDI-5.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_PowerDI-5.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

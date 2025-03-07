@@ -1,7 +1,7 @@
 (footprint "NHD-C12832A1Z-FSRGB"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "128x32 LCD with RGB backlight https://www.newhavendisplay.com/specs/NHD-C12832A1Z-FSRGB-FBW-3V.pdf")
 	(tags "lcd rgb st7565")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0a2444d0-2446-4c94-a9ae-dc495309ffe9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -103,7 +93,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "cf0bbb0f-5777-4024-9c0e-86b11f41163f")
 	)
@@ -114,7 +104,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "33788c92-4529-4698-9ed4-c35b9b74c606")
 	)
@@ -165,7 +155,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "59f88cce-71a8-4a58-ae2c-52c9302200ac")
 	)
@@ -176,7 +166,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f1afb7d1-dbaf-41d3-bc0b-b338c04cabf3")
 	)
@@ -187,7 +177,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f33f23f1-ea56-4857-9db3-0a12451ab3e4")
 	)
@@ -411,7 +401,8 @@
 		(remove_unused_layers no)
 		(uuid "5442e1ce-3e2c-43bd-b206-b971246ae918")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/NHD-C12832A1Z-FSRGB.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display.3dshapes/NHD-C12832A1Z-FSRGB.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

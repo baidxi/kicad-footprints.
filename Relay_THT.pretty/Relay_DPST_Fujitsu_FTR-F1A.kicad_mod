@@ -1,7 +1,7 @@
 (footprint "Relay_DPST_Fujitsu_FTR-F1A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-f1.pdf")
 	(tags "relay dpst fujitsu tht")
@@ -17,25 +17,13 @@
 		)
 	)
 	(property "Value" "Relay_DPST_Fujitsu_FTR-F1A"
-		(at 2.11 13.28 -90)
+		(at 2.11 13.28 270)
 		(layer "F.Fab")
 		(uuid "47a86ac4-c5bd-4050-bf17-5bbf76bd0d3f")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f8e974cd-a998-4ee3-8ace-e045298b31c7")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -205,7 +195,7 @@
 		(uuid "7df722eb-78b8-4601-8030-5ec93c370641")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 4.25 13.35 -90)
+		(at 4.25 13.35 270)
 		(layer "F.Fab")
 		(uuid "6fd3fece-2f4a-49de-b836-c2e80cb868d2")
 		(effects
@@ -263,7 +253,8 @@
 		(remove_unused_layers no)
 		(uuid "a5a50c2f-7eb9-4957-b161-5c10c4ca0099")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPST_Fujitsu_FTR-F1A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPST_Fujitsu_FTR-F1A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Relay_DPDT_Kemet_EE2_NU_DoubleCoil"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Kemet signal relay, DPDT, double coil latching, https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf")
 	(tags "Kemet EC2 signal relay DPDT double dual coil latching surface mount SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6ac6b952-d9ae-42ea-9f4a-777a2e75f20c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -378,74 +368,75 @@
 	(pad "1" smd roundrect
 		(at -3.645 -6.35 270)
 		(size 1.11 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.225)
 		(uuid "4b341e54-955c-4bb2-8f1f-c1e4071d3f48")
 	)
 	(pad "3" smd roundrect
 		(at -3.645 -1.27 270)
 		(size 1.11 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.225)
 		(uuid "3fa4903b-bb3c-4f3a-988a-adc2f9864482")
 	)
 	(pad "4" smd roundrect
 		(at -3.645 1.27 270)
 		(size 1.11 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.225)
 		(uuid "5ce5895d-201b-4da4-80fa-1ad8307c5a6d")
 	)
 	(pad "5" smd roundrect
 		(at -3.645 3.81 270)
 		(size 1.11 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.225)
 		(uuid "d9a5eaf8-6ed0-4ea7-a725-ba9d3d646e8c")
 	)
 	(pad "6" smd roundrect
 		(at -3.645 6.35 270)
 		(size 1.11 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.225)
 		(uuid "8c552022-aadf-4824-a193-0684623b674a")
 	)
 	(pad "7" smd roundrect
 		(at 3.645 6.35 270)
 		(size 1.11 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.225)
 		(uuid "75bdb53b-93b9-418d-bfd7-ebc898cf9e60")
 	)
 	(pad "8" smd roundrect
 		(at 3.645 3.81 270)
 		(size 1.11 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.225)
 		(uuid "74ab47c9-4f7a-4c22-822f-240516fade19")
 	)
 	(pad "9" smd roundrect
 		(at 3.645 1.27 270)
 		(size 1.11 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.225)
 		(uuid "9c661a28-d725-435f-981c-c979cada15cf")
 	)
 	(pad "10" smd roundrect
 		(at 3.645 -1.27 270)
 		(size 1.11 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.225)
 		(uuid "63bc82ab-847c-4d95-a075-31fbeba1c5ee")
 	)
 	(pad "12" smd roundrect
 		(at 3.645 -6.35 270)
 		(size 1.11 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.225)
 		(uuid "001024ad-27a8-4298-bcce-f19736b1efa4")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_SMD.3dshapes/Relay_DPDT_Kemet_EE2_NU_DoubleCoil.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_SMD.3dshapes/Relay_DPDT_Kemet_EE2_NU_DoubleCoil.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

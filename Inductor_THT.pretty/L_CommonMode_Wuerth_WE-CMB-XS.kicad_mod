@@ -1,7 +1,7 @@
 (footprint "L_CommonMode_Wuerth_WE-CMB-XS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Wuerth, WE-CMB, Bauform XS,")
 	(tags "CommonModeChoke Gleichtaktdrossel ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "51a158fb-9bee-4234-8e6a-5421fc5434ce")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -661,7 +651,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "17eb3c28-bf8d-444d-8091-c9a8c749b5d0")
 	)
@@ -672,7 +662,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "dc868168-7448-4f9c-b4c0-8ab8c88947d4")
 	)
@@ -763,7 +753,8 @@
 		(remove_unused_layers no)
 		(uuid "7f694077-d97c-4c1d-9d3a-d2f468f534ed")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_CommonMode_Wuerth_WE-CMB-XS.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_CommonMode_Wuerth_WE-CMB-XS.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

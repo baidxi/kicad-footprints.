@@ -1,7 +1,7 @@
 (footprint "Arduino_UNO_R3_WithMountingHoles"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Arduino UNO R3, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf")
 	(tags "Arduino UNO R3")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "eee39ed4-4b2e-4253-bc1c-80a9785d7a05")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -869,7 +859,8 @@
 		(remove_unused_layers no)
 		(uuid "617783f2-c4d5-42ef-bfb0-09ced4d14f51")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Arduino_UNO_R3_WithMountingHoles.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/Arduino_UNO_R3_WithMountingHoles.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

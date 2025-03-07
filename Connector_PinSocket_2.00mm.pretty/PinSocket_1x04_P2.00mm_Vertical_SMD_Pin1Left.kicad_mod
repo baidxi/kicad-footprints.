@@ -1,7 +1,7 @@
 (footprint "PinSocket_1x04_P2.00mm_Vertical_SMD_Pin1Left"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "surface-mounted straight socket strip, 1x04, 2.00mm pitch, single row, style 1 (pin 1 left) (https://www.jayconsystems.com/fileuploader/download/download/?d=1&file=custom%2Fupload%2FFile-1375728122.pdf), script generated")
 	(tags "Surface mounted socket strip SMD 1x04 2.00mm single row style1 pin1 left")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "30df6d4e-5f71-4549-b6ec-4c99e48413b6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -378,28 +368,29 @@
 	(pad "1" smd rect
 		(at -1.6 -3)
 		(size 2 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "be6b0084-ad73-4adf-a0c6-2281d6c0107b")
 	)
 	(pad "2" smd rect
 		(at 1.6 -1)
 		(size 2 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7ec14b3d-9c5f-439d-9a6f-287055fd850f")
 	)
 	(pad "3" smd rect
 		(at -1.6 1)
 		(size 2 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "64730de2-f628-497e-b8af-3fa9bdf66ed9")
 	)
 	(pad "4" smd rect
 		(at 1.6 3)
 		(size 2 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "401ab249-25a8-44a7-a7b4-40c858da0b6c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x04_P2.00mm_Vertical_SMD_Pin1Left.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x04_P2.00mm_Vertical_SMD_Pin1Left.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,12 +1,12 @@
 (footprint "SW_SPDT_REED_MSDM-DT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Littlefuse 14.73x2.54mm, 175VDC 5W, SPDT Reed Switch MSDM-DT, https://www.littelfuse.com/~/media/electronics/datasheets/reed_switches/littelfuse_reed_switches_mdsm_dt_datasheet.pdf.pdf")
 	(tags "Littlefuse Reed SPDT Switch")
 	(property "Reference" "REF**"
-		(at -2.16 0 -90)
+		(at -2.16 0 270)
 		(layer "F.SilkS")
 		(uuid "c205f41d-a7cc-4647-83f4-2b180bb1c589")
 		(effects
@@ -17,25 +17,13 @@
 		)
 	)
 	(property "Value" "SW_SPDT_REED_MSDM-DT"
-		(at 2.74 0 -90)
+		(at 2.74 0 270)
 		(layer "F.Fab")
 		(uuid "b317874c-0490-4cd0-afb3-4e53838e083a")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b324301b-7c88-42e3-a5fe-da6cb39a848e")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "c47dfaf7-0ec4-4fc8-b11e-d4ce1f199de4")
 	)
@@ -246,7 +236,7 @@
 		(uuid "c727c6ab-79d5-4272-a48e-3572b73c621a")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.09 0 -90)
+		(at 0.09 0 270)
 		(layer "F.Fab")
 		(uuid "50d26d55-1454-47dd-ae19-1378783984ec")
 		(effects
@@ -259,25 +249,26 @@
 	(pad "1" smd roundrect
 		(at -2.03 -11.4 270)
 		(size 3.5 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15625)
 		(uuid "0c868bb4-8625-4e36-8c1f-75f27b279c72")
 	)
 	(pad "2" smd roundrect
 		(at 0 11.4 270)
 		(size 3.5 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15625)
 		(uuid "42443ff3-9734-4ace-ba1c-d38234f515ce")
 	)
 	(pad "3" smd roundrect
 		(at 0.51 -11.4 270)
 		(size 3.5 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15625)
 		(uuid "0f5eff27-adfa-4812-9288-de878dc7b5c4")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPDT_REED_MSDM-DT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPDT_REED_MSDM-DT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

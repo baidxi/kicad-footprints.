@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Round_D9.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "4-lead round diode bridge package, diameter 9.0mm, pin pitch 5.0mm, see https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40r.pdf")
 	(tags "diode bridge 9.0mm 8.85mm WOB pitch 5.0mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5ca210d2-814f-430b-a72c-448c4c235cff")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -126,7 +116,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "738b439d-dd2a-4a9a-b561-40557e37a290")
 	)
@@ -184,7 +174,8 @@
 		(remove_unused_layers no)
 		(uuid "0ef924c2-fe58-47c1-a07a-292cd3a281fc")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Round_D9.0mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Round_D9.0mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Vishay_PowerPAK_1212-8_Dual"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PowerPAK 1212-8 Dual (https://www.vishay.com/docs/71656/ppak12128.pdf, https://www.vishay.com/docs/72598/72598.pdf)")
 	(tags "Vishay_PowerPAK_1212-8_Dual")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aefad5fd-98fe-4a25-a384-52fcc9cbf82e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -126,15 +116,15 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.2 -0.975) (xy -2.53 -0.735) (xy -2.53 -1.215) (xy -2.2 -0.975)
+			(xy -2.355 -1.46) (xy -1.955 -1.86) (xy -1.955 -1.46)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "83f992e7-b43e-4fad-bbf2-58523a96ee6b")
+		(uuid "3f8cd401-7855-4402-aae2-3e6a95eb3c3e")
 	)
 	(fp_line
 		(start -2.18 -1.78)
@@ -240,31 +230,31 @@
 	(pad "1" smd rect
 		(at -1.435 -0.99)
 		(size 0.99 0.405)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fb13210f-25b0-4163-b62a-be1291d35175")
 	)
 	(pad "2" smd rect
 		(at -1.435 -0.33)
 		(size 0.99 0.405)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "387f3871-678a-45b4-9c0c-5a8de5192085")
 	)
 	(pad "3" smd rect
 		(at -1.435 0.33)
 		(size 0.99 0.405)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9c0923cc-b68e-49f0-a39e-7b5abdb76f5f")
 	)
 	(pad "4" smd rect
 		(at -1.435 0.99)
 		(size 0.99 0.405)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2ae71757-b64c-4352-bc9d-af56a65737e1")
 	)
 	(pad "5" smd custom
 		(at 0.5575 0.6075)
 		(size 1.725 0.99)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -286,7 +276,7 @@
 	(pad "6" smd custom
 		(at 0.5575 -0.6075)
 		(size 1.725 0.99)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -305,7 +295,8 @@
 		)
 		(uuid "698ad7a5-72ee-4455-8d16-1f3ffc2b9fc5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Dual.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Dual.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

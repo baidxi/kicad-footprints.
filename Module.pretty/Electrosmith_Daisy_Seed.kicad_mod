@@ -1,7 +1,7 @@
 (footprint "Electrosmith_Daisy_Seed"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Embedded platform for audio applications. 96kHz / 24-bit audio hardware. 64MB of SDRAM for up to 10 minute long audio. ARM Cortex-M7 MCU, running at 480MHz. 31 total GPIO pins with configurable functionality. 12-bit Digital to Analog Converters (x2). SD card interfaces. PWM outputs. Serial Protocols for connecting external sensors and devices (SPI, UART, I2S, I2C). Dedicated VIN pin for power. Micro USB port, and additional USB pins for full OTG-support as host and device. https://static1.squarespace.com/static/58d03fdc1b10e3bf442567b8/t/6227e6236f02fb68d1577146/1646781988478/Daisy_Seed_datasheet_v1.0.3.pdf")
 	(tags "Electrosmith Daisy Seed Microcontroller Module ARM Cortex-M7 Audio Codec")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bc4208b8-fb80-4f0f-9c07-26068bf3d77f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -635,7 +625,8 @@
 		(remove_unused_layers no)
 		(uuid "6c2134cf-676b-40c6-bc5e-ddb602e5a37c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Electrosmith_Daisy_Seed.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/Electrosmith_Daisy_Seed.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

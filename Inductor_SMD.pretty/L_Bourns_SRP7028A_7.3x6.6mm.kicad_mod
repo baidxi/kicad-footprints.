@@ -1,7 +1,7 @@
 (footprint "L_Bourns_SRP7028A_7.3x6.6mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Shielded Power Inductors (https://www.bourns.com/docs/product-datasheets/srp7028a.pdf)")
 	(tags "Shielded Inductors Bourns SMD SRP7028A")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "33a2d872-d507-4108-9b7a-9c8bf543fdf4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -386,16 +376,17 @@
 	(pad "1" smd rect
 		(at -2.725 0)
 		(size 2.95 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3c980892-5975-443b-b107-7b7f3b547a88")
 	)
 	(pad "2" smd rect
 		(at 2.725 0)
 		(size 2.95 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "abd42baa-8485-48fb-989e-f3dd5146be9d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRP7028A_7.3x6.6mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRP7028A_7.3x6.6mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

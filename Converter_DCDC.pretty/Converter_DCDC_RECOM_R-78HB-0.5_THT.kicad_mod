@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_RECOM_R-78HB-0.5_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DCDC-Converter, RECOM, RECOM_R-78HB-0.5, SIP-3, pitch 2.54mm, package size 11.5x8.5x17.5mm^3, https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf")
 	(tags "dc-dc recom buck sip-3 pitch 2.54mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d8e00dfc-652a-4e7c-92cd-5ee55b0167ec")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -249,7 +239,8 @@
 		(remove_unused_layers no)
 		(uuid "f4a7a72c-15ba-43ea-a5ed-afecbe981598")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_RECOM_R-78HB-0.5_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_RECOM_R-78HB-0.5_THT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

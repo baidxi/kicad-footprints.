@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Keystone_3009_1x2450"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.keyelco.com/product-pdf.cfm?p=787")
 	(tags "Keystone type 3009 coin cell retainer")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ac4bdfe3-a82d-4974-b307-d33f046c83f1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -205,7 +195,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "14bf1648-52bc-4f6b-b682-e2556c635f81")
 	)
@@ -567,7 +557,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "65fcd214-da6d-4e22-a73b-1c0427be6d6c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_3009_1x2450.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_3009_1x2450.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

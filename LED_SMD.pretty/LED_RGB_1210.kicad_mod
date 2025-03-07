@@ -1,7 +1,7 @@
 (footprint "LED_RGB_1210"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN")
 	(tags "LED 3227")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "862cdf1e-2dfe-4fcb-b101-3a9f028afe98")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -198,28 +188,29 @@
 	(pad "1" smd rect
 		(at -1.75 -0.7 180)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "72f8691c-d964-42a5-8481-7c982b8e7b16")
 	)
 	(pad "2" smd rect
 		(at -1.75 0.7 180)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "92ae95d9-b9e8-48a9-9152-ea6697008a69")
 	)
 	(pad "3" smd rect
 		(at 1.75 0.7 180)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "43aa4e47-49e6-4985-a0fd-9cf8f0de24c3")
 	)
 	(pad "4" smd rect
 		(at 1.75 -0.7 180)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bcb90df1-ddea-4b8f-99e9-fcab272833a7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_1210.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_1210.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

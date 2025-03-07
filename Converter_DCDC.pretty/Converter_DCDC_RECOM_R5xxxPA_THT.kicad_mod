@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_RECOM_R5xxxPA_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DCDC-Converter, RECOM, RECOM_R5xxxPA, SIP-12, pitch 2.54mm, package size 32.2x9.1x15mm^3, https://www.recom-power.com/pdf/Innoline/R-5xxxPA_DA.pdf")
 	(tags "dc-dc recom buck sip-12 pitch 2.54mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e80a5959-53fb-4c18-887a-45a6b1775662")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -441,7 +431,8 @@
 		(remove_unused_layers no)
 		(uuid "8e0553d1-ea07-416e-b33d-898e165f0f2c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_RECOM_R5xxxPA_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_RECOM_R5xxxPA_THT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

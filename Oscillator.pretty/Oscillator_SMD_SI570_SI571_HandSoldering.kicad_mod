@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_SI570_SI571_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SI570, SI571, Programmable oscillator, Standard")
 	(tags "SI570 SI571 Programmable oscillator Standard")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bc019d58-cc7d-4126-b745-5fa32081b6d8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -278,52 +268,53 @@
 	(pad "1" smd rect
 		(at -2.5 2.6)
 		(size 1.7 3.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e511da8a-7ebe-4442-916f-f06ffdc31ec3")
 	)
 	(pad "2" smd rect
 		(at 0 2.6)
 		(size 1.7 3.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4b11e53d-94dc-42e5-aeb4-cc7a7e3021f8")
 	)
 	(pad "3" smd rect
 		(at 2.5 2.6)
 		(size 1.7 3.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e1b981f9-22c5-4bda-9766-ad3c840b5676")
 	)
 	(pad "4" smd rect
 		(at 2.5 -2.6)
 		(size 1.7 3.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d32d8b4c-8689-4f48-8ee9-90da9fe93cfa")
 	)
 	(pad "5" smd rect
 		(at 0 -2.6)
 		(size 1.7 3.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6d6d8150-452c-4930-9f6c-9c8738bdd8fe")
 	)
 	(pad "6" smd rect
 		(at -2.5 -2.6)
 		(size 1.7 3.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "45f39a2f-2b2f-4e5e-b5c7-16a3d4ff3b0a")
 	)
 	(pad "7" smd rect
 		(at -3.35 0)
 		(size 2.5 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "67d5698c-d2f3-430c-8366-e9e96f05a49e")
 	)
 	(pad "8" smd rect
 		(at 3.35 0)
 		(size 2.5 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3f36438e-044d-44d3-a6cb-02903e99b020")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_SI570_SI571_HandSoldering.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_SI570_SI571_HandSoldering.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

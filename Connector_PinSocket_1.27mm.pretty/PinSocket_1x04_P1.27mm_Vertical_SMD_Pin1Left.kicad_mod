@@ -1,7 +1,7 @@
 (footprint "PinSocket_1x04_P1.27mm_Vertical_SMD_Pin1Left"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "surface-mounted straight socket strip, 1x04, 1.27mm pitch, single row, style 1 (pin 1 left) (https://gct.co/pdfjs/web/viewer.html?file=/Files/Drawings/BD075.pdf&t=1511594726925), script generated")
 	(tags "Surface mounted socket strip SMD 1x04 1.27mm single row style1 pin1 left")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "09ad4761-c3ef-4a5f-917f-20d12643d90a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -378,28 +368,29 @@
 	(pad "1" smd rect
 		(at -1.35 -1.905)
 		(size 1.8 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bf1e5d17-cdf7-48bc-80bd-b4c90f188b70")
 	)
 	(pad "2" smd rect
 		(at 1.35 -0.635)
 		(size 1.8 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "642a8a2d-93fc-4297-bcb4-4e314855fe1d")
 	)
 	(pad "3" smd rect
 		(at -1.35 0.635)
 		(size 1.8 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b45f4d71-23f3-48ca-a28a-bd620b3d90f9")
 	)
 	(pad "4" smd rect
 		(at 1.35 1.905)
 		(size 1.8 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a8e9d03b-6f0a-4b5d-8813-544eafaa00da")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x04_P1.27mm_Vertical_SMD_Pin1Left.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x04_P1.27mm_Vertical_SMD_Pin1Left.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

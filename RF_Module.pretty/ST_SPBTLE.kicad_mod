@@ -1,7 +1,7 @@
 (footprint "ST_SPBTLE"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Bluetooth Low Energy Module")
 	(tags "ble module st bluetooth")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "68eac8ac-9c7f-475c-b926-7ba0d1975343")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -162,7 +152,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "f1bf3946-16b8-4c93-ab7e-b9ddf8ab34d6")
 	)
@@ -312,73 +302,78 @@
 	(pad "1" smd rect
 		(at -6.75 -3.19)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "16020c8b-f60e-4e2c-b891-04098d1450ef")
 	)
 	(pad "2" smd rect
 		(at -6.75 -1.92)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "583790a4-ffc9-4ddd-830c-dc62e1304222")
 	)
 	(pad "3" smd rect
 		(at -6.75 -0.65)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "53b53fda-13ab-45a9-bded-533735f04737")
 	)
 	(pad "4" smd rect
 		(at -6.75 0.62)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4d885227-0820-4441-9817-de91a91502ab")
 	)
 	(pad "5" smd rect
 		(at -6.75 1.89)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "80ada51c-e76f-4186-aad1-7b33edf22323")
 	)
 	(pad "6" smd rect
 		(at -2.75 2.89 90)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f40e67df-d9d5-4fa4-86a5-10d4c7f339ff")
 	)
 	(pad "7" smd rect
 		(at 6.75 1.89)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4baab721-37ea-4239-ab24-b1b226f01196")
 	)
 	(pad "8" smd rect
 		(at 6.75 0.62)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8cde30ea-f59c-47c7-abf3-56e679fcc165")
 	)
 	(pad "9" smd rect
 		(at 6.75 -0.65)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ee4f1f2e-cb48-40e3-99bc-460481057bf6")
 	)
 	(pad "10" smd rect
 		(at 6.75 -1.92)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "58bdbd5a-6874-46d1-bf89-da36033d31d8")
 	)
 	(pad "11" smd rect
 		(at 6.75 -3.19)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3cdb4e43-6539-4372-bcdb-e56571ded344")
 	)
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "9ae600ef-5167-48c7-8d60-b00aea7dba9c")
 		(hatch full 0.508)
 		(connect_pads
@@ -393,6 +388,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -404,7 +403,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/ST_SPBTLE.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/ST_SPBTLE.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm_Relief"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Soldered wire connection with feed through strain relief, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 	(tags "connector wire 0.5sqmm strain-relief")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2e79b4b8-b8ff-439c-8c8e-c8b29f429b0f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -191,7 +181,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8f3f2146-ad7b-4d0f-839b-efaaffcc4e60")
 	)
@@ -202,7 +192,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "bc2a3f64-8e36-4000-b7b5-e4d7e808b939")
 	)
@@ -233,7 +223,8 @@
 		(roundrect_rratio 0.119048)
 		(uuid "d04ff4fc-f1dd-4648-9152-c9c238b07d3b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm_Relief.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm_Relief.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

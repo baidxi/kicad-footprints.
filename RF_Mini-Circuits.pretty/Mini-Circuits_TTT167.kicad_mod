@@ -1,7 +1,7 @@
 (footprint "Mini-Circuits_TTT167"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint for Mini-Circuits case TTT167 (https://ww2.minicircuits.com/case_style/TTT167.pdf)")
 	(tags "Mini-Circuits TTT167")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7198b4c7-8395-4274-ac09-e55e3c42bd85")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -122,7 +112,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "6ca05cd9-1f1b-4921-8d74-5858cce56cc1")
 	)
@@ -240,40 +230,41 @@
 	(pad "1" smd rect
 		(at -5.969 0)
 		(size 1.778 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "731fc9ce-10f1-4bdf-af6e-cb25f22af318")
 	)
 	(pad "2" smd rect
 		(at 5.969 0 180)
 		(size 1.778 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "31a037c3-6847-4f4a-ac4e-c04dc1723898")
 	)
 	(pad "3" smd rect
 		(at 0 -4.3815 270)
 		(size 1.778 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8e53f0eb-7a9d-40cb-8a75-a3e5f97b2039")
 	)
 	(pad "4" smd rect
 		(at 0 4.3815 90)
 		(size 1.778 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3ceabb46-c459-4a2b-9c61-ceda2ae14787")
 	)
 	(pad "5" smd rect
 		(at 4.445 -4.3815 270)
 		(size 1.778 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c3220af3-ffe7-4aaa-ab06-5cc3a8e124ba")
 	)
 	(pad "6" smd rect
 		(at -4.445 -4.3815 270)
 		(size 1.778 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1c015db6-f378-4c0e-beb1-e63d591069e8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_TTT167.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_TTT167.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

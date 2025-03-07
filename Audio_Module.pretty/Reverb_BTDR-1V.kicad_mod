@@ -1,7 +1,7 @@
 (footprint "Reverb_BTDR-1V"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)")
 	(tags "audio belton reverb")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "df4792c1-379b-41ba-9ecd-18786564122f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -351,7 +341,8 @@
 		(remove_unused_layers no)
 		(uuid "5fc56d94-ca72-44e4-babd-0986bd43161c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Audio_Module.3dshapes/Reverb_BTDR-1V.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Audio_Module.3dshapes/Reverb_BTDR-1V.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

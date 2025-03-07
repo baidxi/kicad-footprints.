@@ -1,7 +1,7 @@
 (footprint "MQ-6"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Gas Sensor, 6 pin, https://www.winsen-sensor.com/d/files/semiconductor/mq-6.pdf")
 	(tags "gas sensor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f16bc41e-d5d1-4a52-8381-72c0b40b1316")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "f180e4cc-2f24-4ea9-8ffd-cab34ffbf17a")
 	)
@@ -82,7 +72,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "7c707fc7-4bb0-4419-941b-681e2f39be29")
 	)
@@ -93,7 +83,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "3eac4dea-a23e-4c0f-a510-d34bed15f951")
 	)
@@ -156,7 +146,8 @@
 		(remove_unused_layers no)
 		(uuid "33f72500-afe8-4d2b-a5f8-b1d406d4b8d9")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor.3dshapes/MQ-6.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor.3dshapes/MQ-6.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

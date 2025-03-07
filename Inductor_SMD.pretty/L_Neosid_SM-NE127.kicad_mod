@@ -1,7 +1,7 @@
 (footprint "L_Neosid_SM-NE127"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Neosid, Inductor, SM-NE127, Fixed inductor, SMD, https://neosid.de/import-data/product-pdf/neoFestind_SMNE127.pdf")
 	(tags "Neosid Inductor SM-NE127 Fixed inductor SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1f6990e5-5990-40ee-8e25-a83dc178d1ca")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -191,7 +181,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e7ce4986-995a-4742-ad08-af8759c0e0d3")
 	)
@@ -209,16 +199,17 @@
 	(pad "1" smd rect
 		(at -4.95 0)
 		(size 2.9 5.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "45c66a64-77b7-4687-89a3-96d9544b4afe")
 	)
 	(pad "2" smd rect
 		(at 4.95 0)
 		(size 2.9 5.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "40c1066f-90de-4411-b7ee-069adaeb4c85")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_SM-NE127.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_SM-NE127.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

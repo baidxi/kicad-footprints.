@@ -1,7 +1,7 @@
 (footprint "CoaxialSwitch_Hirose_MS-156C3_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Subminiature Coaxial Switch 1.35mm High, DC to 11GHz")
 	(tags "Switch Coaxial RF")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2a5738a3-cc78-4330-a5af-a68833a7a4fe")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,10 +49,22 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -1.15 -0.725)
+		(end 1.15 0.725)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "b67591ef-79c1-406a-9cdd-2d6de62566a6")
+	)
 	(fp_line
 		(start -1.55 0.75)
 		(end -1.55 1.6)
@@ -123,17 +124,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "54632283-31dc-45a1-adf7-33861479330f")
-	)
-	(fp_rect
-		(start -1.15 -0.725)
-		(end 1.15 0.725)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "b67591ef-79c1-406a-9cdd-2d6de62566a6")
 	)
 	(fp_line
 		(start -1.7 -1.75)
@@ -387,6 +377,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -416,6 +410,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -427,7 +425,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/CoaxialSwitch_Hirose_MS-156C3_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/CoaxialSwitch_Hirose_MS-156C3_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

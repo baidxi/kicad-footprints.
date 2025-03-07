@@ -1,12 +1,12 @@
 (footprint "Harwin_Gecko-G125-FVX0605L0X_2x03_P1.25mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Harwin Gecko Connector, 6 pins, dual row female, vertical entry, PN:G125-FVX0605L0X")
+	(descr "Harwin Gecko Connector, 6 pins, dual row female, vertical entry, PN:G125-FVX0605L0X, https://content.harwin.com/m/60a18b02a2a99a14/original/DRG-00168-Technical-Drawing-Datasheet-G125-FVXXX05L0P-pdf.pdf")
 	(tags "connector harwin gecko")
 	(property "Reference" "REF**"
-		(at 1.25 4.3 0)
+		(at 1.25 -3.35 0)
 		(layer "F.SilkS")
 		(uuid "7608e8e0-ac27-4dbb-b209-fdeb48d5d1a5")
 		(effects
@@ -17,25 +17,13 @@
 		)
 	)
 	(property "Value" "Harwin_Gecko-G125-FVX0605L0X_2x03_P1.25mm_Vertical"
-		(at 1.25 -3.5 0)
+		(at 1.25 4.45 0)
 		(layer "F.Fab")
 		(uuid "0d3614d1-fcc7-4a99-9aa6-cf6c60757995")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f7ffa076-a629-4d67-b719-6343c09c9955")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -76,7 +66,7 @@
 	)
 	(fp_line
 		(start -1.15 -1.825)
-		(end 3.65 -1.825)
+		(end -0.3 -1.825)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -123,6 +113,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "e74c5785-2b23-4c5d-a6d4-1708cd82d7fa")
+	)
+	(fp_line
+		(start 0.3 -1.825)
+		(end 3.65 -1.825)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0da1b045-885a-47cc-b848-bf70e74db9cd")
 	)
 	(fp_line
 		(start 0.35 -1.325)
@@ -312,16 +312,17 @@
 		(layer "F.SilkS")
 		(uuid "072b0f61-b30e-416a-af14-361c382cb76a")
 	)
-	(fp_circle
-		(center -2 -2)
-		(end -1.75 -2)
+	(fp_poly
+		(pts
+			(xy 0 -1.83) (xy -0.34 -2.3) (xy 0.34 -2.3) (xy 0 -1.83)
+		)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "d3e2c593-4157-47bc-9993-87df62528024")
+		(uuid "e6a9dfb3-cb3f-4265-8a01-f63887afb5e6")
 	)
 	(fp_line
 		(start -2.4 -2.33)
@@ -424,18 +425,8 @@
 		(uuid "7885bb0a-48f8-4700-b446-1cdb64e36f0f")
 	)
 	(fp_line
-		(start -0.3 -0.6)
-		(end 0.3 -0.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "6f72a070-3dd1-4178-801f-8a276cb3cf37")
-	)
-	(fp_line
-		(start 0 0)
-		(end -0.3 -0.6)
+		(start 0 -0.725)
+		(end -0.3 -1.325)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -444,8 +435,8 @@
 		(uuid "d4261ff3-4604-4eab-ae60-420ac909df15")
 	)
 	(fp_line
-		(start 0.3 -0.6)
-		(end 0 0)
+		(start 0.3 -1.325)
+		(end 0 -0.725)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -642,7 +633,7 @@
 		(uuid "d59118db-28b0-40ec-b348-8c4c3d8d52c4")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 1.25 0 0)
+		(at 1.25 0.625 0)
 		(layer "F.Fab")
 		(uuid "fc97b832-f5de-4db9-a303-7a6c645f6107")
 		(effects
@@ -661,7 +652,7 @@
 		(uuid "128196e0-5212-4407-b85e-e9b11b02cda3")
 	)
 	(pad "2" thru_hole circle
-		(at 0 1.25)
+		(at 1.25 0)
 		(size 0.95 0.95)
 		(drill 0.55)
 		(layers "*.Cu" "*.Mask")
@@ -669,28 +660,28 @@
 		(uuid "f21481be-981e-407c-9fcc-43537b7912db")
 	)
 	(pad "3" thru_hole circle
-		(at 1.25 0)
-		(size 0.95 0.95)
-		(drill 0.55)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "e9693f2c-45f1-4e8b-a5b6-f831ffd18636")
-	)
-	(pad "4" thru_hole circle
-		(at 1.25 1.25)
-		(size 0.95 0.95)
-		(drill 0.55)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "a8118474-a1c8-44e4-a6bf-0cb46bb474ea")
-	)
-	(pad "5" thru_hole circle
 		(at 2.5 0)
 		(size 0.95 0.95)
 		(drill 0.55)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "58b0fc9b-7965-4110-abeb-62b85bbd19cd")
+	)
+	(pad "4" thru_hole circle
+		(at 0 1.25)
+		(size 0.95 0.95)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9693f2c-45f1-4e8b-a5b6-f831ffd18636")
+	)
+	(pad "5" thru_hole circle
+		(at 1.25 1.25)
+		(size 0.95 0.95)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a8118474-a1c8-44e4-a6bf-0cb46bb474ea")
 	)
 	(pad "6" thru_hole circle
 		(at 2.5 1.25)
@@ -700,7 +691,8 @@
 		(remove_unused_layers no)
 		(uuid "e0c2372a-b6c4-49b3-9dbb-57a2551c7dcc")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_Gecko-G125-FVX0605L0X_2x03_P1.25mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_Gecko-G125-FVX0605L0X_2x03_P1.25mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

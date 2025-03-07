@@ -1,7 +1,7 @@
 (footprint "L_SigTra_SC3316F"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.signaltransformer.com/sites/all/pdf/smd/P080_SC3316F.pdf")
 	(tags "Choke ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9f778306-aaf9-4099-8502-4dc716de68f2")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,21 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 0.5 0)
-		(stroke
-			(width 1)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "8d65edfa-1490-4664-b7d3-ee2cfc15c650")
-	)
 	(fp_line
 		(start -6.1 -2.2)
 		(end -1 -5.1)
@@ -174,6 +153,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "f871062a-0fe6-4840-846e-76cf67e11117")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "8d65edfa-1490-4664-b7d3-ee2cfc15c650")
 	)
 	(fp_line
 		(start -6.75 -2)
@@ -412,7 +402,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "08c96988-7fab-45aa-827e-b97e3845df3b")
 	)
@@ -430,16 +420,17 @@
 	(pad "1" smd rect
 		(at -5 0)
 		(size 3 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0dc14b18-51c5-4f49-a6f2-5e1f1592ebc2")
 	)
 	(pad "2" smd rect
 		(at 5 0)
 		(size 3 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "abadcf9e-641a-43d3-9664-036b84133abe")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_SigTra_SC3316F.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_SigTra_SC3316F.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

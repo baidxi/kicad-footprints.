@@ -1,7 +1,7 @@
 (footprint "SW_SPST_REED_CT05-XXXX-J1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Coto Technologies SPST Reed Switch CT05-XXXX-J1")
 	(tags "Coto Reed SPST Switch")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b4ff9e5a-6df8-4294-aa2a-58701c9a3c03")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -218,16 +208,17 @@
 	(pad "1" smd rect
 		(at -3.08 0)
 		(size 2.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9c6e2587-2900-4c60-b13a-d762340dc9f9")
 	)
 	(pad "2" smd rect
 		(at 3.08 0)
 		(size 2.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a9341074-1391-4506-a088-0f0e5a6d7e1b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_REED_CT05-XXXX-J1.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_REED_CT05-XXXX-J1.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

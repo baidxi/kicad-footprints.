@@ -1,7 +1,7 @@
 (footprint "Samtec_HSEC8-149-X-X-DV_2x49_P0.8mm_Edge"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Highspeed card edge for PCB's with 2x49 contacts")
 	(tags "conn samtec card-edge high-speed")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "16a1c722-bc71-4143-bc3e-42628a6a7d1e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,30 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_line
-		(start -21.825 -6.4)
-		(end -21.825 -6.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "f5d48d7e-2fb7-4904-bc14-630aa227eb37")
-	)
-	(fp_line
-		(start -21.825 -6.4)
-		(end 21.825 -6.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "4bf8553a-838b-4ecd-b3d8-11ce88d9b663")
-	)
 	(fp_line
 		(start -21.825 -5.13)
 		(end -20.555 -6.4)
@@ -103,6 +73,26 @@
 		)
 		(layer "F.SilkS")
 		(uuid "c10bfe99-4316-4220-a5a0-4b927dd1c52f")
+	)
+	(fp_line
+		(start -21.825 -6.4)
+		(end -21.825 -6.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "f5d48d7e-2fb7-4904-bc14-630aa227eb37")
+	)
+	(fp_line
+		(start -21.825 -6.4)
+		(end 21.825 -6.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "4bf8553a-838b-4ecd-b3d8-11ce88d9b663")
 	)
 	(fp_line
 		(start -21.825 2.05)
@@ -395,6 +385,50 @@
 		(layer "F.Fab")
 		(uuid "ac134548-211b-43be-965a-f121ca6ebf6c")
 	)
+	(fp_text user "1"
+		(at -20.8 -4.55 0)
+		(layer "F.SilkS")
+		(uuid "05d87792-cf4d-4dd0-bd29-64bb1adf6f29")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "97"
+		(at 20.425 -4.55 0)
+		(layer "F.SilkS")
+		(uuid "3c88f3b6-1d15-485f-a74d-74960da47221")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "55"
+		(at 4.375 -4.55 0)
+		(layer "F.SilkS")
+		(uuid "55e9be8a-4fd0-4d78-bbb2-69ad96625277")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "53"
+		(at -0.375 -4.55 0)
+		(layer "F.SilkS")
+		(uuid "feb830de-54ca-45df-bc90-8160cb94c50a")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "56"
 		(at 4.375 -4.55 0)
 		(layer "B.SilkS")
@@ -441,50 +475,6 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
-		)
-	)
-	(fp_text user "1"
-		(at -20.8 -4.55 0)
-		(layer "F.SilkS")
-		(uuid "05d87792-cf4d-4dd0-bd29-64bb1adf6f29")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "97"
-		(at 20.425 -4.55 0)
-		(layer "F.SilkS")
-		(uuid "3c88f3b6-1d15-485f-a74d-74960da47221")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "55"
-		(at 4.375 -4.55 0)
-		(layer "F.SilkS")
-		(uuid "55e9be8a-4fd0-4d78-bbb2-69ad96625277")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "53"
-		(at -0.375 -4.55 0)
-		(layer "F.SilkS")
-		(uuid "feb830de-54ca-45df-bc90-8160cb94c50a")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-			)
 		)
 	)
 	(fp_text user "mated PCB distance: 2.05 mm (min)"
@@ -1121,4 +1111,5 @@
 		(layers "B.Cu" "B.Mask")
 		(uuid "a126b038-375a-45a0-a331-16cc58cda84e")
 	)
+	(embedded_fonts no)
 )

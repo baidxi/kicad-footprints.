@@ -1,7 +1,7 @@
 (footprint "Renesas_DFN-6_1.5x1.6mm_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DFN, 6 Pin (https://www.renesas.com/us/en/document/psc/package-drawing-hodfn-6pin-l615x16?language=en&r=568376)")
 	(tags "DFN NoLead")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2e727f05-b537-4f55-bc47-7d9f472f9449")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "e1d05e0f-08b5-44e5-8f91-56e28ea8518e")
 	)
@@ -103,7 +93,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "5f3fbfa3-5ddf-4a8a-a48d-134f9c62f171")
 	)
@@ -224,46 +214,47 @@
 	(pad "1" smd roundrect
 		(at -0.6 -0.5)
 		(size 0.8 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b56020f1-460d-4ce8-bb14-b04315a2b54c")
 	)
 	(pad "2" smd roundrect
 		(at -0.675 0)
 		(size 0.65 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7fba2554-81ed-467c-9eeb-394a926d273d")
 	)
 	(pad "3" smd roundrect
 		(at -0.675 0.5)
 		(size 0.65 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0d2299f9-6d9a-4762-8a0d-ebe8152410e5")
 	)
 	(pad "4" smd roundrect
 		(at 0.675 0.5)
 		(size 0.65 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "570bb991-2b4f-490a-9a1d-96e3b259525f")
 	)
 	(pad "5" smd roundrect
 		(at 0.675 0)
 		(size 0.65 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "2040ba7b-d3a0-414c-9837-5c4ac0830820")
 	)
 	(pad "6" smd roundrect
 		(at 0.675 -0.5)
 		(size 0.65 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4810bd62-1dcb-4c6f-b16b-625f2601ffc5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Renesas_DFN-6_1.5x1.6mm_P0.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Renesas_DFN-6_1.5x1.6mm_P0.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

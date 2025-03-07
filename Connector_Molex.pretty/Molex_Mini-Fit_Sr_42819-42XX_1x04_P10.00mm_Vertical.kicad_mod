@@ -1,7 +1,7 @@
 (footprint "Molex_Mini-Fit_Sr_42819-42XX_1x04_P10.00mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Mini-Fit Sr. Power Connectors, 42819-42XX, 4 Pins per row (http://www.molex.com/pdm_docs/sd/428192214_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex Mini-Fit_Sr side entry")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "376d113e-e529-460b-b498-b1efc487848b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,50 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -2.51 -2.66)
-		(end -2.51 2.66)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "12a739e1-3407-4307-99a1-f620f737d17d")
-	)
-	(fp_line
-		(start -2.51 2.66)
-		(end 6.91 2.66)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "08fedacf-c1a1-4874-aa84-61514c76be23")
-	)
-	(fp_line
-		(start 6.91 -2.66)
-		(end -2.51 -2.66)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "03cd8a37-4bb6-4d33-bade-c00599a34f65")
-	)
-	(fp_line
-		(start 6.91 2.66)
-		(end 6.91 -2.66)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "6605b3a9-560f-467b-a8b6-eb6a4f0ba8dd")
-	)
 	(fp_line
 		(start -4.75 13.09)
 		(end -4.75 16.91)
@@ -393,6 +343,46 @@
 		)
 		(layer "F.SilkS")
 		(uuid "9aa10314-de2b-4165-9cfa-522ef4b87d06")
+	)
+	(fp_line
+		(start -2.51 -2.66)
+		(end -2.51 2.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "12a739e1-3407-4307-99a1-f620f737d17d")
+	)
+	(fp_line
+		(start -2.51 2.66)
+		(end 6.91 2.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "08fedacf-c1a1-4874-aa84-61514c76be23")
+	)
+	(fp_line
+		(start 6.91 -2.66)
+		(end -2.51 -2.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "03cd8a37-4bb6-4d33-bade-c00599a34f65")
+	)
+	(fp_line
+		(start 6.91 2.66)
+		(end 6.91 -2.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "6605b3a9-560f-467b-a8b6-eb6a4f0ba8dd")
 	)
 	(fp_line
 		(start -5.14 -8.23)
@@ -825,7 +815,8 @@
 		(remove_unused_layers no)
 		(uuid "da38ea9a-b147-48d8-9fea-ed695281d34d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Sr_42819-42XX_1x04_P10.00mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Sr_42819-42XX_1x04_P10.00mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

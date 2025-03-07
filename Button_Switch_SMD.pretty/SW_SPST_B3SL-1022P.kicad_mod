@@ -1,7 +1,7 @@
 (footprint "SW_SPST_B3SL-1022P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Middle Stroke Tactile Switch, B3SL")
 	(tags "Middle Stroke Tactile Switch")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fab6c2a7-becf-449a-93ad-0fb83db3443e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -231,7 +221,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ec943f7d-d097-4f25-b6d3-e5a020e3bb78")
 	)
@@ -249,28 +239,29 @@
 	(pad "1" smd rect
 		(at -2.88 -2)
 		(size 2.75 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a15d9670-014c-44e9-9e70-ba46cf29abd1")
 	)
 	(pad "1" smd rect
 		(at 2.88 -2)
 		(size 2.75 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "93ec16df-e6d3-4019-adfa-623db3d6e843")
 	)
 	(pad "2" smd rect
 		(at -2.88 2)
 		(size 2.75 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8dbef2d5-c8a4-43e8-99d4-b1ac3194a046")
 	)
 	(pad "2" smd rect
 		(at 2.88 2)
 		(size 2.75 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cfbc3738-9a01-45bf-87e5-362bd2dc551c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3SL-1022P.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3SL-1022P.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

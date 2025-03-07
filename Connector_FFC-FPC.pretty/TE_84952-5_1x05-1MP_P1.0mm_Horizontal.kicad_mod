@@ -1,7 +1,7 @@
 (footprint "TE_84952-5_1x05-1MP_P1.0mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TE FPC connector, 05 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4")
 	(tags "te fpc 84952")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b81875e1-82d2-444e-bfc8-4bf475cf1f14")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -388,46 +378,47 @@
 	(pad "1" smd rect
 		(at -2 -1.8)
 		(size 0.61 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8ce2dab8-36d8-43f1-8431-3b9f8892d291")
 	)
 	(pad "2" smd rect
 		(at -1 -1.8)
 		(size 0.61 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "33444b14-506e-4f58-b768-6c6cc0fae59c")
 	)
 	(pad "3" smd rect
 		(at 0 -1.8)
 		(size 0.61 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5a138886-7e51-4e09-886a-d8c936f4df02")
 	)
 	(pad "4" smd rect
 		(at 1 -1.8)
 		(size 0.61 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "473bf1df-e59a-415f-a090-4969b0521bf8")
 	)
 	(pad "5" smd rect
 		(at 2 -1.8)
 		(size 0.61 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d60c700f-b00e-479d-823d-9b72003a426b")
 	)
 	(pad "MP" smd rect
 		(at -4.99 1)
 		(size 2.68 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "da792d01-52a7-45fd-8025-8548243027a5")
 	)
 	(pad "MP" smd rect
 		(at 4.99 1)
 		(size 2.68 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5d309373-be60-4329-9cc7-07311dac8958")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/TE_84952-5_1x05-1MP_P1.0mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/TE_84952-5_1x05-1MP_P1.0mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

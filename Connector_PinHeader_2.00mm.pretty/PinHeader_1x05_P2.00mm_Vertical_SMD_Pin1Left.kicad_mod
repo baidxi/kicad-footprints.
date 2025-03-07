@@ -1,7 +1,7 @@
 (footprint "PinHeader_1x05_P2.00mm_Vertical_SMD_Pin1Left"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "surface-mounted straight pin header, 1x05, 2.00mm pitch, single row, style 1 (pin 1 left)")
 	(tags "Surface mounted pin header SMD 1x05 2.00mm single row style1 pin1 left")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "74bc9272-4045-4436-8800-4e97388be600")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -418,34 +408,35 @@
 	(pad "1" smd rect
 		(at -1.175 -4)
 		(size 2.35 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eb42d020-ee21-466b-865b-95cc604a6582")
 	)
 	(pad "2" smd rect
 		(at 1.175 -2)
 		(size 2.35 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fff98433-8b34-4bc4-a869-3d815289741a")
 	)
 	(pad "3" smd rect
 		(at -1.175 0)
 		(size 2.35 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b76835f9-2e2a-496f-bb2d-51900f70d5d5")
 	)
 	(pad "4" smd rect
 		(at 1.175 2)
 		(size 2.35 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e90d39fd-32e3-480f-8cce-856eaa25a61b")
 	)
 	(pad "5" smd rect
 		(at -1.175 4)
 		(size 2.35 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "92d9ba93-1e6f-4033-9cc9-4e0871959f65")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x05_P2.00mm_Vertical_SMD_Pin1Left.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x05_P2.00mm_Vertical_SMD_Pin1Left.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

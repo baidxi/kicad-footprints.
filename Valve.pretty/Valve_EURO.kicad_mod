@@ -1,7 +1,7 @@
 (footprint "Valve_EURO"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Valve Euro")
 	(tags "Valve Euro")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "46d651db-f47d-44e4-b228-5b02617743fc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -447,7 +437,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1cb37e23-cb2a-4da2-96bf-525a312886d2")
 	)
@@ -518,7 +508,8 @@
 		(remove_unused_layers no)
 		(uuid "37d5a07a-2a70-44c2-bf15-f9417f8b86f9")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Valve.3dshapes/Valve_EURO.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Valve.3dshapes/Valve_EURO.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

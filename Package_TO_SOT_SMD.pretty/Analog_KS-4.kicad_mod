@@ -1,7 +1,7 @@
 (footprint "Analog_KS-4"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Analog Devices KS-4, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sc70ks/ks_4.pdf")
 	(tags "Analog Devices KS-4 (like EIAJ SC-82)")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "77d951de-07cb-42a1-9c47-e9a359670229")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "eb2bf1e3-9932-4780-8061-abfe0649482f")
 	)
@@ -200,32 +190,33 @@
 	(pad "1" smd roundrect
 		(at -0.825 -0.65)
 		(size 0.75 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c352365b-3685-4f8b-8e45-693a60a8f9bc")
 	)
 	(pad "2" smd roundrect
 		(at -0.825 0.5)
 		(size 0.75 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "dfd23b5f-9005-49fb-9711-4c885c0dd7ac")
 	)
 	(pad "3" smd roundrect
 		(at 0.825 0.65)
 		(size 0.75 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "59237f1f-f100-4b12-a830-f2a29791ad82")
 	)
 	(pad "4" smd roundrect
 		(at 0.825 -0.65)
 		(size 0.75 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e0553567-593c-4e62-aaf7-178881853023")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Analog_KS-4.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Analog_KS-4.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

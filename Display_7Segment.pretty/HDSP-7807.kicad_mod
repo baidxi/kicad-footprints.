@@ -1,7 +1,7 @@
 (footprint "HDSP-7807"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "+-1 overflow 7 segment green, https://docs.broadcom.com/docs/AV02-2553EN")
 	(tags "+-1 overflow 7 segment green")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aa9c111f-c036-4a63-9adb-02d0aba7d52f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -305,7 +295,8 @@
 		(remove_unused_layers no)
 		(uuid "1df3b46f-ec5e-4800-a536-98a51d64801b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display_7Segment.3dshapes/HDSP-7807.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display_7Segment.3dshapes/HDSP-7807.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

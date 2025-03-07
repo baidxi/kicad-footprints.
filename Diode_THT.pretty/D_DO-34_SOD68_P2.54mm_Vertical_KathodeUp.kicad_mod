@@ -1,7 +1,7 @@
 (footprint "D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode, DO-34_SOD68 series, Axial, Vertical, pin pitch=2.54mm, , length*diameter=3.04*1.6mm^2, , https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf")
 	(tags "Diode DO-34_SOD68 series Axial Vertical pin pitch 2.54mm  length 3.04mm diameter 1.6mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d546c2c4-4324-40e5-abf3-03d2b22d1b46")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -81,7 +71,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "4d8027c6-3b7f-4b3b-b499-8f4c777e33ee")
 	)
@@ -142,7 +132,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "cdb66890-ae6b-4ee8-8058-ed93e5e03160")
 	)
@@ -195,7 +185,8 @@
 		(remove_unused_layers no)
 		(uuid "ad65a3f1-fa40-4abc-8739-82337ba18c6c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

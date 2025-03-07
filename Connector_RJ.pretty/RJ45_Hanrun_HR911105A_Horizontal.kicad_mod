@@ -1,7 +1,7 @@
 (footprint "RJ45_Hanrun_HR911105A_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1 Port RJ45 8P8C receptacle, shielded, with magnetics, through hole, 2 LEDs, tab down, http://www.hanrun.com/public/upload/down/2020/09-11/cc11be56d66bb63d5f1eeb85492439c0.pdf")
 	(tags "RJ45 Magjack ethernet")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f996d7a2-8994-4538-92ba-05b73007ed35")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -452,7 +442,8 @@
 		(remove_unused_layers no)
 		(uuid "201b1c0a-5dbe-41b2-ab9e-13e21e988740")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Hanrun_HR911105A_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Hanrun_HR911105A_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

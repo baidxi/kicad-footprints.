@@ -1,7 +1,7 @@
 (footprint "Transformer_CurrentSense_8.4x7.2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Transformer current sense SMD 8.4x7.2mm")
 	(tags "Transformer current sense SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "da720116-6c54-4358-9d99-e48fb4740b07")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -152,7 +142,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "6fcf1cb1-de1a-4e9a-8605-b5a1c7ce7338")
 	)
@@ -250,52 +240,53 @@
 	(pad "1" smd rect
 		(at -3.555 -1.85)
 		(size 1.524 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eb2e7c98-795c-4a09-be66-5e9785d68291")
 	)
 	(pad "2" smd rect
 		(at -3.555 0)
 		(size 1.524 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bdcbbb34-ba6e-48bf-afe3-ec2406efb10d")
 	)
 	(pad "3" smd rect
 		(at -3.555 1.85)
 		(size 1.524 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7be303f9-8295-45de-940f-1741f8f095c7")
 	)
 	(pad "4" smd rect
 		(at 3.555 1.85)
 		(size 1.524 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eb0da35e-ff72-4551-b17a-3c28da6b94be")
 	)
 	(pad "5" smd rect
 		(at 3.555 0)
 		(size 1.524 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f2f53bde-8d20-4e5e-9132-54c5f7aec9b1")
 	)
 	(pad "6" smd rect
 		(at 3.555 -1.85)
 		(size 1.524 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8b66d568-8ef5-496f-92e1-7c0f59779b3e")
 	)
 	(pad "7" smd rect
 		(at 0 2.615)
 		(size 3.05 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d620f870-534a-4579-8d87-ed38d0c9db74")
 	)
 	(pad "8" smd rect
 		(at 0 -2.615)
 		(size 3.05 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "71f658e9-3458-460f-bdcc-b62662542415")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_CurrentSense_8.4x7.2mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_CurrentSense_8.4x7.2mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

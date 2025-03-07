@@ -1,7 +1,7 @@
 (footprint "R_Radial_Power_L16.1mm_W9.0mm_P7.37mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Resistor, Radial_Power series, Radial, pin pitch=7.37mm, 10W, length*width=16.1*9mm^2, http://www.vishay.com/docs/30218/cpcx.pdf")
 	(tags "Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bd72a991-5930-4aff-9342-4c354de510b1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -251,7 +241,8 @@
 		(remove_unused_layers no)
 		(uuid "ed1a4a75-e355-4fd4-9fc1-b2cc1b7edae8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Radial_Power_L16.1mm_W9.0mm_P7.37mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Radial_Power_L16.1mm_W9.0mm_P7.37mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

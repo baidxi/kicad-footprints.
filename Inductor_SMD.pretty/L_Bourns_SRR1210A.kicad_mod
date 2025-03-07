@@ -1,7 +1,7 @@
 (footprint "L_Bourns_SRR1210A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Bourns SRR1210A series SMD inductor https://www.bourns.com/docs/Product-Datasheets/SRR1210A.pdf")
 	(tags "Bourns SRR1210A SMD inductor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5b342f13-044f-47b9-9282-5731298158c5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -443,7 +433,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "509abf16-ff82-497a-9136-bd4b1ee06cab")
 	)
@@ -461,16 +451,17 @@
 	(pad "1" smd rect
 		(at -5.05 0)
 		(size 2.8 5.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1f616f18-2dc6-47bb-bf44-740d14334bfb")
 	)
 	(pad "2" smd rect
 		(at 5.05 0)
 		(size 2.8 5.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "df15df9d-e533-458b-b958-06bd91b474fc")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRR1210A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRR1210A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

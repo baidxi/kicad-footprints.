@@ -1,7 +1,7 @@
 (footprint "SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm_Relief2x"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Soldered wire connection with double feed through strain relief, for a single 0.127 mm² wire, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 	(tags "connector wire 0.127sqmm double-strain-relief")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0f89e6ae-c653-47c6-8106-520e42cd3e42")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,30 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_line
-		(start -0.61 6.61)
-		(end -0.61 11.39)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "a03dcaf2-5e68-4f08-a1ea-268d3ef1b7c7")
-	)
-	(fp_line
-		(start 0.61 6.61)
-		(end 0.61 11.39)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "11f6decd-6ec1-44f7-a7e3-39f7dcfc5c98")
-	)
 	(fp_line
 		(start -0.61 1.11)
 		(end -0.61 5.39)
@@ -103,6 +73,26 @@
 		)
 		(layer "F.SilkS")
 		(uuid "0cfe8075-1d27-4c74-90a6-18b480b804c8")
+	)
+	(fp_line
+		(start -0.61 6.61)
+		(end -0.61 11.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "a03dcaf2-5e68-4f08-a1ea-268d3ef1b7c7")
+	)
+	(fp_line
+		(start 0.61 6.61)
+		(end 0.61 11.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "11f6decd-6ec1-44f7-a7e3-39f7dcfc5c98")
 	)
 	(fp_line
 		(start -1.35 4.75)
@@ -251,7 +241,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.Fab")
 		(uuid "6873c78c-8e07-4bf7-a67c-0be55b6b55cd")
 	)
@@ -262,7 +252,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.Fab")
 		(uuid "f16459a7-d80b-4188-b731-979b5ef7257e")
 	)
@@ -293,7 +283,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "114e1509-d9b3-4ad0-9d3a-9b03ef8eccc3")
 	)
@@ -304,7 +294,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c8eeca70-4082-4741-a88c-ced2a24f4e4c")
 	)
@@ -315,7 +305,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2eedfdf4-42ad-4441-8ba9-b82cd5aed3df")
 	)
@@ -353,7 +343,8 @@
 		(roundrect_rratio 0.147059)
 		(uuid "f40d9b8f-ea16-4dfe-b5a3-f739b9578364")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm_Relief2x.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm_Relief2x.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

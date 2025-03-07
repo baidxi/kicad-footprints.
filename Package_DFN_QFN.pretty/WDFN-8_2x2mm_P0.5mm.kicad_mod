@@ -1,7 +1,7 @@
 (footprint "WDFN-8_2x2mm_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DFN8 2x2, 0.5P; No exposed pad (http://www.onsemi.com/pub/Collateral/NCP4308-D.PDF)")
 	(tags "DFN 0.5")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7710e2d5-4652-4daf-b057-b66f7608a223")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "4086c3c9-edc3-4c1e-827b-c12545251f5f")
 	)
@@ -200,52 +190,53 @@
 	(pad "1" smd rect
 		(at -0.71 -0.75)
 		(size 0.88 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f2300ec4-24c0-4454-85f4-a962c4d9b853")
 	)
 	(pad "2" smd rect
 		(at -0.76 -0.25)
 		(size 0.78 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3c87fc34-8267-4c15-a882-c4ceae7508ba")
 	)
 	(pad "3" smd rect
 		(at -0.76 0.25)
 		(size 0.78 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b83b2e9b-1143-442c-abca-a884df0fdd1c")
 	)
 	(pad "4" smd rect
 		(at -0.76 0.75)
 		(size 0.78 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d78f605c-f213-40d9-957e-036814227ac7")
 	)
 	(pad "5" smd rect
 		(at 0.76 0.75)
 		(size 0.78 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "41133b44-84ec-402b-8921-6909793b8375")
 	)
 	(pad "6" smd rect
 		(at 0.76 0.25)
 		(size 0.78 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "467ea269-51fd-457d-9cef-9f851f758971")
 	)
 	(pad "7" smd rect
 		(at 0.76 -0.25)
 		(size 0.78 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "40025953-91e6-461c-a318-ad8ef9aea3b2")
 	)
 	(pad "8" smd rect
 		(at 0.76 -0.75)
 		(size 0.78 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3afebee9-d068-49ce-8958-bbe42b6189c6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WDFN-8_2x2mm_P0.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WDFN-8_2x2mm_P0.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

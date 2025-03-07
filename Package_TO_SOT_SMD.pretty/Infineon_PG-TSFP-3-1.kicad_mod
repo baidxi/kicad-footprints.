@@ -1,7 +1,7 @@
 (footprint "Infineon_PG-TSFP-3-1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Infineon_PG-TSFP-3-1, https://www.infineon.com/dgdl/TSFP-3-1,-2-Package_Overview.pdf?fileId=db3a30431936bc4b0119539929863d46")
 	(tags "TSFP-3")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "62fa2b44-bd14-46b1-a780-602d12945708")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -111,7 +101,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "aafda7fe-c21e-473f-9ba1-a08b95a5757e")
 	)
@@ -219,25 +209,26 @@
 	(pad "1" smd roundrect
 		(at -0.525 -0.4 270)
 		(size 0.4 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "45ae870c-33c1-4679-b696-853dcee44bde")
 	)
 	(pad "2" smd roundrect
 		(at -0.525 0.4 270)
 		(size 0.4 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3c90f8d8-c926-40bf-b395-850a790fbfcd")
 	)
 	(pad "3" smd roundrect
 		(at 0.525 0 270)
 		(size 0.4 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ba521f0b-a067-4a1c-97d6-6022e1bb7d52")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-TSFP-3-1.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-TSFP-3-1.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

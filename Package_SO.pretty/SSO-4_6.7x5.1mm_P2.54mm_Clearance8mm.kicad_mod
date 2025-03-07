@@ -1,7 +1,7 @@
 (footprint "SSO-4_6.7x5.1mm_P2.54mm_Clearance8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "4-Lead Plastic Stretched Small Outline (SSO/Stretched SO), see https://www.vishay.com/docs/84299/vor1142b4.pdf")
 	(tags "SSO Stretched SO SOIC 2.54")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "758722e9-d1a8-4b20-a739-022a768e6ba4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -133,7 +123,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c4acbfc2-e8fe-4cef-a866-11b8fcbfa928")
 	)
@@ -241,28 +231,29 @@
 	(pad "1" smd rect
 		(at -4.75 -1.27)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3cb0d2b6-8c5d-4875-af5b-6b3473fae196")
 	)
 	(pad "2" smd rect
 		(at -4.75 1.27)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8340cd83-da2d-4bd4-8713-a49ec1fc0f9c")
 	)
 	(pad "3" smd rect
 		(at 4.75 1.27)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0dabc19a-4fbc-4d03-adaf-2c85bcb299fa")
 	)
 	(pad "4" smd rect
 		(at 4.75 -1.27)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0f10d9b3-bd97-4752-b46f-ad1beee1669f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SSO-4_6.7x5.1mm_P2.54mm_Clearance8mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SSO-4_6.7x5.1mm_P2.54mm_Clearance8mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

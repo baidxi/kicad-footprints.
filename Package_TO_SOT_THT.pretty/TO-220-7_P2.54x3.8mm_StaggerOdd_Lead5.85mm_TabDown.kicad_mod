@@ -1,10 +1,10 @@
 (footprint "TO-220-7_P2.54x3.8mm_StaggerOdd_Lead5.85mm_TabDown"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "TO-220-7, Horizontal, RM 1.27mm, Multiwatt-7, staggered type-1")
-	(tags "TO-220-7 Horizontal RM 1.27mm Multiwatt-7 staggered type-1")
+	(descr "TO-220-7, Horizontal, RM 1.27mm, staggered type-1")
+	(tags "TO-220-7 Horizontal RM 1.27mm staggered type-1")
 	(property "Reference" "REF**"
 		(at 3.81 -22.62 0)
 		(layer "F.SilkS")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bddb449f-289a-4ed7-9c96-271622211e15")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -371,7 +361,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "392c2488-ad56-4614-af04-b41d32c4c485")
 	)
@@ -449,7 +439,8 @@
 		(remove_unused_layers no)
 		(uuid "f722350a-efc1-4193-88dc-20569c6b98a0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-7_P2.54x3.8mm_StaggerOdd_Lead5.85mm_TabDown.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-7_P2.54x3.8mm_StaggerOdd_Lead5.85mm_TabDown.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "D1X8K"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf")
 	(tags "Single digit 7 segment ultra bright red")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aec06794-826b-4d1c-bbd1-105b0c39e97b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -191,7 +181,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "5f92a241-ca51-47a4-a692-bc78ba9952f0")
 	)
@@ -376,7 +366,8 @@
 		(remove_unused_layers no)
 		(uuid "38680d4e-8e55-4d5d-8276-b35240a380c2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display_7Segment.3dshapes/D1X8K.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display_7Segment.3dshapes/D1X8K.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Round_D9.8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "4-lead round diode bridge package, diameter 9.8mm, pin pitch 5.08mm, see http://www.vishay.com/docs/88769/woo5g.pdf")
 	(tags "diode bridge 9.8mm WOG pitch 5.08mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c8d203e3-1cb7-47fe-ba51-04fd4a4317e0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -189,7 +179,8 @@
 		(remove_unused_layers no)
 		(uuid "9ba9b03d-8634-4a2b-b68e-dbcb4ad5c39c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Round_D9.8mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Round_D9.8mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

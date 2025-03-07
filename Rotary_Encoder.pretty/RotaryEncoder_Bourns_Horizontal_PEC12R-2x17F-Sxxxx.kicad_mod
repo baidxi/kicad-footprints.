@@ -1,12 +1,12 @@
 (footprint "RotaryEncoder_Bourns_Horizontal_PEC12R-2x17F-Sxxxx"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Bourns rotary encoder, PEC12R, with switch, horizontal shaft, 17mm shaft length, https://www.bourns.com/docs/product-datasheets/pec12r.pdf")
 	(tags "rotary encoder")
 	(property "Reference" "REF**"
-		(at 4.7 2.5 -90)
+		(at 4.7 2.5 270)
 		(layer "F.SilkS")
 		(uuid "c7578751-d7a6-49f3-8500-6dc36c63bdee")
 		(effects
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f2657c27-7875-40da-bdf5-e186700b4244")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -747,6 +737,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -775,6 +769,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -805,6 +803,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -834,6 +836,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -844,7 +850,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Bourns_Horizontal_PEC12R-2x17F-Sxxxx.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Bourns_Horizontal_PEC12R-2x17F-Sxxxx.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

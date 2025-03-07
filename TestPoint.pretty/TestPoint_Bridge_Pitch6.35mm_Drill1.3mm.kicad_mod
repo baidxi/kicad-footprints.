@@ -1,7 +1,7 @@
 (footprint "TestPoint_Bridge_Pitch6.35mm_Drill1.3mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "wire loop as test point, pitch 6.35mm, hole diameter 1.3mm, wire diameter 1.0mm")
 	(tags "test point wire loop")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e9d05cd9-f7f8-475b-bd86-aa4fb79b1c72")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -181,7 +171,8 @@
 		(remove_unused_layers no)
 		(uuid "d5f104fb-05b5-4e7c-a7d3-2d8d1dca3b3d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch6.35mm_Drill1.3mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch6.35mm_Drill1.3mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

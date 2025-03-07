@@ -1,7 +1,7 @@
 (footprint "R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Resistor, Axial_DIN0617 series, Axial, Vertical, pin pitch=7.62mm, 2W, length*diameter=17*6mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 	(tags "Resistor Axial_DIN0617 series Axial Vertical pin pitch 7.62mm 2W length 17mm diameter 6mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7bf01a70-09a6-4ca0-991d-706b5a326fa3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -81,7 +71,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "2b2e6bc3-2662-46fa-9005-7b8e6989d4e6")
 	)
@@ -142,7 +132,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1982fef5-decd-43e8-b85d-0dfb072503e5")
 	)
@@ -173,7 +163,8 @@
 		(remove_unused_layers no)
 		(uuid "e62ac634-c1e9-4903-a86c-4759c1140d39")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "PUIAudio_SMT_0825_S_4_R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD 8540, http://www.puiaudio.com/product-detail.aspx?partnumber=SMT-0825-S-4-R")
 	(tags "SMD 8540")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "82ac5f87-272a-4497-a183-7a892d3d1424")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -225,7 +215,7 @@
 		(uuid "dd77f0ed-87de-423f-b871-5ee807301277")
 	)
 	(fp_text user "+"
-		(at -1.5 -3.25 -90)
+		(at -1.5 -3.25 270)
 		(layer "F.SilkS")
 		(uuid "de6df3a0-eeac-40c9-9742-0e39c872457b")
 		(effects
@@ -247,7 +237,7 @@
 		)
 	)
 	(fp_text user "+"
-		(at -2.75 -2.75 -90)
+		(at -2.75 -2.75 270)
 		(layer "F.Fab")
 		(uuid "dbc61318-0f3e-4944-becb-17d8546b6460")
 		(effects
@@ -260,28 +250,29 @@
 	(pad "1" smd rect
 		(at -3.5 -3.5 270)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4594e273-6f1e-41b1-938c-bebc54391f22")
 	)
 	(pad "2" smd rect
 		(at -3.5 3.5 270)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5e98b08c-fde1-4451-a189-65eb6b92b534")
 	)
 	(pad "3" smd rect
 		(at 3.5 3.5 270)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d523c47b-e021-4286-9c00-ed088e213f04")
 	)
 	(pad "4" smd rect
 		(at 3.5 -3.5 270)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "934250b4-9b9d-4458-aa61-d9bf88826322")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/PUIAudio_SMT_0825_S_4_R.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/PUIAudio_SMT_0825_S_4_R.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

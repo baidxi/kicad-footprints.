@@ -1,7 +1,7 @@
 (footprint "microSD_HC_Molex_47219-2001"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1.10mm Pitch microSD Card Connector, Hinge Type, https://www.molex.com/pdm_docs/sd/472192001_sd.pdf")
 	(tags "Micro SD")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6e5e3b38-f6a2-4ed1-9547-a3b784bcbe2f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -241,80 +231,81 @@
 	(pad "1" smd rect
 		(at -3.205 -2.1)
 		(size 0.8 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f3f80fe9-eb05-43ac-af37-11228ef483f7")
 	)
 	(pad "2" smd rect
 		(at -2.105 -2.1)
 		(size 0.8 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7cc0dff4-21ac-4256-89de-35a3181c1269")
 	)
 	(pad "3" smd rect
 		(at -1.005 -2.1)
 		(size 0.8 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "66a6b198-de46-491a-b1c5-1b5d89027a79")
 	)
 	(pad "4" smd rect
 		(at 0.095 -2.1)
 		(size 0.8 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fba9aead-09b6-421f-a69f-d03d0456578e")
 	)
 	(pad "5" smd rect
 		(at 1.195 -2.1)
 		(size 0.8 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5761a424-2071-4f3f-ad47-9af1f4cb5eb2")
 	)
 	(pad "6" smd rect
 		(at 2.295 -2.1)
 		(size 0.8 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e2b8d7b3-79ff-4ad3-9cb0-62105ef41b6b")
 	)
 	(pad "7" smd rect
 		(at 3.395 -2.1)
 		(size 0.8 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "59a2c789-5851-4033-a7f4-012b0660f50e")
 	)
 	(pad "8" smd rect
 		(at 4.495 -2.1)
 		(size 0.8 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "72e42b79-5278-4a89-a677-9d4bb5c579f4")
 	)
 	(pad "9" smd roundrect
 		(at -6.875 -4.7)
 		(size 1.45 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "90b2355e-fdda-44d4-af24-227a5fc01bd9")
 	)
 	(pad "9" smd roundrect
 		(at -6.875 3.6)
 		(size 1.45 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8c01231e-9021-4782-bce4-ce4f105a3908")
 	)
 	(pad "9" smd roundrect
 		(at 6.875 -4.7)
 		(size 1.45 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0b8735af-5d5e-40e7-9373-cbc3ee28782f")
 	)
 	(pad "9" smd roundrect
 		(at 6.875 3.6)
 		(size 1.45 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "85ac109c-7655-4147-b9e6-7d3d3cb69f5b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Card.3dshapes/microSD_HC_Molex_47219-2001.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Card.3dshapes/microSD_HC_Molex_47219-2001.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

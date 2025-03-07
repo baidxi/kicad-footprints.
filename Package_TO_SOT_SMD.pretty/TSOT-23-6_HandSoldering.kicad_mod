@@ -1,7 +1,7 @@
 (footprint "TSOT-23-6_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "6-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf")
 	(tags "TSOT-23-6 MK06A TSOT-6 Hand-soldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "576d8565-49c0-4593-a95b-244d26da41e4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -102,7 +92,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "04c37aee-35db-4e4e-8386-fdb2f7cc50a8")
 	)
@@ -210,46 +200,47 @@
 	(pad "1" smd roundrect
 		(at -1.71 -0.95)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c9e0337a-6a56-47ab-b0a8-3cda5c9be778")
 	)
 	(pad "2" smd roundrect
 		(at -1.71 0)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "290757ac-4c9f-4020-b71f-2afc53ca01be")
 	)
 	(pad "3" smd roundrect
 		(at -1.71 0.95)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ca1865c2-e0ac-4ba4-a41f-0834482d8825")
 	)
 	(pad "4" smd roundrect
 		(at 1.71 0.95)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a7f4d179-d7fe-4f5d-853e-f49c3be510e1")
 	)
 	(pad "5" smd roundrect
 		(at 1.71 0)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "057beca5-9dd1-4881-8205-27805e9acfff")
 	)
 	(pad "6" smd roundrect
 		(at 1.71 -0.95)
 		(size 2 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6734ea70-c284-4c66-9801-27f1debd9514")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

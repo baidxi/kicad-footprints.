@@ -1,7 +1,7 @@
 (footprint "D_SMB_Handsoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode SMB (DO-214AA) Handsoldering")
 	(tags "Diode SMB (DO-214AA) Handsoldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9039eb72-dd99-4552-abc4-001953701265")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -248,18 +238,19 @@
 	(pad "1" smd roundrect
 		(at -2.7 0)
 		(size 3.5 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1086956522)
 		(uuid "8f083005-ab6b-47c1-a92c-9652f3ba11da")
 	)
 	(pad "2" smd roundrect
 		(at 2.7 0)
 		(size 3.5 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1086956522)
 		(uuid "fb56f605-8532-457c-bd3e-d1b643b0cc24")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

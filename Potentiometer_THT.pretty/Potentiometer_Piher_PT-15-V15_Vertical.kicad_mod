@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Piher_PT-15-V15_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Potentiometer, vertical, Piher PT-15-V15, http://www.piher-nacesa.com/pdf/14-PT15v03.pdf")
 	(tags "Potentiometer vertical Piher PT-15-V15")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4eddd149-5f8c-4cbb-964b-c2a993e7ffd3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -177,7 +167,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c8c1bf1b-5fb8-41d5-9a82-73e2bfc221d4")
 	)
@@ -188,7 +178,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "38eea039-7079-429b-b7fd-861f27f3cda6")
 	)
@@ -227,7 +217,8 @@
 		(remove_unused_layers no)
 		(uuid "8e28afca-23c6-4f57-a414-a7fae23d4cc9")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-15-V15_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-15-V15_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Relay_DPDT_Omron_G6AK"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DPDT signal relay, double-winding latching, Omron G6AK, 20x9.9x8.2mm https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6a.pdf")
 	(tags "Omron G6AK Relay DPDT")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "28e1f1a7-efcc-4dac-90a8-4b0f3f4e4b0b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -521,7 +511,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "e41c62cf-faf6-44e9-a363-baa4ad254715")
 	)
@@ -532,7 +522,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "b4d82388-f8b4-4da8-a13a-1bcce9d5f3d8")
 	)
@@ -544,7 +534,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "bba51c46-c648-40f5-a9e2-8516a6dd9f07")
 	)
@@ -752,7 +742,8 @@
 		(remove_unused_layers no)
 		(uuid "0bcf301d-1a17-4d3c-907a-381ef1ba7d8a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G6AK.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G6AK.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

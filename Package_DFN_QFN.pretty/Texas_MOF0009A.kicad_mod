@@ -1,7 +1,7 @@
 (footprint "Texas_MOF0009A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments, QFM MOF0009A, 6x8x2mm (http://www.ti.com/lit/ml/mpsi063a/mpsi063a.pdf)")
 	(tags "ti qfm mof0009a")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "567a94f3-c711-4cf5-862f-1712d8bff643")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -164,7 +154,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "06f249ad-85e3-4cbe-bee5-43545d2aeddd")
 	)
@@ -384,42 +374,42 @@
 	(pad "2" smd roundrect
 		(at -2.55 2.0525)
 		(size 0.8 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.084)
 		(uuid "01a9a872-d3f9-45a0-9c16-98204b4f1cbc")
 	)
 	(pad "3" smd roundrect
 		(at -2.55 3.2525)
 		(size 0.8 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.084)
 		(uuid "008b4bbe-75b7-4745-b1a1-de8ce25a5e41")
 	)
 	(pad "4" smd roundrect
 		(at -0.9 3.5525)
 		(size 0.6 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.084)
 		(uuid "bb2b1db7-509a-43af-a6a3-03fa6c9d633c")
 	)
 	(pad "5" smd roundrect
 		(at 0.9 3.5525)
 		(size 0.6 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.084)
 		(uuid "95abb3fd-2e72-45d5-888f-033ce8aac141")
 	)
 	(pad "6" smd roundrect
 		(at 2.55 3.2525)
 		(size 0.8 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.084)
 		(uuid "468ff0ce-9e58-433f-8519-dd2b9c07a01c")
 	)
 	(pad "7" smd roundrect
 		(at 2.55 2.0525)
 		(size 0.8 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.084)
 		(uuid "bd54115b-47f7-4981-92a5-ee4d6393b166")
 	)
@@ -437,7 +427,8 @@
 		(roundrect_rratio 0.044)
 		(uuid "c22df949-a90a-4ca0-a271-1ab9f4ea56fa")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_MOF0009A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_MOF0009A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

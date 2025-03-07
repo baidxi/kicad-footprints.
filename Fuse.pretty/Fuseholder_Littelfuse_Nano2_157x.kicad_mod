@@ -1,7 +1,7 @@
 (footprint "Fuseholder_Littelfuse_Nano2_157x"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Littelfuse NANO2 holder, https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157_datasheet.pdf.pdf")
 	(tags "SMD Nano2 holder")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aa231e57-6e40-4927-9c8b-9cedae50f211")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -218,16 +208,17 @@
 	(pad "1" smd rect
 		(at -2.43 0)
 		(size 2.4 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "74480129-32b5-45e0-935e-81b3283d7415")
 	)
 	(pad "2" smd rect
 		(at 2.43 0)
 		(size 2.4 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d6851921-59bf-485d-b868-a6d3565c9fb4")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Littelfuse_Nano2_157x.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Littelfuse_Nano2_157x.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "D_MELF_Handsoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode MELF Handsoldering")
 	(tags "Diode MELF Handsoldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "744cb7bb-1063-4e01-b251-08ba9eee511f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -248,18 +238,19 @@
 	(pad "1" smd roundrect
 		(at -3.4 0)
 		(size 3.5 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.0925925926)
 		(uuid "6db78090-4f8e-45f8-9964-8f6b7c7be50a")
 	)
 	(pad "2" smd roundrect
 		(at 3.4 0)
 		(size 3.5 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.0925925926)
 		(uuid "9c90ba26-6b61-43f0-8f4d-47b341781933")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MELF.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MELF.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

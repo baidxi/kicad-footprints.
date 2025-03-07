@@ -1,7 +1,7 @@
 (footprint "Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Fairchild-specific MicroPak2-6 1.0x1.0mm Pitch 0.35mm https://www.nxp.com/docs/en/application-note/AN10343.pdff")
 	(tags "Fairchild-specific MicroPak2-6 1.0x1.0mm Pitch 0.35mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "055d7c48-714d-4a8c-a4b6-057f7afcffc3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "30bf05b4-e727-4630-86d1-3db2ce8c5e60")
 	)
@@ -200,46 +190,47 @@
 	(pad "1" smd roundrect
 		(at -0.3525 -0.35)
 		(size 0.57 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ab0b7776-c08a-434b-873b-382ab70e9921")
 	)
 	(pad "2" smd roundrect
 		(at -0.3525 0)
 		(size 0.57 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "73179942-1f06-46c0-a211-a353f3b990e1")
 	)
 	(pad "3" smd roundrect
 		(at -0.3525 0.35)
 		(size 0.57 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ee11c14b-45ac-4cae-83dd-b04dfe04a738")
 	)
 	(pad "4" smd roundrect
 		(at 0.3775 0.35)
 		(size 0.57 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4791e1ac-d6b0-420d-a3b9-d58d59067d9e")
 	)
 	(pad "5" smd roundrect
 		(at 0.3775 0)
 		(size 0.57 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "82f19edc-8662-41e6-a6ae-2f8478d884b9")
 	)
 	(pad "6" smd roundrect
 		(at 0.3775 -0.35)
 		(size 0.57 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b18ca717-55b9-4582-947d-fe7e79549ab7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

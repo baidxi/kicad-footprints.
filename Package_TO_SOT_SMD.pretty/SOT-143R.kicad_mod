@@ -1,7 +1,7 @@
 (footprint "SOT-143R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SOT-143R, reverse pinning, https://www.nxp.com/docs/en/package-information/SOT143R.pdf")
 	(tags "SOT-143R Reverse")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "10f1812c-797e-42f2-a28e-9f313b7526ae")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "85f5791f-62ca-4cbe-8859-ac06cecfcfab")
 	)
@@ -200,32 +190,33 @@
 	(pad "1" smd roundrect
 		(at -0.75 -1 270)
 		(size 0.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6a336e3f-79e9-4231-8ca2-38a798f05f9f")
 	)
 	(pad "2" smd roundrect
 		(at 0.95 -1 270)
 		(size 0.7 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3862ae54-0889-40d0-a519-841ecb949575")
 	)
 	(pad "3" smd roundrect
 		(at 0.95 1 270)
 		(size 0.7 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7cba27a8-b26c-4e33-ad8e-83f2f8589f1f")
 	)
 	(pad "4" smd roundrect
 		(at -0.95 1 270)
 		(size 0.7 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0be455d7-9219-470e-8eb0-7925a3f97f66")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-143R.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-143R.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

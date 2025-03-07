@@ -1,12 +1,12 @@
 (footprint "Transformer_NF_ETAL_P3000"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "NF-Reansformer, ETAL, P3000, SMD,")
 	(tags "NF-Reansformer ETAL P3000 SMD ")
 	(property "Reference" "REF**"
-		(at 7.25 0 -90)
+		(at 7.25 0 270)
 		(layer "F.SilkS")
 		(uuid "5010f520-77a3-4ab1-9f50-036dcf4cc9e9")
 		(effects
@@ -17,25 +17,13 @@
 		)
 	)
 	(property "Value" "Transformer_NF_ETAL_P3000"
-		(at -7.25 0 -90)
+		(at -7.25 0 270)
 		(layer "F.Fab")
 		(uuid "b079de57-745f-44a3-8905-dc4fd13e89a9")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "49aa50b1-86e6-4567-9970-7a8615f36b2f")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -242,7 +232,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "cfc94a03-c613-4ee8-b665-722ab5dde553")
 	)
@@ -347,7 +337,7 @@
 		(uuid "99f742dd-7059-4ec3-bd51-a6ea93a0cfe5")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(uuid "d53f4f6c-2d08-44fb-98e8-ed374664eede")
 		(effects
@@ -360,94 +350,95 @@
 	(pad "1" smd rect
 		(at -5.4 -6.7 270)
 		(size 1.32 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "50cd646c-3bd9-4754-9ce3-b3fc12d0ef50")
 	)
 	(pad "2" smd rect
 		(at -5.4 -4.16 270)
 		(size 1.32 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2d74e401-95fb-44c7-8348-18a9ef3c705e")
 	)
 	(pad "3" smd rect
 		(at -5.4 -1.62 270)
 		(size 1.32 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ef899143-f16e-498b-b21c-8fed2c982b3f")
 	)
 	(pad "4" smd rect
 		(at -5.4 1.62 270)
 		(size 1.32 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ffa67db8-5d9d-422c-b550-fb3dc7a78d14")
 	)
 	(pad "5" smd rect
 		(at -5.4 4.16 270)
 		(size 1.32 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1cd9b78f-a825-46b5-8616-9c2e4e7f896d")
 	)
 	(pad "6" smd rect
 		(at -5.4 6.7 270)
 		(size 1.32 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4106f8f9-f1ef-4912-82c0-7927312852ea")
 	)
 	(pad "7" smd rect
 		(at 5.4 6.7 270)
 		(size 1.32 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2f6b8476-8046-4251-91f6-f5648e1d1896")
 	)
 	(pad "8" smd rect
 		(at 5.4 4.16 270)
 		(size 1.32 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f13af125-cec6-46b3-843a-e94a2dcc85f3")
 	)
 	(pad "9" smd rect
 		(at 5.4 1.62 270)
 		(size 1.32 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3defdf3d-66f5-4c41-8109-16c5bf917f7d")
 	)
 	(pad "10" smd rect
 		(at 5.4 -1.62 270)
 		(size 1.32 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "de537bb6-8750-4c9c-9ef1-5c7ee7a36f77")
 	)
 	(pad "11" smd rect
 		(at 5.4 -4.16 270)
 		(size 1.32 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e5de1736-95db-4de1-aea4-3e1fc2b9b371")
 	)
 	(pad "12" smd rect
 		(at 5.4 -6.7 270)
 		(size 1.32 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "23ddbaec-490a-46cd-9ab7-c37e1c6aa40f")
 	)
 	(pad "13" smd oval
 		(at 0 -5 270)
 		(size 1.5 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "538d1d2e-f08e-43db-8291-1c3476c512a8")
 	)
 	(pad "13" smd oval
 		(at 0 0 270)
 		(size 1.5 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0f3f314c-fc61-4330-9845-fd24add79961")
 	)
 	(pad "13" smd oval
 		(at 0 5 270)
 		(size 1.5 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6c4448f9-756e-483e-b8fe-f4fde9766338")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_NF_ETAL_P3000.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_NF_ETAL_P3000.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

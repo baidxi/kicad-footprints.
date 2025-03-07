@@ -1,7 +1,7 @@
 (footprint "Samtec_HLE-103-02-xxx-DV-BE_2x03_P2.54mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Samtec HLE .100\" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-103-02-xxx-DV-BE, 3 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xxx-dv-xx-xx-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-dv-footprint.pdf), generated with kicad-footprint-generator")
 	(tags "connector Samtec HLE horizontal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "92bb68c6-c403-4a78-8df6-cbbd92b34977")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -330,40 +320,41 @@
 	(pad "1" smd rect
 		(at -2.54 -2.72)
 		(size 1.27 1.68)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "75b2260f-fb96-40ce-8c51-11e09bcef479")
 	)
 	(pad "2" smd rect
 		(at -2.54 2.72)
 		(size 1.27 1.68)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fba05388-040d-47f8-9270-5512c01d2309")
 	)
 	(pad "3" smd rect
 		(at 0 -2.72)
 		(size 1.27 1.68)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6a4d25ba-7460-4670-a1c2-a822e9a44509")
 	)
 	(pad "4" smd rect
 		(at 0 2.72)
 		(size 1.27 1.68)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "02d693a8-ea76-464d-bb17-13ffd12c389e")
 	)
 	(pad "5" smd rect
 		(at 2.54 -2.72)
 		(size 1.27 1.68)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "571c6427-eebc-48a3-acbb-5b495f7923bf")
 	)
 	(pad "6" smd rect
 		(at 2.54 2.72)
 		(size 1.27 1.68)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b42347e8-b3c6-4888-9f81-10274093bbc4")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Samtec_HLE_SMD.3dshapes/Samtec_HLE-103-02-xxx-DV_2x03_P2.54mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Samtec_HLE_SMD.3dshapes/Samtec_HLE-103-02-xxx-DV_2x03_P2.54mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

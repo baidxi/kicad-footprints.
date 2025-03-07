@@ -1,7 +1,7 @@
 (footprint "NetTie-3_THT_Pad0.3mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Net tie, 3 pin, 0.3mm round THT pads")
 	(tags "net tie")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e0ee15b1-671d-4931-b094-bb0b313a5ec3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -75,7 +65,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Cu")
 		(uuid "52a05b02-6baa-4f7d-89f0-4d5c53a2ae4b")
 	)
@@ -87,7 +77,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "B.Cu")
 		(uuid "f3a5e4a7-e5d2-453c-92d4-0766f13576c4")
 	)
@@ -115,4 +105,5 @@
 		(remove_unused_layers no)
 		(uuid "f4962199-5f70-4499-bb71-edc9d9ca10da")
 	)
+	(embedded_fonts no)
 )

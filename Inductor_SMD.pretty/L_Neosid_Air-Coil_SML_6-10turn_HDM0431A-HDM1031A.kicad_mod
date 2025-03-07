@@ -1,7 +1,7 @@
 (footprint "L_Neosid_Air-Coil_SML_6-10turn_HDM0431A-HDM1031A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Neosid, Air-Coil, SML, 6-10turn, HDM0431A-HDM1031A,")
 	(tags "Neosid Air-Coil SML 6-10turn HDM0431A-HDM1031A")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ea03d245-bb98-4b03-ad18-333a75a15d57")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -418,16 +408,17 @@
 	(pad "1" smd rect
 		(at -2.9 3.45)
 		(size 0.6 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2c8a83a8-a0f5-472c-a86e-a68185d6b486")
 	)
 	(pad "2" smd rect
 		(at 2.9 -3.45)
 		(size 0.6 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "711258e5-49d6-44c5-a251-b35011e97fb7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_Air-Coil_SML_6-10turn_HDM0431A-HDM1031A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_Air-Coil_SML_6-10turn_HDM0431A-HDM1031A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

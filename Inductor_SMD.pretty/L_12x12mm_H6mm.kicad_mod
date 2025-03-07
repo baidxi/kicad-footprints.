@@ -1,7 +1,7 @@
 (footprint "L_12x12mm_H6mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Choke, SMD, 12x12mm 6mm height")
 	(tags "Choke SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f862e884-bd22-40dd-b035-718ed8702eae")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,43 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 0.15 0.15)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "5aaf5db8-f15e-4add-a3dc-9a2bf10bd3eb")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.55 0)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "4b0e39fc-7e70-49a9-a3f6-97281392a995")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.9 0)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "5128cc5f-8fbc-443c-ac23-6ef85c9b3c8c")
-	)
 	(fp_line
 		(start -6.3 -6.3)
 		(end 6.3 -6.3)
@@ -156,6 +113,39 @@
 		)
 		(layer "F.SilkS")
 		(uuid "28cc7bb0-3a25-4af3-b22d-2bfe140beca6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.15 0.15)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "5aaf5db8-f15e-4add-a3dc-9a2bf10bd3eb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.55 0)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "4b0e39fc-7e70-49a9-a3f6-97281392a995")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.9 0)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "5128cc5f-8fbc-443c-ac23-6ef85c9b3c8c")
 	)
 	(fp_line
 		(start -6.86 -6.6)
@@ -784,7 +774,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "fd79b769-fd6c-4e08-b7dd-339405b753d3")
 	)
@@ -802,16 +792,17 @@
 	(pad "1" smd rect
 		(at -4.95 0)
 		(size 2.9 5.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "062a63a9-a4c2-4ab0-978e-60e4f16b3fc1")
 	)
 	(pad "2" smd rect
 		(at 4.95 0)
 		(size 2.9 5.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1c4e959e-2195-4400-ab1a-d6f13a78575d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_12x12mm_H6mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_12x12mm_H6mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

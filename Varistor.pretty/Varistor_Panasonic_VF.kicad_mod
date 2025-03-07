@@ -1,7 +1,7 @@
 (footprint "Varistor_Panasonic_VF"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf")
 	(tags "Varistor VF")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ee6e4d46-0f94-458a-870e-2e50b8dd6cad")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -318,18 +308,19 @@
 	(pad "1" smd roundrect
 		(at -3.75 0)
 		(size 2.5 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "96e3f881-26fa-4d42-bf1f-3da5ccb4cec6")
 	)
 	(pad "2" smd roundrect
 		(at 3.75 0)
 		(size 2.5 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "13fea49b-0e82-4e68-be5e-5b71a5effb98")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Varistor.3dshapes/Varistor_Panasonic_VF.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Varistor.3dshapes/Varistor_Panasonic_VF.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

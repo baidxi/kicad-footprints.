@@ -1,7 +1,7 @@
 (footprint "Converter_ACDC_RECOM_RAC04-xxSGx_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf")
 	(tags "recom power ac dc")
@@ -17,25 +17,13 @@
 		)
 	)
 	(property "Value" "Converter_ACDC_RECOM_RAC04-xxSGx_THT"
-		(at 15 15 -90)
+		(at 15 15 270)
 		(layer "F.Fab")
 		(uuid "672f1adc-50ed-48d7-8bd8-a513e5edcc66")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "325c6566-6d45-4855-945c-daaac8ca30c5")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -304,6 +294,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -314,7 +308,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_RECOM_RAC04-xxSGx_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_RECOM_RAC04-xxSGx_THT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

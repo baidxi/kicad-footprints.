@@ -1,7 +1,7 @@
 (footprint "CP_Elec_CAP-XX_DMF3Zxxxxxxxx3D"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "5.5V, 470mF supercapacitor, 45mohm, -40ºC to +70ºC, https://www.cap-xx.com/wp-content/uploads/datasheets/CAP-XX-DMF470mF-Datasheet.pdf")
 	(tags "supercap")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "10b7dd44-8e46-48f1-b3ad-614550d52c82")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -151,7 +141,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a134edf1-61c4-4b20-8abb-1e9a7214e291")
 	)
@@ -164,7 +154,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "a68bd57b-c261-4a5f-bc75-15aef0b04eb5")
 	)
@@ -468,7 +458,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "1264107e-2d4b-4e98-b7c7-eb6ef798b0dd")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_CAP-XX_DMF3Zxxxxxxxx3D.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_CAP-XX_DMF3Zxxxxxxxx3D.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

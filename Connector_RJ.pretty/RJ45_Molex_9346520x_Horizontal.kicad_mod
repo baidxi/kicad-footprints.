@@ -1,7 +1,7 @@
 (footprint "RJ45_Molex_9346520x_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, two LED, tab up")
 	(tags "RJ45 Magjack")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1e663c7d-1d43-4f6a-9de1-cd0dd05895ad")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -511,6 +501,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -539,6 +533,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -570,6 +568,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -581,7 +583,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Molex_9346520x_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Molex_9346520x_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

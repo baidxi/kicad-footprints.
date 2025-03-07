@@ -1,7 +1,7 @@
 (footprint "ONSemi_SO-8FL_488AA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "ON Semi DFN5 5x6mm 1.27P SO-8FL CASE 488A https://www.onsemi.com/pub/Collateral/488AA.PDF")
 	(tags "ON Semi DFN5 5x6mm 1.27P SO-8FL CASE 488A ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "03d5b708-fec1-46df-9f17-103e69849f67")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -122,7 +112,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "12f0325d-f6f4-45ac-b53a-0ecb0e976506")
 	)
@@ -440,35 +430,35 @@
 	(pad "1" smd roundrect
 		(at -2.74725 -1.905)
 		(size 1 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b43cd5bf-564d-494d-b015-48757449b02d")
 	)
 	(pad "2" smd roundrect
 		(at -2.74725 -0.635)
 		(size 1 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "eee6daa9-61fc-42ea-aa38-880dfaf45eec")
 	)
 	(pad "3" smd roundrect
 		(at -2.74725 0.635)
 		(size 1 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "37fdb04e-63dc-4718-8e44-4c1ea6232d03")
 	)
 	(pad "4" smd roundrect
 		(at -2.74725 1.905)
 		(size 1 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "48d86299-c984-41b4-a163-04bf0d421339")
 	)
 	(pad "5" smd custom
 		(at 0.745 0)
 		(size 4.055 4.56)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -487,7 +477,8 @@
 		)
 		(uuid "47375c0d-cc42-4643-9528-6a37153c10bc")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/ONSemi_SO-8FL_488AA.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/ONSemi_SO-8FL_488AA.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

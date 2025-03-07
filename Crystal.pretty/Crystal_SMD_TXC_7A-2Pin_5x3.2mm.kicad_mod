@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_TXC_7A-2Pin_5x3.2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal TXC 7A http://txccrystal.com/images/pdf/7a.pdf")
 	(tags "SMD SMT crystal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1131ecc8-d7fe-449e-be2e-3cac1cf8682f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -178,16 +168,17 @@
 	(pad "1" smd rect
 		(at -1.85 0)
 		(size 1.7 2.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f5505dee-edc8-4c81-8c1a-5acbdac40db4")
 	)
 	(pad "2" smd rect
 		(at 1.85 0)
 		(size 1.7 2.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3bca79b0-2efe-46f8-a204-cc60e1051092")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_TXC_7A-2Pin_5x3.2mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_TXC_7A-2Pin_5x3.2mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

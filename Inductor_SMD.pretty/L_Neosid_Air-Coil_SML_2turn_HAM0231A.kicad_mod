@@ -1,7 +1,7 @@
 (footprint "L_Neosid_Air-Coil_SML_2turn_HAM0231A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Neosid, Air-Coil, SML, 2turn, HAM0231A,")
 	(tags "Neosid Air-Coil SML 2turn HAM0231A")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d5cfdcf4-e257-46a0-a50a-e4704eb8dbef")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -258,16 +248,17 @@
 	(pad "1" smd rect
 		(at -0.9 2.45)
 		(size 0.6 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d3c4a4b8-74b0-49db-8bbb-1a76b392f08f")
 	)
 	(pad "2" smd rect
 		(at 0.9 -2.45)
 		(size 0.6 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3c62c01f-1f40-4614-8d02-0cf11591c3df")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_Air-Coil_SML_2turn_HAM0231A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_Air-Coil_SML_2turn_HAM0231A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

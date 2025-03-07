@@ -1,7 +1,7 @@
 (footprint "Harting_har-flexicon_14110213002xxx_1x02-MP_P2.54mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Harting har-flexicon series connector, 14110213002xxx (https://b2b.harting.com/files/download/PRD/PDF_TS/1411XX13002XXX_100228421DRW035C.pdf), generated with kicad-footprint-generator")
 	(tags "connector Harting har-flexicon horizontal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "17a35dc6-ba0f-4ab0-b5b6-c857146f9a63")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -262,28 +252,29 @@
 	(pad "1" smd rect
 		(at -1.27 -1.3)
 		(size 1.1 6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cc033be9-e160-43af-b267-4e919044f826")
 	)
 	(pad "2" smd rect
 		(at 1.27 -1.3)
 		(size 1.1 6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e8f78478-d3df-4590-a74f-ad59ce19ba72")
 	)
 	(pad "MP" smd rect
 		(at -3.81 -1.3)
 		(size 1.1 6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7198060b-0e38-4cbc-aecd-3c78d999cf83")
 	)
 	(pad "MP" smd rect
 		(at 3.81 -1.3)
 		(size 1.1 6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9f407c9a-5ddb-4b86-a408-10e4affd6e4c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Harting.3dshapes/Harting_har-flexicon_14110213002xxx_1x02-MP_P2.54mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Harting.3dshapes/Harting_har-flexicon_14110213002xxx_1x02-MP_P2.54mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Molex_Pico-Lock_504050-0491_1x04-1MP_P1.50mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Pico-Lock series connector, 504050-0491 (http://www.molex.com/pdm_docs/sd/5040500891_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex Pico-Lock horizontal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "eebf8330-6dd3-403c-bd17-8c918d522c94")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -318,46 +308,47 @@
 	(pad "1" smd roundrect
 		(at -2.25 -2.795)
 		(size 0.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ce05e94f-e6a0-4916-9d13-64fd84b2f892")
 	)
 	(pad "2" smd roundrect
 		(at -0.75 -2.795)
 		(size 0.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "9d1620cd-acd4-4620-b6b8-18e07228458e")
 	)
 	(pad "3" smd roundrect
 		(at 0.75 -2.795)
 		(size 0.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "960b3ad3-dfdb-415f-ab2b-5f47caef5291")
 	)
 	(pad "4" smd roundrect
 		(at 2.25 -2.795)
 		(size 0.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "773685db-0d5e-42df-b671-6d1b7147ba7f")
 	)
 	(pad "MP" smd roundrect
 		(at -4.855 2.395)
 		(size 1.25 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "05b145cc-b95f-4801-9f15-93f3bc6be871")
 	)
 	(pad "MP" smd roundrect
 		(at 4.855 2.395)
 		(size 1.25 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "36949cf2-4415-4968-80ca-468e87130240")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Pico-Lock_504050-0491_1x04-1MP_P1.50mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Pico-Lock_504050-0491_1x04-1MP_P1.50mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

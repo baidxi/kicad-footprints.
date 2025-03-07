@@ -1,7 +1,7 @@
 (footprint "R_Array_Convex_4x1206"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Chip Resistor Network, ROHM MNR34 (see mnr_g.pdf)")
 	(tags "resistor array")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5d0c502b-23a4-4948-acd7-116dbceaca75")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -178,52 +168,53 @@
 	(pad "1" smd rect
 		(at -1.5 -2)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6556cf38-534a-4436-9f48-8e25a5b76679")
 	)
 	(pad "2" smd rect
 		(at -1.5 -0.66)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f46ee48a-d4aa-4410-9b56-f48d354ec72f")
 	)
 	(pad "3" smd rect
 		(at -1.5 0.66)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c02a269f-fdc2-4d32-8e81-5cb76a044e60")
 	)
 	(pad "4" smd rect
 		(at -1.5 2)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d8ad4cf4-2450-4657-9892-c1e6b0d6f707")
 	)
 	(pad "5" smd rect
 		(at 1.5 2)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ee9e3dce-9280-4eb2-b458-869fe1cb1ccf")
 	)
 	(pad "6" smd rect
 		(at 1.5 0.66)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "20df2578-8f99-471f-b04b-b354c71e2bf6")
 	)
 	(pad "7" smd rect
 		(at 1.5 -0.66)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fcdc8e02-9a5b-43c6-bf28-b1558ff1ecc4")
 	)
 	(pad "8" smd rect
 		(at 1.5 -2)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dbbd954c-5ce2-4bac-80c6-9cb78ebd4406")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Convex_4x1206.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Convex_4x1206.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

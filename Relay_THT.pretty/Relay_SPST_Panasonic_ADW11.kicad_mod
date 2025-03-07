@@ -1,7 +1,7 @@
 (footprint "Relay_SPST_Panasonic_ADW11"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Panasonic power relay, SPST, latching, 10x24mm, 18.8mm height, https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/270")
 	(tags "Panasonic Relay SPST")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ae7b81bf-21e6-48d2-847d-2c6e55c1440e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -221,7 +211,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a9ed976d-f97d-4bb2-b780-f86f9048c966")
 	)
@@ -269,7 +259,8 @@
 		(remove_unused_layers no)
 		(uuid "aa634950-0769-4450-9b3a-72fd78c49696")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPST_Panasonic_ADW11.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPST_Panasonic_ADW11.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

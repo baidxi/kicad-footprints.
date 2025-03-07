@@ -1,7 +1,7 @@
 (footprint "Vishay_CNY70"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "package for Vishay CNY70 refective photo coupler/interrupter, https://www.vishay.com/docs/83751/cny70.pdf")
 	(tags "Vishay CNY70 refective photo coupler")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "16345666-85b5-4ba1-a6fc-3aed91f4c382")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -221,7 +211,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "25cd80f4-81c9-4397-80f8-a40f2a375bf3")
 	)
@@ -232,7 +222,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "823cc763-1019-4cfa-a746-5818db90d10f")
 	)
@@ -483,7 +473,8 @@
 		(remove_unused_layers no)
 		(uuid "507afe37-8b67-40c6-a486-bafc08aecc0b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Vishay_CNY70.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Vishay_CNY70.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

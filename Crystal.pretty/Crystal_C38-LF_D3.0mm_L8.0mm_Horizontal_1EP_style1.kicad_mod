@@ -1,7 +1,7 @@
 (footprint "Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal_1EP_style1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Crystal THT C38-LF 8.0mm length 3.0mm diameter")
 	(tags "['C38-LF']")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c356d50b-96bb-4758-9cae-3d525a946dc6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -284,10 +274,11 @@
 	(pad "3" smd rect
 		(at 0.95 7)
 		(size 3 8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a304574d-6811-4353-9bfb-e8512f8aa21e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal_1EP_style1.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal_1EP_style1.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

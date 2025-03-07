@@ -1,7 +1,7 @@
 (footprint "Samtec_T1M-02-X-SH-L_1x02-1MP_P1.0mm_Terminal_Horizontal_Latch"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)")
 	(tags "conn samtec discrete wire terminal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "41631439-777f-4440-bcdb-21c48d1366f4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -298,32 +288,33 @@
 	(pad "1" smd roundrect
 		(at -0.5 -2.775)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "92b1b1ae-bc12-4f20-997d-48b42d14f67a")
 	)
 	(pad "2" smd roundrect
 		(at 0.5 -2.775)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "038b56d8-c87b-4198-9bc7-af2df85cfe8b")
 	)
 	(pad "MP" smd roundrect
 		(at -1.8 1.05)
 		(size 0.8 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6e958ad3-1d4f-4dd7-afd5-d0ab6863fae1")
 	)
 	(pad "MP" smd roundrect
 		(at 1.8 1.05)
 		(size 0.8 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "33146871-f183-4bcd-8097-177ebc56f697")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Samtec_MicroMate.3dshapes/Samtec_T1M-02-X-SH-L_1x02-1MP_P1.0mm_Terminal_Horizontal_Latch.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Samtec_MicroMate.3dshapes/Samtec_T1M-02-X-SH-L_1x02-1MP_P1.0mm_Terminal_Horizontal_Latch.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

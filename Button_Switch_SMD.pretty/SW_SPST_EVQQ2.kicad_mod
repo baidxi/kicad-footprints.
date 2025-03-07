@@ -1,7 +1,7 @@
 (footprint "SW_SPST_EVQQ2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "951989d9-8916-4814-8175-27c1e3260a9c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -47,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -230,7 +220,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4100a33f-c6e4-4812-ad07-babb8623782b")
 	)
@@ -241,7 +231,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2aed89e9-6a9d-47bf-a2a9-4f348ff45a60")
 	)
@@ -259,28 +249,29 @@
 	(pad "1" smd rect
 		(at -3.4 -2)
 		(size 3.2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d35a8f8f-b150-4ccf-be6d-1123dae1e7a7")
 	)
 	(pad "1" smd rect
 		(at 3.4 -2)
 		(size 3.2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "02fa2355-bf85-40ee-83c1-e43149e19b87")
 	)
 	(pad "2" smd rect
 		(at -3.4 2)
 		(size 3.2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "454514cc-1025-47c7-88c8-e9419337acd1")
 	)
 	(pad "2" smd rect
 		(at 3.4 2)
 		(size 3.2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5ab41d62-0d45-4391-9f08-3c9121520807")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQQ2.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQQ2.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

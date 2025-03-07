@@ -1,7 +1,7 @@
 (footprint "nRF24L01_Breakout"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "nRF24L01 breakout board")
 	(tags "nRF24L01 adapter breakout")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1d04b7d3-0e75-47fd-bee4-eecec6b10800")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -182,7 +172,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "a5e3607f-7390-4a2f-9950-034833910714")
 	)
@@ -411,7 +401,8 @@
 		(remove_unused_layers no)
 		(uuid "3e1d86a9-e29e-43cb-a9dd-d3f581f2ab78")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/nRF24L01_Breakout.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/nRF24L01_Breakout.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

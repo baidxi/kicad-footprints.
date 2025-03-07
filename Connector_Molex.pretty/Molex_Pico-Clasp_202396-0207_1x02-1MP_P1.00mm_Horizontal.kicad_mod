@@ -1,7 +1,7 @@
 (footprint "Molex_Pico-Clasp_202396-0207_1x02-1MP_P1.00mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Pico-Clasp series connector, 202396-0207 (http://www.molex.com/pdm_docs/sd/2023960207_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex Pico-Clasp top entry")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "85171bcb-7bcb-4d92-ade1-5bf8ec059125")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -258,32 +248,33 @@
 	(pad "1" smd roundrect
 		(at -0.5 -2.025)
 		(size 0.6 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8845411f-9342-411a-8b9d-b8af1e3d6e1f")
 	)
 	(pad "2" smd roundrect
 		(at 0.5 -2.025)
 		(size 0.6 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "079a0131-bccd-43c5-9ccf-9c5bb2f87707")
 	)
 	(pad "MP" smd roundrect
 		(at -1.8 1.875)
 		(size 1.2 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "a4c38e57-1270-4e97-9549-8efcfed7f897")
 	)
 	(pad "MP" smd roundrect
 		(at 1.8 1.875)
 		(size 1.2 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "336e33fc-a28e-456d-9b16-a7139aa8b420")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Pico-Clasp_202396-0207_1x02-1MP_P1.00mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Pico-Clasp_202396-0207_1x02-1MP_P1.00mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

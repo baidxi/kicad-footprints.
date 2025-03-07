@@ -1,7 +1,7 @@
 (footprint "SO-4_4.4x2.3mm_P1.27mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "4-Lead Plastic Small Outline (SO), see http://datasheet.octopart.com/OPIA403BTRE-Optek-datasheet-5328560.pdf")
 	(tags "SO SOIC 1.27")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aab92c2c-58d9-4e9f-aa80-27a01e6ba996")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "6a9d4c6b-d0ff-41e3-b01f-39f181bac45f")
 	)
@@ -240,28 +230,29 @@
 	(pad "1" smd rect
 		(at -3.15 -0.635)
 		(size 2 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "85d642f6-e999-49b6-b2bf-aaecaf1b7bf9")
 	)
 	(pad "2" smd rect
 		(at -3.15 0.635)
 		(size 2 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9389c1b7-97d2-469b-b8d0-08564ee29f44")
 	)
 	(pad "3" smd rect
 		(at 3.15 0.635)
 		(size 2 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "802ed030-687d-44ad-909f-f55e597157c0")
 	)
 	(pad "4" smd rect
 		(at 3.15 -0.635)
 		(size 2 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a00f9321-9678-4b33-9940-73ed2028f7d3")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SO-4_4.4x2.3mm_P1.27mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SO-4_4.4x2.3mm_P1.27mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

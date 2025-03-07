@@ -1,7 +1,7 @@
 (footprint "SW_CK_JS202011AQN_DPDT_Angled"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "C&K sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf")
 	(tags "switch DPDT")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "11ad97cd-50e0-4911-8153-01742d5816fc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "d9b771eb-6855-42f8-880b-f2a94d086aae")
 	)
@@ -356,7 +346,8 @@
 		(remove_unused_layers no)
 		(uuid "639ff584-bdd4-467d-b8ff-9e1d8808a0a9")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_CK_JS202011AQN_DPDT_Angled.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_CK_JS202011AQN_DPDT_Angled.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

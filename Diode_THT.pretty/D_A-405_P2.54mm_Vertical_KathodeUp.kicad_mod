@@ -1,7 +1,7 @@
 (footprint "D_A-405_P2.54mm_Vertical_KathodeUp"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode, A-405 series, Axial, Vertical, pin pitch=2.54mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
 	(tags "Diode A-405 series Axial Vertical pin pitch 2.54mm  length 5.2mm diameter 2.7mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d45853a7-f827-47d3-b97d-db62b112189e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d6ed7f25-05ea-4f91-b1c2-fb92c971d5e9")
 	)
@@ -185,7 +175,8 @@
 		(remove_unused_layers no)
 		(uuid "823f26f9-8a3b-408a-b2b7-0fd0c41111b1")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_A-405_P2.54mm_Vertical_KathodeUp.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_A-405_P2.54mm_Vertical_KathodeUp.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

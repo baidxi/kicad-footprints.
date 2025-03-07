@@ -1,7 +1,7 @@
 (footprint "Molex_CLIK-Mate_505405-0270_1x02-1MP_P1.50mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex CLIK-Mate series connector, 505405-0270 (http://www.molex.com/pdm_docs/sd/5054050270_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex CLIK-Mate side entry")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1b468221-41eb-4319-b3df-d197f804404d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -238,32 +228,33 @@
 	(pad "1" smd roundrect
 		(at -0.75 2.75)
 		(size 0.8 2.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f746f24c-6ad9-4fbc-9ed3-7abf836080dc")
 	)
 	(pad "2" smd roundrect
 		(at 0.75 2.75)
 		(size 0.8 2.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "73471018-a2f2-425d-a994-3118fefe21c1")
 	)
 	(pad "MP" smd roundrect
 		(at -3.35 -2.3)
 		(size 1.8 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.138889)
 		(uuid "f0c1c7c4-f7d2-43c3-b3c7-0bd399fa2cff")
 	)
 	(pad "MP" smd roundrect
 		(at 3.35 -2.3)
 		(size 1.8 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.138889)
 		(uuid "0a29d1f9-05f6-474d-8d02-e4c17aee9a2a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_CLIK-Mate_505405-0270_1x02-1MP_P1.50mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_CLIK-Mate_505405-0270_1x02-1MP_P1.50mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "L_Wuerth_WE-PD2-Typ-L"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Power Inductor, Wuerth Elektronik, WE-PD2, SMD, Typ L, , https://katalog.we-online.com/pbs/datasheet/74477510.pdf")
 	(tags "Choke Power Inductor WE-PD2 TypL Wuerth")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "454032d7-524f-4e15-b0b3-f4862e21e1f6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -180,16 +170,17 @@
 	(pad "1" smd rect
 		(at -2.5 0)
 		(size 3 7.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c5303aeb-b915-4e07-8a7c-66fdb391eb06")
 	)
 	(pad "2" smd rect
 		(at 2.5 0)
 		(size 3 7.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a9e5fd81-e6bd-438d-9ccc-c73a874e5cc9")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_WE-PD2-Typ-L.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_WE-PD2-Typ-L.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

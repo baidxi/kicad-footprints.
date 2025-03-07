@@ -1,7 +1,7 @@
 (footprint "L_Wuerth_WE-PD2-Typ-XL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Power Inductor, Wuerth Elektronik, WE-PD2, SMT, Typ XL, https://katalog.we-online.com/pbs/datasheet/744776012.pdf")
 	(tags "Choke Power Inductor WE-PD2 TypXL Wuerth")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d01245c0-d5fa-426b-bcb8-77c6c7980d8d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,76 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 -2.6)
-		(end 0.2 -2.6)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "37c5e2f1-a2fe-4520-a7ce-0d90ebf59284")
-	)
-	(fp_circle
-		(center 0 -2.6)
-		(end 0.5 -2.5)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "e750b1ca-d0a0-41fc-94e2-48dabc77145e")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.2 0)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "91aa32ab-cc76-4641-88e4-4447f9de75f6")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.5 0)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "1f446f84-fa1f-44ea-bb67-d408682d558b")
-	)
-	(fp_circle
-		(center 0 2.6)
-		(end 0.1 2.8)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "78fccee6-99be-4ad2-950f-8f4bd94b4467")
-	)
-	(fp_circle
-		(center 0 2.6)
-		(end 0.5 2.7)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "72bf2589-7f28-4093-b53d-32c490e545f2")
-	)
 	(fp_line
 		(start -0.7 -4.7)
 		(end 0.7 -4.7)
@@ -149,6 +73,72 @@
 		)
 		(layer "F.SilkS")
 		(uuid "8a911de7-231c-44db-be99-5fb5d1c00010")
+	)
+	(fp_circle
+		(center 0 -2.6)
+		(end 0.2 -2.6)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "37c5e2f1-a2fe-4520-a7ce-0d90ebf59284")
+	)
+	(fp_circle
+		(center 0 -2.6)
+		(end 0.5 -2.5)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "e750b1ca-d0a0-41fc-94e2-48dabc77145e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.2 0)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "91aa32ab-cc76-4641-88e4-4447f9de75f6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "1f446f84-fa1f-44ea-bb67-d408682d558b")
+	)
+	(fp_circle
+		(center 0 2.6)
+		(end 0.1 2.8)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "78fccee6-99be-4ad2-950f-8f4bd94b4467")
+	)
+	(fp_circle
+		(center 0 2.6)
+		(end 0.5 2.7)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "72bf2589-7f28-4093-b53d-32c490e545f2")
 	)
 	(fp_line
 		(start -5.3 -5)
@@ -246,16 +236,17 @@
 	(pad "1" smd rect
 		(at -3.18 0)
 		(size 3.75 9.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b7ed70a3-bd33-47af-9faf-c95cfdc48c34")
 	)
 	(pad "2" smd rect
 		(at 3.18 0)
 		(size 3.75 9.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7da847e1-683d-4d8b-871d-c78dccbaf0d2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_WE-PD2-Typ-XL.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_WE-PD2-Typ-XL.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

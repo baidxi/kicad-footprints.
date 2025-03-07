@@ -1,7 +1,7 @@
 (footprint "MAN3620A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php")
 	(tags "One digit 7 segment orange LED with left dot")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a36e9bb9-8d17-47e1-ad46-80dfd4b9239e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -347,7 +337,8 @@
 		(remove_unused_layers no)
 		(uuid "eb0c078e-0600-4ae7-adbb-0c2fee7833b5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display_7Segment.3dshapes/MAN3620A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display_7Segment.3dshapes/MAN3620A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

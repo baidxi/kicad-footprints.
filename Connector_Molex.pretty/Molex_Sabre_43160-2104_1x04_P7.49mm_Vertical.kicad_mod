@@ -1,7 +1,7 @@
 (footprint "Molex_Sabre_43160-2104_1x04_P7.49mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Sabre Power Connector, 43160-2104, 4 Pins per row (http://www.molex.com/pdm_docs/sd/431602102_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex Sabre side entry")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "48eb9b3f-50e6-4b01-9d79-6cb0e5ffca32")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,50 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -2.15 -5.155)
-		(end -2.15 1.975)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "4c18ed75-c196-47b2-b157-991b900f2a0a")
-	)
-	(fp_line
-		(start -2.15 1.975)
-		(end 2.15 1.975)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "1ca79e41-92b9-4e78-b352-dc2ca9bfbef4")
-	)
-	(fp_line
-		(start 2.15 -5.155)
-		(end -2.15 -5.155)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "e3c9714c-18b4-4de3-82f5-2be605b8c571")
-	)
-	(fp_line
-		(start 2.15 1.975)
-		(end 2.15 -5.155)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "44d580df-6d90-4254-9563-876efa6617b8")
-	)
 	(fp_line
 		(start -6.9 -7.76)
 		(end -6.9 3.99)
@@ -203,6 +153,46 @@
 		)
 		(layer "F.SilkS")
 		(uuid "b89f542a-1e60-4756-a472-45530ecc0995")
+	)
+	(fp_line
+		(start -2.15 -5.155)
+		(end -2.15 1.975)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "4c18ed75-c196-47b2-b157-991b900f2a0a")
+	)
+	(fp_line
+		(start -2.15 1.975)
+		(end 2.15 1.975)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "1ca79e41-92b9-4e78-b352-dc2ca9bfbef4")
+	)
+	(fp_line
+		(start 2.15 -5.155)
+		(end -2.15 -5.155)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "e3c9714c-18b4-4de3-82f5-2be605b8c571")
+	)
+	(fp_line
+		(start 2.15 1.975)
+		(end 2.15 -5.155)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "44d580df-6d90-4254-9563-876efa6617b8")
 	)
 	(fp_line
 		(start -7.29 -10)
@@ -425,7 +415,8 @@
 		(remove_unused_layers no)
 		(uuid "9576c5fa-1be4-4b37-a308-21057881eca4")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Sabre_43160-2104_1x04_P7.49mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Sabre_43160-2104_1x04_P7.49mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

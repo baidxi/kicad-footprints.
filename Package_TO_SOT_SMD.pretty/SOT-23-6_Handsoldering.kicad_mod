@@ -1,7 +1,7 @@
 (footprint "SOT-23-6_Handsoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "6-pin SOT-23 package, Handsoldering")
 	(tags "SOT-23-6 Handsoldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "06548f39-37a1-4f17-8558-4be2e7cf5a4a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -102,7 +92,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "4d885afa-7946-47b6-b37b-9254588872d9")
 	)
@@ -210,46 +200,47 @@
 	(pad "1" smd roundrect
 		(at -1.35 -0.95)
 		(size 1.56 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8bc9e8ba-d467-4081-9672-ebf4b64510b2")
 	)
 	(pad "2" smd roundrect
 		(at -1.35 0)
 		(size 1.56 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "801fb396-f165-4103-b7f4-12e710ae8e5a")
 	)
 	(pad "3" smd roundrect
 		(at -1.35 0.95)
 		(size 1.56 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d6acf2e2-a07d-43ed-8aaa-51451684af77")
 	)
 	(pad "4" smd roundrect
 		(at 1.35 0.95)
 		(size 1.56 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "94095c5d-3882-41ce-b529-f646920fd163")
 	)
 	(pad "5" smd roundrect
 		(at 1.35 0)
 		(size 1.56 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1bcef8de-4b3d-43b4-9dd0-0cbebefdeac0")
 	)
 	(pad "6" smd roundrect
 		(at 1.35 -0.95)
 		(size 1.56 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b4cd5203-24ed-4849-bbf2-3bf19a9ebb8c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

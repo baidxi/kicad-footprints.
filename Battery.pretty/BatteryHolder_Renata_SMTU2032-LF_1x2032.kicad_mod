@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Renata_SMTU2032-LF_1x2032"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.renata.com/fr/downloads/?product=smtu2032-lf&fileid=6a9833a4d49dfb7b550194fe0f")
 	(tags "Renata SMT battery holder coin cell 2032")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "51b05487-acaf-4277-b9e3-35e1bab94922")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -216,7 +206,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "b7f86d83-55b8-499e-83a7-8f8f0eae6dc4")
 	)
@@ -453,7 +443,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7e990450-5295-40d6-9f1c-fd55e61943c2")
 	)
@@ -495,18 +485,19 @@
 	(pad "1" smd roundrect
 		(at -14.7 0)
 		(size 2.6 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07692307692)
 		(uuid "2d67a417-188f-4014-9282-000265d80009")
 	)
 	(pad "2" smd roundrect
 		(at 14.7 0)
 		(size 2.6 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07692307692)
 		(uuid "84e5506c-143e-495f-9aa4-d3a71622f213")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Renata_SMTU2032-LF_1x2032.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Renata_SMTU2032-LF_1x2032.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

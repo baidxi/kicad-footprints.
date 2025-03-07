@@ -1,7 +1,7 @@
 (footprint "SIP3_11.6x8.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RECOM,R78EXX,https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf")
 	(tags "SIP3 Regulator Module")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "00ab76ae-1125-41c7-8d8d-8be457312dca")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -229,7 +219,8 @@
 		(remove_unused_layers no)
 		(uuid "06402533-c0ee-4995-9743-4c3b2fb3ec9d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SIP.3dshapes/SIP3_11.6x8.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SIP.3dshapes/SIP3_11.6x8.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

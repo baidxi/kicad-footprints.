@@ -1,7 +1,7 @@
 (footprint "Mini-Circuits_CD636_H4.11mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://ww2.minicircuits.com/case_style/CD636.pdf")
 	(tags "RF Transformer")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d97f24dc-ecb3-4189-bba6-3abf4b858e7a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "b7379610-695e-48f8-8b9a-eb09bed12f6e")
 	)
@@ -240,40 +230,41 @@
 	(pad "1" smd rect
 		(at -2.54 -2.54)
 		(size 2.54 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "75727ae9-8429-4fb2-91f2-5ba09f19294b")
 	)
 	(pad "2" smd rect
 		(at -2.54 0)
 		(size 2.54 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1afcc866-26ae-4bf3-b97f-6ca8211b887b")
 	)
 	(pad "3" smd rect
 		(at -2.54 2.54)
 		(size 2.54 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1cc1e9dd-d060-4380-900e-6dd1224b0325")
 	)
 	(pad "4" smd rect
 		(at 2.54 2.54)
 		(size 2.54 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a358f08a-9dbc-4c14-87e3-d49196013c57")
 	)
 	(pad "5" smd rect
 		(at 2.54 0)
 		(size 2.54 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "abb336a4-53ab-49f3-8c77-1b6954e7bd51")
 	)
 	(pad "6" smd rect
 		(at 2.54 -2.54)
 		(size 2.54 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6cde9b95-2275-4c1c-bcaf-ad7a067d60c5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_CD636_H4.11mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_CD636_H4.11mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

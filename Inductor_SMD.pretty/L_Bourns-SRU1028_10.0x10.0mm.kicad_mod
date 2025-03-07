@@ -1,7 +1,7 @@
 (footprint "L_Bourns-SRU1028_10.0x10.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Bourns SRU1028 series SMD inductor, https://www.bourns.com/docs/Product-Datasheets/SRU1028.pdf")
 	(tags "Bourns SRU1028 SMD inductor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "526d153d-0b23-4a2a-ab5f-525a9dfe9a2c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -251,7 +241,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "432582a5-67d4-41ea-a863-6efb4feb3ef4")
 	)
@@ -269,16 +259,17 @@
 	(pad "1" smd rect
 		(at -4.5 0)
 		(size 1.8 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2cd213e5-da92-4c3d-9c47-e16ca00d910c")
 	)
 	(pad "2" smd rect
 		(at 4.5 0)
 		(size 1.8 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5cdad9b9-faa0-4c87-b346-3029fdc767d0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRU1028_10.0x10.0mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRU1028_10.0x10.0mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

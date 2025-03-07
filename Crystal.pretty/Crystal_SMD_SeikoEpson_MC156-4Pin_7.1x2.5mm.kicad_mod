@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_SeikoEpson_MC156-4Pin_7.1x2.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal Seiko Epson MC-156 https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-156_en.pdf, 7.1x2.5mm^2 package")
 	(tags "SMD SMT crystal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bbba90de-b347-4816-ad75-7066ac3dbc90")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -280,28 +270,29 @@
 	(pad "1" smd rect
 		(at -2.54 1.25)
 		(size 1.2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ba9a2948-2ce8-4f16-8b11-c0692249a67b")
 	)
 	(pad "2" smd rect
 		(at 2.54 1.25)
 		(size 1.2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ced71423-9d77-495c-b01f-461aa2aac4e6")
 	)
 	(pad "3" smd rect
 		(at 2.54 -1.25)
 		(size 1.2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "52077aeb-dce2-472b-81f0-31b4d5b7ad5c")
 	)
 	(pad "4" smd rect
 		(at -2.54 -1.25)
 		(size 1.2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "873432d1-c04e-47c7-86ea-5ce4497c0227")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_MC156-4Pin_7.1x2.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_MC156-4Pin_7.1x2.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

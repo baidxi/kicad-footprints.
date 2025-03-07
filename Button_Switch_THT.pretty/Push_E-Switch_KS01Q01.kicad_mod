@@ -1,7 +1,7 @@
 (footprint "Push_E-Switch_KS01Q01"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf")
 	(tags "Push Button")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e1d8d934-a948-4f3a-a3b4-4701b80ff330")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -170,7 +160,8 @@
 		(remove_unused_layers no)
 		(uuid "25ed79cd-96b6-4055-8fb5-bb143c775cf8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/Push_E-Switch_KS01Q01.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/Push_E-Switch_KS01Q01.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

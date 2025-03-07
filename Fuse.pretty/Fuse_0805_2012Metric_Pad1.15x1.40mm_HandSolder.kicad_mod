@@ -1,7 +1,7 @@
 (footprint "Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Fuse SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 	(tags "fuse handsolder")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "40091c3e-f992-47b4-b9bb-477d8bb0134c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -178,18 +168,19 @@
 	(pad "1" smd roundrect
 		(at -1.025 0)
 		(size 1.15 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.217391)
 		(uuid "d4f3d5a4-0d6e-48f7-814a-2a47702c90eb")
 	)
 	(pad "2" smd roundrect
 		(at 1.025 0)
 		(size 1.15 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.217391)
 		(uuid "a0d6c7ec-631a-4c69-9e18-a97ec67d305f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0805_2012Metric.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0805_2012Metric.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

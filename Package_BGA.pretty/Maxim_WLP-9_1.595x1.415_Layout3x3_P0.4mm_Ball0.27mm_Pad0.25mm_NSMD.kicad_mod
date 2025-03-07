@@ -1,7 +1,7 @@
 (footprint "Maxim_WLP-9_1.595x1.415_Layout3x3_P0.4mm_Ball0.27mm_Pad0.25mm_NSMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Maxim_WLP-9 W91C1+1 https://pdfserv.maximintegrated.com/package_dwgs/21-0459.PDF")
 	(tags "Maxim_WLP-9")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cedd8488-f46c-427e-aa22-f25b87154b5f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,7 +102,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "eb7e6a7c-69b3-4ece-ad7a-9c812b60cc16")
 	)
@@ -221,66 +211,67 @@
 		(at -0.4 -0.4 90)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7aa74a31-f47e-4c2a-a722-44dde1011df5")
 	)
 	(pad "A2" smd circle
 		(at 0 -0.4 90)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "729e9868-265a-4b99-b1a2-1d86dc8a147e")
 	)
 	(pad "A3" smd circle
 		(at 0.4 -0.4 90)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3cb7e413-1086-49db-9c8c-5b678b6f19a9")
 	)
 	(pad "B1" smd circle
 		(at -0.4 0 90)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3c9b781d-7bab-4609-bc6c-c13512f5b6cb")
 	)
 	(pad "B2" smd circle
 		(at 0 0 90)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2dc4e52f-c10b-43b2-875c-c9b334faeadd")
 	)
 	(pad "B3" smd circle
 		(at 0.4 0 90)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "63296afc-71bd-44be-ba0e-357a66b39272")
 	)
 	(pad "C1" smd circle
 		(at -0.4 0.4 90)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1ee9f3e6-8da2-430d-a5ec-143b572dbef5")
 	)
 	(pad "C2" smd circle
 		(at 0 0.4 90)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1bef9474-6b6e-4e04-a167-d959ce8b6763")
 	)
 	(pad "C3" smd circle
 		(at 0.4 0.4 90)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c019c2bf-2eae-4db4-b285-7fa4f7b4931d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Maxim_WLP-9_1.595x1.415_Layout3x3_P0.4mm_Ball0.27mm_Pad0.25mm_NSMD.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Maxim_WLP-9_1.595x1.415_Layout3x3_P0.4mm_Ball0.27mm_Pad0.25mm_NSMD.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

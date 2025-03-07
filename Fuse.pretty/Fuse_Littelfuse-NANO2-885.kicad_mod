@@ -1,7 +1,7 @@
 (footprint "Fuse_Littelfuse-NANO2-885"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Littelfuse NANO2, 350VAC, 450/500VDC, 10.86 x 4.78 x 4.78mm, https://www.littelfuse.com/media?resourcetype=datasheets&itemid=888f12ed-ed3b-4b45-b910-06af8854ad76&filename=littelfuse-fuse-885-datasheet")
 	(tags "Fuse Nano2 885")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bd6b2cb8-1219-45c4-b9c5-f3efca9f849c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -180,18 +170,19 @@
 	(pad "1" smd roundrect
 		(at -5.275 0)
 		(size 5.625 7.255)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.04464285714)
 		(uuid "ab58762e-9bb7-47e7-863d-60ad5f595c70")
 	)
 	(pad "2" smd roundrect
 		(at 5.275 0)
 		(size 5.625 7.255)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.04464285714)
 		(uuid "118349d3-6d67-474c-a6ff-45fc28bcbfe6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-NANO2-885.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-NANO2-885.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

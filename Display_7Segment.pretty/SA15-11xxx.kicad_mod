@@ -1,12 +1,12 @@
 (footprint "SA15-11xxx"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.kingbrightusa.com/images/catalog/SPEC/SA15-11SRWA.pdf")
 	(tags "SA15-11xxx single digit 7 segment display 38.1mm 1.5inch")
 	(property "Reference" "REF**"
-		(at 44.92 -9.65 -90)
+		(at 44.92 -9.65 270)
 		(layer "F.SilkS")
 		(uuid "9ad079be-911d-4191-8f11-3502b24ae1c0")
 		(effects
@@ -17,25 +17,13 @@
 		)
 	)
 	(property "Value" "SA15-11xxx"
-		(at -4.93 4.2 -90)
+		(at -4.93 4.2 270)
 		(layer "F.Fab")
 		(uuid "d1502b17-0623-4355-922f-a72614f200e9")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "029f51b8-a820-41dd-b3be-c71f8ad2316d")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -225,7 +215,7 @@
 		(uuid "5b214cef-b38f-48bc-b370-be2acdacba91")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 21.57 5.2 -90)
+		(at 21.57 5.2 270)
 		(layer "F.Fab")
 		(uuid "e69552b8-1895-48b4-9c52-43eca0a08de1")
 		(effects
@@ -315,7 +305,8 @@
 		(remove_unused_layers no)
 		(uuid "a6deadbd-c84f-455f-aa66-2808f0ffaf0a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display_7Segment.3dshapes/SA15-11xxx.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display_7Segment.3dshapes/SA15-11xxx.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

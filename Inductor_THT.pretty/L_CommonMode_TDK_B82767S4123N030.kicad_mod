@@ -1,7 +1,7 @@
 (footprint "L_CommonMode_TDK_B82767S4123N030"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "12A, 3Phase N, Quadruple Coil, https://www.tdk-electronics.tdk.com/inf/30/ds/b82767s4.pdf")
 	(tags "common mode filter quadruple choke")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f3651fcc-ca74-42f3-8cfa-b5977cf4f437")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a31b2682-9499-4b3a-b142-fd92e48b0fc7")
 	)
@@ -103,7 +93,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "896848be-c314-4f60-a0bd-67076436ebd0")
 	)
@@ -114,7 +104,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "f43fc5c6-a911-4747-ae71-7c78441abf42")
 	)
@@ -125,7 +115,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4a29748d-4e85-4a33-ae37-d4ccb207a3ae")
 	)
@@ -157,7 +147,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ee6e4673-345a-4b39-b3e8-a83b2db0ab8e")
 	)
@@ -237,7 +227,8 @@
 		(remove_unused_layers no)
 		(uuid "136aadac-396a-4a9e-bf20-20ac55e3b7e8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_CommonMode_TDK_B82767S4123N030.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_CommonMode_TDK_B82767S4123N030.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

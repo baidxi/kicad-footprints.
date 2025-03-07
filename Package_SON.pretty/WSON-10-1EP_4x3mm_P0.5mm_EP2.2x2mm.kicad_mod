@@ -1,7 +1,7 @@
 (footprint "WSON-10-1EP_4x3mm_P0.5mm_EP2.2x2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "10-Lead Plastic WSON, 4x3mm Body, 0.5mm Pitch (http://www.ti.com/lit/ds/symlink/lm4990.pdf)")
 	(tags "WSON 0.5")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b321a8c9-d177-4b61-9c69-506448c57ea3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -122,7 +112,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "967eea8a-7654-4715-b831-4bc82cf20fc2")
 	)
@@ -258,70 +248,70 @@
 	(pad "1" smd roundrect
 		(at -1.65 -1)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a27b57b0-7feb-4d12-9b73-ffab33e2a3cc")
 	)
 	(pad "2" smd roundrect
 		(at -1.65 -0.5)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b1340f87-4fef-4ba0-984e-a0115eab6dfc")
 	)
 	(pad "3" smd roundrect
 		(at -1.65 0)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5c698fbf-cd71-41da-b6d5-852b92363223")
 	)
 	(pad "4" smd roundrect
 		(at -1.65 0.5)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e3fee54a-328a-4504-a4df-0077b7cf4dba")
 	)
 	(pad "5" smd roundrect
 		(at -1.65 1)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5b6fffe1-0144-4670-a24d-7394ffd5a11e")
 	)
 	(pad "6" smd roundrect
 		(at 1.65 1)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0c8d68aa-669a-4878-8477-debc57a1f349")
 	)
 	(pad "7" smd roundrect
 		(at 1.65 0.5)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "517528e9-4f3b-4971-90a7-6567c47ba03a")
 	)
 	(pad "8" smd roundrect
 		(at 1.65 0)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ab3fee89-e516-4f76-a138-9118322f0081")
 	)
 	(pad "9" smd roundrect
 		(at 1.65 -0.5)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "38c9233b-3d67-4804-a64c-9d34f29e8617")
 	)
 	(pad "10" smd roundrect
 		(at 1.65 -1)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "90ec9286-240e-423f-8e75-37806aa35607")
 	)
@@ -331,7 +321,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "15686bbc-ef80-451d-9092-46676518723e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/WSON-10-1EP_4x3mm_P0.5mm_EP2.2x2mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/WSON-10-1EP_4x3mm_P0.5mm_EP2.2x2mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

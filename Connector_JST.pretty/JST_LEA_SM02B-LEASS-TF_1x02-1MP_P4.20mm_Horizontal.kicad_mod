@@ -1,7 +1,7 @@
 (footprint "JST_LEA_SM02B-LEASS-TF_1x02-1MP_P4.20mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "JST LEA series connector, SM02B-LEASS-TF (http://www.jst-mfg.com/product/pdf/eng/eLEA.pdf), generated with kicad-footprint-generator")
 	(tags "connector JST LEA horizontal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "080db820-13e8-4c48-8f6f-c62b74be976f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -368,32 +358,33 @@
 	(pad "1" smd roundrect
 		(at -2.1 -2.325)
 		(size 1.05 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.238095)
 		(uuid "62e23320-36fe-4da9-93c9-fb6981457e99")
 	)
 	(pad "2" smd roundrect
 		(at 2.1 -2.325)
 		(size 1.05 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.238095)
 		(uuid "b3680776-6843-489f-b9cb-a197e334382e")
 	)
 	(pad "MP" smd roundrect
 		(at -3.675 2.35)
 		(size 0.85 1.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "070ad7ef-7a0d-4f9b-84d1-0492b744a934")
 	)
 	(pad "MP" smd roundrect
 		(at 3.675 2.35)
 		(size 0.85 1.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "61a682f5-45dc-4f13-a32e-6b6dc030f388")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_LEA_SM02B-LEASS-TF_1x02-1MP_P4.20mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_LEA_SM02B-LEASS-TF_1x02-1MP_P4.20mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

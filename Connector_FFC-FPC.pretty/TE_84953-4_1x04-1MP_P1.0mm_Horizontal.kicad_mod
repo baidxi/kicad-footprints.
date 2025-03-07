@@ -1,7 +1,7 @@
 (footprint "TE_84953-4_1x04-1MP_P1.0mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TE FPC connector, 04 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4")
 	(tags "te fpc 84953")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c875d094-4f8f-4ac8-8aff-588bc406ff38")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -388,40 +378,41 @@
 	(pad "1" smd rect
 		(at -1.5 -1.8)
 		(size 0.61 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a119e096-9dd6-4382-9142-ad5f73e8e785")
 	)
 	(pad "2" smd rect
 		(at -0.5 -1.8)
 		(size 0.61 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9bfe8557-c1dc-47b9-be09-e55ae108a0a4")
 	)
 	(pad "3" smd rect
 		(at 0.5 -1.8)
 		(size 0.61 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "31980604-006f-404e-976a-b3082ae2fde7")
 	)
 	(pad "4" smd rect
 		(at 1.5 -1.8)
 		(size 0.61 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f826d0f8-2446-4ec2-99f0-8af7f14c5e2c")
 	)
 	(pad "MP" smd rect
 		(at -4.49 1)
 		(size 2.68 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "61cc6812-a5a9-4f68-9daf-0bea0deb8148")
 	)
 	(pad "MP" smd rect
 		(at 4.49 1)
 		(size 2.68 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5c6c4a3b-0e93-4b1b-b97d-dfd1d88818ce")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/TE_84953-4_1x04-1MP_P1.0mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/TE_84953-4_1x04-1MP_P1.0mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

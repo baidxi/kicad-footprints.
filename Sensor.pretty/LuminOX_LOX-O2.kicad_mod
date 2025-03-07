@@ -1,7 +1,7 @@
 (footprint "LuminOX_LOX-O2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SST LuminOX Luminescence-based O2 sensor, https://sstsensing.com/wp-content/uploads/2021/08/DS0030rev15_LuminOx.pdf")
 	(tags "SST LuminOX O2")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b311b1ad-68e7-4475-be11-d99282981e91")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -84,7 +74,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "fa460121-8c60-4976-9ebf-2fa723064c49")
 	)
@@ -95,7 +85,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4a9048f4-416a-4b21-afe9-8af53db19ba6")
 	)
@@ -126,7 +116,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "aa09ee64-65ca-4360-b442-e69459f7e8ec")
 	)
@@ -174,7 +164,8 @@
 		(remove_unused_layers no)
 		(uuid "82f25201-ec03-43bd-ae67-449ca9fcbe6c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor.3dshapes/LuminOX_LOX-O2.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor.3dshapes/LuminOX_LOX-O2.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

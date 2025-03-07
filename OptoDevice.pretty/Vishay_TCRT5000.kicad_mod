@@ -1,7 +1,7 @@
 (footprint "Vishay_TCRT5000"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "IR Reflective Optical Sensor with Transistor Output TCRT5000 https://www.vishay.com/docs/83760/tcrt5000.pdf")
 	(tags "IR Reflective Optical Sensor with Transistor Output TCRT5000 Vishay Distance Sensor")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dfd9dfb3-f9b7-4e3c-931e-1bbf3e4c74b1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" "https://www.vishay.com/docs/83760/tcrt5000.pdf"
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -350,7 +340,8 @@
 		(remove_unused_layers no)
 		(uuid "797b5ef1-6de8-4a48-928c-0f869d4b3c94")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Vishay_TCRT5000.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Vishay_TCRT5000.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

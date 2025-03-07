@@ -1,7 +1,7 @@
 (footprint "Jack_XLR-6.35mm_Neutrik_NCJ6FI-V_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Combo I series, 3 pole XLR female receptacle with 6.35mm (1/4in) stereo jack without switching contact, vertical PCB mount, retention spring, https://www.neutrik.com/en/product/ncj6fi-v")
 	(tags "neutrik jack combo i")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "06c36f5a-1f19-4d76-95fb-5240f54b6c23")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -425,7 +415,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "bfa0ae7e-4f33-4819-92d6-e5e13102a48a")
 	)
@@ -436,7 +426,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "eab25e4f-6c6e-4768-9a88-ab4598d832ef")
 	)
@@ -830,7 +820,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "bafba5f9-f8cc-46a9-bb0c-14b3bcbc0167")
 	)
@@ -841,7 +831,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2efa04b9-a38b-4236-bd0d-5c2d3fe60e21")
 	)
@@ -852,7 +842,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "599883f6-53aa-421d-99c6-aa925bac3b71")
 	)
@@ -863,7 +853,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "731ac8b3-c0f8-4f5e-a1a6-540d13351af1")
 	)
@@ -874,7 +864,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1e7def9b-d74a-4ea7-bc17-39aa906399e6")
 	)
@@ -945,7 +935,8 @@
 		(remove_unused_layers no)
 		(uuid "c8b35dd2-cb48-405f-be08-3fdbd810b7ec")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_XLR-6.35mm_Neutrik_NCJ6FI-V_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_XLR-6.35mm_Neutrik_NCJ6FI-V_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

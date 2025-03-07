@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_MetzConnect_360291_1x01_Horizontal_ScrewM3.0_Boxed"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "single screw terminal block Metz Connect 360291, block size 9x7.3mm^2, drill diamater 1.5mm, 2 pads, pad diameter 3mm, see http://www.metz-connect.com/de/system/files/METZ_CONNECT_U_Contact_Katalog_Anschlusssysteme_fuer_Leiterplatten_DE_31_07_2017_OFF_024803.pdf?language=en page 133, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_MetzConnect")
 	(tags "THT single screw terminal block Metz Connect 360291 size 9x7.3mm^2 drill 1.5mm pad 3mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "57cb51bb-99c4-4d24-8ec4-0ce1a4adc49f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -284,7 +274,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "059d9740-7bc7-4967-85d3-0f896e61c121")
 	)
@@ -315,7 +305,8 @@
 		(remove_unused_layers no)
 		(uuid "565c0b80-4fdb-4a12-802c-7c01b3f8003b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_360291_1x01_Horizontal_ScrewM3.0_Boxed.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_360291_1x01_Horizontal_ScrewM3.0_Boxed.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

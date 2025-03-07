@@ -1,7 +1,7 @@
 (footprint "L_7.3x7.3_H4.5"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Choke, SMD, 7.3x7.3mm 4.5mm height")
 	(tags "Choke SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a54780b1-ee6c-4d3d-a420-c512d7007fc4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -260,16 +250,17 @@
 	(pad "1" smd rect
 		(at -3.2 0)
 		(size 1.5 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1b1681b1-0a20-4015-85ab-c8c526c2da7d")
 	)
 	(pad "2" smd rect
 		(at 3.2 0)
 		(size 1.5 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6e9b81ce-5be7-41fa-82a4-93942212e7ac")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_7.3x7.3_H4.5.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_7.3x7.3_H4.5.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

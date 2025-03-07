@@ -1,7 +1,7 @@
 (footprint "Infineon_PG-HSOF-8-3_ThermalVias"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "HSOF-8-3 power MOSFET (http://www.infineon.com/cms/en/product/packages/PG-HSOF/PG-HSOF-8-3/)")
 	(tags "mosfet hsof")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7320bdc5-a6ac-4093-bc58-e90e85462765")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -93,7 +83,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "3eab2c23-9df4-40f7-8ca2-0cc164387e0c")
 	)
@@ -664,13 +654,13 @@
 	(pad "2" smd rect
 		(at -5.64 3)
 		(size 1.5 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fb2a16f2-356d-4d35-960b-08834bfeeb4a")
 	)
 	(pad "3" smd rect
 		(at -5.65 4.2)
 		(size 1.5 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9a8b07e1-e61d-4c3f-8000-33cf4f1fb87c")
 	)
 	(pad "4" smd rect
@@ -679,7 +669,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "fe5c98cf-5586-4570-b840-20eec6ad02c0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-3.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-3.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

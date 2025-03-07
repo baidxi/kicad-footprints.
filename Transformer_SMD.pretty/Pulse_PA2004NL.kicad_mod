@@ -1,7 +1,7 @@
 (footprint "Pulse_PA2004NL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMT Gate Drive Transformer, 1:1:1, 8.6x6.7x3.6mm (https://productfinder.pulseeng.com/products/datasheets/P663.pdf)")
 	(tags "pulse pa2004nl pa0264nl")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "27fe0667-e2ce-4fa1-a6db-16a24a6742fb")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -122,7 +112,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "9fefae47-86b6-41a0-82b8-c9acdd9064fa")
 	)
@@ -230,40 +220,41 @@
 	(pad "1" smd rect
 		(at -3.8425 -2.54)
 		(size 1.585 1.78)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cf76c13e-b49c-4cd8-8673-489a6dd6bfb4")
 	)
 	(pad "2" smd rect
 		(at -3.8425 0)
 		(size 1.585 1.78)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fba6808b-5452-4720-b058-2df327716452")
 	)
 	(pad "3" smd rect
 		(at -3.8425 2.54)
 		(size 1.585 1.78)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e6212ed1-a236-410a-a268-590d631fa05b")
 	)
 	(pad "4" smd rect
 		(at 3.8425 2.54)
 		(size 1.585 1.78)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3596bd78-2023-4833-ace9-1b5a54b21648")
 	)
 	(pad "5" smd rect
 		(at 3.8425 0)
 		(size 1.585 1.78)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c3ecd7a3-95fb-40ea-a688-57971ee31f4a")
 	)
 	(pad "6" smd rect
 		(at 3.8425 -2.54)
 		(size 1.585 1.78)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "44af88d7-a95a-4646-bf47-e6301b7c99e3")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transformer_SMD.3dshapes/Pulse_PA2004NL.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_SMD.3dshapes/Pulse_PA2004NL.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

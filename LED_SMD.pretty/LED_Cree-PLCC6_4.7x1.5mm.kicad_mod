@@ -1,7 +1,7 @@
 (footprint "LED_Cree-PLCC6_4.7x1.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "4.7mm x 1.5mm PLCC6 LED, http://www.cree.com/led-components/media/documents/1381-QLS6AFKW.pdf")
 	(tags "LED Cree PLCC-6")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dbaa4a77-6266-4772-b5b5-5990a78e1cf4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -198,40 +188,41 @@
 	(pad "1" smd rect
 		(at -2.02 0.335)
 		(size 0.66 0.63)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0397bca5-385b-4e9f-a8a9-9d27b98963ff")
 	)
 	(pad "2" smd rect
 		(at -1.21 -0.25)
 		(size 0.4 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ae44161d-d5a1-4e49-8aeb-59397e2a98ab")
 	)
 	(pad "3" smd rect
 		(at -0.53 -0.25)
 		(size 0.4 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fba64a99-4462-495b-bed0-b52b4ff3953a")
 	)
 	(pad "4" smd rect
 		(at 0.53 -0.25)
 		(size 0.4 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1253b963-c320-4f57-a9db-f2c9b4c07c94")
 	)
 	(pad "5" smd rect
 		(at 1.21 -0.25)
 		(size 0.4 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "57ea5585-e572-496f-a539-6fdbf26d7f97")
 	)
 	(pad "6" smd rect
 		(at 2.02 0.335)
 		(size 0.66 0.63)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9a026dee-99d5-456f-94f7-e1cad2ebd844")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Cree-PLCC6_4.7x1.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Cree-PLCC6_4.7x1.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

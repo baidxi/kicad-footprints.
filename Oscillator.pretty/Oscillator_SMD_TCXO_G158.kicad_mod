@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_TCXO_G158"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TCXO")
 	(tags "TCXO")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "eb1b3d81-6a27-49f5-97a3-43dbb5511dda")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -241,7 +231,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "05cf5fc8-6ee7-4c32-ac2c-18baf0a85df2")
 	)
@@ -252,7 +242,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7a85a8da-5d65-4c7a-9685-bd448fa2045e")
 	)
@@ -270,28 +260,29 @@
 	(pad "1" smd rect
 		(at -9.02 3.75)
 		(size 3.81 1.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "90405c72-e6d6-4c51-bbb1-3235a261b31e")
 	)
 	(pad "2" smd rect
 		(at 9.02 3.75)
 		(size 3.81 1.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5592ef47-f2ba-4b7a-ba25-7a5d6d101011")
 	)
 	(pad "3" smd rect
 		(at 9.02 -3.75)
 		(size 3.81 1.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6809ee29-834c-4d6b-9085-503d4b664243")
 	)
 	(pad "4" smd rect
 		(at -9.02 -3.75)
 		(size 3.81 1.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7efc382a-6e84-4bf3-a4a2-e7ce3a4410d9")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_TCXO_G158.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_TCXO_G158.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

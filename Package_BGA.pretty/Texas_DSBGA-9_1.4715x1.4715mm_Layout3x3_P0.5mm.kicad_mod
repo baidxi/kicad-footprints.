@@ -1,7 +1,7 @@
 (footprint "Texas_DSBGA-9_1.4715x1.4715mm_Layout3x3_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments, DSBGA, 1.4715x1.4715mm, 9 bump 3x3 array, NSMD pad definition (http://www.ti.com/lit/ds/symlink/lm4990.pdf, http://www.ti.com/lit/an/snva009ag/snva009ag.pdf)")
 	(tags "Texas Instruments DSBGA BGA YZR0009")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cca9ea87-5d94-4dcc-9c52-8c079d5c95de")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -113,7 +103,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "33f4cceb-ab31-4580-93ea-402f3d0aed19")
 	)
@@ -311,7 +301,7 @@
 		(at 0.5 0)
 		(size 0.165 0.165)
 		(property pad_prop_bga)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "adc427c3-2b94-4973-9be3-bac903c1e3e0")
 	)
 	(pad "C1" smd circle
@@ -335,7 +325,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "80265cad-4a9d-4cc8-9b6c-fdca371add69")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-9_1.4715x1.4715mm_Layout3x3_P0.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-9_1.4715x1.4715mm_Layout3x3_P0.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

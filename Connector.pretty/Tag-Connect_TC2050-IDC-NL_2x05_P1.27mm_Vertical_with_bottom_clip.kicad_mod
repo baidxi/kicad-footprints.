@@ -1,7 +1,7 @@
 (footprint "Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical_with_bottom_clip"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Tag-Connect programming header with bottom courtyard for TC2050-NL Clip board ; https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-CLIP_Datasheet_25.pdf")
 	(tags "tag connect programming header pogo pins")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "de107904-a5f0-49bb-98af-bab49efbd9be")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,50 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_line
-		(start -5.47 -2.54)
-		(end 5.47 -2.54)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "ba2bd48f-a83b-4c04-bce7-51562f52a5e6")
-	)
-	(fp_line
-		(start -5.47 2.54)
-		(end -5.47 -2.54)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "69a9bb9f-6635-4b53-a182-c30e6073f62b")
-	)
-	(fp_line
-		(start 5.47 -2.54)
-		(end 5.47 2.54)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "8c445e03-c347-429a-bd6c-ccc9ac8b03dd")
-	)
-	(fp_line
-		(start 5.47 2.54)
-		(end -5.47 2.54)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "f097bc52-507e-4c31-a8a6-2cd449795b66")
-	)
 	(fp_line
 		(start -5.08 -0.65)
 		(end -3.1 -2.05)
@@ -203,6 +153,46 @@
 		)
 		(layer "F.SilkS")
 		(uuid "89d9b079-2135-4cb6-9352-ff0c1a544374")
+	)
+	(fp_line
+		(start -5.47 -2.54)
+		(end 5.47 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "ba2bd48f-a83b-4c04-bce7-51562f52a5e6")
+	)
+	(fp_line
+		(start -5.47 2.54)
+		(end -5.47 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "69a9bb9f-6635-4b53-a182-c30e6073f62b")
+	)
+	(fp_line
+		(start 5.47 -2.54)
+		(end 5.47 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "8c445e03-c347-429a-bd6c-ccc9ac8b03dd")
+	)
+	(fp_line
+		(start 5.47 2.54)
+		(end -5.47 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "f097bc52-507e-4c31-a8a6-2cd449795b66")
 	)
 	(fp_line
 		(start -6.223 -1.4)
@@ -827,6 +817,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -837,4 +831,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )

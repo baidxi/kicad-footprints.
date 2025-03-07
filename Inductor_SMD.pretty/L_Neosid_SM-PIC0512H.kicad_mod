@@ -1,7 +1,7 @@
 (footprint "L_Neosid_SM-PIC0512H"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Neosid, Inductor, PIC0512H, Power Inductor, Fixed inductor, SMD, https://neosid.de/import-data/product-pdf/neoFestind_SMPIC0512H.pdf")
 	(tags "Neosid Inductor PIC0512H Power Inductor Fixed inductor SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ef3ced0a-a7b2-40a4-b429-ecad448bbfe6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -218,16 +208,17 @@
 	(pad "1" smd rect
 		(at -2.5 0 180)
 		(size 2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e3da7f40-6249-4ce5-be3e-358fa99b8787")
 	)
 	(pad "2" smd rect
 		(at 2.5 0 180)
 		(size 2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "56f72d5a-3039-4743-a4a7-59ef2a59bbd8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_SM-PIC0512H.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_SM-PIC0512H.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

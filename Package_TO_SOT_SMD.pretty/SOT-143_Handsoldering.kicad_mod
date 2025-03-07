@@ -1,7 +1,7 @@
 (footprint "SOT-143_Handsoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SOT-143 Handsoldering https://www.nxp.com/docs/en/package-information/SOT143B.pdf")
 	(tags "SOT-143 Handsoldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "36387b12-161e-476e-afcc-81c9a7a0a7d2")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "7a965a35-8242-4983-838c-09ef2d698f14")
 	)
@@ -200,32 +190,33 @@
 	(pad "1" smd roundrect
 		(at -1.5 -0.75)
 		(size 1.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f7181bee-2b4c-42cf-9b68-6cc770ee34b9")
 	)
 	(pad "2" smd roundrect
 		(at -1.5 0.95)
 		(size 1.7 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "394a8e48-2af3-47e9-aeea-c60a6eb99e4e")
 	)
 	(pad "3" smd roundrect
 		(at 1.5 0.95)
 		(size 1.7 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "14d112dd-b9d6-4b07-a50b-69f19f5b653b")
 	)
 	(pad "4" smd roundrect
 		(at 1.5 -0.95)
 		(size 1.7 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "63812413-76bf-4b7d-b018-8548186ce2f8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-143.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-143.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

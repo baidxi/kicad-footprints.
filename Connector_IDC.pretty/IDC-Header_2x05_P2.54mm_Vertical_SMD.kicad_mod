@@ -1,7 +1,7 @@
 (footprint "IDC-Header_2x05_P2.54mm_Vertical_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://www.tme.eu/Document/4baa0e952ce73e37bc68cf730b541507/T821M114A1S100CEU-B.pdf")
 	(tags "SMD vertical IDC box header  2x05 2.54mm double row")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "51182b52-b870-47e7-81c0-1e0900a9a65d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -398,74 +388,75 @@
 	(pad "1" smd roundrect
 		(at -3.8 -5.08)
 		(size 5 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a77dddc7-c219-4497-896c-7fb7e56a00c0")
 	)
 	(pad "2" smd roundrect
 		(at 3.8 -5.08)
 		(size 5 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "2d4def83-2289-4ddf-aedb-8024abd71268")
 	)
 	(pad "3" smd roundrect
 		(at -3.8 -2.54)
 		(size 5 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "db342103-d9d6-48e0-ae38-c4e303d01181")
 	)
 	(pad "4" smd roundrect
 		(at 3.8 -2.54)
 		(size 5 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "38641d9e-929e-4258-b049-e4fd7515e6d2")
 	)
 	(pad "5" smd roundrect
 		(at -3.8 0)
 		(size 5 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "53e5681a-5762-4071-bbb4-eb301b1949e5")
 	)
 	(pad "6" smd roundrect
 		(at 3.8 0)
 		(size 5 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4e894c11-fdcf-44e2-ac8a-9fe01768604a")
 	)
 	(pad "7" smd roundrect
 		(at -3.8 2.54)
 		(size 5 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "351d2153-73f4-48df-ab4c-29d0ccde4526")
 	)
 	(pad "8" smd roundrect
 		(at 3.8 2.54)
 		(size 5 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a3633256-2ab3-4e6e-96a4-d5640a3bebcd")
 	)
 	(pad "9" smd roundrect
 		(at -3.8 5.08)
 		(size 5 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ba1666f6-3f2c-4fe4-81c7-53dd9b230eda")
 	)
 	(pad "10" smd roundrect
 		(at 3.8 5.08)
 		(size 5 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4b252919-651a-4c72-96f1-4e1f4698ac12")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical_SMD.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical_SMD.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

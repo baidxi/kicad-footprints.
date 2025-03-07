@@ -1,7 +1,7 @@
 (footprint "Mini-Circuits_DB1627"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mini-Circuits top-hat case DB1627 (https://ww2.minicircuits.com/case_style/DB1627.pdf)")
 	(tags "Mini-Circuits DB1627")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9088a450-49b4-469b-b2c3-bb5680f6168c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "f0a51ebc-991a-496b-9fc7-2d95857fb7fe")
 	)
@@ -200,40 +190,41 @@
 	(pad "1" smd rect
 		(at -1.27 -1.59)
 		(size 0.76 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f3c2f781-880b-4c5c-abe5-878900eaa365")
 	)
 	(pad "2" smd rect
 		(at 0 -1.59)
 		(size 0.76 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ca6ee677-8713-4904-9351-cf019955e630")
 	)
 	(pad "3" smd rect
 		(at 1.27 -1.59)
 		(size 0.76 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7553d485-fc10-4186-8d25-d9a74cc6a82d")
 	)
 	(pad "4" smd rect
 		(at 1.27 1.59)
 		(size 0.76 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a168f9be-a237-424e-82ef-576fa6b551f1")
 	)
 	(pad "5" smd rect
 		(at 0 1.59)
 		(size 0.76 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "593518ec-0e0f-416d-9486-494220c69396")
 	)
 	(pad "6" smd rect
 		(at -1.27 1.59)
 		(size 0.76 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a0ba3e5c-d509-4cae-a8ed-bfd7f1969f26")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_DB1627.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_DB1627.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

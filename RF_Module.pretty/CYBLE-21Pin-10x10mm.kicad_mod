@@ -1,7 +1,7 @@
 (footprint "CYBLE-21Pin-10x10mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Cypress EZ-BLE PRoC Module (Bluetooth Smart) 21 Pin Module")
 	(tags "Cypress BT Bluetooth")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aa826bba-9c7b-4190-bcd8-1c66c407e667")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -142,7 +132,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "30357b70-8101-451f-a385-1f268b248576")
 	)
@@ -333,133 +323,138 @@
 	(pad "1" smd rect
 		(at -5 4.18)
 		(size 0.91 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0ea1d889-9937-4440-9f1b-fd9f5aab2a12")
 	)
 	(pad "2" smd rect
 		(at -5 3.42)
 		(size 0.91 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0a3a35de-2e0b-42b9-a722-a5e5fae160f7")
 	)
 	(pad "3" smd rect
 		(at -5 2.66)
 		(size 0.91 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1d607166-5386-4a08-8697-5ed92716cc0b")
 	)
 	(pad "4" smd rect
 		(at -5 1.9)
 		(size 0.91 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7555bc18-e21f-4938-b84b-6c59d2414503")
 	)
 	(pad "5" smd rect
 		(at -5 1.14)
 		(size 0.91 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dd422360-0c00-4e9f-bf53-817d1b56bad3")
 	)
 	(pad "6" smd rect
 		(at -4.19 -4.18)
 		(size 0.41 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f0290d9e-96e8-4327-9264-50a4c30f11a1")
 	)
 	(pad "7" smd rect
 		(at -3.43 -4.18)
 		(size 0.41 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "24a636be-1bb9-4640-ac65-02da64094901")
 	)
 	(pad "8" smd rect
 		(at -2.67 -4.18)
 		(size 0.41 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6f2c8c60-240a-4203-8070-9bf3bc2b95de")
 	)
 	(pad "9" smd rect
 		(at -1.91 -4.18)
 		(size 0.41 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1ace7c22-e3e5-4655-a03a-4d05ce304d81")
 	)
 	(pad "10" smd rect
 		(at -1.15 -4.18)
 		(size 0.41 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2e51e087-6d71-433d-8460-0ee89a87e372")
 	)
 	(pad "11" smd rect
 		(at -0.39 -4.18)
 		(size 0.41 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dfa3e799-a40e-46e7-82da-292edb220cf6")
 	)
 	(pad "12" smd rect
 		(at 0.37 -4.18)
 		(size 0.41 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f00ec30c-685f-4e6f-8b9f-e72a0c5e1aa6")
 	)
 	(pad "13" smd rect
 		(at 1.13 -4.18)
 		(size 0.41 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6809a28d-928c-430b-95a8-b88ce1efdf48")
 	)
 	(pad "14" smd rect
 		(at 1.89 -4.18)
 		(size 0.41 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "562e06bd-44ff-4aae-ab75-6e8dd5f15101")
 	)
 	(pad "15" smd rect
 		(at 2.65 -4.18)
 		(size 0.41 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "52c9ce89-ea4a-493e-9848-0fbe8856dd1f")
 	)
 	(pad "16" smd rect
 		(at 3.41 -4.18)
 		(size 0.41 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "26beefbb-92b2-40f0-b535-abd0e1b57deb")
 	)
 	(pad "17" smd rect
 		(at 4.17 -4.18)
 		(size 0.41 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7d79be21-69d4-4946-b479-24a56b27d010")
 	)
 	(pad "18" smd rect
 		(at 5 -2.68)
 		(size 0.91 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f9cd1381-910d-47c1-a8c8-a22913c8fcdb")
 	)
 	(pad "19" smd rect
 		(at 5 -1.92)
 		(size 0.91 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "803d301b-b3aa-494c-b47e-c4f8fbc81a58")
 	)
 	(pad "20" smd rect
 		(at 5 -1.16)
 		(size 0.91 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "03e9e0d4-b717-40b4-b59b-f895d7839a2a")
 	)
 	(pad "21" smd rect
 		(at 5 -0.4)
 		(size 0.91 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1ba8cb03-d330-4a9d-a796-8d1d2a519131")
 	)
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "48b1f3ae-f553-472a-9c64-14c8dde2f7ed")
 		(hatch full 0.508)
 		(connect_pads
@@ -474,6 +469,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -484,7 +483,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/CYBLE-21Pin-10x10mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/CYBLE-21Pin-10x10mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

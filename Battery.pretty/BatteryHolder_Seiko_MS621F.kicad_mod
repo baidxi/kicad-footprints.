@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Seiko_MS621F"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Seiko MS621F, https://www.sii.co.jp/en/me/files/2014/02/file_EXTENDED_PRDCT_SPEC_75_FILE_11.jpg")
 	(tags "Seiko MS621F")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e3010077-d186-40b8-bb51-902da4021d1c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "41cd2f2a-d959-4708-98dd-177e68afa1f9")
 	)
@@ -143,7 +133,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d95bfcb0-64ef-4995-b843-fdf66e1af98b")
 	)
@@ -161,16 +151,17 @@
 	(pad "1" smd rect
 		(at 0 -0.75)
 		(size 2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "23457f95-57a2-4359-8100-9fd08ece3128")
 	)
 	(pad "2" smd rect
 		(at 0 0.75)
 		(size 2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "916872bb-9567-4543-bf2f-4c20e5c0d201")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Seiko_MS621F.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Seiko_MS621F.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

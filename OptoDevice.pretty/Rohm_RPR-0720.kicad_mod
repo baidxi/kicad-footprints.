@@ -1,7 +1,7 @@
 (footprint "Rohm_RPR-0720"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Rohm DFN, 6 Pin (https://fscdn.rohm.com/en/products/databook/datasheet/opto/optical_sensor/photosensor/rpr-0720-e.pdf)")
 	(tags "proximity sensor rohm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c8a5f024-0a5b-4a3a-b19d-b2256a162a6e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,7 +102,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ac4e08dd-910a-4c93-9406-e665b2ad4e8e")
 	)
@@ -220,46 +210,47 @@
 	(pad "1" smd roundrect
 		(at -0.3 -0.73 90)
 		(size 0.4 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "daa4bab7-9af7-4ccf-9b77-a800987e1784")
 	)
 	(pad "2" smd roundrect
 		(at -0.3 0 90)
 		(size 0.4 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "bdf0aa6f-3914-4288-8524-da37a2f70034")
 	)
 	(pad "3" smd roundrect
 		(at -0.3 0.73 90)
 		(size 0.4 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0cc4718a-285c-42c5-b1c9-24665a8bdbab")
 	)
 	(pad "4" smd roundrect
 		(at 0.3 0.73 90)
 		(size 0.4 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "db356b67-393b-432c-b555-3e8b59f6763c")
 	)
 	(pad "5" smd roundrect
 		(at 0.3 0 90)
 		(size 0.4 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "79e2b5fb-5989-489e-8486-e1f1d5be6d8d")
 	)
 	(pad "6" smd roundrect
 		(at 0.3 -0.73 90)
 		(size 0.4 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4e6aa013-3479-4e99-9e95-381de3f9f47c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Rohm_RPR-0720.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Rohm_RPR-0720.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

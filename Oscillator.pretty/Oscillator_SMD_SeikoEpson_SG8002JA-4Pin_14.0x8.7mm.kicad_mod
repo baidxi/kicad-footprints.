@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_SeikoEpson_SG8002JA-4Pin_14.0x8.7mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal Oscillator Seiko Epson SG-8002JA https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC, 14.0x8.7mm^2 package")
 	(tags "SMD SMT crystal oscillator")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "365ace81-9e0d-4a00-8b6f-6eac9953d6ce")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -280,28 +270,29 @@
 	(pad "1" smd rect
 		(at -2.54 4.4)
 		(size 1.3 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "43bb880c-0869-499e-bb21-82e802c1fdf7")
 	)
 	(pad "2" smd rect
 		(at 2.54 4.4)
 		(size 1.3 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6f1be39d-814e-4d67-a003-baf528cde047")
 	)
 	(pad "3" smd rect
 		(at 2.54 -4.4)
 		(size 1.3 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "09186646-4c20-4c93-a982-8624b7a6483b")
 	)
 	(pad "4" smd rect
 		(at -2.54 -4.4)
 		(size 1.3 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "61d66ecc-fd4d-4e38-b75e-51a5a05833a3")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_SeikoEpson_SG8002JA-4Pin_14.0x8.7mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_SeikoEpson_SG8002JA-4Pin_14.0x8.7mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

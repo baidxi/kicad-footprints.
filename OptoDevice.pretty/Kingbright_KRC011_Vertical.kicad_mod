@@ -1,7 +1,7 @@
 (footprint "Kingbright_KRC011_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Subminiature Reflective Optical Sensor, http://www.kingbright.com/attachments/file/psearch/000/00/00/KRC011(Ver.15).pdf")
 	(tags "Subminiature Reflective Optical Sensor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9273cced-27cd-482d-8c14-c511b185b17c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,7 +102,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "740d678e-9092-4934-bb37-391b9673859f")
 	)
@@ -220,32 +210,33 @@
 	(pad "1" smd roundrect
 		(at -2.1 0.975)
 		(size 0.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "9c8d579a-99f5-444a-8ef7-376aee72d57e")
 	)
 	(pad "2" smd roundrect
 		(at -0.7 0.975)
 		(size 0.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b2927a2a-94a3-4b07-b6a3-291f8d6bcdb4")
 	)
 	(pad "3" smd roundrect
 		(at 0.7 0.975)
 		(size 0.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8dfcffdb-1e36-48e9-9207-a33ed2b3bd58")
 	)
 	(pad "4" smd roundrect
 		(at 2.1 0.975)
 		(size 0.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ec329789-089b-4ec5-a712-00200135844a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Kingbright_KRC011_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Kingbright_KRC011_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

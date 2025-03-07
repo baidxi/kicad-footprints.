@@ -1,7 +1,7 @@
 (footprint "USB_Mini-B_Lumberg_2486_01_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB Mini-B 5-pin SMD connector, http://downloads.lumberg.com/datenblaetter/en/2486_01.pdf")
 	(tags "USB USB_B USB_Mini connector")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "64169a95-f983-4e8c-99c0-24b6c5e15af5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -432,58 +422,59 @@
 	(pad "1" smd rect
 		(at -1.6 -2.7)
 		(size 0.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "85e8a3db-8825-4546-afc1-bfd0374d7c18")
 	)
 	(pad "2" smd rect
 		(at -0.8 -2.7)
 		(size 0.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dd8c6bc0-46d1-4998-9e70-4d179c8406d8")
 	)
 	(pad "3" smd rect
 		(at 0 -2.7)
 		(size 0.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2d517b3b-bc58-41e5-8725-fde64e945229")
 	)
 	(pad "4" smd rect
 		(at 0.8 -2.7)
 		(size 0.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "498d74cf-416a-4708-b865-9775daef8253")
 	)
 	(pad "5" smd rect
 		(at 1.6 -2.7)
 		(size 0.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e02e141d-1aed-441b-9572-033e1a19fbdc")
 	)
 	(pad "6" smd rect
 		(at -4.45 -2.6)
 		(size 2 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4862507b-4f16-428f-ae9f-56c921c6b0d1")
 	)
 	(pad "6" smd rect
 		(at -4.45 2.85)
 		(size 2 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5f92ea45-151f-4fb4-bfb0-1ad20e01daf8")
 	)
 	(pad "6" smd rect
 		(at 4.45 -2.6)
 		(size 2 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5921b591-0bde-4152-9f6b-34ab750b806f")
 	)
 	(pad "6" smd rect
 		(at 4.45 2.85)
 		(size 2 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6e80583d-81a5-49af-839a-82f61ecda265")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Mini-B_Lumberg_2486_01_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Mini-B_Lumberg_2486_01_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

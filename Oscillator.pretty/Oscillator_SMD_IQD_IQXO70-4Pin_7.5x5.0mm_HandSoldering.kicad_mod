@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_IQD_IQXO70-4Pin_7.5x5.0mm_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "IQD Crystal Clock Oscillator IQXO-70, http://www.iqdfrequencyproducts.com/products/details/iqxo-70-11-30.pdf, hand-soldering, 7.5x5.0mm^2 package")
 	(tags "SMD SMT crystal oscillator hand-soldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1171baa7-21d3-4e7c-ad42-bc79b1c6bd08")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,54 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 0.233333 0)
-		(stroke
-			(width 0.466667)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "1442c349-74b3-4bfd-aad9-187d7d9fd8ca")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.533333 0)
-		(stroke
-			(width 0.333333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "5cd7de31-90db-4418-9ee6-ec4b2191548b")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.833333 0)
-		(stroke
-			(width 0.333333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "d2be9ed3-6c52-4d1e-8243-dc9f18b46bc1")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 1 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "4774051d-6609-4fb1-8283-14a4533f9cf3")
-	)
 	(fp_line
 		(start -3.95 -2.7)
 		(end -3.82 -2.7)
@@ -207,6 +153,50 @@
 		)
 		(layer "F.SilkS")
 		(uuid "05c34158-b688-4b43-acaf-b6c88a6c0f0c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.233333 0)
+		(stroke
+			(width 0.466667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "1442c349-74b3-4bfd-aad9-187d7d9fd8ca")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.533333 0)
+		(stroke
+			(width 0.333333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "5cd7de31-90db-4418-9ee6-ec4b2191548b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.833333 0)
+		(stroke
+			(width 0.333333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "d2be9ed3-6c52-4d1e-8243-dc9f18b46bc1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "4774051d-6609-4fb1-8283-14a4533f9cf3")
 	)
 	(fp_line
 		(start -4 -4.4)
@@ -352,28 +342,29 @@
 	(pad "1" smd rect
 		(at -2.63 2.6)
 		(size 1.98 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "77749ae0-e37e-4459-a50f-7a7f707aa2c5")
 	)
 	(pad "2" smd rect
 		(at 2.63 2.6)
 		(size 1.98 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d6fe2c74-d712-4f28-9996-c0bcec588a4f")
 	)
 	(pad "3" smd rect
 		(at 2.63 -2.6)
 		(size 1.98 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1fe41fdc-1e78-4422-ba73-1fad173664da")
 	)
 	(pad "4" smd rect
 		(at -2.63 -2.6)
 		(size 1.98 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4a54f20b-86c0-4f5d-9a86-e3522fbf4481")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_IQD_IQXO70-4Pin_7.5x5.0mm_HandSoldering.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_IQD_IQXO70-4Pin_7.5x5.0mm_HandSoldering.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

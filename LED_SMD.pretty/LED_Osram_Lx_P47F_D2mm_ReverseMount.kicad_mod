@@ -1,7 +1,7 @@
 (footprint "LED_Osram_Lx_P47F_D2mm_ReverseMount"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "OSRAM, reverse-mount LED, SMD, 2mm diameter, http://www.farnell.com/datasheets/2711587.pdf")
 	(tags "LED ReverseMount Reverse")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "223f7295-c5f1-4586-a6d2-a117ba2f0c19")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -282,7 +272,7 @@
 	(pad "" smd rect
 		(at -1.55 0.375)
 		(size 0.5 0.7)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(uuid "b5f64fb8-32fd-4241-9b80-6cb158bb665c")
 	)
 	(pad "" np_thru_hole circle
@@ -295,7 +285,7 @@
 	(pad "" smd rect
 		(at 1.55 -0.375)
 		(size 0.5 0.7)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(uuid "fa6aa9c9-ae34-4c41-8455-507925aae0c4")
 	)
 	(pad "1" smd rect
@@ -310,7 +300,8 @@
 		(layers "F.Cu")
 		(uuid "0b3d34af-e086-420f-93c8-7c3c97d81740")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Osram_Lx_P47F_D2mm_ReverseMount.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Osram_Lx_P47F_D2mm_ReverseMount.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Lightpipe_Bivar_SLP3-150-250-R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1-way, 3mm lightpipe, round face, 3.8mm lens output height, 6.35mm protrusion, https://www.bivar.com/parts_content/Datasheets/SLP3-150-XXX-X.pdf")
 	(tags "light pipe 1 way 3mm ")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "16cbeb53-6cd1-45fb-9816-1402a1b644b9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -101,7 +91,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "fcb58917-8cf8-4e8c-a4b3-4d742e32c5e8")
 	)
@@ -112,7 +102,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "e4271298-0491-4ba8-93ef-88901bd01434")
 	)
@@ -123,7 +113,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "dfd09228-dc1c-4fd2-a011-38cf5641ee29")
 	)
@@ -134,7 +124,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "0bd755d3-a3e5-464b-bf3c-63219b590722")
 	)
@@ -185,7 +175,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b0a86c6a-3418-40dc-996f-0063cedb2a30")
 	)
@@ -196,7 +186,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "6bb47847-f8a6-48d5-825b-8f20a81412d0")
 	)
@@ -236,7 +226,8 @@
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "6122892e-780c-453e-be2c-55b56a6f0210")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Lightpipe_Bivar_SLP3-150-250-R.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Lightpipe_Bivar_SLP3-150-250-R.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

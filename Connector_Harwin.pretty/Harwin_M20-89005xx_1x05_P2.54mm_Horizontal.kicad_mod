@@ -1,7 +1,7 @@
 (footprint "Harwin_M20-89005xx_1x05_P2.54mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Harwin Male Horizontal Surface Mount Single Row 2.54mm (0.1 inch) Pitch PCB Connector, M20-89005xx, 5 Pins per row (https://cdn.harwin.com/pdfs/M20-890.pdf), generated with kicad-footprint-generator")
 	(tags "connector Harwin M20-890 horizontal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d7d07e7c-7951-4e69-840b-2a0d2e1e5184")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -784,34 +774,35 @@
 	(pad "1" smd rect
 		(at -5.525 -5.08)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c3f5b6e4-01aa-47d9-bb47-7744da05a54e")
 	)
 	(pad "2" smd rect
 		(at -5.525 -2.54)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1219ee1e-21bb-4671-812f-7aec31aea684")
 	)
 	(pad "3" smd rect
 		(at -5.525 0)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "48f437d5-39ab-4321-bf7c-6a96a4ac4d50")
 	)
 	(pad "4" smd rect
 		(at -5.525 2.54)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "97c72254-a2ea-4045-9d1b-6549742c0c02")
 	)
 	(pad "5" smd rect
 		(at -5.525 5.08)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fbe30f6c-e437-41b3-9475-751a3e9aa8a7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_M20-89005xx_1x05_P2.54mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_M20-89005xx_1x05_P2.54mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

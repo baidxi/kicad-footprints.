@@ -1,7 +1,7 @@
 (footprint "Jack_XLR_Neutrik_NC5FAV-SW_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "A Series, 5 pole female XLR receptacle, switching contacts, grounding: separate ground contact to mating connector shell and front panel, vertical PCB mount, color coding possible, https://www.neutrik.com/en/product/nc5fav-sw")
 	(tags "neutrik xlr a")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5fdad700-babb-45b3-b2d8-4063d5579c02")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -524,7 +514,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "4f31b0c6-fad4-4298-80a6-0ac887388c54")
 	)
@@ -535,7 +525,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "47830ebb-c776-49d7-8eb4-7584162b4a04")
 	)
@@ -1006,7 +996,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "30edc21e-404c-4669-8daf-901cb7844aa5")
 	)
@@ -1017,7 +1007,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c6c8e62f-4c3f-4752-b946-17389769f891")
 	)
@@ -1028,7 +1018,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9ca6ec77-2673-46ed-8a31-d02d7cb084a6")
 	)
@@ -1039,7 +1029,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "5363adc1-3039-44f8-a0e9-47165ab4640a")
 	)
@@ -1126,7 +1116,8 @@
 		(remove_unused_layers no)
 		(uuid "aefef03f-5c1f-45f9-a0e7-0f8f2f5f77e8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_XLR_Neutrik_NC5FAV-SW_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_XLR_Neutrik_NC5FAV-SW_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

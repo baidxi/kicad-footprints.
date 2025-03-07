@@ -1,7 +1,7 @@
 (footprint "Mini-Circuits_HZ1198"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint for Mini-Circuits case HZ1198 (https://ww2.minicircuits.com/case_style/HZ1198.pdf)")
 	(tags "Mini-Circuits HZ1198")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "49ff47d7-0513-4d4d-b29d-f8a238e9ab29")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "2546712c-1264-4e21-ab7d-c96a9bd44602")
 	)
@@ -200,40 +190,41 @@
 	(pad "1" smd rect
 		(at -6.9977 -5.6515)
 		(size 2.9972 1.7018)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "af25fe1b-ebf9-4384-91d2-4f8e3fedc020")
 	)
 	(pad "2" smd rect
 		(at 6.9977 -5.6515)
 		(size 2.9972 1.7018)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0e4cafd1-8a19-4416-ad7f-ff788b8dbdfd")
 	)
 	(pad "3" smd rect
 		(at 9.779 0)
 		(size 2.4384 1.9812)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5bbc5b4b-43b7-4ba2-b452-e838a6ca5489")
 	)
 	(pad "4" smd rect
 		(at 6.8961 5.2578)
 		(size 1.9812 2.4892)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "01b563f0-847e-4e91-80e7-4ba960ec99d6")
 	)
 	(pad "5" smd rect
 		(at -6.8961 5.2578)
 		(size 1.9812 2.4892)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3dfc3825-1b8f-4568-8138-dc7a708da9b9")
 	)
 	(pad "6" smd rect
 		(at -9.779 0)
 		(size 2.4384 1.9812)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d387795b-e847-4594-9751-4ec14397e309")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_HZ1198.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_HZ1198.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Texas_QFN-41_10x16mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "QFN, 41 Pin (http://www.ti.com/lit/ml/mpqf506/mpqf506.pdf)")
 	(tags "QFN DFN_QFN")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e7d1c33b-dc6a-4ad5-ae8e-d218f4cfeb68")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,7 +102,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "6f804b42-5c85-47d7-b546-ce4503d9d648")
 	)
@@ -220,7 +210,7 @@
 	(pad "" smd custom
 		(at -4.635 -5.6)
 		(size 0.27 0.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -260,7 +250,7 @@
 	(pad "" smd custom
 		(at -4.635 -4)
 		(size 0.27 0.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -300,7 +290,7 @@
 	(pad "" smd custom
 		(at -4.635 -2.4)
 		(size 0.27 0.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -340,7 +330,7 @@
 	(pad "" smd custom
 		(at -4.635 -0.8)
 		(size 0.27 0.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -380,7 +370,7 @@
 	(pad "" smd custom
 		(at -4.635 1.2)
 		(size 0.27 0.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -420,7 +410,7 @@
 	(pad "" smd custom
 		(at -4.635 5.6)
 		(size 0.27 0.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -568,7 +558,7 @@
 	(pad "" smd custom
 		(at -2.4 -7.635 270)
 		(size 0.27 1.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -627,7 +617,7 @@
 	(pad "" smd custom
 		(at 0 -7.635 270)
 		(size 0.27 1.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -686,7 +676,7 @@
 	(pad "" smd custom
 		(at 0.8 7.635 90)
 		(size 0.27 1.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -745,7 +735,7 @@
 	(pad "" smd custom
 		(at 2.4 -7.635 270)
 		(size 0.27 1.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -912,7 +902,7 @@
 	(pad "" smd custom
 		(at 4.635 -5.6 180)
 		(size 0.27 0.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -952,7 +942,7 @@
 	(pad "" smd custom
 		(at 4.635 -4 180)
 		(size 0.27 0.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -992,7 +982,7 @@
 	(pad "" smd custom
 		(at 4.635 -2.4 180)
 		(size 0.27 0.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -1032,7 +1022,7 @@
 	(pad "" smd custom
 		(at 4.635 -0.8 180)
 		(size 0.27 0.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -1072,7 +1062,7 @@
 	(pad "" smd custom
 		(at 4.635 1.6 180)
 		(size 0.27 1.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -1131,7 +1121,7 @@
 	(pad "" smd custom
 		(at 4.635 3.8 180)
 		(size 0.27 0.6)
-		(layers "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -1219,7 +1209,7 @@
 	(pad "7" smd roundrect
 		(at -4.85 2.4)
 		(size 0.8 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
@@ -1228,7 +1218,7 @@
 	(pad "8" smd roundrect
 		(at -4.85 3.4)
 		(size 0.8 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
@@ -1237,7 +1227,7 @@
 	(pad "9" smd roundrect
 		(at -4.85 4.2)
 		(size 0.8 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
@@ -1262,7 +1252,7 @@
 	(pad "12" smd roundrect
 		(at -3.2 7.85 90)
 		(size 0.8 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
@@ -1271,7 +1261,7 @@
 	(pad "13" smd roundrect
 		(at -2.4 7.85 90)
 		(size 0.8 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
@@ -1280,7 +1270,7 @@
 	(pad "14" smd roundrect
 		(at -1.6 7.85 90)
 		(size 0.8 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
@@ -1289,7 +1279,7 @@
 	(pad "15" smd roundrect
 		(at -0.8 7.85 90)
 		(size 0.8 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
@@ -1306,7 +1296,7 @@
 	(pad "17" smd roundrect
 		(at 2.4 7.85 90)
 		(size 0.8 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
@@ -1315,7 +1305,7 @@
 	(pad "18" smd roundrect
 		(at 3.2 7.85 90)
 		(size 0.8 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
@@ -1332,7 +1322,7 @@
 	(pad "20" smd roundrect
 		(at 4.85 6)
 		(size 0.8 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
@@ -1341,7 +1331,7 @@
 	(pad "21" smd roundrect
 		(at 4.85 5.2)
 		(size 0.8 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
@@ -1430,7 +1420,7 @@
 	(pad "32" smd roundrect
 		(at -2.4 -5.6)
 		(size 1.1 1.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.091)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin_ratio -0.07)
@@ -1439,7 +1429,7 @@
 	(pad "33" smd roundrect
 		(at -2.4 -2.4)
 		(size 1.1 1.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.091)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin_ratio -0.07)
@@ -1448,7 +1438,7 @@
 	(pad "34" smd roundrect
 		(at 0 -5.6)
 		(size 1.1 1.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.091)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin_ratio -0.07)
@@ -1457,7 +1447,7 @@
 	(pad "35" smd roundrect
 		(at 0 -2.4)
 		(size 1.1 1.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.091)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin_ratio -0.07)
@@ -1466,7 +1456,7 @@
 	(pad "36" smd roundrect
 		(at 2.4 -5.6)
 		(size 1.1 1.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.091)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin_ratio -0.07)
@@ -1475,7 +1465,7 @@
 	(pad "37" smd roundrect
 		(at 2.4 -2.4)
 		(size 1.1 1.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.091)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin_ratio -0.07)
@@ -1484,7 +1474,7 @@
 	(pad "38" smd roundrect
 		(at 3.55 1.6)
 		(size 1.2 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.091)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin_ratio -0.07)
@@ -1493,7 +1483,7 @@
 	(pad "39" smd roundrect
 		(at 3.55 3.8)
 		(size 1.2 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.091)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin_ratio -0.07)
@@ -1502,7 +1492,7 @@
 	(pad "40" smd roundrect
 		(at 0.335 2.79)
 		(size 1.85 2.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.054)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin_ratio -0.08)
@@ -1511,13 +1501,14 @@
 	(pad "41" smd roundrect
 		(at 0.335 5.11)
 		(size 1.85 2.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.054)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin_ratio -0.08)
 		(uuid "cace778f-8dd2-484b-89ac-53ecfd2759fd")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_QFN-41_10x16mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_QFN-41_10x16mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

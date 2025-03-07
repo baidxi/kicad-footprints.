@@ -1,7 +1,7 @@
 (footprint "LED-APA102-2020"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf")
 	(tags "LED RGB SPI")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "86a3457e-c02c-4c2c-8e95-52e3e7fc9414")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -246,6 +236,7 @@
 	)
 	(fp_text user "1"
 		(at -1.7 -0.9 0)
+		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "cf2c534f-7dd7-49cb-b2b8-f85f7f310dfb")
 		(effects
@@ -269,52 +260,53 @@
 	(pad "1" smd rect
 		(at -0.85 -0.9)
 		(size 0.8 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c2f9da17-dacc-4ba2-8c48-2ceb35595e71")
 	)
 	(pad "1" smd rect
 		(at 0 -0.83 90)
 		(size 1 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "31e13829-ee26-4e8d-810b-8d58d91ed6d0")
 	)
 	(pad "2" smd rect
 		(at -0.85 0)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0c1508c6-004a-411a-a2b3-1f9118b461a0")
 	)
 	(pad "3" smd rect
 		(at -0.85 0.9)
 		(size 0.8 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "759bc32c-4cf3-4cf8-904a-9f91faae40e1")
 	)
 	(pad "4" smd rect
 		(at 0.85 0.9)
 		(size 0.8 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ecbdd643-d2d8-4f75-a00e-ad19159c0aef")
 	)
 	(pad "5" smd rect
 		(at 0.85 0)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1299d3bb-85bb-493c-a22d-a37070d909ab")
 	)
 	(pad "6" smd rect
 		(at 0 0.59 90)
 		(size 1.48 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7ae34203-38d4-458f-858a-4c1b60036011")
 	)
 	(pad "6" smd rect
 		(at 0.85 -0.9)
 		(size 0.8 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "32997924-a0cf-48bb-a402-2a865f2d95ce")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED-APA102-2020.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED-APA102-2020.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

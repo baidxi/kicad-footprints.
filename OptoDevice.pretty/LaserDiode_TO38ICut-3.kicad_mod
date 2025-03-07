@@ -1,7 +1,7 @@
 (footprint "LaserDiode_TO38ICut-3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Laser Diode, TO-38-ICut, 3pin")
 	(tags "Laser Diode TO38-ICut")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6db5bf37-6639-4807-97b0-c84148144d86")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -153,7 +143,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "75201ab4-debf-462a-80d7-7afd4569e8eb")
 	)
@@ -246,7 +236,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b106ce9f-f479-4962-bf70-211475471620")
 	)
@@ -286,7 +276,8 @@
 		(remove_unused_layers no)
 		(uuid "eeb7bf95-a864-46b3-9a91-8ce1d52b3e70")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/LaserDiode_TO38ICut-3.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/LaserDiode_TO38ICut-3.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

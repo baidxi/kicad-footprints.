@@ -1,7 +1,7 @@
 (footprint "TSOP-6_1.65x3.05mm_P0.95mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TSOP-6 package (comparable to TSOT-23), https://www.vishay.com/docs/71200/71200.pdf")
 	(tags "Jedec MO-193C TSOP-6L")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ca184a43-6594-4e12-a359-6388f672d9ca")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "4c07ae21-9216-444f-9e2c-505c6d0139b1")
 	)
@@ -200,40 +190,41 @@
 	(pad "1" smd rect
 		(at -1.16 -0.95)
 		(size 0.7 0.51)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a8def91a-42b8-4d3b-9069-45010d9b4a90")
 	)
 	(pad "2" smd rect
 		(at -1.16 0)
 		(size 0.7 0.51)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "28c52adb-bf15-4178-9262-b566787ac0de")
 	)
 	(pad "3" smd rect
 		(at -1.16 0.95)
 		(size 0.7 0.51)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5eade189-788b-443f-b78b-3e8fb15239a4")
 	)
 	(pad "4" smd rect
 		(at 1.16 0.95)
 		(size 0.7 0.51)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "611a67e8-4cec-4a8e-bed4-71039100a45d")
 	)
 	(pad "5" smd rect
 		(at 1.16 0)
 		(size 0.7 0.51)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c5211d95-e445-4c0d-bc9f-1f849f6b6116")
 	)
 	(pad "6" smd rect
 		(at 1.16 -0.95)
 		(size 0.7 0.51)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5a88aa05-cc8a-45ab-8787-2bd89cf69933")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/TSOP-6_1.65x3.05mm_P0.95mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/TSOP-6_1.65x3.05mm_P0.95mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

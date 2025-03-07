@@ -1,7 +1,7 @@
 (footprint "L_Sagami_CWR1277C"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Sagami power inductor, CWR1242C, H=7.7mm (http://www.sagami-elec.co.jp/file/16Car_SMDCwr.pdf)")
 	(tags "inductor sagami cwr12xx smd")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "435c385a-ed9e-4bad-ab7e-41cb5a0c98de")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -321,7 +311,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "dd278441-cc02-4f70-ab33-3f25f5bf1a49")
 	)
@@ -339,28 +329,29 @@
 	(pad "1" smd rect
 		(at -5.35 0)
 		(size 2.5 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "62c0b1ec-42cd-46b9-bd76-2aa74e9cd459")
 	)
 	(pad "1" smd rect
 		(at 0 5.35)
 		(size 3.6 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2c71a052-697a-484b-bd27-ec8874372b79")
 	)
 	(pad "2" smd rect
 		(at 0 -5.35)
 		(size 3.6 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b9becca1-e2ec-4ac3-a6be-65d01d6b3204")
 	)
 	(pad "2" smd rect
 		(at 5.35 0)
 		(size 2.5 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3e6b1b71-b608-474f-be64-ad437bd1d36d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Sagami_CWR1277C.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Sagami_CWR1277C.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

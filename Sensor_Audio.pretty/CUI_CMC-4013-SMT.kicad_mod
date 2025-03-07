@@ -1,7 +1,7 @@
 (footprint "CUI_CMC-4013-SMT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Omnidirectional, -42dB, reflowable, electret condenser microphone https://www.cuidevices.com/product/resource/cmc-4013-smt-tr.pdf")
 	(tags "Microphone CUI ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0545f8af-1d03-4141-bdcd-fdf4cc50b2d9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "fb46afd3-f0e6-486f-9e3f-ae782ac95573")
 	)
@@ -82,7 +72,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "e7c54fe0-0def-433b-ad8f-0ba87ae4013c")
 	)
@@ -93,7 +83,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "75b11152-756c-46c2-a209-a532fd613898")
 	)
@@ -111,7 +101,7 @@
 	(pad "1" smd custom
 		(at 0 -1.375)
 		(size 0.75 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -130,10 +120,11 @@
 	(pad "2" smd circle
 		(at 0 0)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7beac5a1-e922-4dda-aa35-0582db7964dc")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Audio.3dshapes/CUI_CMC-4013-SMT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Audio.3dshapes/CUI_CMC-4013-SMT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Jack_6.35mm_Neutrik_NJ6TB-V_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "6.35mm (1/4 in) Vertical Jack, 3 x switching (normalling) stereo jack  B-gauge type (T/TN/R/RN/S/SN), https://www.neutrik.com/en/product/nj6tb-v")
 	(tags "neutrik jack vertical")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "919e2920-ed5d-4042-ab26-19b4211d2d2e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -345,7 +335,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "61f31843-c2df-4884-99ba-c4a3ab8d69ca")
 	)
@@ -422,7 +412,8 @@
 		(remove_unused_layers no)
 		(uuid "5afb179c-8242-4a8b-a647-f6d18ce4088b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_6.35mm_Neutrik_NJ6TB-V_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_6.35mm_Neutrik_NJ6TB-V_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

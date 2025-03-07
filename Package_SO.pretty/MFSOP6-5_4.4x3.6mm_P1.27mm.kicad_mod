@@ -1,7 +1,7 @@
 (footprint "MFSOP6-5_4.4x3.6mm_P1.27mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://toshiba.semicon-storage.com/ap-en/design-support/package/detail.5pin%20MFSOP6.html")
 	(tags "MFSOP 4 pin SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "77336b1d-9125-45b2-bbaf-02e0c23ff300")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "22ffa95c-f263-46d6-ba93-6ec6a4c11baf")
 	)
@@ -200,34 +190,35 @@
 	(pad "1" smd rect
 		(at -3.15 -1.27)
 		(size 1.2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "00e9a9bd-470f-4182-8571-8c3d6bb4d93b")
 	)
 	(pad "3" smd rect
 		(at -3.15 1.27)
 		(size 1.2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bcacfd32-83de-4bdd-aaaf-90a91ca48489")
 	)
 	(pad "4" smd rect
 		(at 3.15 1.27)
 		(size 1.2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5b902d57-9056-4602-85a3-5852835b5ab2")
 	)
 	(pad "5" smd rect
 		(at 3.15 0)
 		(size 1.2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "71646aa3-2eef-4a5b-8cad-102ee60e3840")
 	)
 	(pad "6" smd rect
 		(at 3.15 -1.27)
 		(size 1.2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f1ae16a0-9e13-4177-bb2d-dd5d6e893f75")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/MFSOP6-5_4.4x3.6mm_P1.27mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/MFSOP6-5_4.4x3.6mm_P1.27mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

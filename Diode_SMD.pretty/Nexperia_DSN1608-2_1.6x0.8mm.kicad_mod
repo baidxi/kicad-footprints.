@@ -1,7 +1,7 @@
 (footprint "Nexperia_DSN1608-2_1.6x0.8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode SMD DSN1608, 1.6 x 0.8 x 0.29 mm, https://assets.nexperia.com/documents/package-information/SOD964.pdf")
 	(tags "diode SOD964 SOD-964")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "22c73a1c-f1cd-448f-a72d-72dbf947ef4c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -198,18 +188,19 @@
 	(pad "1" smd roundrect
 		(at -0.285 0)
 		(size 0.93 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1071428571)
 		(uuid "894630a8-7f08-4c9a-b0a5-8bfa2f56a43e")
 	)
 	(pad "2" smd roundrect
 		(at 0.6 0)
 		(size 0.3 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8c6ab925-4dc9-454c-a480-e35a0693af67")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/Nexperia_DSN1608-2_1.6x0.8mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/Nexperia_DSN1608-2_1.6x0.8mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

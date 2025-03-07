@@ -1,7 +1,7 @@
 (footprint "Filter_1109-5_1.1x0.9mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "5-pin SAW filter package - 1.1x0.9 mm Body; (see https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en-gb)")
 	(tags "Filter 5")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9ff58c68-de37-4464-a3eb-8e95cd88545a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,7 +102,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "a76db16e-dbea-4d92-a5bc-ce14f232230a")
 	)
@@ -240,34 +230,35 @@
 	(pad "1" smd rect
 		(at -0.385 0 90)
 		(size 0.25 0.18)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "51ce9031-6904-4996-bd6f-3f6719db6d23")
 	)
 	(pad "2" smd rect
 		(at 0 0.25 90)
 		(size 0.25 0.18)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2a4c9e62-8a54-4fe2-b979-8db5a9a2edef")
 	)
 	(pad "3" smd rect
 		(at 0.385 0.25 90)
 		(size 0.25 0.18)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fcf5eecd-b261-4c30-8034-bbf2026a1cea")
 	)
 	(pad "4" smd rect
 		(at 0.385 -0.25 90)
 		(size 0.25 0.18)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8148804a-843d-4b62-8d51-3e6accd654ad")
 	)
 	(pad "5" smd rect
 		(at 0 -0.25 90)
 		(size 0.25 0.18)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7cfffc7f-1f9c-4999-92a5-4fe879a82627")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Filter.3dshapes/Filter_1109-5_1.1x0.9mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_1109-5_1.1x0.9mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

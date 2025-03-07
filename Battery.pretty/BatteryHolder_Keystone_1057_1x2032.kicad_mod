@@ -1,10 +1,10 @@
 (footprint "BatteryHolder_Keystone_1057_1x2032"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMT (Auto-In/Ultra-Low) Holder for 2032 Cell, 33.2 x 23.9mm, 2mm height above PCB, https://www.keyelco.com/userAssets/file/M65p4.pdf")
-	(tags "Keystone type 1057 coin cell holder")
+	(tags "Keystone type 1057 coin cell holder CR2032")
 	(property "Reference" "REF**"
 		(at -14.1 -4.4 0)
 		(layer "F.SilkS")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "59a012f6-c85d-4bcc-84c9-5a521e91fdbd")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -1165,13 +1155,12 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "56f55bb6-4eed-416b-b118-9d46bea66843")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "481f39ad-7433-4f1e-a6a6-b6493375371d")
 		(effects
@@ -1184,7 +1173,7 @@
 	(pad "1" smd custom
 		(at -15.15 -0.1)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -1207,7 +1196,7 @@
 	(pad "2" smd custom
 		(at 15.15 0.1 180)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -1227,7 +1216,8 @@
 		)
 		(uuid "89dba8ed-6d52-4248-8ebf-04e6c6c88d41")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_1057_1x2032.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_1057_1x2032.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

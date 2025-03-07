@@ -1,7 +1,7 @@
 (footprint "SW_SPST_CK_KMS2xxGP"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm with pegs, https://www.ckswitches.com/media/1482/kms.pdf")
 	(tags "Switch SPST KMS2")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4092cdf9-2d44-408c-8c41-a8b3dd4001dd")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -242,39 +232,40 @@
 	(pad "1" smd roundrect
 		(at -2.05 -0.8)
 		(size 0.9 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "9e54a0a2-bae3-43a0-ad1c-340aa902991a")
 	)
 	(pad "1" smd roundrect
 		(at 2.05 -0.8)
 		(size 0.9 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "e140da40-ce5a-4bbc-90f0-8cab8354a4bb")
 	)
 	(pad "2" smd roundrect
 		(at -2.05 0.8)
 		(size 0.9 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "52c13023-3526-4722-84de-88b449f83f1a")
 	)
 	(pad "2" smd roundrect
 		(at 2.05 0.8)
 		(size 0.9 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "9b489588-2b93-4ff1-9b41-34be065b4d77")
 	)
 	(pad "SH" smd roundrect
 		(at 0 -1.425)
 		(size 1.7 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "f55d981b-9aa5-42c3-9ede-9f7fa9e13baf")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_CK_KMS2xxGP.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_CK_KMS2xxGP.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

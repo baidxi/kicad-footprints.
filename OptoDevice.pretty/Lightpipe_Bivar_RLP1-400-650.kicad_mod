@@ -1,7 +1,7 @@
 (footprint "Lightpipe_Bivar_RLP1-400-650"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1-way, 2.8mm lightpipe, 10mm lens output height, 17mm protrusion, https://www.bivar.com/parts_content/Datasheets/RLP1-XXX-XXX.pdf")
 	(tags "planar light pipe 1 way 3mm ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b3880c37-20ec-4210-a19e-ac8dcabb5003")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -190,7 +180,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "0efc3081-3970-4287-8f6d-f1ca0c9eb7f5")
 	)
@@ -201,7 +191,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "9f286897-a5ef-46c5-8709-891096f975a0")
 	)
@@ -482,7 +472,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "dc3fe435-797e-42df-8bc8-189debf1cc04")
 	)
@@ -493,7 +483,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4edb851e-efde-494c-8fb0-e0e26c008d36")
 	)
@@ -522,7 +512,8 @@
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "167c6c45-88e8-466b-8e3b-8bd77359c54b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Lightpipe_Bivar_RLP1-400-650.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Lightpipe_Bivar_RLP1-400-650.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

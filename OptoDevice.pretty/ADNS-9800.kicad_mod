@@ -1,7 +1,7 @@
 (footprint "ADNS-9800"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Laser Gaming Sensor ADNS-9800")
 	(tags "MOUSE MOUSE_SENSOR LASER_GAMING_SENSOR")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c37a431b-60f4-49b6-8747-9e5292a6ded6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -111,7 +101,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "04b589ef-cc60-44ea-b4f8-60db42426a11")
 	)
@@ -415,7 +405,8 @@
 		(remove_unused_layers no)
 		(uuid "a549d628-b99e-4bd4-979d-0a52b753b34a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/ADNS-9800.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/ADNS-9800.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

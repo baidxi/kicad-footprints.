@@ -1,7 +1,7 @@
 (footprint "SOT-89-5"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SOT-89-5, http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf")
 	(tags "SOT-89-5")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "10d9e10f-63b9-4cc4-ba99-426a2a381d7a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "b4258580-ac50-4d3e-9ef1-602b2a720a08")
 	)
@@ -200,14 +190,14 @@
 	(pad "1" smd roundrect
 		(at -1.85 -1.5)
 		(size 1.5 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e4e0869e-0959-4efe-8a1d-057480487b87")
 	)
 	(pad "2" smd custom
 		(at 0 0)
 		(size 0.8 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -229,25 +219,26 @@
 	(pad "3" smd roundrect
 		(at -1.85 1.5)
 		(size 1.5 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6d4b224c-1ee7-4238-99df-7fbf6960f19d")
 	)
 	(pad "4" smd roundrect
 		(at 1.85 1.5)
 		(size 1.5 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a82d6b38-4b2c-4d78-8303-ed639de52e24")
 	)
 	(pad "5" smd roundrect
 		(at 1.85 -1.5)
 		(size 1.5 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c6a18651-78f9-43bc-bd65-9a4d089866c6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-89-5.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-89-5.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

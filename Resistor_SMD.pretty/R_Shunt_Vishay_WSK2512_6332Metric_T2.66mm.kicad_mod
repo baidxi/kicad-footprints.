@@ -1,7 +1,7 @@
 (footprint "R_Shunt_Vishay_WSK2512_6332Metric_T2.66mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Shunt Resistor SMD 2512 (6332 Metric), 2.6mm thick, Vishay WKS2512, Terminal length (T) 2.66mm, 0.5 to 0.99 milli Ohm (http://http://www.vishay.com/docs/30108/wsk.pdf)")
 	(tags "resistor shunt WSK2512")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c4fea9ed-4835-4dd4-8196-63b94dcb7411")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -258,32 +248,33 @@
 	(pad "1" smd roundrect
 		(at -2.48 -0.635)
 		(size 3.3 2.03)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.12)
 		(uuid "8c0b699f-31c3-4243-b91b-7777f57d94ed")
 	)
 	(pad "2" smd roundrect
 		(at -3.43 1.27)
 		(size 1.4 0.76)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d8123fe4-1675-4181-9693-1728438bb1f2")
 	)
 	(pad "3" smd roundrect
 		(at 3.43 -1.27)
 		(size 1.4 0.76)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e30fc10f-c18f-46b7-8904-8923d6967eff")
 	)
 	(pad "4" smd roundrect
 		(at 2.48 0.635)
 		(size 3.3 2.03)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.12)
 		(uuid "c90b701e-aaf3-4a78-a42f-dab8bac50024")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSK2512_6332Metric_T2.66mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSK2512_6332Metric_T2.66mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

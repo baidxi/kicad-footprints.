@@ -1,7 +1,7 @@
 (footprint "Resonator_Murata_CSTLSxxxX-3Pin_W5.5mm_H3.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Ceramic Resomator/Filter Murata CSTLSxxxX, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p17e.ashx, length*width=5.5x3.0mm^2 package, package length=5.5mm, package width=3.0mm, 3 pins")
 	(tags "THT ceramic resonator filter CSTLSxxxX")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d8ac6472-b5ef-48b7-9411-d997e35da248")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -287,7 +277,8 @@
 		(remove_unused_layers no)
 		(uuid "bf752256-15cb-4f49-a33a-f0f404fe7fce")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Resonator_Murata_CSTLSxxxX-3Pin_W5.5mm_H3.0mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Resonator_Murata_CSTLSxxxX-3Pin_W5.5mm_H3.0mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

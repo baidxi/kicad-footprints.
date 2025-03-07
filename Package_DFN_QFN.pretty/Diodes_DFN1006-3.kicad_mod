@@ -1,7 +1,7 @@
 (footprint "Diodes_DFN1006-3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DFN package size 1006 3 pins")
 	(tags "DFN package size 1006 3 pins")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "676ffef8-47a6-4c3b-9426-580df0f1bbba")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ebee68db-1c1d-49bb-836a-f1b2be4352fc")
 	)
@@ -200,22 +190,23 @@
 	(pad "1" smd rect
 		(at -0.35 -0.225 270)
 		(size 0.25 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "efeb73e5-01a6-4797-bf31-7a87e00b4faa")
 	)
 	(pad "2" smd rect
 		(at -0.35 0.225 270)
 		(size 0.25 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "50274a8c-1f5d-4552-9e37-f59368946d84")
 	)
 	(pad "3" smd rect
 		(at 0.35 0 270)
 		(size 0.7 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "68185bfd-a946-4ce5-8acd-cd49692bb628")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_DFN1006-3.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_DFN1006-3.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

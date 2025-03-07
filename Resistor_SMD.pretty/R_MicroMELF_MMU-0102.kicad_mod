@@ -1,7 +1,7 @@
 (footprint "R_MicroMELF_MMU-0102"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Resistor, MicroMELF, MMU-0102, http://www.vishay.com/docs/28713/melfprof.pdf")
 	(tags "MicroMELF Resistor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3fc55e75-8873-4041-b739-e193c4c87798")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -198,16 +188,17 @@
 	(pad "1" smd rect
 		(at -0.95 0)
 		(size 1.2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c43f1c71-d317-477c-b112-f522a3fa3228")
 	)
 	(pad "2" smd rect
 		(at 0.95 0)
 		(size 1.2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b449e48e-d2e2-4652-8ef9-28d0c134ce64")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_MicroMELF_MMU-0102.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_MicroMELF_MMU-0102.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Osram_BPW82"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PhotoDiode, BPW82, RM2.54")
 	(tags "PhotoDiode BPW82 RM2.54")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "31b096c0-e187-40dc-82c6-21c4f35d282e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -262,7 +252,8 @@
 		(remove_unused_layers no)
 		(uuid "bec1dcba-4001-42f1-988b-07e420279395")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Osram_BPW82.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Osram_BPW82.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

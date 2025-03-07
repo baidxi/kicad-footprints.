@@ -1,7 +1,7 @@
 (footprint "Filter_Murata_BNX025_ThermalVias"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.murata.com/en-us/products/productdata/8796778004510/QNFH9101.pdf?1496719830000")
 	(tags "EMI Filter")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d1509611-fa4c-4a9a-9926-68742cad82c5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -172,7 +162,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "2f5765d7-9112-4796-8ebf-cd9afded2c6a")
 	)
@@ -280,20 +270,20 @@
 	(pad "1" smd rect
 		(at -6.85 -2.15)
 		(size 3.8 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eee26108-69fa-4d69-9c52-6790c8b5b765")
 	)
 	(pad "2" smd rect
 		(at 6.85 -2.15)
 		(size 3.8 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.5)
 		(uuid "9d9d1341-9e8e-4f53-a161-5a0ce4758067")
 	)
 	(pad "3" smd rect
 		(at -6.85 2.15)
 		(size 3.8 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7dbc3f2a-a69b-4f2c-abd8-d638ba53c09a")
 	)
 	(pad "4" thru_hole circle
@@ -351,7 +341,7 @@
 	(pad "4" smd rect
 		(at 1 5.05)
 		(size 7.9 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "963f0171-8074-4c29-8c2b-67b5bf71cf42")
 	)
@@ -376,7 +366,7 @@
 	(pad "4" smd rect
 		(at 3.25 -5.15)
 		(size 3.4 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "18bd52b5-2c73-4e44-827e-89308361e88e")
 	)
@@ -417,7 +407,7 @@
 	(pad "4" smd rect
 		(at 6.85 2.15)
 		(size 3.8 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "7c4ea09c-bd52-464f-9107-e22e8378427d")
 	)
@@ -430,7 +420,8 @@
 		(zone_connect 2)
 		(uuid "72536e38-aa33-4e8d-ab4c-9006980933fb")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Filter.3dshapes/Filter_Murata_BNX025.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_Murata_BNX025.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

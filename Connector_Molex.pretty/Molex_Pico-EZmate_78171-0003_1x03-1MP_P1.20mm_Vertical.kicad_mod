@@ -1,7 +1,7 @@
 (footprint "Molex_Pico-EZmate_78171-0003_1x03-1MP_P1.20mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Pico-EZmate series connector, 78171-0003 (http://www.molex.com/pdm_docs/sd/781710002_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex Pico-EZmate side entry")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dcf6fad7-cf73-42e8-b6db-915c152ab2d3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -348,39 +338,40 @@
 	(pad "1" smd roundrect
 		(at -1.2 -1.875)
 		(size 0.6 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "af61cb9c-b49f-45ad-bb64-33c89ef22706")
 	)
 	(pad "2" smd roundrect
 		(at 0 -1.875)
 		(size 0.6 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5c975d90-9726-428e-9d9c-32f0ef81620a")
 	)
 	(pad "3" smd roundrect
 		(at 1.2 -1.875)
 		(size 0.6 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a5ce8e26-9135-4c15-bacd-f7bf986ceb0c")
 	)
 	(pad "MP" smd roundrect
 		(at -2.35 1.9)
 		(size 0.7 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "dd9081c4-651a-4e56-8b03-b539ab90ef37")
 	)
 	(pad "MP" smd roundrect
 		(at 2.35 1.9)
 		(size 0.7 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d47fd00f-215c-46cc-b321-abc434fa5354")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Pico-EZmate_78171-0003_1x03-1MP_P1.20mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Pico-EZmate_78171-0003_1x03-1MP_P1.20mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

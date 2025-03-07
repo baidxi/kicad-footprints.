@@ -1,7 +1,7 @@
 (footprint "TDSON-8-1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Power MOSFET package, TDSON-8-1, 5.15x5.9mm (https://www.infineon.com/cms/en/product/packages/PG-TDSON/PG-TDSON-8-1/)")
 	(tags "tdson ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "37781dc5-2988-4fc7-a8e7-84de9055e987")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "da28e3b8-9c92-4eba-9c46-9e5f1fd329ac")
 	)
@@ -298,7 +288,7 @@
 	(pad "1" smd roundrect
 		(at -2.9 -1.905)
 		(size 0.85 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.05)
 		(uuid "e9ecc6e8-9911-474e-88a9-b1f5cc27bc01")
@@ -306,7 +296,7 @@
 	(pad "2" smd roundrect
 		(at -2.9 -0.635)
 		(size 0.85 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.05)
 		(uuid "3cf59e9b-0b26-457e-a579-7a11f52095a7")
@@ -314,7 +304,7 @@
 	(pad "3" smd roundrect
 		(at -2.9 0.635)
 		(size 0.85 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.05)
 		(uuid "14557808-5b05-4891-b067-6c369fc57561")
@@ -322,7 +312,7 @@
 	(pad "4" smd roundrect
 		(at -2.9 1.905)
 		(size 0.85 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.05)
 		(uuid "ee2ca3b3-94ca-4f31-9a0c-fd70476ad95c")
@@ -333,7 +323,8 @@
 		(layers "F.Cu")
 		(uuid "5e34a37c-c0b8-45f3-9b18-e6d17846a2aa")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TDSON-8-1.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TDSON-8-1.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

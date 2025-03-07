@@ -1,19 +1,9 @@
 (footprint "L_KOHERelec_MDA7030"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Inductor, KOHERelec, MDA7030, 7.1x6.6x2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2401252310_KOHERelec-MDA7030-220M_C2847487.pdf")
+	(descr "Inductor, KOHERelec, MDA7030, 7.1x6.6x2.8mm, (http://www.kohergroup.com/template/default/pdf/MDA7030.pdf), generated with kicad-footprint-generator gen_inductor.py")
 	(tags "Inductor high-current power shielded")
-	(property "Reference" "REF**"
-		(at 0 -4.3 0)
-		(layer "F.SilkS")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Value" "L_KOHERelec_MDA7030"
 		(at 0 4.3 0)
 		(layer "F.Fab")
@@ -24,42 +14,70 @@
 			)
 		)
 	)
+	(property "Reference" "REF**"
+		(at 0 -4.3 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
 	(fp_line
-		(start -3.55 -3.3)
-		(end -3.55 3.3)
+		(start -3.81 -3.56)
+		(end -3.81 -1.96)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -3.55 3.3)
-		(end 3.55 3.3)
+		(start -3.81 -3.56)
+		(end 3.81 -3.56)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 3.55 3.3)
-		(end 3.55 -3.3)
+		(start -3.81 3.56)
+		(end -3.81 1.96)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 3.55 -3.3)
-		(end -3.55 -3.3)
+		(start -3.81 3.56)
+		(end 3.81 3.56)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 3.81 -3.56)
+		(end 3.81 -1.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 3.81 3.56)
+		(end 3.81 1.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
 	)
 	(fp_line
 		(start -4.25 -3.55)
@@ -80,15 +98,6 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 4.25 3.55)
-		(end 4.25 -3.55)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
 		(start 4.25 -3.55)
 		(end -4.25 -3.55)
 		(stroke
@@ -98,68 +107,49 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -3.81 -3.56)
-		(end 3.81 -3.56)
+		(start 4.25 3.55)
+		(end 4.25 -3.55)
 		(stroke
-			(width 0.12)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -3.81 3.56)
-		(end 3.81 3.56)
+		(start -3.55 -3.3)
+		(end -3.55 3.3)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 	)
 	(fp_line
-		(start -3.81 -3.56)
-		(end -3.81 -1.96)
+		(start -3.55 3.3)
+		(end 3.55 3.3)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 	)
 	(fp_line
-		(start 3.81 -3.56)
-		(end 3.81 -1.96)
+		(start 3.55 -3.3)
+		(end -3.55 -3.3)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 	)
 	(fp_line
-		(start -3.81 3.56)
-		(end -3.81 1.96)
+		(start 3.55 3.3)
+		(end 3.55 -3.3)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 3.81 3.56)
-		(end 3.81 1.96)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(pad "1" smd rect
-		(at -2.85 0)
-		(size 2.3 3.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-	)
-	(pad "2" smd rect
-		(at 2.85 0)
-		(size 2.3 3.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
@@ -171,7 +161,20 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_KOHERelec_MDA7030.wrl"
+	(pad "1" smd roundrect
+		(at -2.85 0)
+		(size 2.3 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.108696)
+	)
+	(pad "2" smd roundrect
+		(at 2.85 0)
+		(size 2.3 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.108696)
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_KOHERelec_MDA7030.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

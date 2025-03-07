@@ -1,7 +1,7 @@
 (footprint "LED_ROHM_SMLVN6"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.rohm.com/datasheet/SMLVN6RGB1U")
 	(tags "LED ROHM SMLVN6")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "56fb32ac-4904-4712-9840-114bb6123eaf")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,29 +49,42 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_line
-		(start -2.19 -1.7)
-		(end 1.525 -1.7)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "1b420934-e783-4605-9f61-405e5622aede")
-	)
-	(fp_line
-		(start -1.525 1.7)
-		(end 1.525 1.7)
+		(start -1.525 1.65)
+		(end 1.525 1.65)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "c0a7bc1b-f2ff-4edb-851f-092d6a0581e7")
+	)
+	(fp_line
+		(start 1.525 -1.65)
+		(end -1.525 -1.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b4e608f-1662-46bf-acbb-90744052e2ab")
+	)
+	(fp_poly
+		(pts
+			(xy -1.95 -1.65) (xy -2.19 -1.98) (xy -1.71 -1.98) (xy -1.95 -1.65)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d6fd969e-5b34-45eb-bad8-27248344c48c")
 	)
 	(fp_line
 		(start -2.55 -1.8)
@@ -188,46 +190,47 @@
 	(pad "1" smd roundrect
 		(at -1.525 -1.05)
 		(size 1.45 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "f5a65c0e-6e99-4574-84b4-532e67bb8a48")
 	)
 	(pad "2" smd roundrect
 		(at -1.525 0)
 		(size 1.45 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "5f565941-b1a4-4b6c-a3d0-78e3052060e5")
 	)
 	(pad "3" smd roundrect
 		(at -1.525 1.05)
 		(size 1.45 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "3ca90855-29da-4791-99f4-edfd0a58ade4")
 	)
 	(pad "4" smd roundrect
 		(at 1.525 1.05)
 		(size 1.45 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "e8b13e26-262b-43bd-ae8d-4dfecb87dd64")
 	)
 	(pad "5" smd roundrect
 		(at 1.525 0)
 		(size 1.45 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "c90ea318-45c1-4eb5-a044-30dc7265c61b")
 	)
 	(pad "6" smd roundrect
 		(at 1.525 -1.05)
 		(size 1.45 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "006c73f8-e449-4d83-ac6c-f235ba0bb69d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_ROHM_SMLVN6.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_ROHM_SMLVN6.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

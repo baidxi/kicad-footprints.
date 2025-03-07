@@ -1,7 +1,7 @@
 (footprint "Samtec_HSEC8-125-X-X-DV_2x25_P0.8mm_Wing_Edge"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Highspeed card edge for PCB's with 2x25 contacts (with horizontal Edge.Cuts ends)")
 	(tags "conn samtec card-edge high-speed")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f623a10d-ff30-4043-9da4-1b3f3e92a36b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,30 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_line
-		(start -12.225 -6.4)
-		(end -12.225 -6.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "d52caa71-24e8-4568-8a17-8708908f7638")
-	)
-	(fp_line
-		(start -12.225 -6.4)
-		(end 12.225 -6.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "83c13321-cd00-47d4-8a0a-2213a577529b")
-	)
 	(fp_line
 		(start -12.225 -5.13)
 		(end -10.955 -6.4)
@@ -103,6 +73,26 @@
 		)
 		(layer "F.SilkS")
 		(uuid "0af1bd96-228e-4fb3-9430-c3a6dd8e72dc")
+	)
+	(fp_line
+		(start -12.225 -6.4)
+		(end -12.225 -6.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "d52caa71-24e8-4568-8a17-8708908f7638")
+	)
+	(fp_line
+		(start -12.225 -6.4)
+		(end 12.225 -6.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "83c13321-cd00-47d4-8a0a-2213a577529b")
 	)
 	(fp_line
 		(start -12.225 2.05)
@@ -417,6 +407,50 @@
 		(layer "F.Fab")
 		(uuid "a0b360d3-8bc0-47de-9907-39789918797f")
 	)
+	(fp_text user "49"
+		(at 10.825 -4.55 0)
+		(layer "F.SilkS")
+		(uuid "05dae242-cd5c-4d49-9e8a-161d9765350a")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "13"
+		(at -2.825 -4.55 0)
+		(layer "F.SilkS")
+		(uuid "83427716-b351-47ff-b097-45dae8244f5e")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "1"
+		(at -11.2 -4.55 0)
+		(layer "F.SilkS")
+		(uuid "bf918a41-c76d-45f3-aa13-7a2d4f2c4292")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "11"
+		(at -7.575 -4.55 0)
+		(layer "F.SilkS")
+		(uuid "ca08b39a-5544-447b-a279-83927db9a3fb")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "2"
 		(at -11.2 -4.55 0)
 		(layer "B.SilkS")
@@ -463,50 +497,6 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
-		)
-	)
-	(fp_text user "49"
-		(at 10.825 -4.55 0)
-		(layer "F.SilkS")
-		(uuid "05dae242-cd5c-4d49-9e8a-161d9765350a")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "13"
-		(at -2.825 -4.55 0)
-		(layer "F.SilkS")
-		(uuid "83427716-b351-47ff-b097-45dae8244f5e")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "1"
-		(at -11.2 -4.55 0)
-		(layer "F.SilkS")
-		(uuid "bf918a41-c76d-45f3-aa13-7a2d4f2c4292")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "11"
-		(at -7.575 -4.55 0)
-		(layer "F.SilkS")
-		(uuid "ca08b39a-5544-447b-a279-83927db9a3fb")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-			)
 		)
 	)
 	(fp_text user "Chamfer 30 degree 0.45 mm"
@@ -855,4 +845,5 @@
 		(layers "B.Cu" "B.Mask")
 		(uuid "62beb264-44db-4f31-a7a6-b9ff22dd9685")
 	)
+	(embedded_fonts no)
 )

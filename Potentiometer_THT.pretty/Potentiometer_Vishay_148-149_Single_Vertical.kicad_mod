@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Vishay_148-149_Single_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Potentiometer, vertical, Vishay 148-149 Single, http://www.vishay.com/docs/57040/148149.pdf")
 	(tags "Potentiometer vertical Vishay 148-149 Single")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d86dfe1d-35e8-46ae-b909-62cdb93aefcb")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -221,7 +211,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a2e0c4d4-43cf-4c3c-99e7-1145450431ba")
 	)
@@ -260,7 +250,8 @@
 		(remove_unused_layers no)
 		(uuid "6834a497-1833-4a50-b073-3f64a9df0d4b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Vishay_148-149_Single_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Vishay_148-149_Single_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

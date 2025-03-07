@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Murata_MYRxP"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Murata MYRxP PicoBK DC/DC converter with inductor, 2x2.5mm, height 1.04mm. https://www.murata.com/en-global/products/power/nonisolated-dc-dc-converter/overview/lineup/picobk")
 	(tags "PicoBK DC/DC MYRBP MYRGP MYRLP")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "efb6c2d3-bddb-4566-96f3-e1ec7a1301ac")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -206,7 +196,7 @@
 		(uuid "f1211c27-9f2d-4a51-96c3-5a53475cf26d")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(uuid "b617e55e-fc36-4e28-aff2-f2cd7dd0a717")
 		(effects
@@ -351,7 +341,8 @@
 		(chamfer bottom_left)
 		(uuid "b0266596-6388-4534-964b-576af54d8231")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Murata_MYRxP.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Murata_MYRxP.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

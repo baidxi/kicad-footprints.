@@ -1,7 +1,7 @@
 (footprint "Diodes_PowerDI3333-8_UXC_3.3x3.3mm_P0.65mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diodes Incorporated PowerDI3333-8 UXC, 3.05x3.05x0.8mm Body, https://www.diodes.com/assets/Package-Files/PowerDI3333-8%20(Type%20UXC).pdf")
 	(tags "PowerDI 0.65")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c25d5ef2-0bd4-40eb-923c-123cc3ee33af")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -122,7 +112,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "4800fb50-c424-41e7-a7c3-a8052ddc1f74")
 	)
@@ -133,7 +123,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "005c8060-a859-41c9-bb17-8cbf666eb3de")
 	)
@@ -261,7 +251,7 @@
 	(pad "1" smd roundrect
 		(at -1.5 -0.975 270)
 		(size 0.42 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "9155860a-2901-40df-afff-95fb073a0e52")
@@ -269,7 +259,7 @@
 	(pad "2" smd roundrect
 		(at -1.5 -0.325 270)
 		(size 0.42 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "81c46294-5751-4ab3-964d-decd354bc30d")
@@ -277,7 +267,7 @@
 	(pad "3" smd roundrect
 		(at -1.5 0.325 270)
 		(size 0.42 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "127f1ba8-fe5d-4fd2-8dbd-ab9415fb435c")
@@ -285,7 +275,7 @@
 	(pad "4" smd roundrect
 		(at -1.5 0.975 270)
 		(size 0.42 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "514fcb18-1198-4b71-9bc6-4a534f421e03")
@@ -332,7 +322,8 @@
 		)
 		(uuid "0b1b5349-ac66-47a3-895a-2048eb3f5a7a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/Diodes_PowerDI3333-8_UXC_3.3x3.3mm_P0.65mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/Diodes_PowerDI3333-8_UXC_3.3x3.3mm_P0.65mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

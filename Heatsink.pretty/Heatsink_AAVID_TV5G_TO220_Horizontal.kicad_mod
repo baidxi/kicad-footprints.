@@ -1,7 +1,7 @@
 (footprint "Heatsink_AAVID_TV5G_TO220_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Heatsink TV5G TO-220 Horizontal, https://www.shopaavid.com/Product/TV-5G")
 	(tags "Heatsink TV5G TO-220 Horizontal ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bad378ab-4cb1-40c8-9db3-b183c06961b4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -431,7 +421,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "046bf22f-3946-4a1d-a221-c8b916ecb86a")
 	)
@@ -1032,7 +1022,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f213c53c-5176-4944-b9db-f48af264caa7")
 	)
@@ -1047,7 +1037,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_AAVID_TV5G_TO220_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_AAVID_TV5G_TO220_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

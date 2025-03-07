@@ -1,7 +1,7 @@
 (footprint "Texas_DRC0010J_ThermalVias"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas DRC0010J, VSON10 3x3mm Body, 0.5mm Pitch,  http://www.ti.com/lit/ds/symlink/tps63000.pdf")
 	(tags "Texas VSON10 3x3mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "86d58215-3e36-4332-beff-9d2423ab5a4e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -142,7 +132,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ad41bdb4-a3f4-4030-88e4-bd7339e07376")
 	)
@@ -298,70 +288,70 @@
 	(pad "1" smd roundrect
 		(at -1.4 -1)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3f7de869-47e2-4f32-a8cd-c71726da10ee")
 	)
 	(pad "2" smd roundrect
 		(at -1.4 -0.5)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "995986f9-1877-47c8-a25d-875d168f3395")
 	)
 	(pad "3" smd roundrect
 		(at -1.4 0)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "64bb0552-bc73-4e6d-bb49-69ce8956d988")
 	)
 	(pad "4" smd roundrect
 		(at -1.4 0.5)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c56dc423-cfb0-48e1-853f-06e7ddfcf445")
 	)
 	(pad "5" smd roundrect
 		(at -1.4 1)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4b0e0739-2e07-4791-9f38-dfc69983b7a4")
 	)
 	(pad "6" smd roundrect
 		(at 1.4 1)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "fe72a776-3449-4f22-816c-5ecc143aaace")
 	)
 	(pad "7" smd roundrect
 		(at 1.4 0.5)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a5ad3e66-2fed-4912-86c3-01d973f00028")
 	)
 	(pad "8" smd roundrect
 		(at 1.4 0)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "db4dc37e-c09a-4c5a-a2c4-c430d17b548e")
 	)
 	(pad "9" smd roundrect
 		(at 1.4 -0.5)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "fa7e8e9f-1158-48a2-814f-9e876301d2e5")
 	)
 	(pad "10" smd roundrect
 		(at 1.4 -1)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "39793d8a-7d79-4db6-816b-0704b818ee8a")
 	)
@@ -419,7 +409,8 @@
 		(remove_unused_layers no)
 		(uuid "ecbc4810-a7c7-4a87-ad0d-4f557f466b35")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/Texas_DRC0010J.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/Texas_DRC0010J.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

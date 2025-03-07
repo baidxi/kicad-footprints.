@@ -1,7 +1,7 @@
 (footprint "Texas_RWH0032A_ThermalVias"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments, RWH0032A, 8x8x0.9mm (http://www.ti.com/lit/ds/snosd10c/snosd10c.pdf)")
 	(tags "ti rwh0032a")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0da1a4b8-a210-40af-8a05-dc3a17b69194")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -113,7 +103,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "1319cc06-c56f-421d-b747-3a0b14e45fb9")
 	)
@@ -487,7 +477,7 @@
 	(pad "1" smd roundrect
 		(at -3.8 -3.45)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.055)
 		(solder_paste_margin -0.07)
 		(uuid "09144562-6658-4011-b718-6f3a3a97ecfa")
@@ -558,7 +548,7 @@
 	(pad "11" smd roundrect
 		(at -3.8 3.45)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.055)
 		(solder_paste_margin -0.07)
 		(uuid "d518fbc2-0b8b-4614-adbf-ca1469fe419b")
@@ -601,7 +591,7 @@
 	(pad "17" smd roundrect
 		(at 3.8 3.45)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.055)
 		(solder_paste_margin -0.07)
 		(uuid "52708cb0-ab46-4e96-b81c-ee5f07bd9169")
@@ -672,7 +662,7 @@
 	(pad "27" smd roundrect
 		(at 3.8 -3.45)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.055)
 		(solder_paste_margin -0.07)
 		(uuid "06a5c997-a186-4ba3-8563-a2979e0da66e")
@@ -902,7 +892,8 @@
 		(remove_unused_layers no)
 		(uuid "d9e49441-08a9-4af8-95f6-7510125dfb6e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RWH0032A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RWH0032A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

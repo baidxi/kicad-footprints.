@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Silvertel_Ag99xxLP_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Converter, DCDC, Silvertel Ag9900 PoE, 1500VDC isolation, Vin 36V - 75V, 4.9W - 10W output, https://silvertel.com/images/datasheets/Ag9900M-datasheet-ultra-miniature-isolated-Power-over-Ethernet-POE-module.pdf")
 	(tags "DCDC converter IEEE 802.3af")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e0ea4bb9-0f15-4d8f-b7a3-08f37fd0398a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -235,7 +225,7 @@
 		(uuid "08e2d62f-f99a-4268-8b33-617dfcc63e75")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.69 9.32 -90)
+		(at 5.69 9.32 270)
 		(layer "F.Fab")
 		(uuid "4dc6088c-89a5-4db7-b3ae-db4b6396ad49")
 		(effects
@@ -329,6 +319,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -340,7 +334,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Silvertel_Ag99xxLP_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Silvertel_Ag99xxLP_THT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

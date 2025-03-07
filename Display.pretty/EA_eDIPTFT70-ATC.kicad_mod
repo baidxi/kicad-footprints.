@@ -1,7 +1,7 @@
 (footprint "EA_eDIPTFT70-ATC"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TFT-graphical display 800x480 16-bit colours with capacitive touch panel http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft70-ae.pdf")
 	(tags "TFT-graphical display 800x480 16-bit colours with capacitive touch panel")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7511335f-1201-47a8-b0e3-59c270fab6f5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -659,7 +649,8 @@
 		(remove_unused_layers no)
 		(uuid "e7f0635e-abdc-48a6-a5a5-77e6cea3efee")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/EA_eDIPTFT70-ATC.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display.3dshapes/EA_eDIPTFT70-ATC.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

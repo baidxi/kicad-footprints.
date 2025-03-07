@@ -1,7 +1,7 @@
 (footprint "SIP4_Sharp-SSR_P7.62mm_Angled_NoHole"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SIP4 Footprint for SSR made by Sharp")
 	(tags "Solid State relais SSR Sharp")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a1ca2484-ea3f-4938-b0fc-33995867e5c6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -751,7 +741,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "09c05ecf-c488-49f5-90b1-b20a410cbbda")
 	)
@@ -878,7 +868,8 @@
 		(remove_unused_layers no)
 		(uuid "857a7fd4-01dd-43e2-abbb-d6ed8b22453d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SIP.3dshapes/SIP4_Sharp-SSR_P7.62mm_Angled.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SIP.3dshapes/SIP4_Sharp-SSR_P7.62mm_Angled.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

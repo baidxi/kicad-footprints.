@@ -1,7 +1,7 @@
 (footprint "SW_SPST_EVQP0"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "83feb84e-7211-4947-994b-037e55cb33b1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -47,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -230,7 +220,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "90c5f4fb-7b1a-459e-898a-e37094c0d8ef")
 	)
@@ -248,28 +238,29 @@
 	(pad "1" smd rect
 		(at -2.88 -2)
 		(size 2.75 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e406b956-a99e-4587-aacb-6873cc1c9a6c")
 	)
 	(pad "1" smd rect
 		(at 2.88 -2)
 		(size 2.75 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "61d1ab53-ce40-447a-96be-d949395beb58")
 	)
 	(pad "2" smd rect
 		(at -2.88 2)
 		(size 2.75 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bea8a4c6-2307-441d-88da-408fba33ac02")
 	)
 	(pad "2" smd rect
 		(at 2.88 2)
 		(size 2.75 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "82331e63-bf67-4968-b978-8aae4af3c46e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQP0.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQP0.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

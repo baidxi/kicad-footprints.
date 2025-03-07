@@ -1,7 +1,7 @@
 (footprint "SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open, labeled with numbers")
 	(tags "solder jumper open")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e9caa8c2-f5fe-4cd6-a7fe-689f1b0ba37b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,11 +49,23 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(zone_connect 1)
-	(attr exclude_from_pos_files exclude_from_bom)
+	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+	(fp_rect
+		(start -2.5 -0.75)
+		(end 2.5 0.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "7ecf8b53-f22f-436c-a433-7b3655bd3320")
+	)
 	(fp_line
 		(start -2.75 -1)
 		(end 2.75 -1)
@@ -167,18 +168,6 @@
 			)
 		)
 	)
-	(pad "" smd rect
-		(at -1.2 0)
-		(size 1.5 1.5)
-		(layers "F.Mask")
-		(uuid "3ea36a45-975c-46a0-bd74-51c13bca00f3")
-	)
-	(pad "" smd rect
-		(at 1.2 0)
-		(size 1.5 1.5)
-		(layers "F.Mask")
-		(uuid "ecdacac5-0135-45ba-be8a-ac097aa2b6d7")
-	)
 	(pad "1" smd custom
 		(at -2 0)
 		(size 0.3 0.3)
@@ -242,4 +231,5 @@
 		)
 		(uuid "b63fa587-bec2-494a-a9e5-0548e6c28061")
 	)
+	(embedded_fonts no)
 )

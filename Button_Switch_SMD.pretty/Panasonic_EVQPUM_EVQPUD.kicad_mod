@@ -1,7 +1,7 @@
 (footprint "Panasonic_EVQPUM_EVQPUD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf")
 	(tags "SMD SMT SPST EVQPUM EVQPUD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9940d960-3de9-4022-ac19-3f696295d34a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -252,28 +242,29 @@
 	(pad "1" smd rect
 		(at -2.575 -0.85 180)
 		(size 1.45 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bfabd3d8-5f0b-4ac2-b2b2-7e5b5575638f")
 	)
 	(pad "1" smd rect
 		(at 2.575 -0.85 180)
 		(size 1.45 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5127786c-d26f-46fa-91d7-6d6ab81a47b1")
 	)
 	(pad "2" smd rect
 		(at -2.575 0.85 180)
 		(size 1.45 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0b06e953-d19f-4367-b428-cb3d0b4e4f3d")
 	)
 	(pad "2" smd rect
 		(at 2.575 0.85 180)
 		(size 1.45 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "79e55642-5a3c-4f38-ad7c-cf668ca0d457")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/Panasonic_EVQPUM_EVQPUD.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/Panasonic_EVQPUM_EVQPUD.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

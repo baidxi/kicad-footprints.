@@ -1,7 +1,7 @@
 (footprint "ublox_SARA_LGA-96"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "ublox SARA cellular/GNSS module, https://www.u-blox.com/sites/default/files/SARA-G3-U2_SysIntegrManual_%28UBX-13000995%29.pdf, pag.162")
 	(tags "ublox u-blox SARA-R41 SARA-R42 SARA-R5 SARA-N2 SARA-N3 SARA-G3 SARA-G4 SARA-U2 cellular LTE IoT GSM HSPA GNSS GPS")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3bbaa7f2-a916-4ab1-99f6-2713c585a507")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -122,7 +112,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "8ab8ff0b-b04d-4120-a949-e1d815c59361")
 	)
@@ -1379,7 +1369,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "833bdfa2-b223-45b4-9376-4df3decdce6c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_GSM.3dshapes/ublox_SARA_LGA-96.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_GSM.3dshapes/ublox_SARA_LGA-96.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Mini-Circuits_GP731_LandPatternPL-176"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint for Mini-Circuits case GP731 (https://ww2.minicircuits.com/case_style/GP731.pdf) following land pattern PL-176, including GND vias (https://www.minicircuits.com/pcb/98-pl176.pdf)")
 	(tags "mini-circuits PL-176")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e82fa72d-20c2-4180-818f-4db8adb6404b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ab75a8c9-bf75-41e6-a308-20ce53435708")
 	)
@@ -258,7 +248,7 @@
 	(pad "1" smd rect
 		(at -4.064 -1.905 180)
 		(size 1.778 1.016)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "84186849-958c-4605-b87d-b27aa85599a5")
 	)
@@ -354,53 +344,54 @@
 	(pad "2" smd rect
 		(at -4.064 0 180)
 		(size 1.778 1.016)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.762)
 		(uuid "7ee19f90-dc71-4a11-b257-6c2b74f40bc2")
 	)
 	(pad "3" smd rect
 		(at -4.064 1.905 180)
 		(size 1.778 1.016)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "065c3b2a-6f97-459c-9f43-e3765259882e")
 	)
 	(pad "4" smd rect
 		(at 0 4.064 270)
 		(size 1.778 1.016)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "0c831fc4-bbfc-4531-b332-ec79e73bfe28")
 	)
 	(pad "5" smd rect
 		(at 4.064 1.905)
 		(size 1.778 1.016)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "88cb8161-8aca-4e5b-8a8f-33d4f001e0d4")
 	)
 	(pad "6" smd rect
 		(at 4.064 0)
 		(size 1.778 1.016)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.762)
 		(uuid "1e7a7225-f72f-495f-8623-c115b6967178")
 	)
 	(pad "7" smd rect
 		(at 4.064 -1.905)
 		(size 1.778 1.016)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "bb14d87e-ec19-402d-9fe5-7e44fd561edf")
 	)
 	(pad "8" smd rect
 		(at 0 -4.064 270)
 		(size 1.778 1.016)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "60d26d00-edb8-455e-ac20-d39d6a8b17a7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_GP731.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_GP731.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "PLCC-52_THT-Socket"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PLCC, 52 pins, through hole")
 	(tags "plcc leaded")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2e636b3b-f3e0-46e2-878f-14ae9ecd6517")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -701,7 +691,8 @@
 		(remove_unused_layers no)
 		(uuid "c7fe6b94-628e-4766-8524-317ad2c6212f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_LCC.3dshapes/PLCC-52_THT-Socket.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_LCC.3dshapes/PLCC-52_THT-Socket.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

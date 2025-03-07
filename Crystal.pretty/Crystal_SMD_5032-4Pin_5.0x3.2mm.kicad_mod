@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_5032-4Pin_5.0x3.2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package")
 	(tags "SMD SMT crystal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a0d578f8-bcdc-4462-9d99-e080e9a074fa")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -228,28 +218,29 @@
 	(pad "1" smd rect
 		(at -1.65 1)
 		(size 1.6 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3bda1672-877a-4603-992a-45281a0cffa5")
 	)
 	(pad "2" smd rect
 		(at 1.65 1)
 		(size 1.6 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "74a2ba36-b243-46e6-a029-5af8c3968cc6")
 	)
 	(pad "3" smd rect
 		(at 1.65 -1)
 		(size 1.6 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "aae4d3bc-6998-47f1-9dc1-9063cbf3d12a")
 	)
 	(pad "4" smd rect
 		(at -1.65 -1)
 		(size 1.6 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7b1a0cdd-c74b-4c74-a66d-e4744e559dc5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_5032-4Pin_5.0x3.2mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_5032-4Pin_5.0x3.2mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

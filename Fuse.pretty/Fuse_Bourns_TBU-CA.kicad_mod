@@ -1,7 +1,7 @@
 (footprint "Fuse_Bourns_TBU-CA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Bourns TBU-CA Fuse, 2 Pin (https://www.bourns.com/data/global/pdfs/TBU-CA.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
 	(tags "Bourns Fuse NoLead")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f5cbea13-7bb2-4565-8db4-a86f5c921777")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "0833d193-18ee-41b8-84fe-d1aae89d4cca")
 	)
@@ -200,24 +190,25 @@
 	(pad "1" smd roundrect
 		(at -2.025 0)
 		(size 2 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(uuid "a043ac45-83ed-4afa-99e3-f7963fdbea40")
 	)
 	(pad "2" smd rect
 		(at 0 0)
 		(size 0.8 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "143d3a93-a539-4441-8453-47ed7a50f3b7")
 	)
 	(pad "3" smd roundrect
 		(at 2.025 0)
 		(size 2 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(uuid "da1faf44-32ce-4c73-9b4f-15f2707f69bf")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Bourns_TBU-CA.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Bourns_TBU-CA.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

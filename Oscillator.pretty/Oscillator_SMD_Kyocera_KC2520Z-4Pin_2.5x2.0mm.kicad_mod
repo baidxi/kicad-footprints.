@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_Kyocera_KC2520Z-4Pin_2.5x2.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://global.kyocera.com/prdct/electro/product/pdf/clock_z_xz_e.pdf")
 	(tags "2.5mm 2mm SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7ff22f61-b98f-421e-b696-b1a9f7ea97f6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -198,28 +188,29 @@
 	(pad "1" smd rect
 		(at -0.725 -0.925)
 		(size 0.95 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0edc7467-bd3e-4108-9454-50aa8249edb5")
 	)
 	(pad "2" smd rect
 		(at -0.725 0.925)
 		(size 0.95 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8e353427-1a1d-4fbc-9186-cc04301e3ddf")
 	)
 	(pad "3" smd rect
 		(at 0.725 0.925)
 		(size 0.95 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "47f84297-fc84-431b-9dbc-43a4d07dee95")
 	)
 	(pad "4" smd rect
 		(at 0.725 -0.925)
 		(size 0.95 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "718bb204-57f7-4537-829a-f8fdcd26a0f4")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Kyocera_KC2520Z-4Pin_2.5x2.0mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Kyocera_KC2520Z-4Pin_2.5x2.0mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

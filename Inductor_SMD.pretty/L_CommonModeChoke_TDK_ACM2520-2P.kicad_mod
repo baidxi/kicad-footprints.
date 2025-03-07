@@ -1,7 +1,7 @@
 (footprint "L_CommonModeChoke_TDK_ACM2520-2P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TDK ACM2520 common-mode filter, SMD, 2x2.5mm, height 1.2mm https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_signal_acm2520_en.pdf")
 	(tags "ACM2520 common-mode filter 4 pin")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3ec45d26-2eba-4793-b6c5-02f778fce7f3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -209,7 +199,7 @@
 	(pad "1" smd roundrect
 		(at -1.15 -0.65)
 		(size 0.8 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "ad81956b-dfbf-4f90-9988-51f4cca3b4fa")
@@ -217,7 +207,7 @@
 	(pad "2" smd roundrect
 		(at -1.15 0.65)
 		(size 0.8 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "15ef83c3-f7af-4f22-a70c-8a9b464b01c4")
@@ -225,7 +215,7 @@
 	(pad "3" smd roundrect
 		(at 1.15 0.65)
 		(size 0.8 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "1763a46b-23ab-482a-a4cf-7e2641c723b5")
@@ -233,12 +223,13 @@
 	(pad "4" smd roundrect
 		(at 1.15 -0.65)
 		(size 0.8 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "759dfb66-2b1b-4dc4-9870-aa8dc3ffd3c0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonModeChoke_TDK_ACM2520-2P.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonModeChoke_TDK_ACM2520-2P.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

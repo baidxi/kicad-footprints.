@@ -1,7 +1,7 @@
 (footprint "UQFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "16-Lead Ultra Thin Quad Flat, No Lead Package (UC) - 3x3x0.5 mm Body [UQFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
 	(tags "QFN 0.5")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a92f6a6e-3bb1-4cf1-aa2c-0fb15f6cae0b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -152,7 +142,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "91362b8d-36b1-4e60-a141-99e96d0f6a90")
 	)
@@ -284,97 +274,97 @@
 	(pad "1" smd oval
 		(at -1.5 -0.75)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1c6191af-9d5e-4ca2-b846-6c28e0d1cf2d")
 	)
 	(pad "2" smd oval
 		(at -1.5 -0.25)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "32f1d654-3ece-4204-ab42-de6c3447d494")
 	)
 	(pad "3" smd oval
 		(at -1.5 0.25)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2076099b-a30a-4f42-81d3-78f61e49aca1")
 	)
 	(pad "4" smd oval
 		(at -1.5 0.75)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "23f54e8f-2ce5-4701-be48-ca059cf1590f")
 	)
 	(pad "5" smd oval
 		(at -0.75 1.5 90)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2b8f9b1c-42be-4fa2-8383-c30d6bebc70d")
 	)
 	(pad "6" smd oval
 		(at -0.25 1.5 90)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d28e14e5-4902-4abf-85a0-eebeb75c4b60")
 	)
 	(pad "7" smd oval
 		(at 0.25 1.5 90)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a691b798-a459-4068-8c2d-7ee11e8a1e02")
 	)
 	(pad "8" smd oval
 		(at 0.75 1.5 90)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7686f976-7827-435d-a0fd-4e9aa2b2c9d0")
 	)
 	(pad "9" smd oval
 		(at 1.5 0.75)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1b827b03-3b4b-4201-92f2-20ce25912cc0")
 	)
 	(pad "10" smd oval
 		(at 1.5 0.25)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7d8fd4c5-87aa-4701-8281-163ec92713b2")
 	)
 	(pad "11" smd oval
 		(at 1.5 -0.25)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b59d9219-42a9-4464-bde6-44d05adf4b71")
 	)
 	(pad "12" smd oval
 		(at 1.5 -0.75)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "24fcfb44-79aa-4c63-afb4-8b63cafcd932")
 	)
 	(pad "13" smd oval
 		(at 0.75 -1.5 90)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3336998b-38f9-4b18-867e-4bc21370ae45")
 	)
 	(pad "14" smd oval
 		(at 0.25 -1.5 90)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fa249be3-6213-4abc-b9df-ee4cfd542c2c")
 	)
 	(pad "15" smd oval
 		(at -0.25 -1.5 90)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cadf24d7-f93e-46c9-97f2-29ecf5e9d210")
 	)
 	(pad "16" smd oval
 		(at -0.75 -1.5 90)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "916231df-110b-4960-ac34-c22325c2995e")
 	)
 	(pad "17" smd rect
@@ -383,7 +373,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "1f1dfed8-8874-495c-ad48-64d3b1037c66")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/UQFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/UQFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

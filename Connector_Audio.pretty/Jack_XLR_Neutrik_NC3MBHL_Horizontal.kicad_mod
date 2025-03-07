@@ -1,7 +1,7 @@
 (footprint "Jack_XLR_Neutrik_NC3MBHL_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "B Series, 3 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, steel retention lug, lateral left PCB mount, https://www.neutrik.com/en/product/nc3mbhl")
 	(tags "neutrik xlr b")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a6460e6c-455e-4b67-8c1c-db64cf03c043")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -514,7 +504,8 @@
 		(remove_unused_layers no)
 		(uuid "a9743368-3bcb-43eb-af81-787cad44514a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_XLR_Neutrik_NC3MBHL_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_XLR_Neutrik_NC3MBHL_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

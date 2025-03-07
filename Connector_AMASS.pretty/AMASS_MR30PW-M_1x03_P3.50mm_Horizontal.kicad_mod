@@ -1,10 +1,10 @@
 (footprint "AMASS_MR30PW-M_1x03_P3.50mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Connector XT30 Horizontal PCB Male, https://www.tme.eu/en/Document/5e47640ba39fa492dbd4c0f4c8ae7b93/MR30PW%20SPEC.pdf")
-	(tags "RC Connector XT30")
+	(descr "Connector MR30PW Horizontal PCB Male, https://www.tme.eu/Document/5fffb0d591c3b83b8e9faab5387231c6/MR30PW-M.pdf")
+	(tags "RC Connector MR30PW")
 	(property "Reference" "REF**"
 		(at 3.5 -14.5 0)
 		(layer "F.SilkS")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e55ff2cb-7cbe-4659-91a0-3bd151cfd659")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -385,12 +375,13 @@
 		(remove_unused_layers no)
 		(uuid "b4bfc958-4c7e-4c63-8f52-522c405ae87f")
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 3 3)
 		(drill 1.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
 		(uuid "5f7108aa-e341-4dfc-b41b-05cc35397425")
 	)
 	(pad "2" thru_hole circle
@@ -409,7 +400,8 @@
 		(remove_unused_layers no)
 		(uuid "10141d8d-83a9-4ce0-b004-f4f704f3fe44")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_MR30PW-M_1x03_P3.50mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_MR30PW-M_1x03_P3.50mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

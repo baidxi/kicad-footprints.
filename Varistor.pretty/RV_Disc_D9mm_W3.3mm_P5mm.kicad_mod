@@ -1,7 +1,7 @@
 (footprint "RV_Disc_D9mm_W3.3mm_P5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Varistor, diameter 9mm, width 3.3mm, pitch 5mm")
 	(tags "varistor SIOV")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e02628f3-7b03-4076-a070-d8ee787d0e79")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -211,7 +201,8 @@
 		(remove_unused_layers no)
 		(uuid "68dfda84-e10d-43ac-a59f-f46149e7eb50")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D9mm_W3.3mm_P5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D9mm_W3.3mm_P5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

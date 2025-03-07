@@ -1,7 +1,7 @@
 (footprint "CUI_PD-30S_CircularHoles"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3-pin nonstandard DIN connector, shielded, PD-30S, http://www.cui.com/product/resource/pd-30s.pdf")
 	(tags "connector 3-pin PD-30S power DIN shielded")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "19944dc1-74f0-41fb-8725-009c81d3bc3d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -443,7 +433,8 @@
 		(remove_unused_layers no)
 		(uuid "205ec86a-3628-49f4-8270-586e7b96df58")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector.3dshapes/CUI_PD-30S_CircularHoles.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector.3dshapes/CUI_PD-30S_CircularHoles.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "PhoenixContact_MCV_1,5_4-GF-3.5_1x04_P3.50mm_Vertical_ThreadedFlange_MountHole"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Generic Phoenix Contact connector footprint for: MCV_1,5/4-GF-3.5; number of pins: 04; pin pitch: 3.50mm; Vertical; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1843240 8A 160V")
 	(tags "phoenix_contact connector MCV_01x04_GF_3.5mm_MH")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "07768f5a-e521-4f0c-9e8d-a3133670c1b0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,32 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
-	(fp_circle
-		(center -4.3 0)
-		(end -2.09 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "B.SilkS")
-		(uuid "772f0196-d3e7-4ff9-b506-0b1690671319")
-	)
-	(fp_circle
-		(center 14.8 0)
-		(end 17.01 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "B.SilkS")
-		(uuid "dad15e16-f91b-4ca4-b4d8-991405495bd7")
-	)
 	(fp_line
 		(start -7.01 -3.11)
 		(end -7.01 3.11)
@@ -757,7 +725,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "f48290f9-68f1-4801-9d3e-a6268af2e623")
 	)
@@ -768,9 +736,31 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "75556dc1-e605-49fe-a236-4d3ce8e95999")
+	)
+	(fp_circle
+		(center -4.3 0)
+		(end -2.09 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "772f0196-d3e7-4ff9-b506-0b1690671319")
+	)
+	(fp_circle
+		(center 14.8 0)
+		(end 17.01 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "dad15e16-f91b-4ca4-b4d8-991405495bd7")
 	)
 	(fp_circle
 		(center -4.3 0)
@@ -779,7 +769,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "bf54a4e9-a425-47cc-82f7-0d3fb9fefd89")
 	)
@@ -790,7 +780,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "1965fe18-a396-41ce-a3db-854a98dbbe42")
 	)
@@ -841,7 +831,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.Fab")
 		(uuid "4ddc3b28-1899-494d-b209-fe2dc30fb967")
 	)
@@ -852,7 +842,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.Fab")
 		(uuid "b4c89f45-a5dd-4acb-a44a-f0403a6e03c7")
 	)
@@ -1014,7 +1004,8 @@
 		(remove_unused_layers no)
 		(uuid "b4a16ea4-9641-4e78-b40d-3be03bdd64da")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Phoenix_MC.3dshapes/PhoenixContact_MCV_1,5_4-GF-3.5_1x04_P3.50mm_Vertical_ThreadedFlange_MountHole.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Phoenix_MC.3dshapes/PhoenixContact_MCV_1,5_4-GF-3.5_1x04_P3.50mm_Vertical_ThreadedFlange_MountHole.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

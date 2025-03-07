@@ -1,7 +1,7 @@
 (footprint "LCD-016N002L"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "16 x 2 Character LCD, http://www.vishay.com/product?docid=37299")
 	(tags "LCD-016N002L 16 x 2 Character LCD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7ee6f08c-4b42-4bfa-90a7-4e950ffa64a0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -747,7 +737,8 @@
 		(remove_unused_layers no)
 		(uuid "28037790-39bb-436e-bfef-3f727c2896d3")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/LCD-016N002L.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display.3dshapes/LCD-016N002L.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

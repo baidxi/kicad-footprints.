@@ -1,7 +1,7 @@
 (footprint "TE_440055-2_1x02_P2.00mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TE Connectivity, HDI, Wire-to-Board, Fully Shrouded, Header: https://www.te.com/usa-en/product-440055-2.datasheet.pdf")
 	(tags "connector header hdr horizontal right-angle shrouded fully-shrounded 440055-2 2-440055-2 4-440055-2 6-440055-2 8-440055-2")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e6220256-00ac-49fd-b0d1-a88f2397163e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -213,7 +203,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "55bb0ac5-07bc-407d-8e8d-a12548d39c47")
 	)
@@ -224,7 +214,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "8e0a1b90-5ba3-49da-832f-b59e21392b2c")
 	)
@@ -405,7 +395,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "fe8cf06f-1c52-4a0c-8486-b11080b20f7c")
 	)
@@ -548,7 +538,8 @@
 		(remove_unused_layers no)
 		(uuid "e6be56b7-aba4-4297-9272-753811507e89")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_TE-Connectivity.3dshapes/TE_440055-2_1x02_P2.00mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_TE-Connectivity.3dshapes/TE_440055-2_1x02_P2.00mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

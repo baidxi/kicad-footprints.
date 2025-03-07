@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_IDT_JU6-6_7.0x5.0mm_P2.54mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal Oscillator IDT https://www.idt.com/document/dst/xu-family-datasheet#page=17, 7.0x5.0mm")
 	(tags "SMD SMT crystal oscillator")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ab695b08-edf5-4e25-aac0-4ea6e0c1948e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -228,40 +218,41 @@
 	(pad "1" smd rect
 		(at -2.1 -2.54 270)
 		(size 1.8 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3a03f833-ec94-4b1a-9916-63abdcb35f0c")
 	)
 	(pad "2" smd rect
 		(at -2.1 0 270)
 		(size 1.8 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a520b4fd-c99c-4b49-bb93-d2eceed60afa")
 	)
 	(pad "3" smd rect
 		(at -2.1 2.54 270)
 		(size 1.8 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c885eacd-252b-426a-aa02-5fc7664479e8")
 	)
 	(pad "4" smd rect
 		(at 2.1 2.54 270)
 		(size 1.8 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "770b2fb8-e1a3-401c-b597-f5f2a380c356")
 	)
 	(pad "5" smd rect
 		(at 2.1 0 270)
 		(size 1.8 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f2bca9d7-9460-41bc-9309-c446787172aa")
 	)
 	(pad "6" smd rect
 		(at 2.1 -2.54 270)
 		(size 1.8 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "417557a0-cc7d-4e4b-ac51-a08a6aeac502")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_IDT_JU6-6_7.0x5.0mm_P2.54mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_IDT_JU6-6_7.0x5.0mm_P2.54mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

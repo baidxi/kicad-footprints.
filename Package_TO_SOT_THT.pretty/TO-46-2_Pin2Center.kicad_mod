@@ -1,7 +1,7 @@
 (footprint "TO-46-2_Pin2Center"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TO-46-2, Pin2 at center of package, Thorlabs photodiodes")
 	(tags "TO-46-2 Thorlabs")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "10e47011-a2e4-4f4c-9c5b-aaf068f0e408")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -193,7 +183,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1168a775-0684-4d65-b3cd-a029f0fc73e6")
 	)
@@ -224,7 +214,8 @@
 		(remove_unused_layers no)
 		(uuid "18014ae4-73de-499a-ba53-9e1c3919032d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-46-2_Pin2Center.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-46-2_Pin2Center.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

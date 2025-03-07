@@ -1,7 +1,7 @@
 (footprint "SW_SPST_B3S-1100"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Surface Mount Tactile Switch for High-Density Packaging with Ground Terminal")
 	(tags "Tactile Switch")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "06f83bf6-529f-42bb-8cf5-e5ce861a19aa")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -281,7 +271,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c7cd0622-409e-4f1e-9b46-e550525d3d55")
 	)
@@ -299,34 +289,35 @@
 	(pad "1" smd rect
 		(at -3.98 -3.17)
 		(size 1.55 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "01d9ba3d-1115-4095-a87f-d022a19c5906")
 	)
 	(pad "1" smd rect
 		(at 3.98 -3.17)
 		(size 1.55 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6529beb4-47d3-4810-a691-c82f13fb9547")
 	)
 	(pad "2" smd rect
 		(at -3.98 1.33)
 		(size 1.55 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3732ef09-60d9-4442-aa10-5530f00f1162")
 	)
 	(pad "2" smd rect
 		(at 3.98 1.33)
 		(size 1.55 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2f52da86-2b1f-4b26-a060-f4b532a300ed")
 	)
 	(pad "3" smd rect
 		(at 0 3.17)
 		(size 1.3 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c21e5ee4-52b2-42ee-854c-304b5de67c55")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3S-1100.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3S-1100.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

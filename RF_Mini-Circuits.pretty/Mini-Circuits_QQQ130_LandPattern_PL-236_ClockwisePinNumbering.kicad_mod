@@ -1,7 +1,7 @@
 (footprint "Mini-Circuits_QQQ130_LandPattern_PL-236_ClockwisePinNumbering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint for Mini-Circuits case QQQ130 (https://ww2.minicircuits.com/case_style/QQQ130.pdf) following land pattern PL-236, including GND vias (https://ww2.minicircuits.com/pcb/98-pl236.pdf)")
 	(tags "Mini-Circuits PL-236")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "216b7e32-3447-4cc4-84f2-12370081e26e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -102,7 +92,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "36747828-c09f-4bb9-9931-f71ca819c958")
 	)
@@ -210,7 +200,7 @@
 	(pad "1" smd rect
 		(at -2.54 -3.81)
 		(size 1.524 3.048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "4bc713ee-b03d-48cf-8f04-700af93fabb3")
 	)
@@ -285,39 +275,40 @@
 	(pad "2" smd rect
 		(at 0 -3.81)
 		(size 1.524 3.048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.635)
 		(uuid "18d985b8-55b7-40dc-be31-86f6c0abac1c")
 	)
 	(pad "3" smd rect
 		(at 2.54 -3.81)
 		(size 1.524 3.048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.635)
 		(uuid "9bd20d72-c550-45b7-905a-db1412bd0ce5")
 	)
 	(pad "4" smd rect
 		(at 2.54 3.81)
 		(size 1.524 3.048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.635)
 		(uuid "52a5665e-409a-4110-a430-9dd8b739f472")
 	)
 	(pad "5" smd rect
 		(at 0 3.81)
 		(size 1.524 3.048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.635)
 		(uuid "afc8a1ff-34dc-4015-aeea-bc8e5a04b43f")
 	)
 	(pad "6" smd rect
 		(at -2.54 3.81)
 		(size 1.524 3.048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.635)
 		(uuid "2d6b3d50-e8f4-4dc9-b40a-2bbeba131043")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_QQQ130.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_QQQ130.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

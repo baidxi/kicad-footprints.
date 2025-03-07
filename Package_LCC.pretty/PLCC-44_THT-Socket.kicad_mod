@@ -1,7 +1,7 @@
 (footprint "PLCC-44_THT-Socket"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PLCC, 44 pins, through hole")
 	(tags "plcc leaded")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "774933dc-9408-48a6-a073-e959c9814d81")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -637,7 +627,8 @@
 		(remove_unused_layers no)
 		(uuid "9535fd40-d9cd-4dc3-9cc2-c301fe7a8417")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_LCC.3dshapes/PLCC-44_THT-Socket.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_LCC.3dshapes/PLCC-44_THT-Socket.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

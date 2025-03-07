@@ -1,7 +1,7 @@
 (footprint "Transformer_Wuerth_750315371"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Power Transformer, horizontal core with bobbin, 6 pin, 2.54mm pitch, 11.24mm row spacing, 12.6x8.3x4.1mm")
 	(tags "transformer flyback")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c45226a7-fa98-4526-860f-414725a7d402")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "3438b2a3-90ec-4e81-a636-9be199b6ea2d")
 	)
@@ -200,45 +190,46 @@
 	(pad "1" smd rect
 		(at -5.62 -2.54)
 		(size 1.83 1.09)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "31c4c70e-fbfa-462e-9924-a35cd4c063a4")
 	)
 	(pad "2" smd roundrect
 		(at -5.62 0)
 		(size 1.83 1.09)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "a79fca84-8ac0-4aca-81a4-a312bb48b944")
 	)
 	(pad "3" smd roundrect
 		(at -5.62 2.54)
 		(size 1.83 1.09)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "8cb97840-20e5-4c7b-9e1f-c12932b158f5")
 	)
 	(pad "4" smd roundrect
 		(at 5.62 2.54)
 		(size 1.83 1.09)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "973f3f96-85dd-42be-b239-26f2c65e367d")
 	)
 	(pad "5" smd roundrect
 		(at 5.62 0)
 		(size 1.83 1.09)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "986b7095-87a7-4e6e-995f-7d2f7e6e6765")
 	)
 	(pad "6" smd roundrect
 		(at 5.62 -2.54)
 		(size 1.83 1.09)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "ef2fe08b-ab50-4f31-bb29-8c55234a45bb")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_Wuerth_750315371.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_Wuerth_750315371.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

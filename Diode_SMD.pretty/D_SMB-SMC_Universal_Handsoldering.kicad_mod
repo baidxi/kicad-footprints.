@@ -1,7 +1,7 @@
 (footprint "D_SMB-SMC_Universal_Handsoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode, Universal, SMB(DO-214AA) or SMC (DO-214AB), Handsoldering,")
 	(tags "Diode Universal SMB(DO-214AA) SMC (DO-214AB) Handsoldering ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7f67da68-67ac-4025-bf39-4bbf4f8a4aa8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -289,17 +279,18 @@
 		(at -3.2 0)
 		(size 4.3 2.6)
 		(rect_delta 1 0)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "30c1709e-1051-4596-890d-2d8796b1db9b")
 	)
 	(pad "2" smd trapezoid
 		(at 3.2 0 180)
 		(size 4.3 2.6)
 		(rect_delta 1 0)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "67bb3ac0-4d00-42a1-8cab-87a598d1362b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMC.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMC.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

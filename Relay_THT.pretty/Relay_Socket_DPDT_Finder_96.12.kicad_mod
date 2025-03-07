@@ -1,7 +1,7 @@
 (footprint "Relay_Socket_DPDT_Finder_96.12"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DPDT relay socket, 15A max 10A per contact, 2kV AC Isolation, https://gfinder.findernet.com/public/attachments/56/DE/S56DE.pdf")
 	(tags "finder relay socket 96.12 56.32")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5178f802-a6b8-4cbe-bbb3-ddf9add5a5a7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -131,7 +121,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "5319f68a-e5db-4280-8622-89c42312fd41")
 	)
@@ -261,7 +251,8 @@
 		(remove_unused_layers no)
 		(uuid "0f685560-f472-4201-b0c2-120de3bf8251")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_Socket_DPDT_Finder_96.12.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_Socket_DPDT_Finder_96.12.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

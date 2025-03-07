@@ -1,7 +1,7 @@
 (footprint "AGILENT_HFBR-152x"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Fiberoptic Transmitter TX, HFBR series (https://docs.broadcom.com/docs/AV02-3283EN)")
 	(tags "Fiberoptic Transmitter")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e3e91144-4dc8-4938-86ea-2a0352677401")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -793,7 +783,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2a24ceaa-f108-4586-a5b0-a5d6e202e7fb")
 	)
@@ -804,7 +794,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "92521c93-4205-4022-a589-ac382eb63911")
 	)
@@ -868,7 +858,8 @@
 		(remove_unused_layers no)
 		(uuid "da3d9bed-f1ad-4130-aa94-118ae3fbe8db")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/AGILENT_HFBR-152x.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/AGILENT_HFBR-152x.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

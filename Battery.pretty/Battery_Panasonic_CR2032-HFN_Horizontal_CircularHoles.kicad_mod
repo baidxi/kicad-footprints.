@@ -1,7 +1,7 @@
 (footprint "Battery_Panasonic_CR2032-HFN_Horizontal_CircularHoles"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Panasonic CR-2032/HFN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D166.PDF")
 	(tags "battery CR-2032 coin cell")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "837f5ac5-563f-478e-bd20-175c23b0890b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -267,7 +257,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c82c004c-3a6b-4ba9-8be7-03ac86c73209")
 	)
@@ -309,7 +299,8 @@
 		(remove_unused_layers no)
 		(uuid "a3e5cac8-ee76-4db4-8b37-708ea64635d6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/Battery_Panasonic_CR2032-HFN_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/Battery_Panasonic_CR2032-HFN_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

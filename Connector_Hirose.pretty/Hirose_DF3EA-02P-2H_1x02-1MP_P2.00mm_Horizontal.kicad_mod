@@ -1,7 +1,7 @@
 (footprint "Hirose_DF3EA-02P-2H_1x02-1MP_P2.00mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Hirose  series connector, DF3EA-02P-2H (https://www.hirose.com/product/document?clcode=CL0543-0332-0-51&productname=DF3EA-5P-2H(51)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001163317), generated with kicad-footprint-generator")
 	(tags "connector Hirose  top entry")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b5a480b7-1edf-4715-8aa6-b87d92589dc3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -238,32 +228,33 @@
 	(pad "1" smd roundrect
 		(at -1 -2.85)
 		(size 1.2 3.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "863ffb5d-cb47-4a73-80fa-439e974f59d6")
 	)
 	(pad "2" smd roundrect
 		(at 1 -2.85)
 		(size 1.2 3.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "0f29570c-dea8-4b75-9bbd-a4efd64bc767")
 	)
 	(pad "MP" smd roundrect
 		(at -5.52 2.75)
 		(size 2.3 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.108696)
 		(uuid "a722751f-9340-453e-8458-286da0ba26ff")
 	)
 	(pad "MP" smd roundrect
 		(at 5.52 2.75)
 		(size 2.3 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.108696)
 		(uuid "f5a0802d-f201-42fe-942f-faff135f3a86")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Hirose.3dshapes/Hirose_DF3EA-02P-2H_1x02-1MP_P2.00mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Hirose.3dshapes/Hirose_DF3EA-02P-2H_1x02-1MP_P2.00mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

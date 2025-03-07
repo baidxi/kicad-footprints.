@@ -1,7 +1,7 @@
 (footprint "R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Shunt Resistor SMD 2512 (6332 Metric), 2.6mm thick, Vishay WKS2512, Terminal length (T) 1.19mm, 5 to 200 milli Ohm (http://http://www.vishay.com/docs/30108/wsk.pdf)")
 	(tags "resistor shunt WSK2512")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "97d1550e-7d11-469f-8db3-cf208e19797a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -258,32 +248,33 @@
 	(pad "1" smd roundrect
 		(at -2.985 -0.635)
 		(size 2.29 2.03)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.12)
 		(uuid "7d665233-6376-4fd3-9d23-184556b0630c")
 	)
 	(pad "2" smd roundrect
 		(at -3.43 1.27)
 		(size 1.4 0.76)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.12)
 		(uuid "a060266a-0c38-4364-b2df-6f7cf4c69f0d")
 	)
 	(pad "3" smd roundrect
 		(at 3.43 -1.27)
 		(size 1.4 0.76)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a1e31646-49e8-4836-bd67-1b6bed652414")
 	)
 	(pad "4" smd roundrect
 		(at 2.985 0.635)
 		(size 2.29 2.03)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.12)
 		(uuid "3f532dd2-fd5a-4fe7-9636-aa84f769e3b2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

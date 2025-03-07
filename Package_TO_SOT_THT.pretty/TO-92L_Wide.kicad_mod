@@ -1,7 +1,7 @@
 (footprint "TO-92L_Wide"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 	(tags "TO-92L Molded Wide transistor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9bedb426-076b-4f8f-905d-da090072d503")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -118,6 +108,18 @@
 		(layer "F.SilkS")
 		(uuid "773da34a-aef1-4fac-b964-3782e5a7806b")
 	)
+	(fp_poly
+		(pts
+			(xy -0.25 1.02) (xy 0.09 1.49) (xy -0.59 1.49)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ce7c8f50-c354-4f9a-a269-c8deedde3e32")
+	)
 	(fp_line
 		(start -1 -3.55)
 		(end -1 1.85)
@@ -125,7 +127,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "a9e762bb-7b78-48dd-a071-2b893861a529")
 	)
 	(fp_line
@@ -135,7 +137,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "cd763317-53d7-434a-b8d0-331e7fcc691d")
 	)
 	(fp_line
@@ -145,7 +147,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "32a4d438-faa2-44fd-96d9-d3e3efeca9da")
 	)
 	(fp_line
@@ -155,8 +157,28 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "28a9f7b1-bea0-42b7-8891-3bbad8a0b0c4")
+	)
+	(fp_line
+		(start 0.1 -0.43)
+		(end 0.54 0.01)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c44a0c69-8140-48b5-85b2-0155b1b29901")
+	)
+	(fp_line
+		(start 0.1 0.45)
+		(end 0.54 0.01)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fa091c35-d69e-4d3d-bcc5-17d3d003f4f0")
 	)
 	(fp_line
 		(start 0.65 1.6)
@@ -180,6 +202,17 @@
 		(uuid "556dd8c4-3d33-4cb4-9829-e0bbedf9fb65")
 	)
 	(fp_arc
+		(start 0.647182 1.602385)
+		(mid 0.290076 -1.043188)
+		(end 2.54 -2.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad3bdcc6-0359-4da4-900a-83a173a281d7")
+	)
+	(fp_arc
 		(start 2.54 -2.48)
 		(mid 4.787211 -1.049019)
 		(end 4.441103 1.592547)
@@ -201,12 +234,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 1.5 1.5)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.1666666667)
 		(uuid "9ce890ea-fbc7-4077-8671-d4711498d995")
 	)
 	(pad "2" thru_hole circle
@@ -225,7 +259,8 @@
 		(remove_unused_layers no)
 		(uuid "894c3f7a-8ec7-4800-8913-bd79f4e90166")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92L_Wide.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92L_Wide.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

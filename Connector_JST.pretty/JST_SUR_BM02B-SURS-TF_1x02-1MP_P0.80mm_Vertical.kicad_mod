@@ -1,7 +1,7 @@
 (footprint "JST_SUR_BM02B-SURS-TF_1x02-1MP_P0.80mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "JST SUR series connector, BM02B-SURS-TF (http://www.jst-mfg.com/product/pdf/eng/eSUR.pdf), generated with kicad-footprint-generator")
 	(tags "connector JST SUR vertical")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "97eddf07-2251-48a5-bc61-343f93bd9982")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -238,32 +228,33 @@
 	(pad "1" smd roundrect
 		(at -0.4 0.85)
 		(size 0.5 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b76ba8b9-48b9-47b7-a971-52f2971c2fd8")
 	)
 	(pad "2" smd roundrect
 		(at 0.4 0.85)
 		(size 0.5 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b518a2a9-1cd6-44dc-8e26-23d8b0c693b3")
 	)
 	(pad "MP" smd roundrect
 		(at -1.7 -0.55)
 		(size 1.2 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "b0c28390-4a26-4589-89a4-d03b8e9e77eb")
 	)
 	(pad "MP" smd roundrect
 		(at 1.7 -0.55)
 		(size 1.2 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "f761ee55-aa5f-4ebb-a61b-91c753a6dce5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SUR_BM02B-SURS-TF_1x02-1MP_P0.80mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SUR_BM02B-SURS-TF_1x02-1MP_P0.80mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "DIP_Socket-14_W4.3_W5.08_W7.62_W10.16_W10.9_3M_214-3339-00-0602J"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3M 14-pin zero insertion force socket, through-hole, row spacing 7.62 mm (300 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf")
 	(tags "THT DIP DIL ZIF 7.62mm 300mil Socket")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "00ad1aec-11b9-417d-b3cc-c82114714690")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -141,7 +131,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "913066e4-c3ef-4d23-b0df-2fd9aaec8a35")
 	)
@@ -152,7 +142,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "9dd6b696-a6c2-47cf-bd8f-c98ed19ee64f")
 	)
@@ -529,7 +519,8 @@
 		(remove_unused_layers no)
 		(uuid "64ba85e8-2e91-4867-b913-587d885cb154")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Socket.3dshapes/DIP_Socket-14_W4.3_W5.08_W7.62_W10.16_W10.9_3M_214-3339-00-0602J.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Socket.3dshapes/DIP_Socket-14_W4.3_W5.08_W7.62_W10.16_W10.9_3M_214-3339-00-0602J.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

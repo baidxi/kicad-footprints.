@@ -1,7 +1,7 @@
 (footprint "BarrelJack_Kycon_KLDX-0202-xC_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DC Barrel Jack 2mm or 2.5mm center pin, https://www.kycon.com/Pub_Eng_Draw/KLDX-0202-AC%20&%20BC.pdf")
 	(tags "power jack 2mm 2.5mm KLDX-0202-BC KLDX-0202-AC")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "728fc4ae-d7bc-4b1a-906d-301356bd23a0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -253,7 +243,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "32df9053-5cdb-4e13-af91-80a4d9c25c0d")
 	)
@@ -293,7 +283,8 @@
 		(remove_unused_layers no)
 		(uuid "605d1186-04de-4085-9075-82b99171563a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Kycon_KLDX-0202-xC_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Kycon_KLDX-0202-xC_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

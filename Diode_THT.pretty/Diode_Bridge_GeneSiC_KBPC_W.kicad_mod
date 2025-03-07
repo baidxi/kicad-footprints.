@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_GeneSiC_KBPC_W"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Single phase, Bridge Rectifier, 28.55x28.55mm, case KBPC_W(WP), https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc15005w.pdf")
 	(tags "diode module")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "10818487-ce82-4c82-83a0-7e6b3c1dfada")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -121,7 +111,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "d5445ce5-e974-40a6-b566-6e66735ad31a")
 	)
@@ -222,7 +212,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a9cf221a-300e-453d-b9b0-1b0f8ff1b530")
 	)
@@ -341,7 +331,8 @@
 		(remove_unused_layers no)
 		(uuid "34a03b3a-59fd-45fb-adc2-483ac2c30f03")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_GeneSiC_KBPC_W.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_GeneSiC_KBPC_W.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

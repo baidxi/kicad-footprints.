@@ -1,7 +1,7 @@
 (footprint "L_Wuerth_WE-DD-Typ-L-Typ-XL-Typ-XXL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Shielded Coupled Inductor, Wuerth Elektronik, WE-DD, SMD, Typ L, Typ XL, Typ XXL, https://katalog.we-online.com/pbs/datasheet/744874001.pdf")
 	(tags "Choke Coupled Double Inductor SMD Wuerth WE-DD TypL TypXL TypXXL ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bd2ea4e1-a888-467c-89a4-443af8153b1d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,76 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 0.1 0)
-		(stroke
-			(width 0.3)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "10312082-544b-4f44-b8bd-583be7bbad47")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.3 0.1)
-		(stroke
-			(width 0.3)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "3738de29-d7e0-47b8-9f03-887462d439a9")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.6 0)
-		(stroke
-			(width 0.3)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "a66936bf-7bec-4260-9b6b-67c804ebee0c")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.8 -0.1)
-		(stroke
-			(width 0.3)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "c7213df7-d256-44aa-bf29-a2347d70e945")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 1.1 -0.1)
-		(stroke
-			(width 0.3)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "72a5aed3-c01b-43e5-8cb5-67158185cf73")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 1.4 -0.1)
-		(stroke
-			(width 0.3)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "6d127931-fcdc-494e-8ebe-e170a0142976")
-	)
 	(fp_line
 		(start -6.4 -6.4)
 		(end -3.6 -6.4)
@@ -189,6 +113,72 @@
 		)
 		(layer "F.SilkS")
 		(uuid "4637bb8a-238f-49bf-b4e4-ea82b867dd75")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.1 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "10312082-544b-4f44-b8bd-583be7bbad47")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.3 0.1)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "3738de29-d7e0-47b8-9f03-887462d439a9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.6 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "a66936bf-7bec-4260-9b6b-67c804ebee0c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.8 -0.1)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "c7213df7-d256-44aa-bf29-a2347d70e945")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.1 -0.1)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "72a5aed3-c01b-43e5-8cb5-67158185cf73")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.4 -0.1)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "6d127931-fcdc-494e-8ebe-e170a0142976")
 	)
 	(fp_line
 		(start -6.5 -7.25)
@@ -457,7 +447,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "80ed1890-7ad0-4929-83e6-fa104c86e529")
 	)
@@ -468,7 +458,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a202999e-2845-4b5f-9a31-758ac4e7d0a9")
 	)
@@ -486,28 +476,29 @@
 	(pad "1" smd rect
 		(at -1.75 -5)
 		(size 2.5 3.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "91f1e286-5443-4ae3-b786-3db8b387dd5c")
 	)
 	(pad "2" smd rect
 		(at 1.75 -5)
 		(size 2.5 3.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d65f8012-b0a0-47d1-84c7-a0b7c3f947bf")
 	)
 	(pad "3" smd rect
 		(at 1.75 5)
 		(size 2.5 3.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fb599b82-7c50-4d6c-ae79-f7ca0def826e")
 	)
 	(pad "4" smd rect
 		(at -1.75 5)
 		(size 2.5 3.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eece67d8-2880-49f1-b570-d8e7dd61ddcb")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_WE-DD-Typ-L-Typ-XL-Typ-XXL.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_WE-DD-Typ-L-Typ-XL-Typ-XXL.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

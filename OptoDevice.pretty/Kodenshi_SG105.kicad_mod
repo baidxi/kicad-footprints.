@@ -1,7 +1,7 @@
 (footprint "Kodenshi_SG105"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "package for Kodenshi SG-105 with PCB cutout, light-direction upwards, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf")
 	(tags "refective opto couple photo coupler")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fcaf6e7f-a748-4369-aeb0-c1be1de72b82")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,7 +102,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "2dfda891-17e7-4234-95f3-319c6ad8e59b")
 	)
@@ -380,32 +370,33 @@
 	(pad "1" smd roundrect
 		(at -0.9 -2.8)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "f737a834-211b-4cc4-af67-ae585fdd59a8")
 	)
 	(pad "2" smd roundrect
 		(at -0.9 2.8)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "bc6ef0b5-ebe5-4019-b8a5-448ef35812cc")
 	)
 	(pad "3" smd roundrect
 		(at 0.9 2.8)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "5de51b88-6caf-4f1b-ac44-d1b9f139ba80")
 	)
 	(pad "4" smd roundrect
 		(at 0.9 -2.8)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "64d8a80d-4254-45e5-983f-0174f34791f5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Kodenshi_SG105.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Kodenshi_SG105.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

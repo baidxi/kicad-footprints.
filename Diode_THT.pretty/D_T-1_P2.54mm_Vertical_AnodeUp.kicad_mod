@@ -1,7 +1,7 @@
 (footprint "D_T-1_P2.54mm_Vertical_AnodeUp"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode, T-1 series, Axial, Vertical, pin pitch=2.54mm, , length*diameter=3.2*2.6mm^2, , http://www.diodes.com/_files/packages/T-1.pdf")
 	(tags "Diode T-1 series Axial Vertical pin pitch 2.54mm  length 3.2mm diameter 2.6mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2127894c-dad5-4d6c-bd40-d1faada0a2d8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "01528c18-7006-4c1b-8843-cb96bbc75097")
 	)
@@ -185,7 +175,8 @@
 		(remove_unused_layers no)
 		(uuid "51918f40-dfaa-4b63-a8f7-03254c08f946")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_T-1_P2.54mm_Vertical_AnodeUp.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_T-1_P2.54mm_Vertical_AnodeUp.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

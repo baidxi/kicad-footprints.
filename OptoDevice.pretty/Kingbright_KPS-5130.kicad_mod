@@ -1,7 +1,7 @@
 (footprint "Kingbright_KPS-5130"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.kingbright.com/attachments/file/psearch/000/00/00/KPS-5130PD7C(Ver.14).pdf")
 	(tags "KPS-5130 photodiode RGB sensor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7e82920a-d5b5-4b31-bc4c-b75da580d2f5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "8b1a1bf5-55d3-4692-9d1e-43acc5a7265b")
 	)
@@ -223,7 +213,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "74a34e04-4200-4ec7-88da-f5bb7bbfb647")
 	)
@@ -274,32 +264,33 @@
 	(pad "1" smd roundrect
 		(at -2.56 -0.85)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1185ec6e-6b79-41e9-b25d-c78afdc8f605")
 	)
 	(pad "2" smd roundrect
 		(at 2.56 -0.85)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3e070f8a-98b4-4f50-ab6d-9cb363c3eb7c")
 	)
 	(pad "3" smd roundrect
 		(at -2.56 0.85)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "de0211c0-d820-4e1f-bd8a-40655c57f7f7")
 	)
 	(pad "4" smd roundrect
 		(at 2.56 0.85)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "dd09840b-2129-46ca-a138-1e3b79ae4cd6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Kingbright_KPS-5130.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Kingbright_KPS-5130.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

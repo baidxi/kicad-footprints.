@@ -1,7 +1,7 @@
 (footprint "Adafruit_Feather_WithMountingHoles"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Common footprint for the Adafruit Feather series of boards, https://learn.adafruit.com/adafruit-feather/feather-specification")
 	(tags "Adafruit Feather")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cfe58d75-d1d3-4171-9a3f-4dc6a0b70ffd")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -347,7 +337,7 @@
 		(uuid "93708e80-46d6-45a3-8a13-4de8dab4db9c")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 10.16 19.05 -90)
+		(at 10.16 19.05 270)
 		(layer "F.Fab")
 		(uuid "c128ed05-803a-48a4-9d91-594722767741")
 		(effects
@@ -665,7 +655,8 @@
 		(remove_unused_layers no)
 		(uuid "715f9f20-c7bd-40c6-9898-7dd22a7527dd")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Adafruit_Feather.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/Adafruit_Feather.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

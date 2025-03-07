@@ -1,7 +1,7 @@
 (footprint "Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Pico-EZmate series connector, 78171-0002 (http://www.molex.com/pdm_docs/sd/781710002_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex Pico-EZmate side entry")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4e368780-72db-47a2-86f4-4ac67489519e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -348,32 +338,33 @@
 	(pad "1" smd roundrect
 		(at -0.6 -1.875)
 		(size 0.6 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ba04ed4c-ffd2-4ede-9a8a-ec118e312f5a")
 	)
 	(pad "2" smd roundrect
 		(at 0.6 -1.875)
 		(size 0.6 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "67e529fe-f5ea-4ebb-9e03-59063133322b")
 	)
 	(pad "MP" smd roundrect
 		(at -1.75 1.9)
 		(size 0.7 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e82bc6ca-064f-4398-80c2-dea896a29e34")
 	)
 	(pad "MP" smd roundrect
 		(at 1.75 1.9)
 		(size 0.7 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e342a947-8208-4d6d-92fb-ef4f712280fe")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

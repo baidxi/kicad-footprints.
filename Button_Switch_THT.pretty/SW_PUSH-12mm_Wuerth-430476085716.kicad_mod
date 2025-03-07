@@ -1,7 +1,7 @@
 (footprint "SW_PUSH-12mm_Wuerth-430476085716"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SW PUSH 12mm http://katalog.we-online.de/em/datasheet/430476085716.pdf")
 	(tags "tact sw push 12mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "982dea88-90ba-49d7-939a-aae7e8c76a28")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -151,7 +141,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "b283a789-2ae0-46ed-acc3-27e7b19520ff")
 	)
@@ -278,7 +268,8 @@
 		(remove_unused_layers no)
 		(uuid "b445929d-c40b-4bea-82c8-808ecd3e6946")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm_Wuerth-430476085716.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm_Wuerth-430476085716.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

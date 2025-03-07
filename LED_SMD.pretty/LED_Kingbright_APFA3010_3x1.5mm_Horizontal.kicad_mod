@@ -1,7 +1,7 @@
 (footprint "LED_Kingbright_APFA3010_3x1.5mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LED RGB, APFA3010, http://www.kingbrightusa.com/images/catalog/SPEC/APFA3010LSEEZGKQBKC.pdf")
 	(tags "LED RGB APFA3010 KINGBRIGHT 3x1.5mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "77d10113-2ca1-4dea-82d8-9c0246505528")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -271,28 +261,29 @@
 	(pad "1" smd rect
 		(at -1.5 0)
 		(size 1 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "34d3cc02-c3cc-4e17-a024-ec2d737651d3")
 	)
 	(pad "2" smd rect
 		(at 1.5 0)
 		(size 1 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1b15f292-1fbe-4bf6-ad24-a3cdd2ed6ca2")
 	)
 	(pad "3" smd rect
 		(at 0.4 0.45)
 		(size 0.4 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7d6e37fd-a343-4049-b875-c1512d780a1d")
 	)
 	(pad "4" smd rect
 		(at -0.4 0.45)
 		(size 0.4 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3f4d5c1b-b71e-4f46-a0ad-f77fe5a14383")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Kingbright_APFA3010_3x1.5mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Kingbright_APFA3010_3x1.5mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

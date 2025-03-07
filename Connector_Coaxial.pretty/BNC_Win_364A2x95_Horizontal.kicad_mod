@@ -1,7 +1,7 @@
 (footprint "BNC_Win_364A2x95_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Dual front isolated BNC plug (https://www.winconn.com/wp-content/uploads/364A2595.pdf)")
 	(tags "Dual BNC Horizontal Isolated")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4f0a62bc-66f0-4b6d-9e03-9d1e1e0e9baf")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -341,7 +331,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8c465b04-7fc0-4f08-9762-fca342cac9ab")
 	)
@@ -405,7 +395,8 @@
 		(remove_unused_layers no)
 		(uuid "d7791f0f-2971-40fd-91fd-a9bdc70252fb")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/BNC_Win_364A2x95_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/BNC_Win_364A2x95_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

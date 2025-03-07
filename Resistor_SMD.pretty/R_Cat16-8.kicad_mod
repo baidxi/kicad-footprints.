@@ -1,7 +1,7 @@
 (footprint "R_Cat16-8"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMT resistor net, Bourns CAT16 series, 8 way")
 	(tags "SMT resistor net Bourns CAT16 series 8 way")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "87f8f8fc-e0b8-4c5f-aa20-0b7e9e216eb0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,32 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 -2.4)
-		(end -0.1 -2.4)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "cf82b881-823c-4c30-a342-81c22d0eb56d")
-	)
-	(fp_circle
-		(center 0 2.4)
-		(end -0.1 2.4)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "0c849937-a91f-410f-975e-077e0c710d62")
-	)
 	(fp_line
 		(start 1.1 -3.3)
 		(end -1.1 -3.3)
@@ -105,6 +73,28 @@
 		)
 		(layer "F.SilkS")
 		(uuid "fda80c5a-5b90-4d83-880e-85d766338911")
+	)
+	(fp_circle
+		(center 0 -2.4)
+		(end -0.1 -2.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "cf82b881-823c-4c30-a342-81c22d0eb56d")
+	)
+	(fp_circle
+		(center 0 2.4)
+		(end -0.1 2.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "0c849937-a91f-410f-975e-077e0c710d62")
 	)
 	(fp_line
 		(start -1.39 -3.45)
@@ -200,100 +190,101 @@
 	(pad "1" smd rect
 		(at -0.76 -2.8 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "24610dee-db39-4c98-bfab-0f9882e63313")
 	)
 	(pad "2" smd rect
 		(at -0.76 -2 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5d4f531f-c3bb-4535-9426-7afb011b8b07")
 	)
 	(pad "3" smd rect
 		(at -0.76 -1.2 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b19edc6f-6748-4927-962d-df56f29b54c7")
 	)
 	(pad "4" smd rect
 		(at -0.76 -0.4 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6f00e3d3-312f-42e8-a74b-3d631afd98cd")
 	)
 	(pad "5" smd rect
 		(at -0.76 0.4 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "05b89a37-c09b-4300-849f-24700d8a2280")
 	)
 	(pad "6" smd rect
 		(at -0.76 1.2 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "39831aaf-cf9e-47f1-b64d-32eb5b55e40f")
 	)
 	(pad "7" smd rect
 		(at -0.76 2 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "21b669fa-4ffa-409d-ba88-224dfb350583")
 	)
 	(pad "8" smd rect
 		(at -0.76 2.8 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "114244f2-00b9-4a14-adcf-1073a78a6b96")
 	)
 	(pad "9" smd rect
 		(at 0.76 2.8 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "629da40a-9c49-4f9d-b1da-eddf270cc8f6")
 	)
 	(pad "10" smd rect
 		(at 0.76 2 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ff7c9dd5-e673-4767-8ef5-592e2eecd167")
 	)
 	(pad "11" smd rect
 		(at 0.76 1.2 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cddc04e2-d4bd-407c-a1e4-226c67db6695")
 	)
 	(pad "12" smd rect
 		(at 0.76 0.4 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "031c3803-15bd-4fc9-a3b0-3145776cf9d2")
 	)
 	(pad "13" smd rect
 		(at 0.76 -0.4 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "30f4d22a-4214-4828-8415-50f93116a29f")
 	)
 	(pad "14" smd rect
 		(at 0.76 -1.2 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4c24e31d-87a1-4976-b761-bd5d2ee89574")
 	)
 	(pad "15" smd rect
 		(at 0.76 -2 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3c318340-644b-4500-a5f7-9957f73d1c00")
 	)
 	(pad "16" smd rect
 		(at 0.76 -2.8 180)
 		(size 0.76 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "57c9b31d-fcd1-40b7-9ee7-709333cbdb0d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Cat16-8.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Cat16-8.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

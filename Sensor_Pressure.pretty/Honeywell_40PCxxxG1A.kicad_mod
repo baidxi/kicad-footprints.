@@ -1,7 +1,7 @@
 (footprint "Honeywell_40PCxxxG1A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.honeywellscportal.com/index.php?ci_id=138832")
 	(tags "pressure sensor automotive honeywell")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bb8ba35a-b66f-4b9d-a9f4-8da4008842f5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -569,7 +559,8 @@
 		(remove_unused_layers no)
 		(uuid "2c0ae4ae-4cef-45d6-8ccb-07354699342e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Pressure.3dshapes/Honeywell_40PCxxxG1A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Pressure.3dshapes/Honeywell_40PCxxxG1A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

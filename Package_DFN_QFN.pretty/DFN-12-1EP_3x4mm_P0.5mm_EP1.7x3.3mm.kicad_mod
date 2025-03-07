@@ -1,7 +1,7 @@
 (footprint "DFN-12-1EP_3x4mm_P0.5mm_EP1.7x3.3mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DE/UE Package; 12-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_12_05-08-1695.pdf)")
 	(tags "DFN 0.5")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "784897c8-3653-4ed3-b550-0b4aa60d186a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "eafe340a-00f2-4a3a-87a0-8871d3b2bc22")
 	)
@@ -248,73 +238,73 @@
 	(pad "1" smd rect
 		(at -1.45 -1.25)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3fdf3b64-851b-4b08-8996-95d6a762d502")
 	)
 	(pad "2" smd rect
 		(at -1.45 -0.75)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4cf4fdd5-eb8a-4842-a492-8d7028ac9ac2")
 	)
 	(pad "3" smd rect
 		(at -1.45 -0.25)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "df471ed0-f7e1-4b9e-8da5-9e13797a81d0")
 	)
 	(pad "4" smd rect
 		(at -1.45 0.25)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8d68ff2d-7c24-41f8-bd90-5dff0cd3e070")
 	)
 	(pad "5" smd rect
 		(at -1.45 0.75)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1f5b0eab-3e27-4cfa-af28-2e089faf1f9b")
 	)
 	(pad "6" smd rect
 		(at -1.45 1.25)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5b5da3dc-b026-43a3-b201-9c8251dede89")
 	)
 	(pad "7" smd rect
 		(at 1.45 1.25)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f5c73868-9c1b-47da-9f13-f724e6d3ac0b")
 	)
 	(pad "8" smd rect
 		(at 1.45 0.75)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "200227df-156f-48d7-9af5-d5457f9343ef")
 	)
 	(pad "9" smd rect
 		(at 1.45 0.25)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "671beec6-eecf-4424-840f-5361cf9b30c6")
 	)
 	(pad "10" smd rect
 		(at 1.45 -0.25)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4b088d3b-8098-4fb2-bd6b-bbf9f71d0826")
 	)
 	(pad "11" smd rect
 		(at 1.45 -0.75)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "baaacb83-596b-417c-b684-c8510349990b")
 	)
 	(pad "12" smd rect
 		(at 1.45 -1.25)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bb2c1585-4955-429f-a20f-de0a55cd3518")
 	)
 	(pad "13" smd rect
@@ -323,7 +313,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "fa95a70e-9994-4f3a-9463-b65810647686")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-12-1EP_3x4mm_P0.5mm_EP1.7x3.3mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-12-1EP_3x4mm_P0.5mm_EP1.7x3.3mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

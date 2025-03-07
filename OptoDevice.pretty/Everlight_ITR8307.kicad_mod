@@ -1,7 +1,7 @@
 (footprint "Everlight_ITR8307"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "package for Everlight ITR8307 with PCB cutout, light-direction upwards, see http://www.everlight.com/file/ProductFile/ITR8307.pdf")
 	(tags "refective opto couple photo coupler")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fb1220a9-9250-43d9-9591-d3cdd01fa575")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -391,32 +381,33 @@
 	(pad "1" smd roundrect
 		(at -0.9 2.8)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "55856537-7f29-4067-b6e4-f10354764108")
 	)
 	(pad "2" smd roundrect
 		(at -0.9 -2.8)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "4a628286-fb4f-4eeb-9821-7088da237a68")
 	)
 	(pad "3" smd roundrect
 		(at 0.9 2.8)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "8a6fa1be-2b6d-486c-af9c-7743c243e6c6")
 	)
 	(pad "4" smd roundrect
 		(at 0.9 -2.8)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "59df96a1-25b4-4a4f-a069-86f106d87eac")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Everlight_ITR8307.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Everlight_ITR8307.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

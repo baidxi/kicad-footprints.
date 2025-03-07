@@ -1,7 +1,7 @@
 (footprint "Filter_Mini-Circuits_FV1206-4"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mini-Circuits Filter SMD 1206 https://ww2.minicircuits.com/case_style/FV1206-4.pdf")
 	(tags "Mini-Circuits Filter SMD 1206")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8b9f468d-8565-4139-8bd9-7186daaf7bd5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -162,7 +152,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "0f2daf97-6794-49fe-993b-b2f458693723")
 	)
@@ -450,7 +440,7 @@
 	(pad "1" smd roundrect
 		(at -1.815 0)
 		(size 0.99 0.61)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "01507055-1a85-48e7-9029-620e224d4b7f")
 	)
@@ -465,7 +455,7 @@
 	(pad "2" smd roundrect
 		(at 0 1.015)
 		(size 1.75 0.99)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "de56acd1-1699-4347-952c-ec3248e94709")
 	)
@@ -480,7 +470,7 @@
 	(pad "3" smd roundrect
 		(at 1.815 0)
 		(size 0.99 0.61)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e0c14377-aee1-469b-b96d-7138388e8208")
 	)
@@ -495,7 +485,7 @@
 	(pad "4" smd roundrect
 		(at 0 -1.015)
 		(size 1.75 0.99)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6206ac60-9a97-46ba-bb05-d0483633ab8b")
 	)
@@ -507,7 +497,8 @@
 		(remove_unused_layers no)
 		(uuid "540ed6ad-f734-40e2-8f06-9fe5c8f4e05d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Filter.3dshapes/Filter_Mini-Circuits_FV1206-4.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_Mini-Circuits_FV1206-4.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

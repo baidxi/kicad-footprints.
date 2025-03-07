@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Murata_CRE1xxxxxxSC_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://power.murata.com/data/power/ncl/kdc_cre1.pdf")
 	(tags "murata dc-dc transformer")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a96fea93-86b3-4e16-a0d0-cb83dc532683")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -215,7 +205,7 @@
 		(uuid "22b78593-0ec6-49b4-9d56-72b4d0ad5780")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.794 3.556 -90)
+		(at 2.794 3.556 270)
 		(layer "F.Fab")
 		(uuid "ed4eb016-f9bf-4d41-9808-5a5e84ae87d3")
 		(effects
@@ -257,7 +247,8 @@
 		(remove_unused_layers no)
 		(uuid "b377edbf-adf8-4b38-8bfd-909474d5e7d2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Murata_CRE1xxxxxxSC_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Murata_CRE1xxxxxxSC_THT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

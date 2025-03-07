@@ -1,7 +1,7 @@
 (footprint "SMB_Jack_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMB pcb mounting jack")
 	(tags "SMB Jack  Striaght")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d7f6a78d-4a32-49fb-a36e-19647b3f9110")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -231,7 +221,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9da12fb5-a6c5-4845-80a9-67e4420a8078")
 	)
@@ -286,7 +276,8 @@
 		(remove_unused_layers no)
 		(uuid "e28dda43-dce6-4543-9d02-0352db906a14")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMB_Jack_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMB_Jack_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

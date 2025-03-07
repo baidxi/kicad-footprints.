@@ -1,7 +1,7 @@
 (footprint "DVI-D_Molex_74320-4004_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DVI-D Dual Link connector, horizontal, 24 pins, Molex P/N 74320-4004, https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/743/74320/743204004_sd.pdf?inline")
 	(tags "dvi right angle")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 9.525 9.0424 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f025e30e-534d-45b3-8129-5a0f588cba6d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 9.525 9.0424 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -164,7 +154,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "7b91a29f-a404-436c-9ce6-b605e5265d09")
 	)
@@ -607,7 +597,8 @@
 		(remove_unused_layers no)
 		(uuid "abf3ff28-62b2-414a-9e8a-e314584e39e4")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Video.3dshapes/DVI-D_Molex_74320-4004_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Video.3dshapes/DVI-D_Molex_74320-4004_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

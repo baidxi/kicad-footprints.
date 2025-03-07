@@ -1,7 +1,7 @@
 (footprint "DWM1000"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "IEEE802.15.4-2011 UWB")
 	(tags "UWB Module")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "83f9e229-b66c-4dd1-b2b8-02bfd24e9627")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -142,7 +132,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "849727cb-591a-49e0-852b-21e96c6febc0")
 	)
@@ -372,151 +362,156 @@
 	(pad "1" smd rect
 		(at -6.3 -0.7988 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dceda248-30f9-4bf7-bf2d-ccc037fa6a68")
 	)
 	(pad "2" smd rect
 		(at -6.3 0.6012 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cee29c13-d08f-4ff7-8c18-b299fe0bbf30")
 	)
 	(pad "3" smd rect
 		(at -6.3 2.0012 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fd9e21de-75ce-492b-a8c8-88dc93943a2f")
 	)
 	(pad "4" smd rect
 		(at -6.3 3.4012 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ab3b2cad-da94-488e-90c1-65ac271efc1f")
 	)
 	(pad "5" smd rect
 		(at -6.3 4.8012 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1e09b64f-e918-4a7a-b0da-dc488f23555b")
 	)
 	(pad "6" smd rect
 		(at -6.3 6.2012 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "386834e6-6680-4572-9b46-caa36177357a")
 	)
 	(pad "7" smd rect
 		(at -6.3 7.6012 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ca751396-3a98-4d8e-ab2f-9d8b0493999a")
 	)
 	(pad "8" smd rect
 		(at -6.3 9.0012 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eb63d3a7-97d1-46d8-9ad0-d1ede195e150")
 	)
 	(pad "9" smd rect
 		(at -4.9 11.2962)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ee9c7f13-2495-49c8-afbc-20059bf6605c")
 	)
 	(pad "10" smd rect
 		(at -3.5 11.2962)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "05ca5f1c-640a-4539-bbf2-380c083dadb4")
 	)
 	(pad "11" smd rect
 		(at -2.1 11.2962)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3c8a94ec-9675-4ae1-b7ec-47c1a43df4d0")
 	)
 	(pad "12" smd rect
 		(at -0.7 11.2962)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3ed38ad7-063d-4fc1-be5b-f99aac8cab9c")
 	)
 	(pad "13" smd rect
 		(at 0.7 11.2962)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "684ae9dd-3f4f-41ad-8559-2e7e025c5d04")
 	)
 	(pad "14" smd rect
 		(at 2.1 11.2962)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "78089154-a372-4070-a89e-8968e2626c1a")
 	)
 	(pad "15" smd rect
 		(at 3.5 11.2962)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1ce9651d-d259-4cd0-b28d-71fc31bc6cef")
 	)
 	(pad "16" smd rect
 		(at 4.9 11.2962)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "112bb67a-4643-4369-ac22-98ce900a10d2")
 	)
 	(pad "17" smd rect
 		(at 6.3 9 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b3a2e8f6-7113-496d-8a33-28e69200057b")
 	)
 	(pad "18" smd rect
 		(at 6.3 7.6 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b4f146a0-2f30-43ae-be6f-5a5256df5a7b")
 	)
 	(pad "19" smd rect
 		(at 6.3 6.2012 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e26d26c1-a06e-4068-8735-df104edcbcb1")
 	)
 	(pad "20" smd rect
 		(at 6.3 4.8012 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c09c6e27-7b72-4982-9004-4c059228b17b")
 	)
 	(pad "21" smd rect
 		(at 6.3 3.4012 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ad82aacb-6ce4-4b92-8b91-b19e8482e0d1")
 	)
 	(pad "22" smd rect
 		(at 6.3 2.0012 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6538467c-3aed-4f8d-967b-d2ad6cce4636")
 	)
 	(pad "23" smd rect
 		(at 6.3 0.6012 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8501bedc-d18c-472e-a584-20643aa484f2")
 	)
 	(pad "24" smd rect
 		(at 6.3 -0.7988 90)
 		(size 1 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d65b95e6-f0f7-4ee3-978b-b0fab8273b1f")
 	)
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "1fd46901-2d3f-49d4-ba27-36cd3b300f3a")
 		(hatch full 0.508)
 		(connect_pads
@@ -531,6 +526,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -541,7 +540,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/DWM1000.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/DWM1000.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

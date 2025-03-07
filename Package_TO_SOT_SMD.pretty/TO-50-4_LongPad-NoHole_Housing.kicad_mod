@@ -1,7 +1,7 @@
 (footprint "TO-50-4_LongPad-NoHole_Housing"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TO-50-4 Macro X Package Style M238")
 	(tags "TO-50-4 Macro X Package Style M238")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "67a441c8-0c37-4b40-9d82-4b8a3e00d50b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "f17f7edf-9478-4414-a621-e45e42a6ca23")
 	)
@@ -83,7 +73,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "56789371-4c4f-4c3f-9363-f47fd1c4dbf4")
 	)
@@ -254,7 +244,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "986da2ee-53bf-4ac8-96c0-90dab359a508")
 	)
@@ -272,28 +262,29 @@
 	(pad "1" smd rect
 		(at -7.5 0 270)
 		(size 1.5 7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ffe83453-1918-4891-ae29-7f7ccc41d943")
 	)
 	(pad "2" smd rect
 		(at -0.7 6.8 270)
 		(size 7 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7eef8e6a-ad49-4174-b8ad-e1debed4c305")
 	)
 	(pad "3" smd rect
 		(at 7.5 0 270)
 		(size 1.5 10)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6fe795e2-4294-43b7-8a00-1d1ef9d1e373")
 	)
 	(pad "4" smd rect
 		(at -0.7 -6.8 270)
 		(size 7 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c63e8895-a914-4ced-9385-b61a6dfa4e15")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-50-4_LongPad-NoHole_Housing.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-50-4_LongPad-NoHole_Housing.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

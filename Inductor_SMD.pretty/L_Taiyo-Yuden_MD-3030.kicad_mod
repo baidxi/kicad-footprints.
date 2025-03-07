@@ -1,7 +1,7 @@
 (footprint "L_Taiyo-Yuden_MD-3030"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Inductor, Taiyo Yuden, MD series, Taiyo-Yuden_MD-3030, 3.0mmx3.0mm")
 	(tags "inductor taiyo-yuden md smd")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c27826c2-8192-460c-8f46-c51aff57c6b3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -178,16 +168,17 @@
 	(pad "1" smd rect
 		(at -1.1 0)
 		(size 0.8 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "52e33561-3374-4716-be57-b5557d7ed19a")
 	)
 	(pad "2" smd rect
 		(at 1.1 0)
 		(size 0.8 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fd95860c-ac9c-40f3-a5cc-f03dfe13ea26")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Taiyo-Yuden_MD-3030.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Taiyo-Yuden_MD-3030.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

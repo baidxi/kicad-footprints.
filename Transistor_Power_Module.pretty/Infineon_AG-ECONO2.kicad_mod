@@ -1,7 +1,7 @@
 (footprint "Infineon_AG-ECONO2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "28-lead TH, EconoPACK 2, same as Littelfuse_Package_H_XN2MM, https://www.infineon.com/dgdl/Infineon-FS75R07N2E4-DS-v02_00-en_de.pdf?fileId=db3a30432f5008fe012f52f916333979")
 	(tags "igbt diode module")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ace0703f-4c3f-41f3-81a3-4fc2ea06082b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,10 +49,91 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -23.47 -1.75)
+		(end 84.43 -1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "edeead7b-5978-4d7e-b84d-da97bffb4c8e")
+	)
+	(fp_line
+		(start -23.47 43.65)
+		(end -23.47 -1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2e68fcf-f71f-4ed7-b3ca-780f7ac142d3")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "adc703bb-8409-4c3c-b878-c110f4100c20")
+	)
+	(fp_line
+		(start 2 -1.75)
+		(end 2 1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75585f2f-915d-458b-9d1f-5edff70d1c5a")
+	)
+	(fp_line
+		(start 2 1.75)
+		(end 2 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e76fb3b-4983-4448-a906-25e4a3264c8b")
+	)
+	(fp_line
+		(start 2 2)
+		(end -2 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9db0a45c-da3b-4dfd-a0e4-c5dc245adc63")
+	)
+	(fp_line
+		(start 84.43 -1.75)
+		(end 84.43 43.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c64ac4af-bd6a-4859-ae15-48ab2ecb6a4f")
+	)
+	(fp_line
+		(start 84.43 43.65)
+		(end -23.47 43.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42d731a0-3acb-498c-a3d2-632f8f9794af")
+	)
 	(fp_line
 		(start -23.47 -1.75)
 		(end -23.47 -1.25)
@@ -3265,86 +3335,6 @@
 		(uuid "63bcc146-e3c7-4707-b6cb-747344810683")
 	)
 	(fp_line
-		(start -23.47 -1.75)
-		(end 84.43 -1.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "edeead7b-5978-4d7e-b84d-da97bffb4c8e")
-	)
-	(fp_line
-		(start -23.47 43.65)
-		(end -23.47 -1.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d2e68fcf-f71f-4ed7-b3ca-780f7ac142d3")
-	)
-	(fp_line
-		(start -2 2)
-		(end -2 -1.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "adc703bb-8409-4c3c-b878-c110f4100c20")
-	)
-	(fp_line
-		(start 2 -1.75)
-		(end 2 1.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "75585f2f-915d-458b-9d1f-5edff70d1c5a")
-	)
-	(fp_line
-		(start 2 1.75)
-		(end 2 2)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "3e76fb3b-4983-4448-a906-25e4a3264c8b")
-	)
-	(fp_line
-		(start 2 2)
-		(end -2 2)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9db0a45c-da3b-4dfd-a0e4-c5dc245adc63")
-	)
-	(fp_line
-		(start 84.43 -1.75)
-		(end 84.43 43.65)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c64ac4af-bd6a-4859-ae15-48ab2ecb6a4f")
-	)
-	(fp_line
-		(start 84.43 43.65)
-		(end -23.47 43.65)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "42d731a0-3acb-498c-a3d2-632f8f9794af")
-	)
-	(fp_line
 		(start -23.52 -1.8)
 		(end 84.48 -1.8)
 		(stroke
@@ -3700,7 +3690,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "e0f06b5c-de63-4833-a591-ca9e19217a35")
 		(name "MH")
 		(hatch full 0.508)
@@ -3715,6 +3710,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -3747,7 +3746,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "0ae82096-0994-4fb0-9a2a-d4ac4804abac")
 		(name "MH")
 		(hatch full 0.508)
@@ -3762,6 +3766,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -3791,7 +3799,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transistor_Power_Module.3dshapes/Infineon_AG-ECONO2.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transistor_Power_Module.3dshapes/Infineon_AG-ECONO2.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

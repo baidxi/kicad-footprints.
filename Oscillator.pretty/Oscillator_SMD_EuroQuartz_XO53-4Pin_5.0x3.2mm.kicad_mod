@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_EuroQuartz_XO53-4Pin_5.0x3.2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Miniature Crystal Clock Oscillator EuroQuartz XO53 series, http://cdn-reichelt.de/documents/datenblatt/B400/XO53.pdf, 5.0x3.2mm^2 package")
 	(tags "SMD SMT crystal oscillator")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5abf5eaf-7410-45d5-85ca-e40d5b20ec27")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,54 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 0.116667 0)
-		(stroke
-			(width 0.233333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "b1eb19ce-9352-49d5-bfb0-86ba9c522149")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.266667 0)
-		(stroke
-			(width 0.166667)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "f657952e-1a6f-4619-b70a-091eb93508f4")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.416667 0)
-		(stroke
-			(width 0.166667)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "e3c91f9f-0d5f-460e-a2e6-cfbf86448f2d")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.5 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "6cfb15ff-b149-462e-8f45-b583b58e6017")
-	)
 	(fp_line
 		(start -2.7 -1.8)
 		(end -2.17 -1.8)
@@ -207,6 +153,50 @@
 		)
 		(layer "F.SilkS")
 		(uuid "5980c823-4b46-4250-b818-efe82598c626")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.116667 0)
+		(stroke
+			(width 0.233333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "b1eb19ce-9352-49d5-bfb0-86ba9c522149")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.266667 0)
+		(stroke
+			(width 0.166667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "f657952e-1a6f-4619-b70a-091eb93508f4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.416667 0)
+		(stroke
+			(width 0.166667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "e3c91f9f-0d5f-460e-a2e6-cfbf86448f2d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "6cfb15ff-b149-462e-8f45-b583b58e6017")
 	)
 	(fp_line
 		(start -2.8 -2)
@@ -352,28 +342,29 @@
 	(pad "1" smd rect
 		(at -1.27 1.1)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "71671a8c-2e69-42b1-8822-b82099768876")
 	)
 	(pad "2" smd rect
 		(at 1.27 1.1)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "98de6228-073f-4122-93ef-57e74a909cab")
 	)
 	(pad "3" smd rect
 		(at 1.27 -1.1)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bc2faf74-c049-4078-b510-04e3aedeada3")
 	)
 	(pad "4" smd rect
 		(at -1.27 -1.1)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bc90a074-4ddc-463e-b603-11775f0be94b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_EuroQuartz_XO53-4Pin_5.0x3.2mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_EuroQuartz_XO53-4Pin_5.0x3.2mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

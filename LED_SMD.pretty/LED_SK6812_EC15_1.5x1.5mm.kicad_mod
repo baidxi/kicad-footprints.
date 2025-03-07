@@ -1,7 +1,7 @@
 (footprint "LED_SK6812_EC15_1.5x1.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RGB addressable LED, 0.1W, 1.5mm x 1.5mm, 0.65m height, orientation mark at GND, http://ledstrip-china.com/productshow.asp?id=322")
 	(tags "LED RGB NeoPixel")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "de00c40f-55ee-4b95-9555-8e64502b5706")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -182,12 +172,13 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "314b0f53-4909-45ea-a13f-e3cbe8723c6d")
 	)
 	(fp_text user "1"
-		(at -0.95 0.68 180)
+		(at -0.95 0.68 0)
+		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "7f23965e-af26-4fcc-98e3-f80c4e4dbf61")
 		(effects
@@ -211,32 +202,33 @@
 	(pad "1" smd roundrect
 		(at -0.45 0.45 90)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f5ca6e0d-91f0-4425-99a6-8e413991d3dd")
 	)
 	(pad "2" smd roundrect
 		(at 0.45 0.45 90)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "df159f6f-219f-4986-b816-54a1f53ce6ba")
 	)
 	(pad "3" smd roundrect
 		(at 0.45 -0.45 90)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6dd259ab-6e3f-4a9f-94d7-a21b22932737")
 	)
 	(pad "4" smd roundrect
 		(at -0.45 -0.45 90)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c7b7223d-7a0a-4b75-8c7c-5d62bd855dfc")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Alps_RK097_Single_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1110, Single Pot, Horizontal, Alps RK097 Single,  https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk097/rk097.pdf")
 	(tags "Potentiometer horizontal Alps RK097 Single")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6ae43929-6999-457f-96a0-c10545f91d65")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,83 +49,14 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
 	(fp_line
-		(start -25.12 5.62)
-		(end -25.12 -0.62)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "13abf99d-5265-4779-8973-e94370fd18ff")
-	)
-	(fp_line
-		(start -12.12 -0.62)
-		(end -25.12 -0.62)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a7520ad3-0f8b-4788-92d4-8ffb277041e6")
-	)
-	(fp_line
-		(start -12.12 5.62)
-		(end -25.12 5.62)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a795f1ba-cdd5-4cc5-9a52-08586e982934")
-	)
-	(fp_line
-		(start -12.12 6.12)
-		(end -12.12 -1.12)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "46918595-4a45-48e8-84c0-961b4db7f35f")
-	)
-	(fp_line
-		(start -5.12 -1.12)
-		(end -12.12 -1.12)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9ccf03e8-755a-4cd9-96fc-30e1d08fa253")
-	)
-	(fp_line
-		(start -5.12 6.12)
-		(end -12.12 6.12)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "94c158d1-8503-4553-b511-bf42f506c2a8")
-	)
-	(fp_line
-		(start -5.12 7.37)
-		(end -5.12 -2.37)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "23bb2798-d93a-4696-a962-c305c4298a0c")
-	)
-	(fp_line
 		(start 2.175 -2.37)
-		(end -5.12 -2.37)
+		(end -4.5 -2.37)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -146,7 +66,7 @@
 	)
 	(fp_line
 		(start 2.175 7.37)
-		(end -5.12 7.37)
+		(end -4.5 7.37)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -165,18 +85,18 @@
 		(uuid "983c426c-24e0-4c65-ab69-1f1824adc5c6")
 	)
 	(fp_line
-		(start -5 -2.7)
-		(end -5 7.7)
+		(start -5 -2.37)
+		(end -5 7.37)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "c1d83899-e380-49f9-a87d-8e78bc089ebf")
 	)
 	(fp_line
-		(start -25.25 -2.5)
-		(end -25.25 7.5)
+		(start -25.5 -2.5)
+		(end -25.5 7.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -185,7 +105,7 @@
 		(uuid "e9bb29b2-2bb9-4ea2-acd9-2bb3ca677a12")
 	)
 	(fp_line
-		(start -25.25 7.5)
+		(start -25.5 7.5)
 		(end 2.3 7.5)
 		(stroke
 			(width 0.05)
@@ -196,7 +116,7 @@
 	)
 	(fp_line
 		(start 2.3 -2.5)
-		(end -25.25 -2.5)
+		(end -25.5 -2.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -314,6 +234,18 @@
 		(layer "F.Fab")
 		(uuid "10109f84-4940-47f8-8640-91f185ac9bc1")
 	)
+	(fp_text user "PCB Edge"
+		(at -5.6 2.5 90)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "f6a006ad-0bde-41a6-b9cd-a6efd3b543b7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at -1.475 2.5 180)
 		(layer "F.Fab")
@@ -331,7 +263,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.1388888889)
 		(uuid "f3490fa5-5a27-423b-af60-53609669542c")
 	)
 	(pad "2" thru_hole circle
@@ -350,7 +282,8 @@
 		(remove_unused_layers no)
 		(uuid "3dcc657b-55a1-48e0-9667-e01e7b6b08b5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK097_Single_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK097_Single_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

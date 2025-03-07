@@ -1,7 +1,7 @@
 (footprint "TO-50-4_LongPad-WithHole_Housing"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TO-50-4 Macro X Package Style M238")
 	(tags "TO-50-4 Macro X Package Style M238")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "07a7190b-30eb-4854-a930-2867b119046c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -72,7 +62,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "1160f2d0-1fa1-415b-a38f-e7bd58f4ddc0")
 	)
@@ -243,7 +233,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2c73dfb1-cb84-43d8-92e0-5a41e2d59ffc")
 	)
@@ -268,28 +258,29 @@
 	(pad "1" smd rect
 		(at 7.5 0 90)
 		(size 1.5 7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "70a5f34b-bd66-437f-97cd-bbf173798df3")
 	)
 	(pad "2" smd rect
 		(at 0.7 -6.8 90)
 		(size 7 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "49a65b2a-4c42-459c-b866-dd78b44908ed")
 	)
 	(pad "3" smd rect
 		(at -7.5 0 90)
 		(size 1.5 10)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d3990f30-41af-42fe-a64a-c5b1f22d6642")
 	)
 	(pad "4" smd rect
 		(at 0.7 6.8 90)
 		(size 7 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0b3ce94f-358b-43a0-b82f-9061edafcc6c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-50-4_LongPad-WithHole_Housing.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-50-4_LongPad-WithHole_Housing.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

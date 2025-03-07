@@ -1,7 +1,7 @@
 (footprint "SW_Push_1P1T-SH_NO_CK_KMR2xxG"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "CK components KMR2 tactile switch with ground pin http://www.ckswitches.com/media/1479/kmr2.pdf")
 	(tags "tactile switch kmr2")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "39e88908-5a55-410f-8145-cf8fa852b043")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -201,7 +191,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1fe73d4c-67c0-4da2-b103-22e159899db6")
 	)
@@ -219,34 +209,35 @@
 	(pad "1" smd rect
 		(at -2.05 -0.8)
 		(size 0.9 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d68fc201-8cd1-4bf2-9571-76ec4cf02495")
 	)
 	(pad "1" smd rect
 		(at 2.05 -0.8)
 		(size 0.9 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "04b3de0b-ba65-48f4-aa77-8d750d33c3a7")
 	)
 	(pad "2" smd rect
 		(at -2.05 0.8)
 		(size 0.9 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "774998d7-a32b-4788-81d7-d47b9b92db5f")
 	)
 	(pad "2" smd rect
 		(at 2.05 0.8)
 		(size 0.9 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "50f4197b-c050-46e9-8647-6c2139ba6d26")
 	)
 	(pad "SH" smd rect
 		(at 0 -1.425)
 		(size 1.7 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "87e5ac79-64c0-4760-8241-3301d5b73750")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T-SH_NO_CK_KMR2xxG.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T-SH_NO_CK_KMR2xxG.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

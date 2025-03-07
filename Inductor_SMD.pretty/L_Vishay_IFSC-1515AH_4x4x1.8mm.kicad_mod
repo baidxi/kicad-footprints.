@@ -1,7 +1,7 @@
 (footprint "L_Vishay_IFSC-1515AH_4x4x1.8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Low Profile, High Current Inductors (https://www.vishay.com/docs/34295/sc15ah01.pdf)")
 	(tags "SMD Vishay Inductor Low Profile")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6334b3d3-744b-4397-bd7d-db224fdd9f95")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -218,16 +208,17 @@
 	(pad "1" smd rect
 		(at -1.475 0)
 		(size 1.15 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cd631ade-9c51-42af-a56e-099d624199af")
 	)
 	(pad "2" smd rect
 		(at 1.475 0)
 		(size 1.15 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cfe9c087-06c2-4e7b-aca1-42af2366ef15")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Vishay_IFSC-1515AH_4x4x1.8mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Vishay_IFSC-1515AH_4x4x1.8mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

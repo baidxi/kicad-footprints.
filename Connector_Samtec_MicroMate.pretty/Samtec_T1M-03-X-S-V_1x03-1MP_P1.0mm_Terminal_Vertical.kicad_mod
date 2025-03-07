@@ -1,7 +1,7 @@
 (footprint "Samtec_T1M-03-X-S-V_1x03-1MP_P1.0mm_Terminal_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)")
 	(tags "conn samtec discrete wire terminal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "084ff797-f09d-4dd6-8530-f884d7800514")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -358,39 +348,40 @@
 	(pad "1" smd roundrect
 		(at -1 1.925)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0097ac40-b805-4eb5-bf5d-f4b3561da1ef")
 	)
 	(pad "2" smd roundrect
 		(at 0 1.925)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4e90e40a-beec-454b-85ae-7ebf6715a276")
 	)
 	(pad "3" smd roundrect
 		(at 1 1.925)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "2dd73ae4-d413-4bdf-ae7d-1504b2c41302")
 	)
 	(pad "MP" smd roundrect
 		(at -2.3 -0.6)
 		(size 0.8 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "11f95c99-6a46-4bc2-961b-5ff7c244de4b")
 	)
 	(pad "MP" smd roundrect
 		(at 2.3 -0.6)
 		(size 0.8 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d5c60824-9704-4e89-ab5f-d5b51a49f63e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Samtec_MicroMate.3dshapes/Samtec_T1M-03-X-S-V_1x03-1MP_P1.0mm_Terminal_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Samtec_MicroMate.3dshapes/Samtec_T1M-03-X-S-V_1x03-1MP_P1.0mm_Terminal_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

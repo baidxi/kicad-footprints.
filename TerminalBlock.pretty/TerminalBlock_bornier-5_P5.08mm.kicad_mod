@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_bornier-5_P5.08mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "simple 5-pin terminal block, pitch 5.08mm, revamped version of bornier5")
 	(tags "terminal block bornier5")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "31ab76f0-b9f1-43b2-951c-2ed4608795f1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -255,7 +245,8 @@
 		(remove_unused_layers no)
 		(uuid "20117d96-6053-4487-bd30-f591c4224af7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-5_P5.08mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-5_P5.08mm.wrl"
 		(offset
 			(xyz 10.15999985 0 0)
 		)

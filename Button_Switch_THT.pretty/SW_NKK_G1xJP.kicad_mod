@@ -1,7 +1,7 @@
 (footprint "SW_NKK_G1xJP"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Switch NKK G1xJP http://www.nkkswitches.com/pdf/gwillum.pdf")
 	(tags "SWITCH TOGGLE ILLUM SPDT NKK")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "754de857-f8c9-4efe-bd2b-9271748c8c40")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -243,7 +233,8 @@
 		(remove_unused_layers no)
 		(uuid "a6b6d646-5c3b-4734-abf6-c69ed677d79f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_NKK_G1xJP.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_NKK_G1xJP.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

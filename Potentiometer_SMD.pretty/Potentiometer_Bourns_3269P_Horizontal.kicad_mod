@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Bourns_3269P_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Potentiometer, horizontal, Bourns 3269P, https://www.bourns.com/docs/Product-Datasheets/3269.pdf")
 	(tags "Potentiometer horizontal Bourns 3269P")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1aaa3cf3-dafb-4da1-ac9d-fc2bc5b2753d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -308,22 +298,23 @@
 	(pad "1" smd rect
 		(at 3.2 -2.54)
 		(size 3.3 1.19)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9ce7d6e7-3ffe-4cd1-8c97-577cb7d5e617")
 	)
 	(pad "2" smd rect
 		(at -3.2 0)
 		(size 3.3 1.19)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "10565aaf-7ac6-406e-b213-c383f7240add")
 	)
 	(pad "3" smd rect
 		(at 3.2 2.54)
 		(size 3.3 1.19)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cece998b-5bcc-4918-aab5-50699017b460")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3269P_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3269P_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

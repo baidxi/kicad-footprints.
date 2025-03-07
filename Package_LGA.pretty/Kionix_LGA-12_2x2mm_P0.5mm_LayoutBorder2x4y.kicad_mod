@@ -1,7 +1,7 @@
 (footprint "Kionix_LGA-12_2x2mm_P0.5mm_LayoutBorder2x4y"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Kionix  LGA, 12 Pin (http://kionixfs.kionix.com/en/document/TN008-PCB-Design-Guidelines-for-2x2-LGA-Sensors.pdf#page=4), generated with kicad-footprint-generator ipc_noLead_generator.py")
 	(tags "Kionix LGA NoLead")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e0f6c880-1d2f-4bab-b4ab-eda2638421e8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -152,7 +142,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "2f6dcce8-3c53-4101-bf12-9e1d0f5d5e7b")
 	)
@@ -260,76 +250,77 @@
 	(pad "1" smd rect
 		(at -0.7625 -0.75)
 		(size 0.275 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "afcd345b-4d15-4f18-8875-6a6cd8e1886a")
 	)
 	(pad "2" smd rect
 		(at -0.7625 -0.25)
 		(size 0.275 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "82ad7ffa-b160-4a2b-a9b6-59c17ec1c9a9")
 	)
 	(pad "3" smd rect
 		(at -0.7625 0.25)
 		(size 0.275 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "86c49589-e90d-4769-8ed7-c7e070b69b2b")
 	)
 	(pad "4" smd rect
 		(at -0.7625 0.75)
 		(size 0.275 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "28afc21c-485e-4f2b-a974-e1468e478750")
 	)
 	(pad "5" smd rect
 		(at -0.25 0.7625)
 		(size 0.25 0.275)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f906c687-e997-403a-980d-036c5bbc6948")
 	)
 	(pad "6" smd rect
 		(at 0.25 0.7625)
 		(size 0.25 0.275)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c1a3f280-5b82-4096-93ee-10be6beeb0ef")
 	)
 	(pad "7" smd rect
 		(at 0.7625 0.75)
 		(size 0.275 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "79346216-147e-45d8-9ced-a805813305f1")
 	)
 	(pad "8" smd rect
 		(at 0.7625 0.25)
 		(size 0.275 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "30afb82e-7ca5-447c-ba19-6cc52273ef9a")
 	)
 	(pad "9" smd rect
 		(at 0.7625 -0.25)
 		(size 0.275 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a13870e8-31a3-47b7-9bd5-79f0988c3585")
 	)
 	(pad "10" smd rect
 		(at 0.7625 -0.75)
 		(size 0.275 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f00da1a0-161f-4b30-9964-83b97266645a")
 	)
 	(pad "11" smd rect
 		(at 0.25 -0.7625)
 		(size 0.25 0.275)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6dd18ee5-1e92-48ae-aa0c-1921cd0c70bf")
 	)
 	(pad "12" smd rect
 		(at -0.25 -0.7625)
 		(size 0.25 0.275)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4d5bca5f-b151-431e-b7de-370cce9d2434")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_LGA.3dshapes/Kionix_LGA-12_2x2mm_P0.5mm_LayoutBorder2x4y.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/Kionix_LGA-12_2x2mm_P0.5mm_LayoutBorder2x4y.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

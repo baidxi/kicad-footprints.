@@ -1,7 +1,7 @@
 (footprint "SW_SPST_PTS810"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf")
 	(tags "SPST Button Switch")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4e698cd1-5f09-466b-b9ff-73e953fcff3e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -280,28 +270,29 @@
 	(pad "1" smd rect
 		(at -2.075 -1.075)
 		(size 1.05 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7363a322-b079-4442-8803-5d284f9d7208")
 	)
 	(pad "1" smd rect
 		(at 2.075 -1.075)
 		(size 1.05 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9d76774d-8b83-40d0-89df-0f87f7035b98")
 	)
 	(pad "2" smd rect
 		(at -2.075 1.075)
 		(size 1.05 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bf156579-8f1d-4d41-ac73-68d6dd77f42d")
 	)
 	(pad "2" smd rect
 		(at 2.075 1.075)
 		(size 1.05 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ad7b7ce4-900b-4d4e-98b1-e28983bd07fc")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

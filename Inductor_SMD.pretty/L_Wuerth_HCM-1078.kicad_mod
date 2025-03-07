@@ -1,7 +1,7 @@
 (footprint "L_Wuerth_HCM-1078"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Inductor, Wuerth Elektronik, Wuerth_HCM-1078, 9.4mmx6.2mm")
 	(tags "inductor Wuerth hcm smd")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0b537cbc-98e1-4447-910f-cb7f423bf455")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -238,16 +228,17 @@
 	(pad "1" smd rect
 		(at -3.6 0)
 		(size 3.2 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cd4ee7cf-6d3a-418a-a507-fd7aa21a3b69")
 	)
 	(pad "2" smd rect
 		(at 3.6 0)
 		(size 3.2 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fa418e08-8113-4f76-8420-042015b8215d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_HCM-1078.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_HCM-1078.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "D_Powermite_KA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Microsemi Powermite SMD power package (https://www.microsemi.com/packaging-information/partpackage/details?pid=5339, https://www.onsemi.com/pub/Collateral/457-04.PDF)")
 	(tags "Powermite")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "87d3f72e-f3a4-4c97-abf6-87ab48ef7630")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -398,16 +388,17 @@
 	(pad "1" smd rect
 		(at -1.6525 0)
 		(size 0.762 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ad4aee49-3f1d-4ca8-9280-39e93dda5500")
 	)
 	(pad "2" smd rect
 		(at 0.6985 0)
 		(size 2.67 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eb38ff7a-aac9-4b49-aca3-84282885b24d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_Powermite_KA.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_Powermite_KA.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

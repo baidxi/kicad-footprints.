@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_Abracon_ABM7-2Pin_6.0x3.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal Abracon ABM7, https://abracon.com/Resonators/abm7.pdf")
 	(tags "SMD SMT crystal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d40249ee-d146-44e8-8818-300d0c87a924")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -178,16 +168,17 @@
 	(pad "1" smd rect
 		(at -2.15 0)
 		(size 1.9 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "15c612e3-dcb9-4545-aea4-4bea1adcb661")
 	)
 	(pad "2" smd rect
 		(at 2.15 0)
 		(size 1.9 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cdc6f2d4-785f-4f90-8256-288ddbfee860")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_Abracon_ABM7-2Pin_6.0x3.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_Abracon_ABM7-2Pin_6.0x3.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "LFCSP-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LFCSP, 16 pin, 4x4mm, 2.1mm sq pad (http://www.analog.com/media/en/technical-documentation/data-sheets/ADG633.pdf)")
 	(tags "LFCSP 16 0.65")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "65e93af2-9efb-478a-9c51-3b2f184e0262")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -152,7 +142,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "4fc3f646-3ef0-4d7a-91d3-63817c02fb83")
 	)
@@ -284,97 +274,97 @@
 	(pad "1" smd rect
 		(at -1.8025 -0.975)
 		(size 1.105 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "54ae0b9a-a283-4aa8-877b-b2c9c98189f7")
 	)
 	(pad "2" smd rect
 		(at -1.8025 -0.325)
 		(size 1.105 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fd7c8846-2898-41ca-8a1d-40ea44d7309d")
 	)
 	(pad "3" smd rect
 		(at -1.8025 0.325)
 		(size 1.105 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dcf57a42-bbef-465d-96f7-d85e861ec85b")
 	)
 	(pad "4" smd rect
 		(at -1.8025 0.975)
 		(size 1.105 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5e5afe5f-4d00-45e6-a609-dd61d14a149b")
 	)
 	(pad "5" smd rect
 		(at -0.975 1.8025)
 		(size 0.35 1.105)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "69b58aa6-912b-4bdf-9cbb-452c20c1d971")
 	)
 	(pad "6" smd rect
 		(at -0.325 1.8025)
 		(size 0.35 1.105)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "473155bd-e7bf-482d-aded-edfbbdb6996b")
 	)
 	(pad "7" smd rect
 		(at 0.325 1.8025)
 		(size 0.35 1.105)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dd76efe3-cb95-41a1-b3fd-590b9c7f22b9")
 	)
 	(pad "8" smd rect
 		(at 0.975 1.8025)
 		(size 0.35 1.105)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "13fe954f-7d3f-41ea-8dcb-c0d7df810538")
 	)
 	(pad "9" smd rect
 		(at 1.8025 0.975)
 		(size 1.105 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "28092aed-a3db-4aae-a003-c89ee763046c")
 	)
 	(pad "10" smd rect
 		(at 1.8025 0.325)
 		(size 1.105 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "425fce80-2b77-43f7-b928-b089dae82718")
 	)
 	(pad "11" smd rect
 		(at 1.8025 -0.325)
 		(size 1.105 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a110db33-9082-4410-a92c-fe77835a8f55")
 	)
 	(pad "12" smd rect
 		(at 1.8025 -0.975)
 		(size 1.105 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "708fdaa9-d648-4b7e-9427-7193243785d3")
 	)
 	(pad "13" smd rect
 		(at 0.975 -1.8025)
 		(size 0.35 1.105)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e5afa209-3c69-4c10-becf-dc2c7193dfbf")
 	)
 	(pad "14" smd rect
 		(at 0.325 -1.8025)
 		(size 0.35 1.105)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "69e6af72-3b7c-4d75-90fb-a137ab1005ed")
 	)
 	(pad "15" smd rect
 		(at -0.325 -1.8025)
 		(size 0.35 1.105)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "762c4afa-40a7-464f-8b07-8539ee0710cd")
 	)
 	(pad "16" smd rect
 		(at -0.975 -1.8025)
 		(size 0.35 1.105)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a0b1a1a9-e3cc-40ba-be0e-1b9322bc75c4")
 	)
 	(pad "17" smd rect
@@ -383,7 +373,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "77362d1a-2c3b-4ea7-918e-3e20c0e645ec")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_CSP.3dshapes/LFCSP-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_CSP.3dshapes/LFCSP-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

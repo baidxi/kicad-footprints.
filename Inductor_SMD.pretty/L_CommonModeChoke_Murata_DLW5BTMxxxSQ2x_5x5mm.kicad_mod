@@ -1,7 +1,7 @@
 (footprint "L_CommonModeChoke_Murata_DLW5BTMxxxSQ2x_5x5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Wire Wound Chip Common Mode Choke Coil SMD, Murata DLW5BTxxxSQ2x, https://www.murata.com/products/productdata/8796762701854/EFLC0020.pdf, manual footprint")
 	(tags "inductor common mode choke")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f1566cbb-7ac9-47e5-881e-c33bade123cf")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -111,7 +101,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "57dd9ce9-cc1d-4e4f-9d1e-e90bf1f0d033")
 	)
@@ -122,7 +112,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4c8c8105-ba85-472e-81bb-122b5894c907")
 	)
@@ -133,7 +123,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "3be01bca-bc70-44f8-bb9a-d5ce8463fe33")
 	)
@@ -144,7 +134,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "3d8dda1a-42dd-4136-8c72-efc5d8551a20")
 	)
@@ -162,7 +152,7 @@
 	(pad "1" smd custom
 		(at -1.5 -0.95 270)
 		(size 1 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -183,7 +173,7 @@
 	(pad "2" smd custom
 		(at -1.5 0.95 270)
 		(size 1 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -204,7 +194,7 @@
 	(pad "3" smd custom
 		(at 1.5 0.95 90)
 		(size 1 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -225,7 +215,7 @@
 	(pad "4" smd custom
 		(at 1.5 -0.95 90)
 		(size 1 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -243,7 +233,8 @@
 		)
 		(uuid "566e12e6-3323-49e2-9511-5c882ef67723")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonModeChoke_Murata_DLW5BTMxxxSQ2x_5x5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonModeChoke_Murata_DLW5BTMxxxSQ2x_5x5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

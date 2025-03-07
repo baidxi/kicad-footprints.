@@ -1,7 +1,7 @@
 (footprint "PhoenixContact_MSTB_2,5_6-GF_1x06_P5.00mm_Horizontal_ThreadedFlange_MountHole"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Generic Phoenix Contact connector footprint for: MSTB_2,5/6-GF; number of pins: 06; pin pitch: 5.00mm; Angled; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x6.5 C or ISO 7049-ST 2.2x6.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1776731 12A || order number: 1924017 16A (HC)")
 	(tags "phoenix_contact connector MSTB_01x06_GF_5.00mm_MH")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8fc66ae5-73d3-47f9-88c5-8c08f3aa9f8a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,32 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
-	(fp_circle
-		(center -5 2.5)
-		(end -2.79 2.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "B.SilkS")
-		(uuid "b08c39d1-ef82-4190-ab5c-eecc770f197d")
-	)
-	(fp_circle
-		(center 30 2.5)
-		(end 32.21 2.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "B.SilkS")
-		(uuid "b9307934-9fcf-46c2-8dbd-99e92f2c621b")
-	)
 	(fp_line
 		(start -7.61 -2.11)
 		(end -7.61 10.11)
@@ -518,12 +486,34 @@
 	)
 	(fp_circle
 		(center -5 2.5)
+		(end -2.79 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "b08c39d1-ef82-4190-ab5c-eecc770f197d")
+	)
+	(fp_circle
+		(center 30 2.5)
+		(end 32.21 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "b9307934-9fcf-46c2-8dbd-99e92f2c621b")
+	)
+	(fp_circle
+		(center -5 2.5)
 		(end -2.4 2.5)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "f77d388a-6148-4343-997d-12f9ad7df578")
 	)
@@ -534,7 +524,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "267b35c1-aea6-4d1c-a95b-cd686596395e")
 	)
@@ -585,7 +575,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.Fab")
 		(uuid "1230221f-e2cb-4627-91d0-eaaa9be080f0")
 	)
@@ -596,7 +586,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.Fab")
 		(uuid "e0b99c1d-662d-4008-a2bf-4aa8006c4671")
 	)
@@ -734,7 +724,8 @@
 		(remove_unused_layers no)
 		(uuid "2c607966-8f95-4e84-8b3b-6e8a87f9ea2f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTB_2,5_6-GF_1x06_P5.00mm_Horizontal_ThreadedFlange_MountHole.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTB_2,5_6-GF_1x06_P5.00mm_Horizontal_ThreadedFlange_MountHole.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Texas_USON-6_1x1.45mm_P0.5mm_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USON, 6 Pin (https://www.ti.com/lit/ds/symlink/sn74auc1g04.pdf#page=24), Solder Mask Defined")
 	(tags "USON NoLead DRY0006A")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e0178f5b-8a43-438e-b0d8-4dcef0ef627d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -94,7 +84,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "836b7872-b911-464c-abce-20769e980432")
 	)
@@ -202,46 +192,47 @@
 	(pad "1" smd roundrect
 		(at -0.275 -0.5)
 		(size 0.45 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.3333333333)
 		(uuid "e0dba0ce-fac7-4f69-aa59-292a7b415523")
 	)
 	(pad "2" smd roundrect
 		(at -0.3 0)
 		(size 0.4 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.3333333333)
 		(uuid "9c854386-6a15-4382-a239-cf07b4d5d82e")
 	)
 	(pad "3" smd roundrect
 		(at -0.3 0.5)
 		(size 0.4 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.3333333333)
 		(uuid "4b6a0978-a04b-42cf-bea4-92e9c0ee3cc5")
 	)
 	(pad "4" smd roundrect
 		(at 0.3 0.5)
 		(size 0.4 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.3333333333)
 		(uuid "28058b28-7bdd-4bfb-b73e-4e5c1e92682b")
 	)
 	(pad "5" smd roundrect
 		(at 0.3 0)
 		(size 0.4 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.3333333333)
 		(uuid "92f8b12c-8ca1-41af-b4e2-362bce0f3ddb")
 	)
 	(pad "6" smd roundrect
 		(at 0.3 -0.5)
 		(size 0.4 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.3333333333)
 		(uuid "708ff334-e30d-4226-b315-06d10c2de2c2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/USON-6_1x1.45mm_P0.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/USON-6_1x1.45mm_P0.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

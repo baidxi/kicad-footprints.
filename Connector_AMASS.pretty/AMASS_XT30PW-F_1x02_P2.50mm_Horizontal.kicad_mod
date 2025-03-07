@@ -1,9 +1,9 @@
 (footprint "AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Connector XT30 Horizontal PCB Female, https://www.tme.eu/en/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf")
+	(descr "Connector XT30 Horizontal PCB Female, https://www.tme.eu/Document/f383737e340bfdab1f665284174b4ea2/XT30PW-F.pdf")
 	(tags "RC Connector XT30")
 	(property "Reference" "REF**"
 		(at 2.5 -15.5 0)
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b13fffe8-1fd4-47f2-b003-92c5d55436c2")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -427,12 +417,13 @@
 		(remove_unused_layers no)
 		(uuid "98f6bbea-a343-4722-9db8-4ac8d608c69e")
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 3.5 3.5)
 		(drill 1.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.22)
 		(uuid "571f3cb6-f888-4d95-8d81-b0437fe7a050")
 	)
 	(pad "2" thru_hole circle
@@ -443,7 +434,8 @@
 		(remove_unused_layers no)
 		(uuid "1cae0270-809d-4f73-be8e-9e5dcaa1e347")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-F_1x02_P2.50mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-F_1x02_P2.50mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

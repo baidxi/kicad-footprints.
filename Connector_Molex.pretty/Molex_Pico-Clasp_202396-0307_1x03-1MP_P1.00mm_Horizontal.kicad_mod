@@ -1,7 +1,7 @@
 (footprint "Molex_Pico-Clasp_202396-0307_1x03-1MP_P1.00mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Pico-Clasp series connector, 202396-0307 (http://www.molex.com/pdm_docs/sd/2023960207_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex Pico-Clasp top entry")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d3d9d8ca-242f-46ab-88d4-902699f31f2c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -258,39 +248,40 @@
 	(pad "1" smd roundrect
 		(at -1 -2.025)
 		(size 0.6 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "74ab0c3a-2e82-466b-8626-960881f87ba2")
 	)
 	(pad "2" smd roundrect
 		(at 0 -2.025)
 		(size 0.6 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6d22ee16-9b29-4b55-882e-8b06f291373f")
 	)
 	(pad "3" smd roundrect
 		(at 1 -2.025)
 		(size 0.6 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "56993853-0195-4587-9a72-e94d76c3d0ab")
 	)
 	(pad "MP" smd roundrect
 		(at -2.3 1.875)
 		(size 1.2 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "d5ba37d8-2890-440d-b16a-83bf58638983")
 	)
 	(pad "MP" smd roundrect
 		(at 2.3 1.875)
 		(size 1.2 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "4fe76b9a-54bd-40bc-8795-a746e1cecd45")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Pico-Clasp_202396-0307_1x03-1MP_P1.00mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Pico-Clasp_202396-0307_1x03-1MP_P1.00mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Fuse_Bourns_MF-RG600"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PTC Resettable Fuse, Ihold = 6.0A, Itrip=10.2A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf")
 	(tags "ptc resettable fuse polyfuse THT")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8a4ca593-5cf2-48be-855e-a689f0882ba1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -231,7 +221,8 @@
 		(remove_unused_layers no)
 		(uuid "be4bb247-afda-4649-855f-68ae545fd9be")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Bourns_MF-RG600.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Bourns_MF-RG600.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

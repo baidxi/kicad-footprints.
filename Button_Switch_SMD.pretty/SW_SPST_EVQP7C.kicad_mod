@@ -1,7 +1,7 @@
 (footprint "SW_SPST_EVQP7C"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Light Touch Switch, 2.2 N, https://www3.panasonic.biz/ac/e_download/control/switch/light-touch/catalog/sw_lt_eng_3529s_side.pdf?f_cd=402906")
 	(tags "tactile switch")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b87dbd0f-8b32-4ac8-a603-5194fae8c1b3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -272,32 +262,33 @@
 	(pad "1" smd roundrect
 		(at -1.8 -0.72)
 		(size 1.4 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2380952381)
 		(uuid "89201844-1de5-416e-8088-2612690371dc")
 	)
 	(pad "1" smd roundrect
 		(at 1.8 -0.72)
 		(size 1.4 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2380952381)
 		(uuid "50403687-b814-4dfb-b2fe-f6212486e9fe")
 	)
 	(pad "2" smd roundrect
 		(at -1.8 0.72)
 		(size 1.4 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2380952381)
 		(uuid "e48c1cc6-3f64-4127-87d9-858918aedfee")
 	)
 	(pad "2" smd roundrect
 		(at 1.8 0.72)
 		(size 1.4 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2380952381)
 		(uuid "26fb344e-2c19-43fb-b196-bf869fd140be")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQP7C.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQP7C.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "PinSocket_1x02_P1.27mm_Vertical_SMD_Pin1Right"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "surface-mounted straight socket strip, 1x02, 1.27mm pitch, single row, style 2 (pin 1 right) (https://gct.co/pdfjs/web/viewer.html?file=/Files/Drawings/BD075.pdf&t=1511594726925), script generated")
 	(tags "Surface mounted socket strip SMD 1x02 1.27mm single row style2 pin1 right")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ebb034e5-8905-47f7-9f43-81a7eb5bf01b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -298,16 +288,17 @@
 	(pad "1" smd rect
 		(at 1.35 -0.635)
 		(size 1.8 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ccaf1499-d315-4376-9884-464193d3b1fb")
 	)
 	(pad "2" smd rect
 		(at -1.35 0.635)
 		(size 1.8 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "46d06caa-8487-40bc-83cd-c1e7d3d22108")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x02_P1.27mm_Vertical_SMD_Pin1Right.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x02_P1.27mm_Vertical_SMD_Pin1Right.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

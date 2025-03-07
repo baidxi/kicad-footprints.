@@ -1,9 +1,9 @@
 (footprint "SMA_Molex_73251-1153_EdgeMount_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Molex SMA RF Connectors, Edge Mount, (http://www.molex.com/pdm_docs/sd/732511150_sd.pdf)")
+	(descr "Molex SMA RF Connectors, Edge Mount, https://tools.molex.com/pdm_docs/sd/732511150_sd.pdf")
 	(tags "sma edge")
 	(property "Reference" "REF**"
 		(at -1.5 7 0)
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e4d1b9a8-d93c-4218-999c-dd3541fb21ec")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -358,31 +348,31 @@
 	(pad "1" smd rect
 		(at -1.72 0)
 		(size 5.08 2.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7d079f0e-5053-4064-b886-de2fa3d16ad5")
 	)
 	(pad "2" smd rect
 		(at -1.72 -4.38)
 		(size 5.08 2.42)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "52c3d840-23fe-408a-88ca-d3077c3e212d")
 	)
 	(pad "2" smd rect
 		(at -1.72 -4.38)
 		(size 5.08 2.42)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "5188e647-8c78-4c7f-a177-90ea76cee310")
 	)
 	(pad "2" smd rect
 		(at -1.72 4.38)
 		(size 5.08 2.42)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "aa2258d9-0b65-4b98-a60e-308a5b42604d")
 	)
 	(pad "2" smd rect
 		(at -1.72 4.38)
 		(size 5.08 2.42)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "42f4f666-0c3c-4e0a-bd7a-1d7ade3bc208")
 	)
 	(pad "2" smd rect
@@ -425,7 +415,8 @@
 		(remove_unused_layers no)
 		(uuid "49d2d7b0-a9cd-430f-aca2-4955a75dbada")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Molex_73251-1153_EdgeMount_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Molex_73251-1153_EdgeMount_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

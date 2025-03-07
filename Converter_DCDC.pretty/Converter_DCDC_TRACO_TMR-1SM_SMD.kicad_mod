@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_TRACO_TMR-1SM_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://assets.tracopower.com/TMR1SM/documents/tmr1sm-datasheet.pdf")
 	(tags "DCDC SMD TRACO TMR-1SM")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "836c222a-1795-42e3-9776-1b3ca44a276a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -178,46 +168,47 @@
 	(pad "1" smd rect
 		(at -8.075 -7.62)
 		(size 2.4 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7ef50ab8-cc17-4c6d-8741-8ac0c23d0704")
 	)
 	(pad "2" smd rect
 		(at -8.075 -5.08)
 		(size 2.4 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f0ad9a1a-32a5-4209-9266-b70cb3da7fd2")
 	)
 	(pad "6" smd rect
 		(at -8.075 5.08)
 		(size 2.4 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fac62379-6581-4b89-a813-3126faf096d2")
 	)
 	(pad "7" smd rect
 		(at -8.075 7.62)
 		(size 2.4 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a91bf3b4-52dd-4496-9aa2-cd0d18e4c62d")
 	)
 	(pad "8" smd rect
 		(at 8.075 7.62)
 		(size 2.4 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f5f21ffa-bcc1-44c3-90ce-b145b5b2b995")
 	)
 	(pad "9" smd rect
 		(at 8.075 5.08)
 		(size 2.4 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "423baf5e-d2c6-4efd-bf58-c630b5b09dae")
 	)
 	(pad "14" smd rect
 		(at 8.075 -7.62)
 		(size 2.4 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "150450b2-88d3-40e0-a217-200612a1c2ae")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TMR-1SM_SMD.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TMR-1SM_SMD.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

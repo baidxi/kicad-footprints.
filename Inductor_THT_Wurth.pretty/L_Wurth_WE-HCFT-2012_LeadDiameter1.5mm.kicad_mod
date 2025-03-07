@@ -1,7 +1,7 @@
 (footprint "L_Wurth_WE-HCFT-2012_LeadDiameter1.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Shielded High Current Inductor, body 17x22mm, https://www.we-online.com/catalog/en/WE-HCFT#/articles/WE-HCFT-2012-ROUND")
 	(tags "THT")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c3cb0b6d-2b96-4bb0-a5a9-fa2a069cb93b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -83,7 +73,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "e2119d26-222c-4a4e-85a2-a4c243b5b009")
 	)
@@ -94,7 +84,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "fd360365-e20f-4f78-a6dc-14087494c713")
 	)
@@ -125,7 +115,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7db69f97-2af3-4637-9076-71e2dbb264bc")
 	)
@@ -157,7 +147,8 @@
 		(remove_unused_layers no)
 		(uuid "d40f4490-6c48-4754-b199-7994ed3f7906")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT_Wurth.3dshapes/L_Wurth_WE-HCFT-2012_LeadDiameter1.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT_Wurth.3dshapes/L_Wurth_WE-HCFT-2012_LeadDiameter1.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

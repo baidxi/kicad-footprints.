@@ -1,7 +1,7 @@
 (footprint "R_Shunt_Vishay_WSKW0612"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.vishay.com/docs/30332/wskw0612.pdf")
 	(tags "4-Terminal SMD Shunt")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "be4ac60f-b2d6-42f5-8226-20e7d7ac7d0f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -208,28 +198,29 @@
 	(pad "1" smd rect
 		(at -0.572 -0.885)
 		(size 2.287 1.01)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0aa72807-2f4e-4592-8274-62bf913fe5ef")
 	)
 	(pad "2" smd rect
 		(at 1.334 -0.885)
 		(size 0.762 1.01)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f84870a8-1e5b-42ef-b2b0-0f860740315b")
 	)
 	(pad "3" smd rect
 		(at 1.334 0.885)
 		(size 0.762 1.01)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5e642435-9d32-4506-bc82-64479efa4e10")
 	)
 	(pad "4" smd rect
 		(at -0.5715 0.885)
 		(size 2.287 1.01)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "98d000f6-b726-4715-95d4-6325534b48df")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSKW0612.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSKW0612.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

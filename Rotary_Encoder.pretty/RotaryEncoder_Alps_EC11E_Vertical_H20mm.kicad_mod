@@ -1,9 +1,9 @@
 (footprint "RotaryEncoder_Alps_EC11E_Vertical_H20mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Alps rotary encoder, EC12E... without switch (pins are dummy), vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
+	(descr "Alps rotary encoder, EC11E... without switch (pins are dummy), vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
 	(tags "rotary encoder")
 	(property "Reference" "REF**"
 		(at 2.8 -4.7 0)
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "98c87a78-2c8a-4b3f-94cc-84c43be2bfb1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -201,7 +191,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "13ac8a7b-5799-49d2-97c6-a3008825bd93")
 	)
@@ -322,7 +312,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "733a1af4-cba4-4b6b-a0be-7e2f867c6d57")
 	)
@@ -393,7 +383,8 @@
 		(remove_unused_layers no)
 		(uuid "7c28151f-8f3f-4f9a-bc50-9ee348204173")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E_Vertical_H20mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E_Vertical_H20mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Diotec_MicroDil_3.0x3.0x1.8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD package Diotec Diotec MicroDil, body 3.0x3.0x1.8mm (e.g. diode bridge), see https://diotec.com/tl_files/diotec/files/pdf/datasheets/mys40.pdf")
 	(tags "Diotec MicroDil diode bridge")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bdc4df5d-1adb-4fb1-8cf9-859e4ce6e319")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -102,7 +92,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "76361d78-bebf-43e7-bbe0-986a2aacff35")
 	)
@@ -210,28 +200,29 @@
 	(pad "1" smd rect
 		(at -2.3 -0.635)
 		(size 1 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e0314317-1bc8-4229-8aa2-c8c2876e8cb3")
 	)
 	(pad "2" smd rect
 		(at -2.3 0.635)
 		(size 1 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "96cd243d-181b-4fd3-8b21-a6ab70633dff")
 	)
 	(pad "3" smd rect
 		(at 2.3 0.635)
 		(size 1 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1ffc04c1-54ae-4a0e-bfec-e73fd51fd281")
 	)
 	(pad "4" smd rect
 		(at 2.3 -0.635)
 		(size 1 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8de60148-3e5e-490a-a168-17b9e0c6cf88")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Diotec_MicroDil_3.0x3.0x1.8mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Diotec_MicroDil_3.0x3.0x1.8mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

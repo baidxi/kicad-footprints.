@@ -1,7 +1,7 @@
 (footprint "Transformer_NF_ETAL_P3181_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "NF-Transformer, ETAL, P3181, SMD, Hand Soldering,")
 	(tags "NF-Transformer ETAL P3181 SMD Hand Soldering ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "26d75b41-ceec-4c12-ac3b-47829aa83604")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -172,7 +162,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "4ef3bd72-f046-4785-9a80-04236ff291b5")
 	)
@@ -280,46 +270,47 @@
 	(pad "1" smd rect
 		(at -6.09 -2.54)
 		(size 3.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b18cfc7b-2358-4b4f-8040-095e5d03dbf7")
 	)
 	(pad "2" smd rect
 		(at -6.09 2.54)
 		(size 3.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7a260a3f-91a4-4e06-8c54-c070fb751cd2")
 	)
 	(pad "3" smd rect
 		(at 6.09 2.54)
 		(size 3.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0d76a94b-36a6-4298-ad81-f712ca3f9002")
 	)
 	(pad "4" smd rect
 		(at 6.09 0)
 		(size 3.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "923db739-af05-4b11-b59a-4bec293e6a56")
 	)
 	(pad "5" smd rect
 		(at 6.09 -2.54)
 		(size 3.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8c45d0c8-80f9-4411-bdef-8a3cabfa1db4")
 	)
 	(pad "7" smd oval
 		(at -2 0 90)
 		(size 3.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "62ae7d3e-a961-4277-94fc-f8e13d113b45")
 	)
 	(pad "7" smd oval
 		(at 2 0 90)
 		(size 3.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "725627e5-fd60-4fd3-a0ec-103941964a4d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_NF_ETAL_P3181_HandSoldering.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_NF_ETAL_P3181_HandSoldering.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

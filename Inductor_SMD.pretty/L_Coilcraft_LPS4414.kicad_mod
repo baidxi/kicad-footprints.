@@ -1,7 +1,7 @@
 (footprint "L_Coilcraft_LPS4414"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Inductor Coilcraft LPS4414, https://www.coilcraft.com/getmedia/fa8805ca-b278-4819-915a-b5cf632f0239/lps4414.pdf")
 	(tags "L Coilcraft LPS4414")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2aad0049-bd95-4fe3-be69-ec4ef2b9132f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -258,7 +248,7 @@
 	(pad "1" smd custom
 		(at -1.9875 0)
 		(size 0.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(options
 			(clearance outline)
@@ -279,7 +269,7 @@
 	(pad "2" smd custom
 		(at 1.9875 0)
 		(size 0.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(options
 			(clearance outline)
@@ -297,7 +287,8 @@
 		)
 		(uuid "0064ac66-7041-426e-87ef-cdd08b15b27e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_LPS4414.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_LPS4414.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

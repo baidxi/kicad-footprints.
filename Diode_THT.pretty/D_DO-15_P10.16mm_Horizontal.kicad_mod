@@ -1,7 +1,7 @@
 (footprint "D_DO-15_P10.16mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode, DO-15 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=7.6*3.6mm^2, , http://www.diodes.com/_files/packages/DO-15.pdf")
 	(tags "Diode DO-15 series Axial Horizontal pin pitch 10.16mm  length 7.6mm diameter 3.6mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "23abe54e-c69a-45d3-9c4e-565fac6683d1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -333,7 +323,8 @@
 		(remove_unused_layers no)
 		(uuid "c0c59d8b-b37e-45f4-9b9c-3f60bb380e63")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-15_P10.16mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-15_P10.16mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "WR-MMCX_Wuerth_66011102111302_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Würth WR-MMCX PCB SMT Jack, Horizontal (https://www.we-online.com/components/products/datasheet/66011102111302.pdf)")
 	(tags "Coaxial Connector 50 ohms Female")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a07febcd-1283-4b43-a3e0-dfc108064820")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -93,7 +83,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "0302ee36-a5db-4b80-bb67-acdaa21b84db")
 	)
@@ -270,7 +260,7 @@
 	(pad "1" smd circle
 		(at 0 0)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ad4243c5-0412-4888-88cc-896bd84527f0")
 	)
 	(pad "2" smd custom
@@ -327,7 +317,8 @@
 		)
 		(uuid "00f1debc-b7cd-4e82-aafd-51888a719fc2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/WR-MMCX_Wuerth_66011102111302_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/WR-MMCX_Wuerth_66011102111302_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

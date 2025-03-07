@@ -1,7 +1,7 @@
 (footprint "CUI_PD-30"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3 pin connector, PD-30, http://www.cui.com/product/resource/pd-30.pdf")
 	(tags "connector 3-pin PD-30 power DIN")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d1f81220-3730-489f-93f4-e3140b08d547")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -401,7 +391,8 @@
 		(remove_unused_layers no)
 		(uuid "faf3454a-e84b-4274-a89e-c5f7dc7e61f0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector.3dshapes/CUI_PD-30.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector.3dshapes/CUI_PD-30.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

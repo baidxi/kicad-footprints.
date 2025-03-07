@@ -1,7 +1,7 @@
 (footprint "RJ45_Pulse_JK00177NL_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "10/100/1000 Base-T RJ45 single port with LEDs and 75W POE, https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/J432/doc_part/J432.pdf")
 	(tags "RJ45 8p8c ethernet POE")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9117004a-0b39-44d3-8645-7ffda258fb5a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -455,7 +445,8 @@
 		(remove_unused_layers no)
 		(uuid "3d9154be-9202-4502-a21b-f77954b13363")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Pulse_JK00177NL_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Pulse_JK00177NL_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

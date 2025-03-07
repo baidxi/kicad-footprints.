@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Vishay_T93XA_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Potentiometer, horizontal, Vishay, https://www.vishay.com/docs/51026/t93.pdf, 3/8\" x 3/8\" x 3/16\" (9.7 x 9.8 x 5mm max.)")
 	(tags "Potentiometer horizontal vishay")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4e99051e-ee0a-45b7-814b-608e90b9a7c5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -123,7 +113,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "d5a2358a-5e17-4235-a775-31c747b740e9")
 	)
@@ -313,7 +303,8 @@
 		(remove_unused_layers no)
 		(uuid "98abf4c1-4f5c-4d4b-b47e-f6776f66d236")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Vishay_T93XA_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Vishay_T93XA_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

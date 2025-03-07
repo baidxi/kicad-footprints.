@@ -1,7 +1,7 @@
 (footprint "D_DO-247_Horizontal_TabDown"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode, DO-247 series, Horizontal, TabDown, P 10.9mm")
 	(tags "diode rectifier")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "90bcd59e-aa91-40a4-bf7b-c17d99f95d7b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -291,7 +281,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b81405e8-65a1-445f-865e-f0d3420a1da9")
 	)
@@ -329,7 +319,8 @@
 		(remove_unused_layers no)
 		(uuid "e5451704-0914-472f-9a61-05e5a45fd731")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-247_Horizontal_TabDown.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-247_Horizontal_TabDown.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

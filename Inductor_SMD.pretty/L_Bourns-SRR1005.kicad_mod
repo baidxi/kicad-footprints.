@@ -1,7 +1,7 @@
 (footprint "L_Bourns-SRR1005"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Bourns SRR1005 series SMD inductor")
 	(tags "Bourns SRR1005 SMD inductor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e2d831f0-37d8-47b1-9f8e-82cd74aeb1ff")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -271,7 +261,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "70b8f51f-b02d-4665-8b9c-0988cca6bd73")
 	)
@@ -289,16 +279,17 @@
 	(pad "1" smd rect
 		(at -5.15 0)
 		(size 3 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b2a73fa7-76d7-4a8f-983b-8c91ea8f78f7")
 	)
 	(pad "2" smd rect
 		(at 5.15 0)
 		(size 3 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b8881a0e-6ae5-40fb-bb23-1b354547a81b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRR1005.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRR1005.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

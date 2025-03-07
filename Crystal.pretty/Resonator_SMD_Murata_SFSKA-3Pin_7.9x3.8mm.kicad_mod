@@ -1,7 +1,7 @@
 (footprint "Resonator_SMD_Murata_SFSKA-3Pin_7.9x3.8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Resomator/Filter Murata SFSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, 7.9x3.8mm^2 package")
 	(tags "SMD SMT ceramic resonator filter filter")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8eefb830-3fe1-4cd6-a016-1e100c970af1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -248,22 +238,23 @@
 	(pad "1" smd rect
 		(at -2.5 0)
 		(size 1 4.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "51ef04b6-7785-4215-8caa-46ba26cad65f")
 	)
 	(pad "2" smd rect
 		(at 0 0)
 		(size 1 4.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "522e8bc7-663b-4c79-beab-526037c1ca55")
 	)
 	(pad "3" smd rect
 		(at 2.5 0)
 		(size 1 4.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "aeadec50-f79d-4c3a-94df-fb5d08f9c995")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Resonator_SMD_Murata_SFSKA-3Pin_7.9x3.8mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Resonator_SMD_Murata_SFSKA-3Pin_7.9x3.8mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "AMS_TSL25911FN"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DFN, 6 Pin (https://ams.com/documents/20143/9331680/TSL2591_DS000338_7-00.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
 	(tags "DFN NoLead")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1c8e6660-8cfe-4bd2-8731-3b25f8f8cf79")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ad881271-3095-4823-b448-9d54bef5c884")
 	)
@@ -243,7 +233,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "2ff6834c-cd7b-4ff0-886b-7110f483ba6f")
 	)
@@ -351,46 +341,47 @@
 	(pad "1" smd roundrect
 		(at -0.6375 -0.65)
 		(size 0.875 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ba551a91-739d-431a-8257-70481416119a")
 	)
 	(pad "2" smd roundrect
 		(at -0.6375 0)
 		(size 0.875 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e7cb256e-6175-4aa0-9815-dac4bc86c352")
 	)
 	(pad "3" smd roundrect
 		(at -0.6375 0.65)
 		(size 0.875 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "43c4df8d-d2a9-410e-9b35-6b3df552a6c6")
 	)
 	(pad "4" smd roundrect
 		(at 0.6375 0.65)
 		(size 0.875 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ac434085-3f76-4eeb-b2e1-1fd8a91b6b50")
 	)
 	(pad "5" smd roundrect
 		(at 0.6375 0)
 		(size 0.875 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7eb72530-09f1-4f78-a882-d54ab51fc4e8")
 	)
 	(pad "6" smd roundrect
 		(at 0.6375 -0.65)
 		(size 0.875 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f92ae6cb-7538-42c4-8fff-d9917c7f4d4c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/DFN-6_2x2.4mm_P0.65mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/DFN-6_2x2.4mm_P0.65mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

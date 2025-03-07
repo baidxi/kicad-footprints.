@@ -1,7 +1,7 @@
 (footprint "JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "JST GH series connector, BM02B-GHS-TBT (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf), generated with kicad-footprint-generator")
 	(tags "connector JST GH vertical")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a713b84a-41da-445a-a83d-38946260e769")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -318,32 +308,33 @@
 	(pad "1" smd roundrect
 		(at -0.625 1.95)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e9d80ce5-9b8a-450f-8a40-da6df46d2475")
 	)
 	(pad "2" smd roundrect
 		(at 0.625 1.95)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f713e40e-905f-46eb-9a0b-6110cc6a1546")
 	)
 	(pad "MP" smd roundrect
 		(at -2.475 -1.4)
 		(size 1 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "db53c01a-536a-40a7-a2f4-cd7ccb7b3c07")
 	)
 	(pad "MP" smd roundrect
 		(at 2.475 -1.4)
 		(size 1 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b9ffc62e-b73e-42c6-aa9b-b136e4def113")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

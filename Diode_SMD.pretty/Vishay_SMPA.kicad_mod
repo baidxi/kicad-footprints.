@@ -1,7 +1,7 @@
 (footprint "Vishay_SMPA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode SMPA (DO-221BC), https://www.vishay.com/docs/87659/v8pa10.pdf")
 	(tags "Diode SMPA (DO-221BC)")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ccd88568-ce0c-40d3-ad96-018ca386637f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -248,18 +238,19 @@
 	(pad "1" smd roundrect
 		(at -1.21 0)
 		(size 3.1 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1136363636)
 		(uuid "03f45342-9579-43ad-a3ee-97b4a295f0fd")
 	)
 	(pad "2" smd roundrect
 		(at 2.01 0)
 		(size 1.5 1.52)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(uuid "c310412d-f7eb-448f-97d1-665eab02a45c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/Vishay_SMPA.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/Vishay_SMPA.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

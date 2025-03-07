@@ -1,7 +1,7 @@
 (footprint "SolderWire-2sqmm_1x01_D2mm_OD3.9mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Soldered wire connection, for a single 2 mm² wire, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 	(tags "connector wire 2sqmm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5b66a406-1451-4bbf-b9ec-c2c85e750505")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -111,7 +101,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "066ab4e6-4687-4753-b1cc-913a91f17ebb")
 	)
@@ -135,7 +125,8 @@
 		(roundrect_rratio 0.064103)
 		(uuid "91b8f359-c500-420b-b1c9-b3251152e3ff")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-2sqmm_1x01_D2mm_OD3.9mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-2sqmm_1x01_D2mm_OD3.9mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

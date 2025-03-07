@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Murata_MGJ3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Murata MGJ3, 5.2kVDC Isolated 3W Gate Drive, 15V/5V/5V Configurable, 22.61x23.11x14.19mm, https://power.murata.com/datasheet?/data/power/ncl/kdc_mgj3.pdf")
 	(tags "DCDC SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ddcec140-3da8-487c-9cfa-4450b4faad81")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -219,43 +209,43 @@
 	(pad "1" smd rect
 		(at -9.525 -8.89)
 		(size 3.38 2.16)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b19f1bd5-0567-474d-8bad-50a354752488")
 	)
 	(pad "3" smd rect
 		(at -9.525 -3.81)
 		(size 3.38 2.16)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "87ba5b31-07d5-48fd-8101-e5241a91ed83")
 	)
 	(pad "7" smd rect
 		(at -9.525 6.35)
 		(size 3.38 2.16)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fbd382bc-d590-413e-a69e-d737625e0764")
 	)
 	(pad "8" smd rect
 		(at -9.525 8.89)
 		(size 3.38 2.16)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "486122e7-2b76-4321-8f7a-d84202751cb7")
 	)
 	(pad "9" smd rect
 		(at 9.525 8.89)
 		(size 3.38 2.16)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "52de524a-1e6c-485b-ac80-430999eafda9")
 	)
 	(pad "10" smd rect
 		(at 9.525 6.35)
 		(size 3.38 2.16)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "95e028d8-2d88-49cd-a31f-7f83aa658e24")
 	)
 	(pad "16" smd rect
 		(at 9.525 -8.89)
 		(size 3.38 2.16)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "459e2dce-57c3-49e6-93ba-a6105f005e39")
 	)
 	(zone
@@ -276,6 +266,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -287,7 +281,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Murata_MGJ3.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Murata_MGJ3.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Texas_DSBGA-10_1.36x1.86mm_Layout3x4_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments, DSBGA, area grid, YZP, YZP0010, 1.86x1.36mm, 10 Ball, 3x4 Layout, 0.5mm Pitch, http://www.ti.com/lit/ds/symlink/ts3a24159.pdf")
 	(tags "BGA 10 0.5")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cf8c1d0d-cb48-4bca-bf2d-0b65a3bfd3c6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -113,7 +103,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "b01c401e-8aee-4815-a901-72ee20abc8fb")
 	)
@@ -220,7 +210,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(uuid "207a6ea8-1c35-4385-832d-fa1045a03145")
 		(effects
@@ -370,7 +360,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "938f6701-ecb2-461d-8e32-789eb23108d0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-10_1.36x1.86mm_Layout3x4_P0.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-10_1.36x1.86mm_Layout3x4_P0.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

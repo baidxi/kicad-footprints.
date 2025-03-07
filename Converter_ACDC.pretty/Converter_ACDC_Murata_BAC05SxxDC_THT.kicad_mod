@@ -1,7 +1,7 @@
 (footprint "Converter_ACDC_Murata_BAC05SxxDC_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "ACDC-Converter, Murata, 5W, ClassB, https://www.murata.com/products/productdata/8809982558238/KAC-BAC05.pdf")
 	(tags "switching power supply tht")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d7d9eb59-f53b-4a92-bcda-4fd3597412cc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -177,7 +167,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "8cbc80f0-ade2-43a8-b093-74bd5b5e2a75")
 	)
@@ -296,7 +286,7 @@
 		(uuid "ce4d26e5-757a-42f5-9621-3b4b36a83c2d")
 	)
 	(fp_text user "Isolation barrier"
-		(at 11.95 9.56 -90)
+		(at 11.95 9.56 270)
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "166d2b0c-6680-426f-bd3b-c96358bca934")
@@ -363,7 +353,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "45e2d9c9-3384-4c0d-9318-16cf44454b58")
 		(name "Isolation barrier")
 		(hatch full 0.508)
@@ -379,6 +374,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -393,7 +392,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_Murata_BAC05SxxDC_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_Murata_BAC05SxxDC_THT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

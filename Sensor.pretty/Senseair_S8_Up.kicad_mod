@@ -1,7 +1,7 @@
 (footprint "Senseair_S8_Up"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Sensair S8 Series CO2 sensor, 1kHz PWM output, Modbus, THT")
 	(tags "co2 gas sensor pwm modbus")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fed59315-be07-4631-ad8f-37a06901281d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -537,7 +527,8 @@
 		(remove_unused_layers no)
 		(uuid "b98ba76a-1e04-42f4-b841-68de4d004c6d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor.3dshapes/Senseair_S8_Up.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor.3dshapes/Senseair_S8_Up.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

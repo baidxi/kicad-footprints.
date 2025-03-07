@@ -1,7 +1,7 @@
 (footprint "L_Bourns-SRU8043"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Bourns SRU8043 series SMD inductor")
 	(tags "Bourns SRU8043 SMD inductor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c1180615-209b-448c-80a6-8c7c29e472a7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -241,7 +231,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "613434f9-77aa-46d8-8b4f-350c51b30550")
 	)
@@ -259,16 +249,17 @@
 	(pad "1" smd rect
 		(at -3.9 0)
 		(size 2 3.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fe861a27-668b-488a-ad8b-21e47c163082")
 	)
 	(pad "2" smd rect
 		(at 3.9 0)
 		(size 2 3.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e293bbb8-c505-4e5a-8521-ecd194a13af8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRU8043.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRU8043.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

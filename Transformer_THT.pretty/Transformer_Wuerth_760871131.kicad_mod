@@ -1,7 +1,7 @@
 (footprint "Transformer_Wuerth_760871131"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Transformer, horizontal core with bobbin, 14 pin, 2.49 mm pitch, 20 mm row spacing, 25x22.2x16mm https://www.we-online.com/catalog/datasheet/760871131.pdf")
 	(tags "transformer flyback")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6b652023-a1f5-408c-a5cb-d07f7c6920a1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -103,7 +93,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "b7ffe3ec-9472-4140-9d89-21b9fc38a212")
 	)
@@ -114,7 +104,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "2818c315-021a-4bc9-b3e3-b1b5836bd73d")
 	)
@@ -293,7 +283,8 @@
 		(remove_unused_layers no)
 		(uuid "ad4da1d4-802a-4030-ad26-b26688a9239f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_Wuerth_760871131.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_Wuerth_760871131.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

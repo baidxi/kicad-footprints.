@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Keystone_3008_1x2450"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.keyelco.com/product-pdf.cfm?p=786")
 	(tags "Keystone type 3008 coin cell retainer")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b3beb469-4d95-4b15-80b4-affdf357fe9f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -205,7 +195,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "8fade2b0-407c-4d19-b65d-71d2e0bbefc3")
 	)
@@ -586,13 +576,13 @@
 	(pad "1" smd rect
 		(at -15.3 0)
 		(size 6 5.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "40b73985-8318-44cf-bb01-182754ac2951")
 	)
 	(pad "1" smd rect
 		(at 15.3 0)
 		(size 6 5.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7397bd50-a70e-4340-8993-3d1cd5862981")
 	)
 	(pad "2" smd circle
@@ -601,7 +591,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "5e322e88-c013-4bf4-a95e-991b067d6245")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_3008_1x2450.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_3008_1x2450.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "JST SH series connector, BM02B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator")
 	(tags "connector JST SH vertical")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "86a0e93f-526d-4121-a12c-5e3f05fecf9c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -318,32 +308,33 @@
 	(pad "1" smd roundrect
 		(at -0.5 1.325)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b519665e-8b7a-4a3f-a5dc-a119f4a60599")
 	)
 	(pad "2" smd roundrect
 		(at 0.5 1.325)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c16bd524-454f-4cb2-9334-635c59ba1c36")
 	)
 	(pad "MP" smd roundrect
 		(at -1.8 -1.2)
 		(size 1.2 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "468e592a-50d2-4dba-9203-c6e7a8fb7a6f")
 	)
 	(pad "MP" smd roundrect
 		(at 1.8 -1.2)
 		(size 1.2 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "0185a39b-1e63-4e1d-99ab-42742e85d96c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

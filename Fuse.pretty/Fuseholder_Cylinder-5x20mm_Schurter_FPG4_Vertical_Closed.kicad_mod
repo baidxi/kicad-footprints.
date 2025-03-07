@@ -1,7 +1,7 @@
 (footprint "Fuseholder_Cylinder-5x20mm_Schurter_FPG4_Vertical_Closed"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Shock-Safe Fuseholder, 5 x 20 mm, Slotted Cap/Fingergrip, vertical, IEC 60335-1; 250VAC/10A VDE; 500V/16A UL/CSA (https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_FPG4.pdf)")
 	(tags "fuse holder vertical 5x20mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "36dab831-7206-4d85-a28d-3efb5038dcb9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -191,7 +181,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "35d8998b-750b-40f4-82d6-cb29aac4b6f2")
 	)
@@ -238,7 +228,8 @@
 		(remove_unused_layers no)
 		(uuid "6702362b-6836-446b-b0de-b1cf5faee548")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Cylinder-5x20mm_Schurter_FPG4_Vertical_Closed.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Cylinder-5x20mm_Schurter_FPG4_Vertical_Closed.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

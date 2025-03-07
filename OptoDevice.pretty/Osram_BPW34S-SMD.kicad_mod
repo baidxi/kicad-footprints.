@@ -1,7 +1,7 @@
 (footprint "Osram_BPW34S-SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PhotoDiode, plastic SMD DIL, 4.5x4mm, area: 2.65x2.65mm, https://dammedia.osram.info/media/resource/hires/osram-dam-5488319/BPW%2034%20S_EN.pdf")
 	(tags "PhotoDiode plastic SMD DIL")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "666ac885-c7ac-47b1-b312-fa4d6a1695a0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -151,7 +141,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "2df62104-6c8e-4e7b-9c51-382349992ca6")
 	)
@@ -408,7 +398,8 @@
 		(roundrect_rratio 0.125)
 		(uuid "28a27834-8643-4d36-8c7a-697464f2b973")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Osram_BPW34S-SMD.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Osram_BPW34S-SMD.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

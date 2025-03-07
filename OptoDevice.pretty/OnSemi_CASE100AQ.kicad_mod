@@ -1,7 +1,7 @@
 (footprint "OnSemi_CASE100AQ"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "OnSemi CASE 100AQ for QRE1113, see https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF")
 	(tags "reflective opto couple photo coupler")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7ce63c65-60b1-4d9e-8f3d-6d9424805f13")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -258,7 +248,8 @@
 		(remove_unused_layers no)
 		(uuid "ad9493c8-9a0a-4ff4-a5f2-29c5a0056763")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/OnSemi_CASE100AQ.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/OnSemi_CASE100AQ.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

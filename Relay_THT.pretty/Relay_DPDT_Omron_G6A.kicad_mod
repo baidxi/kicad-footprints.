@@ -1,7 +1,7 @@
 (footprint "Relay_DPDT_Omron_G6A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DPDT signal relay, Omron G6A/G6AU, 20x9.9x8.2mm https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6a.pdf")
 	(tags "Omron G6A Relay DPDT")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "28e1f1a7-efcc-4dac-90a8-4b0f3f4e4b0b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -451,7 +441,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "fcfd48d1-4e0f-4ae7-8f47-0a287d884156")
 	)
@@ -462,7 +452,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "0ddceef3-9a2c-4780-9919-62119ddb01a2")
 	)
@@ -474,7 +464,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "04ae0f7b-6271-4415-bc3a-dc13c1d570ca")
 	)
@@ -666,7 +656,8 @@
 		(remove_unused_layers no)
 		(uuid "b2a4be34-d899-43cf-877f-fbe3a9c14608")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G6A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G6A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

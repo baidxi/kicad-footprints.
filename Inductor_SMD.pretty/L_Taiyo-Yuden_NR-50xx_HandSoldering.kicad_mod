@@ -1,7 +1,7 @@
 (footprint "L_Taiyo-Yuden_NR-50xx_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Inductor, Taiyo Yuden, NR series, Taiyo-Yuden_NR-50xx, 4.9mmx4.9mm")
 	(tags "inductor taiyo-yuden nr smd")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6c094d8b-e0fa-4e82-ab8e-635a288c46e6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -258,16 +248,17 @@
 	(pad "1" smd rect
 		(at -2.25 0)
 		(size 2.4 4.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cbf7f108-739d-486c-884e-1e9e89fe6253")
 	)
 	(pad "2" smd rect
 		(at 2.25 0)
 		(size 2.4 4.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a15062c0-09ce-49f7-92fe-465897502658")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Taiyo-Yuden_NR-50xx.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Taiyo-Yuden_NR-50xx.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

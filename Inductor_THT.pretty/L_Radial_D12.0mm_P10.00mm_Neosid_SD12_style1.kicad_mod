@@ -1,14 +1,12 @@
 (footprint "L_Radial_D12.0mm_P10.00mm_Neosid_SD12_style1"
-	(version 20240108)
-	(generator "pcbnew")
-	(generator_version "8.0")
+	(version 20241229)
+	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Inductor, Radial series, Radial, pin pitch=10.00mm, , diameter=12.0mm, Neosid, SD12, style1, http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd12.pdf")
-	(tags "Inductor Radial series Radial pin pitch 10.00mm  diameter 12.0mm Neosid SD12 style1")
+	(descr "Inductor, Radial series, Radial, pin pitch=10.00mm, diameter=12.0mm, height=20mm, Neosid, SD12, style1, http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd12.pdf")
+	(tags "Inductor Radial series Radial pin pitch 10.00mm  diameter 12.0mm height 20mm Neosid SD12 style1")
 	(property "Reference" "REF**"
 		(at 5 -7.25 0)
 		(layer "F.SilkS")
-		(uuid "02fb28ee-7948-421f-8387-972be93d2af7")
 		(effects
 			(font
 				(size 1 1)
@@ -19,47 +17,10 @@
 	(property "Value" "L_Radial_D12.0mm_P10.00mm_Neosid_SD12_style1"
 		(at 5 7.25 0)
 		(layer "F.Fab")
-		(uuid "3c8f26d4-a833-4486-9637-e4fd8cfe464c")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e952d9c0-d3e9-43dd-8ecd-1a400bd5d636")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Datasheet" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7f911484-d5c0-4980-992f-9c11c78602a9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Description" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c8c9847b-3367-4c2e-875b-161bf2043ee2")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -73,7 +34,6 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fabca3b3-ce74-48e7-8983-557f5d3a3ec1")
 	)
 	(fp_arc
 		(start 10.943299 1.46)
@@ -84,7 +44,6 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "85b42560-cac3-41a8-8605-1fdd300e2078")
 	)
 	(fp_circle
 		(center 5 0)
@@ -93,9 +52,8 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "a734fcfb-c4d8-4510-8e78-4c91b4ef1b71")
 	)
 	(fp_circle
 		(center 5 0)
@@ -104,14 +62,12 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "51d74b81-9407-4790-8e3f-f4ec64683e13")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 5 0 0)
 		(layer "F.Fab")
-		(uuid "284712a2-f853-441f-b106-6a96dbcbd117")
 		(effects
 			(font
 				(size 1 1)
@@ -125,7 +81,6 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "efd8b68c-503a-4312-b4c0-44c50a29c7f4")
 	)
 	(pad "2" thru_hole circle
 		(at 10 0)
@@ -133,9 +88,9 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "b992c9a3-9abc-49d1-8df4-2fd1897d1467")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D12.0mm_P10.00mm_Neosid_SD12_style1.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D12.0mm_P10.00mm_Neosid_SD12_style1.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

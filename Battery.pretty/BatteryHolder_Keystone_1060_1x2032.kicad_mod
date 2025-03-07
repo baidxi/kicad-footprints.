@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Keystone_1060_1x2032"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.keyelco.com/product-pdf.cfm?p=726")
 	(tags "CR2032 BR2032 BatteryHolder Battery")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aaa4f79b-2520-46f7-bc5a-3ddb5bc5e351")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -241,7 +231,7 @@
 			(width 0.3)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "be99933e-ea05-4f96-909c-50ccc79828d7")
 	)
@@ -631,16 +621,17 @@
 	(pad "1" smd rect
 		(at -14.65 0 180)
 		(size 2.6 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1571e2ed-fcd5-40b6-9d2a-092df1a13509")
 	)
 	(pad "2" smd rect
 		(at 14.65 0 180)
 		(size 2.6 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "36eb9a8b-59c4-4efa-9800-b18b09afd892")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_1060_1x2032.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_1060_1x2032.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Jack_3.5mm_Switronic_ST-005-G_horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3.5mm horizontal headphones jack, http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf")
 	(tags "Connector Audio Switronic ST-005-G")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b31e75fb-74e5-4555-a108-2415925755e5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -261,7 +251,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "059a2067-9d90-40b7-8abb-e42f560fc00f")
 	)
@@ -322,7 +312,8 @@
 		(remove_unused_layers no)
 		(uuid "b971c025-844b-4c54-9495-e657edeee6ef")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_Switronic_ST-005-G_horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_Switronic_ST-005-G_horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

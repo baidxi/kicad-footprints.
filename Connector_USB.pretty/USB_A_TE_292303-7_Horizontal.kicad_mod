@@ -1,7 +1,7 @@
 (footprint "USB_A_TE_292303-7_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB type A, Horizontal, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=292303&DocType=Customer+Drawing&DocLang=English")
 	(tags "USB_A Female Connector receptacle")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e46396c2-0803-4c0c-b884-7cad1b85098c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -628,31 +618,32 @@
 	(pad "1" smd rect
 		(at -3.5 -6.38)
 		(size 1.25 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ca7ec787-799d-43bc-9bf7-28e929c3c0b3")
 	)
 	(pad "2" smd rect
 		(at -1 -6.38)
 		(size 1.25 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a0c4ec91-4bcb-4e34-8bef-fcb684996374")
 	)
 	(pad "3" smd rect
 		(at 1 -6.38)
 		(size 1.25 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "745403fc-9b4b-488a-ba23-a57ebabf194d")
 	)
 	(pad "4" smd rect
 		(at 3.5 -6.38)
 		(size 1.25 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "52b28cb0-16b2-464f-aedd-8b3af953c64b")
 	)
 	(pad "5" thru_hole circle
 		(at -6.57 -2.7)
 		(size 3 3)
 		(drill 2.3)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "63271c18-813c-463b-a8df-da29aee5e4cc")
@@ -661,11 +652,13 @@
 		(at 6.57 -2.7)
 		(size 3 3)
 		(drill 2.3)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "525ba07e-2a00-40b0-8a26-fa66c6c73852")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_TE_292303-7_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_TE_292303-7_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

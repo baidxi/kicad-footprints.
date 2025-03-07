@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Multicomp_BC-2001_1x2032"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "CR2032 retainer clip, SMT ( http://www.farnell.com/datasheets/1505853.pdf )")
 	(tags "BC-2001 CR2032 2032 Battery Holder")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b66c5a78-a2d7-4963-9e66-200511b2ed34")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -610,7 +600,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "fc4bf234-805c-458f-99a8-e18a06927f0c")
 	)
@@ -621,7 +611,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c583fa24-042f-4f23-a5e3-5c80c5a82324")
 	)
@@ -632,7 +622,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4961e220-2dc9-4395-bbe6-176e7a63e2f3")
 	)
@@ -643,7 +633,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7bf7156a-0243-4e78-862e-ae1e680a57dd")
 	)
@@ -661,19 +651,19 @@
 	(pad "1" smd rect
 		(at -12.95 0)
 		(size 5 5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6874dd23-c2e9-47bb-9c4a-7388c04e2f6c")
 	)
 	(pad "1" smd rect
 		(at 12.95 0)
 		(size 5 5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "429c4954-ef8c-4fdd-949d-14528dfd9b0f")
 	)
 	(pad "2" smd rect
 		(at 0 0)
 		(size 4 4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "680a4a5b-7368-47ad-97da-6f35494074ac")
 	)
 	(zone
@@ -693,6 +683,10 @@
 			(pads allowed)
 			(copperpour allowed)
 			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -729,7 +723,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Multicomp_BC-2001_1x2032.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Multicomp_BC-2001_1x2032.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

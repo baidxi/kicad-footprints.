@@ -1,7 +1,7 @@
 (footprint "Samtec_HLE-102-02-xxx-DV-BE-LC_2x02_P2.54mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Samtec HLE .100\" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-102-02-xxx-DV-BE-LC, 2 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xxx-dv-xx-xx-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-dv-footprint.pdf), generated with kicad-footprint-generator")
 	(tags "connector Samtec HLE horizontal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e93ae519-6ff6-41e5-897d-0f07abcdef86")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -303,28 +293,29 @@
 	(pad "1" smd rect
 		(at -1.27 -2.72)
 		(size 1.27 1.68)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "080553ee-9421-4636-b9ce-383376e0237b")
 	)
 	(pad "2" smd rect
 		(at -1.27 2.72)
 		(size 1.27 1.68)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6588c56b-7db3-4ce5-a088-7681603e016c")
 	)
 	(pad "3" smd rect
 		(at 1.27 -2.72)
 		(size 1.27 1.68)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bdb38bf8-f197-47c8-a3db-48ee10b2fd05")
 	)
 	(pad "4" smd rect
 		(at 1.27 2.72)
 		(size 1.27 1.68)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "be84f976-4276-40a2-a1e1-73a210277f5a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Samtec_HLE_SMD.3dshapes/Samtec_HLE-102-02-xxx-DV-LC_2x02_P2.54mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Samtec_HLE_SMD.3dshapes/Samtec_HLE-102-02-xxx-DV-LC_2x02_P2.54mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

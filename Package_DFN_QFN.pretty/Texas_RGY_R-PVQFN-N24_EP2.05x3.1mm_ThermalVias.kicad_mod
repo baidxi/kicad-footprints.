@@ -1,7 +1,7 @@
 (footprint "Texas_RGY_R-PVQFN-N24_EP2.05x3.1mm_ThermalVias"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/bq24133.pdf#page=40)")
 	(tags "QFN NoLead")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "40ebe10d-03d0-4122-a4b0-0a4754af7031")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -162,7 +152,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "0788a0f1-bf96-40e2-878a-96d054619a93")
 	)
@@ -294,7 +284,7 @@
 	(pad "1" smd custom
 		(at -0.75 -2.795)
 		(size 0.28 0.71)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -314,7 +304,7 @@
 	(pad "2" smd custom
 		(at -1.795 -2.25)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -334,7 +324,7 @@
 	(pad "3" smd custom
 		(at -1.795 -1.75)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -354,7 +344,7 @@
 	(pad "4" smd custom
 		(at -1.795 -1.25)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -374,7 +364,7 @@
 	(pad "5" smd custom
 		(at -1.795 -0.75)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -394,7 +384,7 @@
 	(pad "6" smd custom
 		(at -1.795 -0.25)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -414,7 +404,7 @@
 	(pad "7" smd custom
 		(at -1.795 0.25)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -434,7 +424,7 @@
 	(pad "8" smd custom
 		(at -1.795 0.75)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -454,7 +444,7 @@
 	(pad "9" smd custom
 		(at -1.795 1.25)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -474,7 +464,7 @@
 	(pad "10" smd custom
 		(at -1.795 1.75)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -494,7 +484,7 @@
 	(pad "11" smd custom
 		(at -1.795 2.25)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -514,7 +504,7 @@
 	(pad "12" smd custom
 		(at -0.75 2.795)
 		(size 0.28 0.71)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -534,7 +524,7 @@
 	(pad "13" smd custom
 		(at 0.75 2.795)
 		(size 0.28 0.71)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -554,7 +544,7 @@
 	(pad "14" smd custom
 		(at 1.795 2.25)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -574,7 +564,7 @@
 	(pad "15" smd custom
 		(at 1.795 1.75)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -594,7 +584,7 @@
 	(pad "16" smd custom
 		(at 1.795 1.25)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -614,7 +604,7 @@
 	(pad "17" smd custom
 		(at 1.795 0.75)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -634,7 +624,7 @@
 	(pad "18" smd custom
 		(at 1.795 0.25)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -654,7 +644,7 @@
 	(pad "19" smd custom
 		(at 1.795 -0.25)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -674,7 +664,7 @@
 	(pad "20" smd custom
 		(at 1.795 -0.75)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -694,7 +684,7 @@
 	(pad "21" smd custom
 		(at 1.795 -1.25)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -714,7 +704,7 @@
 	(pad "22" smd custom
 		(at 1.795 -1.75)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -734,7 +724,7 @@
 	(pad "23" smd custom
 		(at 1.795 -2.25)
 		(size 0.71 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -754,7 +744,7 @@
 	(pad "24" smd custom
 		(at 0.75 -2.795)
 		(size 0.28 0.71)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -831,7 +821,8 @@
 		(remove_unused_layers no)
 		(uuid "35e0dba0-c734-4265-872e-13ce7dbd0426")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RGY_R-PVQFN-N24_EP2.05x3.1mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RGY_R-PVQFN-N24_EP2.05x3.1mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "OnSemi_CASE100CY"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "OnSemi CASE 100CY, light-direction upwards, see http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF")
 	(tags "refective opto couple photo coupler")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "01df5af9-fd2c-44aa-b437-e36ed807e5b4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "75c9b6c5-0190-4a44-9576-ec259e2c6aaf")
 	)
@@ -200,32 +190,33 @@
 	(pad "1" smd roundrect
 		(at -0.9 -2)
 		(size 0.79 1.66)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1c2484ac-533c-400d-9599-ba0631d15dbc")
 	)
 	(pad "2" smd roundrect
 		(at -0.9 2)
 		(size 0.79 1.66)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "348dff32-a69b-4057-8c47-ec2015429718")
 	)
 	(pad "3" smd roundrect
 		(at 0.9 2)
 		(size 0.79 1.66)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c6e2446d-ce2c-4751-ac41-4943b2211997")
 	)
 	(pad "4" smd roundrect
 		(at 0.9 -2)
 		(size 0.79 1.66)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "10db9bfb-b806-49d7-9afa-fd87df119da8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/OnSemi_CASE100CY.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/OnSemi_CASE100CY.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

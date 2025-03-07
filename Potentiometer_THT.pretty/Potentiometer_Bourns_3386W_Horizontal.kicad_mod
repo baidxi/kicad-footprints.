@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Bourns_3386W_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Potentiometer, horizontal, Bourns 3386W, 9.53 x 4.83 x 9.53mm, https://www.bourns.com/docs/Product-Datasheets/3386.pdf")
 	(tags "Potentiometer ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c3e16a5c-6615-442c-a14a-9957cd2c5dbf")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -152,7 +142,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ccdd6962-e957-4917-bee0-7b3c9a3db7fb")
 	)
@@ -163,7 +153,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "8112556b-137a-411e-9da4-7f1621f780d2")
 	)
@@ -293,7 +283,8 @@
 		(remove_unused_layers no)
 		(uuid "994680e7-5446-4952-9fec-c9908ebb17de")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3386W_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3386W_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

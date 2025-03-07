@@ -1,7 +1,7 @@
 (footprint "Molex_CLIK-Mate_505405-0370_1x03-1MP_P1.50mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex CLIK-Mate series connector, 505405-0370 (http://www.molex.com/pdm_docs/sd/5054050270_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex CLIK-Mate side entry")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "101e03ae-0718-4a3b-a4ac-7d2d685f1fc3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -238,39 +228,40 @@
 	(pad "1" smd roundrect
 		(at -1.5 2.75)
 		(size 0.8 2.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1a0a2437-f3b0-4c1b-9088-3330c4647d27")
 	)
 	(pad "2" smd roundrect
 		(at 0 2.75)
 		(size 0.8 2.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "edcc79bd-2dea-42eb-bc90-3f407f294e78")
 	)
 	(pad "3" smd roundrect
 		(at 1.5 2.75)
 		(size 0.8 2.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e8411e41-f696-4d7c-ba56-dc05df6ee15b")
 	)
 	(pad "MP" smd roundrect
 		(at -4.1 -2.3)
 		(size 1.8 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.138889)
 		(uuid "57053335-a649-4b13-b01e-2116bc72d1ad")
 	)
 	(pad "MP" smd roundrect
 		(at 4.1 -2.3)
 		(size 1.8 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.138889)
 		(uuid "1d2c5e1a-b856-4520-b745-27fb21d8041a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_CLIK-Mate_505405-0370_1x03-1MP_P1.50mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_CLIK-Mate_505405-0370_1x03-1MP_P1.50mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

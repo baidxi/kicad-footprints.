@@ -1,7 +1,7 @@
 (footprint "L_TDK_VLF10040"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Inductor,TDK, TDK-VLP-8040, 8.6mmx8.6mm")
 	(tags "inductor TDK VLP smd VLF10040")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8858a9e3-f1a8-47b5-8391-eb52e0d470e7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -211,7 +201,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a1181034-9e7c-4b63-a642-f82fad69cdbc")
 	)
@@ -229,16 +219,17 @@
 	(pad "1" smd rect
 		(at -4.5 0)
 		(size 1.7 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fda64d6b-2af2-4f86-9e51-b23e0ae0fba1")
 	)
 	(pad "2" smd rect
 		(at 4.5 0)
 		(size 1.7 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "43e854cc-5fac-4364-911f-f661d43d9c19")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_TDK_VLF10040.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_TDK_VLF10040.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

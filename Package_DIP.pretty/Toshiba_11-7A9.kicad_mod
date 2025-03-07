@@ -1,7 +1,7 @@
 (footprint "Toshiba_11-7A9"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Toshiba 11-7A9 package, like 6-lead dip package with missing pin 5, row spacing 7.62 mm (300 mils), https://toshiba.semicon-storage.com/info/docget.jsp?did=1421&prodName=TLP3021(S)")
 	(tags "Toshiba 11-7A9 DIL DIP PDIP 2.54mm 7.62mm 300mil")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bd4f6994-3a58-4eb4-9152-ead1ba7bd322")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -266,7 +256,8 @@
 		(remove_unused_layers no)
 		(uuid "77e21baa-5b89-4eb0-9081-30f2cb8305ae")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/Toshiba_11-7A9.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/Toshiba_11-7A9.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

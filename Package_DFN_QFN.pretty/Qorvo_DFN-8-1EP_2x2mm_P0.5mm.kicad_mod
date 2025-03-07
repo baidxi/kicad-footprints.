@@ -1,7 +1,7 @@
 (footprint "Qorvo_DFN-8-1EP_2x2mm_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DFN 8 2x2mm, 0.5mm http://www.qorvo.com/products/d/da000896")
 	(tags "DFN 0.5 Qorvo 2x2mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f4add051-3651-43ef-bc84-8279628d6f90")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,11 +49,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(solder_mask_margin 0.07)
-	(solder_paste_ratio -0.05)
+	(solder_paste_margin_ratio -0.05)
 	(attr smd)
 	(fp_line
 		(start -1 -1.14)
@@ -94,7 +84,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "08a8fb19-f8a7-44da-95e3-56efcefb1a13")
 	)
@@ -202,58 +192,59 @@
 	(pad "1" smd rect
 		(at -0.89 -0.75)
 		(size 0.48 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a9608319-9af9-419c-bb16-5fdeeab4eafc")
 	)
 	(pad "2" smd rect
 		(at -0.89 -0.25)
 		(size 0.48 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b4e53e85-c27e-49e6-a59e-95ebe3c00fa9")
 	)
 	(pad "3" smd rect
 		(at -0.89 0.25)
 		(size 0.48 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "277281a2-58b8-46df-9ea7-2c76a0564984")
 	)
 	(pad "4" smd rect
 		(at -0.89 0.75)
 		(size 0.48 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b4490360-c502-4cd3-88f6-330b8dd87a94")
 	)
 	(pad "5" smd rect
 		(at 0.89 0.75)
 		(size 0.48 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "828517ac-c65b-4dcb-87d1-3543817ad244")
 	)
 	(pad "6" smd rect
 		(at 0.89 0.25)
 		(size 0.48 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "79247647-a31b-4949-ac65-a7147fdfa354")
 	)
 	(pad "7" smd rect
 		(at 0.89 -0.25)
 		(size 0.48 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3a49bc1d-6279-4934-8e11-42fc5782a3a2")
 	)
 	(pad "8" smd rect
 		(at 0.89 -0.75)
 		(size 0.48 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9df68111-e8ce-43f6-a523-dff46e02a047")
 	)
 	(pad "9" smd rect
 		(at 0 0)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "504853ca-5b04-425e-8347-9b91f21e18f2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Qorvo_DFN-8-1EP_2x2mm_P0.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Qorvo_DFN-8-1EP_2x2mm_P0.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

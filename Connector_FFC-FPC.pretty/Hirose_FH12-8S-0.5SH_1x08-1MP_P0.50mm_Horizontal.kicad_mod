@@ -1,7 +1,7 @@
 (footprint "Hirose_FH12-8S-0.5SH_1x08-1MP_P0.50mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Hirose FH12, FFC/FPC connector, FH12-8S-0.5SH, 8 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator")
 	(tags "connector Hirose FH12 horizontal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9392ab30-f201-444d-92d0-9df0331508b0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -358,64 +348,65 @@
 	(pad "1" smd rect
 		(at -1.75 -1.85)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "acce8645-4e38-477e-baa1-4aafe0bab663")
 	)
 	(pad "2" smd rect
 		(at -1.25 -1.85)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6ed8aa3f-967d-4831-a17f-1683ef81525d")
 	)
 	(pad "3" smd rect
 		(at -0.75 -1.85)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0c46ee06-7fbd-4caf-878c-3138d7d5ba01")
 	)
 	(pad "4" smd rect
 		(at -0.25 -1.85)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0a0b4fbc-1058-43dd-a48a-22ecead8e6fd")
 	)
 	(pad "5" smd rect
 		(at 0.25 -1.85)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "253c0717-9de2-4a1d-b8f9-470f7982ef2d")
 	)
 	(pad "6" smd rect
 		(at 0.75 -1.85)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e25f811d-379a-45dc-bc3b-6b4fca69e817")
 	)
 	(pad "7" smd rect
 		(at 1.25 -1.85)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4fe62b9c-3c56-4e58-83e9-e3f9bed6828a")
 	)
 	(pad "8" smd rect
 		(at 1.75 -1.85)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0ff65c65-1b70-4d3e-b760-c803dde74863")
 	)
 	(pad "MP" smd rect
 		(at -3.65 1.4)
 		(size 1.8 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "22675fdb-730e-460a-a558-128f00f3defa")
 	)
 	(pad "MP" smd rect
 		(at 3.65 1.4)
 		(size 1.8 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "adfa5d78-9194-42f7-bbae-443bd4731fcd")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/Hirose_FH12-8S-0.5SH_1x08-1MP_P0.50mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/Hirose_FH12-8S-0.5SH_1x08-1MP_P0.50mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

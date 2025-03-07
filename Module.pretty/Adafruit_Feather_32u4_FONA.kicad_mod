@@ -1,7 +1,7 @@
 (footprint "Adafruit_Feather_32u4_FONA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint for the Adafruit Feather 32u4 FONA board, https://learn.adafruit.com/adafruit-feather-32u4-fona")
 	(tags "Adafruit Feather 32u4 FONA")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6fef429d-2c0e-4aa0-b6c0-e9dc13ee87cc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -347,7 +337,7 @@
 		(uuid "c5b3d7e6-351e-42d0-9d7f-8be4e3efee43")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 10.16 23.815 -90)
+		(at 10.16 23.815 270)
 		(layer "F.Fab")
 		(uuid "6ae5d859-a474-4e8e-ad5b-6c3a318bd985")
 		(effects
@@ -638,7 +628,8 @@
 		(remove_unused_layers no)
 		(uuid "d04d659f-e425-49fb-a195-089b50ed1bd4")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Adafruit_Feather_32u4_FONA.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/Adafruit_Feather_32u4_FONA.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

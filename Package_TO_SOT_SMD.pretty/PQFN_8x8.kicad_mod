@@ -1,7 +1,7 @@
 (footprint "PQFN_8x8"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Low Profile 8x8mm PQFN, Dual Cool 88, https://www.onsemi.com/pub/Collateral/FDMT80080DC-D.pdf")
 	(tags "pqfn vdfn mosfet")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cd44bb1a-52b0-4206-999a-fa20e7c5f9cb")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -122,7 +112,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ca1579a7-de03-4e6b-b737-446a9533d3f3")
 	)
@@ -243,7 +233,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1b9b2866-2b26-4f89-a448-c5590fa4898a")
 	)
@@ -303,14 +293,14 @@
 	(pad "1" smd roundrect
 		(at -3.935 -3)
 		(size 1.13 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0bebaa5c-367f-4180-a7ec-c600c4ea3b31")
 	)
 	(pad "2" smd custom
 		(at -3.61 1)
 		(size 0.48 5.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -384,7 +374,8 @@
 		)
 		(uuid "ccf09267-5c34-4a9d-b31b-4f11572b8f85")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/PQFN_8x8.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/PQFN_8x8.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

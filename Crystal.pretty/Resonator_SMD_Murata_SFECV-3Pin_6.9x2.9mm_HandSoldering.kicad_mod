@@ -1,7 +1,7 @@
 (footprint "Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Resomator/Filter Murata SFECV, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 6.9x2.9mm^2 package")
 	(tags "SMD SMT ceramic resonator filter filter hand-soldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e658be6f-1a95-46da-80fc-e5bf458d13b2")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -188,22 +178,23 @@
 	(pad "1" smd rect
 		(at -3.75 0)
 		(size 2.1 4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "19092050-4b69-4f3a-b91a-5109705ed564")
 	)
 	(pad "2" smd rect
 		(at 0 0)
 		(size 2.1 4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a9540994-9eea-4b04-9a37-53d963853533")
 	)
 	(pad "3" smd rect
 		(at 3.75 0)
 		(size 2.1 4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1356a718-9f76-4bde-92fd-a9142215af99")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm_HandSoldering.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm_HandSoldering.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Quectel_L80-R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Quectel L80-R GPS Module, Patch on Top, https://www.quectel.com/UploadImage/Downlad/Quectel_L80-R_Hardware_Design_V1.2.pdf")
 	(tags "quectel GPS GNSS")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "29ff9b8d-cabe-4d0d-8d47-70b1b9362d71")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "a3a2f181-5d00-4444-addb-82ff93f10452")
 	)
@@ -241,73 +231,73 @@
 	(pad "1" smd rect
 		(at -7.75 -5.85 180)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "08fdf9a5-060a-42d0-b217-ee2306e1305e")
 	)
 	(pad "2" smd rect
 		(at -7.75 -3.31 180)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2d373a3e-20de-4a6e-9065-8a856f7ec38d")
 	)
 	(pad "3" smd rect
 		(at -7.75 -0.77 180)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "63ba71fb-d25b-4f06-9344-c6c504b239be")
 	)
 	(pad "4" smd rect
 		(at -7.75 1.77 180)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a9380d9d-496e-4efb-a1e4-c2ccce6861eb")
 	)
 	(pad "5" smd rect
 		(at -7.75 4.31 180)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3b137aad-b368-4267-b6d8-76d40f87cf81")
 	)
 	(pad "6" smd rect
 		(at -7.75 6.85 180)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "106f6eec-39cc-4dd3-a92e-6f42d1064d3d")
 	)
 	(pad "7" smd rect
 		(at 7.75 6.85 180)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6416ba11-f527-4375-8b05-11b1909ed853")
 	)
 	(pad "8" smd rect
 		(at 7.75 4.31 180)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f83754cc-8751-420a-b219-94e7fcac8fc0")
 	)
 	(pad "9" smd rect
 		(at 7.75 1.77 180)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "baecffcf-0be7-4df2-b702-422c695efce4")
 	)
 	(pad "10" smd rect
 		(at 7.75 -0.77 180)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "13567ef8-601a-4c83-84a3-998a211b1b7e")
 	)
 	(pad "11" smd rect
 		(at 7.75 -3.31 180)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "edff5eb6-e021-4c3f-818c-a2d2bb8d65d6")
 	)
 	(pad "12" smd rect
 		(at 7.75 -5.85 180)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ab9bad64-13fe-4bef-ad45-841d7408b227")
 	)
 	(zone
@@ -328,6 +318,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -345,7 +339,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_GPS.3dshapes/Quectel_L80-R.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_GPS.3dshapes/Quectel_L80-R.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "MAN3810A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php")
 	(tags "One digit 7 segment yellow LED with right dot")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "14421b38-d94b-477a-bb63-6a5bf0396961")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -347,7 +337,8 @@
 		(remove_unused_layers no)
 		(uuid "1fd82318-d180-4c9a-9e68-4e7d451cd652")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display_7Segment.3dshapes/MAN3810A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display_7Segment.3dshapes/MAN3810A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

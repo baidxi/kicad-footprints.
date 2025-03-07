@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_MicroCrystal_CC4V-T1A-2Pin_5.0x1.9mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal MicroCrystal CC4V-T1A series http://cdn-reichelt.de/documents/datenblatt/B400/CC4V-T1A.pdf, 5.0x1.9mm^2 package")
 	(tags "SMD SMT crystal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "85b29f54-512b-4026-849b-ea88d46b1801")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -198,16 +188,17 @@
 	(pad "1" smd rect
 		(at -2.1 0)
 		(size 1.3 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dd499bf0-a576-4ac6-b810-b8b5f1d4fdce")
 	)
 	(pad "2" smd rect
 		(at 2.1 0)
 		(size 1.3 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f604be47-af87-423c-b4d9-206c518c6ecd")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_MicroCrystal_CC4V-T1A-2Pin_5.0x1.9mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_MicroCrystal_CC4V-T1A-2Pin_5.0x1.9mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

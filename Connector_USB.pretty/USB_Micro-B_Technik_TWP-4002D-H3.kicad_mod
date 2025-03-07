@@ -1,7 +1,7 @@
 (footprint "USB_Micro-B_Technik_TWP-4002D-H3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Dustproof Micro USB Type B TWP-4002D-H3, https://www.technik.com.hk/images/pdf_product/WP4002D-H3-A_2.0.pdf")
 	(tags "USB Micro B horizontal dustproof waterproof IP67")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ddcd8721-04b4-47fe-b2ad-5e8ebf0ab7a7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -343,37 +333,38 @@
 	(pad "1" smd rect
 		(at -1.3 -1.075)
 		(size 0.4 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1fff268e-157b-4142-bdf9-24b4991f822b")
 	)
 	(pad "2" smd rect
 		(at -0.65 -1.075)
 		(size 0.4 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "655f8774-a6a1-486f-be21-a6b8487ab4dd")
 	)
 	(pad "3" smd rect
 		(at 0 -1.075)
 		(size 0.4 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "95a7c5af-3874-4e75-be9d-9f0bb7e653f7")
 	)
 	(pad "4" smd rect
 		(at 0.65 -1.075)
 		(size 0.4 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a9bf188d-a0e7-42f8-a1a2-d0575f37ce38")
 	)
 	(pad "5" smd rect
 		(at 1.3 -1.075)
 		(size 0.4 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "23cbb213-69ef-4869-9408-61aa2b872995")
 	)
 	(pad "6" thru_hole oval
 		(at -2.55 -1.025)
 		(size 1.6 1.1)
 		(drill oval 1.1 0.6)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "0672d94c-fa38-4e70-a076-04d5bd5d49ad")
@@ -382,11 +373,13 @@
 		(at 2.55 -1.025)
 		(size 1.6 1.1)
 		(drill oval 1.1 0.6)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "be75d398-b76d-4c0d-bacf-4c050633e8d8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Technik_TWP-4002D-H3.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Technik_TWP-4002D-H3.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

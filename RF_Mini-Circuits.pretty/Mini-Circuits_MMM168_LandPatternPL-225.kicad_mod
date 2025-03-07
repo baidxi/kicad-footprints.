@@ -1,7 +1,7 @@
 (footprint "Mini-Circuits_MMM168_LandPatternPL-225"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint for Mini-Circuits case MMM168, Land pattern PL-225, vias included, (case drawing: https://ww2.minicircuits.com/case_style/MMM168.pdf, land pattern drawing: https://ww2.minicircuits.com/pcb/98-pl225.pdf)")
 	(tags "pl-225")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "085bcb61-7709-4ca7-993a-70d18a584747")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "422ec9e4-85ab-47c7-9ee7-695aa5f3c4ab")
 	)
@@ -225,20 +215,20 @@
 	(pad "1" smd rect
 		(at -1.0922 -0.9525 90)
 		(size 0.889 1.2954)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "10ac8321-d0fc-48b7-bb90-e52626712dd2")
 	)
 	(pad "2" smd rect
 		(at 1.1176 -0.9525 90)
 		(size 0.889 1.2954)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eb1519a1-2349-4020-89cc-5b756e239d91")
 	)
 	(pad "3" smd rect
 		(at 1.1176 0.7493 90)
 		(size 1.1938 1.2954)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "649e092a-53d1-4cc3-9072-437eb3cd264f")
 	)
@@ -270,10 +260,11 @@
 	(pad "4" smd rect
 		(at -1.0922 0.9525 90)
 		(size 0.889 1.2954)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c44f2e96-a730-49be-8608-317456d664cb")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_MMM168.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_MMM168.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

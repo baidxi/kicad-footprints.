@@ -1,7 +1,7 @@
 (footprint "SSO-8_6.8x5.9mm_P1.27mm_Clearance7mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "8-Lead Plastic Stretched Small Outline (SSO/Stretched SO), see https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DIPD-Selection-Guide_AV00-0254EN_030617.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430884105675&ssbinary=true")
 	(tags "SSO Stretched SO SOIC Pitch 1.27")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "da1b48d4-c01a-4ad6-a1ae-518bf8f71aff")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "07a3feeb-6ae5-46e3-bf9e-91eb8695b5c1")
 	)
@@ -240,52 +230,53 @@
 	(pad "1" smd rect
 		(at -4.27 -1.905)
 		(size 2.16 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c4ab1dac-63bc-4d76-bd53-7b9ea0930811")
 	)
 	(pad "2" smd rect
 		(at -4.27 -0.635)
 		(size 2.16 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7f62d7f5-f76f-40bb-9da9-bb27b0de13d5")
 	)
 	(pad "3" smd rect
 		(at -4.27 0.635)
 		(size 2.16 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "49b12a30-3a94-4813-b1ca-c3da0cff9f9d")
 	)
 	(pad "4" smd rect
 		(at -4.27 1.905)
 		(size 2.16 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "46703e48-88ac-49c5-b123-bc25d60179a6")
 	)
 	(pad "5" smd rect
 		(at 4.27 1.905)
 		(size 2.16 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "46791cfd-2b01-4330-b690-49e4233dafb2")
 	)
 	(pad "6" smd rect
 		(at 4.27 0.635)
 		(size 2.16 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2765e6bb-e1cb-4f30-bfec-5a9eed8a2a3d")
 	)
 	(pad "7" smd rect
 		(at 4.27 -0.635)
 		(size 2.16 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9c14b401-98db-47c3-921b-8522d45f0dd3")
 	)
 	(pad "8" smd rect
 		(at 4.27 -1.905)
 		(size 2.16 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "132570ce-5dec-4d95-9832-71b34138bd4c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SSO-8_6.8x5.9mm_P1.27mm_Clearance7mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SSO-8_6.8x5.9mm_P1.27mm_Clearance7mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

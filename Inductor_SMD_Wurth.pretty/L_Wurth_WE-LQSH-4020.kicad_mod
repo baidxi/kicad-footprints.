@@ -1,7 +1,7 @@
 (footprint "L_Wurth_WE-LQSH-4020"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Semi-Shielded High Saturation Power Inductor, body 4x4mm, https://www.we-online.com/catalog/en/WE-LQSH#/articles/WE-LQSH-4020")
 	(tags "SMT")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e0dc5503-177c-4a31-b810-3b96d0598966")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -93,7 +83,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "b675406b-b2ff-43e2-9def-aa1d03f7320a")
 	)
@@ -162,16 +152,17 @@
 	(pad "1" smd rect
 		(at -1.55 0)
 		(size 1.2 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b0651a18-f829-4954-8869-32bff50db4c5")
 	)
 	(pad "2" smd rect
 		(at 1.55 0)
 		(size 1.2 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ef536099-a2bc-4645-b7fd-fb6c3e07f94f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-LQSH-4020.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-LQSH-4020.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

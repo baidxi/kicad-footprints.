@@ -1,7 +1,7 @@
 (footprint "Harwin_M20-89006xx_1x06_P2.54mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Harwin Male Horizontal Surface Mount Single Row 2.54mm (0.1 inch) Pitch PCB Connector, M20-89006xx, 6 Pins per row (https://cdn.harwin.com/pdfs/M20-890.pdf), generated with kicad-footprint-generator")
 	(tags "connector Harwin M20-890 horizontal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "46e8cb46-78f2-4e64-a693-0a58cf9a4c97")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -894,40 +884,41 @@
 	(pad "1" smd rect
 		(at -5.525 -6.35)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4f978556-ee6f-49e1-82a5-5809d9687d99")
 	)
 	(pad "2" smd rect
 		(at -5.525 -3.81)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b37727bd-3fb8-4069-bd45-ae1d7a3dece8")
 	)
 	(pad "3" smd rect
 		(at -5.525 -1.27)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f16a2736-dbe1-4b0d-8e75-ba3266783b01")
 	)
 	(pad "4" smd rect
 		(at -5.525 1.27)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "57ce1946-6deb-41ff-a00a-8da9c3167fdd")
 	)
 	(pad "5" smd rect
 		(at -5.525 3.81)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c5d09242-f818-421d-8dee-232fa3474846")
 	)
 	(pad "6" smd rect
 		(at -5.525 6.35)
 		(size 2.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0dcc692b-80f3-4b74-b7b1-9bf22b741322")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_M20-89006xx_1x06_P2.54mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_M20-89006xx_1x06_P2.54mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

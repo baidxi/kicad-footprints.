@@ -1,7 +1,7 @@
 (footprint "Amphenol_M8S-03PMMR-SF8001"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "M8 Male connector for panel, 90° PCB mount (https://www.amphenolltw.com/2012download/2D%20PDF/03_M%20Series%20Sensor%20Connectors/M8S-XXPMMR-SF8001.pdf)")
 	(tags "three-pin M8")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1d6af024-f689-443f-bfe5-dc653cc46c85")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -335,7 +325,8 @@
 		(remove_unused_layers no)
 		(uuid "ffd27baf-eb80-4c28-afbb-7a4c89b7373d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Amphenol.3dshapes/Amphenol_M8S-03PMMR-SF8001.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Amphenol.3dshapes/Amphenol_M8S-03PMMR-SF8001.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

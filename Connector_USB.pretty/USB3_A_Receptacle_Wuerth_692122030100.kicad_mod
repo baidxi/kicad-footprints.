@@ -1,7 +1,7 @@
 (footprint "USB3_A_Receptacle_Wuerth_692122030100"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB 3.0, type A, right angle (https://www.we-online.com/katalog/datasheet/692122030100.pdf)")
 	(tags "USB 3.0 type A right angle Würth")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2558f0c4-10f9-4eb5-adbf-117487e91a41")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -536,63 +526,63 @@
 	(pad "1" smd roundrect
 		(at -3.75 -8.67)
 		(size 0.9 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d4d25a67-c40a-41b3-b8fc-63f564232528")
 	)
 	(pad "2" smd roundrect
 		(at -1.25 -8.67)
 		(size 0.9 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e4d51649-ad03-4e12-bc0e-b292418bdbc9")
 	)
 	(pad "3" smd roundrect
 		(at 1.25 -8.67)
 		(size 0.9 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "9d487615-729c-4626-bf2f-68332cfee716")
 	)
 	(pad "4" smd roundrect
 		(at 3.75 -8.67)
 		(size 0.9 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f8da32e4-7610-4d03-a06d-7e2e5342e61a")
 	)
 	(pad "5" smd roundrect
 		(at 5 -8.895)
 		(size 0.9 2.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "857bb346-4e35-4c3f-9f24-4ea906d5fb73")
 	)
 	(pad "6" smd roundrect
 		(at 2.5 -8.895)
 		(size 0.9 2.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d1c959b2-6911-4815-9cf9-f6d32730e347")
 	)
 	(pad "7" smd roundrect
 		(at 0 -8.895)
 		(size 0.9 2.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6b4ba508-ac96-4a56-a20b-d7b08d634fe5")
 	)
 	(pad "8" smd roundrect
 		(at -2.5 -8.895)
 		(size 0.9 2.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8f6d3e00-8801-4fc4-8b3b-8e48aae2c331")
 	)
 	(pad "9" smd roundrect
 		(at -5 -8.895)
 		(size 0.9 2.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1389f6f4-7a33-4a60-a0bf-86d75a9bcab1")
 	)
@@ -600,6 +590,7 @@
 		(at -6.8 -3.45)
 		(size 2.52 3.4)
 		(drill oval 1.12 2)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "88961ef2-68c3-468b-9673-d395c5da4f10")
@@ -608,11 +599,13 @@
 		(at 6.8 -3.45)
 		(size 2.52 3.4)
 		(drill oval 1.12 2)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "bd7d6807-1b05-4872-96e4-4ffd2cb2dd65")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB3_A_Receptacle_Wuerth_692122030100.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB3_A_Receptacle_Wuerth_692122030100.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

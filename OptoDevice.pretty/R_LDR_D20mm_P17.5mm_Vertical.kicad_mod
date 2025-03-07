@@ -1,7 +1,7 @@
 (footprint "R_LDR_D20mm_P17.5mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Resistor, LDR 20mm diameter, pin pitch 17.5mm, see http://yourduino.com/docs/Photoresistor-5516-datasheet.pdf")
 	(tags "Resistor LDR")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "649b58c5-c114-42d3-8202-89feeeb3026a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "f95afc9c-78c2-4b85-881f-d9d66e8b9e96")
 	)
@@ -82,7 +72,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "cdcaf6c7-bdcc-44d9-b663-f8a52147e686")
 	)
@@ -223,7 +213,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b75e097f-f484-4b27-8636-c02828838002")
 	)
@@ -254,7 +244,8 @@
 		(remove_unused_layers no)
 		(uuid "f411fe02-9c2b-4363-9290-26b0936f882a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/R_LDR_D20mm_P17.5mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/R_LDR_D20mm_P17.5mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

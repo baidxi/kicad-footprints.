@@ -1,7 +1,7 @@
 (footprint "D_QFN_3.3x3.3mm_P0.65mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 	(tags "diode qfn 3.3")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2c22fab2-3ed8-4740-a26d-b080385112c3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -298,13 +288,13 @@
 	(pad "" smd rect
 		(at 1.4 -0.975)
 		(size 0.8 0.44)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dc5e9845-8b76-4f88-985b-a90d58d9d0a1")
 	)
 	(pad "1" smd custom
 		(at -0.645 0)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -327,7 +317,7 @@
 	(pad "2" smd custom
 		(at 1.4 0.325)
 		(size 0.4 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -345,7 +335,8 @@
 		)
 		(uuid "bd8e8de8-783d-4a27-86a5-664d85883a21")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_QFN_3.3x3.3mm_P0.65mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_QFN_3.3x3.3mm_P0.65mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

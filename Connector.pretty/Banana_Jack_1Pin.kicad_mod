@@ -1,7 +1,7 @@
 (footprint "Banana_Jack_1Pin"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Single banana socket, footprint - 6mm drill")
 	(tags "banana socket")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1067e692-6390-4a4b-a3f0-0248dfd80d83")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "d58b8bab-042c-41e8-9d9d-9e163ce2f590")
 	)
@@ -82,7 +72,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "7672db33-4cdd-4a3e-930f-80a9d3a1f4f7")
 	)
@@ -93,7 +83,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d5ac2832-d797-43a8-961a-f323f5c186ce")
 	)
@@ -104,7 +94,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1a2f15df-f8d2-4d5c-a72d-390a36c0603c")
 	)
@@ -127,7 +117,8 @@
 		(remove_unused_layers no)
 		(uuid "5aea2b88-a3e4-4846-81d9-542cceecd34c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector.3dshapes/Banana_Jack_1Pin.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector.3dshapes/Banana_Jack_1Pin.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "PinHeader_1x05_P1.27mm_Vertical_SMD_Pin1Left"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "surface-mounted straight pin header, 1x05, 1.27mm pitch, single row, style 1 (pin 1 left)")
 	(tags "Surface mounted pin header SMD 1x05 1.27mm single row style1 pin1 left")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d6b639c8-82df-4fa5-a976-5bc69b525330")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -418,34 +408,35 @@
 	(pad "1" smd rect
 		(at -1.5 -2.54)
 		(size 3 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6426c7b0-52a4-4eff-8ca0-1eb751834503")
 	)
 	(pad "2" smd rect
 		(at 1.5 -1.27)
 		(size 3 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fcacff05-8af0-480f-939a-523ee8501292")
 	)
 	(pad "3" smd rect
 		(at -1.5 0)
 		(size 3 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "551ee950-ea06-4192-8509-5810799d6185")
 	)
 	(pad "4" smd rect
 		(at 1.5 1.27)
 		(size 3 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "65bd3ad5-dc4a-4cd9-bd2a-ce1459acf6e7")
 	)
 	(pad "5" smd rect
 		(at -1.5 2.54)
 		(size 3 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "607b5ee2-f9ff-4207-9024-982414c0b41e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x05_P1.27mm_Vertical_SMD_Pin1Left.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x05_P1.27mm_Vertical_SMD_Pin1Left.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

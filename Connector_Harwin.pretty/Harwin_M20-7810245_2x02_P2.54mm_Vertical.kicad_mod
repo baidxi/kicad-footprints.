@@ -1,7 +1,7 @@
 (footprint "Harwin_M20-7810245_2x02_P2.54mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Harwin Female Vertical Surface Mount Double Row 2.54mm (0.1 inch) Pitch PCB Connector, M20-7810245, 2 Pins per row (https://cdn.harwin.com/pdfs/M20-781.pdf), generated with kicad-footprint-generator")
 	(tags "connector Harwin M20 side entry")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c0eef273-5f5e-4ef3-807b-fb5af86f2965")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -273,28 +263,29 @@
 	(pad "1" smd rect
 		(at -2.91 -1.27)
 		(size 1.78 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f19b9c4c-fb4d-4a82-b648-46d5b1aec3a4")
 	)
 	(pad "2" smd rect
 		(at -2.91 1.27)
 		(size 1.78 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "83902e06-af39-4157-bbf4-dbe9ba1876bc")
 	)
 	(pad "3" smd rect
 		(at 2.91 -1.27)
 		(size 1.78 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0134f418-7fed-4877-9cf2-c1d4cec3ce4a")
 	)
 	(pad "4" smd rect
 		(at 2.91 1.27)
 		(size 1.78 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "856442f2-c4fe-48bd-a677-2067bc70cc90")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_M20-7810245_2x02_P2.54mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_M20-7810245_2x02_P2.54mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

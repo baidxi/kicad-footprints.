@@ -1,7 +1,7 @@
 (footprint "SW_SPST_PTS645"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
 	(tags "SPST Button Switch")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7c6cc089-b9e2-4047-b8c4-5206cdd3bb57")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -231,7 +221,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "96973797-5b0d-407a-a7e8-172ca7ca7af1")
 	)
@@ -249,28 +239,29 @@
 	(pad "1" smd rect
 		(at -3.98 -2.25)
 		(size 1.55 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2b993251-80f5-41bd-9281-36b84f34eeea")
 	)
 	(pad "1" smd rect
 		(at 3.98 -2.25)
 		(size 1.55 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5169a90d-f287-4bcf-9c7e-172780d9ec0b")
 	)
 	(pad "2" smd rect
 		(at -3.98 2.25)
 		(size 1.55 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "004556c4-09a4-4100-ac9e-aee8c7e174d3")
 	)
 	(pad "2" smd rect
 		(at 3.98 2.25)
 		(size 1.55 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8b1a4e7c-2c57-45f5-a14c-d56aeb1bb5f3")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

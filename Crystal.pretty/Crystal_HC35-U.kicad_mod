@@ -1,7 +1,7 @@
 (footprint "Crystal_HC35-U"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Crystal, Quarz, HC35/U, http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/TO71xx.pdf")
 	(tags "Crystal Quarz HC35/U")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fec8b42e-7b90-44d0-b4f5-bd7a778a065d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -101,7 +91,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "93a609f9-5229-4a34-aa35-ba5fb18af7d9")
 	)
@@ -183,7 +173,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "6fa1aa1d-1fe7-4302-bc82-25bb358fb237")
 	)
@@ -222,7 +212,8 @@
 		(remove_unused_layers no)
 		(uuid "957cf70f-f9b7-46e0-b4f6-9791236512ff")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC35-U.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC35-U.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Carambola2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "8devices Carambola2, OpenWRT, industrial SoM computer, https://www.8devices.com/media/products/carambola2/downloads/carambola2-datasheet.pdf")
 	(tags "carambola2 8devices")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aa02c673-f182-4e26-9982-95c72653944d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -311,7 +301,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f770cdc0-e507-46d7-a797-6470603eccf1")
 	)
@@ -2087,7 +2077,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "a0b02ce2-9846-4f1e-893e-36df5596a242")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Carambola2.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/Carambola2.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

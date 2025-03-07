@@ -1,7 +1,7 @@
 (footprint "Quectel_M95"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Quad-Band GSM/GPRS module, 19.9x23.6x2.65mm, https://www.quectel.com/UploadImage/Downlad/M95_Hardware_Design_V1.3.pdf")
 	(tags "GSM Module M95")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cad4bddd-5503-429d-b315-694492a6f483")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -182,7 +172,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "da5a3033-81c1-468f-8c03-22c9fdee511c")
 	)
@@ -811,7 +801,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "14e2fa3d-3625-4133-8eb2-fac45911a288")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_GSM.3dshapes/Quectel_M95.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_GSM.3dshapes/Quectel_M95.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

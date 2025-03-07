@@ -1,7 +1,7 @@
 (footprint "DX_5R5HxxxxU_D11.5mm_P10.00mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "CP, Radial series, Radial, pin pitch=10.00mm, diameter=11.5mm, Supercapacitor, http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/dx_e.pdf")
 	(tags "CP Radial series Radial pin pitch 10.00mm diameter 11.5mm supercapacitor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f48518ac-1728-48a7-87e9-52e4609f7ad6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -193,7 +183,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d2b9b42d-5cbd-468e-8b32-1b6de990c8a5")
 	)
@@ -224,7 +214,8 @@
 		(remove_unused_layers no)
 		(uuid "a1e255fb-6da7-4ba5-9df6-4aa41789f859")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/DX_5R5HxxxxU_D11.5mm_P10.00mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/DX_5R5HxxxxU_D11.5mm_P10.00mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

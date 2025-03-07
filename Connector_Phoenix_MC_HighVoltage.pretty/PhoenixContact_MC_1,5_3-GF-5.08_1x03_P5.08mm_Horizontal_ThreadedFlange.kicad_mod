@@ -1,7 +1,7 @@
 (footprint "PhoenixContact_MC_1,5_3-GF-5.08_1x03_P5.08mm_Horizontal_ThreadedFlange"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Generic Phoenix Contact connector footprint for: MC_1,5/3-GF-5.08; number of pins: 03; pin pitch: 5.08mm; Angled; threaded flange || order number: 1847479 8A 320V")
 	(tags "phoenix_contact connector MC_01x03_GF_5.08mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e649fd26-2dff-4b9f-9e9c-e9b7f1aaf888")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -330,7 +320,8 @@
 		(remove_unused_layers no)
 		(uuid "0eace56b-f1bd-4726-95b5-06f8297ecc50")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MC_1,5_3-GF-5.08_1x03_P5.08mm_Horizontal_ThreadedFlange.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MC_1,5_3-GF-5.08_1x03_P5.08mm_Horizontal_ThreadedFlange.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

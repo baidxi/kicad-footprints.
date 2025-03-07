@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_G8-2Pin_3.2x1.5mm_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal G8, hand-soldering, 3.2x1.5mm^2 package")
 	(tags "SMD SMT crystal hand-soldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "37fc8e40-37c8-4ef8-915e-5b0486358dc0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,54 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 0.058333 0)
-		(stroke
-			(width 0.116667)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "23af32bc-e335-4d1e-9ee2-89d2767ff54a")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.133333 0)
-		(stroke
-			(width 0.083333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "d9d50e3c-59a9-4de6-9cf9-5b940fb4a011")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.208333 0)
-		(stroke
-			(width 0.083333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "1ab91d40-d6ff-4755-ae43-0b948d634954")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.25 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "cd5c7515-dedb-439e-8ccd-6bccb6e2b40b")
-	)
 	(fp_line
 		(start -2.7 -0.9)
 		(end -2.7 0.9)
@@ -137,6 +83,50 @@
 		)
 		(layer "F.SilkS")
 		(uuid "d5e23514-88a2-490b-9942-6aef3ff88f1a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.058333 0)
+		(stroke
+			(width 0.116667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "23af32bc-e335-4d1e-9ee2-89d2767ff54a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.133333 0)
+		(stroke
+			(width 0.083333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "d9d50e3c-59a9-4de6-9cf9-5b940fb4a011")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.208333 0)
+		(stroke
+			(width 0.083333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "1ab91d40-d6ff-4755-ae43-0b948d634954")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "cd5c7515-dedb-439e-8ccd-6bccb6e2b40b")
 	)
 	(fp_line
 		(start -2.8 -1.2)
@@ -242,16 +232,17 @@
 	(pad "1" smd rect
 		(at -1.625 0)
 		(size 1.75 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "217c2fc8-c2fd-4d53-b999-4375c9af3fae")
 	)
 	(pad "2" smd rect
 		(at 1.625 0)
 		(size 1.75 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2a714028-3294-46b2-87b8-09c4ad8aa586")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_G8-2Pin_3.2x1.5mm_HandSoldering.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_G8-2Pin_3.2x1.5mm_HandSoldering.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

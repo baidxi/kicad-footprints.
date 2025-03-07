@@ -1,7 +1,7 @@
 (footprint "L_Ferrocore_DLG-0302"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Ferrocore DLG-0302 unshielded SMD power inductor, 3.0x2.8x2.5mm, https://www.tme.eu/Document/bda580f72a60a2225c2f6576c2740ae1/dlg-0504.pdf")
 	(tags "smd inductor dlg-0302")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b9ca67e0-e7aa-4efd-b13e-b1bff344c12c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -180,16 +170,17 @@
 	(pad "1" smd rect
 		(at -1.1 0)
 		(size 1.4 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5f9ae16a-df64-4758-a354-8b1a320de734")
 	)
 	(pad "2" smd rect
 		(at 1.1 0)
 		(size 1.4 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "aedf0a05-1b57-4805-bfa1-032ef9295047")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Ferrocore_DLG-0302.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Ferrocore_DLG-0302.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

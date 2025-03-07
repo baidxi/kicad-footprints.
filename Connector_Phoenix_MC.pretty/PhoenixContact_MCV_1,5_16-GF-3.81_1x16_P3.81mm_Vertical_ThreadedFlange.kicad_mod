@@ -1,7 +1,7 @@
 (footprint "PhoenixContact_MCV_1,5_16-GF-3.81_1x16_P3.81mm_Vertical_ThreadedFlange"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Generic Phoenix Contact connector footprint for: MCV_1,5/16-GF-3.81; number of pins: 16; pin pitch: 3.81mm; Vertical; threaded flange || order number: 1830732 8A 160V")
 	(tags "phoenix_contact connector MCV_01x16_GF_3.81mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "35deb742-972e-4f48-88e1-d204aa4f43d7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -2427,7 +2417,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "84f37406-8895-4d5b-813c-0247a625fbf3")
 	)
@@ -2438,7 +2428,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a0f04341-f520-461d-9151-e2d56671d113")
 	)
@@ -2449,7 +2439,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "4cefa97b-37af-4718-af2f-1eb924035ebf")
 	)
@@ -2460,7 +2450,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "873c00a0-b425-4b89-a582-947d298a3fa4")
 	)
@@ -2744,7 +2734,8 @@
 		(remove_unused_layers no)
 		(uuid "d8cb90d5-d835-404d-9bb9-42d51b63857e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Phoenix_MC.3dshapes/PhoenixContact_MCV_1,5_16-GF-3.81_1x16_P3.81mm_Vertical_ThreadedFlange.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Phoenix_MC.3dshapes/PhoenixContact_MCV_1,5_16-GF-3.81_1x16_P3.81mm_Vertical_ThreadedFlange.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

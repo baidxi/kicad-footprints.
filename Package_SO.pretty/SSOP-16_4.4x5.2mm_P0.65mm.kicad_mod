@@ -1,7 +1,7 @@
 (footprint "SSOP-16_4.4x5.2mm_P0.65mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SSOP16: plastic shrink small outline package; 16 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot369-1_po.pdf)")
 	(tags "SSOP 0.65")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f8d05c6f-dcb3-4612-b130-cfd1dff75f24")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "1134b914-d0ec-479e-aa58-683579e3fc8f")
 	)
@@ -200,100 +190,101 @@
 	(pad "1" smd rect
 		(at -2.9 -2.275)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d0a57602-9c35-4ed5-8b1a-9b5541edcc03")
 	)
 	(pad "2" smd rect
 		(at -2.9 -1.625)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4a366cf8-3494-491b-917d-23e0e13f6980")
 	)
 	(pad "3" smd rect
 		(at -2.9 -0.975)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "aaad080e-2f9b-48d2-b17a-3a5ccb6e0f22")
 	)
 	(pad "4" smd rect
 		(at -2.9 -0.325)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c2f49e0d-78c2-4e8f-9e69-a55998ee7008")
 	)
 	(pad "5" smd rect
 		(at -2.9 0.325)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ba53c333-2e80-4126-87a3-cfc784cba074")
 	)
 	(pad "6" smd rect
 		(at -2.9 0.975)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d41bd5ed-ff3f-4800-b0fe-7856bd8e9aad")
 	)
 	(pad "7" smd rect
 		(at -2.9 1.625)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8504f809-3aa8-4a4c-92f0-a115ecfd3d58")
 	)
 	(pad "8" smd rect
 		(at -2.9 2.275)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "814a9c47-0db4-461d-a44d-138f7ec87a4d")
 	)
 	(pad "9" smd rect
 		(at 2.9 2.275)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c4a2367a-0212-4f5f-b92f-992283eff42a")
 	)
 	(pad "10" smd rect
 		(at 2.9 1.625)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "48116773-f77e-4ebd-8ac2-52db7e8f8493")
 	)
 	(pad "11" smd rect
 		(at 2.9 0.975)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9705ac9f-4b29-44bd-960b-7de2d244f3c4")
 	)
 	(pad "12" smd rect
 		(at 2.9 0.325)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "005b8e8c-80fe-4473-91fc-a671b2528e64")
 	)
 	(pad "13" smd rect
 		(at 2.9 -0.325)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "46a2873c-c38d-43f7-855c-01d52c4702de")
 	)
 	(pad "14" smd rect
 		(at 2.9 -0.975)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e7c88dec-d2ff-4206-a77e-cb7fbe0fd6b5")
 	)
 	(pad "15" smd rect
 		(at 2.9 -1.625)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "73ef42d8-b5cc-41da-a16f-e1b5cc596962")
 	)
 	(pad "16" smd rect
 		(at 2.9 -2.275)
 		(size 1 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b241a497-fe2c-4382-a783-77aee402f0a5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-16_4.4x5.2mm_P0.65mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-16_4.4x5.2mm_P0.65mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

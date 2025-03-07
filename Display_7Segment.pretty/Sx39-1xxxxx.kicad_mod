@@ -1,7 +1,7 @@
 (footprint "Sx39-1xxxxx"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Single digit 7 segment LED display in red, yellow or green colour http://www.kingbrightusa.com/images/catalog/SPEC/sa39-11ewa.pdf")
 	(tags "One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9d7b368a-9cab-4f5e-86d3-59ee1b57e60a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -305,7 +295,8 @@
 		(remove_unused_layers no)
 		(uuid "7d4a8f77-5995-4129-b35b-56be3ec9692b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display_7Segment.3dshapes/Sx39-1xxxxx.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display_7Segment.3dshapes/Sx39-1xxxxx.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

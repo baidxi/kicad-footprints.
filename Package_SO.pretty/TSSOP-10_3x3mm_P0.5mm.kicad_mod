@@ -1,7 +1,7 @@
 (footprint "TSSOP-10_3x3mm_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TSSOP10: plastic thin shrink small outline package; 10 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot552-1_po.pdf)")
 	(tags "SSOP 0.5")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "41be5e22-52f6-4be0-aeea-185827b7a836")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "89ed804b-1b2b-408e-be98-b3c4894c8ef0")
 	)
@@ -240,64 +230,65 @@
 	(pad "1" smd rect
 		(at -2.15 -1)
 		(size 1.1 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f88f7b20-ffd4-4709-ae75-ce644a3e3e91")
 	)
 	(pad "2" smd rect
 		(at -2.15 -0.5)
 		(size 1.1 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ad875d83-49ad-4ac9-a91f-5fc65e092d55")
 	)
 	(pad "3" smd rect
 		(at -2.15 0)
 		(size 1.1 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9a251ee0-0ef5-4dfc-a15e-a0fc5805dace")
 	)
 	(pad "4" smd rect
 		(at -2.15 0.5)
 		(size 1.1 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "efd7bd27-6e63-4696-8ffb-e1e34a7f4f05")
 	)
 	(pad "5" smd rect
 		(at -2.15 1)
 		(size 1.1 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a10b10b4-546a-489f-96c9-aeaf43aeb463")
 	)
 	(pad "6" smd rect
 		(at 2.15 1)
 		(size 1.1 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "621f9cb5-b2c9-4da7-9fc9-92c81ccf1b29")
 	)
 	(pad "7" smd rect
 		(at 2.15 0.5)
 		(size 1.1 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a9ab4858-0d51-4dac-b269-da97f03c1359")
 	)
 	(pad "8" smd rect
 		(at 2.15 0)
 		(size 1.1 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "91ce2136-69ae-4308-9546-4e9ade5e8c20")
 	)
 	(pad "9" smd rect
 		(at 2.15 -0.5)
 		(size 1.1 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0ecf04d7-2345-4196-8d68-86056c009fe4")
 	)
 	(pad "10" smd rect
 		(at 2.15 -1)
 		(size 1.1 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "88384040-cef6-4506-ba5b-2d65ae6aa9a6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-10_3x3mm_P0.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-10_3x3mm_P0.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

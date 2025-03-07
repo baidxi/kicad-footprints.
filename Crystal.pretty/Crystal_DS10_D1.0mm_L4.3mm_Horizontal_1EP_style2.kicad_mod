@@ -1,7 +1,7 @@
 (footprint "Crystal_DS10_D1.0mm_L4.3mm_Horizontal_1EP_style2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Crystal THT DS10 4.3mm length 1.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf")
 	(tags "['DS10']")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "589d2ded-2d76-4e67-a6c8-cd4b94c1c87e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -302,7 +292,7 @@
 	(pad "3" smd rect
 		(at 0.75 4.15)
 		(size 1.5 4.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cf2acb8b-18cf-436c-b942-158796daa2fe")
 	)
 	(pad "3" thru_hole rect
@@ -313,7 +303,8 @@
 		(remove_unused_layers no)
 		(uuid "67240d63-7c39-450d-9b84-a274729675c5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_DS10_D1.0mm_L4.3mm_Horizontal_1EP_style2.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_DS10_D1.0mm_L4.3mm_Horizontal_1EP_style2.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

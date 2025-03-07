@@ -1,7 +1,7 @@
 (footprint "Jack_XLR_Neutrik_NC3MAAV_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "AA Series, 3 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, vertical PCB mount, https://www.neutrik.com/en/product/nc3maav")
 	(tags "neutrik xlr aa")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "efeb0606-60e9-44b0-9444-7b42788734b5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -371,7 +361,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "5f5b4cc7-bd7a-428e-a287-2d53e10a5cbd")
 	)
@@ -382,7 +372,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "5b2358cd-aaef-4ebf-8ca3-2fd8b438d012")
 	)
@@ -393,7 +383,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "9f98d8e5-39d8-4941-aafb-382e244caad0")
 	)
@@ -733,7 +723,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e764a51f-b290-4d23-ba43-8769f2425b62")
 	)
@@ -744,7 +734,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "bb143fbf-fdfe-4c49-83d6-82a1f0943fdd")
 	)
@@ -755,7 +745,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2d9b55fa-314f-446e-a3c1-4bcce9e432cd")
 	)
@@ -766,7 +756,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "6d8065e4-aba8-4519-8b6e-139684012751")
 	)
@@ -813,7 +803,8 @@
 		(remove_unused_layers no)
 		(uuid "6b953a8c-98c8-4e7a-8f08-6b5eacd3297b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_XLR_Neutrik_NC3MAAV_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_XLR_Neutrik_NC3MAAV_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Relay_NCR_HHG1D-1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "NCR solid state relay 1A, 2A, 3A, 4A, https://ncr.hk/uploads/Relays/Solid_State_Relays/HHG1D-1.pdf")
 	(tags "ssr")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c55517cd-71c1-45e2-9e03-f53d55a89fa6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -91,7 +81,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "ead26be8-b05e-4f07-a9c4-ef5ab4f7e3c0")
 	)
@@ -102,7 +92,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "2e4d0324-d9ce-4c02-ae8d-50639c568f20")
 	)
@@ -199,7 +189,8 @@
 		(remove_unused_layers no)
 		(uuid "b2f5fdd8-17bd-464c-b7a7-489ca91f23ff")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_NCR_HHG1D.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_NCR_HHG1D.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

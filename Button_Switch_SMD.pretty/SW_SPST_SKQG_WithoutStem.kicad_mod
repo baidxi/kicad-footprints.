@@ -1,7 +1,7 @@
 (footprint "SW_SPST_SKQG_WithoutStem"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, Without stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAEE010.html")
 	(tags "SPST Button Switch")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6104d238-af54-4869-a19f-eb9952a9bf89")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -271,7 +261,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1ec681f4-55e6-41d2-bdf4-b538194dc33c")
 	)
@@ -333,25 +323,25 @@
 	(pad "1" smd rect
 		(at -3.1 -1.85)
 		(size 1.8 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dfc015da-6d20-444f-a28d-3713807f4c3f")
 	)
 	(pad "1" smd rect
 		(at 3.1 -1.85)
 		(size 1.8 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6cbbc316-ae9b-49dc-a85d-db9a5a7bc621")
 	)
 	(pad "2" smd rect
 		(at -3.1 1.85)
 		(size 1.8 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "66462304-7235-4464-8b4b-4ee23558443a")
 	)
 	(pad "2" smd rect
 		(at 3.1 1.85)
 		(size 1.8 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ec6259d2-3603-4772-a160-252ae2ac3269")
 	)
 	(zone
@@ -371,6 +361,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -400,6 +394,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -410,7 +408,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_SKQG_WithoutStem.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_SKQG_WithoutStem.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

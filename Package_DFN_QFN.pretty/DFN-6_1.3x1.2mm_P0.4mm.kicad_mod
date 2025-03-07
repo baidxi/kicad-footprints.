@@ -1,7 +1,7 @@
 (footprint "DFN-6_1.3x1.2mm_P0.4mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "6-Lead Plastic DFN (1.3mm x 1.2mm) ")
 	(tags "DFN 0.4")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fdb6c3f6-5650-47cd-9766-016e8f77e683")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "9374a39e-1c92-46d2-9e5c-06e74568b9fd")
 	)
@@ -200,40 +190,41 @@
 	(pad "1" smd rect
 		(at -0.368 -0.4)
 		(size 0.53 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6ca3ea9c-499f-47b2-b538-049fb03e5a6c")
 	)
 	(pad "2" smd rect
 		(at -0.368 0)
 		(size 0.53 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a53c5d69-5c63-413a-9c41-df83faad6845")
 	)
 	(pad "3" smd rect
 		(at -0.368 0.4)
 		(size 0.53 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5cdd5bc3-b152-469e-b32c-b3eefded4992")
 	)
 	(pad "4" smd rect
 		(at 0.368 0.4)
 		(size 0.53 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2eb7c490-6530-4bc4-90e4-5e5a31137606")
 	)
 	(pad "5" smd rect
 		(at 0.368 0)
 		(size 0.53 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6fe705f6-da78-4c55-a203-38b54ae05744")
 	)
 	(pad "6" smd rect
 		(at 0.368 -0.4)
 		(size 0.53 0.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cf9bee93-eb59-4003-9d3f-2eda33cc9729")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-6_1.3x1.2mm_P0.4mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-6_1.3x1.2mm_P0.4mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

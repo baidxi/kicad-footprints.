@@ -1,7 +1,7 @@
 (footprint "Transformer_ED8_4-Lead_10.5x8mm_P5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Isolated audio transformer, ED8, 4-lead, body 10.5x8mm body, pitch 5mm, height 5mm, https://gitlab.com/kicad/libraries/kicad-footprints/-/merge_requests/3626")
 	(tags "permalloy core ")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 9 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0708c613-a313-4bb8-b975-0f77fb9ed1b3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 180)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -213,7 +203,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "8c577c0c-9115-48f9-8c27-f327c7745bf9")
 	)
@@ -524,7 +514,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "33d1b03b-3c3e-4a49-8549-1426418a00b3")
 	)
@@ -535,7 +525,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "ffd69978-87ad-4d63-9eca-45b13815e2da")
 	)
@@ -554,32 +544,33 @@
 	(pad "1" smd roundrect
 		(at -2.5 -6.325 180)
 		(size 1.25 2.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "37a2092d-307b-4594-af84-e2f6ced1e854")
 	)
 	(pad "2" smd roundrect
 		(at 2.5 -6.325 180)
 		(size 1.25 2.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "759e760c-d6e9-4a31-a129-4c3c62375e4c")
 	)
 	(pad "3" smd roundrect
 		(at 2.5 6.325 180)
 		(size 1.25 2.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "34a70bba-d7a6-4b77-aceb-2404dfac5bfc")
 	)
 	(pad "4" smd roundrect
 		(at -2.5 6.325 180)
 		(size 1.25 2.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "093ceaec-33f4-4507-8213-4e8c7cb93abe")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_ED8_4-Lead_10.5x8mm_P5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_ED8_4-Lead_10.5x8mm_P5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

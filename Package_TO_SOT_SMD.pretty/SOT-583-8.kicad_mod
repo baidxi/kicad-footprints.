@@ -1,7 +1,7 @@
 (footprint "SOT-583-8"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.ti.com/lit/ds/symlink/tps62933.pdf")
 	(tags "SOT-583-8")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1e85d69f-a0b3-48e2-b128-34f002923de0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -94,7 +84,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "6d672dce-9ed6-4be6-b97f-b25766ee967a")
 	)
@@ -203,7 +193,7 @@
 	(pad "1" smd roundrect
 		(at -0.74 -0.75)
 		(size 0.67 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(thermal_bridge_angle 45)
 		(uuid "95a914b1-aec2-459c-800f-527932fedd92")
@@ -211,7 +201,7 @@
 	(pad "2" smd roundrect
 		(at -0.74 -0.25)
 		(size 0.67 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(thermal_bridge_angle 45)
 		(uuid "5de94aae-9906-4965-9618-f00742a4da1b")
@@ -219,7 +209,7 @@
 	(pad "3" smd roundrect
 		(at -0.74 0.25)
 		(size 0.67 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(thermal_bridge_angle 45)
 		(uuid "b826fa82-10f0-4667-af3a-1adde81a4e08")
@@ -227,7 +217,7 @@
 	(pad "4" smd roundrect
 		(at -0.74 0.75)
 		(size 0.67 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(thermal_bridge_angle 45)
 		(uuid "32de9d04-c646-4004-ad6f-5e9c48bf5b78")
@@ -235,7 +225,7 @@
 	(pad "5" smd roundrect
 		(at 0.74 0.75)
 		(size 0.67 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(thermal_bridge_angle 45)
 		(uuid "799b8374-eccb-4cb4-ab0d-3eb9624f4353")
@@ -243,7 +233,7 @@
 	(pad "6" smd roundrect
 		(at 0.74 0.25)
 		(size 0.67 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(thermal_bridge_angle 45)
 		(uuid "45369f82-2854-4cab-875a-dfaa3dfabcac")
@@ -251,7 +241,7 @@
 	(pad "7" smd roundrect
 		(at 0.74 -0.25)
 		(size 0.67 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(thermal_bridge_angle 45)
 		(uuid "e6ea1b52-1b23-422b-8067-e20bb830ab5e")
@@ -259,12 +249,13 @@
 	(pad "8" smd roundrect
 		(at 0.74 -0.75)
 		(size 0.67 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(thermal_bridge_angle 45)
 		(uuid "c44da805-c063-4a08-bb9b-74907d6e2e33")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-583-8.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-583-8.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

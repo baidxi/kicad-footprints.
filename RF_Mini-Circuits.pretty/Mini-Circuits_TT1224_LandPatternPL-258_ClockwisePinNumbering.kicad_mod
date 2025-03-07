@@ -1,7 +1,7 @@
 (footprint "Mini-Circuits_TT1224_LandPatternPL-258_ClockwisePinNumbering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint for Mini-Circuits case TT1224 (https://ww2.minicircuits.com/case_style/TT1224.pdf) following land-pattern PL-258, including GND-vias (https://www.minicircuits.com/pcb/98-pl258.pdf)")
 	(tags "PL-258 Mini-Circuits")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e5507a3e-c2c4-493f-89a5-8bd0f65c580e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "efd395af-d817-473d-a4cd-d7e741233fa1")
 	)
@@ -200,7 +190,7 @@
 	(pad "1" smd rect
 		(at -2.54 -2.9845 270)
 		(size 1.651 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.9398)
 		(uuid "0f114a4b-7ab1-428f-8cae-777526627b2c")
 	)
@@ -277,7 +267,7 @@
 	(pad "2" smd rect
 		(at 0 -2.9845 270)
 		(size 1.651 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "e1b71b4f-cb8b-4b4b-ae7a-df9969caab8c")
 	)
@@ -388,32 +378,33 @@
 	(pad "3" smd rect
 		(at 2.54 -2.9845 270)
 		(size 1.651 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "a00bcb9a-1fef-40fd-9da0-44d6d5a6ec55")
 	)
 	(pad "4" smd rect
 		(at 2.54 2.9845 90)
 		(size 1.651 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.9398)
 		(uuid "90dfa7db-c6a0-4c22-a815-a4a23e1c5faf")
 	)
 	(pad "5" smd rect
 		(at 0 2.9845 90)
 		(size 1.651 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "b2c7da30-2260-4dd0-9054-24d54a17408c")
 	)
 	(pad "6" smd rect
 		(at -2.54 2.9845 90)
 		(size 1.651 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "6aa6655f-0bb7-4f78-95dd-9b812368413b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_TT1224.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_TT1224.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

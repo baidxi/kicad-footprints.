@@ -1,7 +1,7 @@
 (footprint "RJ45_Cetus_J1B1211CCD_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, Cetus, used and distributed by WIZnet (https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz550web:wiz550webds_kr:j1b1211ccd.pdf)")
 	(tags "RJ45 Magjack")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3ec190e9-e16c-46f6-b46e-785557e05f4e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -452,7 +442,8 @@
 		(remove_unused_layers no)
 		(uuid "6e50f9b1-063a-4952-8c7d-396155ab5eeb")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Cetus_J1B1211CCD.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Cetus_J1B1211CCD.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

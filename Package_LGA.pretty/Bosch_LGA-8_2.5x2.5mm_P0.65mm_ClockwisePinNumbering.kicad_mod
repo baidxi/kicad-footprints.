@@ -1,7 +1,7 @@
 (footprint "Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LGA-8")
 	(tags "lga land grid array")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4ac05da6-e46c-4414-bb94-826528a77935")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "f3c84094-12e9-454c-be5c-e58e5e12eb86")
 	)
@@ -240,52 +230,53 @@
 	(pad "1" smd rect
 		(at -0.975 -1.025 90)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2ca5349a-d4e1-4c30-84d4-e20e221c8854")
 	)
 	(pad "2" smd rect
 		(at -0.325 -1.025 90)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "45b5bdf4-2a83-41f4-86cf-5c718831ea33")
 	)
 	(pad "3" smd rect
 		(at 0.325 -1.025 90)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4bd053f4-40e6-480b-aedc-8cf529952e1b")
 	)
 	(pad "4" smd rect
 		(at 0.975 -1.025 90)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5ea17325-ab22-40b0-9e3b-ad8d966ba5f9")
 	)
 	(pad "5" smd rect
 		(at 0.975 1.025 90)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b732e7be-e744-481d-b742-e650c0511f4d")
 	)
 	(pad "6" smd rect
 		(at 0.325 1.025 90)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "08bf1a71-33e4-40fd-8705-5fa271ccdb8f")
 	)
 	(pad "7" smd rect
 		(at -0.325 1.025 90)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7a0a042c-c0c8-4aa4-a05f-4fe19de7bc6f")
 	)
 	(pad "8" smd rect
 		(at -0.975 1.025 90)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1babf453-3a82-491c-a2dc-b1ad71de665b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_LGA.3dshapes/Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering.wrl"
 		(offset
 			(xyz 0.01500000025 -0.03500000059 0)
 		)

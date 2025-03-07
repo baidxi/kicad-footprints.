@@ -1,7 +1,7 @@
 (footprint "Infineon_MLPQ-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "MLPQ 48 leads, 7x7mm (https://www.infineon.com/dgdl/irs2052mpbf.pdf?fileId=5546d462533600a401535675d3b32788)")
 	(tags "mlpq 32 7x7mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1d6e750f-c2ba-4db6-a1ef-7e86d9b12c9e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -152,7 +142,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "63949cd3-bcce-4346-86d9-c68b97bd74ac")
 	)
@@ -962,7 +952,8 @@
 		)
 		(uuid "fadf698b-f4a4-4edf-b1f7-7aedbc671c96")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Infineon_MLPQ-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Infineon_MLPQ-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

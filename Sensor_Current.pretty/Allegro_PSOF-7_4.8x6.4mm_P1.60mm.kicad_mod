@@ -1,7 +1,7 @@
 (footprint "Allegro_PSOF-7_4.8x6.4mm_P1.60mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Allegro Microsystems PSOF-7, 4.8x6.4mm Body, 1.60mm Pitch (http://www.allegromicro.com/~/media/Files/Datasheets/ACS780-Datasheet.ashx)")
 	(tags "Allegro PSOF-7")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c94fdb7c-e1de-47c1-887f-9300ea0e5a33")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -182,7 +172,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "d3fc0c33-037d-4d3b-83a8-1ba7333ed9d8")
 	)
@@ -290,46 +280,47 @@
 	(pad "1" smd rect
 		(at -2.45 -1.6)
 		(size 1.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2037acfe-fde7-4949-a557-b078a276fec1")
 	)
 	(pad "2" smd rect
 		(at -2.45 0)
 		(size 1.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0efa4a45-b063-4407-a7a5-7f4f275e3452")
 	)
 	(pad "3" smd rect
 		(at -2.45 1.6)
 		(size 1.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "609466ce-81e1-4aee-bf7c-89ff5ab63186")
 	)
 	(pad "4" smd rect
 		(at 0.05 2.8)
 		(size 0.6 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c8a345e1-78b5-4743-ad77-0a35638f5c6e")
 	)
 	(pad "5" smd rect
 		(at 2.4 1.5)
 		(size 1.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "17247857-2623-417c-a240-bcd066ff8298")
 	)
 	(pad "6" smd rect
 		(at 2.4 -1.5)
 		(size 1.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c00c728c-a6e6-4f8d-83e6-9783299e9198")
 	)
 	(pad "7" smd rect
 		(at 0.05 -2.8)
 		(size 0.6 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "93a4f58c-5ae2-42dd-9d83-39a732f2d3d5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Current.3dshapes/Allegro_PSOF-7_4.8x6.4mm_P1.60mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Current.3dshapes/Allegro_PSOF-7_4.8x6.4mm_P1.60mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

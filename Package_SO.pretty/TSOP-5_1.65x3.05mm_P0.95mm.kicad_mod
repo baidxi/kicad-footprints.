@@ -1,7 +1,7 @@
 (footprint "TSOP-5_1.65x3.05mm_P0.95mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TSOP-5 package (comparable to TSOT-23), https://www.vishay.com/docs/71200/71200.pdf")
 	(tags "Jedec MO-193C TSOP-5L")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "754e3e33-d726-425d-bee8-4cdc0a3c30e6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "a63b7d90-ea66-4a9f-8728-b07869c313e6")
 	)
@@ -200,34 +190,35 @@
 	(pad "1" smd rect
 		(at -1.16 -0.95)
 		(size 0.7 0.51)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ca45f4cf-6eb5-41dc-8f6a-fe90f3e77c2c")
 	)
 	(pad "2" smd rect
 		(at -1.16 0)
 		(size 0.7 0.51)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "410d9039-a4fb-4134-99e5-2648af14709f")
 	)
 	(pad "3" smd rect
 		(at -1.16 0.95)
 		(size 0.7 0.51)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6cee9f10-ef15-44ba-a78f-a547111247fc")
 	)
 	(pad "4" smd rect
 		(at 1.16 0.95)
 		(size 0.7 0.51)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4276acb4-5f2f-4a93-a3b2-13ce2a161e3e")
 	)
 	(pad "5" smd rect
 		(at 1.16 -0.95)
 		(size 0.7 0.51)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "66889dba-eb0c-4e2a-aaaa-5318b4319af0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/TSOP-5_1.65x3.05mm_P0.95mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/TSOP-5_1.65x3.05mm_P0.95mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

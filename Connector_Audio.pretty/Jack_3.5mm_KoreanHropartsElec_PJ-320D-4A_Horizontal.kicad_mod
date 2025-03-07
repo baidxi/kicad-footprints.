@@ -1,7 +1,7 @@
 (footprint "Jack_3.5mm_KoreanHropartsElec_PJ-320D-4A_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Korean Hroparts Elec PJ-320D-4A (https://datasheet.lcsc.com/lcsc/1810121716_Korean-Hroparts-Elec-PJ-320D-4A_C95562.pdf)")
 	(tags "smt female jack horizontal")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3bfa7fba-5012-4c97-bcc9-29c50fb5448e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -325,28 +315,29 @@
 	(pad "R1" smd rect
 		(at -0.15 -3.25)
 		(size 1.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8a0f7214-9d84-4388-b26b-bcbdf74d1011")
 	)
 	(pad "R2" smd rect
 		(at -3.15 -3.25)
 		(size 1.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bc58dda6-a6b0-4a74-9f1b-59386e362dca")
 	)
 	(pad "S" smd rect
 		(at 4.95 3.25)
 		(size 1.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "81042d6b-f40f-4ea7-9d96-40a0e343a01c")
 	)
 	(pad "T" smd rect
 		(at 3.85 -3.25)
 		(size 1.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "328c6857-dfc6-42ef-a4df-d27dbe9ac8dc")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_KoreanHropartsElec_PJ-320D-4A_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_KoreanHropartsElec_PJ-320D-4A_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

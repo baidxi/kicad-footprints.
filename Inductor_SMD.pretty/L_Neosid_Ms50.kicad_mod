@@ -1,7 +1,7 @@
 (footprint "L_Neosid_Ms50"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Neosid, Power Inductor, Ms50, SMD, Fixed inductor, https://neosid.de/import-data/product-pdf/neoFestind_Ms50.pdf")
 	(tags "Neosid Power Inductor Ms50 SMD Fixed inductor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9dacd414-5232-4275-9ea1-9dc232ba3450")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -238,16 +228,17 @@
 	(pad "1" smd rect
 		(at -2.4 0)
 		(size 1.4 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "37d7d346-d805-4ed6-8ad9-d1f8851347bd")
 	)
 	(pad "2" smd rect
 		(at 2.4 0)
 		(size 1.4 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fa0fab4f-34de-439d-b17c-1eedc25d93ea")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_Ms50.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_Ms50.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

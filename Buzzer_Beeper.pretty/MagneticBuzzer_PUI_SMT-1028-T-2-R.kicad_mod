@@ -1,7 +1,7 @@
 (footprint "MagneticBuzzer_PUI_SMT-1028-T-2-R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Buzzer, 2830Hz, 3.6Vpp, 90dbA@10cm, Top sound port, 10x10x3,5mm, https://api.puiaudio.com/file/612539d9-c50b-48de-88aa-b63ef8817a91.pdf")
 	(tags "SMT 1028")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a558688e-af6c-45c5-afde-05e64b117580")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -131,7 +121,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "4e2ac043-26ca-4bf8-93a0-314d0ae64455")
 	)
@@ -397,7 +387,7 @@
 		)
 	)
 	(fp_text user "+"
-		(at -3.35 -2.95 -90)
+		(at -3.35 -2.95 270)
 		(layer "F.Fab")
 		(uuid "dbc61318-0f3e-4944-becb-17d8546b6460")
 		(effects
@@ -410,32 +400,33 @@
 	(pad "1" smd roundrect
 		(at -4.9 -2.9 270)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(uuid "4594e273-6f1e-41b1-938c-bebc54391f22")
 	)
 	(pad "2" smd roundrect
 		(at 4.9 -2.9 270)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(uuid "934250b4-9b9d-4458-aa61-d9bf88826322")
 	)
 	(pad "MP" smd roundrect
 		(at -4.9 3.5 270)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(uuid "5e98b08c-fde1-4451-a189-65eb6b92b534")
 	)
 	(pad "MP" smd roundrect
 		(at 4.9 3.5 270)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(uuid "d523c47b-e021-4286-9c00-ed088e213f04")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/MagneticBuzzer_PUI_SMT-1028-T-2-R.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/MagneticBuzzer_PUI_SMT-1028-T-2-R.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

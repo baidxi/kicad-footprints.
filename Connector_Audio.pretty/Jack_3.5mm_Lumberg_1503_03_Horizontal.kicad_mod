@@ -1,7 +1,7 @@
 (footprint "Jack_3.5mm_Lumberg_1503_03_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TRS 3.5mm, horizontal, Surface Mount (SMT), https://downloads.lumberg.com/datenblaetter/en/1503_03.pdf")
 	(tags "TRS audio jack horizontal")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "df5ebb48-a8a5-4404-9ae6-53e3529edfa0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -693,39 +683,40 @@
 	(pad "MP" smd roundrect
 		(at -4.25 -1.75)
 		(size 2.2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(uuid "ac5978ec-e859-4b1a-a013-5db3f5d8acaf")
 	)
 	(pad "MP" smd roundrect
 		(at 4.25 -1.75)
 		(size 2.2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(uuid "e8799b37-048e-4f7b-ae41-4210d9f72cd2")
 	)
 	(pad "R" smd roundrect
 		(at 3.65 5)
 		(size 2 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1315789474)
 		(uuid "f040ef51-1bfb-4b93-bfcf-2c8c07f9f740")
 	)
 	(pad "S" smd roundrect
 		(at -3.65 5)
 		(size 2 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1315789474)
 		(uuid "ab9e4c03-5a2e-4a10-b83d-9bc952f1a7e1")
 	)
 	(pad "T" smd roundrect
 		(at 0 7.85)
 		(size 2 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1315789474)
 		(uuid "14ab236e-c8e6-4fcb-a83b-65bd899d4c88")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_Lumberg_1503_03_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_Lumberg_1503_03_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Texas_S-PDSO-G8_3x3mm_P0.65mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "plastic small outline, https://www.ti.com/lit/ml/mpds028d/mpds028d.pdf, https://www.ti.com/lit/ds/symlink/dac8552.pdf#page=23")
 	(tags "DGK VSSOP SO")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b09b5bf3-6d8a-4b41-b4f7-cb2e6b514711")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" "https://www.ti.com/lit/ml/mpds028d/mpds028d.pdf"
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,7 +102,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "6c5b5d4e-5295-40a7-aea2-2cb0fbb844d6")
 	)
@@ -220,60 +210,61 @@
 	(pad "1" smd roundrect
 		(at -2.2 -0.975)
 		(size 1.45 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5c914092-3c52-42ec-a84b-e866a75d64bd")
 	)
 	(pad "2" smd roundrect
 		(at -2.2 -0.325)
 		(size 1.45 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "67acb937-9ae7-4cff-8b8a-377a812b4fa4")
 	)
 	(pad "3" smd roundrect
 		(at -2.2 0.325)
 		(size 1.45 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1b6ea077-82eb-485f-a3ab-690d00db021f")
 	)
 	(pad "4" smd roundrect
 		(at -2.2 0.975)
 		(size 1.45 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e87f773b-ff65-43fd-9763-dd2017b9114b")
 	)
 	(pad "5" smd roundrect
 		(at 2.2 0.975)
 		(size 1.45 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7e68b7ae-c3f6-443e-9726-1ec85f1a0693")
 	)
 	(pad "6" smd roundrect
 		(at 2.2 0.325)
 		(size 1.45 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "981bbb4b-6c64-4694-bbd0-96a993219964")
 	)
 	(pad "7" smd roundrect
 		(at 2.2 -0.325)
 		(size 1.45 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "bef2a336-e0a9-49df-9e4f-3948fb1651bd")
 	)
 	(pad "8" smd roundrect
 		(at 2.2 -0.975)
 		(size 1.45 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5c98af05-76b1-4298-8df4-b124487c2755")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/Texas_S-PDSO-G8_3x3mm_P0.65mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Texas_S-PDSO-G8_3x3mm_P0.65mm.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)

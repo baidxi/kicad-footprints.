@@ -1,7 +1,7 @@
 (footprint "L_Coilcraft_XxL4020"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "L_Coilcraft_XxL4020 https://www.coilcraft.com/pdfs/xfl4020.pdf")
 	(tags "L Coilcraft XxL4020")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3c0aa0d5-5ef1-40b9-86d2-43d1ec207bc7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -178,16 +168,17 @@
 	(pad "1" smd rect
 		(at -1.185 0)
 		(size 0.98 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ae5837f3-6ac5-4f29-ad58-2eed88adc41c")
 	)
 	(pad "2" smd rect
 		(at 1.185 0)
 		(size 0.98 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "359c5a1d-cbac-4646-9ee9-155e5df5bc2e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_XxL4020.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_XxL4020.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

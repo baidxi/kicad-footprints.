@@ -1,7 +1,7 @@
 (footprint "L_Bourns-SRN1060"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Bourns SRN1060 series SMD inductor https://www.bourns.com/docs/Product-Datasheets/SRN1060.pdf")
 	(tags "Bourns SRN1060 SMD inductor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "93cf881d-9384-4168-a443-7bcf696b6b27")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -238,16 +228,17 @@
 	(pad "1" smd rect
 		(at -3.3 0)
 		(size 3.5 10.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4f7de6b7-47a0-46fb-9970-224e33f3335c")
 	)
 	(pad "2" smd rect
 		(at 3.3 0)
 		(size 3.5 10.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8b18283a-15d0-4acb-a6bc-95d4a7758797")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRN1060.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRN1060.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

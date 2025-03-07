@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_SI570_SI571_Standard"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SI570, SI571, Programmable oscillator, Standard")
 	(tags "SI570 SI571 Programmable oscillator Standard")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "25388609-cb50-495d-bfc1-0a62aafa0dde")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,76 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center -1 0)
-		(end -0.85 0)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "d607b52b-001b-4b48-84e6-adb9861d67bd")
-	)
-	(fp_circle
-		(center -1 0)
-		(end -0.55 0)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "1c13866c-a3c4-4a50-ba0c-8386bffbaee7")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.15 0)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "b68f2c9f-5c39-46ee-83fd-ec6f0562f683")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.35 0)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "720aca57-dee1-44a0-9594-2b7428db973a")
-	)
-	(fp_circle
-		(center 1 0)
-		(end 0.55 0)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "42aef9ea-06fb-4d04-ae00-1686d7f7bc99")
-	)
-	(fp_circle
-		(center 1 0)
-		(end 0.85 0)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "52a8242f-5340-43f3-a2b0-bba44575f86a")
-	)
 	(fp_line
 		(start -3.6 -2.6)
 		(end -3.5 -2.6)
@@ -240,6 +164,72 @@
 		(layer "F.SilkS")
 		(uuid "2963c55d-55bb-4ef4-8596-1fed31009813")
 	)
+	(fp_circle
+		(center -1 0)
+		(end -0.85 0)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "d607b52b-001b-4b48-84e6-adb9861d67bd")
+	)
+	(fp_circle
+		(center -1 0)
+		(end -0.55 0)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "1c13866c-a3c4-4a50-ba0c-8386bffbaee7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.15 0)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "b68f2c9f-5c39-46ee-83fd-ec6f0562f683")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.35 0)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "720aca57-dee1-44a0-9594-2b7428db973a")
+	)
+	(fp_circle
+		(center 1 0)
+		(end 0.55 0)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "42aef9ea-06fb-4d04-ae00-1686d7f7bc99")
+	)
+	(fp_circle
+		(center 1 0)
+		(end 0.85 0)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "52a8242f-5340-43f3-a2b0-bba44575f86a")
+	)
 	(fp_line
 		(start -3.9 -3.5)
 		(end 3.9 -3.5)
@@ -344,52 +334,53 @@
 	(pad "1" smd rect
 		(at -2.5 2.1)
 		(size 1.7 2.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a7c5b3c6-2b9d-4a71-ad23-2f97230c1e37")
 	)
 	(pad "2" smd rect
 		(at 0 2.1)
 		(size 1.7 2.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "857aef04-fba0-4f99-8d2b-3fe6160205a0")
 	)
 	(pad "3" smd rect
 		(at 2.5 2.1)
 		(size 1.7 2.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "587588ff-2856-46a6-bf5a-3cf09db1e2ec")
 	)
 	(pad "4" smd rect
 		(at 2.5 -2.1)
 		(size 1.7 2.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "144c7ff8-eb3a-4446-bbd2-35f6e146e29d")
 	)
 	(pad "5" smd rect
 		(at 0 -2.1)
 		(size 1.7 2.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9e499bfe-4b20-4373-a2d9-da752d7c3c22")
 	)
 	(pad "6" smd rect
 		(at -2.5 -2.1)
 		(size 1.7 2.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "47a9e00c-c5ab-4aa7-8443-4493f8e3d8a4")
 	)
 	(pad "7" smd rect
 		(at -2.85 0)
 		(size 1.55 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f8b703bd-c572-4189-b329-7bde6e41e2da")
 	)
 	(pad "8" smd rect
 		(at 2.85 0)
 		(size 1.55 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "93b53c8a-5dc2-40ac-91f6-f6edae4c10ab")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_SI570_SI571_Standard.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_SI570_SI571_Standard.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

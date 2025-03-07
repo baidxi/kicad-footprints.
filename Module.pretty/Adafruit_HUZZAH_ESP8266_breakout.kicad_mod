@@ -1,7 +1,7 @@
 (footprint "Adafruit_HUZZAH_ESP8266_breakout"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "32-bit microcontroller module with WiFi, https://www.adafruit.com/product/2471")
 	(tags "ESP8266 WiFi microcontroller")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0ade9b27-2b3e-4a6f-88d3-79f3352a1fca")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -563,7 +553,8 @@
 		(remove_unused_layers no)
 		(uuid "c0f57408-4b3e-410b-bce7-63f9840cd8be")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Adafruit_HUZZAH_ESP8266_breakout.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/Adafruit_HUZZAH_ESP8266_breakout.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

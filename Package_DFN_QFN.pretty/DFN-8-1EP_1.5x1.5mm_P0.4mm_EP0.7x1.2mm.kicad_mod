@@ -1,5 +1,5 @@
 (footprint "DFN-8-1EP_1.5x1.5mm_P0.4mm_EP0.7x1.2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "DFN, 8 Pin (https://www.kinet-ic.com/uploads/KTD2026-7-04h.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
@@ -43,86 +43,77 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start -0.375 -0.75)
-		(end 0.75 -0.75)
+	(fp_poly
+		(pts
+			(xy -1.27 -0.87)
+			(xy -1.55 -0.87)
+			(xy -1.27 -1.15)
+		)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(fill yes)
+		(layer "F.SilkS")
 	)
-	(fp_line
-		(start 0.75 -0.75)
-		(end 0.75 0.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0.75 0.75)
-		(end -0.75 0.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -0.75 0.75)
-		(end -0.75 -0.375)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -0.75 -0.375)
-		(end -0.375 -0.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
+	(fp_rect
 		(start -1.35 -1)
-		(end -1.35 1)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.35 1)
 		(end 1.35 1)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start 1.35 1)
-		(end 1.35 -1)
+	(fp_poly
+		(pts
+			(xy -0.75 -0.375)
+			(xy -0.75 0.75)
+			(xy 0.75 0.75)
+			(xy 0.75 -0.75)
+			(xy -0.375 -0.75)
+		)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(fill no)
+		(layer "F.Fab")
 	)
-	(fp_line
-		(start 1.35 -1)
-		(end -1.35 -1)
-		(stroke
-			(width 0.05)
-			(type solid)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.38 0.38)
+				(thickness 0.06)
+			)
 		)
-		(layer "F.CrtYd")
+	)
+	(pad "" smd roundrect
+		(at -0.175 -0.3)
+		(size 0.28 0.48)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+	)
+	(pad "" smd roundrect
+		(at -0.175 0.3)
+		(size 0.28 0.48)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+	)
+	(pad "" smd roundrect
+		(at 0.175 -0.3)
+		(size 0.28 0.48)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+	)
+	(pad "" smd roundrect
+		(at 0.175 0.3)
+		(size 0.28 0.48)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
 	)
 	(pad "1" smd roundrect
 		(at -0.825 -0.6)
@@ -179,55 +170,8 @@
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
 	)
-	(pad "" smd roundrect
-		(at -0.175 -0.3)
-		(size 0.28 0.48)
-		(layers "F.Paste")
-		(roundrect_rratio 0.25)
-	)
-	(pad "" smd roundrect
-		(at -0.175 0.3)
-		(size 0.28 0.48)
-		(layers "F.Paste")
-		(roundrect_rratio 0.25)
-	)
-	(pad "" smd roundrect
-		(at 0.175 -0.3)
-		(size 0.28 0.48)
-		(layers "F.Paste")
-		(roundrect_rratio 0.25)
-	)
-	(pad "" smd roundrect
-		(at 0.175 0.3)
-		(size 0.28 0.48)
-		(layers "F.Paste")
-		(roundrect_rratio 0.25)
-	)
-	(fp_poly
-		(pts
-			(xy -1.27 -0.87)
-			(xy -1.55 -0.87)
-			(xy -1.27 -1.15)
-			(xy -1.27 -0.87)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(effects
-			(font
-				(size 0.38 0.38)
-				(thickness 0.06)
-			)
-		)
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_1.5x1.5mm_P0.4mm_EP0.7x1.2mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_1.5x1.5mm_P0.4mm_EP0.7x1.2mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

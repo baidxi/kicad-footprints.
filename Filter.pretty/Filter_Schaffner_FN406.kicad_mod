@@ -1,7 +1,7 @@
 (footprint "Filter_Schaffner_FN406"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Ultra Compact EMC Filter (https://www.schaffner.com/product/FN406/Schaffner_datasheet_FN406.pdf)")
 	(tags "emi filter")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "860f3b49-c30a-4cf4-a6c3-0da447c76e80")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -236,7 +226,8 @@
 		(remove_unused_layers no)
 		(uuid "d26b332b-1c80-401f-98f9-9378d2b73a7e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Filter.3dshapes/Filter_Schaffner_FN406.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_Schaffner_FN406.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

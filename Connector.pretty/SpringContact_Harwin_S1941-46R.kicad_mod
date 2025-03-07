@@ -1,7 +1,7 @@
 (footprint "SpringContact_Harwin_S1941-46R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "7.25mm SMT Multi-directional Spring Contact (T+R), https://cdn.harwin.com/pdfs/S1941R.pdf")
 	(tags "spring contact emi emc shield")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1a1ebd7c-58f0-42a3-b56e-cd45fe550edf")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -444,10 +434,11 @@
 	(pad "1" smd rect
 		(at -1.1 0)
 		(size 4.6 5.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9acd437d-6722-418d-85c2-023bf8b34e28")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector.3dshapes/SpringContact_Harwin_S1941-46R.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector.3dshapes/SpringContact_Harwin_S1941-46R.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

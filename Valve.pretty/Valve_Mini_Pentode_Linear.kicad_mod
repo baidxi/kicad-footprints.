@@ -1,7 +1,7 @@
 (footprint "Valve_Mini_Pentode_Linear"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mini-Pentode, 5-pin, e.g. JAN6418")
 	(tags "Valve Mini-Pentode 5-pin JAN6418")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "972b8393-76ce-4837-b59d-3a2872769cb1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -155,7 +145,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "0b83a4c7-18db-4775-9850-db91f95abe77")
 	)
@@ -310,7 +300,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0d0efabf-c979-4404-8ed1-d4c1f1d537e0")
 	)
@@ -365,7 +355,8 @@
 		(remove_unused_layers no)
 		(uuid "1c932355-61d1-42e7-a9c8-71c87ef77650")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Valve.3dshapes/Valve_Mini_Pentode_Linear.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Valve.3dshapes/Valve_Mini_Pentode_Linear.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

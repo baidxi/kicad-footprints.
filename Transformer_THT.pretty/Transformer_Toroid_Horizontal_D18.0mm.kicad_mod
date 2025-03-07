@@ -1,7 +1,7 @@
 (footprint "Transformer_Toroid_Horizontal_D18.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Transformer, Toroid, tapped, horizontal, laying, Diameter 18mm, ")
 	(tags "Transformer Toroid tapped horizontal laying Diameter 18mm ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fdac7c3b-76cf-4a1d-b5e2-3414a9a19da5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "64305315-5446-4f80-a3c0-335a41fc6985")
 	)
@@ -122,7 +112,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "27c96122-1262-42c9-b7c4-32934319a8a0")
 	)
@@ -177,7 +167,8 @@
 		(remove_unused_layers no)
 		(uuid "18ab4d70-659f-4ab4-8936-c7a0496f2599")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_Toroid_Horizontal_D18.0mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_Toroid_Horizontal_D18.0mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

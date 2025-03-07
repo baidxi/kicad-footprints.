@@ -1,7 +1,7 @@
 (footprint "SW_NKK_NR01"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "NKK Switches NR01 series rotary switch, 10.7 x 10.7mm. https://www.nkkswitches.com/pdf/NR01%20Rotaries.pdf")
 	(tags "NKK NR01 SP3T SP4T SP5T")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c81d1247-8b1f-4fe0-bc02-19b98c9d74d1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -351,7 +341,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "961a3a4c-a580-4c26-b34d-5ef907303eb8")
 	)
@@ -494,7 +484,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f1b190c8-0bf2-4c1e-879a-15b9ae3202f3")
 	)
@@ -593,7 +583,8 @@
 		(roundrect_rratio 0.25)
 		(uuid "b34bd272-1668-493d-b035-3d77859405b5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_NKK_NR01.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_NKK_NR01.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Texas_DSBGA-12_1.36x1.86mm_Layout3x4_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments, DSBGA, area grid, YZT, 1.86x1.36mm, 12 Ball, 3x4 Layout, 0.5mm Pitch, http://www.ti.com/lit/ds/symlink/txb0104.pdf, http://www.ti.com/lit/an/snva009ag/snva009ag.pdf")
 	(tags "BGA 12 0.5 R-XBGA-N12")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f0518ddf-c855-41b6-993b-bcb5eee5ded2")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -113,7 +103,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "44f120d5-c79a-417a-9948-856d3ee8ee31")
 	)
@@ -220,7 +210,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(uuid "512b0632-478a-4b9f-ab5d-072130218618")
 		(effects
@@ -398,7 +388,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "f449d78b-042a-486c-8a79-3af4ce005cc2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-12_1.36x1.86mm_Layout3x4_P0.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-12_1.36x1.86mm_Layout3x4_P0.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

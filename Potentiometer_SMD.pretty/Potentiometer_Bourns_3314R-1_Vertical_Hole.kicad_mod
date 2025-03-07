@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Bourns_3314R-1_Vertical_Hole"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Potentiometer, vertical, bottom-adjust, single slot, Bourns 3314R-1, http://www.bourns.com/docs/Product-Datasheets/3314.pdf")
 	(tags "Potentiometer vertical hole Bourns 3314R-1")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "770aa4d5-ea8f-4c36-988f-c9a3ee6ee468")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -235,25 +225,26 @@
 	(pad "1" smd roundrect
 		(at -1.15 -2.75)
 		(size 1.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
 		(uuid "bb85a03a-e125-426a-8131-5e409b6047c7")
 	)
 	(pad "2" smd roundrect
 		(at 0 2.75)
 		(size 2 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
 		(uuid "9690c154-476c-4e4d-bad1-870d2706eb8c")
 	)
 	(pad "3" smd roundrect
 		(at 1.15 -2.75)
 		(size 1.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
 		(uuid "ca1fa7d8-0cb7-4647-86b1-8ade044bdcf3")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3314R-1_Vertical_Hole.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3314R-1_Vertical_Hole.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

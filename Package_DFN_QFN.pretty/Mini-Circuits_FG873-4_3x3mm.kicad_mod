@@ -1,7 +1,7 @@
 (footprint "Mini-Circuits_FG873-4_3x3mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mini Circuits Case style FG (https://ww2.minicircuits.com/case_style/FG873.pdf)")
 	(tags "FG873")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1e4b9298-ff0d-4784-a2f6-08930dabb63d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,7 +102,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c20dcfb7-0cf1-4d92-ac18-6d3fcc58f3d4")
 	)
@@ -260,32 +250,33 @@
 	(pad "1" smd roundrect
 		(at -1.585 0)
 		(size 1.55 0.61)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "37b1294a-855b-4698-b7da-feadd58d989b")
 	)
 	(pad "2" smd roundrect
 		(at 0 1.585)
 		(size 0.61 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "98d063da-9262-42a5-86ee-4405588cd72a")
 	)
 	(pad "3" smd roundrect
 		(at 1.585 0)
 		(size 1.55 0.61)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c9afe26d-14e1-42c0-859b-f646f22f0fc8")
 	)
 	(pad "4" smd roundrect
 		(at 0 -1.585)
 		(size 0.61 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c818ea11-0e79-4aa9-8e42-da3e80c304cf")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Mini-Circuits_FG873-4_3x3mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Mini-Circuits_FG873-4_3x3mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "LED_Cree-XHP50_12V"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf")
 	(tags "LED XHP50 Cree")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fbdaa6fc-00d8-4ec3-b06b-3d6b7e165fa6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -538,13 +528,13 @@
 	(pad "1" smd rect
 		(at -2.14 1.32)
 		(size 0.5 2.14)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c85d5f56-3bbb-4603-992e-db23e8e90864")
 	)
 	(pad "2" smd rect
 		(at 2.14 -1.32)
 		(size 0.5 2.14)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "63e8c0c6-d8cc-4938-8292-4482dd11e72f")
 	)
 	(pad "3" smd rect
@@ -565,7 +555,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "2fc95d9c-d53f-4584-a1a5-f91652f3a210")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes\\LED_Cree-XHP50_12V.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes\\LED_Cree-XHP50_12V.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

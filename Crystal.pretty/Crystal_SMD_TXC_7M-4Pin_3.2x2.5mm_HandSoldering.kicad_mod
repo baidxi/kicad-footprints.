@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal TXC 7M http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, hand-soldering, 3.2x2.5mm^2 package")
 	(tags "SMD SMT crystal hand-soldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b35bd964-12f2-4405-beb5-b5beaf888850")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -188,28 +178,29 @@
 	(pad "1" smd rect
 		(at -1.45 1.15)
 		(size 2.1 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "46f008e0-7251-48ec-b9e1-0bb2abd0e76a")
 	)
 	(pad "2" smd rect
 		(at 1.45 1.15)
 		(size 2.1 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "762fa5d1-9aa4-4d69-bde4-56abb4e89bbd")
 	)
 	(pad "3" smd rect
 		(at 1.45 -1.15)
 		(size 2.1 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "38c13dd1-e3fa-4b5a-b8d1-3a1a9aa2ea18")
 	)
 	(pad "4" smd rect
 		(at -1.45 -1.15)
 		(size 2.1 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3036323e-3c54-48fc-b9df-14582b5eeb86")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

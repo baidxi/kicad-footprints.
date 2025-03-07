@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_muRata_MEJ1DxxxxSC_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "muRata MEJ1DxxxxSC, 19.5x9.8x12.5mm, 5.2kVDC Isolated, 1W, dual output, SIP package style, https://power.murata.com/data/power/ncl/kdc_mej1.pdf")
 	(tags "muRata MEJ1D DCDC-Converter")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4bc23ee5-9aae-4fd7-893c-2d6b73c220a8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -265,7 +255,8 @@
 		(remove_unused_layers no)
 		(uuid "b741a29d-c2e0-4fc6-9561-ff5fdfe62450")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_muRata_MEJ1DxxxxSC_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_muRata_MEJ1DxxxxSC_THT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

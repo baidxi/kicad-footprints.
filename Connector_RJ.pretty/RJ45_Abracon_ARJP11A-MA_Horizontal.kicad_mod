@@ -1,7 +1,7 @@
 (footprint "RJ45_Abracon_ARJP11A-MA_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Shielded RJ45 ethernet connector with transformer and POE, https://abracon.com/Magnetics/lan/ARJP11A.PDF")
 	(tags "ethernet 8p8c transformer poe rj45")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "30851805-2e1e-46d2-a273-7fbcbdcf74e6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -479,7 +469,8 @@
 		(remove_unused_layers no)
 		(uuid "4999758c-1170-4947-8bee-697a99420d56")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Abracon_ARJP11A-MA_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Abracon_ARJP11A-MA_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

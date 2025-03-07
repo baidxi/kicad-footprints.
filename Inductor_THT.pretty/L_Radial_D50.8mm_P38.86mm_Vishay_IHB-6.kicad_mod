@@ -1,14 +1,12 @@
 (footprint "L_Radial_D50.8mm_P38.86mm_Vishay_IHB-6"
-	(version 20240108)
-	(generator "pcbnew")
-	(generator_version "8.0")
+	(version 20241229)
+	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Inductor, Radial series, Radial, pin pitch=38.86mm, , diameter=50.8mm, Vishay, IHB-6, http://www.vishay.com/docs/34015/ihb.pdf")
-	(tags "Inductor Radial series Radial pin pitch 38.86mm  diameter 50.8mm Vishay IHB-6")
+	(descr "Inductor, Radial series, Radial, pin pitch=38.86mm, diameter=50.8mm, height=38.1mm, Vishay, IHB-6, http://www.vishay.com/docs/34015/ihb.pdf")
+	(tags "Inductor Radial series Radial pin pitch 38.86mm  diameter 50.8mm height 38.1mm Vishay IHB-6")
 	(property "Reference" "REF**"
 		(at 19.43 -26.65 0)
 		(layer "F.SilkS")
-		(uuid "c25e5c73-d81c-445e-9f60-ed6b3b30d69c")
 		(effects
 			(font
 				(size 1 1)
@@ -19,47 +17,10 @@
 	(property "Value" "L_Radial_D50.8mm_P38.86mm_Vishay_IHB-6"
 		(at 19.43 26.65 0)
 		(layer "F.Fab")
-		(uuid "a539a4ad-49a4-4ab8-aaa3-a6109f06ee1f")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f1755c5d-e24b-49f8-9240-e058c086cafa")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Datasheet" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2eeaa9f3-e781-40d0-a627-6ddb89e40970")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Description" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b9823373-78d6-4304-b50e-31c279560797")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -71,9 +32,8 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "7557db57-ec7d-4c14-abad-f50e6c0e1960")
 	)
 	(fp_circle
 		(center 19.43 0)
@@ -82,9 +42,8 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "489cc893-857d-4480-8573-a4295cd8e5c6")
 	)
 	(fp_line
 		(start -6.22 -25.65)
@@ -94,7 +53,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "902c7b00-1d48-4490-bfc3-ea3c74ec686c")
 	)
 	(fp_line
 		(start -6.22 25.65)
@@ -104,7 +62,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f5480f9e-5283-4783-911a-37877cf3aab9")
 	)
 	(fp_line
 		(start 45.08 -25.65)
@@ -114,7 +71,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9f3ea755-4fd7-42ce-80f1-a2a43d3909a7")
 	)
 	(fp_line
 		(start 45.08 25.65)
@@ -124,7 +80,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f368a365-be88-404c-84ee-42aeecd8ca5a")
 	)
 	(fp_circle
 		(center 19.43 0)
@@ -133,9 +88,8 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "d515e537-938c-416c-9ee9-756da744ec3d")
 	)
 	(fp_circle
 		(center 19.43 0)
@@ -144,14 +98,12 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "6820b556-b67a-4cab-bf1a-64a4ee72cab2")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 19.43 0 0)
 		(layer "F.Fab")
-		(uuid "f7064185-25dd-40ca-902d-029d39c487db")
 		(effects
 			(font
 				(size 1 1)
@@ -165,7 +117,6 @@
 		(drill 2.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "7bbaef34-0471-4d8c-a07e-7874107f47ca")
 	)
 	(pad "2" thru_hole circle
 		(at 38.86 0)
@@ -173,9 +124,9 @@
 		(drill 2.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "38520b91-c7d4-446f-abcb-300691e72198")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D50.8mm_P38.86mm_Vishay_IHB-6.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D50.8mm_P38.86mm_Vishay_IHB-6.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

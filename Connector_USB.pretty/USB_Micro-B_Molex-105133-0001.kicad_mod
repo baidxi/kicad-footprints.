@@ -1,7 +1,7 @@
 (footprint "USB_Micro-B_Molex-105133-0001"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Vertical Micro USB Typ-B (http://www.molex.com/pdm_docs/sd/1051330001_sd.pdf)")
 	(tags "Micro-USB SMD Typ-B Vertical")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "20b164d0-df7a-4b1a-91b4-509d77c29704")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -288,37 +278,38 @@
 	(pad "1" smd rect
 		(at -1.3 -0.825)
 		(size 0.45 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3819d70e-ffa4-4102-b70b-e8ccb8230972")
 	)
 	(pad "2" smd rect
 		(at -0.65 -0.825)
 		(size 0.45 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7a90b81f-2b8b-428b-bfd5-5718c093d027")
 	)
 	(pad "3" smd rect
 		(at 0 -0.825)
 		(size 0.45 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "66c02a38-669f-486c-a107-03ea6ff48572")
 	)
 	(pad "4" smd rect
 		(at 0.65 -0.825)
 		(size 0.45 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a0010639-43b9-4e1e-a7ac-c52e51c0b9e7")
 	)
 	(pad "5" smd rect
 		(at 1.3 -0.825)
 		(size 0.45 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2f177efa-90b4-4aa5-9557-61672ea17d7e")
 	)
 	(pad "6" thru_hole oval
 		(at -2.8 -1.075)
 		(size 1.8 1.1)
 		(drill oval 1.2 0.5)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "4cbde5f0-591a-459a-bae0-b0ca67da1acb")
@@ -327,6 +318,7 @@
 		(at 0 1.075)
 		(size 2.2 1.1)
 		(drill oval 1.6 0.5)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "29d3ded5-f493-4618-889c-2f8d3303e9a5")
@@ -335,11 +327,13 @@
 		(at 2.8 -1.075)
 		(size 1.8 1.1)
 		(drill oval 1.2 0.5)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "3512797c-ad4a-48fd-bade-9e2fefe7f9e0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Molex-105133-0001.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Molex-105133-0001.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

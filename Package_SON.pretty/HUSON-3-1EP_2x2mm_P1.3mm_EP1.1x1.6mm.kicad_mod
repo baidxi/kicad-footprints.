@@ -1,7 +1,7 @@
 (footprint "HUSON-3-1EP_2x2mm_P1.3mm_EP1.1x1.6mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "HUSON, 3 Pin, SOT1061 (Ref: https://assets.nexperia.com/documents/data-sheet/PMEG2020CPA.pdf)")
 	(tags "huson nolead SOT1061")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ddd9f8c1-71a0-4f11-99a8-b15a105e55d8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "35bc485f-17ca-40ad-862b-8f83812beb1f")
 	)
@@ -214,14 +204,14 @@
 	(pad "1" smd roundrect
 		(at -0.8 -0.65)
 		(size 0.5 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "249f69db-9f42-4558-8297-7385775151ca")
 	)
 	(pad "2" smd roundrect
 		(at -0.8 0.65)
 		(size 0.5 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "52fe298c-7ec0-4110-afab-86d5a1df978f")
 	)
@@ -234,10 +224,11 @@
 	(pad "3" smd rect
 		(at 0.925 0)
 		(size 0.25 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9ff41d84-d23f-471d-966d-a9b877d0b977")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/HUSON-3-1EP_2x2mm_P1.3mm_EP1.1x1.6mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/HUSON-3-1EP_2x2mm_P1.3mm_EP1.1x1.6mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

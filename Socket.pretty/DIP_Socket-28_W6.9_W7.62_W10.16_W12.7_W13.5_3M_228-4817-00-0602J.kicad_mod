@@ -1,7 +1,7 @@
 (footprint "DIP_Socket-28_W6.9_W7.62_W10.16_W12.7_W13.5_3M_228-4817-00-0602J"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3M 28-pin zero insertion force socket, through-hole, row spacing 10.16 mm (400 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf")
 	(tags "THT DIP DIL ZIF 10.16mm 400mil Socket")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c1af5b01-6d24-4d62-98bd-684e666730fb")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -141,7 +131,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "b3f396be-3dee-4df1-ac34-4e0bfdb5dae4")
 	)
@@ -152,7 +142,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "72ebf216-e2fd-4c63-a41f-6ea1493a2f43")
 	)
@@ -641,7 +631,8 @@
 		(remove_unused_layers no)
 		(uuid "7ff5f51d-d82d-49d7-9786-1e078f6102f6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Socket.3dshapes/DIP_Socket-28_W6.9_W7.62_W10.16_W12.7_W13.5_3M_228-4817-00-0602J.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Socket.3dshapes/DIP_Socket-28_W6.9_W7.62_W10.16_W12.7_W13.5_3M_228-4817-00-0602J.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Osram_SFH3710"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Osram SHF3710 NPN phototransistor, SMD Chip LED package, 2.0 x 1.25mm, height 0.85mm, https://look.ams-osram.com/m/14a91a7e00106d22/original/SFH-3710.pdf")
 	(tags "phototransistor npn")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "767792b5-b34d-40f2-9d8a-de9ada4c3dc8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -102,7 +92,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "55749106-d456-4de5-9f2d-3bad85decdab")
 	)
@@ -170,18 +160,19 @@
 	(pad "1" smd roundrect
 		(at -1.1 0)
 		(size 1 1.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "19062018-dff2-4822-891d-2dd89dc61674")
 	)
 	(pad "2" smd roundrect
 		(at 1.1 0)
 		(size 1 1.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a53dbbd1-03a2-411f-8fff-8496f276a134")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Osram_SFH3710.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Osram_SFH3710.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

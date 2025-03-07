@@ -1,7 +1,7 @@
 (footprint "SODIMM-200_2.5V_Card_edge"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SODIMM 200-pins edge connector, Jedec MO-224 Variation AA compliant (2.5V DDR SDRAM), 0.6mm pitch, https://www.jst-mfg.com/product/pdf/eng/eDM-200P.pdf")
 	(tags "sodimm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b87e0f07-4774-405f-a81d-51ed70f0eb21")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,32 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
-	(fp_rect
-		(start -0.052 -1.302)
-		(end 12.7 1.302)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "B.Mask")
-		(uuid "2a0743c2-f769-4f11-9f1c-e2ebe257b5b0")
-	)
-	(fp_rect
-		(start 13.7 -1.302)
-		(end 63.652 1.302)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "B.Mask")
-		(uuid "a018b710-0857-4a08-8684-29cc9b524303")
-	)
 	(fp_rect
 		(start -0.352 -1.302)
 		(end 12.7 1.302)
@@ -93,7 +61,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "e5768fcc-e77d-470f-a08a-1c266c9f3e29")
 	)
@@ -104,9 +72,31 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "55034d77-698b-4b87-a502-2de8e6f309ec")
+	)
+	(fp_rect
+		(start -0.052 -1.302)
+		(end 12.7 1.302)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "2a0743c2-f769-4f11-9f1c-e2ebe257b5b0")
+	)
+	(fp_rect
+		(start 13.7 -1.302)
+		(end 63.652 1.302)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "a018b710-0857-4a08-8684-29cc9b524303")
 	)
 	(fp_line
 		(start 10.25 1.675)
@@ -525,7 +515,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "4d7b37af-d5ec-4e52-be3f-5351459e97c4")
 	)
@@ -536,7 +526,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "5257fe85-9cb8-4800-85bd-01e3fba8704f")
 	)
@@ -2281,7 +2271,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu")
+		(layers "F.Cu" "B.Cu")
 		(uuid "87c00aa2-668c-4afa-ab83-abcc1ea076d5")
 		(hatch edge 0.5)
 		(connect_pads
@@ -2296,6 +2286,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2309,7 +2303,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu")
+		(layers "F.Cu" "B.Cu")
 		(uuid "914351f1-6ea3-4547-bc12-743a307f7930")
 		(hatch edge 0.5)
 		(connect_pads
@@ -2324,6 +2318,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2337,7 +2335,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu")
+		(layers "F.Cu" "B.Cu")
 		(uuid "3480758d-fee9-4fd7-9822-944cf5fe2ccd")
 		(hatch edge 0.5)
 		(connect_pads
@@ -2352,6 +2350,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2365,7 +2367,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu")
+		(layers "F.Cu" "B.Cu")
 		(uuid "a525ed3d-f121-41f3-97a7-47b792b5f4c7")
 		(hatch edge 0.5)
 		(connect_pads
@@ -2380,6 +2382,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2393,7 +2399,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu")
+		(layers "F.Cu" "B.Cu")
 		(uuid "5ad8a9e8-34a6-4318-9cce-e6cc0208d17b")
 		(hatch edge 0.5)
 		(connect_pads
@@ -2408,6 +2414,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2421,7 +2431,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu")
+		(layers "F.Cu" "B.Cu")
 		(uuid "5efdc462-fee0-4405-95af-92d0fa976f95")
 		(hatch edge 0.5)
 		(connect_pads
@@ -2436,6 +2446,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2449,7 +2463,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu")
+		(layers "F.Cu" "B.Cu")
 		(uuid "d027c9d9-20be-4c05-82ae-999009f93d3f")
 		(hatch edge 0.5)
 		(connect_pads
@@ -2463,6 +2477,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -2497,6 +2515,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2529,6 +2551,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -2563,6 +2589,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2595,6 +2625,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -2629,6 +2663,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2639,4 +2677,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )

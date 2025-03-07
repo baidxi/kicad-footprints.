@@ -1,7 +1,7 @@
 (footprint "PhoenixContact_MCV_1,5_6-GF-3.5_1x06_P3.50mm_Vertical_ThreadedFlange"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Generic Phoenix Contact connector footprint for: MCV_1,5/6-GF-3.5; number of pins: 06; pin pitch: 3.50mm; Vertical; threaded flange || order number: 1843266 8A 160V")
 	(tags "phoenix_contact connector MCV_01x06_GF_3.5mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d57502ac-50a1-4ed3-93b3-b13f40e14ffc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -1017,7 +1007,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "d321023c-87c8-4e16-99fe-469462201b3f")
 	)
@@ -1028,7 +1018,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "6c39eaeb-cfeb-4a81-bae3-8a12a183744a")
 	)
@@ -1039,7 +1029,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "7a774514-1079-4126-a334-125ff746a9c0")
 	)
@@ -1050,7 +1040,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "51911cc9-18a2-4b65-8e4f-d69f49319933")
 	)
@@ -1254,7 +1244,8 @@
 		(remove_unused_layers no)
 		(uuid "2094c5ba-8e24-4cd5-8e32-95510f75144f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Phoenix_MC.3dshapes/PhoenixContact_MCV_1,5_6-GF-3.5_1x06_P3.50mm_Vertical_ThreadedFlange.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Phoenix_MC.3dshapes/PhoenixContact_MCV_1,5_6-GF-3.5_1x06_P3.50mm_Vertical_ThreadedFlange.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "SW_SPST_Omron_B3F-50xx"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SW_THT_Tactile_Omron_B3F-50xx, 12x12x7,3 mm, Through hole switch from the B3F Family manufactured by Omron,  https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 	(tags "tactile omron switch tht B3F-5000 B3F-5050 B3F-5001 B3F-5051  ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "05ac18fc-1187-477a-9dd2-010196894d6e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -151,7 +141,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "fde19817-876d-4a68-a28a-13e4a4af4731")
 	)
@@ -162,7 +152,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0406e7cf-8a57-4bc0-8f16-28eb5789963d")
 	)
@@ -173,7 +163,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4e4575a8-c7a4-4ab1-8355-77a18b36ae5b")
 	)
@@ -234,7 +224,8 @@
 		(remove_unused_layers no)
 		(uuid "b88e54c6-e9b0-4766-a0e3-80d4fff07684")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_SPST_Omron_B3F-50xx.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_SPST_Omron_B3F-50xx.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

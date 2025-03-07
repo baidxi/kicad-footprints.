@@ -1,7 +1,7 @@
 (footprint "DirectFET_MQ"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DirectFET MQ https://www.infineon.com/dgdl/Infineon-AN-1035-ApplicationNotes-v29_01-EN.pdf?fileId=5546d462533600a40153559159020f76#page=29")
 	(tags "DirectFET MQ MOSFET Infineon")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ba760540-3742-4908-9672-3677634c2492")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -348,46 +338,47 @@
 	(pad "1" smd rect
 		(at -3.205 -1.175)
 		(size 0.9 1.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ccdf42b6-b9ea-4c6a-90f4-0754de29b27c")
 	)
 	(pad "1" smd rect
 		(at -3.205 1.175)
 		(size 0.9 1.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7dbeeef4-ab63-4b3f-b332-33323cc5bd39")
 	)
 	(pad "1" smd rect
 		(at 3.205 -1.175)
 		(size 0.9 1.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4d8b35b2-66ec-45e3-8eb5-6a006458330c")
 	)
 	(pad "1" smd rect
 		(at 3.205 1.175)
 		(size 0.9 1.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5638997c-2266-4dc1-9ce2-9e15b945645b")
 	)
 	(pad "2" smd rect
 		(at -0.765 0)
 		(size 0.75 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5c0dd11f-4cbc-4bde-a790-4c26aa702066")
 	)
 	(pad "3" smd rect
 		(at 0.645 -0.42)
 		(size 0.76 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a6c07b26-d66e-49b6-a363-d610d1c09cee")
 	)
 	(pad "3" smd rect
 		(at 0.645 0.42)
 		(size 0.76 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "67df2e3f-0b1b-4225-9124-2a0f56781cda")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DirectFET.3dshapes/DirectFET_MQ.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DirectFET.3dshapes/DirectFET_MQ.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Potentiometer_ACP_CA6-VSMD_Vertical_Hole"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Potentiometer, vertical, shaft hole, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf")
 	(tags "Potentiometer vertical hole ACP CA6-VSMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "643d4a12-3455-42fe-9ec2-0ce44ae45774")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -215,22 +205,23 @@
 	(pad "1" smd rect
 		(at -4.325 2.15)
 		(size 2.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f3f954f8-487f-4577-8f09-1000c69e1e78")
 	)
 	(pad "2" smd rect
 		(at 4.325 0)
 		(size 2.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6d9d7d13-3c57-4a8b-a6f6-d1fbab12dde8")
 	)
 	(pad "3" smd rect
 		(at -4.325 -2.15)
 		(size 2.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d68d0505-cf83-4836-b8fb-5cceff6715e5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_ACP_CA6-VSMD_Vertical_Hole.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_ACP_CA6-VSMD_Vertical_Hole.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "SC-59"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SC-59, https://lib.chipdip.ru/images/import_diod/original/SOT-23_SC-59.jpg")
 	(tags "SC-59")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7f417db7-6086-4359-8e69-d5301d54ab76")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,7 +102,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "59019222-41cb-4fe4-9a92-ce891f28ddb1")
 	)
@@ -220,25 +210,26 @@
 	(pad "1" smd roundrect
 		(at -1.2 -0.95)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "19ff62da-f6ff-4106-8ef1-d3ebdf2e8e81")
 	)
 	(pad "2" smd roundrect
 		(at -1.2 0.95)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "54b24a48-7c5f-44af-93fd-4ed2ed2e6c20")
 	)
 	(pad "3" smd roundrect
 		(at 1.2 0)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c383b538-76b7-4f79-af62-a7b3f593f0a9")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SC-59.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SC-59.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

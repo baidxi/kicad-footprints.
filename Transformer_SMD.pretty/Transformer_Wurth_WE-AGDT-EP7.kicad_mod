@@ -1,7 +1,7 @@
 (footprint "Transformer_Wurth_WE-AGDT-EP7"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "WE-AGDT Auxiliary Gate Drive Transformer EP7, https://www.we-online.com/components/products/datasheet/750319177.pdf")
 	(tags "auxiliary gate drive transformer")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4104b177-220b-4627-99d5-c86571b8bbdd")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -94,7 +84,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "9b8f8b41-00d3-4288-945d-69cf22346ef1")
 	)
@@ -203,7 +193,7 @@
 	(pad "1" smd roundrect
 		(at -3.75 -4.445)
 		(size 1.17 2.39)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "a18085f8-38f0-436a-a780-e8311356b3bf")
@@ -211,7 +201,7 @@
 	(pad "2" smd roundrect
 		(at -1.25 -4.445)
 		(size 1.17 2.39)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "8acf584d-4f53-48f0-b61f-91acbd35a8a0")
@@ -219,7 +209,7 @@
 	(pad "3" smd roundrect
 		(at 1.25 -4.445)
 		(size 1.17 2.39)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "7f5a0108-072f-482a-8b90-1ef249fbc959")
@@ -227,7 +217,7 @@
 	(pad "4" smd roundrect
 		(at 3.75 -4.445)
 		(size 1.17 2.39)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "20712981-802d-45cb-8e4d-2eb46bbcc93d")
@@ -235,7 +225,7 @@
 	(pad "5" smd roundrect
 		(at 3.75 4.445)
 		(size 1.17 2.39)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "06c27515-f876-437f-9c7d-f29f7d8871db")
@@ -243,7 +233,7 @@
 	(pad "6" smd roundrect
 		(at 1.25 4.445)
 		(size 1.17 2.39)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "72082765-fb9a-48c7-ad47-dab9efe122db")
@@ -251,7 +241,7 @@
 	(pad "7" smd roundrect
 		(at -1.25 4.445)
 		(size 1.17 2.39)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "f21c73fa-2f3b-4494-b15f-738fcfbf3479")
@@ -259,12 +249,13 @@
 	(pad "8" smd roundrect
 		(at -3.75 4.445)
 		(size 1.17 2.39)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "603cb653-6d6f-478f-9bda-40383e876718")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_Wurth_WE-AGDT-EP7.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_Wurth_WE-AGDT-EP7.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "ST_PowerFLAT-6L_5x6mm_P1.27mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Thermally-enhanced 5x6mm 6-pin package, https://www.st.com/resource/en/datasheet/stl40dn3llh5.pdf")
 	(tags "PowerFLAT5x6")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0fd82de4-1c1d-4906-85aa-f9e773581fbb")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -104,7 +94,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ca437bd3-cd05-4806-83fe-d7ebf5a071d0")
 	)
@@ -115,7 +105,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "724e1042-b29c-4b44-a2db-09b3555281d8")
 	)
@@ -216,7 +206,7 @@
 	(pad "1" smd roundrect
 		(at -2.675 -1.905 270)
 		(size 0.65 1.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "71b7fa46-bf11-4cfe-8a9a-6f3cb36e2be1")
@@ -224,7 +214,7 @@
 	(pad "2" smd roundrect
 		(at -2.675 -0.635 270)
 		(size 0.65 1.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "90b63d50-6fcf-4940-a404-f9f2519cfe04")
@@ -232,7 +222,7 @@
 	(pad "3" smd roundrect
 		(at -2.675 0.635 270)
 		(size 0.65 1.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "4b4f3a72-a239-4800-9957-dfdf8d2c4eeb")
@@ -240,7 +230,7 @@
 	(pad "4" smd roundrect
 		(at -2.675 1.905 270)
 		(size 0.65 1.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "0dabe15b-a453-4188-a12f-3e3c5c6cd361")
@@ -248,7 +238,7 @@
 	(pad "5" smd custom
 		(at 0.665 1.25 270)
 		(size 0.5 0.5)
-		(layers "F.Cu" "B.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -289,7 +279,8 @@
 		)
 		(uuid "4de21bfc-e3aa-4b3f-a744-ed85c6d28a08")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/ST_PowerFLAT-6L_5x6mm_P1.27mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/ST_PowerFLAT-6L_5x6mm_P1.27mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

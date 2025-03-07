@@ -1,7 +1,7 @@
 (footprint "Texas_DPY0002A_0.6x1mm_P0.65mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "X1SON 2 pin 0.6x1mm 0.375mm height package, https://www.ti.com/lit/ml/mpss034c/mpss034c.pdf, https://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf")
 	(tags "X1SON")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a77db43b-4984-4b37-a29d-86a210257e80")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -73,7 +63,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "0ab2eee2-f9c8-4bf3-90d8-939e4d525445")
 	)
@@ -84,7 +74,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "de16873e-18ad-4c71-ab7d-374e9a71f152")
 	)
@@ -125,7 +115,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "5742a157-8bde-48fa-9f59-d876cf68305c")
 	)
@@ -143,18 +133,19 @@
 	(pad "1" smd roundrect
 		(at -0.35 0)
 		(size 0.3 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5704f0c0-7e5a-4a82-9baf-2e06bfd27258")
 	)
 	(pad "2" smd roundrect
 		(at 0.35 0)
 		(size 0.3 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b2053304-1efa-4ab9-9264-ff5b00cc5c9b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/Texas_DPY0002A_0.6x1mm_P0.65mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/Texas_DPY0002A_0.6x1mm_P0.65mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

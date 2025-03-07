@@ -1,7 +1,7 @@
 (footprint "Relay_SPST_Omron_G5PZ"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Relay Omron G5PZ, see https://components.omron.com/us-en/sites/components.omron.com.us/files/datasheet_pdf/K320-E1.pdf")
 	(tags "Relay Omron G5PZ")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 7.5 0 -90)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "083f336d-a8c6-468e-b8ba-4ed8cd5111c1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" "https://components.omron.com/us-en/sites/components.omron.com.us/files/datasheet_pdf/K320-E1.pdf"
 		(at 3.75 10 0)
 		(unlocked yes)
@@ -50,11 +38,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Description" ""
-		(at 7.5 0 -90)
+		(at 7.5 0 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -313,7 +303,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "77be5254-20c2-43a1-a0bf-f0f6aad0bd3c")
 	)
@@ -325,7 +315,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "864aed46-cb42-4878-8406-da9d1d32512f")
 	)
@@ -336,7 +326,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "fcfda25f-be91-4115-b67a-6fe3d6125804")
 	)
@@ -357,7 +347,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "94c68327-b574-43dd-9e69-ddb4fe401738")
 	)
@@ -407,7 +397,8 @@
 		(remove_unused_layers no)
 		(uuid "baede3de-d1b2-4a2d-966a-5b864917deba")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPST_Omron_G5PZ.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPST_Omron_G5PZ.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "OnSemi_XDFN4-1EP_1.0x1.0mm_EP0.52x0.52mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "XDFN4 footprint (as found on the https://www.onsemi.com/pub/Collateral/NCP115-D.PDF)")
 	(tags "OnSemi XDFN4")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ba4af31a-8967-4df1-b976-635e85c5e127")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "b98c65df-fdd3-4490-ab72-321ad4dd9aa2")
 	)
@@ -200,7 +190,7 @@
 	(pad "1" smd custom
 		(at -0.485 -0.325 270)
 		(size 0.26 0.23)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -221,7 +211,7 @@
 	(pad "2" smd custom
 		(at -0.485 0.325 270)
 		(size 0.26 0.23)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -242,7 +232,7 @@
 	(pad "3" smd custom
 		(at 0.485 0.325 90)
 		(size 0.26 0.23)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -263,7 +253,7 @@
 	(pad "4" smd custom
 		(at 0.485 -0.325 90)
 		(size 0.26 0.23)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(thermal_bridge_angle 45)
 		(options
@@ -284,10 +274,11 @@
 	(pad "5" smd rect
 		(at 0 0 135)
 		(size 0.52 0.52)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ce8d3bd9-5d3f-45e3-a6f1-7848c33ef7a0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/OnSemi_XDFN4-1EP_1.0x1.0mm_EP0.52x0.52mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/OnSemi_XDFN4-1EP_1.0x1.0mm_EP0.52x0.52mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

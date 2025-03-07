@@ -1,7 +1,7 @@
 (footprint "L_Vishay_IHSM-4825"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Inductor, Vishay, Vishay_IHSM-4825, http://www.vishay.com/docs/34019/ihsm4825.pdf, 13.7mmx6.3mm")
 	(tags "inductor vishay icsm smd")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c2a5d141-b820-4eb4-b16c-169b2bf41685")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -238,16 +228,17 @@
 	(pad "1" smd rect
 		(at -6.11 0)
 		(size 4.6 5.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3030b915-16db-4ebf-9f85-d9cffbce9732")
 	)
 	(pad "2" smd rect
 		(at 6.11 0)
 		(size 4.6 5.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b3232ca2-6f01-4815-ae34-22f6052b5e9b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Vishay_IHSM-4825.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Vishay_IHSM-4825.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

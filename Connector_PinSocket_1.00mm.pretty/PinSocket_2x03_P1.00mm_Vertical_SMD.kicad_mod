@@ -1,7 +1,7 @@
 (footprint "PinSocket_2x03_P1.00mm_Vertical_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "surface-mounted straight socket strip, 2x03, 1.00mm pitch, double cols (https://gct.co/files/drawings/bc085.pdf), script generated")
 	(tags "Surface mounted socket strip SMD 2x03 1.00mm double row")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b3a26942-4415-4eba-b91c-261984360002")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -418,40 +408,41 @@
 	(pad "1" smd rect
 		(at 1.525 -1)
 		(size 1.85 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6dcfe1bf-a59a-45ba-8a8f-e642c823cb7f")
 	)
 	(pad "2" smd rect
 		(at -1.525 -1)
 		(size 1.85 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b0ee94e4-321d-4750-af77-168473b393e4")
 	)
 	(pad "3" smd rect
 		(at 1.525 0)
 		(size 1.85 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4e50f332-3989-4732-91a0-b8b8398ac9d3")
 	)
 	(pad "4" smd rect
 		(at -1.525 0)
 		(size 1.85 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a35f2628-cbf5-43bb-8e20-9746bf389731")
 	)
 	(pad "5" smd rect
 		(at 1.525 1)
 		(size 1.85 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ee7f10f6-4442-4c0a-8e92-046268afe84a")
 	)
 	(pad "6" smd rect
 		(at -1.525 1)
 		(size 1.85 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f967ff81-b41b-4183-bd95-fa27c0912c9e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_1.00mm.3dshapes/PinSocket_2x03_P1.00mm_Vertical_SMD.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_1.00mm.3dshapes/PinSocket_2x03_P1.00mm_Vertical_SMD.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

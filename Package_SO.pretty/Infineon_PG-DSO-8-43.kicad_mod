@@ -1,7 +1,7 @@
 (footprint "Infineon_PG-DSO-8-43"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Infineon_PG-DSO-8-43")
 	(tags "DSO DSO-8 SOIC SOIC-8")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d8b0bdd0-689a-48ea-8a86-b7cbfd3589d7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "e6ae3713-968f-416b-8f17-0f42f84edb42")
 	)
@@ -240,80 +230,81 @@
 	(pad "1" smd rect
 		(at -2.845 -1.905)
 		(size 1.31 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "60cd4033-9fd6-401b-8e5d-f51ff2d2b238")
 	)
 	(pad "2" smd rect
 		(at -2.845 -0.635)
 		(size 1.31 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "986a48a9-b87a-4dc2-80ea-fb18143a6050")
 	)
 	(pad "3" smd rect
 		(at -2.845 0.635)
 		(size 1.31 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "656ee5b8-ad7a-4f11-8b13-303673bc291b")
 	)
 	(pad "4" smd rect
 		(at -2.845 1.905)
 		(size 1.31 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "98bb092e-6c9f-4f72-a051-3d6267837ea3")
 	)
 	(pad "5" smd rect
 		(at 2.845 1.905)
 		(size 1.31 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9dad04a3-0a82-4ae5-829d-7b31e3afdc54")
 	)
 	(pad "6" smd rect
 		(at 2.845 0.635)
 		(size 1.31 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "788708ce-f01e-40bd-ad24-98fd7590303a")
 	)
 	(pad "7" smd rect
 		(at 2.845 -0.635)
 		(size 1.31 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "02321ab5-5814-443a-a5e1-93e199731d16")
 	)
 	(pad "8" smd rect
 		(at 2.845 -1.905)
 		(size 1.31 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b28a86cb-43f7-48bf-b1a1-aec08b68cdf1")
 	)
 	(pad "9" smd rect
 		(at -0.6625 -0.75)
 		(size 1.325 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin_ratio -0.2)
 		(uuid "f28bbb6d-72cc-4ac7-a463-85ed958810cd")
 	)
 	(pad "9" smd rect
 		(at -0.6625 0.75)
 		(size 1.325 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin_ratio -0.2)
 		(uuid "3e8cac63-ea6d-462c-b4e2-22beab94f337")
 	)
 	(pad "9" smd rect
 		(at 0.6625 -0.75)
 		(size 1.325 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin_ratio -0.2)
 		(uuid "a69cb647-33b2-4031-a956-da8e27e8b39a")
 	)
 	(pad "9" smd rect
 		(at 0.6625 0.75)
 		(size 1.325 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin_ratio -0.2)
 		(uuid "294b6635-14cc-4a9c-8beb-dc24ce42ceaf")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/Infineon_PG-DSO-8-43.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Infineon_PG-DSO-8-43.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

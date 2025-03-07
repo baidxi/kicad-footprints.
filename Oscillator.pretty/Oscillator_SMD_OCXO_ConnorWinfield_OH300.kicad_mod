@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_OCXO_ConnorWinfield_OH300"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.conwin.com/datasheets/cx/cx282.pdf")
 	(tags "OCXO")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2282d310-9fd8-42fc-8c81-93f212d1e39d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -350,46 +340,47 @@
 	(pad "1" smd rect
 		(at -11.4935 -8.89 270)
 		(size 3.048 3.175)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a8c7ab7e-9184-496c-9085-d1cd0833bd1c")
 	)
 	(pad "2" smd rect
 		(at -11.4935 0 270)
 		(size 3.048 3.175)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fad986c9-82b5-499c-b8d6-dc5bc7b0038c")
 	)
 	(pad "3" smd rect
 		(at -11.4935 8.89 270)
 		(size 3.048 3.175)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8aea30ae-0ee4-479d-8745-79759e02a82a")
 	)
 	(pad "4" smd rect
 		(at 11.4935 8.89 270)
 		(size 3.048 3.175)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ce31407e-6263-4326-b6a6-0ec1f2123309")
 	)
 	(pad "5" smd rect
 		(at 11.4935 3.81 270)
 		(size 3.048 3.175)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8050af3d-054c-4f18-a37c-5e6c441ed7c9")
 	)
 	(pad "6" smd rect
 		(at 11.4935 -3.81 270)
 		(size 3.048 3.175)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9e8c8572-4d6a-4b22-88fd-627349f257c4")
 	)
 	(pad "7" smd rect
 		(at 11.4935 -8.89 270)
 		(size 3.048 3.175)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "607344f4-cc1d-4ada-8347-647ef904d559")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_OCXO_ConnorWinfield_OH300.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_OCXO_ConnorWinfield_OH300.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

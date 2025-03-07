@@ -1,7 +1,7 @@
 (footprint "Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "6 lead, 1.1x0.7mm body, 0.37mm height, TSNP (https://www.infineon.com/cms/en/product/packages/PG-TSNP/PG-TSNP-6-10/)")
 	(tags "PG-TSNP-6-10 TSNP")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1309598b-86a5-404a-948e-37faad6070af")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -113,7 +103,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "696988d7-583a-4687-8887-1944ff9a3a78")
 	)
@@ -124,7 +114,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "7ecfdcd3-3be7-4581-a754-fe886856ee58")
 	)
@@ -273,7 +263,8 @@
 		(thermal_bridge_angle 45)
 		(uuid "b9bed350-55e4-40c9-8e12-c5354c018471")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_LGA.3dshapes/Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

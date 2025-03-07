@@ -1,7 +1,7 @@
 (footprint "Texas_DSBGA-8_0.9x1.9mm_Layout2x4_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments, DSBGA, 0.9x1.9mm, 8 bump 2x4 (perimeter) array, NSMD pad definition (http://www.ti.com/lit/ds/symlink/txb0102.pdf, http://www.ti.com/lit/an/snva009ag/snva009ag.pdf)")
 	(tags "Texas Instruments DSBGA BGA YZP R-XBGA-N8")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "37fb5120-a33e-4bbf-a8f8-1f25ac50c270")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -113,7 +103,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "cd04156d-84dc-4b63-8361-c37b0b5ce55e")
 	)
@@ -322,7 +312,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "fcc4d09c-64ff-49b5-a6dc-81869bc7aaf3")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-8_0.9x1.9mm_Layout2x4_P0.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-8_0.9x1.9mm_Layout2x4_P0.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

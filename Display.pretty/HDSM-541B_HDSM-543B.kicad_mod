@@ -1,7 +1,7 @@
 (footprint "HDSM-541B_HDSM-543B"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "2 digit 7 segement blue LED with right hand decimal, https://docs.broadcom.com/docs/AV02-1588EN")
 	(tags "2 digit 7 segement blue LED with right hand decimal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6b82441b-e2b5-486d-bc23-48a5cd389e49")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -238,64 +228,65 @@
 	(pad "1" smd rect
 		(at -9.5 -5.08)
 		(size 3 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3bd0e082-4d83-475d-b708-337abe43671c")
 	)
 	(pad "2" smd rect
 		(at -9.5 -2.54)
 		(size 3 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8fb02178-3136-423e-b9fe-6c657d01030e")
 	)
 	(pad "3" smd rect
 		(at -9.5 0)
 		(size 3 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "92740858-96d2-415d-b567-8d92cf650e4e")
 	)
 	(pad "4" smd rect
 		(at -9.5 2.54)
 		(size 3 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4983932f-290e-4b19-9f1a-5374e047f800")
 	)
 	(pad "5" smd rect
 		(at -9.5 5.08)
 		(size 3 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "157e294a-ffd7-4c2e-937a-0e6fbbba0f79")
 	)
 	(pad "6" smd rect
 		(at 9.5 5.08)
 		(size 3 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "529b7cdd-31eb-413f-a95d-589850080418")
 	)
 	(pad "7" smd rect
 		(at 9.5 2.54)
 		(size 3 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "38aba6d9-a625-4a18-a2ec-3874075f56ba")
 	)
 	(pad "8" smd rect
 		(at 9.5 0)
 		(size 3 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ba336c77-02a3-4a4c-974f-79ddd7adbce3")
 	)
 	(pad "9" smd rect
 		(at 9.5 -2.54)
 		(size 3 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6bf48233-64aa-42a6-b976-35f2e7e941a4")
 	)
 	(pad "10" smd rect
 		(at 9.5 -5.08)
 		(size 3 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d1ba96ec-1d2c-408a-a045-94e5dcc91311")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/HDSM-541B_HDSM-543B.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display.3dshapes/HDSM-541B_HDSM-543B.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

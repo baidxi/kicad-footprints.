@@ -1,7 +1,7 @@
 (footprint "Relay_StandexMeder_UMS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Standex-Meder SIL-relais, UMS, see http://cdn-reichelt.de/documents/datenblatt/C300/UMS05_1A80_75L_DB.pdf")
 	(tags "Standex Meder SIL reed relais")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a18a146c-c499-43c5-b807-716ae9271daf")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -257,7 +247,8 @@
 		(remove_unused_layers no)
 		(uuid "bcc8a41b-f322-4b3e-9ba9-6088ecbc1ce0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_StandexMeder_UMS.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_StandexMeder_UMS.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

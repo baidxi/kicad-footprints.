@@ -1,7 +1,7 @@
 (footprint "NHD-0420H1Z"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "NHD-0420H1Z LCD http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf")
 	(tags "NHD-0420H1Z LCD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "52f8c584-153a-447c-bcf3-cc97021ce262")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -397,7 +387,8 @@
 		(remove_unused_layers no)
 		(uuid "a83036fa-2b68-4be9-a8a4-eeae50297fc0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/NHD-0420H1Z.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display.3dshapes/NHD-0420H1Z.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

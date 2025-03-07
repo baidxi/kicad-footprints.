@@ -1,7 +1,7 @@
 (footprint "PinSocket_1x06_P1.27mm_Vertical_SMD_Pin1Left"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "surface-mounted straight socket strip, 1x06, 1.27mm pitch, single row, style 1 (pin 1 left) (https://gct.co/pdfjs/web/viewer.html?file=/Files/Drawings/BD075.pdf&t=1511594726925), script generated")
 	(tags "Surface mounted socket strip SMD 1x06 1.27mm single row style1 pin1 left")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6f3a007d-f903-4a6c-a504-f6a3145efaad")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -458,40 +448,41 @@
 	(pad "1" smd rect
 		(at -1.35 -3.175)
 		(size 1.8 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5e533b85-6bff-4d48-a766-c88bd5e9d75d")
 	)
 	(pad "2" smd rect
 		(at 1.35 -1.905)
 		(size 1.8 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5f6210f0-e36c-4ef8-b0b4-732e6386be22")
 	)
 	(pad "3" smd rect
 		(at -1.35 -0.635)
 		(size 1.8 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "64e18602-366f-47d0-ab4e-d46f99504416")
 	)
 	(pad "4" smd rect
 		(at 1.35 0.635)
 		(size 1.8 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c9b35c36-4cd2-4f8c-a3ce-fed94a67408b")
 	)
 	(pad "5" smd rect
 		(at -1.35 1.905)
 		(size 1.8 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7a22847c-9632-4dcc-9d67-091b702698f3")
 	)
 	(pad "6" smd rect
 		(at 1.35 3.175)
 		(size 1.8 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "78185e14-29c3-4ba4-a2d6-c9f992979a96")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x06_P1.27mm_Vertical_SMD_Pin1Left.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x06_P1.27mm_Vertical_SMD_Pin1Left.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

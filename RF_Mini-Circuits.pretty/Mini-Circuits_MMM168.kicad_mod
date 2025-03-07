@@ -1,7 +1,7 @@
 (footprint "Mini-Circuits_MMM168"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint for Mini-Circuits case MMM168 (https://ww2.minicircuits.com/case_style/MMM168.pdf)")
 	(tags "Mini-Circuits MMM168")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "abaa2adb-24f6-425d-ba09-dc0c0633395e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "70c3331e-ad8d-4628-b53b-d67750b81703")
 	)
@@ -200,28 +190,29 @@
 	(pad "1" smd rect
 		(at -1.0922 -0.9525 90)
 		(size 0.889 1.2954)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cf5b3eae-30d2-40de-ac55-0364c9d013e6")
 	)
 	(pad "2" smd rect
 		(at 1.1176 -0.9525 90)
 		(size 0.889 1.2954)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c02644dc-0730-4b62-bdbb-c6aa905bbea9")
 	)
 	(pad "3" smd rect
 		(at 1.1176 0.7493 90)
 		(size 1.1938 1.2954)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d5caea87-50cf-46b6-8bb8-d5ed7401f51d")
 	)
 	(pad "4" smd rect
 		(at -1.0922 0.9525 90)
 		(size 0.889 1.2954)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9c394139-d9c6-409c-9c30-cb94bb214fc7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_MMM168.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_MMM168.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

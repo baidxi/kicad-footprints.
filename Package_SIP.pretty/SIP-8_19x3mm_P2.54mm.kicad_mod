@@ -1,7 +1,7 @@
 (footprint "SIP-8_19x3mm_P2.54mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SIP 8-pin (http://www.njr.com/semicon/PDF/package/SIP8_E.pdf)")
 	(tags "SIP8")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2217ad4b-ff7b-4497-a994-2d53b33c2317")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -319,7 +309,8 @@
 		(remove_unused_layers no)
 		(uuid "91d9a8ef-a55f-4b4b-be53-88d157ebdf5c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SIP.3dshapes/SIP-8_19x3mm_P2.54mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SIP.3dshapes/SIP-8_19x3mm_P2.54mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

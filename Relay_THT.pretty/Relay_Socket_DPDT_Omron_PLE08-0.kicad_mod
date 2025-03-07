@@ -1,7 +1,7 @@
 (footprint "Relay_Socket_DPDT_Omron_PLE08-0"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "29mm Dia, round mounting socket, 10A, 2kV AC / minute, 1e3Mohm, https://www.omron.com.tw/data_pdf/cat/common_sockets_ds_e_6_1_csm1819.pdf?#page=27")
 	(tags "tube type relay")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "287ad3e2-1554-41d0-b811-d02e6862c431")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -166,7 +156,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "c6f8cbf3-e002-46f4-a9e1-c2185106b4b6")
 	)
@@ -177,7 +167,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "857795e8-4e45-451e-870b-a7e07b63cb89")
 	)
@@ -188,7 +178,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "3033c5fe-ab51-45be-abf8-7c7b2e51fab9")
 	)
@@ -199,7 +189,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "3374715d-03cb-49e2-b906-5ec35c31cc86")
 	)
@@ -341,7 +331,8 @@
 		(remove_unused_layers no)
 		(uuid "e114e9c4-ad0d-4f66-a8fb-03fc245a4f4e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_Socket_DPDT_Omron_PLE08-0.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_Socket_DPDT_Omron_PLE08-0.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

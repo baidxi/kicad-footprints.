@@ -1,7 +1,7 @@
 (footprint "Relay_SPDT_Schrack-RT1-FormC_RM3.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Relay SPST Schrack-RT1 RM3.5mm 8A 250V AC Form C http://image.schrack.com/datenblaetter/h_rt114012--_de.pdf")
 	(tags "Relay SPST Schrack-RT1 RM3.5mm 8A 250V AC Relay")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6dcbe8ff-f0f0-473d-9ba0-427cf1585d0d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -345,7 +335,8 @@
 		(remove_unused_layers no)
 		(uuid "9a62be19-c549-4f5e-89af-b608d8fd23de")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Schrack-RT1-FormC_RM3.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Schrack-RT1-FormC_RM3.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

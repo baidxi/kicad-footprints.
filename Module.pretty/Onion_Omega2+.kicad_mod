@@ -1,7 +1,7 @@
 (footprint "Onion_Omega2+"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://onion.io/omega2/")
 	(tags "Omega Onion module")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d41ac5ae-20aa-4f6d-b1b0-791c9496b442")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -731,7 +721,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c59a6c62-8827-4b31-b394-e6d1806a3f5f")
 	)
@@ -742,7 +732,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1ee24280-f632-4eea-8110-22ed19e3d7fd")
 	)
@@ -753,7 +743,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8b38cc9b-f452-4adb-96b6-fa629aeabbbf")
 	)
@@ -764,7 +754,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ef17e6cb-00f6-4050-8214-66411bedfe45")
 	)
@@ -1046,7 +1036,8 @@
 		(remove_unused_layers no)
 		(uuid "10563e73-7f13-461b-a6b6-6df01f422b05")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Onion_Omega2+.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/Onion_Omega2+.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

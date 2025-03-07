@@ -1,7 +1,7 @@
 (footprint "USB_A_CUI_UJ2-ADH-TH_Horizontal_Stacked"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB-A two stacked horizontal receptacle, through-hole (https://www.cuidevices.com/product/resource/uj2-adh-th.pdf)")
 	(tags "USB-A CUI stacked horizontal through-hole")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "69989bee-0c61-4bf7-b8fd-8b92bfcf4902")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -426,7 +416,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c520205c-ce34-4f0d-90c9-d18cdb2e955d")
 	)
@@ -437,7 +427,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f35d86b5-83b6-43bd-a2e7-98c5c212ab7f")
 	)
@@ -548,7 +538,8 @@
 		(remove_unused_layers no)
 		(uuid "5ae399ab-60e0-47fa-973b-a1a784c7c200")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_CUI_UJ2-ADH-TH_Horizontal_Stacked.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_CUI_UJ2-ADH-TH_Horizontal_Stacked.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

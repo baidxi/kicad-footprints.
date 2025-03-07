@@ -1,7 +1,7 @@
 (footprint "HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "16-Lead Plastic HTSSOP (4.4x5x1.2mm); Thermal pad; (http://www.ti.com/lit/ds/symlink/drv8833.pdf)")
 	(tags "SSOP 0.65")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "053e3342-9843-4676-a717-8ff2d27fe670")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -93,7 +83,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ee4cae7b-0f46-4a95-bae1-54a83f41ded1")
 	)
@@ -273,97 +263,97 @@
 	(pad "1" smd rect
 		(at -2.775 -2.275)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2a4109ed-7240-4a14-a936-faa671688d16")
 	)
 	(pad "2" smd rect
 		(at -2.775 -1.625)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a3002d5e-09b1-4a09-96fa-48e6a95bc6ac")
 	)
 	(pad "3" smd rect
 		(at -2.775 -0.975)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2e428b1f-af02-4b60-b6e9-c84f0b34b26b")
 	)
 	(pad "4" smd rect
 		(at -2.775 -0.325)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b5ff8aaa-1185-4d89-8f96-2973259031a2")
 	)
 	(pad "5" smd rect
 		(at -2.775 0.325)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1b2b9939-cb03-4f20-8418-c1f3d8f859f1")
 	)
 	(pad "6" smd rect
 		(at -2.775 0.975)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "77867b5e-6e9f-4d98-9e0c-33a2499965b2")
 	)
 	(pad "7" smd rect
 		(at -2.775 1.625)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a8f106e7-6070-4891-bd3d-9e07a7b45aac")
 	)
 	(pad "8" smd rect
 		(at -2.775 2.275)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6db39334-27e3-4e20-bdf2-78a20adf99f3")
 	)
 	(pad "9" smd rect
 		(at 2.775 2.275)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "49190143-5406-4bab-b4d0-9d03c460269f")
 	)
 	(pad "10" smd rect
 		(at 2.775 1.625)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "38a94423-5da9-4467-84c1-2196b85a786f")
 	)
 	(pad "11" smd rect
 		(at 2.775 0.975)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0892528d-9a0f-431b-99e4-72a8a8c1a504")
 	)
 	(pad "12" smd rect
 		(at 2.775 0.325)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b177ecf3-112a-497e-ba96-02ae3fa28f3c")
 	)
 	(pad "13" smd rect
 		(at 2.775 -0.325)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "42d5d2de-add8-45e6-a752-31c061f7d428")
 	)
 	(pad "14" smd rect
 		(at 2.775 -0.975)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fa46daf9-a250-4d41-b9dd-72d484065e24")
 	)
 	(pad "15" smd rect
 		(at 2.775 -1.625)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0e5c1713-56ef-46dc-8eb8-a2434a154dff")
 	)
 	(pad "16" smd rect
 		(at 2.775 -2.275)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "45cfe507-6cd8-4d15-a6eb-28893a1d1dfb")
 	)
 	(pad "17" smd rect
@@ -372,7 +362,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "455d3e59-07cd-493e-8812-2ceebd66a60e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16-1EP_4.4x5mm_Pitch0.65mm_EP3.4x5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16-1EP_4.4x5mm_Pitch0.65mm_EP3.4x5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

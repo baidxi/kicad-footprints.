@@ -1,7 +1,7 @@
 (footprint "L_Coilcraft_LPS3010"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Shielded Power Inductor SMD 3x3x1mm, Coilcraft LPS3010, https://www.coilcraft.com/pdfs/lps3010.pdf")
 	(tags "inductor low profile")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c5a98a95-8429-4169-b630-aed03e042e83")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -218,7 +208,7 @@
 	(pad "1" smd custom
 		(at -1.27 0)
 		(size 0.76 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(options
 			(clearance outline)
@@ -239,7 +229,7 @@
 	(pad "2" smd custom
 		(at 1.27 0 180)
 		(size 0.76 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(options
 			(clearance outline)
@@ -257,7 +247,8 @@
 		)
 		(uuid "9fdd48b4-e39f-471d-bc07-0aa5859a3b98")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_LPS3010.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_LPS3010.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

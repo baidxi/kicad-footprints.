@@ -1,7 +1,7 @@
 (footprint "JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "JST GH series connector, SM03B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf), generated with kicad-footprint-generator")
 	(tags "connector JST GH horizontal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e6390015-9b61-410f-b4da-1ade1dfa0660")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -238,39 +228,40 @@
 	(pad "1" smd roundrect
 		(at -1.25 -1.85)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "82ccbcb3-7fe0-4922-99bd-65f39271bf54")
 	)
 	(pad "2" smd roundrect
 		(at 0 -1.85)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f7ec2f56-d950-48a5-a68c-0c25410fb820")
 	)
 	(pad "3" smd roundrect
 		(at 1.25 -1.85)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b7a897d3-9030-4d5e-b972-f5dfc43bc139")
 	)
 	(pad "MP" smd roundrect
 		(at -3.1 1.35)
 		(size 1 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "27904210-dba4-470b-96b7-e42157c215f5")
 	)
 	(pad "MP" smd roundrect
 		(at 3.1 1.35)
 		(size 1 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0bfddbf4-b939-4af9-9539-5464c7becbfc")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

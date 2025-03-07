@@ -1,7 +1,7 @@
 (footprint "DINRailAdapter_3xM3_PhoenixContact_1201578"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1201578&library=usen&tab=1")
 	(tags "DIN rail adapter universal three M3 clearance holes")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b81e0795-6fa2-42a3-a197-7bb587d1776d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,10 +50,44 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
+	(fp_circle
+		(center -12.5 0)
+		(end -10.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3b161694-f962-4b52-a675-6b6c5ea27d3c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9f769dde-4a75-4a5e-b6d1-b9027078a637")
+	)
+	(fp_circle
+		(center 12.5 0)
+		(end 14.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "06c332d2-498d-4613-b663-00c648909479")
+	)
 	(fp_line
 		(start -21.25 -5)
 		(end -21.25 5)
@@ -104,39 +127,6 @@
 		)
 		(layer "B.SilkS")
 		(uuid "42e77978-d14e-406e-8454-2d9037488b54")
-	)
-	(fp_circle
-		(center -12.5 0)
-		(end -10.5 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "3b161694-f962-4b52-a675-6b6c5ea27d3c")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 2 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "9f769dde-4a75-4a5e-b6d1-b9027078a637")
-	)
-	(fp_circle
-		(center 12.5 0)
-		(end 14.5 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "06c332d2-498d-4613-b663-00c648909479")
 	)
 	(fp_line
 		(start -21.25 -5)
@@ -185,7 +175,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "68d3fb8b-6847-4337-abe9-2fe97aefd843")
 	)
@@ -196,7 +186,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "f6d02a05-80e4-4301-a95d-85f4b1328a5b")
 	)
@@ -207,7 +197,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "40e32c7e-76cb-403e-82bb-00a2e273326b")
 	)
@@ -218,7 +208,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b2b7e9f6-b6d4-4631-bf25-fed7adaf2ab9")
 	)
@@ -229,7 +219,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a23261ca-7784-494b-8164-180eb3aca6f8")
 	)
@@ -240,7 +230,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a5f176e5-19bc-4e44-8188-f89611161cbf")
 	)
@@ -276,7 +266,8 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "561cd68d-b09c-4764-bf51-c56452c9ea4a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/MountingEquipment.3dshapes/DINRailAdapter_3xM3_PhoenixContact_1201578.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/MountingEquipment.3dshapes/DINRailAdapter_3xM3_PhoenixContact_1201578.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

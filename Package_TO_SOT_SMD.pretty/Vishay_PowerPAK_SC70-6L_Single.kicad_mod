@@ -1,7 +1,7 @@
 (footprint "Vishay_PowerPAK_SC70-6L_Single"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Vishay PowerPAK SC70 single transistor package http://www.vishay.com/docs/70486/70486.pdf")
 	(tags "powerpak sc70 sc-70")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6ba89eb4-3a54-4b18-b713-128909fa125b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c92e2659-c256-4a05-b761-71daee9aa7b4")
 	)
@@ -252,25 +242,26 @@
 	(pad "3" smd roundrect
 		(at -0.925 0.65)
 		(size 0.35 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "472fbc04-c599-4aaf-a22e-57b46d79279e")
 	)
 	(pad "4" smd roundrect
 		(at 0.04 0.65)
 		(size 0.87 0.235)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "2a75a674-ca5a-480a-9498-d27b2469cfa3")
 	)
 	(pad "4" smd roundrect
 		(at 0.925 0.65)
 		(size 0.35 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7ba0a0d7-a0cd-49ae-a34c-f7909861b825")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Vishay_PowerPAK_SC70-6L_Single.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Vishay_PowerPAK_SC70-6L_Single.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

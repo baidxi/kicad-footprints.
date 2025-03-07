@@ -1,7 +1,7 @@
 (footprint "Filter_SAW-8_3.8x3.8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "8-pin 3.8x3.8mm SAW filter, https://www.golledge.com/media/1831/ma05497.pdf")
 	(tags "SAW filter 8-pin")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "26b80499-0de6-4742-b319-7c83fff55726")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -142,7 +132,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "5f30d7c4-9e6d-45ed-b80b-d0aab1b6cd40")
 	)
@@ -250,52 +240,53 @@
 	(pad "1" smd rect
 		(at -1.4 -1.27 270)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "695a6892-a8c6-4133-b7c5-795eab1a4473")
 	)
 	(pad "2" smd rect
 		(at -1.4 0 270)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b5e2fc8e-2d26-43d9-9adc-83c885e13efe")
 	)
 	(pad "3" smd rect
 		(at -1.4 1.27 270)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "40dca465-7540-49e6-921e-f8bbf81374de")
 	)
 	(pad "4" smd rect
 		(at 0 1.4 270)
 		(size 1.2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "93daabb5-405c-4631-ade1-15c1cdc5ba06")
 	)
 	(pad "5" smd rect
 		(at 1.4 1.27 270)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8b97b8c4-7660-4b73-a475-862e6134597d")
 	)
 	(pad "6" smd rect
 		(at 1.4 0 270)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5d5dcfab-73dd-4689-9e42-9a40d73591ae")
 	)
 	(pad "7" smd rect
 		(at 1.4 -1.27 270)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "14390217-5bb7-42fe-8019-97dcebf45331")
 	)
 	(pad "8" smd rect
 		(at 0 -1.15 270)
 		(size 1.7 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "69c6b294-9257-47f7-82f1-5939e7ca887d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Filter.3dshapes/Filter_SAW-8_3.8x3.8mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_SAW-8_3.8x3.8mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

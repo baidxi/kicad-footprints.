@@ -1,7 +1,7 @@
 (footprint "L_Fastron_PISR_Handsoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Choke, Drossel, PISR, Fastron, SMD,")
 	(tags "Choke Drossel PISR Fastron SMD ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4cac713d-3592-4466-ae79-3a680483dc28")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,86 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start 0 -0.25)
-		(end 0 0.25)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(layer "F.Adhes")
-		(uuid "e557d114-da49-4bda-b414-349194046bd3")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0 0.25)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "57c57a2d-ae15-46fe-9fe9-2e5ef6127001")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0 0.51)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "560df786-8004-49e8-9732-aca9b7ad0cc6")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0 0.76)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "4657e456-7925-4076-beb8-a184c0c2c8fb")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0 1.02)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "e08d4cbc-b705-4ab2-bedb-8d63f96dda15")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0 1.27)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "34c2abb4-b1e6-4c71-9086-4b65ec3f57e2")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0 1.52)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "4eaf53d5-e2c1-409d-a11c-9e122a4365f9")
-	)
 	(fp_line
 		(start -9.3 -2.6)
 		(end -9.3 -2.1)
@@ -241,6 +155,82 @@
 		)
 		(layer "F.SilkS")
 		(uuid "2d56da0f-3714-4286-9ee7-294cdb086da2")
+	)
+	(fp_line
+		(start 0 -0.25)
+		(end 0 0.25)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(layer "F.Adhes")
+		(uuid "e557d114-da49-4bda-b414-349194046bd3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0.25)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "57c57a2d-ae15-46fe-9fe9-2e5ef6127001")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0.51)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "560df786-8004-49e8-9732-aca9b7ad0cc6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0.76)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "4657e456-7925-4076-beb8-a184c0c2c8fb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.02)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "e08d4cbc-b705-4ab2-bedb-8d63f96dda15")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.27)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "34c2abb4-b1e6-4c71-9086-4b65ec3f57e2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.52)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "4eaf53d5-e2c1-409d-a11c-9e122a4365f9")
 	)
 	(fp_line
 		(start -10.6 -1.8)
@@ -1026,16 +1016,17 @@
 	(pad "1" smd rect
 		(at 8.33 0)
 		(size 4 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "87d344ec-0deb-43cc-8249-a86116dc86bc")
 	)
 	(pad "2" smd rect
 		(at -8.33 0)
 		(size 4 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4e00a8fa-f1c4-48e0-9c1b-264f69cf9e6c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Fastron_PISR.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Fastron_PISR.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

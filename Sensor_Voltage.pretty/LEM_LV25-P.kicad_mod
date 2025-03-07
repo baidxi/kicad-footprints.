@@ -1,7 +1,7 @@
 (footprint "LEM_LV25-P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LEM LV25-P Voltage transducer, https://www.lem.com/sites/default/files/products_datasheets/lv_25-p.pdf")
 	(tags "LEM Hall Effect Voltage transducer")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ec195241-e0e6-4ebd-a9ac-05b067f00974")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -265,7 +255,8 @@
 		(remove_unused_layers no)
 		(uuid "8773e2e9-2fce-4232-a625-2b21aee57078")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Voltage.3dshapes/LEM_LV25-P.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Voltage.3dshapes/LEM_LV25-P.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

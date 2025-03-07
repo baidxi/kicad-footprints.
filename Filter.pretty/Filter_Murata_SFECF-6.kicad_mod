@@ -1,7 +1,7 @@
 (footprint "Filter_Murata_SFECF-6"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Type 10.7MHz Ceramic Filter https://www.murata.com/en-us/products/filter/cerafil/sfecf")
 	(tags "10.7MHz smd ceramic")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fd0d2651-7bab-4668-8516-6fd10d9fea88")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "0fd75058-cc19-499b-9e33-fb677e80e410")
 	)
@@ -200,46 +190,47 @@
 	(pad "1" smd roundrect
 		(at -1.225 -1.4)
 		(size 1.05 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.0625)
 		(uuid "1b7ee876-063c-4055-94c6-18ccda241115")
 	)
 	(pad "2" smd roundrect
 		(at -1.225 0)
 		(size 1.05 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.0625)
 		(uuid "2f84c5db-2347-44de-aa10-c1397e15ee7c")
 	)
 	(pad "3" smd roundrect
 		(at -1.225 1.4)
 		(size 1.05 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.0625)
 		(uuid "8a44e0d1-6734-465b-8fe1-a711acabaf5d")
 	)
 	(pad "4" smd roundrect
 		(at 1.225 1.4)
 		(size 1.05 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.0625)
 		(uuid "1a9eeaab-2862-4c26-a40f-6f08669f946c")
 	)
 	(pad "5" smd roundrect
 		(at 1.225 0)
 		(size 1.05 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.0625)
 		(uuid "c221fa04-560e-41e7-bdc2-3f674dd1ece6")
 	)
 	(pad "6" smd roundrect
 		(at 1.225 -1.4)
 		(size 1.05 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.0625)
 		(uuid "0a686345-39c8-4cbc-ac83-b8a133847bf8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Filter.3dshapes/Filter_Murata_SFECF-6.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_Murata_SFECF-6.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

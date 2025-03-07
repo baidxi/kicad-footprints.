@@ -1,7 +1,7 @@
 (footprint "D_DO-27_P5.08mm_Vertical_KathodeUp"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode, DO-27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=9.52*5.33mm^2, , http://www.slottechforum.com/slotinfo/Techstuff/CD2%20Diodes%20and%20Transistors/Cases/Diode%20DO-27.jpg")
 	(tags "Diode DO-27 series Axial Vertical pin pitch 5.08mm  length 9.52mm diameter 5.33mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aca562e2-ced0-4847-bd70-6371d3d131af")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -81,7 +71,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "8a8224b2-859e-47ce-ac8e-35095f375283")
 	)
@@ -142,7 +132,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "fcfec119-a1f3-4ebc-b023-77824122d4f1")
 	)
@@ -195,7 +185,8 @@
 		(remove_unused_layers no)
 		(uuid "6c9dd061-b5b8-4ce6-8ed8-468e58fcc9f5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-27_P5.08mm_Vertical_KathodeUp.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-27_P5.08mm_Vertical_KathodeUp.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

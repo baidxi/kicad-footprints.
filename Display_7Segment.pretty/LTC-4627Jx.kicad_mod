@@ -1,7 +1,7 @@
 (footprint "LTC-4627Jx"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://optoelectronics.liteon.com/upload/download/DS30-2001-393/C4627JG.pdf")
 	(tags "4 digit 7 segment LED")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "148ce111-d51a-4d2e-87a5-1b9fbbf2baf5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -348,7 +338,8 @@
 		(remove_unused_layers no)
 		(uuid "8663af7d-c36b-4a81-8df5-cf78331d2d9e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display_7Segment.3dshapes/LTC-4627Jx.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display_7Segment.3dshapes/LTC-4627Jx.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

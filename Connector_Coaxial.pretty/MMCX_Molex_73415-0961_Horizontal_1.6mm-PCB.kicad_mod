@@ -1,7 +1,7 @@
 (footprint "MMCX_Molex_73415-0961_Horizontal_1.6mm-PCB"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex MMCX Horizontal Coaxial https://www.molex.com/pdm_docs/sd/734150961_sd.pdf")
 	(tags "Molex MMCX Horizontal Coaxial")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c0fbbc6b-95a7-44db-bc17-94dac4a18fbc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -279,13 +269,13 @@
 	(pad "1" smd rect
 		(at 2.45 0)
 		(size 2.6 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d8eb7845-316f-4f6a-843a-e18106d9aecb")
 	)
 	(pad "2" smd custom
 		(at 2.25 -1.525)
 		(size 3 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -304,7 +294,7 @@
 	(pad "2" smd custom
 		(at 2.25 1.525)
 		(size 3 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -320,7 +310,8 @@
 		)
 		(uuid "105313e4-3963-4c3c-bf77-44628b16fabf")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-0961_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-0961_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

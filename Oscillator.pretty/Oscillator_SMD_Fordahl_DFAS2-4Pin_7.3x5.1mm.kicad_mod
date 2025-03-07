@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_Fordahl_DFAS2-4Pin_7.3x5.1mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mminiature Crystal Clock Oscillator TXCO Fordahl DFA S2-KS/LS/US, http://www.iqdfrequencyproducts.com/products/details/iqxo-70-11-30.pdf, 7.3x5.1mm^2 package")
 	(tags "SMD SMT crystal oscillator")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "374eefab-f213-4a3f-a7a0-bcaa7c34b58f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,54 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 0.233333 0)
-		(stroke
-			(width 0.466667)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "e3142dd4-364f-4876-bfa0-1ccdb142e4d3")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.533333 0)
-		(stroke
-			(width 0.333333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "99a0e0cd-c543-45a7-8b39-e5a3ad83a57a")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.833333 0)
-		(stroke
-			(width 0.333333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "fc417321-0c56-4dae-beda-2b5976c8036e")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 1 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "aceab020-3c6c-49c6-bd14-34163fe54870")
-	)
 	(fp_line
 		(start -3.85 -2.74)
 		(end -3.44 -2.74)
@@ -207,6 +153,50 @@
 		)
 		(layer "F.SilkS")
 		(uuid "29136ff7-a5e0-48f8-a168-352f6d97af93")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.233333 0)
+		(stroke
+			(width 0.466667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "e3142dd4-364f-4876-bfa0-1ccdb142e4d3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.533333 0)
+		(stroke
+			(width 0.333333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "99a0e0cd-c543-45a7-8b39-e5a3ad83a57a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.833333 0)
+		(stroke
+			(width 0.333333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "fc417321-0c56-4dae-beda-2b5976c8036e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "aceab020-3c6c-49c6-bd14-34163fe54870")
 	)
 	(fp_line
 		(start -3.9 -3.5)
@@ -352,28 +342,29 @@
 	(pad "1" smd rect
 		(at -2.54 2.2)
 		(size 1.4 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8b9bcfa3-b160-42bb-8b7f-a042b816ea90")
 	)
 	(pad "2" smd rect
 		(at 2.54 2.2)
 		(size 1.4 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4a190ead-31f6-423f-9ce3-2504aad6d345")
 	)
 	(pad "3" smd rect
 		(at 2.54 -2.2)
 		(size 1.4 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "efacfd34-886e-4719-b461-b9f3cc46c31c")
 	)
 	(pad "4" smd rect
 		(at -2.54 -2.2)
 		(size 1.4 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9797ce36-eeab-4958-9679-167cd6f3326a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Fordahl_DFAS2-4Pin_7.3x5.1mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Fordahl_DFAS2-4Pin_7.3x5.1mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

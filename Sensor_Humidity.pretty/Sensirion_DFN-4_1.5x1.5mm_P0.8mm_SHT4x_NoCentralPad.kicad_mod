@@ -1,7 +1,7 @@
 (footprint "Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Sensirion, SHT40, SHT41, SHT45, DFN, 4 Pin (https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf)")
 	(tags "DFN NoLead")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1f5556e5-24bd-4ab4-8ee1-c5e58dc26869")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "395b87b0-620b-4c2b-b347-4e3ee17b9546")
 	)
@@ -200,25 +190,25 @@
 	(pad "1" smd rect
 		(at -0.7 -0.4)
 		(size 0.5 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1a2c4422-3873-4f76-8956-66de9b4a1582")
 	)
 	(pad "2" smd rect
 		(at -0.7 0.4)
 		(size 0.5 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "16eaced7-d7d0-4535-a9f9-a96ef7940ec3")
 	)
 	(pad "3" smd rect
 		(at 0.7 0.4)
 		(size 0.5 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "976a98ec-e04e-40c0-84d6-16b1c2f6020f")
 	)
 	(pad "4" smd rect
 		(at 0.7 -0.4)
 		(size 0.5 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7c177d91-86e6-42f5-bfd9-ec0f5351b0f0")
 	)
 	(zone
@@ -239,6 +229,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -251,7 +245,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Humidity.3dshapes/Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Humidity.3dshapes/Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

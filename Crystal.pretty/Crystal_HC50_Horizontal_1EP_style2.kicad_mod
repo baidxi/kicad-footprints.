@@ -1,7 +1,7 @@
 (footprint "Crystal_HC50_Horizontal_1EP_style2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Crystal THT HC-50 http://www.crovencrystals.com/croven_pdf/HC-50_Crystal_Holder_Rev_00.pdf")
 	(tags "THT crystal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1525babf-faa5-440d-a57e-16ff67e43bae")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -382,7 +372,7 @@
 	(pad "3" smd rect
 		(at 2.45 9.5)
 		(size 11.5 14)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "20d431e1-81ee-487e-9a4b-dca96ef046c2")
 	)
 	(pad "3" thru_hole rect
@@ -393,7 +383,8 @@
 		(remove_unused_layers no)
 		(uuid "89908e6a-31ef-4a5f-b3fe-9d91a0f98aba")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC50_Horizontal_1EP_style2.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC50_Horizontal_1EP_style2.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

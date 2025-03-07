@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_Kyocera_2520-6Pin_2.5x2.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://global.kyocera.com/prdct/electro/product/pdf/kt2520_e.pdf")
 	(tags "2.5mm 2mm SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ff2ed0e1-c2ea-46c7-9a65-17ad0e938502")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -198,40 +188,41 @@
 	(pad "1" smd rect
 		(at -0.7375 -1.15)
 		(size 0.825 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1f6d689f-3d3d-49b5-9131-13adc0b256c0")
 	)
 	(pad "2" smd rect
 		(at -0.935 0)
 		(size 0.43 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0af73f1b-6c93-470f-990b-6beabb389595")
 	)
 	(pad "3" smd rect
 		(at -0.7375 1.15)
 		(size 0.825 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "710b161e-53c2-4904-9eb8-3a8eba859dad")
 	)
 	(pad "4" smd rect
 		(at 0.7375 1.15)
 		(size 0.825 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a08f498f-cb94-4a31-a536-ae7bb179e302")
 	)
 	(pad "5" smd rect
 		(at 0.935 0)
 		(size 0.43 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dc2d79f4-38ed-4942-99e3-07d4efe890c9")
 	)
 	(pad "6" smd rect
 		(at 0.7375 -1.15)
 		(size 0.825 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fa2d78e3-5859-4407-9795-97ca84aa5bec")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Kyocera_2520-6Pin_2.5x2.0mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Kyocera_2520-6Pin_2.5x2.0mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Vishay_MINICAST-3Pin"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "IR Receiver Vishay TSOP-xxxx, MINICAST package, see https://www.vishay.com/docs/82669/tsop32s40f.pdf")
 	(tags "IR Receiver Vishay TSOP-xxxx MINICAST")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "790a8277-2e74-47d4-aaee-b6fc5d30ecd5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -252,7 +242,8 @@
 		(remove_unused_layers no)
 		(uuid "794dd9a8-645c-48df-970a-dcc5ecf206a5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Vishay_MINICAST-3Pin.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Vishay_MINICAST-3Pin.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

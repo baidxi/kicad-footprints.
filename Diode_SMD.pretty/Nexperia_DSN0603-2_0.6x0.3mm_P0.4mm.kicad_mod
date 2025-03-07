@@ -1,7 +1,7 @@
 (footprint "Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SOD962-2 silicon, leadless ultra small package; 2 terminals; 0.4 mm pitch; 0.6 mm x 0.3 mm x 0.3 mm body (https://assets.nexperia.com/documents/package-information/SOD962-2.pdf https://www.nexperia.com/packages/SOD962-2.html)")
 	(tags "TVS protection diodes")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d1a8bbd3-75d4-48db-ac1a-566b1f7288c7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,32 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center -0.208 0)
-		(end -0.208 -0.128)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "f8c07f33-b565-4e08-a123-e43f076a89a4")
-	)
-	(fp_circle
-		(center 0.208 0)
-		(end 0.208 -0.128)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "e122bdee-0a76-4408-aad5-77983f766e3e")
-	)
 	(fp_line
 		(start -0.56 0.1)
 		(end -0.56 -0.1)
@@ -96,6 +64,28 @@
 		(layer "F.SilkS")
 		(uuid "781c1679-1a11-4770-bd29-c790b1beebc5")
 	)
+	(fp_circle
+		(center -0.208 0)
+		(end -0.208 -0.128)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "f8c07f33-b565-4e08-a123-e43f076a89a4")
+	)
+	(fp_circle
+		(center 0.208 0)
+		(end 0.208 -0.128)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "e122bdee-0a76-4408-aad5-77983f766e3e")
+	)
 	(fp_rect
 		(start -0.45 0.3)
 		(end 0.45 -0.3)
@@ -103,7 +93,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "29d43914-63c6-45c8-8031-10fdec27a7ee")
 	)
@@ -154,7 +144,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "1f129847-e0c1-44c8-95ec-900a58da512a")
 	)
@@ -187,7 +177,8 @@
 		(clearance 0.05)
 		(uuid "e10e69b5-562e-432d-9bd0-f8ecad1c7bda")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

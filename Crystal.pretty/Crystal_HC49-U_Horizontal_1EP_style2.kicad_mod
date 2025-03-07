@@ -1,7 +1,7 @@
 (footprint "Crystal_HC49-U_Horizontal_1EP_style2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Crystal THT HC-49/U http://5hertz.com/pdfs/04404_D.pdf")
 	(tags "THT crystal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1e6486ee-7266-4e0e-bbe7-8b659cc70f5c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -382,7 +372,7 @@
 	(pad "3" smd rect
 		(at 2.45 9.25)
 		(size 11 13.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8a9369e4-4d11-4967-89da-57cda8cdf5d3")
 	)
 	(pad "3" thru_hole rect
@@ -393,7 +383,8 @@
 		(remove_unused_layers no)
 		(uuid "24962797-df17-42d2-ab9d-57376c8fe000")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC49-U_Horizontal_1EP_style2.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC49-U_Horizontal_1EP_style2.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

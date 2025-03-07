@@ -1,7 +1,7 @@
 (footprint "L_CommonMode_Wuerth_WE-SL2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://katalog.we-online.de/en/pbs/WE-SL2?sid=5fbec16187#vs_t1:c1_ct:1")
 	(tags "Wuerth WE-SL2")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7f1b8c6b-2c22-4a6d-ac07-3c7a9e0f9e03")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,21 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 0.5 0)
-		(stroke
-			(width 1)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "190043e3-ef70-4919-a259-1e62b9547cbc")
-	)
 	(fp_line
 		(start -4.9 -2.2)
 		(end -4.8 -2.2)
@@ -184,6 +163,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "17f7d24f-2153-42e0-9e8d-33cdb0165c09")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "190043e3-ef70-4919-a259-1e62b9547cbc")
 	)
 	(fp_line
 		(start -5 -3.25)
@@ -319,28 +309,29 @@
 	(pad "1" smd rect
 		(at -3.75 -1.27)
 		(size 2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d068672e-48ef-4feb-9ec7-c3630de76bdc")
 	)
 	(pad "2" smd rect
 		(at -3.75 1.27)
 		(size 2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f8a31fce-e626-4c77-94ce-c4213151f77c")
 	)
 	(pad "3" smd rect
 		(at 3.75 1.27)
 		(size 2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c6dc3aa4-cf14-4ed0-af6c-03f348f44fae")
 	)
 	(pad "4" smd rect
 		(at 3.75 -1.27)
 		(size 2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e27df121-02e8-4749-bcdf-a7eb946387d6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonMode_Wuerth_WE-SL2.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonMode_Wuerth_WE-SL2.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

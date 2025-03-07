@@ -1,7 +1,7 @@
 (footprint "LED_PLCC-2_3x2mm_AK"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LED, SMD, PLCC-2, 3.0 x 2.0mm, orientation marker at anode, https://media.digikey.com/pdf/Data%20Sheets/CREE%20Power/CLM3A-BKW,GKW.pdf")
 	(tags "LED PLCC-2 SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "80bafd00-477b-4f58-ab4f-72b4dce17a56")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -260,16 +250,17 @@
 	(pad "1" smd rect
 		(at 1.425 0)
 		(size 1.55 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bfae2e89-43c2-4db3-8f7d-78937bea6625")
 	)
 	(pad "2" smd rect
 		(at -1.425 0)
 		(size 1.55 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5d440233-cf4b-4d73-b2b4-08f095b9246e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC-2_3x2mm_KA.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC-2_3x2mm_KA.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

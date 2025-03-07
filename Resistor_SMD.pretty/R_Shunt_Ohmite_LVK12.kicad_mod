@@ -1,7 +1,7 @@
 (footprint "R_Shunt_Ohmite_LVK12"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "4 contact shunt resistor")
 	(tags "shunt resistor 4 contacts")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "334296d5-d3f6-4508-bd71-76c6fc583470")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -178,28 +168,29 @@
 	(pad "1" smd rect
 		(at -0.7 -1.375)
 		(size 1.1 1.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "601f57ed-96f4-4eb7-9fbc-c38eddb97e95")
 	)
 	(pad "2" smd rect
 		(at 0.7 -1.375)
 		(size 1.1 1.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3dbe8e76-f9ba-4922-bd62-17080af68e86")
 	)
 	(pad "3" smd rect
 		(at 0.7 1.375)
 		(size 1.1 1.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "46dac940-f796-45be-93a9-24304efb3c44")
 	)
 	(pad "4" smd rect
 		(at -0.7 1.375)
 		(size 1.1 1.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e839c15f-9834-4c27-a4c4-576e27d7236e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Shunt_Ohmite_LVK12.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Shunt_Ohmite_LVK12.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

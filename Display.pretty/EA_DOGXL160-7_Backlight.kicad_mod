@@ -1,7 +1,7 @@
 (footprint "EA_DOGXL160-7_Backlight"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Grapchical,Display,LCD,160x104 http://www.lcd-module.com/eng/pdf/grafik/dogxl160-7e.pdf")
 	(tags "EA_DOGXL160-7_Backlight")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "339a7535-c935-411b-9725-981709471b7b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -461,7 +451,8 @@
 		(remove_unused_layers no)
 		(uuid "b9f9f936-3e36-4464-9f9d-92317c5fa428")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/EA_DOGXL160-7_Backlight.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display.3dshapes/EA_DOGXL160-7_Backlight.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

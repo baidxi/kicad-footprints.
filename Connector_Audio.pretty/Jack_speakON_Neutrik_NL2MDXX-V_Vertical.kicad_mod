@@ -1,7 +1,7 @@
 (footprint "Jack_speakON_Neutrik_NL2MDXX-V_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "speakON Chassis Connectors, 2 pole chassis connector, black D-size flange, countersunk thru holes, vertical PCB mount, replaces NL2MD-V, https://www.neutrik.com/en/product/nl2mdxx-v")
 	(tags "neutrik speakon")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bdf947b1-5daa-43ed-aff5-28e05143ca6e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -155,7 +145,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "b67f3793-0db5-486d-b4d7-a231d2d65e5b")
 	)
@@ -166,7 +156,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "194156fd-55cf-4769-b9b3-624a3de5c806")
 	)
@@ -177,7 +167,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a077aaee-bc4b-4f20-9c23-e08c95169a32")
 	)
@@ -312,7 +302,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4442548c-fd8a-4e6d-9a84-8050988dde42")
 	)
@@ -323,7 +313,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a37e0609-30b0-4e72-a8a2-1057ce1617ed")
 	)
@@ -334,7 +324,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "3ce8c84d-b452-4894-967a-f078b1e47722")
 	)
@@ -365,7 +355,8 @@
 		(remove_unused_layers no)
 		(uuid "33622551-d86b-4594-8703-ee1470444300")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_speakON_Neutrik_NL2MDXX-V_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_speakON_Neutrik_NL2MDXX-V_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

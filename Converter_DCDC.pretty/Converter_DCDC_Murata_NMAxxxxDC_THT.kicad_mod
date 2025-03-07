@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Murata_NMAxxxxDC_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Isolated 1W DCDC-Converter, http://power.murata.com/data/power/ncl/kdc_nma.pdf")
 	(tags "Isolated 1W DCDC-Converter")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6e903b67-9e32-42a1-8431-40096aeb730b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -273,7 +263,8 @@
 		(remove_unused_layers no)
 		(uuid "00ff4248-f580-4f59-b1b5-97ae0c2a49d5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Murata_NMAxxxxDC_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Murata_NMAxxxxDC_THT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

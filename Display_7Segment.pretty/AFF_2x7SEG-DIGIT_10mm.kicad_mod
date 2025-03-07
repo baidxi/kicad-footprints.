@@ -1,7 +1,7 @@
 (footprint "AFF_2x7SEG-DIGIT_10mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Afficheur 7 segments 10mm DIGIT")
 	(tags "AFFICHEUR")
@@ -17,25 +17,13 @@
 		)
 	)
 	(property "Value" "AFF_2x7SEG-DIGIT_10mm"
-		(at 4.5 9.25 -90)
+		(at 4.5 9.25 270)
 		(layer "F.Fab")
 		(uuid "eed57269-bff9-4522-8fe9-442f42c18af3")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d3533f54-70c0-4657-a61a-3dad013dc6c0")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -321,7 +311,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "e10d9354-3552-47b0-82d0-d1eb1056b23b")
 	)
@@ -332,7 +322,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "bf3c76da-8cec-45af-86d4-fedc656d4149")
 	)
@@ -427,7 +417,7 @@
 		(uuid "2bd5b224-5d3f-49f8-a3a7-aa32a6c538c0")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 7.25 8.25 -90)
+		(at 7.25 8.25 270)
 		(layer "F.Fab")
 		(uuid "fb9acdc8-d95e-428e-b642-35577765f618")
 		(effects
@@ -565,4 +555,5 @@
 		(remove_unused_layers no)
 		(uuid "f9a24066-742d-45a5-afa5-3346022b3068")
 	)
+	(embedded_fonts no)
 )

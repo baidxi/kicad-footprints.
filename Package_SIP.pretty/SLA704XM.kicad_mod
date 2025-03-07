@@ -1,7 +1,7 @@
 (footprint "SLA704XM"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SIP SLA704XM (http://www.sumzi.com/upload/files/2007/07/2007073114282034189.PDF)")
 	(tags "SIP")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5688c65b-1c94-42f9-b013-4dc54306d6e2")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -301,7 +291,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "1ca0c146-2e65-4e4f-8047-b8c1b5bdeb33")
 	)
@@ -550,7 +540,8 @@
 		(remove_unused_layers no)
 		(uuid "1d8794d6-4ebb-40ca-9725-4c4e132c7819")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SIP.3dshapes/SLA704XM.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SIP.3dshapes/SLA704XM.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

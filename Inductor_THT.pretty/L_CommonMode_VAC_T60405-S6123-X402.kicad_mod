@@ -1,7 +1,7 @@
 (footprint "L_CommonMode_VAC_T60405-S6123-X402"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "30A, 3Phase N, Quadruple Coil, CM Choke, https://vacuumschmelze.com/03_Documents/Datasheets%20-%20Drawings/Commom-Mode-Chokes/6123-X402.pdf")
 	(tags "common mode filter quadruple choke")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a6cde1a8-501a-462c-b5a4-3e9abc760b29")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -104,7 +94,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "17698bc8-7f44-40b5-b567-65ddc31e9ca6")
 	)
@@ -115,7 +105,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "7bc2da9b-66f6-4c10-af84-3cb3118db3ac")
 	)
@@ -126,7 +116,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "17852c11-d31f-4554-a857-c19f067c8049")
 	)
@@ -239,7 +229,8 @@
 		(remove_unused_layers no)
 		(uuid "dd8f235a-092b-47d4-a9b7-a115ab957ac6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_CommonMode_VAC_T60405-S6123-X402.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_CommonMode_VAC_T60405-S6123-X402.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "DE122-XX-XX"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.display-elektronik.de/filter/DE122-RS-20_635.pdf")
 	(tags "6 digit 7 segment LCD ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7c4c896e-1273-4da6-b6f6-1d7a788d5415")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -965,7 +955,8 @@
 		(remove_unused_layers no)
 		(uuid "93d1ed6b-79f4-499a-af71-326170d20870")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display_7Segment.3dshapes/DE122-XX-XX.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display_7Segment.3dshapes/DE122-XX-XX.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

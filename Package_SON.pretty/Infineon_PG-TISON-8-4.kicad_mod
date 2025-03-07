@@ -1,7 +1,7 @@
 (footprint "Infineon_PG-TISON-8-4"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Infineon, PG-TISON-8-4, 5x6x1.15mm, 1.27mm Pitch, Exposed Paddle, https://www.infineon.com/cms/en/product/packages/PG-TISON/PG-TISON-8-4/")
 	(tags "tison")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "166ea066-7ceb-4f2e-8213-b92cbee25404")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -93,7 +83,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "2756a483-4b20-4671-bed3-aa9e8db3b5e0")
 	)
@@ -311,14 +301,14 @@
 	(pad "1" smd roundrect
 		(at -2.87 -1.905)
 		(size 0.8 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f0076bc9-baaf-42c6-9442-58b7d4a7a8c4")
 	)
 	(pad "2" smd roundrect
 		(at -2.87 -0.635)
 		(size 0.8 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4b5b649a-4e20-4596-ab85-1116f498d762")
 	)
@@ -346,21 +336,21 @@
 	(pad "4" smd roundrect
 		(at 2.87 1.905)
 		(size 0.8 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a9e81747-af0d-4cb8-87f3-6345caff947d")
 	)
 	(pad "5" smd roundrect
 		(at 2.87 0.635)
 		(size 0.8 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "801525c6-9703-4fc6-94fb-343a03515529")
 	)
 	(pad "6" smd roundrect
 		(at 2.87 -0.635)
 		(size 0.8 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "55b4c63d-3794-41e0-9c4e-2402eadcccad")
 	)
@@ -392,7 +382,8 @@
 		)
 		(uuid "f53993ff-c6d5-46aa-ac9f-5f388c8e06b3")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/Infineon_PG-TISON-8-4.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/Infineon_PG-TISON-8-4.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

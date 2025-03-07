@@ -1,7 +1,7 @@
 (footprint "LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf")
 	(tags "LED RGB NeoPixel Mini PLCC-4 3535")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d59d046c-c730-4aa6-a088-ed1f36e076fb")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,39 +49,60 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_line
-		(start -2.95 -1.95)
-		(end 2.95 -1.95)
+		(start -2.8 -2)
+		(end -2.8 2)
 		(stroke
 			(width 0.12)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "60b68fc6-bf7a-45ae-8f75-33a65c184c3f")
+		(uuid "43adbbe1-6a98-41f5-898f-b826717c1132")
 	)
 	(fp_line
-		(start -2.95 1.95)
-		(end 2.95 1.95)
+		(start -2.8 -2)
+		(end 2.8 -2)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0752583f-9f4a-4e0f-b121-2338437591a5")
+		(uuid "ac05fd60-c7fe-4ebc-afdb-bb03a9433555")
 	)
 	(fp_line
-		(start 2.95 1.95)
-		(end 2.95 0.875)
+		(start -2.8 2)
+		(end 2.2 2)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fd204186-c480-4814-921a-c90abc728b63")
+		(uuid "8b9d6599-795e-4cf4-ba1d-7057604a3bdf")
+	)
+	(fp_line
+		(start 2.8 1.4)
+		(end 2.2 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "512f89f0-756e-4428-87af-703f4214a630")
+	)
+	(fp_line
+		(start 2.8 1.4)
+		(end 2.8 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7837fa2-fcb5-49a9-a046-9741da620195")
 	)
 	(fp_line
 		(start -2.8 -2)
@@ -191,17 +201,18 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "974be58e-74de-4e07-947f-98852335e05c")
 	)
 	(fp_text user "1"
-		(at -3.5 -0.875 0)
+		(at -3.2 -0.875 0)
+		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8e37004e-c9dd-4a9a-adc3-b571b53d17d6")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
@@ -220,28 +231,29 @@
 	(pad "1" smd rect
 		(at -1.75 -0.875)
 		(size 1.6 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3aa8cc5d-54e5-4038-aae5-88b9a0043bb9")
 	)
 	(pad "2" smd rect
 		(at -1.75 0.875)
 		(size 1.6 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9a5b3312-e555-4b96-8d26-1be1020a0691")
 	)
 	(pad "3" smd rect
 		(at 1.75 0.875)
 		(size 1.6 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "80a855b4-41b1-40fc-89fa-5d46a84d59c1")
 	)
 	(pad "4" smd rect
 		(at 1.75 -0.875)
 		(size 1.6 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bf51f97d-70b8-403d-b9e7-1c48bc155b9d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

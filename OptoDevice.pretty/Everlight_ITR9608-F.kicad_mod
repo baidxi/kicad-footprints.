@@ -1,7 +1,7 @@
 (footprint "Everlight_ITR9608-F"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Fork-type photointerrupter (https://everlighteurope.com/index.php?controller=attachment&id_attachment=5389)")
 	(tags "Photointerrupter infrared LED")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b7d4cc72-0837-41a3-af64-b03c4c8999bd")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -212,7 +202,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "a78766ff-756c-4a91-a157-a3fb8e502469")
 	)
@@ -430,7 +420,8 @@
 		(remove_unused_layers no)
 		(uuid "3bf26d1f-7328-40ae-aa59-add06202edf0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Everlight_ITR9608-F.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Everlight_ITR9608-F.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

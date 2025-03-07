@@ -1,7 +1,7 @@
 (footprint "Freescale_98ARH99066A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.nxp.com/docs/en/data-sheet/MPXH6250A.pdf")
 	(tags "sensor pressure ssop 98ARH99066A")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f3cf06d2-1939-4c40-838a-4b55ed1922e0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -142,7 +132,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "9c3d0b1d-40b6-4a88-9706-ed1e8f6cbf24")
 	)
@@ -333,7 +323,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9aa69397-4fb1-4d2f-b914-68f5c82ec700")
 	)
@@ -351,52 +341,53 @@
 	(pad "1" smd rect
 		(at -4.9149 -1.905)
 		(size 1.35 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "440cb79c-e5e1-42df-8a84-eee6d874b486")
 	)
 	(pad "2" smd rect
 		(at -4.9149 -0.635)
 		(size 1.35 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9a4efae6-f15e-4e5c-b90b-e276ca2c7ae4")
 	)
 	(pad "3" smd rect
 		(at -4.9149 0.635)
 		(size 1.35 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "164b157e-4230-4e91-886b-80926b4c4f63")
 	)
 	(pad "4" smd rect
 		(at -4.9149 1.905)
 		(size 1.35 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4fb94412-2444-4fe2-9f1a-a331bcdce08a")
 	)
 	(pad "5" smd rect
 		(at 4.9149 1.905)
 		(size 1.35 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7fa9664c-e53d-4bb5-94df-3ef5f90b13f8")
 	)
 	(pad "6" smd rect
 		(at 4.9149 0.635)
 		(size 1.35 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0fcdabf3-421a-468e-a6f6-6cee11f57b32")
 	)
 	(pad "7" smd rect
 		(at 4.9149 -0.635)
 		(size 1.35 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bfe3cc07-e5b2-4543-8416-c858855a3f20")
 	)
 	(pad "8" smd rect
 		(at 4.9149 -1.905)
 		(size 1.35 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "31599abc-6805-48fe-99f4-ee3cf182d1e1")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Pressure.3dshapes/Freescale_98ARH99066A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Pressure.3dshapes/Freescale_98ARH99066A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

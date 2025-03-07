@@ -1,7 +1,7 @@
 (footprint "DE152-XX-XX"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://tft-module.de/filter/DE152-RS-20_75.pdf")
 	(tags "4 digit 7 segment LCD ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7eb7db5c-ea92-42f9-965f-56898ff04019")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -785,7 +775,8 @@
 		(remove_unused_layers no)
 		(uuid "b44b16e0-103a-40ea-9ee9-61041b95ed42")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display_7Segment.3dshapes/DE152-XX-XX.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display_7Segment.3dshapes/DE152-XX-XX.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

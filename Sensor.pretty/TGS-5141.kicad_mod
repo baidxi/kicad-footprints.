@@ -1,7 +1,7 @@
 (footprint "TGS-5141"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Fixaro carbon monoxide electrochemical sensor, https://figarosensor.com/product/docs/tgs5141-p00_product%20infomation%28fusa%29_rev07.pdf")
 	(tags "Figaro CO sensor")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c2344de0-e115-411e-802e-04770dd6dae4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -174,7 +164,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ee97bbfe-286c-471f-9787-2f322b9bcde4")
 	)
@@ -213,7 +203,8 @@
 		(remove_unused_layers no)
 		(uuid "6585dfb5-4ff9-407e-be4e-67cf9a996ddc")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor.3dshapes/TGS-5141.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor.3dshapes/TGS-5141.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

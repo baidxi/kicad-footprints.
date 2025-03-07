@@ -1,7 +1,7 @@
 (footprint "USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB Type C Receptacle, GCT, power-only, 6P, top mounted, horizontal, 3A: https://gct.co/files/drawings/usb4135.pdf")
 	(tags "USB C Type-C Receptacle SMD USB Power-only Charging-only 6P 6C USB4135-GF-A")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ea60680c-5a94-45cc-bd8f-ac59c1232023")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -263,7 +253,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "82ddcd73-4545-43a2-846d-a184cb19430a")
 	)
@@ -294,74 +284,75 @@
 	(pad "A5" smd roundrect
 		(at -0.5 -3.0325)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1c6363d8-789c-4a95-ad09-b83c7701f2b5")
 	)
 	(pad "A9" smd roundrect
 		(at 1.52 -3.0325 180)
 		(size 0.76 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "574b732b-1a04-4c46-9fea-39f40dc77f78")
 	)
 	(pad "A12" smd roundrect
 		(at 2.75 -3.0325 180)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7f77c05c-6920-4b16-a9a8-75401d94c776")
 	)
 	(pad "B5" smd roundrect
 		(at 0.5 -3.0325 180)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "96cd80f3-f33a-4e28-8283-71636431c18a")
 	)
 	(pad "B9" smd roundrect
 		(at -1.52 -3.0325)
 		(size 0.76 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ebd072b3-427a-4bf1-ac97-6b3957bb2a2b")
 	)
 	(pad "B12" smd roundrect
 		(at -2.75 -3.0325)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "55e5fb07-6015-4991-8f56-82a741fc10c7")
 	)
 	(pad "S1" smd roundrect
 		(at -5.125 -2.9775)
 		(size 1.8 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1851851852)
 		(uuid "137779e0-679e-40cd-972c-5fbeb13904e0")
 	)
 	(pad "S1" smd roundrect
 		(at -5.125 0.6025)
 		(size 1.8 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(uuid "4527a69e-f4d0-4e0b-9842-2c2cc03c34a6")
 	)
 	(pad "S1" smd roundrect
 		(at 5.125 -2.9775)
 		(size 1.8 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1851851852)
 		(uuid "c7811aaf-bd05-4136-9583-a85eadf3decb")
 	)
 	(pad "S1" smd roundrect
 		(at 5.125 0.6025)
 		(size 1.8 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(uuid "25c54f7e-c029-4761-b6f2-b3aa7679f90d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Murata_NMAxxxxSC_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Murata NMAxxxxSC footprint based on SIP7, http://power.murata.com/data/power/ncl/kdc_nma.pdf")
 	(tags "Murata NMAxxxxSC DCDC-Converter")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1353f1ac-d76e-41f3-afba-86c0241a2a18")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -265,7 +255,8 @@
 		(remove_unused_layers no)
 		(uuid "ab3b96bf-f5ff-4b3e-a8cc-54cba2eaed3b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Murata_NMAxxxxSC_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Murata_NMAxxxxSC_THT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

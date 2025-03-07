@@ -1,7 +1,7 @@
 (footprint "Hirose_DF13C_CL535-0404-8-51_1x04-1MP_P1.25mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Hirose DF13C SMD, CL535-0404-8-51, 4 Pins per row (https://www.hirose.com/product/en/products/DF13/DF13C-10P-1.25V%2851%29/), generated with kicad-footprint-generator")
 	(tags "connector Hirose DF13C vertical")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "98675e1b-f82c-4968-a441-51da575d7581")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -349,40 +339,41 @@
 	(pad "1" smd rect
 		(at -1.875 -1.45)
 		(size 0.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0d759b23-fb9a-4714-b022-8af78bb8e002")
 	)
 	(pad "2" smd rect
 		(at -0.625 -1.45)
 		(size 0.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1619d756-1265-4a00-aba9-0565943d5d70")
 	)
 	(pad "3" smd rect
 		(at 0.625 -1.45)
 		(size 0.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "22f996e0-9b28-498d-90ed-b7b080db2068")
 	)
 	(pad "4" smd rect
 		(at 1.875 -1.45)
 		(size 0.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ded752e2-9ac6-4244-991f-7e8079daf731")
 	)
 	(pad "MP" smd rect
 		(at -4.125 1.25)
 		(size 1.6 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8271b1fa-5446-4b3a-b539-7e92e7508df2")
 	)
 	(pad "MP" smd rect
 		(at 4.125 1.25)
 		(size 1.6 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "517a5090-400d-4d90-bc8f-2bc669db508e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Hirose.3dshapes/Hirose_DF13C_CL535-0404-8-51_1x04-1MP_P1.25mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Hirose.3dshapes/Hirose_DF13C_CL535-0404-8-51_1x04-1MP_P1.25mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

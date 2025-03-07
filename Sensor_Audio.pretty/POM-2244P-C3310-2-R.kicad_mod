@@ -1,7 +1,7 @@
 (footprint "POM-2244P-C3310-2-R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Electret Condenser microphone, Project Unlimited (PU) Audio, https://api.puiaudio.com/file/b7e03aec-9603-48da-8064-9a0e0468047c.pdf")
 	(tags "microphone electret")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dd434618-08af-45b7-b48a-823c036fba7b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -101,7 +91,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "7dd1aa77-b721-4537-9686-7e5f3a66adbf")
 	)
@@ -112,7 +102,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "abd7578f-6a3f-43e8-8560-a7bde2c111f0")
 	)
@@ -123,7 +113,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "29ad1133-6f53-4ec2-967b-229611d7e92c")
 	)
@@ -155,7 +145,8 @@
 		(remove_unused_layers no)
 		(uuid "651639ad-fb7b-4d2b-a918-a9e2a284151b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Audio.3dshapes/POM-2244P-C3310-2-R.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Audio.3dshapes/POM-2244P-C3310-2-R.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

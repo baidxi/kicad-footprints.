@@ -1,7 +1,7 @@
 (footprint "Samtec_T1M-08-X-S-V_1x08-1MP_P1.0mm_Terminal_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)")
 	(tags "conn samtec discrete wire terminal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0a2825c8-1cf1-4ae6-9e20-1c29b12eda2e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -358,74 +348,75 @@
 	(pad "1" smd roundrect
 		(at -3.5 1.925)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4600bcc1-2ea1-4eca-9501-552377276cf4")
 	)
 	(pad "2" smd roundrect
 		(at -2.5 1.925)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "49a0701c-add9-4ae3-89d3-65a3205a8f44")
 	)
 	(pad "3" smd roundrect
 		(at -1.5 1.925)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "afb82d17-1d84-4ff0-a7a6-876a2cf00fcf")
 	)
 	(pad "4" smd roundrect
 		(at -0.5 1.925)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "163f512f-941f-4bef-a679-7b1833407102")
 	)
 	(pad "5" smd roundrect
 		(at 0.5 1.925)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6d0ff489-a6e6-4063-a4e3-63fa61c28801")
 	)
 	(pad "6" smd roundrect
 		(at 1.5 1.925)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0edab772-798f-47c7-98fe-2d45d21eb49d")
 	)
 	(pad "7" smd roundrect
 		(at 2.5 1.925)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5621d013-741a-4e13-8476-8f915bc8764a")
 	)
 	(pad "8" smd roundrect
 		(at 3.5 1.925)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a7b4911d-7e31-4980-9197-f3e79e3ab5ef")
 	)
 	(pad "MP" smd roundrect
 		(at -4.8 -0.6)
 		(size 0.8 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5293d8f5-933d-4542-84c0-a21076727a11")
 	)
 	(pad "MP" smd roundrect
 		(at 4.8 -0.6)
 		(size 0.8 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d6495250-fd72-4b5f-a85a-c7bd658cd78b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Samtec_MicroMate.3dshapes/Samtec_T1M-08-X-S-V_1x08-1MP_P1.0mm_Terminal_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Samtec_MicroMate.3dshapes/Samtec_T1M-08-X-S-V_1x08-1MP_P1.0mm_Terminal_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

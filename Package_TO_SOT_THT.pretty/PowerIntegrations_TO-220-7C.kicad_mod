@@ -1,7 +1,7 @@
 (footprint "PowerIntegrations_TO-220-7C"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Non Isolated Modified TO-220 7pin Package, see http://www.farnell.com/datasheets/5793.pdf")
 	(tags "Power Integration Y Package")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "45650f7c-24a9-4ccb-ad54-cc63ae535041")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -383,7 +373,8 @@
 		(remove_unused_layers no)
 		(uuid "c007c7f4-9c51-4cf3-990f-935ad519c0a2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/PowerIntegrations_TO-220-7C.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/PowerIntegrations_TO-220-7C.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

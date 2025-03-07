@@ -1,7 +1,7 @@
 (footprint "LED_ASMB-KTF0-0A306"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "2220 Tricolor PLCC-4 LED, https://docs.broadcom.com/docs/ASMB-KTF0-0A306-DS100")
 	(tags "Tricolor LED")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "90376d70-3c7d-423b-859f-a245470e082f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -75,24 +65,14 @@
 		(uuid "dbeb2496-859c-4930-a6af-c313dc80c532")
 	)
 	(fp_line
-		(start -1.55 -1.2)
-		(end 1.43 -1.2)
+		(start -0.89 -1.2)
+		(end -1.55 -1.2)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "079c0873-4754-4ba3-88d6-29a46433585c")
-	)
-	(fp_line
-		(start -1.45 1.2)
-		(end 1.45 1.2)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5c725a53-6c7d-4914-8034-fb1e3ac976d2")
+		(uuid "ca198771-0dc5-45d1-bba6-83f62c2a7075")
 	)
 	(fp_line
 		(start -1.6 -1.25)
@@ -198,28 +178,29 @@
 	(pad "1" smd rect
 		(at -0.9 -0.6)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c01d0c33-ed89-4009-bee3-36c1a32d8b2e")
 	)
 	(pad "2" smd rect
 		(at -0.9 0.6)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "03136f19-d28c-4d03-8d94-205014935fe4")
 	)
 	(pad "3" smd rect
 		(at 0.9 0.6)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ba7b97cd-788e-4b25-ab2f-b261031548b8")
 	)
 	(pad "4" smd rect
 		(at 0.9 -0.6)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "be3c8c61-85cd-47e9-92b9-0a9df7f8e391")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_ASMB-KTF0-0A306.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_ASMB-KTF0-0A306.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

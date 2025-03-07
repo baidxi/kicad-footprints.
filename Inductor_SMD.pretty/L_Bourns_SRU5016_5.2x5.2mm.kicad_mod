@@ -1,7 +1,7 @@
 (footprint "L_Bourns_SRU5016_5.2x5.2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Bourns SRU5016 series shielded SMD power inductor, 1.6mm height https://www.bourns.com/docs/product-datasheets/sru5016.pdf")
 	(tags "Bourns SRU5016 SMD inductor")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1115a244-2bab-4d19-b186-4fed4b03a98a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -320,32 +310,33 @@
 	(pad "1" smd roundrect
 		(at -2.4 0)
 		(size 1.1 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "680d5f30-3e7d-43c6-acae-2abaf7b05df2")
 	)
 	(pad "2" smd roundrect
 		(at 2.4 0)
 		(size 1.1 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7a0b26fa-b586-4b21-82b5-e380be35c572")
 	)
 	(pad "MP" smd roundrect
 		(at 0 -2.4 270)
 		(size 1.1 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0bf5b212-7034-4c7d-926d-07f196adc8ce")
 	)
 	(pad "MP" smd roundrect
 		(at 0 2.4 90)
 		(size 1.1 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "159ac1d3-cc9c-4f0e-95e1-61642193e361")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRU5016_5.2x5.2mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRU5016_5.2x5.2mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

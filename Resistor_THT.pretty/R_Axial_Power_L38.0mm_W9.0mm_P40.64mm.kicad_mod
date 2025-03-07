@@ -1,7 +1,7 @@
 (footprint "R_Axial_Power_L38.0mm_W9.0mm_P40.64mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Resistor, Axial_Power series, Box, pin pitch=40.64mm, 9W, length*width*height=38*9*9mm^3, http://cdn-reichelt.de/documents/datenblatt/B400/5WAXIAL_9WAXIAL_11WAXIAL_17WAXIAL%23YAG.pdf")
 	(tags "Resistor Axial_Power series Box pin pitch 40.64mm 9W length 38mm width 9mm height 9mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "44b22725-fe63-4882-bac1-a4252fad7c63")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -251,7 +241,8 @@
 		(remove_unused_layers no)
 		(uuid "a56694f4-78df-40da-9929-b210166169f6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_Power_L38.0mm_W9.0mm_P40.64mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_Power_L38.0mm_W9.0mm_P40.64mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

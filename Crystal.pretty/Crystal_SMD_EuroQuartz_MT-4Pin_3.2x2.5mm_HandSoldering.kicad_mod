@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal EuroQuartz MT series http://cdn-reichelt.de/documents/datenblatt/B400/MT.pdf, hand-soldering, 3.2x2.5mm^2 package")
 	(tags "SMD SMT crystal hand-soldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1fa88a8f-7adc-4596-96f6-2b15521e9213")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -228,28 +218,29 @@
 	(pad "1" smd rect
 		(at -1.425 1.15)
 		(size 1.95 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d33a0af8-fd89-4da9-80d4-abb08c4a905e")
 	)
 	(pad "2" smd rect
 		(at 1.425 1.15)
 		(size 1.95 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a82716ce-d99f-4960-88ec-3bc8ef7de11f")
 	)
 	(pad "3" smd rect
 		(at 1.425 -1.15)
 		(size 1.95 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a467e0b1-7178-4793-8519-a213365e14fd")
 	)
 	(pad "4" smd rect
 		(at -1.425 -1.15)
 		(size 1.95 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d70328bc-451f-44c4-b08b-a85cd8401a9b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm_HandSoldering.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm_HandSoldering.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

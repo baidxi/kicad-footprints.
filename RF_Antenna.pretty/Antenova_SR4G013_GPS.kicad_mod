@@ -1,7 +1,7 @@
 (footprint "Antenova_SR4G013_GPS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "GPS/GLONASS/Galileo/BeiDou antenna, 1559-1609Mhz, SMD, https://www.application-datasheet.com/pdf/antenova/sr4g013.pdf")
 	(tags "antenna GPS Antenova Beltii")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "614f39d6-a5e2-42fa-b66e-0c4b1e2b07b9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -250,7 +240,7 @@
 	(pad "1" smd roundrect
 		(at -6.9 0)
 		(size 1.2 3.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(uuid "13c2e7fe-f34a-4f66-bb08-1c8e7c162231")
 	)
@@ -266,7 +256,7 @@
 	(pad "2" smd roundrect
 		(at -2.3 0)
 		(size 1.2 3.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_width 0.5)
 		(uuid "2744e7a7-6ae6-4411-a8b2-fa8b79f84c88")
@@ -274,7 +264,7 @@
 	(pad "2" smd roundrect
 		(at 2.3 0)
 		(size 1.2 3.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_width 0.5)
 		(uuid "1f071203-5a7a-4b9b-9c1a-9bc457f4452f")
@@ -282,7 +272,7 @@
 	(pad "2" smd roundrect
 		(at 6.9 0)
 		(size 1.2 3.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_width 0.5)
 		(uuid "5534aa24-0016-4dd4-9a8a-e6f984beb5e6")
@@ -305,6 +295,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -315,7 +309,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Antenna.3dshapes/Antenova_SR4G013_GPS.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Antenna.3dshapes/Antenova_SR4G013_GPS.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Molex_Pico-EZmate_Slim_202656-0021_1x02-1MP_P1.20mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Pico-EZmate_Slim series connector, 202656-0021 (http://www.molex.com/pdm_docs/sd/2026560021_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex Pico-EZmate_Slim side entry")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1ecdf88a-ae28-4870-a561-67fbe2bb83a6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -348,32 +338,33 @@
 	(pad "1" smd roundrect
 		(at -0.6 -2)
 		(size 0.7 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8b903bec-7042-40b5-9065-ea168e3b4a64")
 	)
 	(pad "2" smd roundrect
 		(at 0.6 -2)
 		(size 0.7 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3545079a-49ce-4c34-8997-721792df1262")
 	)
 	(pad "MP" smd roundrect
 		(at -1.9 2.025)
 		(size 0.7 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "fb103e75-7d49-4d82-aca4-8a4e725f46fc")
 	)
 	(pad "MP" smd roundrect
 		(at 1.9 2.025)
 		(size 0.7 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c5f6f9d9-14da-4e7d-a1c5-eb65a3bebf3d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Pico-EZmate_Slim_202656-0021_1x02-1MP_P1.20mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Pico-EZmate_Slim_202656-0021_1x02-1MP_P1.20mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

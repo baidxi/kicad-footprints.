@@ -1,7 +1,7 @@
 (footprint "Converter_ACDC_MeanWell_MFM-10-xx_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "AC/DC board mount open frame power converter, input 80 ~ 264 VAC, 10W output, https://www.meanwellusa.com/upload/pdf/MFM-10/MFM-10-spec.pdf")
 	(tags "AC/DC power converter")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a409ed8d-1f74-4c25-8d81-178d95a534be")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -311,7 +301,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b6b1a44b-1567-44ce-9263-87d8eda49778")
 	)
@@ -402,7 +392,8 @@
 		(remove_unused_layers no)
 		(uuid "edf08bfd-84ef-46c7-a4cc-fccfa246ad11")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_MeanWell_MFM-10-xx_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_MeanWell_MFM-10-xx_THT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

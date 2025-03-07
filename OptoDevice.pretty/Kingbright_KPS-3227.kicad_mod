@@ -1,7 +1,7 @@
 (footprint "Kingbright_KPS-3227"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3.2mmx2.7mm, light sensor, https://www.kingbright.com/attachments/file/psearch/000/00/00/KPS-3227SP1C(Ver.16).pdf")
 	(tags "KPS-3227 Ambient Light Photo Sensor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "af07ebbb-a110-48b1-ada9-17d15e97f2a7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -102,7 +92,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "156a4719-d3dd-4ff3-9be7-c28f566d50c5")
 	)
@@ -290,28 +280,29 @@
 	(pad "1" smd rect
 		(at -0.7 -1.75)
 		(size 1 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b680b4a7-6cb0-40b5-a7ec-a02910a0daa4")
 	)
 	(pad "2" smd rect
 		(at -0.7 1.75)
 		(size 1 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f6ee98b5-4773-4eeb-a825-33c1705abace")
 	)
 	(pad "3" smd rect
 		(at 0.7 -1.75)
 		(size 1 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c5a1761e-3391-4e74-90c9-947fd66e1fc6")
 	)
 	(pad "4" smd rect
 		(at 0.7 1.75)
 		(size 1 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5994a946-119f-4db4-aafe-00ae73b5b800")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Kingbright_KPS-3227.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Kingbright_KPS-3227.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

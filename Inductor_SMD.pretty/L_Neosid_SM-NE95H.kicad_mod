@@ -1,7 +1,7 @@
 (footprint "L_Neosid_SM-NE95H"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Neosid, Inductor,SM-NE95H, Fixed inductor, SMD, https://neosid.de/import-data/product-pdf/neoFestind_SMNE95H.pdf")
 	(tags "Neosid Inductor SM-NE95H Fixed inductor SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "faeabc24-9e70-41f2-8bb7-f206f1a53cbc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -251,7 +241,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "5d9e6c91-12b4-4fb2-98db-573c10e7ee54")
 	)
@@ -269,16 +259,17 @@
 	(pad "1" smd rect
 		(at -5.15 0)
 		(size 2.9 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "44acedfd-5dc2-40ec-b8c2-a572ea477499")
 	)
 	(pad "2" smd rect
 		(at 5.15 0)
 		(size 2.9 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c4ca5993-3ba0-403c-89f6-74e51128b3f2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_SM-NE95H.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_SM-NE95H.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "L_CommonMode_VAC_T60405-S6123-X140"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "40A, 3Phase, Triple Coil, CM Choke, https://vacuumschmelze.com/03_Documents/Datasheets%20-%20Drawings/Commom-Mode-Chokes/6123-X140.pdf")
 	(tags "common mode filter")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d20682d8-6ccd-4dd9-918b-0d1f0901660d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -126,7 +116,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "04dfc243-0f51-4603-bf53-e1e3c0de09b3")
 	)
@@ -137,7 +127,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "85705930-0850-44b9-bc2d-76e756994d34")
 	)
@@ -148,7 +138,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c972d3ed-c44e-4c57-acf7-34594a953f70")
 	)
@@ -181,7 +171,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c3c93de0-69b1-4a04-8e0b-d78caf487c63")
 	)
@@ -245,7 +235,8 @@
 		(remove_unused_layers no)
 		(uuid "0ba8793e-70e6-484d-b92a-7d1464f66021")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_CommonMode_VAC_T60405-S6123-X140.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_CommonMode_VAC_T60405-S6123-X140.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

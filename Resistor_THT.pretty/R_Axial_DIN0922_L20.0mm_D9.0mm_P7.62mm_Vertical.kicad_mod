@@ -1,7 +1,7 @@
 (footprint "R_Axial_DIN0922_L20.0mm_D9.0mm_P7.62mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Resistor, Axial_DIN0922 series, Axial, Vertical, pin pitch=7.62mm, 5W, length*diameter=20*9mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 	(tags "Resistor Axial_DIN0922 series Axial Vertical pin pitch 7.62mm 5W length 20mm diameter 9mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8fd4217c-4c21-4807-bfe7-6c09cf61c87f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -81,7 +71,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "8b836d07-8a4e-4fb1-bf30-415bbe6df185")
 	)
@@ -142,7 +132,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "240ee4f9-7e98-4d5f-87ac-bdcffffa98d7")
 	)
@@ -173,7 +163,8 @@
 		(remove_unused_layers no)
 		(uuid "c58ee42e-0214-4fa9-8558-f7a5ef990778")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0922_L20.0mm_D9.0mm_P7.62mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0922_L20.0mm_D9.0mm_P7.62mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

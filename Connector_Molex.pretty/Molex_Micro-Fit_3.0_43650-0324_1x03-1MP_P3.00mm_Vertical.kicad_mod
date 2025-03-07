@@ -1,7 +1,7 @@
 (footprint "Molex_Micro-Fit_3.0_43650-0324_1x03-1MP_P3.00mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Micro-Fit 3.0 Connector System, 43650-0324 (compatible alternatives: 43650-0325, 43650-0326), 3 Pins per row (https://www.molex.com/pdm_docs/sd/436500224_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex Micro-Fit_3.0 vertical")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "957f74f0-d956-4e07-b03a-2913699116ab")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -558,34 +548,35 @@
 	(pad "1" smd rect
 		(at -3 3.135)
 		(size 1.27 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cc8c5f44-45ec-4ef3-9b6a-0a6827d1744b")
 	)
 	(pad "2" smd rect
 		(at 0 3.135)
 		(size 1.27 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e2ae0ff7-7465-4573-bdf5-4beaef30f2af")
 	)
 	(pad "3" smd rect
 		(at 3 3.135)
 		(size 1.27 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "de38b361-823d-416d-8e96-e9f625b03f6e")
 	)
 	(pad "MP" smd rect
 		(at -6.885 -0.285)
 		(size 3.43 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ea07ae3f-2d8d-4070-bd06-b4e7e222e7eb")
 	)
 	(pad "MP" smd rect
 		(at 6.885 -0.285)
 		(size 3.43 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "df7ae04a-2fb2-46c5-a827-e958f54bf5d2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0324_1x03-1MP_P3.00mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0324_1x03-1MP_P3.00mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

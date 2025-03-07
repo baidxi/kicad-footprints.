@@ -1,14 +1,12 @@
 (footprint "L_Radial_D29.8mm_P28.80mm_Murata_1400series"
-	(version 20240108)
-	(generator "pcbnew")
-	(generator_version "8.0")
+	(version 20241229)
+	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Inductor, Radial series, Radial, pin pitch=28.80mm, , diameter=29.8mm, muRATA, 1400series, http://www.murata-ps.com/data/magnetics/kmp_1400.pdf")
-	(tags "Inductor Radial series Radial pin pitch 28.80mm  diameter 29.8mm muRATA 1400series")
+	(descr "Inductor, Radial series, Radial, pin pitch=28.80mm, diameter=29.8mm, height=10.5mm, Murata, 1400series, http://www.murata-ps.com/data/magnetics/kmp_1400.pdf")
+	(tags "Inductor Radial series Radial pin pitch 28.80mm  diameter 29.8mm height 10.5mm Murata 1400series")
 	(property "Reference" "REF**"
 		(at 14.4 -16.15 0)
 		(layer "F.SilkS")
-		(uuid "3cb0f79b-6dfd-4d34-afe1-e69472062f2f")
 		(effects
 			(font
 				(size 1 1)
@@ -19,47 +17,10 @@
 	(property "Value" "L_Radial_D29.8mm_P28.80mm_Murata_1400series"
 		(at 14.4 16.15 0)
 		(layer "F.Fab")
-		(uuid "d5ad0b11-1641-4060-ad04-bae72c1f5706")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "198523c6-502b-4d75-a228-e2fc29f01ba2")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Datasheet" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "245278cf-15e1-4c98-9e7e-61ab9dc43950")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Description" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "76262b62-60d7-4ee1-b1ef-31d9cd694184")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -73,7 +34,6 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1581117c-3d85-4926-93cd-58fb93df328a")
 	)
 	(fp_arc
 		(start 29.316528 1.76)
@@ -84,7 +44,6 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "78cf1d27-f752-4eec-b23a-e8c86c3bc953")
 	)
 	(fp_circle
 		(center 14.4 0)
@@ -93,9 +52,8 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "799aedd9-428c-408c-bfce-53157b48020c")
 	)
 	(fp_line
 		(start -1.75 -15.15)
@@ -105,7 +63,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "5e528451-12ac-4774-ae5b-dbd924dc5cc4")
 	)
 	(fp_line
 		(start -1.75 15.15)
@@ -115,7 +72,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ecb6302e-03d4-4bf6-a33f-95e14d3eb817")
 	)
 	(fp_line
 		(start 30.55 -15.15)
@@ -125,7 +81,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "74fa746c-ff4f-4384-960d-9257920a1bc6")
 	)
 	(fp_line
 		(start 30.55 15.15)
@@ -135,7 +90,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a2d199c8-7cb1-481a-bcb7-9adbcfa7e435")
 	)
 	(fp_circle
 		(center 14.4 0)
@@ -144,9 +98,8 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "fbeabc68-b997-4940-bc23-22e0792f4bf9")
 	)
 	(fp_circle
 		(center 14.4 0)
@@ -155,14 +108,12 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "0f5adab4-3f61-4bc0-bf92-cce55ed335f2")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 14.4 0 0)
 		(layer "F.Fab")
-		(uuid "2018442d-a7ef-4ced-b571-7616359402d8")
 		(effects
 			(font
 				(size 1 1)
@@ -176,7 +127,6 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "535a55ca-0e0c-40a1-8b75-8e9def759037")
 	)
 	(pad "2" thru_hole circle
 		(at 28.8 0)
@@ -184,9 +134,9 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "28e38dbd-5aaa-4d48-a6ea-5a0785c8cfff")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D29.8mm_P28.80mm_Murata_1400series.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D29.8mm_P28.80mm_Murata_1400series.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

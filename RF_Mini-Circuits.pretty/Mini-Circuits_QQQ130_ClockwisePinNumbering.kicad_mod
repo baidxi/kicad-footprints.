@@ -1,7 +1,7 @@
 (footprint "Mini-Circuits_QQQ130_ClockwisePinNumbering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint for Mini-Circuits case QQQ130 (https://ww2.minicircuits.com/case_style/QQQ130.pdf)")
 	(tags "Mini-Circuits QQQ130")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8e7ee3cc-de47-4165-b459-2036c9642807")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -102,7 +92,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "0896e7c0-4207-447c-a2e2-cf13ef0927d6")
 	)
@@ -210,40 +200,41 @@
 	(pad "1" smd rect
 		(at -2.54 -3.81)
 		(size 1.524 3.048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1ab72782-6ca2-4ee0-99ab-77de2ea571f6")
 	)
 	(pad "2" smd rect
 		(at 0 -3.81)
 		(size 1.524 3.048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ce89bf1e-10d8-407c-8d32-d7fd3ce31117")
 	)
 	(pad "3" smd rect
 		(at 2.54 -3.81)
 		(size 1.524 3.048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e516f0a2-5919-4879-bacc-bd4a7cce7c2d")
 	)
 	(pad "4" smd rect
 		(at 2.54 3.81)
 		(size 1.524 3.048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "64d05470-b9da-45f2-97a4-8222e735e98c")
 	)
 	(pad "5" smd rect
 		(at 0 3.81)
 		(size 1.524 3.048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f2da6759-bcc8-40c4-b6c1-4dbf230f5c3b")
 	)
 	(pad "6" smd rect
 		(at -2.54 3.81)
 		(size 1.524 3.048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b6868618-520f-43f3-a0f1-54a63c92d470")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_QQQ130.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_QQQ130.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "EA_eDIP160-XXX"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LCD-graphical display with LED backlight 160x104 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip160-7e.pdf")
 	(tags "LCD-graphical display with LED backlight 160x104 RS-232 I2C or SPI")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0a3e4770-7bbf-4e03-894b-d6dfdbc53c26")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -635,7 +625,8 @@
 		(remove_unused_layers no)
 		(uuid "acac49f6-b599-47a6-bb7c-751e61d11a40")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/EA_eDIP160-XXX.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display.3dshapes/EA_eDIP160-XXX.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

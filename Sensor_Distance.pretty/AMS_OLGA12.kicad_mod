@@ -1,7 +1,7 @@
 (footprint "AMS_OLGA12"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TMF8820/1/8 distance sensor")
 	(tags "TMF8820 TMF8821 TMF8828 ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "94807fc2-94b4-4135-9bb2-9b220669c4ac")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "2872420e-68c8-4fbf-859c-5625f54ba14e")
 	)
@@ -103,7 +93,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "44eca577-a386-41fa-affa-39bffe8efe02")
 	)
@@ -114,7 +104,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "1eb9723d-44e8-4f72-8392-5f00cc781b95")
 	)
@@ -125,7 +115,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "ba00ad27-9b7e-462f-92c3-e91c1a68b85d")
 	)
@@ -136,7 +126,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "c867f3ec-eaa1-4520-bd11-729e5dca1156")
 	)
@@ -147,7 +137,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "bfc34f08-4337-4827-9880-08cce7b65aea")
 	)
@@ -215,7 +205,7 @@
 	(pad "1" smd roundrect
 		(at -2.05 -0.675 270)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.28)
 		(chamfer top_right)
@@ -225,7 +215,7 @@
 	(pad "2" smd roundrect
 		(at -1.23 -0.675 270)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "e3954ca0-32de-4d2c-b479-2cf882f6103d")
@@ -233,7 +223,7 @@
 	(pad "3" smd roundrect
 		(at -0.41 -0.675 270)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "dad5aebb-eed2-4df7-8fb9-3741a72aaa9a")
@@ -241,7 +231,7 @@
 	(pad "4" smd roundrect
 		(at 0.41 -0.675 270)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "a265b437-f1d8-496e-b8fa-1f65b4e1bd96")
@@ -249,7 +239,7 @@
 	(pad "5" smd roundrect
 		(at 1.23 -0.675 270)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "dafb00a5-cc00-4ec3-90d3-8c81c557dc7e")
@@ -257,7 +247,7 @@
 	(pad "6" smd roundrect
 		(at 2.05 -0.675 270)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "3decba78-ce4c-45e6-9ea6-815dd3faaaf4")
@@ -265,7 +255,7 @@
 	(pad "7" smd roundrect
 		(at 2.05 0.635 270)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "8684c542-e3d3-49ac-a466-dc2dd6965d3b")
@@ -273,7 +263,7 @@
 	(pad "8" smd roundrect
 		(at 1.23 0.635 270)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "a1c4cf92-fb08-4b0d-bdb7-59ed4fc6b33a")
@@ -281,7 +271,7 @@
 	(pad "9" smd roundrect
 		(at 0.41 0.635 270)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "4f467935-b6d2-42c8-b824-a4cc3e184dd7")
@@ -289,7 +279,7 @@
 	(pad "10" smd roundrect
 		(at -0.41 0.635 270)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "5a18e0b1-5692-44a8-82b8-3c8537cdf523")
@@ -297,7 +287,7 @@
 	(pad "11" smd roundrect
 		(at -1.23 0.635 270)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "be45d97e-3a89-4ce3-8e15-8ab23997040e")
@@ -305,12 +295,13 @@
 	(pad "12" smd roundrect
 		(at -2.05 0.635 270)
 		(size 0.5 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "5360748d-a66a-4c00-90ff-dde10a4247d8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Distance.3dshapes/AMS_OLGA12.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Distance.3dshapes/AMS_OLGA12.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

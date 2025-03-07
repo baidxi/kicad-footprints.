@@ -1,7 +1,7 @@
 (footprint "SW_SPST_TL3305A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf")
 	(tags "TL3305 Series Tact Switch")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3649b3b0-534c-4625-8002-cedf249c6517")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -391,7 +381,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "36884b29-5f9f-4f58-a174-27c7c273f15c")
 	)
@@ -409,28 +399,29 @@
 	(pad "1" smd rect
 		(at -3.6 -1.5)
 		(size 1.6 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "569793e8-7e6a-482b-b641-9c7db28d3f96")
 	)
 	(pad "1" smd rect
 		(at 3.6 -1.5)
 		(size 1.6 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "433423e4-e809-410d-91f4-7771016ca007")
 	)
 	(pad "2" smd rect
 		(at -3.6 1.5)
 		(size 1.6 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "85025d30-9283-49ef-ae46-f9f093eb95a7")
 	)
 	(pad "2" smd rect
 		(at 3.6 1.5)
 		(size 1.6 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "32d1a7d2-b453-464e-9870-65426468157c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_TL3305A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_TL3305A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

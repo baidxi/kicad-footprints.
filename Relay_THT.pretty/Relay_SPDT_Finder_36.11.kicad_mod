@@ -1,7 +1,7 @@
 (footprint "Relay_SPDT_Finder_36.11"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "FINDER 36.11, SPDT relay, 10A, https://cdn.findernet.com/app/uploads/S36EN.pdf")
 	(tags "spdt relay")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "631ea186-ec2d-40bc-8610-246c2d4f5b84")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -385,7 +375,7 @@
 		(uuid "e837ae5e-0550-443f-b937-c7286df7d5c1")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.975 6.199999 -90)
+		(at 5.975 6.199999 270)
 		(layer "F.Fab")
 		(uuid "c92edba0-23dc-4c36-af3b-a2d41c6f769d")
 		(effects
@@ -437,7 +427,8 @@
 		(remove_unused_layers no)
 		(uuid "ecd42e64-e421-4f65-a38d-aeb95c4ffc05")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Finder_36.11.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Finder_36.11.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

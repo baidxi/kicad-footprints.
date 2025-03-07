@@ -1,7 +1,7 @@
 (footprint "Pulse_PA3493NL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMT Gate Drive Transformer, 1.25:1, 10.9x9.7x2.7mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)")
 	(tags "pulse pa3493nl")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d2668cc0-71d4-44a6-bbe9-aa2dad78f12a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -332,7 +322,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "48d9d428-c23c-4393-8dc0-fba7b2e53848")
 	)
@@ -670,28 +660,29 @@
 	(pad "1" smd rect
 		(at -4.32 -3.81)
 		(size 1.27 2.03)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8a70be78-28c0-4d55-a5b1-2d56f0a9aa65")
 	)
 	(pad "3" smd rect
 		(at -4.32 3.81)
 		(size 1.27 2.03)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eaae7ffd-8178-462d-9b45-c1bc92a84f28")
 	)
 	(pad "4" smd rect
 		(at 4.32 3.81)
 		(size 1.27 2.03)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2a6c67e0-2522-4a44-b536-7393e913b949")
 	)
 	(pad "6" smd rect
 		(at 4.32 -3.81)
 		(size 1.27 2.03)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a14bc48c-5043-44b1-8c2d-e5c62bbe8329")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transformer_SMD.3dshapes/Pulse_PA3493NL.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_SMD.3dshapes/Pulse_PA3493NL.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

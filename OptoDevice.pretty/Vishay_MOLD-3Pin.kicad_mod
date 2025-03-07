@@ -1,7 +1,7 @@
 (footprint "Vishay_MOLD-3Pin"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "IR Receiver Vishay TSOP-xxxx, MOLD package, see https://www.vishay.com/docs/82669/tsop32s40f.pdf")
 	(tags "IR Receiver Vishay TSOP-xxxx MOLD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0d7b4d85-949c-44f1-9149-b0ec7cb783d7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -252,7 +242,8 @@
 		(remove_unused_layers no)
 		(uuid "310dca9c-f99b-4682-92d8-2961e62d8ad7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Vishay_MOLD-3Pin.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Vishay_MOLD-3Pin.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

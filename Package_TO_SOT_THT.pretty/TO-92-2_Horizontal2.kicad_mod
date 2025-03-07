@@ -1,7 +1,7 @@
 (footprint "TO-92-2_Horizontal2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "2-pin TO-92 horizontal, leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
 	(tags "to-92 sc-43 sc-43a sot54 PA33 temperature sensor diode")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1a9a5ed5-79fa-4290-b381-7b4e74a3a655")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -251,7 +241,8 @@
 		(remove_unused_layers no)
 		(uuid "d74c5fa6-02d2-4038-9382-da0757cf18ce")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92-2_Horizontal2.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92-2_Horizontal2.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

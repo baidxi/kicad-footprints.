@@ -1,7 +1,7 @@
 (footprint "USB_Micro-B_XKB_U254-051T-4BH83-F1S"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "XKB Connectivity, USB Micro-B, right-angle, SMT, https://datasheet.lcsc.com/lcsc/2206091745_XKB-Connectivity-U254-051T-4BH83-F1S_C397452.pdf")
 	(tags "USB Micro-B Receptacle SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "319b17db-8ca4-4afb-9923-c5b7aa06ad91")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -264,37 +254,37 @@
 	(pad "1" smd rect
 		(at -1.3 -2.285)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b89fb75f-2e0d-4e9e-9382-0a042858cd8a")
 	)
 	(pad "2" smd rect
 		(at -0.65 -2.285)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e4c73d6c-8673-42c3-8298-035272d014fe")
 	)
 	(pad "3" smd rect
 		(at 0 -2.285)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "12f88356-523b-4719-816b-6e1f2c771e57")
 	)
 	(pad "4" smd rect
 		(at 0.65 -2.285)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2d9fbacb-58e2-4f50-9e2a-7db7ab7af05b")
 	)
 	(pad "5" smd rect
 		(at 1.3 -2.285)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cc446331-c6a1-40ae-9262-2967d0aec6be")
 	)
 	(pad "6" smd custom
 		(at -3.1 -2.16)
 		(size 1 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -315,6 +305,7 @@
 		(at -2.825 0.39)
 		(size 1 1.7)
 		(drill oval 0.5 1.2)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "cc82b8ad-801a-4f35-85cd-b8698f276902")
@@ -322,19 +313,20 @@
 	(pad "6" smd rect
 		(at -1.2 0.39)
 		(size 1.9 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5f091db5-9c63-4a6b-8288-76858457472a")
 	)
 	(pad "6" smd rect
 		(at 1.2 0.39)
 		(size 1.9 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7f752c6e-a86a-41b2-999c-a0148df8f193")
 	)
 	(pad "6" thru_hole oval
 		(at 2.825 0.39)
 		(size 0.85 1.7)
 		(drill oval 0.5 1.2)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "ed5379de-71af-4540-9146-f9f88938f968")
@@ -342,7 +334,7 @@
 	(pad "6" smd custom
 		(at 3.1 -2.16)
 		(size 1 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -359,7 +351,8 @@
 		)
 		(uuid "28e1d8e7-5f78-4c84-b432-34424d880a4e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_XKB_U254-051T-4BH83-F1S.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_XKB_U254-051T-4BH83-F1S.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

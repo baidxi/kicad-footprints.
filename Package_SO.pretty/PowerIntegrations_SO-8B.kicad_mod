@@ -1,7 +1,7 @@
 (footprint "PowerIntegrations_SO-8B"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Power-Integrations variant of 8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC], see https://www.mouser.com/ds/2/328/linkswitch-pl_family_datasheet-12517.pdf")
 	(tags "SOIC 1.27")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "df14ebf9-4a8f-4ee3-ad5e-469bc749b179")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "32714462-a7b2-46da-8f30-3565a39083b3")
 	)
@@ -200,46 +190,47 @@
 	(pad "1" smd rect
 		(at -2.45 -1.905)
 		(size 2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "35afd705-4839-4968-b36e-6dd2a7e11a2e")
 	)
 	(pad "2" smd rect
 		(at -2.45 -0.635)
 		(size 2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5cf4a449-31fa-40c7-a6fe-70550c80d79d")
 	)
 	(pad "3" smd rect
 		(at -2.45 0.635)
 		(size 2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9ca2331c-896d-47ee-a263-c8dfb5ec8657")
 	)
 	(pad "4" smd rect
 		(at -2.45 1.905)
 		(size 2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "de6ce286-ac7e-4a86-8448-2e955b19ddc6")
 	)
 	(pad "5" smd rect
 		(at 2.45 1.905)
 		(size 2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1dd06cc0-9afd-4ecf-9bf2-6ded1ab2d775")
 	)
 	(pad "7" smd rect
 		(at 2.45 -0.635)
 		(size 2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "075445bc-39bc-4137-a44f-361b9957dcad")
 	)
 	(pad "8" smd rect
 		(at 2.45 -1.905)
 		(size 2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "094e1ebf-2c29-4715-8d77-8e71d488fb2a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/PowerIntegrations_SO-8B.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/PowerIntegrations_SO-8B.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "SW_MEC_5GSH9"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "MEC 5G single pole normally-open tactile switch")
 	(tags "switch normally-open pushbutton push-button")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6c8c8b2f-b052-4c42-bcd0-c9a22a7a99aa")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -231,7 +221,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "cf5869df-f379-4e4f-8f03-f1df21e5ede1")
 	)
@@ -249,28 +239,29 @@
 	(pad "1" smd rect
 		(at -3.81 -6.25 90)
 		(size 2.5 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1ba006ef-f3bf-4214-91cd-9930d4d20bf5")
 	)
 	(pad "2" smd rect
 		(at -3.81 6.25 90)
 		(size 2.5 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3ffee719-c9bf-4d3a-9b07-eacf0fd10d4d")
 	)
 	(pad "3" smd rect
 		(at 3.81 -6.25 90)
 		(size 2.5 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6fd0322e-72b8-449e-9285-314bb8b3f15a")
 	)
 	(pad "4" smd rect
 		(at 3.81 6.25 90)
 		(size 2.5 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5701f01f-35a7-4872-bf4a-3ba6cccc1a93")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_MEC_5GSH9.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_MEC_5GSH9.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

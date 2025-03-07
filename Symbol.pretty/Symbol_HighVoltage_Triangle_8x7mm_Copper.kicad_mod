@@ -1,7 +1,7 @@
 (footprint "Symbol_HighVoltage_Triangle_8x7mm_Copper"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "High voltage symbol, in triangle, 8x7mm, copper layer")
 	(tags "warning graphic")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" "Symbol_HighVoltage_Triangle_8x7mm_Copper"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "658effcc-6515-45f1-ae10-b98671cea1ba")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -166,8 +156,9 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Cu")
 		(uuid "4f976257-07f6-49bb-b01b-f1e4c9bc444a")
 	)
+	(embedded_fonts no)
 )

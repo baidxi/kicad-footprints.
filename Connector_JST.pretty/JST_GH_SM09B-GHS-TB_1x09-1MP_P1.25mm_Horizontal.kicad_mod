@@ -1,7 +1,7 @@
 (footprint "JST_GH_SM09B-GHS-TB_1x09-1MP_P1.25mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "JST GH series connector, SM09B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf), generated with kicad-footprint-generator")
 	(tags "connector JST GH horizontal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1e03cc0a-1b17-475c-a9b6-9cbd460bb3bc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -238,81 +228,82 @@
 	(pad "1" smd roundrect
 		(at -5 -1.85)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3a69331c-0efb-4859-8fc1-8b1d286839f3")
 	)
 	(pad "2" smd roundrect
 		(at -3.75 -1.85)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7f199929-e2f4-4e0b-b207-4af9ff4fbab9")
 	)
 	(pad "3" smd roundrect
 		(at -2.5 -1.85)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8a929738-6bd5-468c-8017-457f41e25e1c")
 	)
 	(pad "4" smd roundrect
 		(at -1.25 -1.85)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "684a7151-2263-4fcb-af87-63f99cf01b49")
 	)
 	(pad "5" smd roundrect
 		(at 0 -1.85)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "efb308f5-3dcd-4b67-b689-3fa7e49f6018")
 	)
 	(pad "6" smd roundrect
 		(at 1.25 -1.85)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b93dc316-bc9d-46e9-a41e-58d453a0755e")
 	)
 	(pad "7" smd roundrect
 		(at 2.5 -1.85)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "baeb6ea2-7372-43f0-a029-1379afa1a022")
 	)
 	(pad "8" smd roundrect
 		(at 3.75 -1.85)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "dc217989-86cc-47e1-ad79-6c9e1eccb0b6")
 	)
 	(pad "9" smd roundrect
 		(at 5 -1.85)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c72ea752-b7f8-48c6-a6fc-e733eef5c0b5")
 	)
 	(pad "MP" smd roundrect
 		(at -6.85 1.35)
 		(size 1 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7c69fe78-6b6d-4a62-9f52-09117ecb1994")
 	)
 	(pad "MP" smd roundrect
 		(at 6.85 1.35)
 		(size 1 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4be6b0b5-13a4-42d3-88a9-f7e3f541409a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM09B-GHS-TB_1x09-1MP_P1.25mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM09B-GHS-TB_1x09-1MP_P1.25mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "D_MicroSMP_AK"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode MicroSMP (DO-219AD), large-pad cathode, https://www.vishay.com/docs/89020/mss1p3l.pdf")
 	(tags "Diode MicroSMP (DO-219AD)")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c93d83a9-d2ee-4ed7-bad6-732e8a36f396")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -173,7 +163,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c42efe25-758d-4152-a871-d524174a6e8b")
 	)
@@ -185,7 +175,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e3cde89a-41b4-4f55-97ee-47636b5c71ae")
 	)
@@ -204,16 +194,17 @@
 	(pad "1" smd rect
 		(at -0.88 0)
 		(size 2 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "04d96c6c-b901-4410-a28d-d95249196be2")
 	)
 	(pad "2" smd rect
 		(at 1.02 0)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7957993b-0ffb-46fe-9fb4-276f95980843")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MicroSMP_AK.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MicroSMP_AK.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "L_Neosid_Ms85T"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Neosid, Ms85, Ms85T, SMD Inductor, Fixed inductor, SMD, https://neosid.de/import-data/product-pdf/neoFestind_Ms85T.pdf")
 	(tags "Neosid Ms85 Ms85T SMD Inductor Fixed inductor SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b75d6bdf-902b-412a-98ee-f9b5267debcf")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -278,16 +268,17 @@
 	(pad "1" smd rect
 		(at -3.4 0)
 		(size 2.25 4.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3c2b0240-920a-4913-b07f-2eef08a20e61")
 	)
 	(pad "2" smd rect
 		(at 3.4 0)
 		(size 2.25 4.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0ee46e5a-fd78-4550-ad07-0cecfa4805f0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_Ms85T.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_Ms85T.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

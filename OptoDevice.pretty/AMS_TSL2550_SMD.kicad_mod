@@ -1,7 +1,7 @@
 (footprint "AMS_TSL2550_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://ams.com/eng/content/download/250130/975613/142977")
 	(tags "TSL2550 ambient light sensor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "646eade0-3b78-4609-9c37-9a20e6628b84")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "11c742c1-5529-4d40-8283-3f4b87d8e3b5")
 	)
@@ -200,32 +190,33 @@
 	(pad "1" smd roundrect
 		(at -1.45 -0.75)
 		(size 0.9 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "23754fd6-2822-45a4-bd92-81a4b14407bb")
 	)
 	(pad "2" smd roundrect
 		(at -1.45 0.75)
 		(size 0.9 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4712952b-be99-4d8c-b7e5-419eb8335dfb")
 	)
 	(pad "3" smd roundrect
 		(at 1.45 0.75)
 		(size 0.9 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "695a2571-b11d-4e8a-9d6d-da36d9b2a199")
 	)
 	(pad "4" smd roundrect
 		(at 1.45 -0.75)
 		(size 0.9 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "479eece4-7773-4457-8409-e6590f7aaa55")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/AMS_TSL2550_SMD.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/AMS_TSL2550_SMD.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

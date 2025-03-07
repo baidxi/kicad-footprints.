@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Keystone_2468_2xAAA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "2xAAA cell battery holder, Keystone P/N 2468, http://www.keyelco.com/product-pdf.cfm?p=1033")
 	(tags "AAA battery cell holder")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7ae418bb-f366-4e9b-9dd6-23d916688cdb")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -711,7 +701,8 @@
 		(remove_unused_layers no)
 		(uuid "1742149b-7c8d-4018-a557-72c11ea2065b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_2468_2xAAA.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_2468_2xAAA.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

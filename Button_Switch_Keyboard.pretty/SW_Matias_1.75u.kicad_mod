@@ -1,7 +1,7 @@
 (footprint "SW_Matias_1.75u"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Matias/ALPS keyswitch, 1.75u, http://matias.ca/switches/")
 	(tags "Matias ALPS keyswitch 1.75u")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d31fdb8b-08bd-44ce-be7a-61fdd98fd30a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -251,7 +241,8 @@
 		(remove_unused_layers no)
 		(uuid "4d62b60c-48e6-43ea-9720-e28b976f82c8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Matias_1.75u.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Matias_1.75u.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

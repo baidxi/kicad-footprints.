@@ -1,7 +1,7 @@
 (footprint "RC1602A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.raystar-optronics.com/down.php?ProID=18")
 	(tags "LCD 16x2 Alphanumeric 16pin")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dbb9f213-053e-47f2-b27b-60a348ce927c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -771,7 +761,8 @@
 		(remove_unused_layers no)
 		(uuid "08114adf-3dc6-4ab4-8a04-ff8a260817b0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/RC1602A.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display.3dshapes/RC1602A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

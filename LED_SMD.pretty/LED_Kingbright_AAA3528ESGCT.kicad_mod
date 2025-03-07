@@ -1,7 +1,7 @@
 (footprint "LED_Kingbright_AAA3528ESGCT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Kingbright, dual LED, 3.5 x 2.8 mm Surface Mount LED Lamp (http://www.kingbrightusa.com/images/catalog/SPEC/AAA3528ESGCT.pdf)")
 	(tags "dual led smd")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5cf27097-3b29-4d6d-a572-a074ef5eadb8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,30 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -2 -1.51)
-		(end 1.71 -1.51)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f39afc18-b7c7-4b28-8283-0e160f30e041")
-	)
-	(fp_line
-		(start -1.71 -0.095)
-		(end -1.71 0.095)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "79e59b5c-5fa0-4e53-87fb-c394ffd7384e")
-	)
 	(fp_line
 		(start -1.71 1.355)
 		(end -1.71 1.51)
@@ -105,6 +75,16 @@
 		(uuid "f342ba5e-2d33-4051-9833-defd0c78743c")
 	)
 	(fp_line
+		(start -1.3 -1.51)
+		(end 1.71 -1.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f39afc18-b7c7-4b28-8283-0e160f30e041")
+	)
+	(fp_line
 		(start 1.71 -1.355)
 		(end 1.71 -1.51)
 		(stroke
@@ -115,16 +95,6 @@
 		(uuid "75898637-4440-426b-b2a1-3f2eeb599c21")
 	)
 	(fp_line
-		(start 1.71 -0.095)
-		(end 1.71 0.095)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "709b50d1-b3e1-4494-a262-70512340e647")
-	)
-	(fp_line
 		(start 1.71 1.355)
 		(end 1.71 1.51)
 		(stroke
@@ -133,6 +103,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "32300641-ac7a-403d-a0da-b1b4b170ec14")
+	)
+	(fp_poly
+		(pts
+			(xy -1.7 -1.4) (xy -1.94 -1.73) (xy -1.46 -1.73) (xy -1.7 -1.4)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "540dd629-8a15-4cf1-a9f1-ee264ed57a88")
 	)
 	(fp_line
 		(start -2.25 -1.65)
@@ -238,28 +220,29 @@
 	(pad "1" smd rect
 		(at -1.4 -0.725)
 		(size 1.2 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9ed53331-8e87-42d3-ae91-2bad7e911a5a")
 	)
 	(pad "2" smd rect
 		(at 1.4 -0.725)
 		(size 1.2 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "09a6cd7f-fc0a-459b-a795-1fb5b3544c79")
 	)
 	(pad "3" smd rect
 		(at 1.4 0.725)
 		(size 1.2 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "54d9a1b3-a688-49e8-a944-8ccef590822a")
 	)
 	(pad "4" smd rect
 		(at -1.4 0.725)
 		(size 1.2 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "74f17eda-9c6c-4698-b56c-090864f82dc3")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Kingbright_AAA3528ESGCT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Kingbright_AAA3528ESGCT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

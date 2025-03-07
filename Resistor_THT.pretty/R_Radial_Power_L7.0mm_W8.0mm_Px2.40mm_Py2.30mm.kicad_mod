@@ -1,7 +1,7 @@
 (footprint "R_Radial_Power_L7.0mm_W8.0mm_Px2.40mm_Py2.30mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Resistor, Radial_Power series, Radial, pin pitch=2.40*2.30mm^2, 7W, length*width=7*8mm^2, http://www.vitrohm.com/content/files/vitrohm_series_kv_-_201601.pdf")
 	(tags "Resistor Radial_Power series Radial pin pitch 2.40*2.30mm^2 7W length 7mm width 8mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "10c57ec3-2b36-4519-a06e-929d34449346")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -221,7 +211,8 @@
 		(remove_unused_layers no)
 		(uuid "ae52f4ff-5cdb-4e81-8902-777fca7345b6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Radial_Power_L7.0mm_W8.0mm_Px2.40mm_Py2.30mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Radial_Power_L7.0mm_W8.0mm_Px2.40mm_Py2.30mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

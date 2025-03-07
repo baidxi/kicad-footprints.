@@ -1,7 +1,7 @@
 (footprint "Nidec_Copal_SH-7010B"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "4-bit rotary coded switch, gull wing, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf")
 	(tags "rotary switch bcd")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f39d62a7-f927-430b-959e-07b9ae984a5e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -288,40 +278,41 @@
 	(pad "1" smd rect
 		(at -4 -2.54)
 		(size 3 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f5519cb4-891a-4d44-bcf5-214752117d34")
 	)
 	(pad "2" smd rect
 		(at 4 2.54)
 		(size 3 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f14bb4ef-adf9-49ab-b66a-2279de964e58")
 	)
 	(pad "4" smd rect
 		(at -4 2.54)
 		(size 3 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4be1be59-191f-4e68-88ec-9dc9ef6dd51c")
 	)
 	(pad "8" smd rect
 		(at 4 -2.54)
 		(size 3 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1e9d6222-8244-40aa-a50c-83ec719c089b")
 	)
 	(pad "C" smd rect
 		(at -4 0)
 		(size 3 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ba10a66b-3314-4227-9208-8dbde55ee68b")
 	)
 	(pad "C" smd rect
 		(at 4 0)
 		(size 3 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "33595d2a-03dd-4e53-a6af-7b70cbf6828b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/Nidec_Copal_SH-7010B.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/Nidec_Copal_SH-7010B.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

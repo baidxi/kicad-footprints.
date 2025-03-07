@@ -1,7 +1,7 @@
 (footprint "Fairchild_LSOP-8"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "8-Lead, 300\\\" Wide, Surface Mount Package (https://www.fairchildsemi.com/package-drawings/ML/MLSOP08A.pdf)")
 	(tags "LSOP 2.54mm 300mil")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b01b1afc-bce1-4b35-90b7-aba058921916")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -232,19 +222,19 @@
 		(drill
 			(offset 0 0.266)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "21e4320f-346c-4087-b38b-18e42ca42ee7")
 	)
 	(pad "2" smd rect
 		(at -4.35 -1.27)
 		(size 2 1.784)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dcc1f79b-346f-43bd-9906-46dde3ebe28e")
 	)
 	(pad "3" smd rect
 		(at -4.35 1.27)
 		(size 2 1.784)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "238b1381-e64b-4db0-9f11-fc8e30d2d216")
 	)
 	(pad "4" smd rect
@@ -253,7 +243,7 @@
 		(drill
 			(offset 0 -0.266)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "be57fdf8-ea1c-4552-a2c9-5fa478db4a9b")
 	)
 	(pad "5" smd rect
@@ -262,19 +252,19 @@
 		(drill
 			(offset 0 -0.266)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4776bfd2-0316-4272-80ae-53278634776d")
 	)
 	(pad "6" smd rect
 		(at 4.35 1.27)
 		(size 2 1.784)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5f6b019a-c1be-42a7-9c72-031d846cb9c5")
 	)
 	(pad "7" smd rect
 		(at 4.35 -1.27)
 		(size 2 1.784)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8328c45b-fde8-4d71-bd41-330a42a08b30")
 	)
 	(pad "8" smd rect
@@ -283,10 +273,11 @@
 		(drill
 			(offset 0 0.266)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "450c2325-7217-4cc7-bead-71b1a6873443")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/Fairchild_LSOP-8.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/Fairchild_LSOP-8.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

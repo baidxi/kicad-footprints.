@@ -1,7 +1,7 @@
 (footprint "L_CommonModeChoke_Wuerth_WE-SL5"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "WE-SL5 SMT Common Mode Line Filter, 9.5x8.3mm, height 5mm, https://www.we-online.com/components/products/datasheet/744273222.pdf")
 	(tags "SMT Common Mode Line Filter")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "095e8b8b-6ab0-40cb-a696-ef7b2f6726e3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -228,32 +218,33 @@
 	(pad "1" smd roundrect
 		(at -3.8 -3.1 180)
 		(size 2.7 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.09259259259)
 		(uuid "c39a8b76-57bb-4271-82f7-118cff68464f")
 	)
 	(pad "2" smd roundrect
 		(at -3.8 3.1 180)
 		(size 2.7 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.09259259259)
 		(uuid "53747f4b-b839-42e2-8711-2f83cf7b741a")
 	)
 	(pad "3" smd roundrect
 		(at 3.8 3.1 180)
 		(size 2.7 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.09259259259)
 		(uuid "1d655a06-5a60-4b79-8c71-f9e76530c19d")
 	)
 	(pad "4" smd roundrect
 		(at 3.8 -3.1 180)
 		(size 2.7 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.09259259259)
 		(uuid "655ed453-bbb1-41c5-bb12-4459044097ca")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonModeChoke_Wuerth_WE-SL5.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonModeChoke_Wuerth_WE-SL5.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "RV_Disc_D16.5mm_W6.7mm_P7.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Varistor, diameter 16.5mm, width 6.7mm, pitch 5mm, https://katalog.we-online.de/pbs/datasheet/820542711.pdf")
 	(tags "varistor SIOV")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b0bbaab6-da0a-4653-b1f4-1aa3575346fe")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -211,7 +201,8 @@
 		(remove_unused_layers no)
 		(uuid "3757572f-5bea-4f7f-87e2-bc05833c41cd")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D16.5mm_W6.7mm_P7.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D16.5mm_W6.7mm_P7.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

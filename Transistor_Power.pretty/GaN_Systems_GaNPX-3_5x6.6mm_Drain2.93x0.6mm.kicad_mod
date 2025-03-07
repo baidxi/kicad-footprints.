@@ -1,7 +1,7 @@
 (footprint "GaN_Systems_GaNPX-3_5x6.6mm_Drain2.93x0.6mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "GaN Systems GaNPX GS66502B Package, https://gansystems.com/wp-content/uploads/2020/04/GS66502B-DS-Rev-200402.pdf")
 	(tags "ganpx gs66502b")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c1baf499-34cc-4c49-b6d3-3ab3a851fd28")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,7 +102,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c89fbf25-3318-4508-8291-00eec71477a0")
 	)
@@ -208,14 +198,14 @@
 	(pad "1" smd roundrect
 		(at 0.41 -2.91)
 		(size 2.93 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "480f3f33-f186-45fc-b83d-d987ef6b437a")
 	)
 	(pad "2" smd roundrect
 		(at -2.13 1.81)
 		(size 0.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "00b71cb3-2a5d-46a4-b44f-b4c0f67004d9")
 	)
@@ -226,7 +216,8 @@
 		(roundrect_rratio 0.08143322476)
 		(uuid "9f79dba6-712a-4011-9450-27ecc7c93606")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transistor_Power.3dshapes/GaN_Systems_GaNPX-3_5x6.6mm_Drain2.93x0.6mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transistor_Power.3dshapes/GaN_Systems_GaNPX-3_5x6.6mm_Drain2.93x0.6mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

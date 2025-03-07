@@ -1,7 +1,7 @@
 (footprint "Texas_DSBGA-16_2.39x2.39mm_Layout4x4_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments, DSBGA, area grid, YZF, YZF0016, 2.39x2.39mm, 16 Ball, 4x4 Layout, 0.5mm Pitch, https://www.ti.com/lit/ds/symlink/dac80508.pdf")
 	(tags "BGA 16 0.5")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fb3c5677-f8f7-492d-a6ea-8f65820f0996")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -113,7 +103,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c3a051a7-2fd6-4151-bb8b-776d701e8883")
 	)
@@ -442,7 +432,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "e2dc8aa7-8840-497e-b80a-f937349ebeaa")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-16_2.39x2.39mm_Layout4x4_P0.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-16_2.39x2.39mm_Layout4x4_P0.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

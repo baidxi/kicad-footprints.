@@ -1,7 +1,7 @@
 (footprint "D_PowerDI-123"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.diodes.com/_files/datasheets/ds30497.pdf")
 	(tags "PowerDI diode vishay")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "de55659c-31e0-49fa-959f-f93b58316d22")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -258,18 +248,19 @@
 	(pad "1" smd roundrect
 		(at -0.85 0 180)
 		(size 2.4 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(uuid "f053bb63-ed80-4085-ad09-dad4312e5e5b")
 	)
 	(pad "2" smd roundrect
 		(at 1.525 0 180)
 		(size 1.05 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2380952381)
 		(uuid "c5f78778-7c2b-43c5-86e6-513673237436")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_PowerDI-123.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_PowerDI-123.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

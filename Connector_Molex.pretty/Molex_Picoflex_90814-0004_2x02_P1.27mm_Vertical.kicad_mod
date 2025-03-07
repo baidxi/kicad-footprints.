@@ -1,7 +1,7 @@
 (footprint "Molex_Picoflex_90814-0004_2x02_P1.27mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Picoflex Ribbon-Cable Connectors, 90814-0004, 4 Pins (http://www.molex.com/pdm_docs/sd/908140004_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex Picoflex side entry")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6f9032ff-a965-4ecf-b2fc-a4c33a74adae")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -447,28 +437,29 @@
 	(pad "1" smd rect
 		(at -3 -1.91)
 		(size 2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "da09c946-e255-4d82-905f-d92ac4b3c68c")
 	)
 	(pad "2" smd rect
 		(at 3 -0.64)
 		(size 2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f0cdf172-8d6e-4d63-94c8-570287b36adc")
 	)
 	(pad "3" smd rect
 		(at -3 0.63)
 		(size 2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "76b968e7-c74c-4481-8051-1c3fcae081cf")
 	)
 	(pad "4" smd rect
 		(at 3 1.9)
 		(size 2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c3f6b6c8-029c-474f-a8de-04a58541aa3f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Picoflex_90814-0004_2x02_P1.27mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Picoflex_90814-0004_2x02_P1.27mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

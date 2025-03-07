@@ -1,10 +1,10 @@
 (footprint "SOT-363_SC-70-6"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "SOT-363, SC-70-6")
-	(tags "SOT-363 SC-70-6")
+	(descr "SOT-363, SC-70-6, SC-88")
+	(tags "SOT-363 SC-70-6 SC-88")
 	(property "Reference" "REF**"
 		(at 0 -2.25 0)
 		(layer "F.SilkS")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ea123479-e20d-420f-960a-b9c49cdfa91e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "8e3b1d50-fa65-427d-8a91-402a3ea0f1dc")
 	)
@@ -200,46 +190,47 @@
 	(pad "1" smd roundrect
 		(at -0.95 -0.65)
 		(size 0.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "28e708b8-d3c9-486e-884b-ca1b86dea289")
 	)
 	(pad "2" smd roundrect
 		(at -0.95 0)
 		(size 0.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "60822f64-2a21-4020-aefa-02ecd6127a3b")
 	)
 	(pad "3" smd roundrect
 		(at -0.95 0.65)
 		(size 0.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5dff1eb8-15d1-4564-b736-17c9de953d19")
 	)
 	(pad "4" smd roundrect
 		(at 0.95 0.65)
 		(size 0.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a748f67e-fe7f-4071-8955-824616328c92")
 	)
 	(pad "5" smd roundrect
 		(at 0.95 0)
 		(size 0.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ad12a386-7b9b-438c-8c2b-a6b004f1cc7d")
 	)
 	(pad "6" smd roundrect
 		(at 0.95 -0.65)
 		(size 0.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "097ac030-c735-4bb9-a2cc-54d24d45b532")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-363_SC-70-6.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-363_SC-70-6.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

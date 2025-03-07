@@ -1,7 +1,7 @@
 (footprint "Relay_StandexMeder_DIP_HighProfile"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 	(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6bd66f6f-03fd-4de6-b747-546d64864439")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -290,7 +280,8 @@
 		(remove_unused_layers no)
 		(uuid "ff75e508-a711-4457-9769-e86a993f0295")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_StandexMeder_DIP_HighProfile.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_StandexMeder_DIP_HighProfile.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

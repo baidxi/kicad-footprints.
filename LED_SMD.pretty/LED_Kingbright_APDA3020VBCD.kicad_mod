@@ -1,7 +1,7 @@
 (footprint "LED_Kingbright_APDA3020VBCD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LED, SMD, APDA3020VBC/D, https://www.kingbrightusa.com/images/catalog/SPEC/APDA3020VBC-D.pdf")
 	(tags "LED APDA3020VBC/D Kingbright ")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8d14c350-3d28-4464-9207-c51945b6e13d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -464,18 +454,19 @@
 	(pad "1" smd roundrect
 		(at -1.5 0)
 		(size 2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a788b178-ac3a-4b1f-82c2-171c634677f4")
 	)
 	(pad "2" smd roundrect
 		(at 1.5 0)
 		(size 2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "2e4b869c-f859-4570-b939-e02e0793da3b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Kingbright_APDA3020VBCD.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Kingbright_APDA3020VBCD.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

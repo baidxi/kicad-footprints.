@@ -1,7 +1,7 @@
 (footprint "Allegro_CB_PSF"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Allegro MicroSystems, CB-PSF Package (http://www.allegromicro.com/en/Products/Current-Sensor-ICs/Fifty-To-Two-Hundred-Amp-Integrated-Conductor-Sensor-ICs/ACS758.aspx)")
 	(tags "Allegro CB-PSF")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3487ad33-6716-48d9-a7b3-a1a14dc47c89")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -662,16 +652,17 @@
 	(pad "4" smd rect
 		(at 6.91 -24.6)
 		(size 5.5 12)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f61c43e1-bb58-46a2-8cdd-55ab727ef4f5")
 	)
 	(pad "5" smd rect
 		(at -3.09 -24.6)
 		(size 5.5 12)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "238be581-e641-4502-bb37-c4a5ae322784")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Current.3dshapes/Allegro_CB_PSF.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Current.3dshapes/Allegro_CB_PSF.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "SW_SPST_Omron_B3FS-100xP"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Surface Mount Tactile Switch for High-Density Mounting, 3.1mm height, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
 	(tags "Tactile Switch")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4084e264-d6f3-434d-bfa3-e264bd35c238")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -291,7 +281,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "bbdf72ea-e967-4113-8771-312cb6982a19")
 	)
@@ -309,28 +299,29 @@
 	(pad "1" smd rect
 		(at -4 -2.25 180)
 		(size 1.6 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f4e40e0f-7a74-4349-ba5e-ed5007b01b71")
 	)
 	(pad "1" smd rect
 		(at 4 -2.25 180)
 		(size 1.6 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "38c407ac-d288-4a4f-865d-eaaa7093f779")
 	)
 	(pad "2" smd rect
 		(at -4 2.25 180)
 		(size 1.6 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1c67d1a0-5545-4063-a771-96a4a30ad70e")
 	)
 	(pad "2" smd rect
 		(at 4 2.25 180)
 		(size 1.6 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2b2c973d-da98-4fce-99e8-9c8ae9a51382")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

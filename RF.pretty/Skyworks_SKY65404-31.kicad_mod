@@ -1,7 +1,7 @@
 (footprint "Skyworks_SKY65404-31"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.skyworksinc.com/uploads/documents/SKY65404_31_201512K.pdf")
 	(tags "Skyworks")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6111cc35-c807-4609-8522-0d35ec521ac3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "18de26eb-4b61-41b7-986c-859bef0de906")
 	)
@@ -187,7 +177,7 @@
 		(uuid "6e5ac1b1-79a2-4771-b9a1-76ae17dfdc2f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(uuid "1778c152-602c-4ddc-9f18-587b5deb2247")
 		(effects
@@ -200,49 +190,49 @@
 	(pad "1" smd roundrect
 		(at -0.725 -0.5)
 		(size 0.35 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "22768cfd-7357-4818-9da2-309040dc5e70")
 	)
 	(pad "2" smd roundrect
 		(at -0.725 0)
 		(size 0.35 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f43e1805-88c4-446b-b18c-50ceb8b805a4")
 	)
 	(pad "3" smd roundrect
 		(at -0.725 0.5)
 		(size 0.35 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7dfd6498-8f77-4626-8685-2cd58b3a9441")
 	)
 	(pad "4" smd roundrect
 		(at 0.725 0.5)
 		(size 0.35 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "393c8d8e-de48-4c99-954e-b2efc32dac74")
 	)
 	(pad "5" smd roundrect
 		(at 0.725 0)
 		(size 0.35 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "40f33930-8f65-4ac5-a3dd-d534261f107a")
 	)
 	(pad "6" smd roundrect
 		(at 0.725 -0.5)
 		(size 0.35 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "808f3e33-1c46-4106-9432-888c9b50fc3c")
 	)
 	(pad "7" smd custom
 		(at 0 0)
 		(size 0.35 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -260,7 +250,8 @@
 		)
 		(uuid "c62f4c3b-da05-4d21-ae04-056b9180213e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF.3dshapes/Skyworks_SKY65404-31.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF.3dshapes/Skyworks_SKY65404-31.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

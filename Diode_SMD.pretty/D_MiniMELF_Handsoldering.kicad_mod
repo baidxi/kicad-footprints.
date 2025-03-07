@@ -1,7 +1,7 @@
 (footprint "D_MiniMELF_Handsoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode Mini-MELF (SOD-80) Handsoldering")
 	(tags "Diode Mini-MELF (SOD-80) Handsoldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "96c12f98-016d-4a40-a73f-d739baef6ffa")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -258,18 +248,19 @@
 	(pad "1" smd roundrect
 		(at -2.75 0)
 		(size 3.3 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1470588235)
 		(uuid "063b31fd-35c0-4e51-a15b-d0c301e4e4c7")
 	)
 	(pad "2" smd roundrect
 		(at 2.75 0)
 		(size 3.3 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1470588235)
 		(uuid "49e377ea-5682-468c-aaa0-3a322aea124c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

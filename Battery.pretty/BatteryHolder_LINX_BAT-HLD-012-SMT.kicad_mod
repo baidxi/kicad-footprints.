@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_LINX_BAT-HLD-012-SMT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMT battery holder for CR1216/1220/1225, https://linxtechnologies.com/wp/wp-content/uploads/bat-hld-012-smt.pdf")
 	(tags "battery holder coin cell cr1216 cr1220 cr1225")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d4f1947d-c72b-4612-afb6-b5f918c9b049")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -616,7 +606,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8c128b3d-286a-42b7-8dc1-0dcc45e068b5")
 	)
@@ -634,13 +624,13 @@
 	(pad "1" smd rect
 		(at -7.6 0)
 		(size 2.5 5.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d2313279-6c73-4c17-9049-74cf3a87dd3c")
 	)
 	(pad "1" smd rect
 		(at 7.6 0)
 		(size 2.5 5.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "62584a88-748b-4949-b238-cc4e3f02c456")
 	)
 	(pad "2" smd circle
@@ -649,7 +639,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "fc5f2843-037d-4ed3-b475-9a273dfaa49c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_LINX_BAT-HLD-012-SMT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_LINX_BAT-HLD-012-SMT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

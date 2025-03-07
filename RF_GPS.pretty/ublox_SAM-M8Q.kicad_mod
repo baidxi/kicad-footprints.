@@ -1,7 +1,7 @@
 (footprint "ublox_SAM-M8Q"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "GPS Module, 15.5x15.5x6.3mm, https://www.u-blox.com/sites/default/files/SAM-M8Q_HardwareIntegrationManual_%28UBX-16018358%29.pdf")
 	(tags "ublox SAM-M8Q")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e58e35ab-e812-4cbc-b57b-a00af0433f60")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -123,7 +113,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "364b4f0c-d91f-4965-8220-1ff103484545")
 	)
@@ -922,7 +912,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "bc5e00f7-69cb-407b-bdbd-e39f99965cfd")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_GPS.3dshapes/ublox_SAM-M8Q.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_GPS.3dshapes/ublox_SAM-M8Q.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

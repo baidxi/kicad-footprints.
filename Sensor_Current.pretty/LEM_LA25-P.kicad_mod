@@ -1,7 +1,7 @@
 (footprint "LEM_LA25-P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LEM Current Transducer (https://www.lem.com/sites/default/files/products_datasheets/la_25-p.pdf)")
 	(tags "current transducer")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0f45e7bf-17dd-4132-8e3f-0e002d2d63da")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -319,7 +309,8 @@
 		(remove_unused_layers no)
 		(uuid "305b5fa9-57bd-45d6-affc-ae42d7c68b7b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Current.3dshapes/LEM_LA25-P.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Current.3dshapes/LEM_LA25-P.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

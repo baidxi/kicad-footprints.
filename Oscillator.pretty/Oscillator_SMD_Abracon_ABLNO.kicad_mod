@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_Abracon_ABLNO"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://abracon.com/Precisiontiming/ABLNO.pdf")
 	(tags "VCXO XO")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "820e61d0-a83c-44cf-a552-5251c80a97de")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -271,7 +261,7 @@
 		(drill
 			(offset 0 1.25)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "448f4dbb-6df4-4510-bc50-164b7bdc3578")
 	)
 	(pad "2" smd rect
@@ -280,7 +270,7 @@
 		(drill
 			(offset 0 1.25)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9413b22c-eac6-4c71-8941-de15fea207c7")
 	)
 	(pad "3" smd rect
@@ -289,7 +279,7 @@
 		(drill
 			(offset 0 -1.25)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0535f63c-e47b-4a0b-ad2f-8add9cd6967e")
 	)
 	(pad "4" smd rect
@@ -298,10 +288,11 @@
 		(drill
 			(offset 0 -1.25)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f8baae9c-19ee-4a3f-8f5e-47e4be8539b0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Abracon_ABLNO.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Abracon_ABLNO.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

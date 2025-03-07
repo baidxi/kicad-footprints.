@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "crystal Epson Toyocom TSX-3225 series https://support.epson.biz/td/api/doc_check.php?dl=brief_fa-238v_en.pdf, hand-soldering, 3.2x2.5mm^2 package")
 	(tags "SMD SMT crystal hand-soldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "943f69b4-ea1f-419b-9a84-ec5bfacebce9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -228,28 +218,29 @@
 	(pad "1" smd rect
 		(at -1.45 1.0875)
 		(size 2.1 1.725)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "99942a5d-1afc-4f4c-9b24-5ae572ceee93")
 	)
 	(pad "2" smd rect
 		(at 1.45 1.0875)
 		(size 2.1 1.725)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cb70e978-ca9e-4b8f-ae0c-ee15d9f7b925")
 	)
 	(pad "3" smd rect
 		(at 1.45 -1.0875)
 		(size 2.1 1.725)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cafc4521-e247-4c44-a6a1-83cd96e9cb15")
 	)
 	(pad "4" smd rect
 		(at -1.45 -1.0875)
 		(size 2.1 1.725)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "16dcb877-6d5a-44af-8d1d-d6f186110b86")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm_HandSoldering.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm_HandSoldering.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

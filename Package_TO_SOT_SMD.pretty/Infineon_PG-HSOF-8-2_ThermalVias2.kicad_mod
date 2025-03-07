@@ -1,7 +1,7 @@
 (footprint "Infineon_PG-HSOF-8-2_ThermalVias2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "HSOF-8-2 [TOLL] power MOSFET (http://www.infineon.com/cms/en/product/packages/PG-HSOF/PG-HSOF-8-2/, https://www.infineon.com/dgdl/Infineon-ApplicationNote_600V_CoolMOS_C7_Gold_TOLL-AN-v01_00-EN.pdf?fileId=5546d4625b10283a015b144a1af70df6)")
 	(tags "mosfet hsof toll thermal vias")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "83114ea7-3c95-4a0c-aa86-f62052582bb6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "3a1ef85c-9dc3-4001-9186-bfe6b1297f27")
 	)
@@ -1060,7 +1050,7 @@
 	(pad "4" smd custom
 		(at 3.75 0)
 		(size 2.8 8.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(options
@@ -1537,7 +1527,8 @@
 		(remove_unused_layers no)
 		(uuid "52c0657c-8f68-46ea-97f4-0e9de5609f88")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-2.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-2.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

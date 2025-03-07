@@ -1,7 +1,7 @@
 (footprint "Heatsink_Stonecold_HS-130_30x12mm_2xFixation2.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Heatsink, StoneCold HS, https://www.tme.eu/Document/da20d9b42617e16f6777c881dc9e3434/hs-130.pdf")
 	(tags "heatsink")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "08383307-2a10-4193-926b-8f0744e401f5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -728,7 +718,8 @@
 		(remove_unused_layers no)
 		(uuid "2e129035-b08c-446c-bd76-662214368a43")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

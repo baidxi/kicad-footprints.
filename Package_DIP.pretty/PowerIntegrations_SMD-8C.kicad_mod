@@ -1,7 +1,7 @@
 (footprint "PowerIntegrations_SMD-8C"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PowerIntegrations variant of 8-lead surface-mounted (SMD) DIP package, row spacing 7.62 mm (300 mils), see https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-iii_family_datasheet.pdf")
 	(tags "SMD DIP DIL PDIP SMDIP 2.54mm 7.62mm 300mil")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "811d5bb4-9fac-45b4-9378-c0d95f2bbf9c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -229,46 +219,47 @@
 	(pad "1" smd rect
 		(at -4.3 -3.81)
 		(size 2 1.17)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6dc0885b-ca68-4d76-b935-e2bab7508fcf")
 	)
 	(pad "2" smd rect
 		(at -4.3 -1.27)
 		(size 2 1.52)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0317186c-a749-4efb-ae82-aa592df002e9")
 	)
 	(pad "4" smd rect
 		(at -4.3 3.81)
 		(size 2 1.17)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "691b91db-aab8-46f8-9bc8-c2398f14ed2b")
 	)
 	(pad "5" smd rect
 		(at 4.3 3.81)
 		(size 2 1.17)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "06a702da-18f3-464b-ada6-4cba649f6b0d")
 	)
 	(pad "6" smd rect
 		(at 4.3 1.27)
 		(size 2 1.52)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6f936285-e8f4-4660-bc09-bead2f534ad6")
 	)
 	(pad "7" smd rect
 		(at 4.3 -1.27)
 		(size 2 1.52)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3b4688d4-49ea-4166-af65-d4d8e53d6a94")
 	)
 	(pad "8" smd rect
 		(at 4.3 -3.81)
 		(size 2 1.17)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c71cd6f8-ed82-4a6b-9268-c328ce688ca4")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/PowerIntegrations_SMD-8C.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/PowerIntegrations_SMD-8C.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

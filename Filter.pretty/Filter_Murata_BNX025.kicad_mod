@@ -1,7 +1,7 @@
 (footprint "Filter_Murata_BNX025"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.murata.com/en-us/products/productdata/8796778004510/QNFH9101.pdf?1496719830000")
 	(tags "EMI Filter")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e9059eeb-30a8-4649-b86a-0b043e307203")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -162,7 +152,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "f5a22ea9-3525-49e5-9ba3-46ee66a9789b")
 	)
@@ -270,43 +260,44 @@
 	(pad "1" smd rect
 		(at -6.85 -2.1)
 		(size 3.8 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "92b5f8cf-eca3-4ada-9604-dfa2e1b877e4")
 	)
 	(pad "2" smd rect
 		(at 6.85 -2.1)
 		(size 3.8 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "55f7f18f-d8ff-417b-a0b7-95b8e5d7e284")
 	)
 	(pad "3" smd rect
 		(at -6.85 2.2)
 		(size 3.8 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d702154e-c269-4c24-b210-f3e5c62841cc")
 	)
 	(pad "4" smd rect
 		(at 1 5.1)
 		(size 7.9 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "4c7213b5-6a43-4f6e-8c62-369f9bd7f820")
 	)
 	(pad "4" smd rect
 		(at 3.25 -5.1)
 		(size 3.4 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "70f1e8e3-c7b7-4080-9f48-7557506ed804")
 	)
 	(pad "4" smd rect
 		(at 6.85 2.2)
 		(size 3.8 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "21d56c03-1470-4eae-809b-c3d3660fa979")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Filter.3dshapes/Filter_Murata_BNX025.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_Murata_BNX025.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

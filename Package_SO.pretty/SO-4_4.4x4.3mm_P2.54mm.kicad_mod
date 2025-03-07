@@ -1,7 +1,7 @@
 (footprint "SO-4_4.4x4.3mm_P2.54mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "4-Lead Plastic Small Outline (SO), see https://docs.broadcom.com/docs/AV02-0173EN")
 	(tags "SO SOIC 2.54")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "13716742-a0a2-49a5-a273-2223b1364ce9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -152,7 +142,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "e07a8112-3d2a-4e9f-97e3-4825bcdcd72f")
 	)
@@ -260,28 +250,29 @@
 	(pad "1" smd rect
 		(at -3 -1.27 270)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "badffd85-9d4d-4d49-aa01-648d6c574572")
 	)
 	(pad "2" smd rect
 		(at -3 1.27 270)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fe109c15-294c-4216-9c92-911ad1c60ff7")
 	)
 	(pad "3" smd rect
 		(at 3 1.27 270)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bd8aee90-84f3-4f40-9e28-295f153afa0e")
 	)
 	(pad "4" smd rect
 		(at 3 -1.27 270)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "34491d23-cc41-45eb-96c8-778403aee66f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SO-4_4.4x4.3mm_P2.54mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SO-4_4.4x4.3mm_P2.54mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

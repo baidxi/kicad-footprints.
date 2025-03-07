@@ -1,7 +1,7 @@
 (footprint "EA_T123X-I2C"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.lcd-module.de/pdf/doma/t123-i2c.pdf")
 	(tags "3 Line 12 character wide alpha numeric LCD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5697a577-bf6a-4671-b75e-30f38bdf38cc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -453,7 +443,8 @@
 		(remove_unused_layers no)
 		(uuid "a8db5311-1371-445f-bd37-a8a627741b69")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/EA_T123X-I2C.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display.3dshapes/EA_T123X-I2C.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

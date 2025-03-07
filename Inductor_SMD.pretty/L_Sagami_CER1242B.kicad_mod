@@ -1,7 +1,7 @@
 (footprint "L_Sagami_CER1242B"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Inductor, Sagami, h=4.5mm, http://www.sagami-elec.co.jp/file/CER1242B-CER1257B-CER1277B.pdf")
 	(tags "inductor sagami cer12xxb smd")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "323d86c4-d50c-46ef-a76e-50162cf65039")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -366,16 +356,17 @@
 	(pad "1" smd rect
 		(at -6.125 0)
 		(size 3.55 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d9759156-c003-4ef8-87d5-dd49e6cd1660")
 	)
 	(pad "2" smd rect
 		(at 6.125 0)
 		(size 3.55 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ee074da7-fe4e-4031-85fa-79976b137c21")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Sagami_CER1242B.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Sagami_CER1242B.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

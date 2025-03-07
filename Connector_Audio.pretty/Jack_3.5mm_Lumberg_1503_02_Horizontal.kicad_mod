@@ -1,7 +1,7 @@
 (footprint "Jack_3.5mm_Lumberg_1503_02_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TRS 3.5mm, horizontal, Surface Mount (SMT), https://downloads.lumberg.com/datenblaetter/en/1503_02.pdf")
 	(tags "TRS audio jack horizontal")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5c68af0b-4d1b-4aa9-abf6-c2934b2b6f25")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -405,32 +395,33 @@
 	(pad "R" smd roundrect
 		(at 4.05 6.35)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f040ef51-1bfb-4b93-bfcf-2c8c07f9f740")
 	)
 	(pad "S" smd roundrect
 		(at -4.05 6.35)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ab9e4c03-5a2e-4a10-b83d-9bc952f1a7e1")
 	)
 	(pad "T" smd roundrect
 		(at -4.05 -2.5)
 		(size 1.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ac5978ec-e859-4b1a-a013-5db3f5d8acaf")
 	)
 	(pad "T" smd roundrect
 		(at 4.05 -2.5)
 		(size 1.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e8799b37-048e-4f7b-ae41-4210d9f72cd2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_Lumberg_1503_02_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_Lumberg_1503_02_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

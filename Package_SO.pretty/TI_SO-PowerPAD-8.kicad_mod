@@ -1,7 +1,7 @@
 (footprint "TI_SO-PowerPAD-8"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "8-Lead Plastic PSOP, Exposed Die Pad (TI DDA0008B, see http://www.ti.com/lit/ds/symlink/lm3404.pdf)")
 	(tags "SSOP 0.50 exposed pad")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b0a9df5b-428d-4674-a9b1-deed2751cd1e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -93,7 +83,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "e764276f-5831-4407-be23-fb8585d473c2")
 	)
@@ -201,80 +191,81 @@
 	(pad "1" smd rect
 		(at -2.78 -1.905)
 		(size 1.91 0.61)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "87aefb81-aa1b-47a5-87be-b6ac3fc76547")
 	)
 	(pad "2" smd rect
 		(at -2.78 -0.635)
 		(size 1.91 0.61)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2f750416-bf17-4e39-b3bb-f85aa440fd50")
 	)
 	(pad "3" smd rect
 		(at -2.78 0.635)
 		(size 1.91 0.61)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "36f210d4-850a-42fb-b0e1-65ec6930f597")
 	)
 	(pad "4" smd rect
 		(at -2.78 1.905)
 		(size 1.91 0.61)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2d2d8909-917d-4c80-a158-fe3311de7da1")
 	)
 	(pad "5" smd rect
 		(at 2.78 1.905)
 		(size 1.91 0.61)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ef9095bf-950e-419f-8852-21dca4fa715a")
 	)
 	(pad "6" smd rect
 		(at 2.78 0.635)
 		(size 1.91 0.61)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1a4a214d-2061-4619-b7c0-31242f4641e8")
 	)
 	(pad "7" smd rect
 		(at 2.78 -0.635)
 		(size 1.91 0.61)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0cee3308-3b50-4aaa-9e72-edc792efa845")
 	)
 	(pad "8" smd rect
 		(at 2.78 -1.905)
 		(size 1.91 0.61)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6ada3559-739a-4e69-8922-5f46c3837109")
 	)
 	(pad "9" smd rect
 		(at -0.6025 -0.775)
 		(size 1.205 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin_ratio -0.2)
 		(uuid "3dea7421-f9dd-424c-a2f4-f2900864096f")
 	)
 	(pad "9" smd rect
 		(at -0.6025 0.775)
 		(size 1.205 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin_ratio -0.2)
 		(uuid "73b9759e-a7a0-4881-8dc1-dcebc919dddd")
 	)
 	(pad "9" smd rect
 		(at 0.6025 -0.775)
 		(size 1.205 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin_ratio -0.2)
 		(uuid "6bd4be4a-30c5-4811-8705-2d3173d4b547")
 	)
 	(pad "9" smd rect
 		(at 0.6025 0.775)
 		(size 1.205 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin_ratio -0.2)
 		(uuid "c56f497b-0492-4bef-93d8-3e34169b3252")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/TI_SO-PowerPAD-8.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/TI_SO-PowerPAD-8.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

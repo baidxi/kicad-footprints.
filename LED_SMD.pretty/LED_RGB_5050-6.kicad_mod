@@ -1,7 +1,7 @@
 (footprint "LED_RGB_5050-6"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://cdn.sparkfun.com/datasheets/Components/LED/5060BRG4.pdf")
 	(tags "RGB LED 5050-6")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "761b4495-0ba3-48fc-9e8b-0088f73dc9d8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,29 +49,20 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_line
-		(start -3.6 -2.7)
+		(start -2.5 -2.7)
 		(end 2.5 -2.7)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1059b6f6-d9e6-43d3-a63a-0c83e26456db")
-	)
-	(fp_line
-		(start -3.6 -1.6)
-		(end -3.6 -2.7)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "0d65d3eb-1e93-4b2a-9cb1-36b92fdb7e88")
+		(uuid "33e47f92-664a-4f3f-88d5-8b2c9dff7e9f")
 	)
 	(fp_line
 		(start 2.5 2.7)
@@ -93,6 +73,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "5cf4293f-6507-4436-9196-9a0cca944b0b")
+	)
+	(fp_poly
+		(pts
+			(xy -3 -2.5) (xy -3.24 -2.83) (xy -2.76 -2.83) (xy -3 -2.5)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7e0fc3bc-47d9-47c0-81f5-72900eec9e3f")
 	)
 	(fp_line
 		(start -3.65 -2.75)
@@ -191,7 +183,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d8d44c77-87b5-4252-b724-2eff045b717d")
 	)
@@ -209,40 +201,41 @@
 	(pad "1" smd rect
 		(at -2.4 -1.7 90)
 		(size 1.1 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f977c840-00b9-4be0-b870-9299808108f4")
 	)
 	(pad "2" smd rect
 		(at -2.4 0 90)
 		(size 1.1 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4e67b1c2-6de9-4298-bb42-1527fed10e69")
 	)
 	(pad "3" smd rect
 		(at -2.4 1.7 90)
 		(size 1.1 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "870296ec-e3e5-43b0-9ead-187a209b80b3")
 	)
 	(pad "4" smd rect
 		(at 2.4 1.7 90)
 		(size 1.1 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "64819ba1-7a47-41ea-8d64-d14bf6047355")
 	)
 	(pad "5" smd rect
 		(at 2.4 0 90)
 		(size 1.1 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "19993019-7bca-4bda-8169-e7c6650f18f0")
 	)
 	(pad "6" smd rect
 		(at 2.4 -1.7 90)
 		(size 1.1 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6f52e53e-15af-44eb-af2e-337dbb7d9e8c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_5050-6.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_5050-6.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

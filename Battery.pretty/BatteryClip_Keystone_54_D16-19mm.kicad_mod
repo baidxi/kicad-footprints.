@@ -1,7 +1,7 @@
 (footprint "BatteryClip_Keystone_54_D16-19mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826")
 	(tags "battery clip 18650 18350 17350 CR123A 2/3A")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "754138d2-1f56-4d08-8362-1e8685e6263a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -162,7 +152,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "b62531b9-691b-4056-b99c-84be0a2405a1")
 	)
@@ -292,7 +282,8 @@
 		(remove_unused_layers no)
 		(uuid "999b0ac4-ed5b-4f6f-8fae-ac3c292c2ba5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryClip_Keystone_54_D16-19mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryClip_Keystone_54_D16-19mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

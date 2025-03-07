@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_bornier-8_P5.08mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "simple 8pin terminal block, pitch 5.08mm, revamped version of bornier8")
 	(tags "terminal block bornier8")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "80d3a6cf-e4a8-464f-b7c3-a9f26f9a6dfc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "50522576-f436-4bff-8342-525a322631d9")
 	)
@@ -240,7 +230,8 @@
 		(remove_unused_layers no)
 		(uuid "16bf6ec7-8582-402c-8fa9-f7dec6f42cb7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-8_P5.08mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-8_P5.08mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

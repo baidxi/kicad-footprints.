@@ -1,7 +1,7 @@
 (footprint "D_P600_R-6_P20.00mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode, P600_R-6 series, Axial, Horizontal, pin pitch=20mm, , length*diameter=9.1*9.1mm^2, , http://www.vishay.com/docs/88692/p600a.pdf, http://www.diodes.com/_files/packages/R-6.pdf")
 	(tags "Diode P600_R-6 series Axial Horizontal pin pitch 20mm  length 9.1mm diameter 9.1mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "90f270dd-2ed2-4a4c-bb6b-85e60a06dcc3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -333,7 +323,8 @@
 		(remove_unused_layers no)
 		(uuid "01f37755-a74b-44d6-91d9-752634571e99")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_P600_R-6_P20.00mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_P600_R-6_P20.00mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

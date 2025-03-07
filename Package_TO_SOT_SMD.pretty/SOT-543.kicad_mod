@@ -1,7 +1,7 @@
 (footprint "SOT-543"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SOT-543 4 lead surface package")
 	(tags "SOT-543 SC-107A EMD4")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c8ab9264-845b-432c-b510-6af0241cd92e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "9809ae64-f6c6-4af4-bff0-cbd385c39ff0")
 	)
@@ -200,32 +190,33 @@
 	(pad "1" smd roundrect
 		(at -0.72 -0.5 270)
 		(size 0.27 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "036072cc-7f0e-4959-b472-6d4822dcc0d1")
 	)
 	(pad "2" smd roundrect
 		(at -0.72 0.5 270)
 		(size 0.27 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c4327f18-c2a9-4bb8-b747-bb431128fd09")
 	)
 	(pad "3" smd roundrect
 		(at 0.72 0.5 270)
 		(size 0.27 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "95ec0417-1499-4ff7-8a81-a34b7b588b58")
 	)
 	(pad "4" smd roundrect
 		(at 0.72 -0.5 270)
 		(size 0.27 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "56a6d0b1-4c54-4d43-b636-30db6f2c5171")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-543.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-543.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

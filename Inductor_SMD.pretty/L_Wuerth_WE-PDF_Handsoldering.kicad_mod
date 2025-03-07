@@ -1,7 +1,7 @@
 (footprint "L_Wuerth_WE-PDF_Handsoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Shielded Power Inductor, Wuerth Elektronik, WE-PDF, SMD, Handsoldering, https://katalog.we-online.de/pbs/datasheet/7447797022.pdf")
 	(tags "Choke Shielded Power Inductor WE-PDF Wuerth Handsoldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "672e0a55-2a56-4d09-9e13-fbbe5cf3309f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,54 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 0.15 0.15)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "8f1cfb35-a85c-4e79-bbf9-03b0d0f86f39")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.6 0.05)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "7573ac2d-b496-4a1e-953f-a920e3ef1d6c")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.95 0)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "6715d018-175d-45e9-af24-250fb86c5c83")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 1.3 0.05)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "1624a92d-6152-4e15-9690-ae83dfed9c36")
-	)
 	(fp_line
 		(start -5.2 -5.2)
 		(end 5.2 -5.2)
@@ -177,6 +123,50 @@
 		)
 		(layer "F.SilkS")
 		(uuid "94c87caf-13a7-4eee-8f31-575e575dd7ce")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.15 0.15)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "8f1cfb35-a85c-4e79-bbf9-03b0d0f86f39")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.6 0.05)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "7573ac2d-b496-4a1e-953f-a920e3ef1d6c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.95 0)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "6715d018-175d-45e9-af24-250fb86c5c83")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.3 0.05)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "1624a92d-6152-4e15-9690-ae83dfed9c36")
 	)
 	(fp_line
 		(start -7.6 -2)
@@ -615,7 +605,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f1124182-e1be-47a0-a34f-23b9adef98d6")
 	)
@@ -633,16 +623,17 @@
 	(pad "1" smd rect
 		(at -5.1 0)
 		(size 4.4 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4edcf25a-d01e-44bf-8ed7-8d6e3d9f643d")
 	)
 	(pad "2" smd rect
 		(at 5.1 0)
 		(size 4.4 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "840f7cf2-c7ae-4e06-88ed-cde1031a48c7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_WE-PDF.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_WE-PDF.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

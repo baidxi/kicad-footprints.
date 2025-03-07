@@ -1,7 +1,7 @@
 (footprint "SOT-227"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SOT-227 / SOT-227B / ISOTOP, M4 mounting screws (https://www.vishay.com/docs/95423/sot227g2.pdf, https://www.vishay.com/docs/95793/vs-fc420sa10.pdf)")
 	(tags "sot 227 isotop")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d3f5bfc2-21e0-44cf-a8d9-2aa6950258c0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -192,7 +182,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "5e329903-5375-4ee1-9bc3-72e04ba0fb14")
 	)
@@ -364,7 +354,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7426f1c8-e6eb-4d8e-a9a6-1ca968064882")
 	)
@@ -435,7 +425,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "cf3bec40-ecbf-45d7-9fa2-f05ff2534dc5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/SOT-227.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/SOT-227.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

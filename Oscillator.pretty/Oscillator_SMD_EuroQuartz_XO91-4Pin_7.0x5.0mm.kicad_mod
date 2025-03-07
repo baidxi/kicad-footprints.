@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_EuroQuartz_XO91-4Pin_7.0x5.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Miniature Crystal Clock Oscillator EuroQuartz XO91 series, http://cdn-reichelt.de/documents/datenblatt/B400/XO91.pdf, 7.0x5.0mm^2 package")
 	(tags "SMD SMT crystal oscillator")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e688c658-c329-4be9-a17b-556222cc2c8d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.466667)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Adhes")
 		(uuid "ccbb4a02-d92c-4b71-a867-9fd699fba22a")
 	)
@@ -82,7 +72,7 @@
 			(width 0.333333)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Adhes")
 		(uuid "50d6ab7d-3ac6-430c-9b6e-79dfac1911fd")
 	)
@@ -93,7 +83,7 @@
 			(width 0.333333)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Adhes")
 		(uuid "3aa84ccc-e575-4210-a411-debcf85cf3b3")
 	)
@@ -104,7 +94,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Adhes")
 		(uuid "21841ce4-2036-4e39-9e23-e941ae4d9db0")
 	)
@@ -252,28 +242,29 @@
 	(pad "1" smd rect
 		(at -2.5 2.1)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "678a1cef-9da2-4775-a9af-ad78ffcc0384")
 	)
 	(pad "2" smd rect
 		(at 2.5 2.1)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8f9d234a-ad40-46a9-af7b-b7bb64bafacd")
 	)
 	(pad "3" smd rect
 		(at 2.5 -2.1)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4409b8bd-7a7b-4a3c-b9bd-5214cc3bac5f")
 	)
 	(pad "4" smd rect
 		(at -2.5 -2.1)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8ce717a1-d583-4a35-9a07-76a6ad13d0bc")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_EuroQuartz_XO91-4Pin_7.0x5.0mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_EuroQuartz_XO91-4Pin_7.0x5.0mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

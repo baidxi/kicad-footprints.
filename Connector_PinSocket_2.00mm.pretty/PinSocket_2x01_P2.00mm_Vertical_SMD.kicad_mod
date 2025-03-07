@@ -1,7 +1,7 @@
 (footprint "PinSocket_2x01_P2.00mm_Vertical_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "surface-mounted straight socket strip, 2x01, 2.00mm pitch, double cols (from Kicad 4.0.7), script generated")
 	(tags "Surface mounted socket strip SMD 2x01 2.00mm double row")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c0a4ce99-6d6b-4242-b33c-1b1c8dd6c6e8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -298,16 +288,17 @@
 	(pad "1" smd rect
 		(at 3.125 0)
 		(size 2.75 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e8315d8a-1a05-43d1-b930-567d2c8d5f4b")
 	)
 	(pad "2" smd rect
 		(at -3.125 0)
 		(size 2.75 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "135e7db1-269c-4d0c-a866-e26b805343e6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_2x01_P2.00mm_Vertical_SMD.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_2x01_P2.00mm_Vertical_SMD.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

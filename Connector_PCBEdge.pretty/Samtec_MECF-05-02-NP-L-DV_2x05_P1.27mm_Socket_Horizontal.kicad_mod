@@ -1,7 +1,7 @@
 (footprint "Samtec_MECF-05-02-NP-L-DV_2x05_P1.27mm_Socket_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Highspeed card edge connector for 2.4mm PCB's with 05 contacts (not polarized)")
 	(tags "conn samtec card-edge high-speed")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f6185537-643b-430f-850e-5f9dd884bd68")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -232,64 +222,65 @@
 	(pad "1" smd rect
 		(at -2.54 2.3)
 		(size 0.66 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bf19604c-1eeb-4adf-b4ee-3aabc72c06db")
 	)
 	(pad "2" smd rect
 		(at -2.54 -2.3)
 		(size 0.66 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a373b5ae-1e37-4ecd-b707-459e3e5ed307")
 	)
 	(pad "3" smd rect
 		(at -1.27 2.3)
 		(size 0.66 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9c1221ae-a2b5-47b1-a3bf-b77709818e11")
 	)
 	(pad "4" smd rect
 		(at -1.27 -2.3)
 		(size 0.66 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4dd05464-2ea9-463d-a5e4-5349d46a6471")
 	)
 	(pad "5" smd rect
 		(at 0 2.3)
 		(size 0.66 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9db55c32-7b72-43d9-bdcd-a885c1629960")
 	)
 	(pad "6" smd rect
 		(at 0 -2.3)
 		(size 0.66 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "76a521d8-ee2c-446f-b447-fbd0e9025554")
 	)
 	(pad "7" smd rect
 		(at 1.27 2.3)
 		(size 0.66 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1550bdf5-8486-45b0-bdca-75d6d16e39f1")
 	)
 	(pad "8" smd rect
 		(at 1.27 -2.3)
 		(size 0.66 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4a7e8207-65b1-4ee0-ad21-7f1b123ffd87")
 	)
 	(pad "9" smd rect
 		(at 2.54 2.3)
 		(size 0.66 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cfaf9352-df7a-4d7e-b25c-5b8fe212f027")
 	)
 	(pad "10" smd rect
 		(at 2.54 -2.3)
 		(size 0.66 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cb9de05d-df26-40e1-a38d-659517f4f6b9")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PCBEdge.3dshapes/Samtec_MECF-05-02-NP-L-DV_2x05_P1.27mm_Socket_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PCBEdge.3dshapes/Samtec_MECF-05-02-NP-L-DV_2x05_P1.27mm_Socket_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

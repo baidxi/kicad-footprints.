@@ -1,7 +1,7 @@
 (footprint "NEC_Molded_7x4x9mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molded Japan Transistor Package 7x4x9mm^3, http://rtellason.com/transdata/2sb734.pdf")
 	(tags "Japan transistor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "02c12079-61be-4d88-a07e-e43c1b2abb38")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -261,7 +251,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9f967344-3667-4071-ad5b-4493f477f4e3")
 	)
@@ -300,7 +290,8 @@
 		(remove_unused_layers no)
 		(uuid "04e50537-37f9-4d04-8ec3-a19a62f510ea")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/NEC_Molded_7x4x9mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/NEC_Molded_7x4x9mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

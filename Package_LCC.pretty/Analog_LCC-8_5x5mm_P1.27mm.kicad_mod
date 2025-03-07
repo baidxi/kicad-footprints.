@@ -1,7 +1,7 @@
 (footprint "Analog_LCC-8_5x5mm_P1.27mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LCC, ceramic leaded chip carrier, 8 pins, surface mount, Analog Devices LS8, 5x5mm, height 1.45mm, https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6655-6655ln.pdf")
 	(tags "lcc smt")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6c1735bb-c2b3-4555-9e09-97445224d27c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "9daeeb23-9ac2-4339-b29c-89a90ee73d54")
 	)
@@ -240,60 +230,61 @@
 	(pad "1" smd roundrect
 		(at -2.15 -1.27 90)
 		(size 0.7 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "596b464d-20bf-48ac-a560-8de2de4082a1")
 	)
 	(pad "2" smd roundrect
 		(at -2.15 0 90)
 		(size 0.7 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "30813738-74e5-44e4-8192-f0a9773956f1")
 	)
 	(pad "3" smd roundrect
 		(at -2.15 1.27 90)
 		(size 0.7 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3392df4c-689e-41e9-b47e-4ba4982f7db9")
 	)
 	(pad "4" smd roundrect
 		(at 0 2.15 90)
 		(size 1.5 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ea4547f0-4c20-4e8d-9a75-7c63ec1fb834")
 	)
 	(pad "5" smd roundrect
 		(at 2.15 1.27)
 		(size 1.5 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "21d07cba-7aa4-45b1-ba51-d60c04151953")
 	)
 	(pad "6" smd roundrect
 		(at 2.15 0)
 		(size 1.5 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ee252a85-9315-4f4b-8e97-d27b4b0b4df3")
 	)
 	(pad "7" smd roundrect
 		(at 2.15 -1.27)
 		(size 1.5 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "042a886c-0f55-4f40-99f3-2a2509c96e28")
 	)
 	(pad "8" smd roundrect
 		(at 0 -1.75 90)
 		(size 2.5 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5a68636b-fa79-4a21-bf3d-84e57ffcdf21")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_LCC.3dshapes/Analog_LCC-8_5x5mm_P1.27mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_LCC.3dshapes/Analog_LCC-8_5x5mm_P1.27mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

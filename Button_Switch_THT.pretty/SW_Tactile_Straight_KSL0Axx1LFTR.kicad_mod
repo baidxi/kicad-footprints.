@@ -1,7 +1,7 @@
 (footprint "SW_Tactile_Straight_KSL0Axx1LFTR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SW PUSH SMALL http://www.ckswitches.com/media/1457/ksa_ksl.pdf")
 	(tags "SW PUSH SMALL Tactile C&K")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a8843b9f-2f6c-40da-a5ba-92c8e4d2d38d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -151,7 +141,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "b9b59827-4e2b-4778-ad4a-060ff30259ab")
 	)
@@ -278,7 +268,8 @@
 		(remove_unused_layers no)
 		(uuid "6d2e3761-daff-4a99-b32a-e48a1b557509")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Tactile_Straight_KSL0Axx1LFTR.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Tactile_Straight_KSL0Axx1LFTR.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_7050-4Pin_7.0x5.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal SERIES SMD7050/4 https://www.foxonline.com/pdfs/FQ7050.pdf, 7.0x5.0mm^2 package")
 	(tags "SMD SMT crystal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6269eedb-eb8e-4382-b5b0-9ca35b93982e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -308,28 +298,29 @@
 	(pad "1" smd rect
 		(at -2.95 1.35)
 		(size 2.1 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "25f24b75-88ec-4031-96f2-33aaf1573ddd")
 	)
 	(pad "2" smd rect
 		(at 2.95 1.35)
 		(size 2.1 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1018cbd3-98c4-4519-ac6d-99422cdc4520")
 	)
 	(pad "3" smd rect
 		(at 2.95 -1.35)
 		(size 2.1 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6181c723-1da3-4f9c-a892-36d3a095d4fe")
 	)
 	(pad "4" smd rect
 		(at -2.95 -1.35)
 		(size 2.1 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ea1d5703-3e45-419a-ba01-f1a44da4cf84")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_7050-4Pin_7.0x5.0mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_7050-4Pin_7.0x5.0mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

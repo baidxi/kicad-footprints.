@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Bourns_PTA2043_Single_Slide"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Bourns single-gang slide potentiometer, 20.0mm travel, https://www.bourns.com/docs/Product-Datasheets/pta.pdf")
 	(tags "Bourns single-gang slide potentiometer 20.0mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "71ebc788-1ea4-490a-82d6-945a72536644")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -371,7 +361,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "601d5211-c90b-42c4-a13e-67490096d911")
 	)
@@ -382,7 +372,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "55ab1f0c-6e2a-47bb-804a-a92305778fe7")
 	)
@@ -453,7 +443,8 @@
 		(remove_unused_layers no)
 		(uuid "94cb19d1-d75d-44fd-9246-5ab0dddae7ee")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTA2043_Single_Slide.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTA2043_Single_Slide.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

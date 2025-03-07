@@ -1,7 +1,7 @@
 (footprint "L_Fastron_PISR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Choke, Drossel, PISR, Fastron, SMD,")
 	(tags "Choke Drossel PISR Fastron SMD ")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5abfba1d-cc1f-42f7-a5a5-53478adf6381")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,86 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start 0 -0.25)
-		(end 0 0.25)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(layer "F.Adhes")
-		(uuid "125daa05-718f-4022-80e0-0273ae41411d")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0 0.25)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "44fccb66-91ba-417e-85e5-72df40164098")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0 0.51)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "a7826833-ebc2-4bd4-9c63-e3ea6dea3680")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0 0.76)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "db824453-57a9-436f-a2cb-a94eed6c9e32")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0 1.02)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "c6cd1d0d-0dc8-47c0-bf4a-61f4b6c4f7e4")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0 1.27)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "ac3f455c-7e90-44a4-b77e-9f2190dbf512")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0 1.52)
-		(stroke
-			(width 0.38)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "3c35e084-ab46-4ecb-b8a4-0a0113217182")
-	)
 	(fp_line
 		(start -9.3 -2.6)
 		(end -9.3 -2.1)
@@ -241,6 +155,82 @@
 		)
 		(layer "F.SilkS")
 		(uuid "02c8f3ad-c960-4027-b432-86a6647265c9")
+	)
+	(fp_line
+		(start 0 -0.25)
+		(end 0 0.25)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(layer "F.Adhes")
+		(uuid "125daa05-718f-4022-80e0-0273ae41411d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0.25)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "44fccb66-91ba-417e-85e5-72df40164098")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0.51)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "a7826833-ebc2-4bd4-9c63-e3ea6dea3680")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0.76)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "db824453-57a9-436f-a2cb-a94eed6c9e32")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.02)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "c6cd1d0d-0dc8-47c0-bf4a-61f4b6c4f7e4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.27)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "ac3f455c-7e90-44a4-b77e-9f2190dbf512")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.52)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "3c35e084-ab46-4ecb-b8a4-0a0113217182")
 	)
 	(fp_line
 		(start -9.6 -2.8)
@@ -946,16 +936,17 @@
 	(pad "1" smd rect
 		(at 7.82 0)
 		(size 3 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cd1b4672-9c30-4da8-b98c-955775149801")
 	)
 	(pad "2" smd rect
 		(at -7.82 0)
 		(size 3 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f497f50b-eda9-4eaf-8c5a-3ae7492574bd")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Fastron_PISR.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Fastron_PISR.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

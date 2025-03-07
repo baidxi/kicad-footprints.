@@ -1,7 +1,7 @@
 (footprint "SOT-23-8_Handsoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "8-pin SOT-23 package, Handsoldering, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sot-23rj/rj_8.pdf")
 	(tags "SOT-23-8 Handsoldering")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9f930293-5181-4de2-b377-f8166311ea54")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -102,7 +92,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "6ea471ef-7520-43e0-8add-59a14d62a163")
 	)
@@ -210,60 +200,61 @@
 	(pad "1" smd roundrect
 		(at -1.35 -0.98)
 		(size 1.56 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c6dbcff2-9408-4f20-b962-01d3c61ce793")
 	)
 	(pad "2" smd roundrect
 		(at -1.35 -0.33)
 		(size 1.56 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "283ba498-5a3c-41ab-9a97-2ae670dc5540")
 	)
 	(pad "3" smd roundrect
 		(at -1.35 0.33)
 		(size 1.56 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "cfabcec3-8a20-404a-9420-0f6dcc5d2847")
 	)
 	(pad "4" smd roundrect
 		(at -1.35 0.98)
 		(size 1.56 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3829af6e-eb13-4e76-ac9d-6bbd91ecaa3c")
 	)
 	(pad "5" smd roundrect
 		(at 1.35 0.98)
 		(size 1.56 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ac093343-f8ef-438f-a8c5-b7c268522cb8")
 	)
 	(pad "6" smd roundrect
 		(at 1.35 0.33)
 		(size 1.56 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "890c7cd9-c030-45c5-b2c1-1e077071b019")
 	)
 	(pad "7" smd roundrect
 		(at 1.35 -0.33)
 		(size 1.56 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7eec47ea-60a4-4e18-a26e-24361e34368d")
 	)
 	(pad "8" smd roundrect
 		(at 1.35 -0.98)
 		(size 1.56 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "bf6e9d71-d0e9-4f70-a052-f7932daa18f2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-8.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-8.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

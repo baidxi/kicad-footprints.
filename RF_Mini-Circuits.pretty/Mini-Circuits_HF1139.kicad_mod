@@ -1,7 +1,7 @@
 (footprint "Mini-Circuits_HF1139"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint for Mini-Circuits case HF1139 (https://ww2.minicircuits.com/case_style/HF1139.pdf)")
 	(tags "Mini-Circuits HF1139")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7507f0ad-f4eb-46e6-86e1-1aec664b1429")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ea0bff5d-9d33-42c8-a29e-7bd9ab25cf87")
 	)
@@ -200,52 +190,53 @@
 	(pad "1" smd rect
 		(at -5.2705 -7.62 270)
 		(size 1.524 1.397)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b635b65f-b677-400d-9bc7-d05c0cb0a546")
 	)
 	(pad "2" smd rect
 		(at 5.2705 -7.62 270)
 		(size 1.524 1.397)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e86098b3-dacd-4285-b43d-5002534eca37")
 	)
 	(pad "3" smd rect
 		(at -5.2705 -2.54 270)
 		(size 1.524 1.397)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "40483fd0-2a74-4e1f-8b4d-7a7d7cd0b52a")
 	)
 	(pad "4" smd rect
 		(at 5.2705 -2.54 270)
 		(size 1.524 1.397)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "097d2535-0f2d-4cf4-8033-40c7591ef6ca")
 	)
 	(pad "5" smd rect
 		(at -5.2705 2.54 270)
 		(size 1.524 1.397)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c0eec797-4400-4375-8f2c-c2aa7057d0fe")
 	)
 	(pad "6" smd rect
 		(at 5.2705 2.54 270)
 		(size 1.524 1.397)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "22902b34-570f-40f3-be62-63ac1ebaf8f8")
 	)
 	(pad "7" smd rect
 		(at -5.2705 7.62 270)
 		(size 1.524 1.397)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a283329a-8cab-4c90-931f-09794ae46b3e")
 	)
 	(pad "8" smd rect
 		(at 5.2705 7.62 270)
 		(size 1.524 1.397)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f0171c61-1889-43ea-8e41-f6586ae24b98")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_HF1139.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_HF1139.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

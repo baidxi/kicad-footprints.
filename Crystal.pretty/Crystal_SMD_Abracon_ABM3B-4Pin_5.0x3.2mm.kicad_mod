@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Abracon Miniature Ceramic Smd Crystal ABM3B http://www.abracon.com/Resonators/abm3b.pdf, 5.0x3.2mm^2 package")
 	(tags "SMD SMT crystal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5228655e-04e5-45dc-b660-704881e5f0a6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,54 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 0.116667 0)
-		(stroke
-			(width 0.233333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "0604581f-b8e4-4b24-9711-64c1a0e3ce0e")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.266667 0)
-		(stroke
-			(width 0.166667)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "10ac841a-58fa-4d18-b170-16dd6862021a")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.416667 0)
-		(stroke
-			(width 0.166667)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "3d96a075-5279-4c5b-be0b-dcc0a442c517")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.5 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "65232636-f8f5-4b87-bd71-1b9bb7bdd4e8")
-	)
 	(fp_line
 		(start -3.1 0.4)
 		(end -2.7 0.4)
@@ -167,6 +113,50 @@
 		)
 		(layer "F.SilkS")
 		(uuid "4ebd6baf-6ccc-4694-8aa8-5a3051f61031")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.116667 0)
+		(stroke
+			(width 0.233333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "0604581f-b8e4-4b24-9711-64c1a0e3ce0e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.266667 0)
+		(stroke
+			(width 0.166667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "10ac841a-58fa-4d18-b170-16dd6862021a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.416667 0)
+		(stroke
+			(width 0.166667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "3d96a075-5279-4c5b-be0b-dcc0a442c517")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "65232636-f8f5-4b87-bd71-1b9bb7bdd4e8")
 	)
 	(fp_line
 		(start -3.2 -2.1)
@@ -312,28 +302,29 @@
 	(pad "1" smd rect
 		(at -2 1.2)
 		(size 1.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cef59806-915b-4bea-8863-9b533d767e55")
 	)
 	(pad "2" smd rect
 		(at 2 1.2)
 		(size 1.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5348b5cc-bbe0-4529-919d-1c974ab68e08")
 	)
 	(pad "3" smd rect
 		(at 2 -1.2)
 		(size 1.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "22f98ebf-d2b0-442a-aece-54d6b5f29fa1")
 	)
 	(pad "4" smd rect
 		(at -2 -1.2)
 		(size 1.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c4ba404e-d53f-44c9-8267-3f07f443e4d6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

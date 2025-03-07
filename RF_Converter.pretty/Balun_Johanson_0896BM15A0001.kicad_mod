@@ -1,7 +1,7 @@
 (footprint "Balun_Johanson_0896BM15A0001"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.johansontechnology.com/datasheets/0896BM15A0001/0896BM15A0001.pdf")
 	(tags "balun RF")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b87dc320-a3d0-4203-9f2a-aebd4305e047")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "0a9cad5d-a2b2-4013-a09a-e8044f50eb5f")
 	)
@@ -200,44 +190,45 @@
 	(pad "1" smd rect
 		(at -0.9 -0.65)
 		(size 1 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
 		(uuid "3150eefd-5d7d-434e-8a8c-881ae1be5d20")
 	)
 	(pad "2" smd rect
 		(at -0.9 0)
 		(size 1 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6e5944c4-2b34-46fd-8cae-5d010402d591")
 	)
 	(pad "3" smd rect
 		(at -0.9 0.65)
 		(size 1 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
 		(uuid "40c03c3f-40a8-4153-9a08-6a6a8ea682ff")
 	)
 	(pad "4" smd rect
 		(at 0.9 0.65)
 		(size 1 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
 		(uuid "3adb4843-c36e-4278-95a5-905ad07e806b")
 	)
 	(pad "5" smd rect
 		(at 0.9 0)
 		(size 1 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a91c5c95-1501-4d61-a507-dc718f576d06")
 	)
 	(pad "6" smd rect
 		(at 0.9 -0.65)
 		(size 1 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
 		(uuid "e0a9cc0b-d8dc-44bd-845a-0ad558986f78")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Converter.3dshapes/Balun_Johanson_0896BM15A0001.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Converter.3dshapes/Balun_Johanson_0896BM15A0001.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

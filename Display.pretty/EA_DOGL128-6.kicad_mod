@@ -1,12 +1,12 @@
 (footprint "EA_DOGL128-6"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Graphical,Display,LCD,128x64 https://www.lcd-module.com/eng/pdf/grafik/dogl128-6e.pdf")
 	(tags "EA DOGL128")
 	(property "Reference" "REF**"
-		(at -2.025 -7.97 -90)
+		(at -2.025 -7.97 270)
 		(layer "F.SilkS")
 		(uuid "1c6406eb-d7b5-4ab1-835c-ccdbda4a264e")
 		(effects
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8034e031-8f6c-421f-81e2-458d2d6dcb31")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -415,7 +405,7 @@
 		(uuid "8781b22d-733f-41a4-8ac4-3ea877753b9c")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 24.55 24.13 -90)
+		(at 24.55 24.13 270)
 		(layer "F.Fab")
 		(uuid "c257bb0f-f564-48ec-82ee-d83ce5a14e26")
 		(effects
@@ -633,7 +623,8 @@
 		(remove_unused_layers no)
 		(uuid "7d5a6a06-e093-4da6-aa0d-2775fadc97e2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/EA_DOGL128-6.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display.3dshapes/EA_DOGL128-6.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

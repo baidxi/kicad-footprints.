@@ -1,7 +1,7 @@
 (footprint "KSA_Tactile_SPST"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "KSA http://www.ckswitches.com/media/1457/ksa_ksl.pdf")
 	(tags "SWITCH SMD KSA SW")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aac0492a-5466-46c9-98b5-07c35160acd9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -111,7 +101,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "b4a7c539-3706-4dac-8879-69466cdba855")
 	)
@@ -246,7 +236,8 @@
 		(remove_unused_layers no)
 		(uuid "2f440e30-ae50-4e19-81ff-c3ff482dfe32")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/KSA_Tactile_SPST.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/KSA_Tactile_SPST.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

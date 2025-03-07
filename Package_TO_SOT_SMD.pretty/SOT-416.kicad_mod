@@ -1,7 +1,7 @@
 (footprint "SOT-416"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SOT-416, https://www.nxp.com/docs/en/package-information/SOT416.pdf")
 	(tags "SOT-416")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e0b8e71d-030f-45da-aaea-e5cf3db133b2")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -111,7 +101,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "038470a9-b81c-4458-baf1-fcb6cd268207")
 	)
@@ -219,25 +209,26 @@
 	(pad "1" smd roundrect
 		(at -0.65 -0.5)
 		(size 0.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "20b7e4a5-bd1f-42e7-adc2-e7d64321cc31")
 	)
 	(pad "2" smd roundrect
 		(at -0.65 0.5)
 		(size 0.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ed8380dd-2b9e-41ce-a8cc-33c7c5ebd110")
 	)
 	(pad "3" smd roundrect
 		(at 0.65 0)
 		(size 0.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "cfbd026d-75e4-48b2-863d-99ea2eedcafd")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-416.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-416.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "X2SON-8_1.4x1mm_P0.35mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "X2SON-8 1.4x1mm Pitch0.35mm http://www.ti.com/lit/ds/symlink/pca9306.pdf")
 	(tags "X2SON-8 1.4x1mm Pitch0.35mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e9e18723-a250-4108-85d9-7a4dabf178ea")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -91,7 +81,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ae5c213a-904b-42ee-b6ce-18d6aeeede1d")
 	)
@@ -199,60 +189,61 @@
 	(pad "1" smd roundrect
 		(at -0.335 -0.525 270)
 		(size 0.2 0.53)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e6780cb6-d88b-446d-9b1c-3d5cbf27141f")
 	)
 	(pad "2" smd roundrect
 		(at -0.335 -0.175 270)
 		(size 0.2 0.53)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "238a1027-c596-4dca-9fc2-28519329635f")
 	)
 	(pad "3" smd roundrect
 		(at -0.335 0.175 270)
 		(size 0.2 0.53)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8005e21f-f81c-42d1-8bbc-5d56b2e24ab5")
 	)
 	(pad "4" smd roundrect
 		(at -0.335 0.525 270)
 		(size 0.2 0.53)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8d5e4b00-8776-4948-b482-48680eb5da39")
 	)
 	(pad "5" smd roundrect
 		(at 0.335 0.525 270)
 		(size 0.2 0.53)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6f88f610-64aa-4a53-8518-a6343ecbe533")
 	)
 	(pad "6" smd roundrect
 		(at 0.335 0.175 270)
 		(size 0.2 0.53)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "75f797ca-8779-4748-952c-b010e9b35d4c")
 	)
 	(pad "7" smd roundrect
 		(at 0.335 -0.175 270)
 		(size 0.2 0.53)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "238fb17e-dd17-447e-b59f-2c4f14ce9378")
 	)
 	(pad "8" smd roundrect
 		(at 0.335 -0.525 270)
 		(size 0.2 0.53)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "652e02e3-8024-41cb-9bbe-439068a63f13")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/X2SON-8_1.4x1mm_P0.35mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/X2SON-8_1.4x1mm_P0.35mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

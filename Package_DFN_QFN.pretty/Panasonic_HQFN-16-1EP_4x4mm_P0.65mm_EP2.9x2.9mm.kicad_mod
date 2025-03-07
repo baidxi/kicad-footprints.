@@ -1,7 +1,7 @@
 (footprint "Panasonic_HQFN-16-1EP_4x4mm_P0.65mm_EP2.9x2.9mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Panasonic HQFN-16, 4x4x0.85mm (https://industrial.panasonic.com/content/data/SC/ds/ds7/c0/PKG_HQFN016-A-0404XZL_EN.pdf)")
 	(tags "panasonic hqfn")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3f59bda5-4205-4963-8cb8-5a5c305166c4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -153,7 +143,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "899fd02f-0862-4c0c-8590-1d214ec26d18")
 	)
@@ -480,7 +470,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "1e67db0e-c671-40e5-929e-945b21e638f2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Panasonic_HQFN-16-1EP_4x4mm_P0.65mm_EP2.9x2.9mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Panasonic_HQFN-16-1EP_4x4mm_P0.65mm_EP2.9x2.9mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

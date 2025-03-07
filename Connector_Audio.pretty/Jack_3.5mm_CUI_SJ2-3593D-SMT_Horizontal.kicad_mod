@@ -1,7 +1,7 @@
 (footprint "Jack_3.5mm_CUI_SJ2-3593D-SMT_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cuidevices.com/product/resource/sj2-359x-smt.pdf)")
 	(tags "3.5mm audio cui horizontal jack stereo")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2b180a13-cde6-4161-8534-6e5773b5d7e6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -362,34 +352,35 @@
 	(pad "R" smd rect
 		(at 3.7 -1.7)
 		(size 2.8 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "23a7dd7c-b0a2-46ed-b5fc-ce636f8e154b")
 	)
 	(pad "RN" smd rect
 		(at 3.7 -4.5)
 		(size 2.8 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "72fd8a43-16f9-474f-bacd-362a09f73391")
 	)
 	(pad "S" smd rect
 		(at -3.7 -3.6)
 		(size 2.8 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a386088f-968b-40bb-a2cb-d8bae878f5c5")
 	)
 	(pad "T" smd rect
 		(at -3.7 5.8)
 		(size 2.8 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4c3686c3-6d58-4d7d-a22c-7165b41b9544")
 	)
 	(pad "TN" smd rect
 		(at 0.75 9.8)
 		(size 2.8 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7775896a-5710-4807-ad0a-3cecdae0282a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ2-3593D-SMT_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ2-3593D-SMT_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

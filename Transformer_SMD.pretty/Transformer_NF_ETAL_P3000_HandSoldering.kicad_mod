@@ -1,12 +1,12 @@
 (footprint "Transformer_NF_ETAL_P3000_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "NF-Reansformer, ETAL, P3000, SMD, Handsoldering,")
 	(tags "NF-Reansformer ETAL P3000 SMD Handsoldering ")
 	(property "Reference" "REF**"
-		(at 8.65 -0.05 -90)
+		(at 8.65 -0.05 270)
 		(layer "F.SilkS")
 		(uuid "48000d12-0994-4402-a7af-859e6104863c")
 		(effects
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "58e3e255-7c30-419b-ba3c-8b2775145330")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -242,7 +232,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "3b03da88-7684-48a9-82ca-e3c05378327c")
 	)
@@ -337,7 +327,7 @@
 		(uuid "4a3bae69-0f4d-44ac-a601-a8fb1954f0e3")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(uuid "fdf6d1b9-5c96-40df-a1f0-98a634bec9ca")
 		(effects
@@ -350,94 +340,95 @@
 	(pad "1" smd rect
 		(at -6.15 -6.7 270)
 		(size 1.32 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b8138755-c59e-47a2-af4c-9af579d30106")
 	)
 	(pad "2" smd rect
 		(at -6.15 -4.16 270)
 		(size 1.32 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "52111766-d3c6-4b3a-a7ff-a136346a1a59")
 	)
 	(pad "3" smd rect
 		(at -6.15 -1.62 270)
 		(size 1.32 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bbde8537-17f1-4a28-9ba4-cd67ad5e6aaa")
 	)
 	(pad "4" smd rect
 		(at -6.15 1.62 270)
 		(size 1.32 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a6e25c32-b80e-46cb-89f3-762caf30849c")
 	)
 	(pad "5" smd rect
 		(at -6.15 4.16 270)
 		(size 1.32 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "606dac42-be10-452b-b04a-fdb92f2fa1e9")
 	)
 	(pad "6" smd rect
 		(at -6.15 6.7 270)
 		(size 1.32 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b554294e-d8fc-4243-a592-bf43fa19b6fd")
 	)
 	(pad "7" smd rect
 		(at 6.15 6.7 270)
 		(size 1.32 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6b6c127c-739a-4aa0-b258-fb6795152180")
 	)
 	(pad "8" smd rect
 		(at 6.15 4.16 270)
 		(size 1.32 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fd0a5918-5ace-49c2-8cf7-1f8eed6a9a9f")
 	)
 	(pad "9" smd rect
 		(at 6.15 1.62 270)
 		(size 1.32 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "60a9b30f-f782-4c83-bb00-a9495b5d8847")
 	)
 	(pad "10" smd rect
 		(at 6.15 -1.62 270)
 		(size 1.32 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4d6d7300-ef73-40d5-9846-d46473799925")
 	)
 	(pad "11" smd rect
 		(at 6.15 -4.16 270)
 		(size 1.32 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "61d288ec-6439-4776-97db-2995f568352e")
 	)
 	(pad "12" smd rect
 		(at 6.15 -6.7 270)
 		(size 1.32 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3a5698c7-ada5-41b2-aa2d-33be1a6bfd83")
 	)
 	(pad "13" smd oval
 		(at 0 -5 270)
 		(size 1.5 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2907970c-4633-43d3-9ac3-f0423a68d019")
 	)
 	(pad "13" smd oval
 		(at 0 0 270)
 		(size 1.5 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "709013f6-845d-43cd-b6db-1fe307d8e9bd")
 	)
 	(pad "13" smd oval
 		(at 0 5 270)
 		(size 1.5 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dc91c946-2e8a-46bd-a9d8-8a958c637965")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_NF_ETAL_P3000_HandSoldering.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_NF_ETAL_P3000_HandSoldering.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

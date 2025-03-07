@@ -1,7 +1,7 @@
 (footprint "Transformer_Murata_78250JC"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Murata 78250JC https://www.murata-ps.com/datasheet?/data/magnetics/kmp_78250j.pdf")
 	(tags "Murata transformer")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2cf8b604-75b6-4f2c-a6e5-7b678035765a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -152,7 +142,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "eae9d826-4b39-40c4-97dd-4b0b4e07120c")
 	)
@@ -350,46 +340,47 @@
 	(pad "1" smd roundrect
 		(at -5.75 -2.54)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f4e2af67-6f30-4f2c-bc83-73bb31ea397a")
 	)
 	(pad "2" smd roundrect
 		(at -5.75 0)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "58d15775-7a35-4790-93af-11e97aa26953")
 	)
 	(pad "3" smd roundrect
 		(at -5.75 2.54)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "eddc8ea0-3ac5-4793-874a-96fd22dbd3ff")
 	)
 	(pad "4" smd roundrect
 		(at 5.75 -2.54)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "04b06816-0179-415b-b89b-7f764237fd62")
 	)
 	(pad "5" smd roundrect
 		(at 5.75 0)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "32d541da-c301-437c-8aa6-ffb2523a0d2a")
 	)
 	(pad "6" smd roundrect
 		(at 5.75 2.54)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "57a6f86c-ae6a-4a06-944b-7c5b6f93752e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_Murata_78250JC.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_Murata_78250JC.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

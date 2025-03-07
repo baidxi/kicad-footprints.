@@ -1,7 +1,7 @@
 (footprint "LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3.2mm x 2.8mm PLCC4 LED, https://www.we-online.de/katalog/datasheet/150141M173100.pdf")
 	(tags "LED RGB Wurth PLCC-4 3528")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e0c732e5-2a4f-401a-9d06-384acc5b1723")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,23 +49,24 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_line
-		(start -2.5 -1.51)
-		(end 2.3 -1.51)
+		(start -2.5 -1.2)
+		(end -2.1 -1.6)
 		(stroke
 			(width 0.12)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "3e7274b6-09c0-4af9-9845-52943e2ef5ed")
+		(uuid "cf94dcd9-746f-4776-80a4-7988ef515d71")
 	)
 	(fp_line
-		(start -2.5 -0.7)
-		(end -2.5 -1.51)
+		(start -2.5 1.6)
+		(end -2.5 -1.2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -85,14 +75,34 @@
 		(uuid "423a08b3-d967-4750-8c5b-c8d64eeb549f")
 	)
 	(fp_line
-		(start -2.3 1.51)
-		(end 2.3 1.51)
+		(start -2.5 1.6)
+		(end 2.5 1.6)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f2dc6275-0c29-4f49-a353-a2079dc60825")
+		(uuid "26c3f8d2-460b-4598-aeea-068b5ad523b2")
+	)
+	(fp_line
+		(start -2.1 -1.6)
+		(end 2.5 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e7274b6-09c0-4af9-9845-52943e2ef5ed")
+	)
+	(fp_line
+		(start 2.5 1.6)
+		(end 2.5 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "956c1efc-0442-46cb-8961-417345a7fdde")
 	)
 	(fp_line
 		(start -2.55 -1.65)
@@ -191,9 +201,21 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "09117c82-c48f-4a03-8010-4b1c295a49b6")
+	)
+	(fp_text user "1"
+		(at 3 -0.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cf44cb37-31f4-4334-a585-6b50a5d1f81d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
@@ -209,28 +231,29 @@
 	(pad "1" smd rect
 		(at 1.55 -0.7)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a775aea8-9ecf-4ab7-af9b-c6e26b1a9890")
 	)
 	(pad "2" smd rect
 		(at 1.55 0.7)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e1ff8a84-326e-40c7-93c4-893f47fdc1de")
 	)
 	(pad "3" smd rect
 		(at -1.55 -0.7)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8f37b20e-99d4-41aa-9589-9ab8b6d862a6")
 	)
 	(pad "4" smd rect
 		(at -1.55 0.7)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "201e05f2-1b6c-4282-a81c-b348fa1b24d9")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

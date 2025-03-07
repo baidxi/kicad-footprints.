@@ -1,7 +1,7 @@
 (footprint "CA56-12EWA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "4 digit 7 segment green LED, http://www.kingbrightusa.com/images/catalog/SPEC/CA56-12EWA.pdf")
 	(tags "4 digit 7 segment green LED")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b3c300d0-3048-46b6-830e-caaf36a21dc2")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -331,7 +321,8 @@
 		(remove_unused_layers no)
 		(uuid "101fe097-5f83-40ce-9e00-d052054741b6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display_7Segment.3dshapes/CA56-12EWA.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display_7Segment.3dshapes/CA56-12EWA.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

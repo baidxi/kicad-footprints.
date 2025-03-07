@@ -1,7 +1,7 @@
 (footprint "LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 	(tags "LED RGB NeoPixel Nano PLCC-4 2020")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c67f08ac-28a0-4a42-b987-6e68b9bd0dfa")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,39 +49,60 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_line
-		(start -1.42 -1.15)
-		(end -1.42 -0.5)
+		(start -1.6 1.15)
+		(end -1.6 -0.85)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9f2abfa1-7645-486f-a02a-e70256b62a85")
+		(uuid "d37c6377-951d-4d04-9693-8a3fb0a23d66")
 	)
 	(fp_line
-		(start -1.42 -1.15)
-		(end 1.42 -1.15)
+		(start -1.6 1.15)
+		(end 1.6 1.15)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6ed77aa4-f296-4996-819b-3cc749559f49")
+		(uuid "571f38c6-33f4-415c-a57c-9d7511e650a7")
 	)
 	(fp_line
-		(start -1.42 1.15)
-		(end 1.42 1.15)
+		(start -1.3 -1.15)
+		(end -1.6 -0.85)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7c1c9e90-f5d8-4fe6-a573-54c8423c8496")
+	)
+	(fp_line
+		(start -1.3 -1.15)
+		(end 1.6 -1.15)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ca1d06bb-c27e-4859-b633-e45a2345f320")
+		(uuid "a797ac28-8503-4aaf-8df3-1f197c2f9897")
+	)
+	(fp_line
+		(start 1.6 -1.15)
+		(end 1.6 1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cff9c9c-cd82-4ee3-b24d-30855b03bdf8")
 	)
 	(fp_line
 		(start -1.52 -1.25)
@@ -191,7 +201,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "930f04ee-c959-4842-ae06-d707a9ddae60")
 	)
@@ -202,7 +212,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "17aa91d4-0f0c-4ba8-9116-e7a4ff348a82")
 	)
@@ -220,28 +230,29 @@
 	(pad "1" smd rect
 		(at -0.915 -0.55)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "303fa036-5e50-4d6d-bb86-5cdfd4b88a9f")
 	)
 	(pad "2" smd rect
 		(at -0.915 0.55)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "19ff1e90-56ef-461a-889c-61ffea674474")
 	)
 	(pad "3" smd rect
 		(at 0.915 0.55)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "abc776f0-6816-4443-a596-fad8645d4ac8")
 	)
 	(pad "4" smd rect
 		(at 0.915 -0.55)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e6e3b1bc-4064-4031-9b80-d1df61337d0a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

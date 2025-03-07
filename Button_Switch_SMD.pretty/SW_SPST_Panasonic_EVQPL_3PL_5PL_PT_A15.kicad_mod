@@ -1,7 +1,7 @@
 (footprint "SW_SPST_Panasonic_EVQPL_3PL_5PL_PT_A15"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Light Touch Switch, http://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE3.pdf")
 	(tags "SMD SMT SPST EVQPL EVQPT")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "26b4c528-6ad2-4174-9b2c-9c81d1e338da")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -211,7 +201,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8d64d31d-5d39-47a5-ad71-cfd1392d659f")
 	)
@@ -229,40 +219,41 @@
 	(pad "0" smd rect
 		(at -2.525 0)
 		(size 0.45 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9b3fb429-4ce6-419d-aa31-49acfac7e14f")
 	)
 	(pad "0" smd rect
 		(at 2.525 0)
 		(size 0.45 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e913b83e-ff76-4fc8-9d9a-cb07bd4c66e6")
 	)
 	(pad "1" smd rect
 		(at -1.85 -2.2)
 		(size 0.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "af5168c1-baa4-4e21-971d-41f4cb347383")
 	)
 	(pad "1" smd rect
 		(at -1.85 2.2)
 		(size 0.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9f94faf5-c8a5-4d92-8be0-3db120309559")
 	)
 	(pad "2" smd rect
 		(at 1.85 -2.2)
 		(size 0.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e6e250ac-3efc-4524-8287-6a9a40ca76eb")
 	)
 	(pad "2" smd rect
 		(at 1.85 2.2)
 		(size 0.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "31011cfa-b341-4476-a557-99ce3dceb283")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Panasonic_EVQPL_3PL_5PL_PT_A15.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Panasonic_EVQPL_3PL_5PL_PT_A15.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

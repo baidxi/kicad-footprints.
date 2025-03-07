@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_WAGO_233-502_2x02_P2.54mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Terminal Block Wago 233-502, 2 pins, pitch 2.54 mm,  https://www.wago.com/de/leiterplattenanschluss/klemmenleiste-fuer-leiterplatten/p/233-502")
 	(tags "THT")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6d570fa6-8303-4d5f-a12e-c500651bf8a9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -131,7 +121,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "f871f1ce-794c-4844-82a1-f34a776c2424")
 	)
@@ -142,7 +132,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "d7b7c343-091e-4d04-a8c5-93744b9d04e3")
 	)
@@ -301,7 +291,8 @@
 		(remove_unused_layers no)
 		(uuid "60b66bb1-001d-4df0-a0ec-e5f5a025fe29")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_WAGO.3dshapes/TerminalBlock_WAGO_233-502_2x02_P2.54mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_WAGO.3dshapes/TerminalBlock_WAGO_233-502_2x02_P2.54mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

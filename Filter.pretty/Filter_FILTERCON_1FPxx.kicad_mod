@@ -1,7 +1,7 @@
 (footprint "Filter_FILTERCON_1FPxx"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "0.5A, 250VAC, 50/60Hz line filter (https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf)")
 	(tags "EMI filter")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8d8267b3-7a62-4ad9-b04c-7e063a02d26f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -419,7 +409,8 @@
 		(remove_unused_layers no)
 		(uuid "8ad026da-a4b9-4e23-9e37-82fafd01a154")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Filter.3dshapes/Filter_FILTERCON_1FPxx.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_FILTERCON_1FPxx.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

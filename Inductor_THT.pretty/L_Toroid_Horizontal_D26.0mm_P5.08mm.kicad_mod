@@ -1,7 +1,7 @@
 (footprint "L_Toroid_Horizontal_D26.0mm_P5.08mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "inductor 26mm diameter toroid")
 	(tags "SELF INDUCTOR")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "468aa44a-3f69-4898-b09c-3267cc850268")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "baf290a4-211a-44f1-bcf0-512ee12fd66a")
 	)
@@ -82,7 +72,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "e95b31ac-926a-4600-81cb-1c084b5b7e3a")
 	)
@@ -154,7 +144,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a11994b4-fd6f-4222-90c4-56f3d77168de")
 	)
@@ -165,7 +155,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "eb76754a-2cf9-450d-a8d1-8283b020c567")
 	)
@@ -204,7 +194,8 @@
 		(remove_unused_layers no)
 		(uuid "d7632a6a-acf0-4ccd-920d-b5c3ca3c1acf")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Toroid_Horizontal_D26.0mm_P5.08mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Toroid_Horizontal_D26.0mm_P5.08mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

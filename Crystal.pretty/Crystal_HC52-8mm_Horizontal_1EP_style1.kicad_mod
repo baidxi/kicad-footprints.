@@ -1,7 +1,7 @@
 (footprint "Crystal_HC52-8mm_Horizontal_1EP_style1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Crystal THT HC-51/8mm http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf")
 	(tags "THT crystal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aa7e08aa-85a7-4858-929a-29d588440305")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -374,10 +364,11 @@
 	(pad "3" smd rect
 		(at 1.9 5.75)
 		(size 8.5 8.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "777b11ad-1d9f-49f2-91bc-1804ca7e1440")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC52-8mm_Horizontal_1EP_style1.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC52-8mm_Horizontal_1EP_style1.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

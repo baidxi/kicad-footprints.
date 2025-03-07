@@ -1,7 +1,7 @@
 (footprint "LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf")
 	(tags "LED RGB NeoPixel")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a60892f1-0cf9-4b9b-be8f-668bda7e0055")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,39 +49,60 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_line
-		(start -3.65 -2.75)
-		(end 3.65 -2.75)
+		(start -3.5 -2.3)
+		(end -3.5 2.75)
 		(stroke
 			(width 0.12)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "12168382-ccf8-40ba-bf87-07ff27d4957c")
+		(uuid "cb99e371-4619-46f9-9d84-920440db4fbe")
 	)
 	(fp_line
-		(start -3.65 -1.6)
-		(end -3.65 -2.75)
+		(start -3.05 -2.75)
+		(end -3.5 -2.3)
 		(stroke
 			(width 0.12)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "2f949668-f23c-4726-8ecf-e52a122b2394")
+		(uuid "fac75414-e9e8-4e28-8771-2d687b275321")
 	)
 	(fp_line
-		(start -3.65 2.75)
-		(end 3.65 2.75)
+		(start 3.5 -2.75)
+		(end -3.05 -2.75)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "38fe0c8e-7b12-40b6-a761-e3ddc6b67bd7")
+		(uuid "b8bf046a-2ef2-4bc3-8ceb-8751fd5fa866")
+	)
+	(fp_line
+		(start 3.5 2.75)
+		(end -3.5 2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a866e26-3518-436f-90e7-debd4f8ed6cb")
+	)
+	(fp_line
+		(start 3.5 2.75)
+		(end 3.5 -2.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c61ab99c-98c7-46bc-89c3-bb0c2838cc1e")
 	)
 	(fp_line
 		(start -3.45 -2.75)
@@ -191,7 +201,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "312dc8aa-8d02-464c-9786-abc99dc48dfa")
 	)
@@ -209,40 +219,41 @@
 	(pad "1" smd rect
 		(at -2.45 -1.6)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bc056751-6bc8-43bc-add5-675fa1e2498b")
 	)
 	(pad "2" smd rect
 		(at -2.45 0)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f5b743bb-af4d-4906-8436-5c46251607ee")
 	)
 	(pad "3" smd rect
 		(at -2.45 1.6)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6284cb32-0319-4521-b3f4-c6b788c660c1")
 	)
 	(pad "4" smd rect
 		(at 2.45 1.6)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "413772f2-4ed7-4234-ac30-0ad3369d92bb")
 	)
 	(pad "5" smd rect
 		(at 2.45 0)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e6e1f388-9394-4743-9922-71ea787d0acb")
 	)
 	(pad "6" smd rect
 		(at 2.45 -1.6)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9fc840c9-e25b-4b22-818f-43940eabeaa1")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

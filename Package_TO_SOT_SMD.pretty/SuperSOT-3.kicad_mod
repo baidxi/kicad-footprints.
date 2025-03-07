@@ -1,7 +1,7 @@
 (footprint "SuperSOT-3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3-pin SuperSOT package https://www.fairchildsemi.com/package-drawings/MA/MA03B.pdf")
 	(tags "SuperSOT-3 SSOT-3")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "08b502a6-167d-473f-b6f9-56c632d093fb")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,7 +102,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "56d99853-9aac-41cc-afea-b3c4e50c5125")
 	)
@@ -220,25 +210,26 @@
 	(pad "1" smd roundrect
 		(at -1.1 -0.95)
 		(size 1.4 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3927c6f5-0eca-45ca-8a40-dfa1e0683beb")
 	)
 	(pad "2" smd roundrect
 		(at -1.1 0.95)
 		(size 1.4 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ccd9d57c-4452-4eae-982f-c8d8070c027e")
 	)
 	(pad "3" smd roundrect
 		(at 1.1 0)
 		(size 1.4 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c7a17a1c-8104-43bc-bba4-76757383ecd8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SuperSOT-3.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SuperSOT-3.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

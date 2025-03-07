@@ -1,7 +1,7 @@
 (footprint "R_Shunt_Isabellenhuette_BVR4026"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "4-Wire Shunt, SMD 4026, https://www.isabellenhuette.de/fileadmin/Daten/Praezisionswiderstaende/Datenblaetter/BVR.PDF")
 	(tags "kelvin-connection")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4ab37aa5-6659-412f-82da-6046b6126df9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -111,7 +101,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "eccb655f-cafe-4b4d-9ac7-992537bd997c")
 	)
@@ -122,7 +112,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1ed5fdb2-e55d-4f50-8bb3-9a19aa3818bb")
 	)
@@ -140,7 +130,7 @@
 	(pad "1" smd roundrect
 		(at -4.025 -0.85)
 		(size 2.55 5.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "8cfbe9f2-dbd4-46bc-86f3-4ea1d4698cc0")
@@ -148,7 +138,7 @@
 	(pad "2" smd roundrect
 		(at -4.025 3.2)
 		(size 2.55 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "2ab0f381-bcc1-4721-be70-36674bcfde2e")
@@ -156,7 +146,7 @@
 	(pad "3" smd roundrect
 		(at 4.025 3.2)
 		(size 2.55 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "ed6c7d10-ffd8-44f1-a80d-1d630645df1c")
@@ -164,12 +154,13 @@
 	(pad "4" smd roundrect
 		(at 4.025 -0.85)
 		(size 2.55 5.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "77148445-fa79-41a0-96d0-a0d6c9545eee")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Shunt_Isabellenhuette_BVR4026.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Shunt_Isabellenhuette_BVR4026.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

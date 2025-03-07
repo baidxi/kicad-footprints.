@@ -1,7 +1,7 @@
 (footprint "L_CommonMode_TDK_B82746S6702A040"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "8A, 3Phase, Triple Coil, CM Choke, https://www.tdk-electronics.tdk.com/inf/30/ds/b82746s.pdf")
 	(tags "common mode filter triple choke")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f8082c22-3a78-4450-a0bc-07d48b491bcf")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "754031ae-9e80-48bc-84be-df54bf148ccb")
 	)
@@ -103,7 +93,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "7718820f-121e-4db7-8da7-724c0b65d678")
 	)
@@ -114,7 +104,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "264771c3-08c9-44da-8d8a-570662a14dd0")
 	)
@@ -125,7 +115,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "704e038c-ed09-4432-96b9-d69a34c6b431")
 	)
@@ -157,7 +147,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "11554c17-1618-4564-a72f-a002950859a4")
 	)
@@ -168,7 +158,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "3eb7746a-1078-4c33-bb4e-00a38a14b7ff")
 	)
@@ -232,7 +222,8 @@
 		(remove_unused_layers no)
 		(uuid "45fed03f-6fd0-474f-b7e3-f2fbfe8ded41")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_CommonMode_TDK_B82746S6702A040.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_CommonMode_TDK_B82746S6702A040.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

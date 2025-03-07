@@ -1,7 +1,7 @@
 (footprint "L_Radial_D16.0mm_P10.00mm_Panasonic_15E-L"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Panasonic ELC Type 15E-L inductor, radial, shielded, pin pitch=10.00mm, diameter=16.0mm, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AGB0000/AGB0000CE10.pdf")
 	(tags "ELC15ExxxL")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4c437b6b-306d-4dfe-be65-35cd5634ec17")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "2acdb8b2-53f5-4dff-853e-e2180b4fe480")
 	)
@@ -82,7 +72,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "45f4ff38-d539-4bee-8e92-2613366c8562")
 	)
@@ -93,7 +83,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "abe4a267-ed8c-44ce-815d-1cdc50ce8587")
 	)
@@ -132,7 +122,8 @@
 		(remove_unused_layers no)
 		(uuid "4c2631da-aa4b-427c-8475-0f86b489339e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D16.0mm_P10.00mm_Panasonic_15E-L.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D16.0mm_P10.00mm_Panasonic_15E-L.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

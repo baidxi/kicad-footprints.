@@ -1,7 +1,7 @@
 (footprint "SOT-665"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SOT665")
 	(tags "SOT-665")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "80770d92-0082-4987-b5e2-086c1a9d4865")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "61590915-5af0-403e-8cd2-a6ccbfd8af68")
 	)
@@ -200,39 +190,40 @@
 	(pad "1" smd roundrect
 		(at -0.85 -0.54)
 		(size 0.5 0.38)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "bd236591-cfe4-4209-b232-c4c5cdf06447")
 	)
 	(pad "2" smd roundrect
 		(at -0.93 0)
 		(size 0.65 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0252f5f3-13d4-41be-86f6-5497196c723c")
 	)
 	(pad "3" smd roundrect
 		(at -0.85 0.54)
 		(size 0.5 0.38)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "37847f03-8dec-4c13-8afe-3fcc14af6a32")
 	)
 	(pad "4" smd roundrect
 		(at 0.85 0.54)
 		(size 0.5 0.38)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "cd2542ac-0e08-4019-8087-a6a7a8de364d")
 	)
 	(pad "5" smd roundrect
 		(at 0.85 -0.54)
 		(size 0.5 0.38)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "595c297c-f422-4084-b0a0-bce33100708d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-665.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-665.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

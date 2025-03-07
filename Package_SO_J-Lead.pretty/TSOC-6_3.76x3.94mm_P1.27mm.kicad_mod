@@ -1,7 +1,7 @@
 (footprint "TSOC-6_3.76x3.94mm_P1.27mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Maxim Integrated TSOC-6 D6+1,https://datasheets.maximintegrated.com/en/ds/DS2401.pdf, https://pdfserv.maximintegrated.com/land_patterns/90-0321.PDF")
 	(tags "TSOC-6")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "84c9773d-f95e-4af8-8924-c5419de1f95a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "d40970a5-0bd2-4b54-a975-97fd7ca89ba2")
 	)
@@ -240,46 +230,47 @@
 	(pad "1" smd roundrect
 		(at -1.525 -1.27)
 		(size 1.33 0.53)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0ad438b9-6222-49f3-8e3f-4237d156558f")
 	)
 	(pad "2" smd roundrect
 		(at -1.525 0)
 		(size 1.33 0.53)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "38cf13b0-e282-49c7-bf27-1fdc89e36702")
 	)
 	(pad "3" smd roundrect
 		(at -1.525 1.27)
 		(size 1.33 0.53)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d1a82a22-dc07-4008-9e4e-437f81370402")
 	)
 	(pad "4" smd roundrect
 		(at 1.525 1.27)
 		(size 1.33 0.53)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "182408bb-ac39-4530-86b1-325979938a17")
 	)
 	(pad "5" smd roundrect
 		(at 1.525 0)
 		(size 1.33 0.53)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4572ffdb-fde8-415c-8a9f-845c8eec254d")
 	)
 	(pad "6" smd roundrect
 		(at 1.525 -1.27)
 		(size 1.33 0.53)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6da543e1-9863-4d0b-bbf4-4e06f559ea22")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO_J-Lead.3dshapes/TSOC-6_3.76x3.94mm_P1.27mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO_J-Lead.3dshapes/TSOC-6_3.76x3.94mm_P1.27mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

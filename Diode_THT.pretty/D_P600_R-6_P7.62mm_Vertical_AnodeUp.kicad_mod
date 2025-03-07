@@ -1,7 +1,7 @@
 (footprint "D_P600_R-6_P7.62mm_Vertical_AnodeUp"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode, P600_R-6 series, Axial, Vertical, pin pitch=7.62mm, , length*diameter=9.1*9.1mm^2, , http://www.vishay.com/docs/88692/p600a.pdf, http://www.diodes.com/_files/packages/R-6.pdf")
 	(tags "Diode P600_R-6 series Axial Vertical pin pitch 7.62mm  length 9.1mm diameter 9.1mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5ffa77c3-a80f-44ec-94c7-9fb501abc891")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -81,7 +71,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "7b0f00e4-a051-4458-8198-624239aa6bd5")
 	)
@@ -142,7 +132,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "49c76aee-59d3-4c25-b38f-5c397341538d")
 	)
@@ -195,7 +185,8 @@
 		(remove_unused_layers no)
 		(uuid "78ea0ca6-74b8-4c21-ad45-ceda8b5cc118")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_P600_R-6_P7.62mm_Vertical_AnodeUp.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_P600_R-6_P7.62mm_Vertical_AnodeUp.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

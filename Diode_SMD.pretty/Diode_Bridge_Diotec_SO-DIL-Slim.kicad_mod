@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Diotec_SO-DIL-Slim"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD diode bridge Diotec SO-DIL Slim, see https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40fs.pdf")
 	(tags "DFS SO-DIL Slim")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2f0c6953-9979-403d-99a4-1455c5a7981b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "bfbccea6-89c2-48c1-971c-c637073c3c34")
 	)
@@ -200,28 +190,29 @@
 	(pad "1" smd rect
 		(at -4.37 -2.55)
 		(size 2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7c905a37-acbc-4040-a6d5-6facc6fd290c")
 	)
 	(pad "2" smd rect
 		(at -4.37 2.55)
 		(size 2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ab032296-6884-459c-a94d-b6bcb1c77203")
 	)
 	(pad "3" smd rect
 		(at 4.37 2.55)
 		(size 2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c60fbbe7-2087-4cf3-89db-34a744eda8f9")
 	)
 	(pad "4" smd rect
 		(at 4.37 -2.55)
 		(size 2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dfb5fd27-a4ad-4372-9d7c-6770ae687a74")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Diotec_SO-DIL-Slim.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Diotec_SO-DIL-Slim.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

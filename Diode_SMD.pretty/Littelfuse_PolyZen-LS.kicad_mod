@@ -1,7 +1,7 @@
 (footprint "Littelfuse_PolyZen-LS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf")
 	(tags "Diode Polymer Protected Zener Diode Littelfuse LS")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6b2adc8b-97a6-42b1-8411-037e91a397c7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,7 +102,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "b1ecacad-df6e-450e-97ce-e02a35a3cc04")
 	)
@@ -220,22 +210,23 @@
 	(pad "1" smd rect
 		(at -1.72 0)
 		(size 0.56 2.21)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "775abacd-035f-4eb9-b754-75999569a491")
 	)
 	(pad "2" smd rect
 		(at 1.72 -0.635)
 		(size 0.56 0.94)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d22a3228-5b0a-420e-a65c-d6b1dc96614e")
 	)
 	(pad "3" smd rect
 		(at 1.72 0.635)
 		(size 0.56 0.94)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ac035349-d51c-4306-b108-32db21307768")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/Littelfuse_PolyZen-LS.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/Littelfuse_PolyZen-LS.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "PinHeader_2x03_P1.00mm_Vertical_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "surface-mounted straight pin header, 2x03, 1.00mm pitch, double rows")
 	(tags "Surface mounted pin header SMD 2x03 1.00mm double row")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d363b90e-a755-464e-b84a-0bda95e49fa6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -418,40 +408,41 @@
 	(pad "1" smd rect
 		(at -1.65 -1)
 		(size 2 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5894eefe-6322-4d65-af8b-a6bbebc121fe")
 	)
 	(pad "2" smd rect
 		(at 1.65 -1)
 		(size 2 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3170fb4f-13f4-477d-b8e8-fc454a8b275a")
 	)
 	(pad "3" smd rect
 		(at -1.65 0)
 		(size 2 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "227ee71e-1fc1-4183-8dda-e6a9ee0f8445")
 	)
 	(pad "4" smd rect
 		(at 1.65 0)
 		(size 2 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "22c7652e-b022-4133-98d3-06525f2a427a")
 	)
 	(pad "5" smd rect
 		(at -1.65 1)
 		(size 2 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "60ff6495-1cdd-4534-8af3-e89dd446ea39")
 	)
 	(pad "6" smd rect
 		(at 1.65 1)
 		(size 2 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c4263fa7-cd06-4743-9510-d0c03534c975")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.00mm.3dshapes/PinHeader_2x03_P1.00mm_Vertical_SMD.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_1.00mm.3dshapes/PinHeader_2x03_P1.00mm_Vertical_SMD.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

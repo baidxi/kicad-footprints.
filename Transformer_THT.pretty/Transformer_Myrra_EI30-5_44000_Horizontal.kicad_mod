@@ -1,7 +1,7 @@
 (footprint "Transformer_Myrra_EI30-5_44000_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Myrra 44000 series encapsulated transformer, 50/60Hz, EI 30-5, 0.6VA, 32.6 x 27.6 x 15.3mm, https://myrra.com/wp-content/uploads/2021/03/Catalogue-Myrra-2022-Final_compressed-5.pdf")
 	(tags "Transformer THT  Myrra")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a2599989-4ca0-4768-901f-500631bfc911")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -82,7 +72,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "99404d83-bc05-4a92-b6f5-0506f85ba4a8")
 	)
@@ -93,7 +83,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "890e06f4-4fb7-4f66-9fe7-65e40b0b7c77")
 	)
@@ -104,7 +94,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "dfd8628e-e6e7-41a9-9d4a-fe75d3f13bec")
 	)
@@ -167,7 +157,8 @@
 		(remove_unused_layers no)
 		(uuid "b70bad2d-18f0-4915-a77c-48a90750df5b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_Myrra_EI30-5_44000_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_Myrra_EI30-5_44000_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

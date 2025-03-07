@@ -1,7 +1,7 @@
 (footprint "Filter_Mini-Circuits_FV1206-7"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mini-Circuits Filter SMD 1206 https://ww2.minicircuits.com/case_style/FV1206-7.pdf")
 	(tags "Mini-Circuits Filter SMD 1206")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5dafa310-92e1-4d29-99f6-fa16ccb3c6bf")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -162,7 +152,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "cae126b1-1971-46d4-b15c-66e8a430cab4")
 	)
@@ -370,7 +360,7 @@
 	(pad "1" smd roundrect
 		(at -1.825 0)
 		(size 1 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "dbab8798-564c-4829-b8d8-17da306e2922")
 	)
@@ -385,7 +375,7 @@
 	(pad "2" smd roundrect
 		(at 0 0)
 		(size 1.3 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.19)
 		(uuid "0e692570-cc4b-4fe7-8529-1c0f89a676e3")
 	)
@@ -400,11 +390,12 @@
 	(pad "3" smd roundrect
 		(at 1.825 0)
 		(size 1 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "131db054-7990-4a1d-99db-b5dda4e0a32d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Filter.3dshapes/Filter_Mini-Circuits_FV1206-7.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_Mini-Circuits_FV1206-7.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

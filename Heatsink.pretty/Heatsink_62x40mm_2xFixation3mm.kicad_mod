@@ -1,7 +1,7 @@
 (footprint "Heatsink_62x40mm_2xFixation3mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Heatsink, 62 x 40mm, 2x 3mm Drills,")
 	(tags "heatsink")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ebf4323d-2015-4c12-bcec-43fc89ccf46e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -335,7 +325,8 @@
 		(remove_unused_layers no)
 		(uuid "69007c33-8dd3-40bd-9c9d-a58170032c2a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_62x40mm_2xFixation3mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_62x40mm_2xFixation3mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

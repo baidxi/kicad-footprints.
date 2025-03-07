@@ -1,7 +1,7 @@
 (footprint "USB_Micro-B_Amphenol_10103594-0001LF_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf")
 	(tags "USB USB_B USB_micro USB_OTG")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "02f91ae8-724e-44f7-95ab-8cf0a611e625")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -279,55 +269,56 @@
 	(pad "1" smd rect
 		(at -1.325 -1.765 90)
 		(size 1.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "497d7ad8-9b48-48e7-92b2-bba6470f99e9")
 	)
 	(pad "2" smd rect
 		(at -0.675 -1.765 90)
 		(size 1.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a511def2-bf81-4ec8-af92-ee3f697fb7ec")
 	)
 	(pad "3" smd rect
 		(at -0.025 -1.765 90)
 		(size 1.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "73c0bbce-d3a3-42c9-bfe9-fae7ab1c55cf")
 	)
 	(pad "4" smd rect
 		(at 0.625 -1.765 90)
 		(size 1.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6be93c90-0e3b-4c77-a6e9-83a1277af011")
 	)
 	(pad "5" smd rect
 		(at 1.275 -1.765 90)
 		(size 1.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1ca79443-eecd-4fa3-9026-f5d83a138720")
 	)
 	(pad "6" smd rect
 		(at -2.975 -0.565)
 		(size 1.825 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "98ed9224-3bf9-42d5-9973-f01583c63f0a")
 	)
 	(pad "6" smd rect
 		(at -2.875 -1.865)
 		(size 2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e4a8dcb2-0e14-4766-9ec1-79634f67085d")
 	)
 	(pad "6" smd rect
 		(at -2.755 0.185)
 		(size 1.35 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6d5f337a-ed2b-487c-be1e-4ed5c527009a")
 	)
 	(pad "6" thru_hole oval
 		(at -2.755 1.115 90)
 		(size 1.7 1.35)
 		(drill oval 1.2 0.7)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "29573b85-51f4-461b-96da-b70d77dc6297")
@@ -336,6 +327,7 @@
 		(at -2.445 -1.885 90)
 		(size 1.5 1.1)
 		(drill oval 1.05 0.65)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "9f9c486e-f7e6-48ce-93d9-29447e52ea59")
@@ -343,19 +335,20 @@
 	(pad "6" smd rect
 		(at -0.985 1.385 90)
 		(size 2.5 1.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fdd2f459-514c-4a30-90d2-ceacb6bbf5d3")
 	)
 	(pad "6" smd rect
 		(at 0.935 1.385 90)
 		(size 2.5 1.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a6afa114-705b-49b8-a7b4-d7caaa9d3296")
 	)
 	(pad "6" thru_hole oval
 		(at 2.395 -1.885 90)
 		(size 1.5 1.1)
 		(drill oval 1.05 0.65)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "a89f3327-621b-486e-9005-009976096d69")
@@ -364,6 +357,7 @@
 		(at 2.705 1.115 90)
 		(size 1.7 1.35)
 		(drill oval 1.2 0.7)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "4439014a-ba48-425b-8ab9-b7823328b111")
@@ -371,22 +365,23 @@
 	(pad "6" smd rect
 		(at 2.725 0.185)
 		(size 1.35 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "588cc4d0-20d0-470a-bf07-873402bc6239")
 	)
 	(pad "6" smd rect
 		(at 2.875 -1.885)
 		(size 2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0f426c6d-fb43-4aba-8725-47488353e575")
 	)
 	(pad "6" smd rect
 		(at 2.975 -0.565)
 		(size 1.825 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bfa9c6a5-815d-4a31-bf93-2ea5b772ca87")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Amphenol_10103594-0001LF_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Amphenol_10103594-0001LF_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

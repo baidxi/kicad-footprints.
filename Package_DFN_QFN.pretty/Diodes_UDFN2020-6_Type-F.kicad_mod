@@ -1,7 +1,7 @@
 (footprint "Diodes_UDFN2020-6_Type-F"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "U-DFN2020-6 (Type F) (https://www.diodes.com/assets/Package-Files/U-DFN2020-6-Type-F.pdf) ")
 	(tags "U-DFN2020-6 (Type F)")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "db5e3a83-1dab-4c24-92cf-cc83fc070494")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "dcf3daae-ed1d-4398-b244-4c787c397881")
 	)
@@ -200,52 +190,53 @@
 	(pad "1" smd rect
 		(at -0.9375 -0.65)
 		(size 0.425 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "398ad195-2a11-4e55-986d-a186e3a89542")
 	)
 	(pad "2" smd rect
 		(at -0.9375 0)
 		(size 0.425 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "000fc13b-c83a-4d6c-8892-e2caac2284e2")
 	)
 	(pad "3" smd rect
 		(at -0.9375 0.65)
 		(size 0.425 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "32d21c1b-f187-45b7-ab37-2bb9c4d40541")
 	)
 	(pad "4" smd rect
 		(at 0.9375 0.65)
 		(size 0.425 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "152e8dc7-c54f-4f05-aee5-e4a615ee9712")
 	)
 	(pad "5" smd rect
 		(at 0.9375 0)
 		(size 0.425 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1080d5b1-6676-431d-956b-60aa39e8ad73")
 	)
 	(pad "6" smd rect
 		(at 0.9375 -0.65)
 		(size 0.425 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7d8ea5f9-3999-4643-80cc-2d5eecbcdd46")
 	)
 	(pad "7" smd rect
 		(at 0 -0.325)
 		(size 1.15 0.95)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "609f45f4-c0f3-45d8-b017-32b5d5fcebe1")
 	)
 	(pad "8" smd rect
 		(at 0 0.7)
 		(size 0.8 0.48)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "56144dcf-5c29-409e-a1f9-ea6e8d005d9e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_UDFN2020-6_Type-F.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_UDFN2020-6_Type-F.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

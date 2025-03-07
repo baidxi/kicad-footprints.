@@ -1,7 +1,7 @@
 (footprint "Samtec_MECF-40-0_-L-DV_2x40_P1.27mm_Polarized_Edge"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Highspeed card edge connector for PCB's with 40 contacts (polarized)")
 	(tags "conn samtec card-edge high-speed")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b12b5f9d-6309-49e2-92fe-366df0fd3894")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,50 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_line
-		(start -26.38 -5.11)
-		(end 26.38 -5.11)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "b10c9d99-f025-4936-9a3f-6c78bd3c8ea7")
-	)
-	(fp_line
-		(start -26.38 5)
-		(end -26.38 -5.11)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "cccb3bc8-0988-4bd2-8af7-fe0548a05849")
-	)
-	(fp_line
-		(start -26.38 5)
-		(end 26.38 5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "e83982ac-f7e4-425a-becd-86a325bda0e1")
-	)
-	(fp_line
-		(start 26.38 5)
-		(end 26.38 -5.11)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "7c046035-70b8-4494-a1bf-331eb1098268")
-	)
 	(fp_line
 		(start -26.38 -5.11)
 		(end 26.38 -5.11)
@@ -153,6 +103,46 @@
 		)
 		(layer "F.SilkS")
 		(uuid "84510574-63af-4531-a98f-f66830d7b1bb")
+	)
+	(fp_line
+		(start -26.38 -5.11)
+		(end 26.38 -5.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "b10c9d99-f025-4936-9a3f-6c78bd3c8ea7")
+	)
+	(fp_line
+		(start -26.38 5)
+		(end -26.38 -5.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "cccb3bc8-0988-4bd2-8af7-fe0548a05849")
+	)
+	(fp_line
+		(start -26.38 5)
+		(end 26.38 5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "e83982ac-f7e4-425a-becd-86a325bda0e1")
+	)
+	(fp_line
+		(start 26.38 5)
+		(end 26.38 -5.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "7c046035-70b8-4494-a1bf-331eb1098268")
 	)
 	(fp_line
 		(start -26.75 -5)
@@ -893,4 +883,5 @@
 		(layers "B.Cu" "B.Mask")
 		(uuid "ee90cc7b-f5d5-4f0e-8e24-f30da63b3835")
 	)
+	(embedded_fonts no)
 )

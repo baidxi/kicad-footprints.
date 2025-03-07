@@ -1,7 +1,7 @@
 (footprint "3M_Textool_240-1288-00-0602J_2x20_P2.54mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)")
 	(tags "THT DIP DIL ZIF 25.4mm 1000mil Socket")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6abd6f83-4a9d-4fe1-bff9-a55f7d39646c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -1361,7 +1351,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "fbca66cf-3e72-48d6-aa41-715a7100316f")
 	)
@@ -1372,7 +1362,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "c6576c7f-a6af-4033-9ec0-fc7bf9343abd")
 	)
@@ -1917,7 +1907,8 @@
 		(remove_unused_layers no)
 		(uuid "baa2a3d9-eae2-4fcf-b42c-3683695b0ad0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Socket.3dshapes/3M_Textool_240-1288-00-0602J_2x20_P2.54mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Socket.3dshapes/3M_Textool_240-1288-00-0602J_2x20_P2.54mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

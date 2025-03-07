@@ -1,7 +1,7 @@
 (footprint "MLPQ-16-1EP_4x4mm_P0.65mm_EP2.8x2.8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Micro Leadframe Package, 16 pin with exposed pad")
 	(tags "MLPQ- 0.65")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1d1c7aeb-c441-4445-acc1-9d54d7aaa36b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -152,7 +142,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "e8795d84-8b8d-471f-9473-177998a03d37")
 	)
@@ -284,97 +274,97 @@
 	(pad "1" smd oval
 		(at -2 -0.975)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8fb60911-eadf-4690-ba4c-228a05503081")
 	)
 	(pad "2" smd oval
 		(at -2 -0.325)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "14caddd7-0f4b-4057-8b61-1ace60c849a0")
 	)
 	(pad "3" smd oval
 		(at -2 0.325)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c9f17f75-c77b-4c34-ac8c-6b9e09cfd2ca")
 	)
 	(pad "4" smd oval
 		(at -2 0.975)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7084a095-400b-4f21-a374-bcc1d4b42bf5")
 	)
 	(pad "5" smd oval
 		(at -0.975 2 90)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9e47fefe-f0cd-4815-8453-951b3f5b1d93")
 	)
 	(pad "6" smd oval
 		(at -0.325 2 90)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5bf5741a-243f-4d7a-9e37-a9852c502cef")
 	)
 	(pad "7" smd oval
 		(at 0.325 2 90)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eda6eb16-930a-4206-8999-fc9aa2be68a4")
 	)
 	(pad "8" smd oval
 		(at 0.975 2 90)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "273aac94-cc87-49f6-9f5e-7b05e7de41a4")
 	)
 	(pad "9" smd oval
 		(at 2 0.975)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3fe8458b-0b15-4ba8-8f54-87d6e193a249")
 	)
 	(pad "10" smd oval
 		(at 2 0.325)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "34597688-4f89-4c60-8ba7-b0d8cf9c6db0")
 	)
 	(pad "11" smd oval
 		(at 2 -0.325)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "20b8662b-ddeb-40d3-a116-bb27f06016aa")
 	)
 	(pad "12" smd oval
 		(at 2 -0.975)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8e6069e0-8b49-4256-a151-cd6504f0dd5e")
 	)
 	(pad "13" smd oval
 		(at 0.975 -2 90)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7ab277a1-28ab-4184-a781-32682ab78c46")
 	)
 	(pad "14" smd oval
 		(at 0.325 -2 90)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c8798c69-df9b-40f4-a51b-7c1221fbb584")
 	)
 	(pad "15" smd oval
 		(at -0.325 -2 90)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bbc78dd0-14a2-4067-b92d-49427fe7bd2a")
 	)
 	(pad "16" smd oval
 		(at -0.975 -2 90)
 		(size 0.8 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fc2e55bd-337a-48bb-833a-8f7f5b7505a9")
 	)
 	(pad "17" smd rect
@@ -383,7 +373,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "3c78de1f-8589-4925-9e63-68fb268e3c9f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/MLPQ-16-1EP_4x4mm_P0.65mm_EP2.8x2.8mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/MLPQ-16-1EP_4x4mm_P0.65mm_EP2.8x2.8mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

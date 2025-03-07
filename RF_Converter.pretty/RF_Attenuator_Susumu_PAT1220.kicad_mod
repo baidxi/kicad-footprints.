@@ -1,7 +1,7 @@
 (footprint "RF_Attenuator_Susumu_PAT1220"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.susumu-usa.com/pdf/Foot_Print_38.pdf, https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf")
 	(tags "2mm 1.2mm")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7a03ffa6-a768-46f1-8c77-d2fda87a420f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -72,7 +62,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "af56cd2a-1248-4ee8-bb27-a9892f340bae")
 	)
@@ -180,22 +170,23 @@
 	(pad "1" smd rect
 		(at -0.75 -0.6)
 		(size 0.8 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "20f663a7-00c0-4241-b3e4-6123b147efb9")
 	)
 	(pad "2" smd rect
 		(at 0.75 -0.6)
 		(size 0.8 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2451025b-747e-4906-b960-7f49cf54a6f8")
 	)
 	(pad "3" smd rect
 		(at 0 0.6)
 		(size 2.3 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "446f70ec-d850-435d-8e3b-3af0838d46a6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Converter.3dshapes/RF_Attenuator_Susumu_PAT1220.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Converter.3dshapes/RF_Attenuator_Susumu_PAT1220.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

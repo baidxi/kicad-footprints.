@@ -1,7 +1,7 @@
 (footprint "SuperSOT-8"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "8-pin SuperSOT package, http://www.icbank.com/icbank_data/semi_package/ssot8_dim.pdf")
 	(tags "SuperSOT-8 SSOT-8")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fb60f192-eac6-494e-8267-ae23c85ba57d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "6dd5bbd7-9bb6-4520-aa54-253da4d8ae7b")
 	)
@@ -200,52 +190,53 @@
 	(pad "1" smd rect
 		(at -2.2 -1.427)
 		(size 1 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "392a4561-6f6c-4000-89d5-296744fa8d01")
 	)
 	(pad "2" smd rect
 		(at -2.2 -0.475)
 		(size 1 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6620a387-023a-4cc1-9c83-24bb0367d104")
 	)
 	(pad "3" smd rect
 		(at -2.2 0.475)
 		(size 1 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5c9e605f-8c89-42ee-bd25-d93ba79263aa")
 	)
 	(pad "4" smd rect
 		(at -2.2 1.427)
 		(size 1 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "462f2003-a983-41a7-8fa6-e0ea749468e2")
 	)
 	(pad "5" smd rect
 		(at 2.2 1.427)
 		(size 1 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "23c5a989-ab4d-4b1f-a6b7-56eaf395467e")
 	)
 	(pad "6" smd rect
 		(at 2.2 0.475)
 		(size 1 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "be4bc560-fc57-4d83-9449-4ee3ba931fe7")
 	)
 	(pad "7" smd rect
 		(at 2.2 -0.475)
 		(size 1 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "02833c8c-a0cc-4cd6-8333-92b95cae416b")
 	)
 	(pad "8" smd rect
 		(at 2.2 -1.427)
 		(size 1 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "891fcd30-7fc0-495b-9a40-36a4510d10bb")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SuperSOT-8.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SuperSOT-8.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

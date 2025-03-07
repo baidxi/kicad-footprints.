@@ -1,7 +1,7 @@
 (footprint "LED_RGB_Everlight_EASV3015RGBA0_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LED, RGB, right-angle, clear, https://everlightamericas.com/index.php?controller=attachment&id_attachment=3220")
 	(tags "LED RGB right-angle")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a7d8854e-ee92-43b5-9636-11e5630c34c9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -231,28 +221,29 @@
 	(pad "1" smd rect
 		(at -1.425 -0.53)
 		(size 0.55 0.78)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	)
 	(pad "2" smd rect
 		(at -0.425 -0.75)
 		(size 0.55 0.34)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9538e4ed-27e6-4c37-b989-9859dc0d49e8")
 	)
 	(pad "3" smd rect
 		(at 0.425 -0.75)
 		(size 0.55 0.34)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e1105432-6a2f-45d9-8a08-47401d087cf4")
 	)
 	(pad "4" smd rect
 		(at 1.425 -0.53)
 		(size 0.55 0.78)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6ff874d0-4ac5-414c-83a7-573eda4c7703")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_Everlight_EASV3015RGBA0_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_Everlight_EASV3015RGBA0_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

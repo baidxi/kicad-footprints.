@@ -1,7 +1,7 @@
 (footprint "Vishay_PowerPAK_SC70-6L_Dual"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Vishay PowerPAK SC70 dual transistor package http://www.vishay.com/docs/70487/70487.pdf")
 	(tags "powerpak sc70 sc-70 dual")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a5d0324f-bb51-438a-8ed8-9219cbbd267f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "f7c05da8-8ad2-4e87-97a8-b57128bc7b75")
 	)
@@ -200,60 +190,61 @@
 	(pad "1" smd roundrect
 		(at -0.925 -0.65)
 		(size 0.325 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "01a62a31-649c-4c4c-aaa7-c4f04fd45abf")
 	)
 	(pad "2" smd roundrect
 		(at -0.925 0)
 		(size 0.325 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "01e50698-766e-4de1-8199-eabb2e19d05c")
 	)
 	(pad "3" smd roundrect
 		(at -0.925 0.65)
 		(size 0.325 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4400af58-15df-4ecb-bc66-c196c26018db")
 	)
 	(pad "3" smd roundrect
 		(at 0 0.4665)
 		(size 0.95 0.613)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "414de2aa-ed61-4755-be02-f3a3b246edfa")
 	)
 	(pad "4" smd roundrect
 		(at 0.925 0.65)
 		(size 0.325 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5116e7f2-5eae-4086-b7dc-4dda684b1ec3")
 	)
 	(pad "5" smd roundrect
 		(at 0.925 0)
 		(size 0.325 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e30b0691-150d-4c25-b3d6-55fb26a901e0")
 	)
 	(pad "6" smd roundrect
 		(at 0 -0.4665)
 		(size 0.95 0.613)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0411df3c-937a-4863-a1bc-b0b6673878f1")
 	)
 	(pad "6" smd roundrect
 		(at 0.925 -0.65)
 		(size 0.325 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e71dcf98-b85b-4cf9-b58c-01f689060536")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Vishay_PowerPAK_SC70-6L_Dual.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Vishay_PowerPAK_SC70-6L_Dual.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

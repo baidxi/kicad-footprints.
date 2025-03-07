@@ -1,7 +1,7 @@
 (footprint "Texas_DSBGA-5_1.5855x1.6365mm_Layout3x2_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments, DSBGA, area grid, YTA0005 pad definition, 1.5855x1.6365mm, 5 Ball, 3x2 Layout, 0.5mm Pitch, https://www.ti.com/lit/ml/mxbg263/mxbg263.pdf, https://www.ti.com/lit/ds/symlink/lm74.pdf#page=24")
 	(tags "BGA 5 0.5 YTA")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "78ba3f15-d91c-4d31-a014-abcd6aa9367c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" "https://www.ti.com/lit/ml/mxbg263/mxbg263.pdf"
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,7 +102,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "7e302e00-b661-4880-be36-c3a8c237509c")
 	)
@@ -220,34 +210,35 @@
 	(pad "A1" smd circle
 		(at -0.5 -0.5 270)
 		(size 0.16 0.16)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ae38e15f-2f4a-41b6-8fc4-ec80a73ac419")
 	)
 	(pad "A2" smd circle
 		(at 0 -0.5 270)
 		(size 0.16 0.16)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e044d0d4-106f-4888-b404-eda6cc14e554")
 	)
 	(pad "A3" smd circle
 		(at 0.5 -0.5 270)
 		(size 0.16 0.16)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fe9b8717-7af9-4b59-8869-2aa23bb5fb41")
 	)
 	(pad "B1" smd circle
 		(at -0.5 0.5 270)
 		(size 0.16 0.16)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "46d01bd6-254f-4a48-bf49-bdf04a82aa21")
 	)
 	(pad "B3" smd circle
 		(at 0.5 0.5 270)
 		(size 0.16 0.16)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5b297bd2-5224-4cec-ab98-b42a0f9c2e52")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-5_1.5855x1.6365mm_Layout3x2_P0.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-5_1.5855x1.6365mm_Layout3x2_P0.5mm.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)

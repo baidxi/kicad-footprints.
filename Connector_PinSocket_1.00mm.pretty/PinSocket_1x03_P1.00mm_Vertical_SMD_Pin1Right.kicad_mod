@@ -1,7 +1,7 @@
 (footprint "PinSocket_1x03_P1.00mm_Vertical_SMD_Pin1Right"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "surface-mounted straight socket strip, 1x03, 1.00mm pitch, single row, style 2 (pin 1 right) (https://gct.co/files/drawings/bc070.pdf), script generated")
 	(tags "Surface mounted socket strip SMD 1x03 1.00mm single row style2 pin1 right")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5feabc25-eaf4-4a1d-9689-a4241b95a540")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -338,22 +328,23 @@
 	(pad "1" smd rect
 		(at 0.975 -1)
 		(size 1.95 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "01f2c6cd-5662-4d51-a96f-b3f2ecdf8101")
 	)
 	(pad "2" smd rect
 		(at -0.975 0)
 		(size 1.95 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "48efbe29-4365-42de-af2d-b2d61ef72cc7")
 	)
 	(pad "3" smd rect
 		(at 0.975 1)
 		(size 1.95 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "49d7a327-467f-4d93-9cce-9b99f545b379")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_1.00mm.3dshapes/PinSocket_1x03_P1.00mm_Vertical_SMD_Pin1Right.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_1.00mm.3dshapes/PinSocket_1x03_P1.00mm_Vertical_SMD_Pin1Right.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

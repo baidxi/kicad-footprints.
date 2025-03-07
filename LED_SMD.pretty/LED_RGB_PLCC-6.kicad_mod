@@ -1,7 +1,7 @@
 (footprint "LED_RGB_PLCC-6"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RGB LED PLCC-6")
 	(tags "RGB LED PLCC-6")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "552a2e14-fd86-4c86-94dd-97a9e2ed60d7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -187,40 +177,41 @@
 	(pad "1" smd rect
 		(at -1.55 -1.1 90)
 		(size 0.7 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "be6c252c-cfea-4e91-815a-5f6e7cf69264")
 	)
 	(pad "2" smd rect
 		(at -1.55 0 90)
 		(size 0.7 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8fa51339-6c63-4eda-a8e9-3adc0d2e0611")
 	)
 	(pad "3" smd rect
 		(at -1.55 1.1 90)
 		(size 0.7 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b14c4f98-211f-46a7-9e5f-f4c1c4004261")
 	)
 	(pad "4" smd rect
 		(at 1.55 1.1 90)
 		(size 0.7 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "907f35bf-d37a-4baa-86e9-62994e19cd95")
 	)
 	(pad "5" smd rect
 		(at 1.55 0 90)
 		(size 0.7 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1f1072f8-98c1-489d-906e-eb8244082efc")
 	)
 	(pad "6" smd rect
 		(at 1.55 -1.1 90)
 		(size 0.7 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e13a99e6-483f-44cf-aa6e-7c7f9db6cf63")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_PLCC-6.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_PLCC-6.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "EA-eDIP128B-XXX"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LCD-graphical display with LED backlight 128x64 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip128-6e.pdf")
 	(tags "LCD-graphical display with LED backlight 128x64 RS-232 I2C or SPI")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "20929f92-2e21-405a-a6f5-fd4035157ed6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -511,7 +501,8 @@
 		(remove_unused_layers no)
 		(uuid "673d671c-bbc6-4ab4-8556-4ec26bf2c126")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/EA-eDIP128B-XXX.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Display.3dshapes/EA-eDIP128B-XXX.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

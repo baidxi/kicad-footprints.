@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Keystone_1042_1x18650"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Battery holder for 18650 cylindrical cells http://www.keyelco.com/product.cfm/product_id/918")
 	(tags "18650 Keystone 1042 Li-ion")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "097a738f-a108-4107-aec6-c08e6d6d0dd3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -369,16 +359,17 @@
 	(pad "1" smd rect
 		(at -39.33 0)
 		(size 7.34 6.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c63d5d6c-97ee-4909-886e-5f964cedd186")
 	)
 	(pad "2" smd rect
 		(at 39.33 0)
 		(size 7.34 6.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "71e6f9f2-b2e3-42e9-9c31-30528b6be677")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_1042_1x18650.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_1042_1x18650.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

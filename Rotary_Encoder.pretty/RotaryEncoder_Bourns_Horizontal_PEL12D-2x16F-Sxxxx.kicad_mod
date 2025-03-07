@@ -1,7 +1,7 @@
 (footprint "RotaryEncoder_Bourns_Horizontal_PEL12D-2x16F-Sxxxx"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Rotary encoder with switch and illuminated 4mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf")
 	(tags "rotary encoder illuminated switch horizontal")
@@ -28,20 +28,8 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 -90)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9cc226e3-acdf-4179-886b-cdb6849795bc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
-		(at 0 0 -90)
+		(at 0 0 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -49,11 +37,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Description" ""
-		(at 0 0 -90)
+		(at 0 0 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -522,7 +512,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7ede69d3-80b6-4acd-bd9c-da5a67a18bb1")
 	)
@@ -628,6 +618,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -655,6 +649,10 @@
 			(pads not_allowed)
 			(copperpour allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -684,6 +682,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -712,6 +714,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -722,7 +728,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Bourns_Horizontal_PEL12D-2x16F-Sxxxx.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Bourns_Horizontal_PEL12D-2x16F-Sxxxx.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

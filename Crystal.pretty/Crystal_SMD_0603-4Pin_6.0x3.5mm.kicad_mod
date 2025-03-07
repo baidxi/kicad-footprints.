@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_0603-4Pin_6.0x3.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal SERIES SMD0603/4 http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-4.pdf, 6.0x3.5mm^2 package")
 	(tags "SMD SMT crystal")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c0925fd4-51cb-4801-b810-b9adc4aa6b68")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,54 +49,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 0.093333 0)
-		(stroke
-			(width 0.186667)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "94dceb96-a2f2-49c1-81c3-fd0c486fe7a2")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.213333 0)
-		(stroke
-			(width 0.133333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "ae1a9737-3d75-4929-a3e2-d0c3b15d5070")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.333333 0)
-		(stroke
-			(width 0.133333)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "585e49b0-7d28-4d0d-ae38-9c30d4fb83f9")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.4 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Adhes")
-		(uuid "ebfd9dfb-3758-4398-99ac-cae14945538e")
-	)
 	(fp_line
 		(start -3.44 0.3)
 		(end -3.2 0.3)
@@ -167,6 +113,50 @@
 		)
 		(layer "F.SilkS")
 		(uuid "5bd1b32d-7461-4839-81d3-cab63db7f673")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.093333 0)
+		(stroke
+			(width 0.186667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "94dceb96-a2f2-49c1-81c3-fd0c486fe7a2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.213333 0)
+		(stroke
+			(width 0.133333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "ae1a9737-3d75-4929-a3e2-d0c3b15d5070")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.333333 0)
+		(stroke
+			(width 0.133333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "585e49b0-7d28-4d0d-ae38-9c30d4fb83f9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "ebfd9dfb-3758-4398-99ac-cae14945538e")
 	)
 	(fp_line
 		(start -3.4 -2.2)
@@ -312,28 +302,29 @@
 	(pad "1" smd rect
 		(at -2.2 1.2)
 		(size 1.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4919a047-5543-44db-b905-b6f409b39a9d")
 	)
 	(pad "2" smd rect
 		(at 2.2 1.2)
 		(size 1.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a65a7580-e884-4430-b98b-e092be97c334")
 	)
 	(pad "3" smd rect
 		(at 2.2 -1.2)
 		(size 1.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "100a353d-f425-4651-8979-ab9fcd6fd526")
 	)
 	(pad "4" smd rect
 		(at -2.2 -1.2)
 		(size 1.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f8bd219c-9573-4f8f-8c0d-baa81f4f8f9e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_0603-4Pin_6.0x3.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_0603-4Pin_6.0x3.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

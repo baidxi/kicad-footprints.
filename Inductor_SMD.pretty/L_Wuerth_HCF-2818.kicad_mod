@@ -1,7 +1,7 @@
 (footprint "L_Wuerth_HCF-2818"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "7443640330, http://katalog.we-online.de/pbs/datasheet/7443640330.pdf")
 	(tags "inductor shielded wuerth hcf")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "660fd611-2f23-4922-b34d-f886fab6712e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -348,22 +338,23 @@
 	(pad "" smd rect
 		(at 0 -7.72)
 		(size 6.36 5.28)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e6064dea-9163-4bb2-a77a-605892b85838")
 	)
 	(pad "1" smd rect
 		(at -5.075 14.355)
 		(size 5.33 5.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d3d6b410-7836-472f-9b94-f933b9ea97d0")
 	)
 	(pad "2" smd rect
 		(at 5.075 14.355)
 		(size 5.33 5.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6b5ed142-bb52-40fc-a252-770a6229ac30")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_HCF-2818.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_HCF-2818.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

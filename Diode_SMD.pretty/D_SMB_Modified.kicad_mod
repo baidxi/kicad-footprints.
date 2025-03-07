@@ -1,7 +1,7 @@
 (footprint "D_SMB_Modified"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode SMB (DO-214AA) Modified (http://www.littelfuse.com/~/media/electronics/datasheets/sidactors/littelfuse_sidactor_battrax_positive_negative_modified_do_214_datasheet.pdf.pdf)")
 	(tags "Diode SMB (DO-214AA)")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b82acdd4-378c-4f6a-ae41-e05563a127af")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -198,22 +188,23 @@
 	(pad "1" smd rect
 		(at -2 -0.88)
 		(size 2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5993a306-c0d1-4d81-8567-405e07ae39a1")
 	)
 	(pad "2" smd rect
 		(at 2 0)
 		(size 2 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b6fae07e-d36a-4b89-9784-3ebfdc8e28ef")
 	)
 	(pad "3" smd rect
 		(at -2 0.88)
 		(size 2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ebda7380-1bc4-4b8f-92df-552feabfc31b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB_Modified.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB_Modified.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

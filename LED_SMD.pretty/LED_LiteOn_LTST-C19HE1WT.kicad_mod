@@ -1,7 +1,7 @@
 (footprint "LED_LiteOn_LTST-C19HE1WT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LiteOn RGB LED; https://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf")
 	(tags "LED RGB Chip SMD")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4a2fc817-fe22-4711-941e-4f077f96e352")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -188,28 +178,29 @@
 	(pad "1" smd rect
 		(at -0.425 -0.725)
 		(size 0.65 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fbd6e93c-48b9-4642-bb46-7200d6ab8306")
 	)
 	(pad "2" smd rect
 		(at 0.425 -0.725)
 		(size 0.65 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e55cdb9d-3284-4978-a1a3-be6e686b2e6f")
 	)
 	(pad "3" smd rect
 		(at 0.425 0.725)
 		(size 0.65 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ad3514ea-4ef8-4b5f-a2c5-ec24809aa761")
 	)
 	(pad "4" smd rect
 		(at -0.425 0.725)
 		(size 0.65 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3f1298c8-8458-4b0c-8158-9562de729d2a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_LiteOn_LTST-C19HE1WT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_LiteOn_LTST-C19HE1WT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

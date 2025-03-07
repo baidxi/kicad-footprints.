@@ -1,7 +1,7 @@
 (footprint "USB_Micro-B_Wuerth_629105150521_CircularHoles"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB Micro-B receptacle, http://www.mouser.com/ds/2/445/629105150521-469306.pdf")
 	(tags "usb micro receptacle")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c20fee1b-b2bc-4745-9572-f5874a20cb48")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -403,37 +393,38 @@
 	(pad "1" smd rect
 		(at -1.3 -1.9)
 		(size 0.45 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e5ee5bf4-b0fb-4a86-8ddf-88a357eeeaa3")
 	)
 	(pad "2" smd rect
 		(at -0.65 -1.9)
 		(size 0.45 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2e4fee91-f4b5-44ec-8792-416608924383")
 	)
 	(pad "3" smd rect
 		(at 0 -1.9)
 		(size 0.45 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e796a180-29f6-458c-a003-214f8f70008d")
 	)
 	(pad "4" smd rect
 		(at 0.65 -1.9)
 		(size 0.45 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9070c7c3-f459-4b13-9764-d19c4d582235")
 	)
 	(pad "5" smd rect
 		(at 1.3 -1.9)
 		(size 0.45 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "193102d0-f5de-4ba2-8d49-2d449336c890")
 	)
 	(pad "6" thru_hole circle
 		(at -3.875 1.95)
 		(size 1.8 1.8)
 		(drill 1.2)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "cadf5e81-abd1-49f3-967e-262b39de839e")
@@ -442,6 +433,7 @@
 		(at -3.725 -1.85)
 		(size 2 2)
 		(drill 1.4)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "cace70cf-7101-4607-84e8-42ab022bc7fa")
@@ -450,6 +442,7 @@
 		(at 3.725 -1.85)
 		(size 2 2)
 		(drill 1.4)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "1633dde1-5086-4b23-85a0-820f567f44f0")
@@ -458,11 +451,13 @@
 		(at 3.875 1.95)
 		(size 1.8 1.8)
 		(drill 1.2)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "cc8d9da1-435d-4919-b143-fcdc1d548726")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Wuerth_629105150521_CircularHoles.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Wuerth_629105150521_CircularHoles.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

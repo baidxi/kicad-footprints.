@@ -1,7 +1,7 @@
 (footprint "Relay_3PST_COTO_3650"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Low thermal EMF 3PST-NO reed relay, 150V 0.25A, similar to 3660 but with independent shield, https://cotorelay.com/wp-content/uploads/2014/09/3600_series_reed_relay_datasheet.pdf")
 	(tags "reed relay low thermal emf")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7e11223b-61e5-4487-bdfc-93e7f5389260")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -93,7 +83,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "820d8913-4847-414f-96c6-b1d3061a1ed7")
 	)
@@ -104,7 +94,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "004ee5e0-fcbd-488a-af59-84acdaee0385")
 	)
@@ -242,7 +232,8 @@
 		(remove_unused_layers no)
 		(uuid "fada5104-638d-4879-a6b2-1ef57346b265")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_3PST_COTO_3650.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_3PST_COTO_3650.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

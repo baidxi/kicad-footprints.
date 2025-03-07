@@ -1,7 +1,7 @@
 (footprint "LED_BL-FL7680RGB"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "'Piranha' RGB LED, through hole, common anode, 7.62x7.62mm, BGRA pin order, https://cdn-shop.adafruit.com/datasheets/BL-FL7680RGB.pdf")
 	(tags "RGB LED Piranha Super-Flux BetLux")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "da7218ee-b192-40da-b96b-a7e6f3f8fb02")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -257,7 +247,8 @@
 		(remove_unused_layers no)
 		(uuid "d9712e8e-7091-441a-a8ac-94d4e2058afb")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_BL-FL7680RGB.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_BL-FL7680RGB.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

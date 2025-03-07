@@ -1,7 +1,7 @@
 (footprint "Texas_NDQ"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments, NDQ, 5 pin (https://www.ti.com/lit/ml/mmsf022/mmsf022.pdf)")
 	(tags "ti pfm dap")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a3cbee4f-f4b9-4af1-ab65-73c295023569")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -102,7 +92,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "7ef9382e-4d83-4f28-87cf-6be4466b3621")
 	)
@@ -400,46 +390,47 @@
 	(pad "1" smd roundrect
 		(at -8.315 -3.4)
 		(size 2.41 1.07)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "bd373029-5f40-4d15-90da-342371b8fe4a")
 	)
 	(pad "2" smd roundrect
 		(at -8.315 -1.7)
 		(size 2.41 1.07)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "cc605e12-a285-497c-90fd-a49db4ff088f")
 	)
 	(pad "3" smd roundrect
 		(at -8.315 0)
 		(size 2.41 1.07)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e61eea10-be75-4748-938e-b643e8b0e43a")
 	)
 	(pad "4" smd roundrect
 		(at -8.315 1.7)
 		(size 2.41 1.07)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "feaa7971-3326-46ec-8f69-5ad755f9251d")
 	)
 	(pad "5" smd roundrect
 		(at -8.315 3.4)
 		(size 2.41 1.07)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "dd33d901-cdc1-4761-a0e6-2f8b3924b146")
 	)
 	(pad "6" smd roundrect
 		(at 0.91 0)
 		(size 6.35 5.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.04472271914)
 		(uuid "748cd203-7bae-40af-80f3-f40065589106")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Texas_NDQ.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Texas_NDQ.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

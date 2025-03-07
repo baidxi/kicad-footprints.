@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Cincon_EC5BExx_Dual_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DCDC-Converter, CINCON, EC5BExx, 18-36VDC to Dual output, http://www.cincon.com/upload/media/data%20sheets/Data%20Sheet%20(DC)/B%20CASE/SPEC-EC5BE-V24.pdf")
 	(tags "DCDC-Converter CINCON EC5BExx 18-36VDC to Dual output")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c7536213-9d04-4c9c-8d56-c4c375eaa0fe")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -293,7 +283,8 @@
 		(remove_unused_layers no)
 		(uuid "e97da6ef-6eb8-409d-8775-70f0d2264cfd")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Cincon_EC5BExx_Dual_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Cincon_EC5BExx_Dual_THT.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

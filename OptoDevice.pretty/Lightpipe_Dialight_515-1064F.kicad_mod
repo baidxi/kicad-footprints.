@@ -1,12 +1,12 @@
 (footprint "Lightpipe_Dialight_515-1064F"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.dialightsignalsandcomponents.com/515-optopipe-light-pipe-trilevel-2-5mm-rnd-flat-diff-lens-press-fit/#tab-resources")
 	(tags "lightpipe triple tower right angle 3mm")
 	(property "Reference" "REF**"
-		(at 3.2 12.8 -90)
+		(at 3.2 12.8 270)
 		(layer "F.SilkS")
 		(uuid "69810f53-9016-44d1-a26f-6a99b476ea88")
 		(effects
@@ -17,25 +17,13 @@
 		)
 	)
 	(property "Value" "Lightpipe_Dialight_515-1064F"
-		(at -4.77 10.66 -90)
+		(at -4.77 10.66 270)
 		(layer "F.Fab")
 		(uuid "d5a46bb9-2bff-47e0-8754-eaa9c0739e23")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5dec328c-4bb3-43a3-8033-a4c897df307b")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -191,7 +181,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "6f229239-3112-4221-b6b9-e5a8d1e58e2e")
 	)
@@ -202,7 +192,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "6c43c05b-9bf7-468b-8cdd-946eb91ac652")
 	)
@@ -213,7 +203,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "1890a6b2-7db9-4215-bdcc-29244ea35291")
 	)
@@ -328,7 +318,7 @@
 		(uuid "f1204861-bd40-4bf0-a5aa-6679ce26ac41")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -2.2 12.7 -90)
+		(at -2.2 12.7 270)
 		(layer "F.Fab")
 		(uuid "9a496cf1-49d0-4e35-980c-662f6a7e8891")
 		(effects
@@ -352,7 +342,8 @@
 		(layers "F&B.Cu")
 		(uuid "2ec35354-31c7-497b-86f9-5f15c4e4482f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Lightpipe_Dialight_515-1064F.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Lightpipe_Dialight_515-1064F.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

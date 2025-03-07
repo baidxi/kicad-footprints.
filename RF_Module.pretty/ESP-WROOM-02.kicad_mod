@@ -1,7 +1,7 @@
 (footprint "ESP-WROOM-02"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf")
 	(tags "ESP WROOM-02 espressif esp8266ex")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ca5e7d99-6961-4006-9b4c-4ed7524faffe")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -142,7 +132,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "5eb6ae86-36a4-4eba-9480-f39b9a450840")
 	)
@@ -504,121 +494,126 @@
 	(pad "1" smd rect
 		(at -8.75 -6)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c3814f68-e482-4d7f-b0ad-86d1081acd71")
 	)
 	(pad "2" smd rect
 		(at -8.75 -4.5)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "219c9893-5a85-45c5-8848-c55eeb10f3e6")
 	)
 	(pad "3" smd rect
 		(at -8.75 -3)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "644cd9ab-91c8-482d-9c6d-e4a3418f6617")
 	)
 	(pad "4" smd rect
 		(at -8.75 -1.5)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "06261f57-1ec8-47a8-9ecc-1baff5368086")
 	)
 	(pad "5" smd rect
 		(at -8.75 0)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "aca77633-dc3a-4541-b729-629c026d1a29")
 	)
 	(pad "6" smd rect
 		(at -8.75 1.5)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "034554e7-bfbe-4c5c-8ee2-04b62ac75443")
 	)
 	(pad "7" smd rect
 		(at -8.75 3)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "32822211-948d-40fd-bc14-bc5cdd2e6b2a")
 	)
 	(pad "8" smd rect
 		(at -8.75 4.5)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "949247b5-80f5-4812-a2f4-a34f00e13784")
 	)
 	(pad "9" smd rect
 		(at -8.75 6)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "78567d02-2284-4f67-9876-efc98655832e")
 	)
 	(pad "10" smd rect
 		(at 8.75 6)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8538e572-9bb9-4797-b564-dcb4695b2dff")
 	)
 	(pad "11" smd rect
 		(at 8.75 4.5)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4d59fb19-f4c7-4efe-ac79-c15574a26dea")
 	)
 	(pad "12" smd rect
 		(at 8.75 3)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "75a7d238-6220-4d67-b2f4-cbea22230d5c")
 	)
 	(pad "13" smd rect
 		(at 8.75 1.5)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b5f58d12-d4b7-494f-bea1-a0477dcfe68a")
 	)
 	(pad "14" smd rect
 		(at 8.75 0)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d636be21-b912-4d44-9f3d-0f744d6ecd4e")
 	)
 	(pad "15" smd rect
 		(at 8.75 -1.5)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0a49d8d2-a306-4139-b262-0efb8a88b6aa")
 	)
 	(pad "16" smd rect
 		(at 8.75 -3)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3143dceb-f470-463a-b9dd-d94f9782fe3b")
 	)
 	(pad "17" smd rect
 		(at 8.75 -4.5)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7bcf70e5-839e-496c-a01c-e74f27feb611")
 	)
 	(pad "18" smd rect
 		(at 8.75 -6)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0d03c3fa-7a75-4e94-97da-34f96d1cfb5a")
 	)
 	(pad "19" smd rect
 		(at 1.1 0.61)
 		(size 4 4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "57864fe0-6cf0-444c-b20f-0860644b8944")
 	)
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "0048f0ae-7a40-45b3-95ba-3ba92bea9acc")
 		(hatch full 0.508)
 		(connect_pads
@@ -633,6 +628,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -643,7 +642,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/ESP-WROOM-02.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/ESP-WROOM-02.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

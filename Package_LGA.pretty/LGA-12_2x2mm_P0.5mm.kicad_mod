@@ -1,7 +1,7 @@
 (footprint "LGA-12_2x2mm_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LGA12")
 	(tags "lga land grid array")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "49f79ef9-8fc6-4305-8a06-0a68e998a2f0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -192,7 +182,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "a1d71528-1d09-4a4c-95b5-2d81e3d0011c")
 	)
@@ -300,76 +290,77 @@
 	(pad "1" smd rect
 		(at -0.7625 -0.75)
 		(size 0.375 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2fa0337e-d24f-4a61-be6e-4b576b895c3a")
 	)
 	(pad "2" smd rect
 		(at -0.7625 -0.25)
 		(size 0.375 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eccb3720-c62a-4fa8-a745-6baa45bf0427")
 	)
 	(pad "3" smd rect
 		(at -0.7625 0.25)
 		(size 0.375 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ba5063aa-5ba1-4c43-a71b-3e03cb75c59b")
 	)
 	(pad "4" smd rect
 		(at -0.7625 0.75)
 		(size 0.375 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fd22ce38-d368-4464-9e95-f302940a3d5e")
 	)
 	(pad "5" smd rect
 		(at -0.25 0.7625 90)
 		(size 0.375 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a9456422-0f5e-4091-a831-6d2841723366")
 	)
 	(pad "6" smd rect
 		(at 0.25 0.7625 90)
 		(size 0.375 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "630ecc8f-7fd9-4e12-a61d-69f6fb0e7544")
 	)
 	(pad "7" smd rect
 		(at 0.7625 0.75)
 		(size 0.375 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ff139c05-94af-4cac-9fae-d2e5da42dfd3")
 	)
 	(pad "8" smd rect
 		(at 0.7625 0.25)
 		(size 0.375 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dc919528-be8b-4425-9682-371d51e15d20")
 	)
 	(pad "9" smd rect
 		(at 0.7625 -0.25)
 		(size 0.375 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c3f5d61a-5a02-4d18-b34f-9018c39940a1")
 	)
 	(pad "10" smd rect
 		(at 0.7625 -0.75)
 		(size 0.375 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4b29a2c9-7a88-4a1b-9a34-e51c367e908d")
 	)
 	(pad "11" smd rect
 		(at 0.25 -0.7625 90)
 		(size 0.375 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bdd7facd-acfd-4b58-a93a-844c273ca548")
 	)
 	(pad "12" smd rect
 		(at -0.25 -0.7625 90)
 		(size 0.375 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "03b925a9-9c2b-4ed7-be45-e17c80bde3f7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

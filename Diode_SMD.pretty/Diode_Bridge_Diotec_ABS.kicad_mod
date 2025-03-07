@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Diotec_ABS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD diode bridge ABS (Diotec), see https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf")
 	(tags "ABS MBLS")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "38d54816-2e3e-46fa-be08-ea28f798f0b6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "eeed9408-c716-40c1-8925-02ba7e2cbf08")
 	)
@@ -200,28 +190,29 @@
 	(pad "1" smd rect
 		(at -2.975 -2)
 		(size 1 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d99f4910-7ebe-43ca-a155-1be55bb0c180")
 	)
 	(pad "2" smd rect
 		(at -2.975 2)
 		(size 1 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "71a80d5b-f732-4ce8-99e2-a1f4a40eb0c6")
 	)
 	(pad "3" smd rect
 		(at 2.975 2)
 		(size 1 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "84c6d600-2b5f-420d-a568-96a8383b7172")
 	)
 	(pad "4" smd rect
 		(at 2.975 -2)
 		(size 1 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1590c8f9-0c8d-4f50-9f8a-1ee2f799cc06")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Diotec_ABS.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Diotec_ABS.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

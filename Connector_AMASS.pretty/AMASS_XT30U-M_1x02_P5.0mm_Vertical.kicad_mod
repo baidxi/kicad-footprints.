@@ -1,9 +1,9 @@
 (footprint "AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Connector XT30 Vertical Cable Male, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
+	(descr "Connector XT30 Vertical Cable Male, https://www.tme.eu/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf")
 	(tags "RC Connector XT30")
 	(property "Reference" "REF**"
 		(at 2.5 -4 0)
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f1292ad4-7974-416a-8f17-a08bf9401b3c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -277,12 +267,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 3.8 3.8)
 		(drill 2.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
 		(uuid "4afc9e85-8b2a-4665-901f-7a72bf53cc89")
 	)
 	(pad "2" thru_hole circle
@@ -293,7 +284,8 @@
 		(remove_unused_layers no)
 		(uuid "2b1ec5c7-48e3-493a-9ac8-e3d7186b6b9e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30U-M_1x02_P5.0mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30U-M_1x02_P5.0mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

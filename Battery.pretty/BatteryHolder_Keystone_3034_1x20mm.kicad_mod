@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Keystone_3034_1x20mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Keystone 3034 SMD battery holder for 2020, 2025 and 2032 coincell batteries. http://www.keyelco.com/product-pdf.cfm?p=798")
 	(tags "Keystone type 3034 coin cell retainer")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ed719e37-1f33-4bbf-a002-4fa0f64428e1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -193,7 +183,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "0fb91d9d-65a6-4f21-ac94-de5e36250b71")
 	)
@@ -518,13 +508,13 @@
 	(pad "1" smd rect
 		(at -10.985 0)
 		(size 1.27 5.08)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a378d747-29cc-440a-bf7b-c8c3abeba343")
 	)
 	(pad "1" smd rect
 		(at 10.985 0)
 		(size 1.27 5.08)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2c6bb5b5-cbe9-4165-aaf4-0c1ef8cbeaf0")
 	)
 	(pad "2" smd circle
@@ -533,7 +523,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "fe10758f-f843-45c9-81f4-37d94d7ea2f3")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_3034_1x20mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_3034_1x20mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

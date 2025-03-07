@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_28.6x28.6x7.3mm_P18.0mm_P11.6mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Single phase bridge rectifier case 28.6x28.6mm, pitch 18.0mm & 11.6mm, see https://diotec.com/tl_files/diotec/files/pdf/datasheets/kbpc1500fw.pdf")
 	(tags "Diode Bridge KBPCxxxxWP")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8fb3b43a-aa75-4f27-a015-9bdd26b18d9a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -257,7 +247,8 @@
 		(remove_unused_layers no)
 		(uuid "57d27d07-90a1-490f-967f-53fcd9692c64")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_28.6x28.6x7.3mm_P18.0mm_P11.6mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_28.6x28.6x7.3mm_P18.0mm_P11.6mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
