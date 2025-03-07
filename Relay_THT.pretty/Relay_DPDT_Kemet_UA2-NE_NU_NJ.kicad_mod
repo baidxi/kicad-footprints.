@@ -1,12 +1,12 @@
 (footprint "Relay_DPDT_Kemet_UA2-NE_NU_NJ"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Kemet Miniature Signal Relays, DPDT, see https://content.kemet.com/datasheets/KEM_R7004_UA2_UB2.pdf")
-	(tags "Kemet Miniature Signal Relays")
+	(descr "Kemet Miniature Signal Relays, DPDT, 10.6x5.7x8mm, see https://content.kemet.com/datasheets/KEM_R7004_UA2_UB2.pdf")
+	(tags "2-Form-C")
 	(property "Reference" "REF**"
-		(at 1.95 -2.6 0)
+		(at 2.5 -2.55 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "3255a996-d8b1-4e06-a319-cda5449a192d")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "Relay_DPDT_Kemet_UA2-NE_NU_NJ"
-		(at 2.946 15.728 0)
+		(at 2.462 10.126 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "1fe4b65c-7fe3-4f36-96cb-87fcd0529749")
@@ -29,21 +29,8 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 1.6 3.8 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "426877dc-7711-437d-88af-c3ec42c0ea81")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7004_UA2_UB2.pdf"
-		(at 3.1 14 0)
+	(property "Datasheet" ""
+		(at 2.616 8.398 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -70,50 +57,50 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -1.25 -1.5)
-		(end -0.45 -1.5)
+		(start -1.35 -1.6)
+		(end -0.45 -1.6)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "a56a798d-0901-4539-9b6e-b90d9e7a908c")
 	)
 	(fp_line
-		(start -1.25 9.1)
-		(end -1.25 -1.5)
+		(start -1.35 9.2)
+		(end -1.35 -1.6)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "269fc11c-7273-459e-858a-75b464634967")
 	)
 	(fp_line
-		(start 0.45 -1.5)
-		(end 4.45 -1.5)
+		(start 0.45 -1.6)
+		(end 4.55 -1.6)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "682aa106-fc99-4a5b-950f-d3d38809ce58")
 	)
 	(fp_line
-		(start 4.45 -1.5)
-		(end 4.45 9.1)
+		(start 4.55 -1.6)
+		(end 4.55 9.2)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "b7dc9b69-6001-4d6a-9dea-b09805990614")
 	)
 	(fp_line
-		(start 4.45 9.1)
-		(end -1.25 9.1)
+		(start 4.55 9.2)
+		(end -1.35 9.2)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -121,24 +108,24 @@
 	)
 	(fp_poly
 		(pts
-			(xy 0.233493 -1.716508) (xy -0.016507 -1.283495) (xy -0.266507 -1.716508)
+			(xy 0.233493 -2.033013) (xy -0.016507 -1.6) (xy -0.266507 -2.033013)
 		)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "323a2804-96b0-45af-a07a-fc5c427e025d")
 	)
 	(fp_rect
-		(start -1.35 -1.6)
-		(end 4.55 9.2)
+		(start -1.5 -1.75)
+		(end 4.7 9.35)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "5b5d53c1-4424-4156-b0c8-14eaf86323f7")
 	)
@@ -159,12 +146,12 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "378b725e-701e-4aee-8bc7-fa61c370ab00")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.184 17.252 0)
+		(at 1.65 3.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "18f873ab-5995-4462-917c-53eff5cb5172")
@@ -240,7 +227,8 @@
 		(remove_unused_layers no)
 		(uuid "8cf5f3b8-7033-4f68-866f-f872e6ff75d3")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Kemet_UA2-NE_NU.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Kemet_UA2-NE_NU_NJ.wrl"
 		(offset
 			(xyz 1.6 -3.8 0)
 		)
