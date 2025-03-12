@@ -1,12 +1,14 @@
 (footprint "MPS_VSON-6_1x1.5mm_P0.5mm"
 	(version 20241229)
-	(generator "kicad-footprint-generator")
+	(generator "pcbnew")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "MPS  VSON, 6 Pin (https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP21148/document_id/1006/#page=14), generated with kicad-footprint-generator ipc_noLead_generator.py")
 	(tags "MPS VSON NoLead")
 	(property "Reference" "REF**"
 		(at 0 -1.7 0)
 		(layer "F.SilkS")
+		(uuid "edb58d0f-be10-4b95-9e68-d84a40e1d390")
 		(effects
 			(font
 				(size 1 1)
@@ -17,9 +19,34 @@
 	(property "Value" "MPS_VSON-6_1x1.5mm_P0.5mm"
 		(at 0 1.7 0)
 		(layer "F.Fab")
+		(uuid "c5929091-8c10-4fdb-a924-11d8637e01d0")
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c577cdf9-3fda-4e9d-af38-e34a92db91db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04f94d4d-d015-4565-847f-6c93ae735fe3")
+		(effects
+			(font
+				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -33,6 +60,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
+		(uuid "c31419ae-a547-4c5f-917c-aafa59c6f669")
 	)
 	(fp_line
 		(start -0.5 0.885)
@@ -42,13 +70,11 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
+		(uuid "005c75a3-5a14-45d0-acee-4e0b3c99b8b1")
 	)
 	(fp_poly
 		(pts
-			(xy -1.05 -0.8)
-			(xy -1.33 -0.8)
-			(xy -1.05 -1.08)
-			(xy -1.05 -0.8)
+			(xy -1.05 -0.8) (xy -1.33 -0.8) (xy -1.05 -1.08)
 		)
 		(stroke
 			(width 0.12)
@@ -56,91 +82,35 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
+		(uuid "fcaa580e-57eb-4921-aaaf-3e7309098ce5")
 	)
-	(fp_line
+	(fp_rect
 		(start -1.13 -1)
-		(end -1.13 1)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.13 1)
 		(end 1.13 1)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
+		(uuid "f339af3b-e52b-4e9c-9b3c-19b3b7620b1d")
 	)
-	(fp_line
-		(start 1.13 -1)
-		(end -1.13 -1)
-		(stroke
-			(width 0.05)
-			(type solid)
+	(fp_poly
+		(pts
+			(xy -0.5 -0.5) (xy -0.5 0.75) (xy 0.5 0.75) (xy 0.5 -0.75) (xy -0.25 -0.75)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 1.13 1)
-		(end 1.13 -1)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -0.5 -0.5)
-		(end -0.25 -0.75)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.Fab")
-	)
-	(fp_line
-		(start -0.5 0.75)
-		(end -0.5 -0.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -0.25 -0.75)
-		(end 0.5 -0.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0.5 -0.75)
-		(end 0.5 0.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0.5 0.75)
-		(end -0.5 0.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
+		(uuid "183bab5e-728b-430c-9eca-4db4bb2f53c1")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
 		(layer "F.Fab")
+		(uuid "dfabb8c5-eab4-4ff8-9243-0e3beb79ca89")
 		(effects
 			(font
 				(size 0.38 0.38)
@@ -149,40 +119,46 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.5375 -0.5)
-		(size 0.675 0.25)
+		(at -0.475 -0.5)
+		(size 0.8 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(uuid "e2943114-45a3-45a5-897e-95169702f0a4")
 	)
 	(pad "2" smd roundrect
-		(at -0.5375 0)
-		(size 0.675 0.25)
+		(at -0.475 0)
+		(size 0.8 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(uuid "3cd9eb6f-bd05-4c1f-aad9-2fdbbd8c8631")
 	)
 	(pad "3" smd roundrect
-		(at -0.5375 0.5)
-		(size 0.675 0.25)
+		(at -0.475 0.5)
+		(size 0.8 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(uuid "16137444-263f-407d-a408-b21134fab967")
 	)
 	(pad "4" smd roundrect
-		(at 0.5375 0.5)
-		(size 0.675 0.25)
+		(at 0.475 0.5)
+		(size 0.8 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(uuid "a5b82633-018e-4ff8-8e0c-45bd3e99620d")
 	)
 	(pad "5" smd roundrect
-		(at 0.5375 0)
-		(size 0.675 0.25)
+		(at 0.475 0)
+		(size 0.8 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(uuid "246c3824-9efa-467a-aa5a-29803db24506")
 	)
 	(pad "6" smd roundrect
-		(at 0.5375 -0.5)
-		(size 0.675 0.25)
+		(at 0.475 -0.5)
+		(size 0.8 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(uuid "dc02e0cd-f703-4cb5-a8bc-a7cefcd796dc")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/MPS_VSON-6_1x1.5mm_P0.5mm.wrl"
