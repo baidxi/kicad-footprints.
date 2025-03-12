@@ -45,10 +45,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.05 -0.8)
-			(xy -1.33 -0.8)
-			(xy -1.05 -1.08)
-			(xy -1.05 -0.8)
+			(xy -1.05 -0.3)
+			(xy -1.33 -0.3)
+			(xy -1.05 -0.58)
 		)
 		(stroke
 			(width 0.12)
@@ -57,85 +56,29 @@
 		(fill yes)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -1.13 -1)
-		(end -1.13 1)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.13 1)
 		(end 1.13 1)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start 1.13 -1)
-		(end -1.13 -1)
-		(stroke
-			(width 0.05)
-			(type solid)
+	(fp_poly
+		(pts
+			(xy -0.5 -0.5)
+			(xy -0.5 0.75)
+			(xy 0.5 0.75)
+			(xy 0.5 -0.75)
+			(xy -0.25 -0.75)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 1.13 1)
-		(end 1.13 -1)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -0.5 -0.5)
-		(end -0.25 -0.75)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -0.5 0.75)
-		(end -0.5 -0.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -0.25 -0.75)
-		(end 0.5 -0.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0.5 -0.75)
-		(end 0.5 0.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0.5 0.75)
-		(end -0.5 0.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -149,38 +92,38 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.5375 -0.5)
-		(size 0.675 0.25)
+		(at -0.4875 -0.5)
+		(size 0.775 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "2" smd roundrect
-		(at -0.5375 0)
-		(size 0.675 0.25)
+		(at -0.5125 0)
+		(size 0.725 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "3" smd roundrect
-		(at -0.5375 0.5)
-		(size 0.675 0.25)
+		(at -0.5125 0.5)
+		(size 0.725 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "4" smd roundrect
-		(at 0.5375 0.5)
-		(size 0.675 0.25)
+		(at 0.5125 0.5)
+		(size 0.725 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "5" smd roundrect
-		(at 0.5375 0)
-		(size 0.675 0.25)
+		(at 0.5125 0)
+		(size 0.725 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "6" smd roundrect
-		(at 0.5375 -0.5)
-		(size 0.675 0.25)
+		(at 0.5125 -0.5)
+		(size 0.725 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
