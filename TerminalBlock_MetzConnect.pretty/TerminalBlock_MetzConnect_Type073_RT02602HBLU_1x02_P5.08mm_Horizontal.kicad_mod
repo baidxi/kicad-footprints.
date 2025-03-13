@@ -1,8 +1,8 @@
 (footprint "TerminalBlock_MetzConnect_Type073_RT02602HBLU_1x02_P5.08mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "terminal block Metz Connect Type073_RT02602HBLU, 2 pins, pitch 5.08mm, size 10.2x11mm, drill diameter 1.4mm, pad diameter 2.6mm, http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310731_RT026xxHBLU_OFF-022792U.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MetzConnect")
+	(descr "terminal block Metz Connect Type073_RT02602HBLU, 2 pins, pitch 5.08mm, size 10.2x11mm, drill diameter 1.4mm, pad diameter 2.6mm, https://www.metz-connect.com/externalfiles/310731/863336.PDF, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MetzConnect")
 	(tags "THT terminal block Metz Connect Type073_RT02602HBLU pitch 5.08mm size 10.2x11mm drill 1.4mm pad 2.6mm")
 	(property "Reference" "REF**"
 		(at 2.54 -6.62 0)
@@ -189,7 +189,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_poly
@@ -197,13 +197,12 @@
 			(xy 0 5.62)
 			(xy 0.44 6.23)
 			(xy -0.44 6.23)
-			(xy 0 5.62)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -357,7 +356,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -367,7 +366,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -395,6 +394,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
+	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type073_RT02602HBLU_1x02_P5.08mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)

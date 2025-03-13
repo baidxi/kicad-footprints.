@@ -1,8 +1,8 @@
 (footprint "TerminalBlock_MetzConnect_Type067_RT01904HDWC_1x04_P10.00mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "terminal block Metz Connect Type067_RT01904HDWC, 4 pins, pitch 10mm, size 35.8x8.2mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310671_RT019xxHDWC_OFF-023605N.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MetzConnect")
+	(descr "terminal block Metz Connect Type067_RT01904HDWC, 4 pins, pitch 10mm, size 35.8x8.2mm, drill diameter 1.3mm, pad diameter 2.6mm, https://www.metz-connect.com/externalfiles/310671/863296.PDF, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MetzConnect")
 	(tags "THT terminal block Metz Connect Type067_RT01904HDWC pitch 10mm size 35.8x8.2mm drill 1.3mm pad 2.6mm")
 	(property "Reference" "REF**"
 		(at 15 -5.22 0)
@@ -243,7 +243,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_circle
@@ -253,7 +253,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_circle
@@ -263,7 +263,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_poly
@@ -271,13 +271,12 @@
 			(xy 0 4.22)
 			(xy 0.44 4.83)
 			(xy -0.44 4.83)
-			(xy 0 4.22)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -458,7 +457,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -468,7 +467,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -478,7 +477,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -488,7 +487,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -530,6 +529,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
+	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type067_RT01904HDWC_1x04_P10.00mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
