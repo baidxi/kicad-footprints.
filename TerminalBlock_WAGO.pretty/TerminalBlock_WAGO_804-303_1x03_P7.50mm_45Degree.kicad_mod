@@ -1,8 +1,8 @@
 (footprint "TerminalBlock_WAGO_804-303_1x03_P7.50mm_45Degree"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Terminal Block WAGO 804-303, 45Degree (cable under 45degree), 3 pins, pitch 7.5mm, size 21.5x15mm, drill diameter 1.2mm, pad diameter 3mm, , script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_WAGO")
+	(descr "Terminal Block WAGO 804-303, 45Degree (cable under 45degree), 3 pins, pitch 7.5mm, size 21.5x15mm, drill diameter 1.2mm, pad diameter 3mm, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_WAGO")
 	(tags "THT Terminal Block WAGO 804-303 45Degree pitch 7.5mm size 21.5x15mm drill 1.2mm pad 3mm")
 	(property "Reference" "REF**"
 		(at 8 -9.42 0)
@@ -453,13 +453,12 @@
 			(xy 0 6.82)
 			(xy 0.44 7.43)
 			(xy -0.44 7.43)
-			(xy 0 6.82)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -862,7 +861,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -872,7 +871,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -882,7 +881,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -938,6 +937,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
+	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_WAGO.3dshapes/TerminalBlock_WAGO_804-303_1x03_P7.50mm_45Degree.wrl"
 		(offset
 			(xyz 0 0 0)
