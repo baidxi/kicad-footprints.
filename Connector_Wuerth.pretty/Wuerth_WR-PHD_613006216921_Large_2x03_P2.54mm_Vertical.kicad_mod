@@ -1,5 +1,5 @@
 (footprint "Wuerth_WR-PHD_613006216921_Large_2x03_P2.54mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Connector Wuerth, WR-PHD 2.54mm Dual Socket Header Bottom Entry Large, Wuerth electronics 613006216921 (https://katalog.we-online.de/em/datasheet/613006216921.pdf), generated with kicad-footprint-generator")
@@ -26,51 +26,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 1.27 -1.52)
-		(end 1.27 6.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 1.27 6.6)
-		(end 6.35 6.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.35 6.6)
-		(end 6.35 -1.52)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.35 -1.52)
-		(end 1.27 -1.52)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 1.16 -1.63)
-		(end 6.46 -1.63)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 1.16 -1.63)
 		(end 1.16 -0.995)
 		(stroke
@@ -80,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 6.46 -1.63)
-		(end 6.46 -0.995)
+		(start 1.16 -1.63)
+		(end 6.46 -1.63)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -98,15 +53,6 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 6.46 0.9525)
-		(end 6.46 1.5875)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 1.16 0.9525)
 		(end 1.16 1.5875)
 		(stroke
@@ -116,26 +62,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 6.46 3.4925)
-		(end 6.46 4.1275)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 1.16 3.4925)
 		(end 1.16 4.1275)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 6.46 6.71)
-		(end 6.46 6.075)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -161,6 +89,42 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 6.46 -1.63)
+		(end 6.46 -0.995)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 6.46 0.9525)
+		(end 6.46 1.5875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 6.46 3.4925)
+		(end 6.46 4.1275)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 6.46 6.71)
+		(end 6.46 6.075)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start -1.35 -2.02)
 		(end -1.35 7.1)
 		(stroke
@@ -179,6 +143,15 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
+		(start 8.97 -2.02)
+		(end -1.35 -2.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
 		(start 8.97 7.1)
 		(end 8.97 -2.02)
 		(stroke
@@ -188,49 +161,50 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 8.97 -2.02)
-		(end -1.35 -2.02)
+		(start 1.27 -1.52)
+		(end 1.27 6.6)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "F.Fab")
 	)
-	(pad "1" thru_hole rect
-		(at 0 0)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
+	(fp_line
+		(start 1.27 6.6)
+		(end 6.35 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
 	)
-	(pad "3" thru_hole circle
-		(at 0 2.54)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
+	(fp_line
+		(start 6.35 -1.52)
+		(end 1.27 -1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
 	)
-	(pad "5" thru_hole circle
-		(at 0 5.08)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
+	(fp_line
+		(start 6.35 6.6)
+		(end 6.35 -1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
 	)
-	(pad "2" thru_hole circle
-		(at 7.62 0)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-	)
-	(pad "4" thru_hole circle
-		(at 7.62 2.54)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-	)
-	(pad "6" thru_hole circle
-		(at 7.62 5.08)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
+	(fp_text user "${REFERENCE}"
+		(at 3.81 -0.82 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "" np_thru_hole circle
 		(at 2.54 0)
@@ -268,16 +242,49 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 3.81 -0.82 0)
-		(layer "F.Fab")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 	)
+	(pad "2" thru_hole circle
+		(at 7.62 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+	)
+	(pad "3" thru_hole circle
+		(at 0 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+	)
+	(pad "5" thru_hole circle
+		(at 0 5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+	)
+	(pad "6" thru_hole circle
+		(at 7.62 5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+	)
+	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_Wuerth.3dshapes/Wuerth_WR-PHD_613006216921_Large_2x03_P2.54mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
