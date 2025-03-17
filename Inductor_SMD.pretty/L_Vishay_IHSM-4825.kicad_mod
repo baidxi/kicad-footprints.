@@ -1,14 +1,12 @@
 (footprint "L_Vishay_IHSM-4825"
 	(version 20241229)
-	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Inductor, Vishay, Vishay_IHSM-4825, http://www.vishay.com/docs/34019/ihsm4825.pdf, 13.7mmx6.3mm")
 	(tags "inductor vishay icsm smd")
 	(property "Reference" "REF**"
 		(at 0 -4.175 0)
 		(layer "F.SilkS")
-		(uuid "51fb9d4f-ee49-491b-a47c-cd5830247071")
 		(effects
 			(font
 				(size 1 1)
@@ -19,36 +17,9 @@
 	(property "Value" "L_Vishay_IHSM-4825"
 		(at 0 4.675 0)
 		(layer "F.Fab")
-		(uuid "24e2c56e-b963-43e4-9e50-d0c0a31e2f38")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Datasheet" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ea5bd886-2193-4930-a89d-700f805e321d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Description" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8954b05b-ea1f-4798-85bb-9e1f44169484")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -62,7 +33,6 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "07bf31e1-1178-412b-9441-e729d9ff9a80")
 	)
 	(fp_line
 		(start -6.96 -3.1)
@@ -72,7 +42,6 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0c67eee6-443d-45fd-9338-c2ca603e10f5")
 	)
 	(fp_line
 		(start -6.96 3.1)
@@ -82,7 +51,6 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "00fc402b-8289-4c70-a684-c5a6d59e783b")
 	)
 	(fp_line
 		(start -6.96 3.275)
@@ -92,7 +60,6 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0f11e953-48f7-49df-929d-90e4cdff7dd8")
 	)
 	(fp_line
 		(start 6.96 -3.275)
@@ -102,7 +69,15 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5cb607b9-1ae5-4054-9cce-7dfc8a971c08")
+	)
+	(fp_line
+		(start 6.96 -3.275)
+		(end 0 -3.275)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
 	)
 	(fp_line
 		(start 6.96 -3.1)
@@ -112,67 +87,51 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "84bb815d-4734-455d-aad4-c75f6e085dd1")
 	)
 	(fp_line
-		(start 6.96 3.1)
-		(end 6.96 3.275)
+		(start 6.96 -3.1)
+		(end 6.96 -3.275)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fc45bd86-5d4e-4c8b-bd06-cbe8ad823528")
 	)
 	(fp_line
-		(start 6.96 3.275)
-		(end 0 3.275)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5fff8ad8-6da6-4029-859c-db5a144e6678")
-	)
-	(fp_line
-		(start -8.75 -3.5)
-		(end -8.75 3.5)
+		(start -8.76 -3.525)
+		(end -8.76 3.525)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "64be52af-68db-4d01-a40e-37f35fdd0520")
 	)
 	(fp_line
-		(start -8.75 3.5)
-		(end 8.75 3.5)
+		(start -8.76 3.525)
+		(end 8.76 3.525)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "31b07cea-b0c9-4bf3-9c1b-51928edd0c17")
 	)
 	(fp_line
-		(start 8.75 -3.5)
-		(end -8.75 -3.5)
+		(start 8.76 -3.525)
+		(end -8.76 -3.525)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2b7174bf-d822-4ce2-a758-a7248c7153b6")
 	)
 	(fp_line
-		(start 8.75 3.5)
-		(end 8.75 -3.5)
+		(start 8.76 3.525)
+		(end 8.76 -3.525)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6ec8e3e8-1ef9-4f3c-bdf9-a5a8c881e6a4")
 	)
 	(fp_line
 		(start -6.86 -3.175)
@@ -182,7 +141,6 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0f5bd9dd-ac08-4d92-aee1-51448c1d4449")
 	)
 	(fp_line
 		(start -6.86 3.175)
@@ -192,7 +150,6 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "32911201-435c-4144-9a9e-b20d1405ef4a")
 	)
 	(fp_line
 		(start 6.86 -3.175)
@@ -202,7 +159,6 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4f66f9ce-293f-4770-b4ac-3b3781dba1de")
 	)
 	(fp_line
 		(start 6.86 3.175)
@@ -212,30 +168,16 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "46799ba2-0fe1-43c1-9b5b-30a328d6b6ef")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "b4f41977-9c5d-48fd-8b38-e6173753a7cf")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "1" smd rect
 		(at -6.11 0)
 		(size 4.6 5.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "3030b915-16db-4ebf-9f85-d9cffbce9732")
 	)
 	(pad "2" smd rect
 		(at 6.11 0)
 		(size 4.6 5.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b3232ca2-6f01-4815-ae34-22f6052b5e9b")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Vishay_IHSM-4825.wrl"
