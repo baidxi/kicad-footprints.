@@ -1,14 +1,12 @@
 (footprint "CP_EIA-7343-20_Kemet-V"
 	(version 20241229)
-	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Tantalum Capacitor SMD Kemet-V (7343-20 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
+	(descr "Tantalum Capacitor SMD Kemet-V (7343-20 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 	(tags "capacitor tantalum")
 	(property "Reference" "REF**"
 		(at 0 -3.1 0)
 		(layer "F.SilkS")
-		(uuid "ff80dbef-3de1-4b4d-83d6-32e0e2172347")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +17,6 @@
 	(property "Value" "CP_EIA-7343-20_Kemet-V"
 		(at 0 3.1 0)
 		(layer "F.Fab")
-		(uuid "33dd8680-a76f-416c-8764-213e39610beb")
 		(effects
 			(font
 				(size 1 1)
@@ -27,62 +24,33 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bc202c4b-900a-4ecb-9f93-c184ab480568")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Description" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "01e9ee47-352d-468e-b261-dfa17f92e1db")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(attr smd)
 	(fp_line
-		(start -4.41 -2.26)
-		(end -4.41 2.26)
+		(start -4.415 -2.26)
+		(end -4.415 2.26)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "277750b8-4934-402a-ad6b-68dbe57b724c")
 	)
 	(fp_line
-		(start -4.41 2.26)
+		(start -4.415 2.26)
 		(end 3.65 2.26)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "abfe7d77-d90b-4c46-8fbf-652ba525b856")
 	)
 	(fp_line
 		(start 3.65 -2.26)
-		(end -4.41 -2.26)
+		(end -4.415 -2.26)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "267d5ca5-811c-48df-9788-7e2225db2ba5")
 	)
 	(fp_line
 		(start -4.4 -2.4)
@@ -92,7 +60,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3b427c24-de6f-4b40-85a7-605304097b65")
 	)
 	(fp_line
 		(start -4.4 2.4)
@@ -102,7 +69,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ee58b969-3396-4023-a6c0-14eb99cbb975")
 	)
 	(fp_line
 		(start 4.4 -2.4)
@@ -112,7 +78,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "cd6e5e0a-908f-4c10-88a3-eff3266784f4")
 	)
 	(fp_line
 		(start 4.4 2.4)
@@ -122,7 +87,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3abd89b2-f1be-4479-aae4-7ebd7349ecc1")
 	)
 	(fp_line
 		(start -3.65 -1.15)
@@ -132,7 +96,6 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4e7e3c44-bd92-4a8c-8697-b926246b3837")
 	)
 	(fp_line
 		(start -3.65 2.15)
@@ -142,7 +105,6 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "dd5e210f-b8d0-4811-8c82-da3c7319edb7")
 	)
 	(fp_line
 		(start -2.65 -2.15)
@@ -152,7 +114,6 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6c671ff8-38f6-4cb6-8a4f-6687ecba9acf")
 	)
 	(fp_line
 		(start 3.65 -2.15)
@@ -162,7 +123,6 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "79268fa5-b2af-416d-a2da-cdf381c32eff")
 	)
 	(fp_line
 		(start 3.65 2.15)
@@ -172,12 +132,10 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "97934c38-dcd6-49f1-aef3-2c586e33732d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "8c1fab67-c52c-4f2b-84cf-bee32ed6c8e7")
 		(effects
 			(font
 				(size 1 1)
@@ -186,18 +144,16 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -3.1125 0)
-		(size 2.075 2.55)
+		(at -3.12 0)
+		(size 2.07 2.59)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.120482)
-		(uuid "f949aab3-592e-428e-95ad-47fdfa70fd24")
+		(roundrect_rratio 0.120773)
 	)
 	(pad "2" smd roundrect
-		(at 3.1125 0)
-		(size 2.075 2.55)
+		(at 3.12 0)
+		(size 2.07 2.59)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.120482)
-		(uuid "99d234a6-7b86-42ba-9ea0-f8952597696c")
+		(roundrect_rratio 0.120773)
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-7343-20_Kemet-V.wrl"
