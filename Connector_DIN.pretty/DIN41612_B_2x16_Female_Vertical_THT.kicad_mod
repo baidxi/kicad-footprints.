@@ -2,18 +2,8 @@
 	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "DIN 41612 connector, type B, vertical, 32 pins wide, 2 rows, even columns, https://www.mouser.com/datasheet/2/625/ERNI-DIN41612-IEC60603-2-e-364520.pdf")
-	(tags "DIN 41512 IEC 60603 B")
-	(property "Value" "DIN41612_B_2x16_Female_Vertical_THT"
-		(at 1.27 88.17 0)
-		(layer "F.Fab")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
+	(descr "DIN41612 connector, type B, Vertical, 2 rows 32 pins wide, https://www.mouser.com/datasheet/2/625/ERNI-DIN41612-IEC60603-2-e-364520.pdf")
+	(tags "DIN 41612 IEC 60603 B")
 	(property "Reference" "REF**"
 		(at 1.27 -9.13 0)
 		(layer "F.SilkS")
@@ -24,10 +14,20 @@
 			)
 		)
 	)
+	(property "Value" "DIN41612_B_2x16_Female_Vertical_THT"
+		(at 1.27 87.87 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
 	(fp_line
-		(start -3.58 -0.3)
-		(end -3.58 0.3)
+		(start -3.76 2.24)
+		(end -3.76 2.84)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -3.58 0.3)
-		(end -2.98 0)
+		(start -3.76 2.84)
+		(end -3.08 2.54)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +44,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.98 0)
-		(end -3.58 -0.3)
+		(start -3.08 2.54)
+		(end -3.76 2.24)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +53,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.88 -8.23)
-		(end -2.88 86.97)
+		(start -2.89 -8.24)
+		(end 5.43 -8.24)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,8 +62,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.88 86.97)
-		(end 5.42 86.97)
+		(start -2.89 86.98)
+		(end -2.89 -8.24)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -71,8 +71,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -1.705 -3.13)
-		(end 1.245 -3.13)
+		(start -1.73 -3.13)
+		(end 1.27 -3.13)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -80,8 +80,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -1.705 -2.13)
-		(end -1.705 -3.13)
+		(start -1.73 81.87)
+		(end -1.73 -3.13)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -89,8 +89,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -1.705 81.87)
-		(end -1.705 80.87)
+		(start 1.27 -3.13)
+		(end 1.27 -2.13)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -98,8 +98,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 1.245 -3.13)
-		(end 1.245 -2.13)
+		(start 1.27 -2.13)
+		(end 4.27 -2.13)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -107,8 +107,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 1.245 -2.13)
-		(end 4.245 -2.13)
+		(start 1.27 80.87)
+		(end 1.27 81.87)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -116,8 +116,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 1.245 80.87)
-		(end 1.245 81.87)
+		(start 1.27 81.87)
+		(end -1.73 81.87)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -125,8 +125,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 1.245 81.87)
-		(end -1.705 81.87)
+		(start 4.27 -2.13)
+		(end 4.27 80.87)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -134,8 +134,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 4.245 80.87)
-		(end 1.245 80.87)
+		(start 4.27 80.87)
+		(end 1.27 80.87)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -143,8 +143,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 5.42 -8.23)
-		(end -2.88 -8.23)
+		(start 5.43 -8.24)
+		(end 5.43 86.98)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -152,8 +152,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 5.42 86.97)
-		(end 5.42 -8.23)
+		(start 5.43 86.98)
+		(end -2.89 86.98)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -162,33 +162,6 @@
 	)
 	(fp_line
 		(start -3.28 -8.63)
-		(end -3.28 87.37)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -3.28 87.37)
-		(end 5.82 87.37)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 5.82 -8.63)
-		(end -3.28 -8.63)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 5.82 87.37)
 		(end 5.82 -8.63)
 		(stroke
 			(width 0.05)
@@ -197,8 +170,35 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -3.58 -0.3)
-		(end -3.58 0.3)
+		(start -3.28 87.37)
+		(end -3.28 -8.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 5.82 -8.63)
+		(end 5.82 87.37)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 5.82 87.37)
+		(end -3.28 87.37)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.78 -8.13)
+		(end 5.32 -8.13)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -206,8 +206,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -3.58 0.3)
-		(end -2.98 0)
+		(start -2.78 2.04)
+		(end -2.08 2.54)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -215,8 +215,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -2.98 0)
-		(end -3.58 -0.3)
+		(start -2.78 86.87)
+		(end -2.78 -8.13)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -224,8 +224,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -1.705 -3.13)
-		(end 1.245 -3.13)
+		(start -2.08 2.54)
+		(end -2.78 3.04)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -233,8 +233,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -1.705 -2.13)
-		(end -1.705 -3.13)
+		(start -1.73 -3.13)
+		(end 1.27 -3.13)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -242,8 +242,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -1.705 80.87)
-		(end -1.705 -2.13)
+		(start -1.73 81.87)
+		(end -1.73 -3.13)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -251,8 +251,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -1.705 81.87)
-		(end -1.705 80.87)
+		(start 1.27 -3.13)
+		(end 1.27 -2.13)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -260,8 +260,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 1.245 -3.13)
-		(end 1.245 -2.13)
+		(start 1.27 -2.13)
+		(end 4.27 -2.13)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -269,8 +269,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 1.245 -2.13)
-		(end 4.245 -2.13)
+		(start 1.27 80.87)
+		(end 1.27 81.87)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -278,8 +278,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 1.245 80.87)
-		(end 1.245 81.87)
+		(start 1.27 81.87)
+		(end -1.73 81.87)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -287,8 +287,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 1.245 81.87)
-		(end -1.705 81.87)
+		(start 4.27 -2.13)
+		(end 4.27 80.87)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -296,8 +296,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 4.245 -2.13)
-		(end 4.245 80.87)
+		(start 4.27 80.87)
+		(end 1.27 80.87)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -305,8 +305,17 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 4.245 80.87)
-		(end 1.245 80.87)
+		(start 5.32 -8.13)
+		(end 5.32 86.87)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 5.32 86.87)
+		(end -2.78 86.87)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -318,243 +327,244 @@
 		(layer "F.Fab")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.07)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
 	(pad "" np_thru_hole circle
 		(at 2.24 -5.63)
-		(size 2.8 2.8)
-		(drill 2.8)
+		(size 2.85 2.85)
+		(drill 2.85)
 		(layers "*.Cu" "*.Mask")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.24 84.37)
-		(size 2.8 2.8)
-		(drill 2.8)
+		(size 2.85 2.85)
+		(drill 2.85)
 		(layers "*.Cu" "*.Mask")
 	)
 	(pad "a10" thru_hole circle
 		(at 0 22.86)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "a12" thru_hole circle
 		(at 0 27.94)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "a14" thru_hole circle
 		(at 0 33.02)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "a16" thru_hole circle
 		(at 0 38.1)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "a18" thru_hole circle
 		(at 0 43.18)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(pad "a2" thru_hole circle
+	(pad "a2" thru_hole roundrect
 		(at 0 2.54)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.16129)
 	)
 	(pad "a20" thru_hole circle
 		(at 0 48.26)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "a22" thru_hole circle
 		(at 0 53.34)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "a24" thru_hole circle
 		(at 0 58.42)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "a26" thru_hole circle
 		(at 0 63.5)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "a28" thru_hole circle
 		(at 0 68.58)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "a30" thru_hole circle
 		(at 0 73.66)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "a32" thru_hole circle
 		(at 0 78.74)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "a4" thru_hole circle
 		(at 0 7.62)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "a6" thru_hole circle
 		(at 0 12.7)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "a8" thru_hole circle
 		(at 0 17.78)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b10" thru_hole circle
 		(at 2.54 22.86)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b12" thru_hole circle
 		(at 2.54 27.94)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b14" thru_hole circle
 		(at 2.54 33.02)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b16" thru_hole circle
 		(at 2.54 38.1)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b18" thru_hole circle
 		(at 2.54 43.18)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b2" thru_hole circle
 		(at 2.54 2.54)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b20" thru_hole circle
 		(at 2.54 48.26)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b22" thru_hole circle
 		(at 2.54 53.34)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b24" thru_hole circle
 		(at 2.54 58.42)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b26" thru_hole circle
 		(at 2.54 63.5)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b28" thru_hole circle
 		(at 2.54 68.58)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b30" thru_hole circle
 		(at 2.54 73.66)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b32" thru_hole circle
 		(at 2.54 78.74)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b4" thru_hole circle
 		(at 2.54 7.62)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b6" thru_hole circle
 		(at 2.54 12.7)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(pad "b8" thru_hole circle
 		(at 2.54 17.78)
-		(size 1.7 1.7)
+		(size 1.55 1.55)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
