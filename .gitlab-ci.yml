@@ -1,18 +1,6 @@
-image: python:latest
-  
-before_script:
-  - python -V
-  - git clone --depth 1 https://gitlab.com/kicad/libraries/kicad-library-utils $CI_BUILDS_DIR/kicad-library-utils
-
-footprints:
-  only:
-    refs:
-      - merge_requests
-    changes:
-      - "**/*.kicad_mod"
-      - "fp-lib-table"
-  script:
-    - $CI_BUILDS_DIR/kicad-library-utils/klc-check/gitlabci/check_footprints.sh
-  artifacts:
-    reports:
-      metrics: metrics.txt
+# All the CI config is in the library-utils repo
+#
+# The goal is to have only one place where all the CI
+# related things are.
+include:
+  - remote: 'https://gitlab.com/kicad/libraries/kicad-library-utils/-/raw/master/tools/gitlabci/gitlab-ci-footprints.yml'
