@@ -26,24 +26,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -7.095 -18.6)
-		(end -5.525 -18.6)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -7.095 -17.78)
-		(end -7.095 -18.6)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start -3.955 -18.22)
 		(end -1.845 -18.22)
 		(stroke
@@ -341,15 +323,6 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0.895 -18.22)
-		(end 6.895 -18.22)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 0.895 -15.68)
 		(end 6.895 -15.68)
 		(stroke
@@ -478,24 +451,6 @@
 	(fp_line
 		(start 0.895 19.17)
 		(end -1.845 19.17)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 6.895 -18.22)
-		(end 6.895 -17.34)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 6.895 -17.34)
-		(end 0.895 -17.34)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -752,6 +707,29 @@
 			(width 0.12)
 			(type solid)
 		)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start 0.895 -18.22)
+		(end 6.895 -17.34)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_poly
+		(pts
+			(xy -5.525 -18.6)
+			(xy -5.865 -19.07)
+			(xy -5.185 -19.07)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -1061,15 +1039,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -1.725 -18.65)
-		(end -1.325 -19.05)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start -1.725 -18.1)
 		(end -6.425 -18.1)
 		(stroke
@@ -1205,33 +1174,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -1.725 19.05)
-		(end -1.725 -18.65)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.325 -19.05)
-		(end 0.775 -19.05)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0.775 -19.05)
-		(end 0.775 19.05)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start 0.775 -18.1)
 		(end 6.775 -18.1)
 		(stroke
@@ -1360,15 +1302,6 @@
 	(fp_line
 		(start 0.775 17.46)
 		(end 6.775 17.46)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0.775 19.05)
-		(end -1.725 19.05)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -1645,6 +1578,21 @@
 		)
 		(layer "F.Fab")
 	)
+	(fp_poly
+		(pts
+			(xy -1.725 -18.425)
+			(xy -1.725 19.05)
+			(xy 0.775 19.05)
+			(xy 0.775 -19.05)
+			(xy -1.1 -19.05)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
 	(fp_text user "${REFERENCE}"
 		(at -0.48 0 90)
 		(layer "F.Fab")
@@ -1655,85 +1603,95 @@
 			)
 		)
 	)
-	(pad "" smd rect
-		(at 3.895 -17.78)
-		(size 6 0.76)
-		(layers "F.SilkS")
-	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -5.525 -17.78)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at -5.525 -15.24)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -5.525 -12.7)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at -5.525 -10.16)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 	)
-	(pad "5" smd rect
+	(pad "5" smd roundrect
 		(at -5.525 -7.62)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 	)
-	(pad "6" smd rect
+	(pad "6" smd roundrect
 		(at -5.525 -5.08)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 	)
-	(pad "7" smd rect
+	(pad "7" smd roundrect
 		(at -5.525 -2.54)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 	)
-	(pad "8" smd rect
+	(pad "8" smd roundrect
 		(at -5.525 0)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 	)
-	(pad "9" smd rect
+	(pad "9" smd roundrect
 		(at -5.525 2.54)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 	)
-	(pad "10" smd rect
+	(pad "10" smd roundrect
 		(at -5.525 5.08)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 	)
-	(pad "11" smd rect
+	(pad "11" smd roundrect
 		(at -5.525 7.62)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 	)
-	(pad "12" smd rect
+	(pad "12" smd roundrect
 		(at -5.525 10.16)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 	)
-	(pad "13" smd rect
+	(pad "13" smd roundrect
 		(at -5.525 12.7)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 	)
-	(pad "14" smd rect
+	(pad "14" smd roundrect
 		(at -5.525 15.24)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 	)
-	(pad "15" smd rect
+	(pad "15" smd roundrect
 		(at -5.525 17.78)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_M20-89015xx_1x15_P2.54mm_Horizontal.wrl"
