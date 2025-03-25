@@ -6,7 +6,7 @@
 	(descr "TO-92S package, drill 0.75mm (https://www.diodes.com/assets/Package-Files/TO92S%20(Type%20B).pdf, https://www.mouser.com/datasheet/2/196/Infineon_TLV4961_1TAB_DataSheet_v01_20_EN-3363873.pdf#page=16, hole and pad size from TI land pattern in https://www.ti.com/lit/ds/symlink/lmt85.pdf#page=22)")
 	(tags "transistor TO-92S-Type-B Allegro-3-pin-SIP LPG0003A")
 	(property "Reference" "REF**"
-		(at 1.275 -1.75 0)
+		(at 1.275 -1.8 0)
 		(layer "F.SilkS")
 		(uuid "d14e6757-1a96-49bf-aa17-0008b2ead1c4")
 		(effects
@@ -95,8 +95,8 @@
 		(uuid "dda4cd78-443e-464a-a01a-8deddcc04969")
 	)
 	(fp_line
-		(start -0.985 -1.05)
-		(end -0.985 0.675)
+		(start -0.99 -1.1)
+		(end -0.99 0.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "8f69753b-8383-451d-b3aa-8ee70513c72f")
 	)
 	(fp_line
-		(start -0.4425 1.2175)
-		(end -0.985 0.675)
+		(start -0.36 1.22)
+		(end -0.99 0.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -115,8 +115,8 @@
 		(uuid "3fb9c60b-8f96-4542-b88c-7b9d8e994892")
 	)
 	(fp_line
-		(start -0.44 1.2175)
-		(end 2.81 1.2175)
+		(start -0.36 1.22)
+		(end 2.81 1.22)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -125,8 +125,8 @@
 		(uuid "96c03bb3-3eb8-4809-8a32-0cd04a555c63")
 	)
 	(fp_line
-		(start 2.8125 1.2175)
-		(end 3.515 0.514985)
+		(start 2.81 1.22)
+		(end 3.52 0.52)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -135,8 +135,8 @@
 		(uuid "8c42bc03-1e9b-4089-89e1-fe6a572f2446")
 	)
 	(fp_line
-		(start 3.515 -1.05)
-		(end -0.985 -1.05)
+		(start 3.52 -1.1)
+		(end -0.99 -1.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -145,8 +145,8 @@
 		(uuid "fc0bd2e7-aefc-4b47-9a4c-fff0303345c3")
 	)
 	(fp_line
-		(start 3.515 0.514985)
-		(end 3.515 -1.05)
+		(start 3.52 0.52)
+		(end 3.52 -1.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -225,12 +225,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0 180)
 		(size 1.05 1.7)
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.2380952381)
 		(uuid "c68f5960-c10b-44a3-baf7-b4334fd201ee")
 	)
 	(pad "2" thru_hole oval
