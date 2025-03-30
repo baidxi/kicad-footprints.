@@ -1,14 +1,12 @@
 (footprint "Crystal_C38-LF_D3.0mm_L8.0mm_Vertical"
 	(version 20241229)
-	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Crystal THT C38-LF 8.0mm length 3.0mm diameter")
-	(tags "['C38-LF']")
+	(tags "C38-LF")
 	(property "Reference" "REF**"
 		(at 0.95 -2.7 0)
 		(layer "F.SilkS")
-		(uuid "40e8e1dc-2272-4412-8082-6530ce865237")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +17,6 @@
 	(property "Value" "Crystal_C38-LF_D3.0mm_L8.0mm_Vertical"
 		(at 0.95 2.7 0)
 		(layer "F.Fab")
-		(uuid "146a34a6-76e8-4f7e-9452-b337b8c6c43a")
 		(effects
 			(font
 				(size 1 1)
@@ -27,65 +24,36 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d77fc57c-5037-420f-b89d-7561c4f2e4e6")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Description" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7bdc2aa6-be31-49ae-a600-0e9f31b1ba3f")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(attr through_hole)
 	(fp_arc
-		(start -0.75 0)
-		(mid 0.95 -1.7)
-		(end 2.65 0)
+		(start -0.585 -0.485)
+		(mid 0.950235 -1.609798)
+		(end 2.485141 -0.484553)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "299b8ea7-6ff8-49df-97c5-d321ac049b7c")
 	)
 	(fp_arc
-		(start 2.65 0)
-		(mid 0.95 1.7)
-		(end -0.75 0)
+		(start 2.485 0.485)
+		(mid 0.949765 1.609798)
+		(end -0.585141 0.484553)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ae6783d5-bdfe-408e-8697-b94d88b603bb")
 	)
 	(fp_circle
 		(center 0.95 0)
-		(end 2.9 0)
+		(end 2.95 0)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "0b8f1830-382e-44e1-9d1f-6dcbd79ecd4a")
 	)
 	(fp_circle
 		(center 0.95 0)
@@ -96,16 +64,14 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "316594fd-e5b3-442a-b873-375ff5b8d3b9")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.95 0 0)
 		(layer "F.Fab")
-		(uuid "a8e774b0-0ddb-4eac-a277-d36ecafb1551")
 		(effects
 			(font
-				(size 0.7 0.7)
-				(thickness 0.105)
+				(size 0.75 0.75)
+				(thickness 0.11)
 			)
 		)
 	)
@@ -115,7 +81,6 @@
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "793e25fa-2e7e-46f5-9366-4cff7e08044a")
 	)
 	(pad "2" thru_hole circle
 		(at 1.9 0)
@@ -123,7 +88,6 @@
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a2a5a1de-28f8-4689-b494-17238cc32da6")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_C38-LF_D3.0mm_L8.0mm_Vertical.wrl"
