@@ -26,24 +26,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -0.16 1.24)
-		(end -0.16 6.76)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -0.16 6.76)
-		(end 1.86 6.76)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 0 0.62)
 		(end 0 0.56)
 		(stroke
@@ -79,81 +61,29 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start 1.86 1.24)
-		(end -0.16 1.24)
+	(fp_rect
+		(start -0.16 1.24)
+		(end 1.86 6.76)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start 1.86 6.76)
-		(end 1.86 1.24)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
+	(fp_rect
 		(start -0.76 -0.75)
-		(end -0.76 7.27)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -0.76 7.27)
 		(end 2.45 7.27)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 2.45 -0.75)
-		(end -0.76 -0.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 2.45 7.27)
-		(end 2.45 -0.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
 		(start 0 0.75)
 		(end 0 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0.1 1.5)
-		(end 0.1 6.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0.1 6.5)
-		(end 1.6 6.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -179,30 +109,22 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 1.6 1.5)
-		(end 0.1 1.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 1.6 6.5)
-		(end 1.6 1.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start 1.7 0.75)
 		(end 1.7 0)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start 0.1 1.5)
+		(end 1.6 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
