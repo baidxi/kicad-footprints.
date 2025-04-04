@@ -2,10 +2,10 @@
 	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Crystal THT HC-49-4H, http://5hertz.com/pdfs/04404_D.pdf")
+	(descr "Crystal THT HC-49-4H http://5hertz.com/pdfs/04404_D.pdf")
 	(tags "THT crystalHC-49-4H")
 	(property "Reference" "REF**"
-		(at 2.44 -3.52 0)
+		(at 2.44 -3.585 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "Crystal_HC49-4H_Vertical"
-		(at 2.44 3.52 0)
+		(at 2.44 3.585 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -26,8 +26,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -0.76 -2.435)
-		(end 5.64 -2.435)
+		(start -0.76 -2.585)
+		(end 5.64 -2.585)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.76 2.435)
-		(end 5.64 2.435)
+		(start -0.76 2.585)
+		(end 5.64 2.585)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,9 +44,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start -0.76 2.435)
-		(mid -3.195 0)
-		(end -0.76 -2.435)
+		(start -0.76 2.585)
+		(mid -3.345 0)
+		(end -0.76 -2.585)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -54,9 +54,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 5.64 -2.435)
-		(mid 8.075 0)
-		(end 5.64 2.435)
+		(start 5.64 -2.585)
+		(mid 8.225 0)
+		(end 5.64 2.585)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -64,8 +64,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.76 -2.83)
-		(end 5.64 -2.83)
+		(start -3.6 -2.84)
+		(end -3.6 2.84)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -73,28 +73,26 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -0.76 2.83)
-		(end 5.64 2.83)
+		(start -3.6 2.84)
+		(end 8.48 2.84)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_arc
-		(start -0.76 2.83)
-		(mid -3.59 0)
-		(end -0.76 -2.83)
+	(fp_line
+		(start 8.48 -2.84)
+		(end -3.6 -2.84)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_arc
-		(start 5.64 -2.83)
-		(mid 8.47 0)
-		(end 5.64 2.83)
+	(fp_line
+		(start 8.48 2.84)
+		(end 8.48 -2.84)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -119,10 +117,48 @@
 		)
 		(layer "F.Fab")
 	)
+	(fp_line
+		(start -0.56 -2)
+		(end 5.44 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -0.56 2)
+		(end 5.44 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
 	(fp_arc
 		(start -0.76 2.325)
 		(mid -3.085 0)
 		(end -0.76 -2.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_arc
+		(start -0.56 2)
+		(mid -2.56 0)
+		(end -0.56 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_arc
+		(start 5.44 -2)
+		(mid 7.44 0)
+		(end 5.44 2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -140,7 +176,7 @@
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.44 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(effects
 			(font

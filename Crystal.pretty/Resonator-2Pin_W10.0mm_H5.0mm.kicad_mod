@@ -2,10 +2,10 @@
 	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Ceramic Resomator/Filter 10.0x5.0 RedFrequency MG/MT/MX series, length*width=10.0x5.0mm^2 package, package length=10.0mm, package width=5.0mm, 2 pins, http://www.red-frequency.com/download/datenblatt/redfrequency-datenblatt-ir-zta.pdf")
+	(descr "Ceramic Resomator/Filter 10.0x5.0 RedFrequency MG/MT/MX series, http://www.red-frequency.com/download/datenblatt/redfrequency-datenblatt-ir-zta.pdf, length*width=10.0x5.0mm^2 package, package length=10.0mm, package width=5.0mm, 2 pins")
 	(tags "THT ceramic resonator filter")
 	(property "Reference" "REF**"
-		(at 2.5 -3.7 0)
+		(at 2.5 -3.76 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "Resonator-2Pin_W10.0mm_H5.0mm"
-		(at 2.5 3.7 0)
+		(at 2.5 3.76 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -26,8 +26,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 0 -2.61)
-		(end 5 -2.61)
+		(start 0 -2.76)
+		(end 5 -2.76)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 2.61)
-		(end 5 2.61)
+		(start 0 2.76)
+		(end 5 2.76)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,9 +44,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 0 2.61)
-		(mid -2.61 0)
-		(end 0 -2.61)
+		(start 0 2.76)
+		(mid -2.76 0)
+		(end 0 -2.76)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -54,9 +54,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 5 -2.61)
-		(mid 7.61 0)
-		(end 5 2.61)
+		(start 5 -2.76)
+		(mid 7.76 0)
+		(end 5 2.76)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -64,8 +64,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 -3)
-		(end 5 -3)
+		(start -3.01 -3.01)
+		(end -3.01 3.01)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -73,28 +73,26 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 0 3)
-		(end 5 3)
+		(start -3.01 3.01)
+		(end 8.01 3.01)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_arc
-		(start 0 3)
-		(mid -3 0)
-		(end 0 -3)
+	(fp_line
+		(start 8.01 -3.01)
+		(end -3.01 -3.01)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_arc
-		(start 5 -3)
-		(mid 8 0)
-		(end 5 3)
+	(fp_line
+		(start 8.01 3.01)
+		(end 8.01 -3.01)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -104,6 +102,24 @@
 	(fp_line
 		(start 0 -2.5)
 		(end 5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 0 -2.5)
+		(end 5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 0 2.5)
+		(end 5 2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -130,6 +146,26 @@
 		(layer "F.Fab")
 	)
 	(fp_arc
+		(start 0 2.5)
+		(mid -2.5 0)
+		(end 0 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_arc
+		(start 5 -2.5)
+		(mid 7.5 0)
+		(end 5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_arc
 		(start 5 -2.5)
 		(mid 7.5 0)
 		(end 5 2.5)
@@ -140,7 +176,7 @@
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.5 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(effects
 			(font

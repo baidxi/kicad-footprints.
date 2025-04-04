@@ -5,7 +5,7 @@
 	(descr "Ceramic Resomator/Filter 6.0x3.0mm^2, length*width=6.0x3.0mm^2 package, package length=6.0mm, package width=3.0mm, 3 pins")
 	(tags "THT ceramic resonator filter")
 	(property "Reference" "REF**"
-		(at 2.5 -2.7 0)
+		(at 2.5 -2.76 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "Resonator-3Pin_W6.0mm_H3.0mm"
-		(at 2.5 2.7 0)
+		(at 2.5 2.76 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -26,8 +26,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 1 -1.61)
-		(end 4 -1.61)
+		(start 1 -1.76)
+		(end 4 -1.76)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 1 1.61)
-		(end 4 1.61)
+		(start 1 1.76)
+		(end 4 1.76)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,9 +44,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start -0.18 -1.095)
-		(mid 0.356194 -1.475446)
-		(end 0.999774 -1.60979)
+		(start -0.506514 -0.909954)
+		(mid 0.135107 -1.532827)
+		(end 1 -1.76)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -54,9 +54,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 1 1.61)
-		(mid 0.356318 1.475728)
-		(end -0.18 1.095308)
+		(start 1 1.76)
+		(mid 0.135107 1.532827)
+		(end -0.506514 0.909954)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -64,9 +64,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 4 -1.61)
-		(mid 4.643682 -1.475728)
-		(end 5.18 -1.095308)
+		(start 4 -1.76)
+		(mid 4.864893 -1.532827)
+		(end 5.506514 -0.909954)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -74,9 +74,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 5.18 1.095)
-		(mid 4.643806 1.475446)
-		(end 4.000226 1.60979)
+		(start 5.506514 0.909954)
+		(mid 4.864893 1.532827)
+		(end 4 1.76)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -84,8 +84,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0.9 -2)
-		(end 4.1 -2)
+		(start -1.1 -2.01)
+		(end -1.1 2.01)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -93,28 +93,26 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 0.9 2)
-		(end 4.1 2)
+		(start -1.1 2.01)
+		(end 5.72 2.01)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_arc
-		(start 0.9 2)
-		(mid -1.1 0)
-		(end 0.9 -2)
+	(fp_line
+		(start 5.72 -2.01)
+		(end -1.1 -2.01)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_arc
-		(start 4.1 -2)
-		(mid 6.1 0)
-		(end 4.1 2)
+	(fp_line
+		(start 5.72 2.01)
+		(end 5.72 -2.01)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -124,6 +122,24 @@
 	(fp_line
 		(start 1 -1.5)
 		(end 4 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1 -1.5)
+		(end 4 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1 1.5)
+		(end 4 1.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -150,6 +166,26 @@
 		(layer "F.Fab")
 	)
 	(fp_arc
+		(start 1 1.5)
+		(mid -0.5 0)
+		(end 1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_arc
+		(start 4 -1.5)
+		(mid 5.5 0)
+		(end 4 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_arc
 		(start 4 -1.5)
 		(mid 5.5 0)
 		(end 4 1.5)
@@ -160,7 +196,7 @@
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.5 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(effects
 			(font

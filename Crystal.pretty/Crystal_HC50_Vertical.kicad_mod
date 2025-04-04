@@ -5,7 +5,7 @@
 	(descr "Crystal THT HC-50, http://www.crovencrystals.com/croven_pdf/HC-50_Crystal_Holder_Rev_00.pdf")
 	(tags "THT crystalHC-50")
 	(property "Reference" "REF**"
-		(at 2.45 -3.52 0)
+		(at 2.45 -3.585 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "Crystal_HC50_Vertical"
-		(at 2.45 3.52 0)
+		(at 2.45 3.585 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -26,8 +26,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -0.75 -2.435)
-		(end 5.65 -2.435)
+		(start -0.75 -2.585)
+		(end 5.65 -2.585)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.75 2.435)
-		(end 5.65 2.435)
+		(start -0.75 2.585)
+		(end 5.65 2.585)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,9 +44,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start -0.75 2.435)
-		(mid -3.185 0)
-		(end -0.75 -2.435)
+		(start -0.75 2.585)
+		(mid -3.335 0)
+		(end -0.75 -2.585)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -54,9 +54,9 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 5.65 -2.435)
-		(mid 8.085 0)
-		(end 5.65 2.435)
+		(start 5.65 -2.585)
+		(mid 8.235 0)
+		(end 5.65 2.585)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -64,8 +64,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.75 -2.83)
-		(end 5.65 -2.83)
+		(start -3.59 -2.84)
+		(end -3.59 2.84)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -73,28 +73,26 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -0.75 2.83)
-		(end 5.65 2.83)
+		(start -3.59 2.84)
+		(end 8.49 2.84)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_arc
-		(start -0.75 2.83)
-		(mid -3.58 0)
-		(end -0.75 -2.83)
+	(fp_line
+		(start 8.49 -2.84)
+		(end -3.59 -2.84)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_arc
-		(start 5.65 -2.83)
-		(mid 8.48 0)
-		(end 5.65 2.83)
+	(fp_line
+		(start 8.49 2.84)
+		(end 8.49 -2.84)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -111,8 +109,36 @@
 		(layer "F.Fab")
 	)
 	(fp_line
+		(start -0.75 -1.9)
+		(end 5.65 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -0.75 1.9)
+		(end 5.65 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
 		(start -0.75 2.325)
 		(end 5.65 2.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_arc
+		(start -0.75 1.9)
+		(mid -2.65 0)
+		(end -0.75 -1.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -139,8 +165,18 @@
 		)
 		(layer "F.Fab")
 	)
+	(fp_arc
+		(start 5.65 -1.9)
+		(mid 7.55 0)
+		(end 5.65 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 2.45 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(effects
 			(font
