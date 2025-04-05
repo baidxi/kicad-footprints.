@@ -1,14 +1,12 @@
 (footprint "D_DO-15_P5.08mm_Vertical_KathodeUp"
 	(version 20241229)
-	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=7.6*3.6mm^2, , http://www.diodes.com/_files/packages/DO-15.pdf")
+	(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=5.08mm, length*diameter=7.6*3.6mm^2, http://www.diodes.com/_files/packages/DO-15.pdf")
 	(tags "Diode DO-15 series Axial Vertical pin pitch 5.08mm  length 7.6mm diameter 3.6mm")
 	(property "Reference" "REF**"
 		(at 2.54 -2.92 0)
 		(layer "F.SilkS")
-		(uuid "4b5cf05b-29fd-45d6-b82f-8533bfcf8b9d")
 		(effects
 			(font
 				(size 1 1)
@@ -19,36 +17,9 @@
 	(property "Value" "D_DO-15_P5.08mm_Vertical_KathodeUp"
 		(at 2.54 2.92 0)
 		(layer "F.Fab")
-		(uuid "be3ea822-07f5-4acc-b212-fc1a2402a4bf")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Datasheet" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d7606815-b005-4071-b3c3-22cf8711d258")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Description" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f3b1d470-507f-4c5f-b9cb-17d0a0530b4f")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -62,7 +33,6 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "540cb1d9-8424-4077-82a4-90bc90aa1491")
 	)
 	(fp_circle
 		(center 5.08 0)
@@ -73,7 +43,6 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "9ef73683-7232-4d98-9328-1cb36bc85fac")
 	)
 	(fp_line
 		(start -1.45 -2.05)
@@ -83,7 +52,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c426027f-0956-4ef9-bde8-3183effc4581")
 	)
 	(fp_line
 		(start -1.45 2.05)
@@ -93,7 +61,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a3edad42-2d31-411c-b413-7f0a2fdc8925")
 	)
 	(fp_line
 		(start 7.13 -2.05)
@@ -103,7 +70,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0e09302c-accb-4d5f-ae1c-9674d46a25db")
 	)
 	(fp_line
 		(start 7.13 2.05)
@@ -113,7 +79,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "bb7a08e5-d73c-4c9d-bca9-89d8ade1aef0")
 	)
 	(fp_line
 		(start 0 0)
@@ -123,7 +88,6 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "960ec182-247e-42e0-a37c-898d0f34ce7e")
 	)
 	(fp_circle
 		(center 5.08 0)
@@ -134,12 +98,10 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "db63c17a-a5dc-4497-9552-296788e2e070")
 	)
 	(fp_text user "K"
 		(at 1.9 1.2 0)
 		(layer "F.SilkS")
-		(uuid "05fc1eda-3c5a-4f61-a409-ab6aae2d5227")
 		(effects
 			(font
 				(size 1 1)
@@ -150,7 +112,6 @@
 	(fp_text user "${REFERENCE}"
 		(at 2.54 -2.92 0)
 		(layer "F.Fab")
-		(uuid "5f07cfef-7fd8-4476-89d0-ce1fb0ebffaa")
 		(effects
 			(font
 				(size 1 1)
@@ -161,7 +122,6 @@
 	(fp_text user "K"
 		(at 1.9 1.2 0)
 		(layer "F.Fab")
-		(uuid "707ee49d-1065-45e8-8820-3887e250720f")
 		(effects
 			(font
 				(size 1 1)
@@ -175,15 +135,13 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "1e434d39-ecb8-4922-82c2-1dc6003e4c32")
 	)
-	(pad "2" thru_hole oval
+	(pad "2" thru_hole circle
 		(at 5.08 0)
 		(size 2.4 2.4)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "70f4e977-77ba-4061-b5be-8234ff290243")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-15_P5.08mm_Vertical_KathodeUp.wrl"
