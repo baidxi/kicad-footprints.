@@ -1,14 +1,12 @@
 (footprint "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 	(version 20241229)
-	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 	(tags "Resistor Axial_DIN0204 series Axial Vertical pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 	(property "Reference" "REF**"
 		(at 2.54 -1.92 0)
 		(layer "F.SilkS")
-		(uuid "7aa71e7c-91fa-4ffc-ae11-22905f025984")
 		(effects
 			(font
 				(size 1 1)
@@ -19,36 +17,9 @@
 	(property "Value" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 		(at 2.54 1.92 0)
 		(layer "F.Fab")
-		(uuid "4364fa1b-48a6-42e4-b313-9a00a4eabc9b")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Datasheet" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0e807d32-04fb-4442-b7cb-64abbb44f267")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Description" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "996d3378-8789-4857-b30e-eb60249c32ab")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -62,7 +33,6 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "937b7dbd-6015-4415-bb9d-c7e7b697f336")
 	)
 	(fp_circle
 		(center 0 0)
@@ -73,7 +43,6 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "175ed322-efe0-41f6-a442-b2ddad02eb1a")
 	)
 	(fp_line
 		(start -1.05 -1.05)
@@ -83,7 +52,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b0c63c18-e3c8-4c14-98f3-aa6fa12ad722")
 	)
 	(fp_line
 		(start -1.05 1.05)
@@ -93,7 +61,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fbc3c569-8ab5-4a33-98f9-fb535a0f58cb")
 	)
 	(fp_line
 		(start 6.03 -1.05)
@@ -103,7 +70,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "20ad9f69-6687-48ff-971f-eee0b9cb2dd5")
 	)
 	(fp_line
 		(start 6.03 1.05)
@@ -113,7 +79,6 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6acdfaeb-93b1-488d-ba85-00da53d721be")
 	)
 	(fp_line
 		(start 0 0)
@@ -123,7 +88,6 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6800816a-89ac-432a-ae77-b78aff405ba5")
 	)
 	(fp_circle
 		(center 0 0)
@@ -134,12 +98,10 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "2b296d18-47a2-453f-b796-75955ad452bb")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 2.54 -1.92 0)
 		(layer "F.Fab")
-		(uuid "40464429-afb3-4863-a49d-33e5a6a155d7")
 		(effects
 			(font
 				(size 1 1)
@@ -153,15 +115,13 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2f4a4690-42d1-4721-814c-c697d8392db3")
 	)
-	(pad "2" thru_hole oval
+	(pad "2" thru_hole circle
 		(at 5.08 0)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f40d1180-8073-4ea3-bb70-4b5e140df612")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical.wrl"
