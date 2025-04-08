@@ -2,10 +2,10 @@
 	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Vigortronix VTX-214-010-1xx serie of ACDC converter, https://www.vigortronix.com/wp-content/uploads/2022/01/VTX-214-010-1-Series-D0034-1.pdf")
-	(tags "Vigortronix VTX-214-010-1xx serie of ACDC converter")
+	(descr "ACDC converter, Vigortronix, VTX-214-010-1xx, 10W, input 90-265VAC, output 3.3-48V, body size 36x56x25.5mm (Script generated with StandardBox.py) (https://www.vigortronix.com/wp-content/uploads/2022/01/VTX-214-010-1-Series-D0034-1.pdf)")
+	(tags "switching regulator filter")
 	(property "Reference" "REF**"
-		(at -10 -5.5 0)
+		(at -10.3 -5.54 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "Converter_ACDC_Vigortronix_VTX-214-010-1xx_THT"
-		(at 6 54 0)
+		(at 6 53.75 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -26,8 +26,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -12.12 -4.12)
-		(end 24.12 -4.12)
+		(start -12.8 -4.8)
+		(end -9.8 -4.8)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -12.12 52.12)
-		(end -12.12 -4.12)
+		(start -12.8 -1.8)
+		(end -12.8 -4.8)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +44,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 24.12 -4.12)
-		(end 24.12 52.12)
+		(start -12.56 -4.56)
+		(end -12.56 52.56)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +53,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 24.12 52.12)
-		(end -12.12 52.12)
+		(start -12.56 -4.56)
+		(end 24.56 -4.56)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,8 +62,26 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -12.25 -4.25)
-		(end 24.25 -4.25)
+		(start -12.56 52.56)
+		(end 24.56 52.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 24.56 -4.56)
+		(end 24.56 52.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -12.76 -4.76)
+		(end -12.76 52.76)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -71,8 +89,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -12.25 52.25)
-		(end -12.25 -4.25)
+		(start -12.76 52.76)
+		(end 24.76 52.76)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -80,8 +98,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 24.25 -4.25)
-		(end 24.25 52.25)
+		(start 24.76 -4.76)
+		(end -12.76 -4.76)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -89,79 +107,31 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 24.25 52.25)
-		(end -12.25 52.25)
+		(start 24.76 52.76)
+		(end 24.76 -4.76)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -12 -4)
-		(end -1 -4)
+	(fp_poly
+		(pts
+			(xy -12 -3)
+			(xy -12 52)
+			(xy 24 52)
+			(xy 24 -4)
+			(xy -11 -4)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -12 52)
-		(end -12 -4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1 -4)
-		(end 0 -3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0 -3)
-		(end 1 -4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 1 -4)
-		(end 24 -4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 24 -4)
-		(end 24 52)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 24 52)
-		(end -12 52)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.75 24 0)
+		(at 6 24 0)
 		(layer "F.Fab")
 		(effects
 			(font
