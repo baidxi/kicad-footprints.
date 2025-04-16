@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Hamamatsu C11204-01, https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/c11204-01_kacc1203e.pdf")
-	(tags "MPPC C11204-01 SiPM bias-supply")
+	(descr "Hamamatsu C11204-01 bias power supply module, body 19.4x17mm, height 4.7mm, https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/c11204-01_kacc1203e.pdf")
+	(tags "MPPC SiPM bias-supply")
 	(property "Reference" "REF**"
 		(at 9.144 -4.445 0)
 		(unlocked yes)
@@ -69,7 +69,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -0.381 -1.143) (xy 0 -0.762) (xy 0.381 -1.143)
+			(xy -2.381 0.381) (xy -2 0) (xy -2.381 -0.381)
 		)
 		(stroke
 			(width 0.12)
@@ -135,7 +135,7 @@
 	)
 	(pad "1" thru_hole roundrect
 		(at 0 0)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -143,124 +143,139 @@
 		(thermal_bridge_angle 45)
 		(uuid "390a7279-d8b9-4850-8b29-f0e2aebdaac0")
 	)
-	(pad "2" thru_hole circle
+	(pad "2" thru_hole oval
 		(at 0 1.27)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "b0ee07d4-a3ab-423c-99e0-bc9bca5a0a0d")
 	)
-	(pad "3" thru_hole circle
+	(pad "3" thru_hole oval
 		(at 0 2.54)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "b4d72a19-64f5-4673-8461-c43eea0c2465")
 	)
-	(pad "4" thru_hole circle
+	(pad "4" thru_hole oval
 		(at 0 3.81)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "012915be-f87d-4915-ad13-0fcabeba8c42")
 	)
-	(pad "5" thru_hole circle
+	(pad "5" thru_hole oval
 		(at 0 5.08)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "874951a3-adf0-4ead-8c58-0d783e6ae898")
 	)
-	(pad "6" thru_hole circle
+	(pad "6" thru_hole oval
 		(at 0 6.35)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "afb52067-0500-4dc7-b153-a3c8f8f9d109")
 	)
-	(pad "7" thru_hole circle
+	(pad "7" thru_hole oval
 		(at 0 7.62)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "bc941841-d1e7-4ce7-a9d4-b9faa8445480")
 	)
-	(pad "8" thru_hole circle
+	(pad "8" thru_hole oval
 		(at 0 8.89)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "ac671bb3-7fe7-4acf-ac1c-5b862ea0a03f")
 	)
-	(pad "9" thru_hole circle
+	(pad "9" thru_hole oval
 		(at 0 10.16)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "1760b27f-f02e-47df-8f17-36670dd91308")
 	)
-	(pad "10" thru_hole circle
+	(pad "10" thru_hole oval
 		(at 0 11.43)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "f686b2e0-bf81-42fe-8aab-64e88f7b9a51")
 	)
-	(pad "11" thru_hole circle
+	(pad "11" thru_hole oval
 		(at 16.51 11.43)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "8b6faf39-c672-4d7c-84ec-9b1911415a24")
 	)
-	(pad "12" thru_hole circle
+	(pad "12" thru_hole oval
 		(at 16.51 10.16)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "eaf322d5-d343-461d-8fc7-986a2f39a330")
 	)
-	(pad "13" thru_hole circle
+	(pad "13" thru_hole oval
 		(at 16.51 8.89)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "23ac1d71-38a7-4cb2-93b8-ce43c6c97549")
 	)
-	(pad "14" thru_hole circle
+	(pad "14" thru_hole oval
 		(at 16.51 7.62)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "1963f77c-b3a4-4eff-b5ed-1b90cdf8dc38")
 	)
-	(pad "15" thru_hole circle
+	(pad "15" thru_hole oval
 		(at 16.51 6.35)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "49af08bf-124f-4cfe-ae74-531a6977536c")
 	)
-	(pad "16" thru_hole circle
+	(pad "16" thru_hole oval
 		(at 16.51 5.08)
-		(size 1 1)
+		(size 1.5 1)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "37fab61c-53b0-4a88-a664-994901239e82")
 	)
 	(embedded_fonts no)
