@@ -2,10 +2,10 @@
 	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "TO-247-4, Vertical, RM 2.54mm, see https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html, generated with kicad-footprint-generator TO_SOT_THT_generate.py")
+	(descr "TO-247-4, Vertical, RM 2.54mm, see https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html")
 	(tags "TO-247-4 Vertical RM 2.54mm")
 	(property "Reference" "REF**"
-		(at 5.08 -3.28 0)
+		(at 5.08 -3.45 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "TO-247-4_Vertical"
-		(at 5.08 3.65 0)
+		(at 5.08 3.95 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -26,8 +26,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.98 -2.44)
-		(end -2.98 2.81)
+		(start -2.99 -2.451)
+		(end -2.99 2.82)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.98 -2.44)
-		(end -1.212 -2.44)
+		(start -2.99 -2.451)
+		(end 13.15 -2.451)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +44,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.98 2.81)
-		(end 13.14 2.81)
+		(start -2.99 2.82)
+		(end 13.15 2.82)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +53,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 1.212 -2.44)
-		(end 3.868 -2.44)
+		(start 3.276 -2.451)
+		(end 3.276 2.82)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,8 +62,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 3.275 -2.44)
-		(end 3.275 -2.22)
+		(start 6.885 -2.451)
+		(end 6.885 -2.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -71,8 +71,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 6.292 -2.44)
-		(end 6.407 -2.44)
+		(start 6.885 2.4)
+		(end 6.885 2.82)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -80,8 +80,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 8.832 -2.44)
-		(end 8.948 -2.44)
+		(start 13.15 -2.451)
+		(end 13.15 2.82)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -89,32 +89,58 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 11.372 -2.44)
-		(end 13.14 -2.44)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 13.14 -2.44)
-		(end 13.14 2.81)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_rect
-		(start 13.28 2.95)
-		(end -3.12 -2.58)
+		(start -3.12 -2.59)
+		(end -3.12 2.95)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(fill no)
 		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -3.12 2.95)
+		(end 13.28 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 13.28 -2.59)
+		(end -3.12 -2.59)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 13.28 2.95)
+		(end 13.28 -2.59)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.87 -2.33)
+		(end -2.87 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -2.87 2.7)
+		(end 13.03 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
 	)
 	(fp_line
 		(start 3.275 -2.33)
@@ -134,18 +160,26 @@
 		)
 		(layer "F.Fab")
 	)
-	(fp_rect
-		(start -2.87 -2.33)
-		(end 13.03 2.7)
+	(fp_line
+		(start 13.03 -2.33)
+		(end -2.87 -2.33)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 13.03 2.7)
+		(end 13.03 -2.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.08 0.19 0)
+		(at 5.08 -3.45 0)
 		(layer "F.Fab")
 		(effects
 			(font

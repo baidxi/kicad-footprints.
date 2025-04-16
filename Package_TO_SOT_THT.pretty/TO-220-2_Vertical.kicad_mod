@@ -2,10 +2,10 @@
 	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF, generated with kicad-footprint-generator TO_SOT_THT_generate.py")
+	(descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
 	(tags "TO-220-2 Vertical RM 5.08mm")
 	(property "Reference" "REF**"
-		(at 2.54 -4.1 0)
+		(at 2.54 -4.27 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "TO-220-2_Vertical"
-		(at 2.54 2.2 0)
+		(at 2.54 2.5 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -26,8 +26,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.57 -3.26)
-		(end -2.57 1.36)
+		(start -2.58 -3.27)
+		(end -2.58 1.371)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.57 -3.26)
-		(end 7.65 -3.26)
+		(start -2.58 -3.27)
+		(end 7.66 -3.27)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +44,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.57 -1.88)
-		(end 7.65 -1.88)
+		(start -2.58 -1.76)
+		(end 7.66 -1.76)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +53,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.57 1.36)
-		(end 7.65 1.36)
+		(start -2.58 1.371)
+		(end 7.66 1.371)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,8 +62,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0.69 -3.26)
-		(end 0.69 -1.88)
+		(start 0.69 -3.27)
+		(end 0.69 -1.76)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -71,8 +71,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 4.39 -3.26)
-		(end 4.39 -1.88)
+		(start 4.391 -3.27)
+		(end 4.391 -1.76)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -80,27 +80,71 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 7.65 -3.26)
-		(end 7.65 1.36)
+		(start 7.66 -3.27)
+		(end 7.66 1.371)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 	)
-	(fp_rect
-		(start 7.79 1.5)
+	(fp_line
+		(start -2.71 -3.4)
+		(end -2.71 1.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.71 1.51)
+		(end 7.79 1.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.79 -3.4)
 		(end -2.71 -3.4)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(fill no)
 		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.79 1.51)
+		(end 7.79 -3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.46 -3.15)
+		(end -2.46 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
 	)
 	(fp_line
 		(start -2.46 -1.88)
 		(end 7.54 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -2.46 1.25)
+		(end 7.54 1.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -125,18 +169,26 @@
 		)
 		(layer "F.Fab")
 	)
-	(fp_rect
-		(start -2.46 -3.15)
-		(end 7.54 1.25)
+	(fp_line
+		(start 7.54 -3.15)
+		(end -2.46 -3.15)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 7.54 1.25)
+		(end 7.54 -3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.54 -0.95 0)
+		(at 2.54 -4.27 0)
 		(layer "F.Fab")
 		(effects
 			(font
