@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "LED_Kingbright_APHBM1608_1.7x1.1mm"
+	(property "Value" "LED_Kingbright_APHB1608_1.7x1.1mm"
 		(at -0.05 2.6 180)
 		(layer "F.Fab")
 		(uuid "6cf3790f-04f5-4f2f-bbe2-52333cedb899")
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHB1608LG3R2C-AMT.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -165,29 +165,44 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.35 0.6 90)
 		(size 0.5 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
 		(uuid "c624868f-253b-4a1b-a348-f262800c409e")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at -0.35 -0.6 90)
 		(size 0.5 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
 		(uuid "f415d0a5-c06e-4ae0-8c05-125bf4ea719c")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 0.35 0.6 90)
 		(size 0.5 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
 		(uuid "2190269b-9bdd-43db-b22f-9de122b9c8ae")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 0.35 -0.6 90)
 		(size 0.5 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
 		(uuid "fdc2d0d7-1f0a-4bf1-8d0f-0bda6f3a4131")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Kingbright_APHB1608_1.7x1.1mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
