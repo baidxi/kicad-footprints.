@@ -13,7 +13,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -76,17 +76,6 @@
 		(layer "F.SilkS")
 		(uuid "3752da94-6a58-47a2-8487-34c7f0f4dcab")
 	)
-	(fp_rect
-		(start -4.62 -3.65)
-		(end 4.62 3.65)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "fb304b3f-4c51-46bb-812f-45798069d5d2")
-	)
 	(fp_line
 		(start -6 3.65)
 		(end 6 3.65)
@@ -101,12 +90,23 @@
 		(start -6.37 -5)
 		(end 6.37 3.9)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "9251b482-8c9e-4a31-a688-687f7241dc78")
+	)
+	(fp_rect
+		(start -4.62 -3.65)
+		(end 4.62 3.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fb304b3f-4c51-46bb-812f-45798069d5d2")
 	)
 	(fp_text user "PCB Edge"
 		(at 0 3 0)
@@ -261,4 +261,15 @@
 		(uuid "4547080a-4711-4f04-b8ea-f9f696f78f4d")
 	)
 	(embedded_fonts no)
+	(model " ${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4520-03-x-A.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
