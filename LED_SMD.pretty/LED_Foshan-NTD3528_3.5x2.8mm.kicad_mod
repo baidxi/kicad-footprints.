@@ -1,7 +1,7 @@
 (footprint "LED_Foshan-NTD3528_3.5x2.8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3.5mm x 2.8mm mid-power LED, https://www.lcsc.com/datasheet/lcsc_datasheet_2307180955_Foshan-NationStar-Optoelectronics-NTD3528U1_C7464740.pdf")
 	(tags "Nationstar")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e0c732e5-2a4f-401a-9d06-384acc5b1723")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -199,19 +186,20 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1.425 0)
-		(size 1.15 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
-		(uuid "8f37b20e-99d4-41aa-9589-9ab8b6d862a6")
-	)
-	(pad "2" smd roundrect
 		(at 0.825 0)
 		(size 2.35 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "201e05f2-1b6c-4282-a81c-b348fa1b24d9")
 	)
+	(pad "2" smd roundrect
+		(at -1.425 0)
+		(size 1.15 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "8f37b20e-99d4-41aa-9589-9ab8b6d862a6")
+	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Foshan-NTD3528_3.5x2.8mm.wrl"
 		(offset
 			(xyz 0 0 0)
