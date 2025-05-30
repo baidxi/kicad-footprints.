@@ -1,10 +1,10 @@
 (footprint "Hamamatsu_S14160-6050HS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Hamamatsu single MPPC, 6x6mm,  50um pixel pitch, 14331 pixels, 57% geometric fill factor")
-	(tags "Hamamatsu MPPC photon counter SMD")
+	(tags "Hamamatsu MPPC photon counter SMD SiPM")
 	(property "Reference" "REF**"
 		(at 0 4 0)
 		(layer "F.SilkS")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a81a00fa-2206-493f-bf3f-6f2132c4a012")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -152,7 +142,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "248d6168-b61b-4c0a-afa8-b94e17d3b67d")
 	)
@@ -163,7 +153,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b7fa9331-5591-426b-bbc8-19f4c2c9fd6e")
 	)
@@ -174,7 +164,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b19ecaea-177c-4ea6-8835-7bc492502da1")
 	)
@@ -193,51 +183,52 @@
 	(pad "1" smd circle
 		(at -2.5 -2.5)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0b563725-8e64-4299-8ac6-79596412abb6")
 	)
 	(pad "1" smd circle
 		(at -2.5 2.5)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3dd861e4-eb3b-449b-af1e-53498ea67db1")
 	)
 	(pad "1" smd circle
 		(at 2.5 -2.5)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4c77b12a-5ceb-48f0-8d7a-91a833000795")
 	)
 	(pad "1" smd circle
 		(at 2.5 2.5)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b0d5f876-4338-4f7b-bef4-52a1d910e93e")
 	)
 	(pad "2" smd circle
 		(at -1.25 -1.25)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1100d09f-f449-4ae1-9c16-ca060e5ca466")
 	)
 	(pad "2" smd circle
 		(at -1.25 1.25)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1dce992d-c711-4122-b11a-6a955160f063")
 	)
 	(pad "2" smd circle
 		(at 1.25 -1.25)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8b083063-cbbe-4809-abfe-6920e43e3ffd")
 	)
 	(pad "2" smd circle
 		(at 1.25 1.25)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ffd9a8d3-b75c-4023-9cef-49ceb82466c6")
 	)
+	(embedded_fonts no)
 	(model ":KICAD7_3DMODEL_DIR:OptoDevice.3dshapes/Hamamatsu_S14160-6050HS.step"
 		(offset
 			(xyz 0 0 0)
