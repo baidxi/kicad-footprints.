@@ -115,8 +115,8 @@
 		(uuid "1e8ae43f-164d-4ad9-b8cb-2e41b5492b95")
 	)
 	(fp_line
-		(start 2.55 1.65)
-		(end 2.55 -1.65)
+		(start 2.55 -1.65)
+		(end 2.55 1.65)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -174,8 +174,21 @@
 		(layer "F.Fab")
 		(uuid "ce62b4c1-a0f9-4a1b-af66-67ac237fbe77")
 	)
+	(fp_text user "1"
+		(at 2.102967 0.614492 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "81d3cc0b-f451-4098-84ce-d2732871847e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(uuid "43bb5346-6fc8-4094-a012-ef39e85900b7")
 		(effects
@@ -186,14 +199,14 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at 0.825 0)
+		(at -0.825 0 180)
 		(size 2.35 2.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "201e05f2-1b6c-4282-a81c-b348fa1b24d9")
 	)
 	(pad "2" smd roundrect
-		(at -1.425 0)
+		(at 1.425 0 180)
 		(size 1.15 2.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
