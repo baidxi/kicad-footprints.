@@ -1,10 +1,10 @@
-(footprint "SW_SPST_PTS645"
+(footprint "SW_SPST_PTS645Sx43SMTR92"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
-	(tags "SPST Button Switch")
+	(descr "Tactile switch, 6x6 mm, H4.3 mm, gullwing terminals, https://www.ckswitches.com/media/1471/pts645.pdf")
+	(tags "SPST Button Switch CK C&K")
 	(property "Reference" "REF**"
 		(at 0 -4.05 0)
 		(layer "F.SilkS")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SW_SPST_PTS645"
+	(property "Value" "SW_SPST_PTS645Sx43SMTR92"
 		(at 0 4.15 0)
 		(layer "F.Fab")
 		(uuid "be484de9-4fca-4ddd-a433-94aa82073565")
@@ -216,7 +216,7 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 1.75 -0.05)
+		(end 1.75 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -236,32 +236,36 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -3.98 -2.25)
 		(size 1.55 1.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1923076923)
 		(uuid "2b993251-80f5-41bd-9281-36b84f34eeea")
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at 3.98 -2.25)
 		(size 1.55 1.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1923076923)
 		(uuid "5169a90d-f287-4bcf-9c7e-172780d9ec0b")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at -3.98 2.25)
 		(size 1.55 1.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1923076923)
 		(uuid "004556c4-09a4-4100-ac9e-aee8c7e174d3")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 3.98 2.25)
 		(size 1.55 1.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1923076923)
 		(uuid "8b1a4e7c-2c57-45f5-a14c-d56aeb1bb5f3")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.step"
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645Sx43SMTR92.step"
 		(offset
 			(xyz 0 0 0)
 		)
