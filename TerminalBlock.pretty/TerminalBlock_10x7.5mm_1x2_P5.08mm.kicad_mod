@@ -1,14 +1,14 @@
-(footprint "TerminalBlock_bornier-3_P5.08mm"
+(footprint "TerminalBlock_10x7.5mm_1x2_P5.08mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "simple 3-pin terminal block, pitch 5.08mm, revamped version of bornier3")
-	(tags "terminal block bornier3")
+	(descr "simple 2-pin terminal block, pitch 5.08mm")
+	(tags "terminal block")
 	(property "Reference" "REF**"
-		(at 5.05 -4.65 0)
+		(at 2.54 -5.08 0)
 		(layer "F.SilkS")
-		(uuid "15e4ddb6-c8cd-4f13-876c-3026d912202e")
+		(uuid "58a768f0-cbed-4992-a8f5-68a9cb9221fd")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "TerminalBlock_bornier-3_P5.08mm"
-		(at 5.08 5.08 0)
+	(property "Value" "TerminalBlock_10x7.5mm_1x2_P5.08mm"
+		(at 2.54 5.08 0)
 		(layer "F.Fab")
-		(uuid "454aea29-f79b-4f32-85cf-e21a724f1271")
+		(uuid "e6b5beef-cd67-490e-836f-44290a595873")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "515cd4d9-be81-4ba2-81ae-136e8c2e330a")
+		(uuid "bcff6493-3183-47f7-b436-1b98ebcb2fea")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4441295f-3001-4b30-8a7b-147a27b1d3b2")
+		(uuid "c278eaba-34db-4ee9-a58e-b3528294f2f0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,148 +56,148 @@
 	(attr through_hole)
 	(fp_line
 		(start -2.54 -3.81)
-		(end 12.7 -3.81)
+		(end -2.54 3.81)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1a8be5b2-1d5d-4d9a-a3ef-d386a76d5ca2")
-	)
-	(fp_line
-		(start -2.54 2.54)
-		(end 12.7 2.54)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5f32c1f8-13bf-4e3c-bcc9-101824776089")
+		(uuid "0f458660-0073-4b7d-9d1c-660fafd54624")
 	)
 	(fp_line
 		(start -2.54 3.81)
+		(end 7.62 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3275a28-4e24-45f5-81f7-1f75e0117c79")
+	)
+	(fp_line
+		(start 7.62 -3.81)
 		(end -2.54 -3.81)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c6526236-5371-46f2-984f-1f39e33602c9")
+		(uuid "f23eec8b-479e-4b68-8e9e-cbfc531e55fd")
 	)
 	(fp_line
-		(start -2.54 3.81)
-		(end 12.7 3.81)
+		(start 7.62 2.54)
+		(end -2.54 2.54)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7d876dd6-fe2b-48ba-9bea-87d26c29a544")
+		(uuid "5b8957ce-1b22-4c96-b846-1b10aec97d40")
 	)
 	(fp_line
-		(start 12.7 3.81)
-		(end 12.7 -3.81)
+		(start 7.62 3.81)
+		(end 7.62 -3.81)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5ecfe7d4-b7bd-425f-9e0f-fcf26a610352")
+		(uuid "4eda392a-22e0-4771-bf7f-96fbf6c1c41c")
 	)
 	(fp_line
-		(start -2.72 -4)
-		(end -2.72 4)
+		(start -2.71 -4)
+		(end -2.71 4)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "76d2b2dc-5a52-443d-9331-f31cb650dc06")
+		(uuid "321253bb-0fdb-403a-ac4e-c054e8688864")
 	)
 	(fp_line
-		(start -2.72 -4)
-		(end 12.88 -4)
+		(start -2.71 -4)
+		(end 7.79 -4)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1e2667e2-3148-4f9e-bcb6-9411cb114e59")
+		(uuid "7474484a-23bb-4d99-aa0b-e910a3bce07f")
 	)
 	(fp_line
-		(start 12.88 4)
-		(end -2.72 4)
+		(start 7.79 4)
+		(end -2.71 4)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "97012f6a-d192-4136-bafd-971a3cd12353")
+		(uuid "bc1a491e-58bf-4ded-8885-7f8bf0b4ad6c")
 	)
 	(fp_line
-		(start 12.88 4)
-		(end 12.88 -4)
+		(start 7.79 4)
+		(end 7.79 -4)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "18d13859-67c6-406d-a343-e2460dc3c8fa")
+		(uuid "29ba8f8d-d516-4e34-bbd7-ddb1067c0ca8")
 	)
 	(fp_line
-		(start -2.47 -3.75)
-		(end 12.63 -3.75)
+		(start -2.46 -3.75)
+		(end -2.46 3.75)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8e316d62-501b-40bc-8b85-5d34f47e4572")
+		(uuid "33e0b5e5-358e-4992-8470-97ef93aaadbe")
 	)
 	(fp_line
-		(start -2.47 2.55)
-		(end 12.63 2.55)
+		(start -2.46 3.75)
+		(end 7.54 3.75)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a25c27cb-5702-4828-9a1a-ad3f5ff72ad2")
+		(uuid "964d1bbc-7451-4461-918f-7f9f966f13e3")
 	)
 	(fp_line
-		(start -2.47 3.75)
-		(end -2.47 -3.75)
+		(start -2.41 2.55)
+		(end 7.49 2.55)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9eaf149f-2d2d-4a5a-a63a-433cac991200")
+		(uuid "bdc1824c-5fbc-4cdf-a4c5-08eb73fc39cc")
 	)
 	(fp_line
-		(start 12.63 -3.75)
-		(end 12.63 3.75)
+		(start 7.54 -3.75)
+		(end -2.46 -3.75)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "062d26ac-06a1-4aa0-97f9-b96e648cc9fd")
+		(uuid "0421dce9-a3d4-484c-9263-5bb82b4662e9")
 	)
 	(fp_line
-		(start 12.63 3.75)
-		(end -2.47 3.75)
+		(start 7.54 3.75)
+		(end 7.54 -3.75)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2e79a706-0802-43b7-b815-10395e5eef4a")
+		(uuid "b1721349-1a92-4e1c-90ec-0622be5f75ba")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.08 0 0)
+		(at 2.54 0 0)
 		(layer "F.Fab")
-		(uuid "fbf6f1d8-14f2-4626-8cfa-beb085374f3f")
+		(uuid "107497c8-9ab4-407c-8c4a-38b42f271e19")
 		(effects
 			(font
 				(size 1 1)
@@ -211,7 +211,7 @@
 		(drill 1.52)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "fe612129-e304-4086-8bf5-897591d28217")
+		(uuid "ed716211-f3bc-4748-85ae-29b0c1f147de")
 	)
 	(pad "2" thru_hole circle
 		(at 5.08 0)
@@ -219,20 +219,12 @@
 		(drill 1.52)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a2dedbf3-e671-42d6-8132-e3d241ae34d9")
-	)
-	(pad "3" thru_hole circle
-		(at 10.16 0)
-		(size 3 3)
-		(drill 1.52)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "f533ca40-e950-434e-8a7a-60a7a3d641ab")
+		(uuid "359ae08d-fb10-46a9-ada1-91305e0b3340")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-3_P5.08mm.step"
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_10x7.5mm_1x2_P5.08mm.step"
 		(offset
-			(xyz 5.079999924 0 0)
+			(xyz 2.539999962 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
