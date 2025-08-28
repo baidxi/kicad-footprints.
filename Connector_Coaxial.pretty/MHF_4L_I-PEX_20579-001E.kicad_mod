@@ -209,6 +209,7 @@
 		(at -1 0 180)
 		(size 0.5 1.58)
 		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -229,12 +230,14 @@
 		(at 0 -1 180)
 		(size 0.5 0.5)
 		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
 		(uuid "19bd4cdd-4ce8-4c7b-94d8-158d66c18582")
 	)
 	(pad "2" smd custom
 		(at 1 0 180)
 		(size 0.5 1.58)
 		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -254,7 +257,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "User.2")
+		(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
+			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "User.2" "In20.Cu" "In21.Cu" "In22.Cu"
+			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+			"In30.Cu"
+		)
 		(uuid "99dfb86f-e5db-4e6d-a101-59baae1e41fd")
 		(hatch edge 0.5)
 		(connect_pads
@@ -266,7 +274,7 @@
 			(tracks not_allowed)
 			(vias not_allowed)
 			(pads not_allowed)
-			(copperpour allowed)
+			(copperpour not_allowed)
 			(footprints allowed)
 		)
 		(placement
