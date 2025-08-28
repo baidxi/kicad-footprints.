@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "I-PEX ultra-miniature RF coaxial connector, (https://www.i-pex.com/product/mhf-4l)")
-	(tags "mcrf hirose ufl u.fl microcoaxial mhf")
+	(tags "mcrf ufl u.fl microcoaxial mhf")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
 		(layer "F.SilkS")
@@ -70,7 +70,7 @@
 			(xy 1.2 -1.2) (xy 0.9 -1.2) (xy 1.2 -0.9)
 		)
 		(stroke
-			(width 0)
+			(width 0.12)
 			(type solid)
 		)
 		(fill yes)
@@ -131,6 +131,29 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "232a8f17-55e7-4772-928e-76edd8b9874b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.4 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "84ba4e09-e185-45bb-8820-6b1530ab0f7b")
+	)
+	(fp_poly
+		(pts
+			(xy -0.8 -0.8) (xy 0.6 -0.8) (xy 0.8 -0.6) (xy 0.8 0.8) (xy -0.8 0.8)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bd44747c-d07e-4c12-933c-01b73fc1bff8")
 	)
 	(fp_text user "No Traces"
 		(at 0 0.12 0)
@@ -263,7 +286,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MHF_4L_I-PEX_20579-00E.step"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MHF_4L_I-PEX_20579-001E.step"
 		(offset
 			(xyz 0 0 0)
 		)
