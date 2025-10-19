@@ -1,5 +1,5 @@
 (footprint "TerminalBlock_RND_205-00012_1x02_P5.00mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "terminal block RND 205-00012, 2 pins, pitch 5mm, size 10x7.6mm, drill diameter 1.3mm, pad diameter 2.5mm, http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00012_DB_EN.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_RND")
@@ -25,15 +25,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -2.62 -4.22)
-		(end -2.62 3.62)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
 	(fp_line
 		(start -2.62 -4.22)
 		(end 7.62 -4.22)
@@ -72,7 +63,7 @@
 	)
 	(fp_line
 		(start -2.62 3.62)
-		(end -0.3 3.62)
+		(end -2.62 -4.22)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -80,44 +71,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0.3 3.62)
-		(end 7.62 3.62)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 3.668 1.104)
-		(end 3.589 1.183)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 3.895 1.331)
-		(end 3.816 1.41)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 6.184 -1.411)
-		(end 6.105 -1.331)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 6.411 -1.184)
-		(end 6.332 -1.104)
+		(start -0.3 3.62)
+		(end -2.62 3.62)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -133,40 +88,9 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_arc
-		(start -1.73 0.683)
-		(mid -1.859943 -0.000144)
-		(end -1.729894 -0.683267)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start -0.683 -1.73)
-		(mid 0.000144 -1.859943)
-		(end 0.683267 -1.729894)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start 0.683 1.73)
-		(mid -0.000144 1.859943)
-		(end -0.683267 1.729894)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start 1.73 -0.683)
-		(mid 1.859943 0.000144)
-		(end 1.729894 0.683267)
+	(fp_line
+		(start 7.62 3.62)
+		(end 0.3 3.62)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -180,7 +104,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_circle
@@ -190,17 +114,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 5 0)
-		(end 6.86 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_poly
@@ -208,13 +122,12 @@
 			(xy 0 3.62)
 			(xy 0.44 4.23)
 			(xy -0.44 4.23)
-			(xy 0 3.62)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -309,7 +222,7 @@
 	)
 	(fp_line
 		(start 0.955 -1.138)
-		(end -1.138 0.954)
+		(end -1.138 0.955)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -317,8 +230,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 1.138 -0.954)
-		(end -0.955 1.137)
+		(start 1.138 -0.955)
+		(end -0.955 1.138)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -327,7 +240,7 @@
 	)
 	(fp_line
 		(start 5.955 -1.138)
-		(end 3.862 0.954)
+		(end 3.862 0.955)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -335,8 +248,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 6.138 -0.954)
-		(end 4.045 1.137)
+		(start 6.138 -0.955)
+		(end 4.045 1.138)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -368,7 +281,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -378,7 +291,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -388,7 +301,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -398,7 +311,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -426,7 +339,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00012_1x02_P5.00mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00012_1x02_P5.00mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

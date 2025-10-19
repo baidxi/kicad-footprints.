@@ -1,7 +1,7 @@
 (footprint "Symbol_HighVoltage_NoTriangle_2x5mm_Copper"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "High voltage symbol, no triangle, 2x5mm, copper layer")
 	(tags "warning graphic")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" "Symbol_HighVoltage_NoTriangle_2x5mm_Copper"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2cb4dbc4-3a4e-4def-ab23-751b27968404")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -106,8 +96,9 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Cu")
 		(uuid "8ae7c127-b56a-44c3-86c2-c211626fc69b")
 	)
+	(embedded_fonts no)
 )

@@ -1,8 +1,8 @@
 (footprint "TerminalBlock_MetzConnect_Type059_RT06302HBWC_1x02_P3.50mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "terminal block Metz Connect Type059_RT06302HBWC, 2 pins, pitch 3.5mm, size 7x6.5mm, drill diameter 1.2mm, pad diameter 2.3mm, http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310591_RT063xxHBWC_OFF-022684T.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MetzConnect")
+	(descr "terminal block Metz Connect Type059_RT06302HBWC, 2 pins, pitch 3.5mm, size 7x6.5mm, drill diameter 1.2mm, pad diameter 2.3mm, https://www.metz-connect.com/externalfiles/310591/863246.PDF, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MetzConnect")
 	(tags "THT terminal block Metz Connect Type059_RT06302HBWC pitch 3.5mm size 7x6.5mm drill 1.2mm pad 2.3mm")
 	(property "Reference" "REF**"
 		(at 1.75 -3.92 0)
@@ -27,15 +27,6 @@
 	(attr through_hole)
 	(fp_line
 		(start -1.87 -2.92)
-		(end -1.87 3.82)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -1.87 -2.92)
 		(end 5.37 -2.92)
 		(stroke
 			(width 0.12)
@@ -54,7 +45,7 @@
 	)
 	(fp_line
 		(start -1.87 3.82)
-		(end -0.3 3.82)
+		(end -1.87 -2.92)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,44 +53,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0.3 3.82)
-		(end 5.37 3.82)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 2.246 1.042)
-		(end 2.184 1.104)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 2.458 1.253)
-		(end 2.396 1.316)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 4.604 -1.316)
-		(end 4.542 -1.253)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 4.816 -1.104)
-		(end 4.754 -1.042)
+		(start -0.3 3.82)
+		(end -1.87 3.82)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -115,54 +70,13 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_arc
-		(start -1.63 0.594)
-		(mid -1.734859 -0.000387)
-		(end -1.629735 -0.594726)
+	(fp_line
+		(start 5.37 3.82)
+		(end 0.3 3.82)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start -0.594 -1.63)
-		(mid 0.000387 -1.734859)
-		(end 0.594726 -1.629735)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start 0.594 1.63)
-		(mid -0.000387 1.734859)
-		(end -0.594726 1.629735)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start 1.63 -0.594)
-		(mid 1.734859 0.000387)
-		(end 1.629735 0.594726)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 3.5 0)
-		(end 5.235 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
 		(layer "F.SilkS")
 	)
 	(fp_poly
@@ -170,13 +84,12 @@
 			(xy 0 3.82)
 			(xy 0.44 4.43)
 			(xy -0.44 4.43)
-			(xy 0 3.82)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -312,7 +225,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -322,7 +235,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -350,7 +263,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type059_RT06302HBWC_1x02_P3.50mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type059_RT06302HBWC_1x02_P3.50mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

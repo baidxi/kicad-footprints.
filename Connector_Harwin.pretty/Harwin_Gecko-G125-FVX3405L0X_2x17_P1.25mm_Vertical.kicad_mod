@@ -1,7 +1,7 @@
 (footprint "Harwin_Gecko-G125-FVX3405L0X_2x17_P1.25mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Harwin Gecko Connector, 34 pins, dual row female, vertical entry, PN:G125-FVX3405L0X, https://content.harwin.com/m/60a18b02a2a99a14/original/DRG-00168-Technical-Drawing-Datasheet-G125-FVXXX05L0P-pdf.pdf")
 	(tags "connector harwin gecko")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "408c5f32-0669-499b-a928-e68ed94e44bf")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -333,7 +320,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "254aab81-ed13-4cc0-931e-c0a6bbf100cd")
 	)
@@ -928,7 +915,8 @@
 		(remove_unused_layers no)
 		(uuid "b4e6d215-7bbd-4509-bb15-fa9033ed0b5f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_Gecko-G125-FVX3405L0X_2x17_P1.25mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_Gecko-G125-FVX3405L0X_2x17_P1.25mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

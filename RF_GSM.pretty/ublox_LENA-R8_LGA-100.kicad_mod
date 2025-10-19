@@ -1,7 +1,7 @@
 (footprint "ublox_LENA-R8_LGA-100"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Multi-mode LTE Cat1 modules, https://content.u-blox.com/sites/default/files/documents/LENA-R8_SysIntegrManual_UBX-22015376.pdf#page=94 and https://content.u-blox.com/sites/default/files/documents/LENA-R8_DataSheet_UBX-22003110.pdf#page=35")
 	(tags "ublox GSM LTE")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6d34f755-e551-4880-90ac-fe3553fca8dd")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -113,7 +101,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "e3267af0-6e6e-4470-b363-943c0d79b5af")
 	)
@@ -1538,7 +1526,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "8b3831cb-20e8-4821-af94-ba262311950a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_GSM.3dshapes/ublox_LENA-R8_LGA-100.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_GSM.3dshapes/ublox_LENA-R8_LGA-100.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,8 +1,8 @@
 (footprint "TerminalBlock_MetzConnect_Type205_RT04503UBLC_1x03_P5.00mm_45Degree"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "terminal block Metz Connect Type205_RT04503UBLC, 45Degree (cable under 45degree), 3 pins, pitch 5mm, size 15x12.5mm, drill diameter 1.4mm, pad diameter 2.7mm, http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_312051_RT045xxUBLC_OFF-022759T.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MetzConnect")
+	(descr "terminal block Metz Connect Type205_RT04503UBLC, 45Degree (cable under 45degree), 3 pins, pitch 5mm, size 15x12.5mm, drill diameter 1.4mm, pad diameter 2.7mm, https://www.metz-connect.com/externalfiles/312051/863728.PDF, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MetzConnect")
 	(tags "THT terminal block Metz Connect Type205_RT04503UBLC 45Degree pitch 5mm size 15x12.5mm drill 1.4mm pad 2.7mm")
 	(property "Reference" "REF**"
 		(at 5 -7.12 0)
@@ -25,15 +25,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -2.62 -6.12)
-		(end -2.62 6.62)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
 	(fp_line
 		(start -2.62 -6.12)
 		(end 12.62 -6.12)
@@ -63,16 +54,7 @@
 	)
 	(fp_line
 		(start -2.62 6.62)
-		(end -0.3 6.62)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -1.75 1.83)
-		(end -1.75 5.5)
+		(end -2.62 -6.12)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -81,7 +63,7 @@
 	)
 	(fp_line
 		(start -1.75 5.5)
-		(end 1.75 5.5)
+		(end -1.75 1.83)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -89,8 +71,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0.3 6.62)
-		(end 12.62 6.62)
+		(start -0.3 6.62)
+		(end -2.62 6.62)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -100,6 +82,15 @@
 	(fp_line
 		(start 1.75 1.83)
 		(end 1.75 5.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.75 5.5)
+		(end -1.75 5.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -117,15 +108,6 @@
 	)
 	(fp_line
 		(start 3.25 1.5)
-		(end 3.25 5.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 3.25 1.5)
 		(end 3.952 1.5)
 		(stroke
 			(width 0.12)
@@ -135,7 +117,7 @@
 	)
 	(fp_line
 		(start 3.25 5.5)
-		(end 6.75 5.5)
+		(end 3.25 1.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -170,8 +152,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 8.25 1.5)
-		(end 8.25 5.5)
+		(start 6.75 5.5)
+		(end 3.25 5.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -189,7 +171,7 @@
 	)
 	(fp_line
 		(start 8.25 5.5)
-		(end 11.75 5.5)
+		(end 8.25 1.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -224,6 +206,15 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 11.75 5.5)
+		(end 8.25 5.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 12.62 -6.12)
 		(end 12.62 6.62)
 		(stroke
@@ -232,9 +223,18 @@
 		)
 		(layer "F.SilkS")
 	)
+	(fp_line
+		(start 12.62 6.62)
+		(end 0.3 6.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
 	(fp_arc
-		(start -1.799967 -4.400128)
-		(mid 0.000066 -5.800108)
+		(start -1.8 -4.4)
+		(mid 0 -5.8)
 		(end 1.8 -4.4)
 		(stroke
 			(width 0.12)
@@ -244,8 +244,8 @@
 	)
 	(fp_arc
 		(start 1.8 -4.4)
-		(mid 0.000066 -2.999892)
-		(end -1.799967 -4.399872)
+		(mid 0 -3)
+		(end -1.8 -4.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -253,8 +253,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 3.200033 -4.400128)
-		(mid 5.000066 -5.800108)
+		(start 3.2 -4.4)
+		(mid 5 -5.8)
 		(end 6.8 -4.4)
 		(stroke
 			(width 0.12)
@@ -264,8 +264,8 @@
 	)
 	(fp_arc
 		(start 6.8 -4.4)
-		(mid 5.000066 -2.999892)
-		(end 3.200033 -4.399872)
+		(mid 5 -3)
+		(end 3.2 -4.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -273,8 +273,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 8.200033 -4.400128)
-		(mid 10.000066 -5.800108)
+		(start 8.2 -4.4)
+		(mid 10 -5.8)
 		(end 11.8 -4.4)
 		(stroke
 			(width 0.12)
@@ -284,8 +284,8 @@
 	)
 	(fp_arc
 		(start 11.8 -4.4)
-		(mid 10.000066 -2.999892)
-		(end 8.200033 -4.399872)
+		(mid 10 -3)
+		(end 8.2 -4.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -297,13 +297,12 @@
 			(xy 0 6.62)
 			(xy 0.44 7.23)
 			(xy -0.44 7.23)
-			(xy 0 6.62)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -514,9 +513,9 @@
 		(layer "F.Fab")
 	)
 	(fp_arc
-		(start -1.800846 -4.400605)
-		(mid 0.000312 -5.801077)
-		(end 1.801 -4.4)
+		(start -1.8 -4.4)
+		(mid 0 -5.8)
+		(end 1.8 -4.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -525,8 +524,8 @@
 	)
 	(fp_arc
 		(start 1.8 -4.4)
-		(mid -0.000903 -3.000646)
-		(end -1.800445 -4.401751)
+		(mid 0 -3)
+		(end -1.8 -4.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -534,9 +533,9 @@
 		(layer "F.Fab")
 	)
 	(fp_arc
-		(start 3.199154 -4.400605)
-		(mid 5.000312 -5.801077)
-		(end 6.801 -4.4)
+		(start 3.2 -4.4)
+		(mid 5 -5.8)
+		(end 6.8 -4.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -545,8 +544,8 @@
 	)
 	(fp_arc
 		(start 6.8 -4.4)
-		(mid 4.999097 -3.000646)
-		(end 3.199555 -4.401751)
+		(mid 5 -3)
+		(end 3.2 -4.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -554,9 +553,9 @@
 		(layer "F.Fab")
 	)
 	(fp_arc
-		(start 8.199154 -4.400605)
-		(mid 10.000312 -5.801077)
-		(end 11.801 -4.4)
+		(start 8.2 -4.4)
+		(mid 10 -5.8)
+		(end 11.8 -4.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -565,8 +564,8 @@
 	)
 	(fp_arc
 		(start 11.8 -4.4)
-		(mid 9.999097 -3.000646)
-		(end 8.199555 -4.401751)
+		(mid 10 -3)
+		(end 8.2 -4.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -605,7 +604,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type205_RT04503UBLC_1x03_P5.00mm_45Degree.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type205_RT04503UBLC_1x03_P5.00mm_45Degree.step"
 		(offset
 			(xyz 0 0 0)
 		)

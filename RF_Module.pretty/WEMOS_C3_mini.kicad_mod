@@ -1,7 +1,7 @@
 (footprint "WEMOS_C3_mini"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "16-pin module, column spacing 22.86 mm (900 mils), https://www.wemos.cc/en/latest/_static/files/dim_c3_mini_v1.0.0.pdf")
 	(tags "ESP32-C3 WiFi microcontroller")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e555d0b4-96b1-4aee-8a90-5e54a0d61898")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -179,7 +166,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c5b85dbc-6ab6-4d30-849b-9ef813e5036d")
 	)
@@ -1550,7 +1537,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "08b2e1e5-19a5-4118-adcd-7bc3ba41270e")
 	)
@@ -1561,7 +1548,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "5afa1aa0-4d0b-4323-8973-063b5022050f")
 	)
@@ -1572,7 +1559,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "cbce88c6-b46a-4b12-a40f-f1b5b844c068")
 	)
@@ -1583,7 +1570,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "be72db0c-96fa-420a-81d6-13e9ec547f29")
 	)
@@ -1740,7 +1727,8 @@
 		(remove_unused_layers no)
 		(uuid "75737706-f46e-4062-855b-ef905ea48be6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/WEMOS_C3_mini.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/WEMOS_C3_mini.step"
 		(offset
 			(xyz 0 0 0)
 		)

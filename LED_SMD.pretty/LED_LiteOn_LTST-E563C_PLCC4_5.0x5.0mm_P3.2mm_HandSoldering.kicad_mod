@@ -1,7 +1,7 @@
 (footprint "LED_LiteOn_LTST-E563C_PLCC4_5.0x5.0mm_P3.2mm_HandSoldering"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RGB addressable LED, 5x5mm body, 1.57mm height, https://optoelectronics.liteon.com/upload/download/DS35-2018-0092/LTST-E563CHEGBW-AW.PDF")
 	(tags "LED RGB 5050 PLCC-4")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "14894cd9-ba96-4bd2-88ea-89b5bf3aed69")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -234,7 +221,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "83b9b0b3-69d5-4d55-b734-61b11225d74a")
 	)
@@ -252,32 +239,33 @@
 	(pad "1" smd roundrect
 		(at -2.5 -1.65)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "303fa036-5e50-4d6d-bb86-5cdfd4b88a9f")
 	)
 	(pad "2" smd roundrect
 		(at -2.5 1.65)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "19ff1e90-56ef-461a-889c-61ffea674474")
 	)
 	(pad "3" smd roundrect
 		(at 2.5 -1.65)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e6e3b1bc-4064-4031-9b80-d1df61337d0a")
 	)
 	(pad "4" smd roundrect
 		(at 2.5 1.65)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "abc776f0-6816-4443-a596-fad8645d4ac8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_LiteOn_LTST-E563C_PLCC4_5.0x5.0mm_P3.2mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_LiteOn_LTST-E563C_PLCC4_5.0x5.0mm_P3.2mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

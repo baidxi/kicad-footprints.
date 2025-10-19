@@ -1,5 +1,5 @@
 (footprint "TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Terminal Block 4Ucon ItemNo. 19963, 2 pins, pitch 3.5mm, size 7.7x7mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.4uconnector.com/online/object/4udrawing/19963.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_4Ucon")
@@ -27,15 +27,6 @@
 	(attr through_hole)
 	(fp_line
 		(start -2.22 -3.52)
-		(end -2.22 3.72)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -2.22 -3.52)
 		(end 5.72 -3.52)
 		(stroke
 			(width 0.12)
@@ -54,7 +45,7 @@
 	)
 	(fp_line
 		(start -2.22 3.72)
-		(end -0.3 3.72)
+		(end -2.22 -3.52)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,8 +53,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0.3 3.72)
-		(end 5.72 3.72)
+		(start -0.3 3.72)
+		(end -2.22 3.72)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -79,54 +70,13 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_arc
-		(start -1.68 0.433)
-		(mid -1.734903 -0.000376)
-		(end -1.679812 -0.433727)
+	(fp_line
+		(start 5.72 3.72)
+		(end 0.3 3.72)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start -0.433 -1.68)
-		(mid 0.000376 -1.734903)
-		(end 0.433727 -1.679812)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start 0.433 1.68)
-		(mid -0.000376 1.734903)
-		(end -0.433727 1.679812)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start 1.68 -0.433)
-		(mid 1.734903 0.000376)
-		(end 1.679812 0.433727)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 3.5 0)
-		(end 5.235 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
 		(layer "F.SilkS")
 	)
 	(fp_poly
@@ -134,13 +84,12 @@
 			(xy 0 3.72)
 			(xy 0.44 4.33)
 			(xy -0.44 4.33)
-			(xy 0 3.72)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -276,7 +225,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -286,7 +235,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -314,7 +263,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_4Ucon.3dshapes/TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_4Ucon.3dshapes/TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

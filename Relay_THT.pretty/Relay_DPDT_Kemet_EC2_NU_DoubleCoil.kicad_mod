@@ -1,7 +1,7 @@
 (footprint "Relay_DPDT_Kemet_EC2_NU_DoubleCoil"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Kemet signal relay, DPDT, double coil latching, 3.2mm pin height, https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf")
 	(tags "Kemet EC2 signal relay DPDT double dual coil latching through hole THT")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bb11f5f4-aa11-4663-bab4-078ba4e3c73b")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -419,7 +406,8 @@
 		(remove_unused_layers no)
 		(uuid "52bf474a-9b36-40e2-b7d4-4a69c906e29e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Kemet_EC2_NU_DoubleCoil.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Kemet_EC2_NU_DoubleCoil.step"
 		(offset
 			(xyz 0 0 0)
 		)

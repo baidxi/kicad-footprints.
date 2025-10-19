@@ -1,7 +1,7 @@
 (footprint "Relay_SPDT_Panasonic_DR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1 side stable, https://mediap.industry.panasonic.eu/assets/download-files/import/ds_dr_en_discon.pdf")
 	(tags "nais single side")
@@ -25,18 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f7e84179-874b-49c8-a1e5-b73c74233ce1")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -203,7 +191,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "870a9529-4d67-4cb6-9e81-5977ffccc710")
 	)
@@ -214,7 +202,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "57db718e-d2a3-444b-8c35-3fff288a4e7e")
 	)
@@ -226,7 +214,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "90cf4a7c-2a1a-4959-ba4b-0cdd4abff5c7")
 	)
@@ -238,7 +226,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "b23d702d-e168-4e78-abab-fa62a172aec8")
 	)
@@ -251,7 +239,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "13726bb4-38fd-4483-8a32-1c1518840559")
 	)
@@ -262,7 +250,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "593fc68a-f36e-4190-8fab-0edcfe755fd0")
 	)
@@ -402,7 +390,8 @@
 		(remove_unused_layers no)
 		(uuid "1b6100b1-6db6-46ed-838f-9445ada9c264")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Panasonic_DR.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Panasonic_DR.step"
 		(offset
 			(xyz 0 0 0)
 		)

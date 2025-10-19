@@ -1,12 +1,12 @@
 (footprint "L_Coilcraft_MSS1583-XXX"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Inductor, Coilcraft, MSS1583-XXX, 15.0x15.0x8.6mm, (https://www.coilcraft.com/getmedia/fbfe8ea7-f5d8-4484-859e-2285f427326d/mss1583.pdf), generated with kicad-footprint-generator gen_inductor.py")
-	(tags "Inductor mss")
-	(property "Value" "L_Coilcraft_MSS1583-XXX"
-		(at 0 8.5 0)
-		(layer "F.Fab")
+	(tags "mss")
+	(property "Reference" "REF**"
+		(at 0 -8.45 0)
+		(layer "F.SilkS")
 		(effects
 			(font
 				(size 1 1)
@@ -14,9 +14,9 @@
 			)
 		)
 	)
-	(property "Reference" "REF**"
-		(at 0 -8.5 0)
-		(layer "F.SilkS")
+	(property "Value" "L_Coilcraft_MSS1583-XXX"
+		(at 0 8.45 0)
+		(layer "F.Fab")
 		(effects
 			(font
 				(size 1 1)
@@ -26,8 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -7.76 -7.76)
-		(end -7.76 -3.26)
+		(start -7.61 -7.61)
+		(end -6.047 -7.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -7.76 -7.76)
-		(end -6.11 -7.76)
+		(start -7.61 -3.26)
+		(end -7.61 -7.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +44,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -7.76 7.76)
-		(end -7.76 3.26)
+		(start -7.61 7.61)
+		(end -7.61 3.26)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +53,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -7.76 7.76)
-		(end 7.76 7.76)
+		(start -5.453 -7.61)
+		(end 7.61 -7.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,8 +62,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -5.39 -7.76)
-		(end 7.76 -7.76)
+		(start 7.61 -7.61)
+		(end 7.61 -3.26)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -71,8 +71,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 7.76 -7.76)
-		(end 7.76 -3.26)
+		(start 7.61 3.26)
+		(end 7.61 7.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -80,8 +80,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 7.76 7.76)
-		(end 7.76 3.26)
+		(start 7.61 7.61)
+		(end -7.61 7.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -90,21 +90,20 @@
 	)
 	(fp_poly
 		(pts
-			(xy -5.75 -7.76)
-			(xy -5.99 -8.09)
-			(xy -5.51 -8.09)
-			(xy -5.75 -7.76)
+			(xy -5.75 -7.61)
+			(xy -5.99 -7.94)
+			(xy -5.51 -7.94)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -7.9 -7.75)
-		(end -7.9 7.75)
+		(start -7.9 -3.25)
+		(end -7.75 -3.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -112,8 +111,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -7.9 7.75)
-		(end 7.9 7.75)
+		(start -7.9 3.25)
+		(end -7.9 -3.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -121,8 +120,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 7.9 -7.75)
-		(end -7.9 -7.75)
+		(start -7.75 -7.75)
+		(end 7.75 -7.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -130,8 +129,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 7.9 7.75)
-		(end 7.9 -7.75)
+		(start -7.75 -3.25)
+		(end -7.75 -7.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -139,57 +138,99 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -7.5 -6.5)
-		(end -6.5 -7.5)
+		(start -7.75 3.25)
+		(end -7.9 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -7.75 7.75)
+		(end -7.75 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.75 -7.75)
+		(end 7.75 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.75 -3.25)
+		(end 7.9 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.75 3.25)
+		(end 7.75 7.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.75 7.75)
+		(end -7.75 7.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.9 -3.25)
+		(end 7.9 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.9 3.25)
+		(end 7.75 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -6 3.75)
+		(end -6 -3.75)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
 	)
-	(fp_line
-		(start -7.5 7.5)
-		(end -7.5 -6.5)
+	(fp_poly
+		(pts
+			(xy -7.5 -6.5)
+			(xy -7.5 7.5)
+			(xy 7.5 7.5)
+			(xy 7.5 -7.5)
+			(xy -6.5 -7.5)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -6.5 -7.5)
-		(end 7.5 -7.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -5.75 6)
-		(end -5.75 -6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 7.5 -7.5)
-		(end 7.5 7.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 7.5 7.5)
-		(end -7.5 7.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -205,16 +246,17 @@
 	(pad "1" smd roundrect
 		(at -5.75 0)
 		(size 3.8 6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.065789)
 	)
 	(pad "2" smd roundrect
 		(at 5.75 0)
 		(size 3.8 6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.065789)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_MSS1583-XXX.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_MSS1583-XXX.step"
 		(offset
 			(xyz 0 0 0)
 		)

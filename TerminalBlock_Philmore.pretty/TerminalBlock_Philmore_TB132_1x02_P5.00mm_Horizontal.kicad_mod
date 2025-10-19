@@ -1,5 +1,5 @@
 (footprint "TerminalBlock_Philmore_TB132_1x02_P5.00mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Terminal Block Philmore , 2 pins, pitch 5mm, size 10x10.2mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.philmore-datak.com/mc/Page%20197.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Philmore")
@@ -25,15 +25,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -2.62 -4.92)
-		(end -2.62 5.52)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
 	(fp_line
 		(start -2.62 -4.92)
 		(end 7.62 -4.92)
@@ -63,7 +54,7 @@
 	)
 	(fp_line
 		(start -2.62 5.52)
-		(end -0.3 5.52)
+		(end -2.62 -4.92)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -71,8 +62,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0.3 5.52)
-		(end 7.62 5.52)
+		(start -0.3 5.52)
+		(end -2.62 5.52)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -88,54 +79,13 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_arc
-		(start -1.68 0.433)
-		(mid -1.734903 -0.000376)
-		(end -1.679812 -0.433727)
+	(fp_line
+		(start 7.62 5.52)
+		(end 0.3 5.52)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start -0.433 -1.68)
-		(mid 0.000376 -1.734903)
-		(end 0.433727 -1.679812)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start 0.433 1.68)
-		(mid -0.000376 1.734903)
-		(end -0.433727 1.679812)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start 1.68 -0.433)
-		(mid 1.734903 0.000376)
-		(end 1.679812 0.433727)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 5 0)
-		(end 6.735 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
 		(layer "F.SilkS")
 	)
 	(fp_poly
@@ -143,13 +93,12 @@
 			(xy 0 5.52)
 			(xy 0.44 6.13)
 			(xy -0.44 6.13)
-			(xy 0 5.52)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -294,7 +243,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -304,7 +253,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -332,7 +281,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Philmore.3dshapes/TerminalBlock_Philmore_TB132_1x02_P5.00mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_Philmore.3dshapes/TerminalBlock_Philmore_TB132_1x02_P5.00mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

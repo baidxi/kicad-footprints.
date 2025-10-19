@@ -1,7 +1,7 @@
 (footprint "RaspberryPi_Pico_W_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Raspberry Pi Pico W surface-mount footprint for reflow soldering with test points and debug pads (not compatible with non-wireless Pico), supports Raspberry Pi Pico 2 W, https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf")
 	(tags "module usb pcb swd antenna")
@@ -26,18 +26,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b4e15a43-3283-4589-b0fc-410b6276ec0d")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -588,7 +576,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "0b38f031-44de-449c-bc02-0fc117fd5f36")
 	)
@@ -599,20 +587,9 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "0eecc09f-7d00-467c-8253-bbeba2875649")
-	)
-	(fp_circle
-		(center 5.7 23.5)
-		(end 6.75 23.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "319111b5-d91a-436f-b581-391268a74657")
 	)
 	(fp_circle
 		(center 5.7 -23.5)
@@ -621,9 +598,20 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "d709457c-aba4-4757-8ea7-79d9cb800b4b")
+	)
+	(fp_circle
+		(center 5.7 23.5)
+		(end 6.75 23.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "319111b5-d91a-436f-b581-391268a74657")
 	)
 	(fp_poly
 		(pts
@@ -634,7 +622,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "387b2a23-dd30-4ccd-aa77-c70f33aa2ab7")
 	)
@@ -715,7 +703,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f8d6b9c3-4a06-4915-81af-11dbba9a035e")
 	)
@@ -726,7 +714,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "23813233-a7db-49f0-9d1e-6761cf6d3ec3")
 	)
@@ -737,7 +725,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f21976a6-a165-4476-a9b2-1200f9242a8e")
 	)
@@ -805,7 +793,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f28f4260-9417-4d87-a308-ba9c2cd96f1d")
 	)
@@ -1087,25 +1075,25 @@
 	(pad "" smd oval
 		(at -2.725 -24)
 		(size 1.1 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "10e8979c-3ac4-4149-925f-ad71aa668b1d")
 	)
 	(pad "" smd oval
 		(at -2.425 -20.97)
 		(size 1.05 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d5a1fea9-bc71-4372-821a-42576809e9c9")
 	)
 	(pad "" smd oval
 		(at 2.425 -20.97)
 		(size 1.05 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4c4cd380-62b4-4df4-8824-be7199efe65c")
 	)
 	(pad "" smd oval
 		(at 2.725 -24)
 		(size 1.1 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3a588944-1853-4c7d-af4a-38601c997172")
 	)
 	(pad "" smd rect
@@ -1841,68 +1829,73 @@
 	(pad "D1" smd roundrect
 		(at 0.5841 5.7)
 		(size 1.5748 1.5748)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.127000254)
 		(uuid "24866fae-9212-4f56-b68b-399053e8aade")
 	)
 	(pad "D2" smd circle
 		(at 3.1241 5.7)
 		(size 1.5748 1.5748)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c0af55b9-0f58-497e-911f-730492107086")
 	)
 	(pad "D3" smd circle
 		(at 5.6641 5.7)
 		(size 1.5748 1.5748)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1b707e09-6df3-4f34-9bf7-9c1cfc41582c")
 	)
 	(pad "TP1" smd roundrect
 		(at 0 -21)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "e25e8c15-3365-4273-acc4-42782bccaa80")
 	)
 	(pad "TP2" smd roundrect
 		(at 1 -24.3)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "1e91c76b-2561-4be0-8b94-e1928aa86129")
 	)
 	(pad "TP3" smd roundrect
 		(at -1 -24.3)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "97389c8b-aaa7-4834-a9af-ed0145ae6f3a")
 	)
 	(pad "TP4" smd roundrect
 		(at -2.5 -16)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "74dd815b-f5e8-482a-a457-e341e7e2739f")
 	)
 	(pad "TP5" smd roundrect
 		(at -2.5 -13.5)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "1d176dfc-1b65-4722-9b6e-92484b2d2b27")
 	)
 	(pad "TP6" smd roundrect
 		(at -2.5 -11)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "464b5738-8f9a-4a58-8fa2-18b436f5525a")
 	)
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu" "*.Paste")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "F.Paste"
+			"In6.Cu" "B.Paste" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu"
+			"In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu"
+			"In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu"
+			"In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
 		(uuid "924a571f-9d26-43fe-92eb-0808c3a76295")
 		(name "RF Copper Keep Out")
 		(hatch full 0.5)
@@ -1918,6 +1911,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -1931,7 +1928,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu" "*.Paste")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "F.Paste"
+			"In6.Cu" "B.Paste" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu"
+			"In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu"
+			"In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu"
+			"In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
 		(uuid "ae920692-4224-4058-83d0-c592cf6c0ea7")
 		(name "Antenna Copper Keep Out")
 		(hatch full 0.5)
@@ -1946,6 +1948,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -1976,6 +1982,10 @@
 			(pads allowed)
 			(copperpour allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -2100,7 +2110,8 @@
 			"f28f4260-9417-4d87-a308-ba9c2cd96f1d" "f8d6b9c3-4a06-4915-81af-11dbba9a035e"
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_W.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_W.step"
 		(offset
 			(xyz 0 0 0)
 		)

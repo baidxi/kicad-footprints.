@@ -1,7 +1,7 @@
 (footprint "LED_Avago_PLCC4_3.2x2.8mm_CW"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
 	(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fc001559-8f9e-4a3d-bb80-e7cbf28eb293")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -214,7 +201,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9b3b5e0f-f72e-419b-8e17-0e26432bd500")
 	)
@@ -232,28 +219,29 @@
 	(pad "1" smd rect
 		(at -1.5 -0.75)
 		(size 1.5 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "01deb61c-2ad1-4956-b0bd-cc5c44a48014")
 	)
 	(pad "2" smd rect
 		(at 1.5 -0.75)
 		(size 1.5 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d07d3cf0-8d0c-4847-b595-485124257fa2")
 	)
 	(pad "3" smd rect
 		(at 1.5 0.75)
 		(size 1.5 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "14878098-efb5-4a4a-ac7c-9da42887169f")
 	)
 	(pad "4" smd rect
 		(at -1.5 0.75)
 		(size 1.5 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "50e0270d-3094-4798-8f6c-cc7842c3b68e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Avago_PLCC4_3.2x2.8mm_CW.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Avago_PLCC4_3.2x2.8mm_CW.step"
 		(offset
 			(xyz 0 0 0)
 		)

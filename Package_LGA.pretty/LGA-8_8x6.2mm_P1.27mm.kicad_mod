@@ -1,5 +1,5 @@
 (footprint "LGA-8_8x6.2mm_P1.27mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "LGA, 8 Pin (https://datasheet.lcsc.com/lcsc/2303241700_Zetta-ZDSD64GLGEAG-R_C5277948.pdf#page=17), generated with kicad-footprint-generator ipc_noLead_generator.py")
@@ -26,8 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -4 -3.21)
-		(end 4 -3.21)
+		(start -4.11 -3.21)
+		(end 4.11 -3.21)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,44 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -4 3.21)
-		(end 4 3.21)
+		(start -4.11 -2.465)
+		(end -4.11 -3.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -4.11 3.21)
+		(end -4.11 2.465)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 4.11 -3.21)
+		(end 4.11 -2.465)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 4.11 2.465)
+		(end 4.11 3.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 4.11 3.21)
+		(end -4.11 3.21)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -45,21 +81,20 @@
 	)
 	(fp_poly
 		(pts
-			(xy -4.49 -2.35)
-			(xy -4.97 -2.35)
-			(xy -4.49 -2.83)
-			(xy -4.49 -2.35)
+			(xy -4.61 -1.91)
+			(xy -4.94 -1.67)
+			(xy -4.94 -2.15)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -4.61 -3.35)
-		(end -4.61 3.35)
+		(start -4.6 -2.46)
+		(end -4.25 -2.46)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -67,8 +102,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -4.61 3.35)
-		(end 4.61 3.35)
+		(start -4.6 2.46)
+		(end -4.6 -2.46)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -76,8 +111,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 4.61 -3.35)
-		(end -4.61 -3.35)
+		(start -4.25 -3.35)
+		(end 4.25 -3.35)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -85,8 +120,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 4.61 3.35)
-		(end 4.61 -3.35)
+		(start -4.25 -2.46)
+		(end -4.25 -3.35)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -94,48 +129,90 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -4 -2.1)
-		(end -3 -3.1)
+		(start -4.25 2.46)
+		(end -4.6 2.46)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -4 3.1)
-		(end -4 -2.1)
+		(start -4.25 3.35)
+		(end -4.25 2.46)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -3 -3.1)
-		(end 4 -3.1)
+		(start 4.25 -3.35)
+		(end 4.25 -2.46)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 4 -3.1)
-		(end 4 3.1)
+		(start 4.25 -2.46)
+		(end 4.6 -2.46)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 4 3.1)
-		(end -4 3.1)
+		(start 4.25 2.46)
+		(end 4.25 3.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 4.25 3.35)
+		(end -4.25 3.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 4.6 -2.46)
+		(end 4.6 2.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 4.6 2.46)
+		(end 4.25 2.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_poly
+		(pts
+			(xy -4 -2.1)
+			(xy -4 3.1)
+			(xy 4 3.1)
+			(xy 4 -3.1)
+			(xy -3 -3.1)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -151,52 +228,53 @@
 	(pad "1" smd roundrect
 		(at -3.75 -1.905)
 		(size 1.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "2" smd roundrect
 		(at -3.75 -0.635)
 		(size 1.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "3" smd roundrect
 		(at -3.75 0.635)
 		(size 1.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "4" smd roundrect
 		(at -3.75 1.905)
 		(size 1.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "5" smd roundrect
 		(at 3.75 1.905)
 		(size 1.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "6" smd roundrect
 		(at 3.75 0.635)
 		(size 1.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "7" smd roundrect
 		(at 3.75 -0.635)
 		(size 1.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "8" smd roundrect
 		(at 3.75 -1.905)
 		(size 1.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-8_8x6.2mm_P1.27mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-8_8x6.2mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

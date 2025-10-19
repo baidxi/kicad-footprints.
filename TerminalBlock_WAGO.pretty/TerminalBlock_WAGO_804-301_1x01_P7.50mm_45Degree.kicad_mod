@@ -1,8 +1,8 @@
 (footprint "TerminalBlock_WAGO_804-301_1x01_P7.50mm_45Degree"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Terminal Block WAGO 804-301, 45Degree (cable under 45degree), 1 pins, pitch 7.5mm, size 6.5x15mm, drill diameter 1.2mm, pad diameter 3mm, , script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_WAGO")
+	(descr "Terminal Block WAGO 804-301, 45Degree (cable under 45degree), 1 pins, pitch 7.5mm, size 6.5x15mm, drill diameter 1.2mm, pad diameter 3mm, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_WAGO")
 	(tags "THT Terminal Block WAGO 804-301 45Degree pitch 7.5mm size 6.5x15mm drill 1.2mm pad 3mm")
 	(property "Reference" "REF**"
 		(at 0.5 -9.42 0)
@@ -27,15 +27,6 @@
 	(attr through_hole)
 	(fp_line
 		(start -2.87 -8.42)
-		(end -2.87 6.82)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -2.87 -8.42)
 		(end 3.87 -8.42)
 		(stroke
 			(width 0.12)
@@ -54,7 +45,7 @@
 	)
 	(fp_line
 		(start -2.87 6.82)
-		(end -0.3 6.82)
+		(end -2.87 -8.42)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -81,15 +72,6 @@
 	)
 	(fp_line
 		(start -0.75 -2.2)
-		(end -0.75 -1.98)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -0.75 -2.2)
 		(end 3.25 -2.2)
 		(stroke
 			(width 0.12)
@@ -98,8 +80,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.75 1.98)
-		(end -0.75 2.2)
+		(start -0.75 -1.98)
+		(end -0.75 -2.2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -108,7 +90,7 @@
 	)
 	(fp_line
 		(start -0.75 2.2)
-		(end 3.25 2.2)
+		(end -0.75 1.98)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -116,8 +98,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0.3 6.82)
-		(end 3.87 6.82)
+		(start -0.3 6.82)
+		(end -2.87 6.82)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -127,15 +109,6 @@
 	(fp_line
 		(start 1.48 -0.5)
 		(end 3.25 -0.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 1.48 0.5)
-		(end 3.25 0.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -161,6 +134,24 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 3.25 0.5)
+		(end 1.48 0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 3.25 2.2)
+		(end -0.75 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 3.87 -8.42)
 		(end 3.87 -6.98)
 		(stroke
@@ -178,9 +169,18 @@
 		)
 		(layer "F.SilkS")
 	)
+	(fp_line
+		(start 3.87 6.82)
+		(end 0.3 6.82)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
 	(fp_arc
-		(start -0.199969 5.249867)
-		(mid 1.250068 4.099899)
+		(start -0.2 5.25)
+		(mid 1.25 4.1)
 		(end 2.7 5.25)
 		(stroke
 			(width 0.12)
@@ -190,8 +190,8 @@
 	)
 	(fp_arc
 		(start 1.02 -4.268)
-		(mid -0.141815 -6.308637)
-		(end 2.10843 -6.979765)
+		(mid -0.141916 -6.309209)
+		(end 2.109 -6.98)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -200,8 +200,8 @@
 	)
 	(fp_arc
 		(start 2.7 5.25)
-		(mid 1.250068 6.400101)
-		(end -0.199969 5.250133)
+		(mid 1.25 6.4)
+		(end -0.2 5.25)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -213,13 +213,12 @@
 			(xy 0 6.82)
 			(xy 0.44 7.43)
 			(xy -0.44 7.43)
-			(xy 0 6.82)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -394,9 +393,9 @@
 		(layer "F.Fab")
 	)
 	(fp_arc
-		(start -0.200865 5.250424)
-		(mid 1.250296 4.099926)
-		(end 2.701 5.251)
+		(start -0.2 5.25)
+		(mid 1.25 4.1)
+		(end 2.7 5.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -405,8 +404,8 @@
 	)
 	(fp_arc
 		(start 2.7 5.25)
-		(mid 1.250068 6.400101)
-		(end -0.199969 5.250133)
+		(mid 1.25 6.4)
+		(end -0.2 5.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -420,7 +419,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -448,7 +447,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_WAGO.3dshapes/TerminalBlock_WAGO_804-301_1x01_P7.50mm_45Degree.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_WAGO.3dshapes/TerminalBlock_WAGO_804-301_1x01_P7.50mm_45Degree.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,5 +1,5 @@
 (footprint "WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm_ThermalVias"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/lp2987.pdf#page=26), generated with kicad-footprint-generator ipc_noLead_generator.py")
@@ -26,8 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2 2.11)
-		(end 2 2.11)
+		(start -2.11 -2.11)
+		(end 2.11 -2.11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,44 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -1.89 -2.11)
-		(end 2 -2.11)
+		(start -2.11 -1.66)
+		(end -2.11 -2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -2.11 2.11)
+		(end -2.11 1.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.11 -2.11)
+		(end 2.11 -1.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.11 1.66)
+		(end 2.11 2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.11 2.11)
+		(end -2.11 2.11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -45,97 +81,40 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.13 -1.56)
-			(xy -2.61 -1.56)
-			(xy -2.13 -2.04)
-			(xy -2.13 -1.56)
+			(xy -2.24 -1.21)
+			(xy -2.57 -0.97)
+			(xy -2.57 -1.45)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -2.25 -2.25)
-		(end -2.25 2.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -2.25 2.25)
 		(end 2.25 2.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start 2.25 -2.25)
-		(end -2.25 -2.25)
-		(stroke
-			(width 0.05)
-			(type solid)
+	(fp_poly
+		(pts
+			(xy -2 -1)
+			(xy -2 2)
+			(xy 2 2)
+			(xy 2 -2)
+			(xy -1 -2)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 2.25 2.25)
-		(end 2.25 -2.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -2 -1)
-		(end -1 -2)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2 2)
-		(end -2 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1 -2)
-		(end 2 -2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 2 -2)
-		(end 2 2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 2 2)
-		(end -2 2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -149,75 +128,75 @@
 		)
 	)
 	(pad "" smd roundrect
-		(at -0.55 -0.625)
-		(size 0.886848 1.007782)
+		(at -0.55 -0.75)
+		(size 0.89 1.21)
 		(layers "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "" smd roundrect
-		(at -0.55 0.625)
-		(size 0.886848 1.007782)
+		(at -0.55 0.75)
+		(size 0.89 1.21)
 		(layers "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "" smd roundrect
-		(at 0.55 -0.625)
-		(size 0.886848 1.007782)
+		(at 0.55 -0.75)
+		(size 0.89 1.21)
 		(layers "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "" smd roundrect
-		(at 0.55 0.625)
-		(size 0.886848 1.007782)
+		(at 0.55 0.75)
+		(size 0.89 1.21)
 		(layers "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "1" smd roundrect
 		(at -1.65 -1.2)
 		(size 0.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "2" smd roundrect
 		(at -1.65 -0.4)
 		(size 0.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "3" smd roundrect
 		(at -1.65 0.4)
 		(size 0.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "4" smd roundrect
 		(at -1.65 1.2)
 		(size 0.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "5" smd roundrect
 		(at 1.65 1.2)
 		(size 0.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "6" smd roundrect
 		(at 1.65 0.4)
 		(size 0.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "7" smd roundrect
 		(at 1.65 -0.4)
 		(size 0.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "8" smd roundrect
 		(at 1.65 -1.2)
 		(size 0.65 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 	)
 	(pad "9" thru_hole circle
@@ -258,7 +237,8 @@
 		(layers "*.Cu")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

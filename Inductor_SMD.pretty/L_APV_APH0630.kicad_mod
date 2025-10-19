@@ -1,12 +1,12 @@
 (footprint "L_APV_APH0630"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Inductor, APV, APH0630, 6.8x6.6x2.8mm, (http://en.apvind.com/public/upload/20240408/996aafa961154ed753e4983e7eb80fa7.pdf), generated with kicad-footprint-generator gen_inductor.py")
-	(tags "Inductor molded power shielded")
-	(property "Value" "L_APV_APH0630"
-		(at 0 4.3 0)
-		(layer "F.Fab")
+	(tags "molded power shielded")
+	(property "Reference" "REF**"
+		(at 0 -4.25 0)
+		(layer "F.SilkS")
 		(effects
 			(font
 				(size 1 1)
@@ -14,9 +14,9 @@
 			)
 		)
 	)
-	(property "Reference" "REF**"
-		(at 0 -4.3 0)
-		(layer "F.SilkS")
+	(property "Value" "L_APV_APH0630"
+		(at 0 4.25 0)
+		(layer "F.Fab")
 		(effects
 			(font
 				(size 1 1)
@@ -26,8 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3.66 -3.56)
-		(end -3.66 -2.01)
+		(start -3.51 -3.41)
+		(end 3.51 -3.41)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -3.66 -3.56)
-		(end 3.66 -3.56)
+		(start -3.51 -2.01)
+		(end -3.51 -3.41)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +44,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -3.66 3.56)
-		(end -3.66 2.01)
+		(start -3.51 3.41)
+		(end -3.51 2.01)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +53,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -3.66 3.56)
-		(end 3.66 3.56)
+		(start 3.51 -3.41)
+		(end 3.51 -2.01)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,8 +62,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 3.66 -3.56)
-		(end 3.66 -2.01)
+		(start 3.51 2.01)
+		(end 3.51 3.41)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -71,8 +71,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 3.66 3.56)
-		(end 3.66 2.01)
+		(start 3.51 3.41)
+		(end -3.51 3.41)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -80,8 +80,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -4.45 -3.55)
-		(end -4.45 3.55)
+		(start -4.45 -2)
+		(end -3.65 -2)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -89,8 +89,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -4.45 3.55)
-		(end 4.45 3.55)
+		(start -4.45 2)
+		(end -4.45 -2)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -98,8 +98,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 4.45 -3.55)
-		(end -4.45 -3.55)
+		(start -3.65 -3.55)
+		(end 3.65 -3.55)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -107,8 +107,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 4.45 3.55)
-		(end 4.45 -3.55)
+		(start -3.65 -2)
+		(end -3.65 -3.55)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -116,39 +116,85 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
+		(start -3.65 2)
+		(end -4.45 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -3.65 3.55)
+		(end -3.65 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.65 -3.55)
+		(end 3.65 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.65 -2)
+		(end 4.45 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.65 2)
+		(end 3.65 3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.65 3.55)
+		(end -3.65 3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 4.45 -2)
+		(end 4.45 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 4.45 2)
+		(end 3.65 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_rect
 		(start -3.4 -3.3)
-		(end -3.4 3.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -3.4 3.3)
 		(end 3.4 3.3)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 3.4 -3.3)
-		(end -3.4 -3.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 3.4 3.3)
-		(end 3.4 -3.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -156,24 +202,25 @@
 		(layer "F.Fab")
 		(effects
 			(font
-				(size 0.783333 0.783333)
-				(thickness 0.1175)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
 	(pad "1" smd roundrect
 		(at -3.025 0)
 		(size 2.35 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.106383)
 	)
 	(pad "2" smd roundrect
 		(at 3.025 0)
 		(size 2.35 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.106383)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_APV_APH0630.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_APV_APH0630.step"
 		(offset
 			(xyz 0 0 0)
 		)

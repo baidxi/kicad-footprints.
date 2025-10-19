@@ -1,8 +1,8 @@
 (footprint "TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "terminal block Metz Connect Type703_RT10N02HGLU, 2 pins, pitch 9.52mm, size 19x12.5mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_317031_RT10NxxHGLU_OFF-022897S.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MetzConnect")
+	(descr "terminal block Metz Connect Type703_RT10N02HGLU, 2 pins, pitch 9.52mm, size 19x12.5mm, drill diameter 1.3mm, pad diameter 2.6mm, https://www.metz-connect.com/externalfiles/317031/863835.PDF, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MetzConnect")
 	(tags "THT terminal block Metz Connect Type703_RT10N02HGLU pitch 9.52mm size 19x12.5mm drill 1.3mm pad 2.6mm")
 	(property "Reference" "REF**"
 		(at 4.76 -5.62 0)
@@ -25,15 +25,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -4.88 -4.62)
-		(end -4.88 8.12)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
 	(fp_line
 		(start -4.88 -4.62)
 		(end 14.4 -4.62)
@@ -72,25 +63,7 @@
 	)
 	(fp_line
 		(start -4.88 8.12)
-		(end -0.3 8.12)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -1.568 1.78)
-		(end -1.79 2.002)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -1 -4.5)
-		(end -1 -3.5)
+		(end -4.88 -4.62)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -108,7 +81,7 @@
 	)
 	(fp_line
 		(start -1 -3.5)
-		(end 1 -3.5)
+		(end -1 -4.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -116,17 +89,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.992 1.78)
-		(end -1.502 2.29)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0.3 8.12)
-		(end 14.4 8.12)
+		(start -0.3 8.12)
+		(end -4.88 8.12)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -143,17 +107,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 8.372 1.36)
-		(end 7.73 2.002)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 8.52 -4.5)
-		(end 8.52 -3.5)
+		(start 1 -3.5)
+		(end -1 -3.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -171,16 +126,7 @@
 	)
 	(fp_line
 		(start 8.52 -3.5)
-		(end 10.52 -3.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 8.718 1.589)
-		(end 8.018 2.29)
+		(end 8.52 -4.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -197,17 +143,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 11.022 -1.29)
-		(end 10.88 -1.148)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 11.31 -1.002)
-		(end 11.109 -0.801)
+		(start 10.52 -3.5)
+		(end 8.52 -3.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -223,34 +160,13 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_arc
-		(start -0.609 -1.78)
-		(mid 0.000253 -1.859932)
-		(end 0.609489 -1.779869)
+	(fp_line
+		(start 14.4 8.12)
+		(end 0.3 8.12)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start 1.78 -1.05)
-		(mid 0.000316 2.860275)
-		(end -1.780415 -1.049523)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 9.52 0.5)
-		(end 11.88 0.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
 		(layer "F.SilkS")
 	)
 	(fp_poly
@@ -258,13 +174,12 @@
 			(xy 0 8.12)
 			(xy 0.44 8.73)
 			(xy -0.44 8.73)
-			(xy 0 8.12)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -395,7 +310,7 @@
 	)
 	(fp_line
 		(start 1.273 -1.017)
-		(end -1.517 1.772)
+		(end -1.517 1.773)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -449,7 +364,7 @@
 	)
 	(fp_line
 		(start 10.793 -1.017)
-		(end 8.003 1.772)
+		(end 8.003 1.773)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -490,7 +405,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -500,7 +415,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -528,7 +443,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,5 +1,5 @@
 (footprint "TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Terminal Block Phoenix MKDS-1,5-3-5.08, 3 pins, pitch 5.08mm, size 15.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
@@ -25,15 +25,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -2.66 -5.32)
-		(end -2.66 4.72)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
 	(fp_line
 		(start -2.66 -5.32)
 		(end 12.82 -5.32)
@@ -72,7 +63,7 @@
 	)
 	(fp_line
 		(start -2.66 4.72)
-		(end -0.3 4.72)
+		(end -2.66 -5.32)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -80,80 +71,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0.3 4.72)
-		(end 12.82 4.72)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 3.713 1.14)
-		(end 3.669 1.183)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 3.94 1.367)
-		(end 3.896 1.41)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 6.264 -1.411)
-		(end 6.22 -1.367)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 6.491 -1.184)
-		(end 6.447 -1.14)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 8.793 1.14)
-		(end 8.749 1.183)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 9.02 1.367)
-		(end 8.976 1.41)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 11.344 -1.411)
-		(end 11.3 -1.367)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 11.571 -1.184)
-		(end 11.527 -1.14)
+		(start -0.3 4.72)
+		(end -2.66 4.72)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -169,64 +88,13 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_arc
-		(start -1.78 0.54)
-		(mid -1.860107 0.000355)
-		(end -1.780206 -0.539321)
+	(fp_line
+		(start 12.82 4.72)
+		(end 0.3 4.72)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start -0.54 -1.78)
-		(mid -0.000355 -1.860107)
-		(end 0.539321 -1.780206)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start 0.54 1.78)
-		(mid 0.000355 1.860107)
-		(end -0.539321 1.780206)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start 1.78 -0.54)
-		(mid 1.860107 -0.000355)
-		(end 1.780206 0.539321)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 5.08 0)
-		(end 6.94 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 10.16 0)
-		(end 12.02 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
 		(layer "F.SilkS")
 	)
 	(fp_poly
@@ -234,13 +102,12 @@
 			(xy 0 4.72)
 			(xy 0.44 5.33)
 			(xy -0.44 5.33)
-			(xy 0 4.72)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -335,7 +202,7 @@
 	)
 	(fp_line
 		(start 0.955 -1.138)
-		(end -1.138 0.954)
+		(end -1.138 0.955)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -343,8 +210,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 1.138 -0.954)
-		(end -0.955 1.137)
+		(start 1.138 -0.955)
+		(end -0.955 1.138)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -353,7 +220,7 @@
 	)
 	(fp_line
 		(start 6.035 -1.138)
-		(end 3.942 0.954)
+		(end 3.942 0.955)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -361,8 +228,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 6.218 -0.954)
-		(end 4.125 1.137)
+		(start 6.218 -0.955)
+		(end 4.125 1.138)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -371,7 +238,7 @@
 	)
 	(fp_line
 		(start 11.115 -1.138)
-		(end 9.022 0.954)
+		(end 9.022 0.955)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -379,8 +246,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 11.298 -0.954)
-		(end 9.205 1.137)
+		(start 11.298 -0.955)
+		(end 9.205 1.138)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -412,7 +279,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -422,7 +289,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -432,7 +299,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -467,7 +334,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

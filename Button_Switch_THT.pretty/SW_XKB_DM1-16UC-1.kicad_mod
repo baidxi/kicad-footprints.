@@ -1,7 +1,7 @@
 (footprint "SW_XKB_DM1-16UC-1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1A 30V SPDT Micro Switch rated for one million cycles, W12.7xD5.7xH6.6, https://www.helloxkb.com/public/images/pdf/DMX-XXXC-X.pdf")
 	(tags "SPDT endstop limit switch clockwise hook lever XKB DM1-16UC-1")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "07e63e39-feef-4295-9cf6-2d4bff50f634")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -123,7 +113,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "3208579b-b103-4e2f-99e3-6f8de241b46a")
 	)
@@ -206,7 +196,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "50a3df62-739f-448d-b3d1-ef0979c3164a")
 	)
@@ -217,7 +207,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "5cd52dea-e34e-411b-a610-e9f3ebe1b27e")
 	)
@@ -293,7 +283,8 @@
 		(remove_unused_layers no)
 		(uuid "0b04878a-0226-49ae-aebe-432c0d5c8c51")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_XKB_DM1-16UC-1.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_XKB_DM1-16UC-1.step"
 		(offset
 			(xyz 0 0 0)
 		)

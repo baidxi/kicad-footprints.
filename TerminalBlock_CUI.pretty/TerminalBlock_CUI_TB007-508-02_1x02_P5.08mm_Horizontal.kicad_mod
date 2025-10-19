@@ -1,5 +1,5 @@
 (footprint "TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Terminal Block CUI TB007-508-02, 2 pins, pitch 5.08mm, size 10.8x10.2mm, drill diameter 1.6mm, pad diameter 2.4mm, https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI")
@@ -25,15 +25,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -2.66 -5.02)
-		(end -2.66 5.47)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
 	(fp_line
 		(start -2.66 -5.02)
 		(end 8.34 -5.02)
@@ -63,7 +54,7 @@
 	)
 	(fp_line
 		(start -2.66 5.47)
-		(end -0.3 5.47)
+		(end -2.66 -5.02)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -71,44 +62,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0.3 5.47)
-		(end 8.34 5.47)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 3.765 1.045)
-		(end 3.404 1.406)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 4.034 1.315)
-		(end 3.673 1.676)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 6.486 -1.676)
-		(end 6.126 -1.315)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 6.756 -1.406)
-		(end 6.395 -1.045)
+		(start -0.3 5.47)
+		(end -2.66 5.47)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -124,54 +79,13 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_arc
-		(start -1.68 1.436)
-		(mid -2.21009 0.000105)
-		(end -1.680136 -1.435841)
+	(fp_line
+		(start 8.34 5.47)
+		(end 0.3 5.47)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start -1.436 -1.68)
-		(mid -0.000105 -2.21009)
-		(end 1.435841 -1.680136)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start 1.436 1.68)
-		(mid 0.000105 2.21009)
-		(end -1.435841 1.680136)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start 1.68 -1.436)
-		(mid 2.21009 -0.000105)
-		(end 1.680136 1.435841)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 5.08 0)
-		(end 7.29 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
 		(layer "F.SilkS")
 	)
 	(fp_poly
@@ -179,13 +93,12 @@
 			(xy 0 5.47)
 			(xy 0.44 6.08)
 			(xy -0.44 6.08)
-			(xy 0 5.47)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -330,7 +243,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -340,7 +253,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -368,7 +281,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_CUI.3dshapes/TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_CUI.3dshapes/TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "LEMO-EPG.00.302.NLN"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Triaxial LEMO connector PCB elbow socket https://web.lemo.com/ged_drw/CD-EPG.00.302.NLN-01-en.pdf")
 	(tags "LEMO THT Female Jack Horizontal")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "20db93b0-90fc-4b06-8f78-e503b3e79772")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -247,7 +237,8 @@
 		(remove_unused_layers no)
 		(uuid "d92b07ab-8cde-458a-8435-f0412fe7c363")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/LEMO-EPG.00.302.NLN.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/LEMO-EPG.00.302.NLN.step"
 		(offset
 			(xyz 0 0 0)
 		)

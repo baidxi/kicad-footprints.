@@ -1,11 +1,11 @@
 (footprint "Converter_DCDC_TRACO_TEN10-110xxWIRH_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "DCDC-Converter, TRACO, TEN 10-110xxWIRH, 10W, Rev. December 16. 2024 (Script generated with StandardBox.py) (https://www.tracopower.com/products/ten10wirh.pdf)")
-	(tags "DCDC-Converter TRACO TEN10WIRH THT DIP-24 COMPATIBLE_MPNS TEN3WIRH TEN6WIRH")
+	(descr "DCDC-Converter, TRACO, TEN 10-110xxWIRH, 10W, Rev. December 16. 2024, https://www.tracopower.com/products/ten10wirh.pdf, generated with kicad-footprint-generator StandardBox_generator.py")
+	(tags "DCDC-Converter TRACO TEN10WIRH THT DIP-24 TEN3WIRH TEN6WIRH")
 	(property "Reference" "REF**"
-		(at -0.83 -3.54 0)
+		(at 7.62 -3.45 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "Converter_DCDC_TRACO_TEN10-110xxWIRH_THT"
-		(at 7.62 31.55 0)
+		(at 7.62 31.25 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -26,8 +26,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -3.33 -2.8)
-		(end -0.33 -2.8)
+		(start -3.14 -2.61)
+		(end -0.296 -2.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -3.33 0.2)
-		(end -3.33 -2.8)
+		(start -3.14 30.41)
+		(end -3.14 -2.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +44,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -3.09 -2.56)
-		(end -3.09 30.36)
+		(start 0.296 -2.61)
+		(end 18.38 -2.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +53,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -3.09 -2.56)
-		(end 18.33 -2.56)
+		(start 18.38 -2.61)
+		(end 18.38 30.41)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,102 +62,50 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -3.09 30.36)
-		(end 18.33 30.36)
+		(start 18.38 30.41)
+		(end -3.14 30.41)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start 18.33 -2.56)
-		(end 18.33 30.36)
+	(fp_poly
+		(pts
+			(xy 0 -2.61)
+			(xy -0.44 -3.22)
+			(xy 0.44 -3.22)
+		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
+		(fill yes)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start -3.29 -2.76)
-		(end -3.29 30.56)
+	(fp_rect
+		(start -3.28 -2.75)
+		(end 18.52 30.55)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -3.29 30.56)
-		(end 18.53 30.56)
-		(stroke
-			(width 0.05)
-			(type solid)
+	(fp_poly
+		(pts
+			(xy -2.53 -1)
+			(xy -2.53 29.8)
+			(xy 17.77 29.8)
+			(xy 17.77 -2)
+			(xy -1.53 -2)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 18.53 -2.76)
-		(end -3.29 -2.76)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 18.53 30.56)
-		(end 18.53 -2.76)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -2.53 -1)
-		(end -1.53 -2)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2.53 29.8)
-		(end -2.53 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.53 -2)
-		(end 17.77 -2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 17.77 -2)
-		(end 17.77 29.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 17.77 29.8)
-		(end -2.53 29.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -170,12 +118,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 1.8 1.8)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.138889)
 	)
 	(pad "2" thru_hole circle
 		(at 0 2.54)
@@ -233,7 +182,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TEN10-110xxWIRH_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TEN10-110xxWIRH_THT.step"
 		(offset
 			(xyz 0 0 0)
 		)

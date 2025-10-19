@@ -1,7 +1,7 @@
 (footprint "Filter_KEMET_PZB300_24.0x12.5mm_P10.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "EMI suppression capacitor PZB300 series, length 24.0 mm, width 12.5 mm, drill hole 1.00mm ( https://content.kemet.com/datasheets/KEM_F3019_PZB300X2_2XY2_275.pdf )")
 	(tags "suppressor filter cap")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 90)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7a409e0d-c449-4b83-9da5-d6a5d0f90b9b")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -74,7 +61,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "f9e2ba1a-4fd0-402a-bf47-fa30a87d1cd7")
 	)
@@ -85,7 +72,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "2f7372ac-d235-48cb-b5c2-7a9271b8515f")
 	)
@@ -96,7 +83,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2ea2a072-42c8-48ef-a36b-bbe27a4609f1")
 	)
@@ -136,7 +123,8 @@
 		(remove_unused_layers no)
 		(uuid "9b0b3a88-91f8-485f-9d46-859ff8df5358")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Filter.3dshapes/Filter_KEMET_PZB300_24.0x12.5mm_P10.0mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_KEMET_PZB300_24.0x12.5mm_P10.0mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

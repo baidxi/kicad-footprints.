@@ -1,7 +1,7 @@
 (footprint "nanoSIM_Hinged_CUI_NSIM-2-C"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Hinged nano SIM holder, 6 pin, with normally open card detection switch to GND: https://www.cuidevices.com/product/resource/nsim-2-c.pdf")
 	(tags "SIM holder nano 4FF")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a1d8eb56-c52d-447a-a898-83045a8b71b9")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -164,7 +152,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4941eb88-db89-42f0-b807-afc2d2445594")
 	)
@@ -195,7 +183,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a05aa383-add5-42b9-a21f-d1bddabbe731")
 	)
@@ -207,7 +195,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "6bb029b6-4fd8-4dd9-a737-a5e9cf9247e1")
 	)
@@ -219,7 +207,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a15b4c89-9d51-4b71-b3b5-de942ff26814")
 	)
@@ -235,7 +223,7 @@
 		)
 	)
 	(fp_text user "LOCK"
-		(at 4.5 4.8 -90)
+		(at 4.5 4.8 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "9ea7e2be-4e6e-48a5-8af0-8543c4687074")
@@ -263,7 +251,7 @@
 	(pad "1" smd roundrect
 		(at -3.175 -6.8)
 		(size 0.9 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "986b52e0-962b-4520-b330-1ac7f3a02263")
@@ -271,7 +259,7 @@
 	(pad "2" smd roundrect
 		(at -0.635 -6.8)
 		(size 0.9 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "9498b39f-ec94-4669-9966-8c3b0a71e90e")
@@ -279,7 +267,7 @@
 	(pad "3" smd roundrect
 		(at 1.905 -6.8)
 		(size 0.9 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "4b5efcec-8096-4df1-baa8-1283df287924")
@@ -287,7 +275,7 @@
 	(pad "5" smd roundrect
 		(at -1.905 -6.8)
 		(size 0.9 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "10dd2e87-afdf-4258-99b0-d2669cc88518")
@@ -295,7 +283,7 @@
 	(pad "6" smd roundrect
 		(at 0.635 -6.8)
 		(size 0.9 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "e5ea0406-55ab-4779-9e95-de59e19e11c1")
@@ -303,7 +291,7 @@
 	(pad "7" smd roundrect
 		(at 3.175 -6.8)
 		(size 0.9 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "35298a27-8119-400e-85a6-4f427e430abf")
@@ -311,7 +299,7 @@
 	(pad "CD" smd roundrect
 		(at -5.85 6.1)
 		(size 1.3 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
 		(thermal_bridge_angle 45)
 		(uuid "8af2558e-a589-44e8-8029-f64378298282")
@@ -319,7 +307,7 @@
 	(pad "SH" smd roundrect
 		(at -5.85 -2.7)
 		(size 1.3 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
 		(thermal_bridge_angle 45)
 		(uuid "00a0e12a-e236-4b85-8f80-9a0a3f3bc1c0")
@@ -327,7 +315,7 @@
 	(pad "SH" smd roundrect
 		(at 5.85 -2.7)
 		(size 1.3 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
 		(thermal_bridge_angle 45)
 		(uuid "1a1789aa-e31b-44d8-9633-dacf9a3e2a8f")
@@ -335,7 +323,7 @@
 	(pad "SH" smd roundrect
 		(at 5.85 6.1)
 		(size 1.3 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
 		(thermal_bridge_angle 45)
 		(uuid "f1263c1d-d150-451f-b179-72450b0f7fc0")
@@ -357,6 +345,10 @@
 			(pads not_allowed)
 			(copperpour allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -386,6 +378,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -413,6 +409,10 @@
 			(pads not_allowed)
 			(copperpour allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -442,6 +442,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -469,6 +473,10 @@
 			(pads not_allowed)
 			(copperpour allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -498,6 +506,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -508,7 +520,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Card.3dshapes/nanoSIM_Hinged_CUI_NSIM-2-C.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Card.3dshapes/nanoSIM_Hinged_CUI_NSIM-2-C.step"
 		(offset
 			(xyz 0 0 0)
 		)

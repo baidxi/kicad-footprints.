@@ -1,7 +1,7 @@
 (footprint "RaspberryPi_Pico_Common_Unspecified"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Raspberry Pi Pico versatile common (Pico & Pico W) footprint for surface-mount or through-hole hand soldering, supports Raspberry Pi Pico 2, default socketed model has height of 8.51mm, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
 	(tags "module usb pcb antenna")
@@ -26,18 +26,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2ee7241f-af3a-4eef-932a-85c693f25fbc")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -1188,7 +1176,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "77be64c3-fa0a-4f12-8655-2382b5039c03")
 	)
@@ -1199,7 +1187,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "ca0b7dd1-668f-41fc-b5eb-e152d8e8fd71")
 	)
@@ -1210,7 +1198,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "cf506797-8d83-4429-a546-4768963029d6")
 	)
@@ -1221,7 +1209,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "8e25d8a1-4a8d-4435-b585-baca7152b87b")
 	)
@@ -1235,7 +1223,7 @@
 			(width 0.05)
 			(type dash)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "d5c633ae-dd0b-43cf-9acc-112e0728ba7f")
 	)
@@ -1248,7 +1236,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "414173db-99c9-47a6-970e-8cd456671852")
 	)
@@ -1329,7 +1317,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e4a6897d-acc8-4f3e-9eb6-72c7911dd7aa")
 	)
@@ -1340,7 +1328,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "69e63a70-9d9a-444d-a9cc-9a0c0f0d3af1")
 	)
@@ -1351,7 +1339,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9d43fdd6-f727-4a6b-ba3a-d60225cdcbb6")
 	)
@@ -1419,7 +1407,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "03c3df24-60f7-4d19-b3fa-fc206ccaa6f0")
 	)
@@ -2716,7 +2704,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu" "*.Paste")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "F.Paste"
+			"In6.Cu" "B.Paste" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu"
+			"In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu"
+			"In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu"
+			"In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
 		(uuid "c6457ddb-b5b6-486e-aaf5-0ede3021fb0a")
 		(name "Antenna Copper Keep Out")
 		(hatch full 0.5)
@@ -2731,6 +2724,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -2761,6 +2758,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -2793,6 +2794,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2823,6 +2828,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -2857,6 +2866,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2889,6 +2902,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -2923,6 +2940,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2956,6 +2977,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2988,6 +3013,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -3025,6 +3054,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -3056,6 +3089,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -3089,6 +3126,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -3120,6 +3161,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -3157,6 +3202,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -3189,6 +3238,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -3220,6 +3273,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -3259,6 +3316,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -3296,6 +3357,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -3335,6 +3400,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -3373,6 +3442,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -3407,6 +3480,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -3443,6 +3520,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -3472,6 +3553,10 @@
 			(copperpour allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -3481,20 +3566,6 @@
 				(xy -5.75 -27.7) (xy -3.94 -27.7) (xy -3.94 -27.3) (xy 3.94 -27.3) (xy 3.94 -27.7) (xy 5.75 -27.7)
 				(xy 5.75 -47.2) (xy -5.75 -47.2)
 			)
-		)
-	)
-	(group ""
-		(uuid "5689a4e2-1df2-42a0-a116-721056fa76e2")
-		(members "1a7cb90a-ddf3-4bab-9c4e-ea67ba7bbaa0" "2bfbd164-474f-46af-8608-43829833466a"
-			"4af5ba37-d2c3-4d98-92e0-a58e04d42068" "4b3b60b1-7466-4df2-8c41-9acdafe38dc9"
-			"51e99f4d-aea5-4e64-b96d-bea9f668ee9f" "5415fec0-8504-49b9-80e1-d8461e324625"
-			"59f9cce4-73eb-4b86-bd29-adc58a8c0850" "5c472679-225f-4e01-b0d4-ec49c10819a0"
-			"6ac16294-2df8-49c7-b634-100a52f79576" "77ab07e2-e505-499d-938a-a21ef4efa809"
-			"8b8d9959-8a74-487a-abd3-722e0fe3294a" "9db3cc21-d557-4a57-88f2-281576b3a12f"
-			"ad4162bc-42d0-43ae-aa18-73de7554cc34" "af63ef84-abc7-4362-8edc-c3dab33b22e9"
-			"b98ca78b-125b-4838-8f3b-5b9a2e149dfa" "be7d5a0b-5a14-4443-8373-c663c51a316e"
-			"c6457ddb-b5b6-486e-aaf5-0ede3021fb0a" "d5c633ae-dd0b-43cf-9acc-112e0728ba7f"
-			"dcc0ffe1-19e5-4f7b-ab89-36d11500c8d6" "e1532e19-5d5d-4d80-bee5-9f8fda663418"
 		)
 	)
 	(group ""
@@ -3589,6 +3660,20 @@
 		)
 	)
 	(group ""
+		(uuid "5689a4e2-1df2-42a0-a116-721056fa76e2")
+		(members "1a7cb90a-ddf3-4bab-9c4e-ea67ba7bbaa0" "2bfbd164-474f-46af-8608-43829833466a"
+			"4af5ba37-d2c3-4d98-92e0-a58e04d42068" "4b3b60b1-7466-4df2-8c41-9acdafe38dc9"
+			"51e99f4d-aea5-4e64-b96d-bea9f668ee9f" "5415fec0-8504-49b9-80e1-d8461e324625"
+			"59f9cce4-73eb-4b86-bd29-adc58a8c0850" "5c472679-225f-4e01-b0d4-ec49c10819a0"
+			"6ac16294-2df8-49c7-b634-100a52f79576" "77ab07e2-e505-499d-938a-a21ef4efa809"
+			"8b8d9959-8a74-487a-abd3-722e0fe3294a" "9db3cc21-d557-4a57-88f2-281576b3a12f"
+			"ad4162bc-42d0-43ae-aa18-73de7554cc34" "af63ef84-abc7-4362-8edc-c3dab33b22e9"
+			"b98ca78b-125b-4838-8f3b-5b9a2e149dfa" "be7d5a0b-5a14-4443-8373-c663c51a316e"
+			"c6457ddb-b5b6-486e-aaf5-0ede3021fb0a" "d5c633ae-dd0b-43cf-9acc-112e0728ba7f"
+			"dcc0ffe1-19e5-4f7b-ab89-36d11500c8d6" "e1532e19-5d5d-4d80-bee5-9f8fda663418"
+		)
+	)
+	(group ""
 		(uuid "5fd8b87a-b3c2-43aa-97cb-aee36bed0f87")
 		(members "060cf1d8-68ff-40ce-b146-af5675ecc985" "bad4f0e4-bd1e-46ab-a7c4-5ee4c29bb328")
 	)
@@ -3642,7 +3727,8 @@
 			"f1cc32df-7882-4690-8726-d75c6cb3f16c" "f2d08bd9-3121-487d-8fca-37e46c85953e"
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_DIP-40_W17.78mm_H8.51mm_Socket.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_PinSockets_H8.50mm.step"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3654,7 +3740,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -3665,7 +3751,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_AddedHeaders.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_AddedHeaders_H2.54mm.step"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3677,7 +3763,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_AddedHeaders_Socketed.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_H.step"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3689,7 +3775,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_H.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_W.step"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3701,7 +3787,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_H_Socketed.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_W_AddedHeaders_H2.54mm.step"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3713,55 +3799,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_W.wrl"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_W_AddedHeaders.wrl"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_W_AddedHeaders_Socketed.wrl"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_WH.wrl"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_WH_Socketed.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_WH.step"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)

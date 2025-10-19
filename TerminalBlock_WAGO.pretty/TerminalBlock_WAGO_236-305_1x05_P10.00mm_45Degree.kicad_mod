@@ -1,8 +1,8 @@
 (footprint "TerminalBlock_WAGO_236-305_1x05_P10.00mm_45Degree"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Terminal Block WAGO 236-305, 45Degree (cable under 45degree), 5 pins, pitch 10mm, size 52.3x14mm, drill diameter 1.15mm, pad diameter 3mm, , script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_WAGO")
+	(descr "Terminal Block WAGO 236-305, 45Degree (cable under 45degree), 5 pins, pitch 10mm, size 52.3x14mm, drill diameter 1.15mm, pad diameter 3mm, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_WAGO")
 	(tags "THT Terminal Block WAGO 236-305 45Degree pitch 10mm size 52.3x14mm drill 1.15mm pad 3mm")
 	(property "Reference" "REF**"
 		(at 22.65 -6.12 0)
@@ -25,15 +25,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -3.62 -5.12)
-		(end -3.62 9.12)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
 	(fp_line
 		(start -3.62 -5.12)
 		(end 48.92 -5.12)
@@ -72,16 +63,7 @@
 	)
 	(fp_line
 		(start -3.62 9.12)
-		(end -0.3 9.12)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -2 -5)
-		(end -2 9)
+		(end -3.62 -5.12)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -99,16 +81,7 @@
 	)
 	(fp_line
 		(start -2 9)
-		(end 8 9)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -1.5 2.7)
-		(end -1.5 3.7)
+		(end -2 -5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -126,16 +99,7 @@
 	)
 	(fp_line
 		(start -1.5 3.7)
-		(end 2.5 3.7)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -1.5 4.4)
-		(end -1.5 7.7)
+		(end -1.5 2.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -153,7 +117,7 @@
 	)
 	(fp_line
 		(start -1.5 7.7)
-		(end 2.5 7.7)
+		(end -1.5 4.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -161,8 +125,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 -4.65)
-		(end 0 -2.15)
+		(start -0.3 9.12)
+		(end -3.62 9.12)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -180,16 +144,7 @@
 	)
 	(fp_line
 		(start 0 -2.15)
-		(end 1 -2.15)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0.3 9.12)
-		(end 48.92 9.12)
+		(end 0 -4.65)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -199,6 +154,15 @@
 	(fp_line
 		(start 1 -4.65)
 		(end 1 -2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1 -2.15)
+		(end 0 -2.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -224,6 +188,15 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 2.5 3.7)
+		(end -1.5 3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 2.5 4.4)
 		(end 2.5 7.7)
 		(stroke
@@ -233,8 +206,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 8 -5)
-		(end 8 9)
+		(start 2.5 7.7)
+		(end -1.5 7.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -261,7 +234,7 @@
 	)
 	(fp_line
 		(start 8 9)
-		(end 18 9)
+		(end -2 9)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -269,8 +242,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 8.5 2.7)
-		(end 8.5 3.7)
+		(start 8 9)
+		(end 8 -5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -288,16 +261,7 @@
 	)
 	(fp_line
 		(start 8.5 3.7)
-		(end 12.5 3.7)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 8.5 4.4)
-		(end 8.5 7.7)
+		(end 8.5 2.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -315,16 +279,7 @@
 	)
 	(fp_line
 		(start 8.5 7.7)
-		(end 12.5 7.7)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 10 -4.65)
-		(end 10 -2.15)
+		(end 8.5 4.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -342,7 +297,7 @@
 	)
 	(fp_line
 		(start 10 -2.15)
-		(end 11 -2.15)
+		(end 10 -4.65)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -352,6 +307,15 @@
 	(fp_line
 		(start 11 -4.65)
 		(end 11 -2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 11 -2.15)
+		(end 10 -2.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -377,6 +341,15 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 12.5 3.7)
+		(end 8.5 3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 12.5 4.4)
 		(end 12.5 7.7)
 		(stroke
@@ -386,8 +359,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 18 -5)
-		(end 18 9)
+		(start 12.5 7.7)
+		(end 8.5 7.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -414,7 +387,7 @@
 	)
 	(fp_line
 		(start 18 9)
-		(end 28 9)
+		(end 8 9)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -422,8 +395,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 18.5 2.7)
-		(end 18.5 3.7)
+		(start 18 9)
+		(end 18 -5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -441,16 +414,7 @@
 	)
 	(fp_line
 		(start 18.5 3.7)
-		(end 22.5 3.7)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 18.5 4.4)
-		(end 18.5 7.7)
+		(end 18.5 2.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -468,16 +432,7 @@
 	)
 	(fp_line
 		(start 18.5 7.7)
-		(end 22.5 7.7)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 20 -4.65)
-		(end 20 -2.15)
+		(end 18.5 4.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -495,7 +450,7 @@
 	)
 	(fp_line
 		(start 20 -2.15)
-		(end 21 -2.15)
+		(end 20 -4.65)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -505,6 +460,15 @@
 	(fp_line
 		(start 21 -4.65)
 		(end 21 -2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 21 -2.15)
+		(end 20 -2.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -530,6 +494,15 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 22.5 3.7)
+		(end 18.5 3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 22.5 4.4)
 		(end 22.5 7.7)
 		(stroke
@@ -539,8 +512,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 28 -5)
-		(end 28 9)
+		(start 22.5 7.7)
+		(end 18.5 7.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -567,7 +540,7 @@
 	)
 	(fp_line
 		(start 28 9)
-		(end 38 9)
+		(end 18 9)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -575,8 +548,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 28.5 2.7)
-		(end 28.5 3.7)
+		(start 28 9)
+		(end 28 -5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -594,16 +567,7 @@
 	)
 	(fp_line
 		(start 28.5 3.7)
-		(end 32.5 3.7)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 28.5 4.4)
-		(end 28.5 7.7)
+		(end 28.5 2.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -621,16 +585,7 @@
 	)
 	(fp_line
 		(start 28.5 7.7)
-		(end 32.5 7.7)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 30 -4.65)
-		(end 30 -2.15)
+		(end 28.5 4.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -648,7 +603,7 @@
 	)
 	(fp_line
 		(start 30 -2.15)
-		(end 31 -2.15)
+		(end 30 -4.65)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -658,6 +613,15 @@
 	(fp_line
 		(start 31 -4.65)
 		(end 31 -2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 31 -2.15)
+		(end 30 -2.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -683,6 +647,15 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 32.5 3.7)
+		(end 28.5 3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 32.5 4.4)
 		(end 32.5 7.7)
 		(stroke
@@ -692,8 +665,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 38 -5)
-		(end 38 9)
+		(start 32.5 7.7)
+		(end 28.5 7.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -720,7 +693,7 @@
 	)
 	(fp_line
 		(start 38 9)
-		(end 48 9)
+		(end 28 9)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -728,8 +701,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 38.5 2.7)
-		(end 38.5 3.7)
+		(start 38 9)
+		(end 38 -5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -747,16 +720,7 @@
 	)
 	(fp_line
 		(start 38.5 3.7)
-		(end 42.5 3.7)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 38.5 4.4)
-		(end 38.5 7.7)
+		(end 38.5 2.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -774,16 +738,7 @@
 	)
 	(fp_line
 		(start 38.5 7.7)
-		(end 42.5 7.7)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 40 -4.65)
-		(end 40 -2.15)
+		(end 38.5 4.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -801,7 +756,7 @@
 	)
 	(fp_line
 		(start 40 -2.15)
-		(end 41 -2.15)
+		(end 40 -4.65)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -811,6 +766,15 @@
 	(fp_line
 		(start 41 -4.65)
 		(end 41 -2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 41 -2.15)
+		(end 40 -2.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -836,8 +800,26 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 42.5 3.7)
+		(end 38.5 3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 42.5 4.4)
 		(end 42.5 7.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 42.5 7.7)
+		(end 38.5 7.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -854,8 +836,26 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 48 9)
+		(end 38 9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 48.92 -5.12)
 		(end 48.92 9.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 48.92 9.12)
+		(end 0.3 9.12)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -867,13 +867,12 @@
 			(xy 0 9.12)
 			(xy 0.44 9.73)
 			(xy -0.44 9.73)
-			(xy 0 9.12)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -1750,7 +1749,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_WAGO.3dshapes/TerminalBlock_WAGO_236-305_1x05_P10.00mm_45Degree.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_WAGO.3dshapes/TerminalBlock_WAGO_236-305_1x05_P10.00mm_45Degree.step"
 		(offset
 			(xyz 0 0 0)
 		)

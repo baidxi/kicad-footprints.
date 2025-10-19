@@ -1,7 +1,7 @@
 (footprint "RaspberryPi_Pico_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Raspberry Pi Pico (non-W) surface-mount footprint for reflow soldering with test points and debug pads, supports Raspberry Pi Pico 2 (non-W), https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
 	(tags "module usb pcb swd")
@@ -26,18 +26,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0bb9e112-a23d-4976-b238-0adb5b8f1d35")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -648,7 +636,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "1bd96c8b-c586-4b27-8a67-82f1db4e0c72")
 	)
@@ -659,7 +647,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "a67a58d9-ffcb-4400-8772-925b5161aa2e")
 	)
@@ -670,7 +658,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "f02c3edf-d3d0-421a-93c1-2b8e2d17b10d")
 	)
@@ -681,7 +669,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "b5a647e8-c213-4bd4-9e6e-5217cac95972")
 	)
@@ -695,7 +683,7 @@
 			(width 0.05)
 			(type dash)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "b82b2a38-d6b9-41df-b80c-7ffb050186eb")
 	)
@@ -708,7 +696,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c3515075-32f2-4abf-ad5f-24d3908f57c4")
 	)
@@ -789,7 +777,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ac4e8a46-d5fe-44a6-adba-11bd3d8e9bfa")
 	)
@@ -800,7 +788,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0b0260a0-3fba-408a-ad74-dec4adb4ba4d")
 	)
@@ -811,7 +799,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0b7a6c51-2939-4632-b15c-75ba5a454bbc")
 	)
@@ -879,7 +867,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4b9b3136-ab78-4463-92b9-f8ef51de9617")
 	)
@@ -1125,7 +1113,7 @@
 	(pad "" smd oval
 		(at -2.725 -24)
 		(size 1.1 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "110718d7-9258-428e-b698-5a8740b9698e")
 	)
 	(pad "" smd rect
@@ -1140,7 +1128,7 @@
 	(pad "" smd oval
 		(at -2.425 -20.97)
 		(size 1.05 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9100fadf-77bf-493c-9bd4-116259a1971d")
 	)
 	(pad "" smd rect
@@ -1155,7 +1143,7 @@
 	(pad "" smd oval
 		(at 2.425 -20.97)
 		(size 1.05 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d3f200fc-7513-41ff-879c-75cd8ca7b07b")
 	)
 	(pad "" smd rect
@@ -1170,7 +1158,7 @@
 	(pad "" smd oval
 		(at 2.725 -24)
 		(size 1.1 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0a4b64a5-cf14-40c8-a3c2-8736bee519c2")
 	)
 	(pad "" smd rect
@@ -1963,42 +1951,42 @@
 	(pad "TP1" smd roundrect
 		(at 0 -21)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "63235215-db5c-4499-bd59-72c05492fd65")
 	)
 	(pad "TP2" smd roundrect
 		(at 1 -24.3)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "b7baa21c-1be6-4915-ab0d-19571fc2aef2")
 	)
 	(pad "TP3" smd roundrect
 		(at -1 -24.3)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "81296abb-a2f4-4ddc-afc9-4f27f53b6650")
 	)
 	(pad "TP4" smd roundrect
 		(at -2.5 -17.5)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "d899e3ab-e486-48ea-8335-d9f2a9ea3465")
 	)
 	(pad "TP5" smd roundrect
 		(at -2.5 -15)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "3f2c024a-382c-4bd8-856a-d7f7571f68ea")
 	)
 	(pad "TP6" smd roundrect
 		(at -2.5 -12.5)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "8327bce4-7027-4575-84eb-1eab5477870b")
 	)
@@ -2020,6 +2008,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -2052,6 +2044,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -2181,7 +2177,8 @@
 			"ef377e07-0b64-4bfe-a824-546b0d0c7a5d" "f4b05cfb-6fe2-4c0b-9ff1-471dc53a748a"
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico.step"
 		(offset
 			(xyz 0 0 0)
 		)

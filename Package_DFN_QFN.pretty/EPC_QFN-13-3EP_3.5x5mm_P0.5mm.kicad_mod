@@ -1,7 +1,7 @@
 (footprint "EPC_QFN-13-3EP_3.5x5mm_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "EPC QFN-13, 5.0x3.5mm, Pitch 0.5mm, https://epc-co.com/epc/Portals/0/epc/documents/datasheets/EPC23102_datasheet.pdf")
 	(tags "ePower-Stage-IC EPC23102 EPC23103 EPC23104")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9ea57adb-405b-4d2b-b33f-c0579e63a4e3")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -157,7 +144,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "bb013e0f-2cf2-4b96-9136-dd75e66b016b")
 	)
@@ -168,7 +155,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c4b3c3c8-94cc-4ecc-989e-c83cd1c8aac6")
 	)
@@ -179,7 +166,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2a308de1-6c2d-480a-bac1-f9449d422638")
 	)
@@ -628,7 +615,8 @@
 		(roundrect_rratio 0.1)
 		(uuid "4e7808c2-7bb5-4db6-998d-e70083df090e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/EPC_QFN-13-3EP_3.5x5mm_P0.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/EPC_QFN-13-3EP_3.5x5mm_P0.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

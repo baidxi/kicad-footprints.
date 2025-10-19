@@ -1,7 +1,7 @@
 (footprint "RJ45_RCH_RC01937"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1 port ethernet throughhole connector, https://www.lcsc.com/datasheet/lcsc_datasheet_2411121142_RCH-RC01937_C708652.pdf")
 	(tags "RJ45 ethernet 8p8c shielded")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "67d0035c-485f-45a6-88ff-409bb33051d2")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -161,7 +149,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c5cdaed4-fe89-43bc-8d83-00f2f31bf900")
 	)
@@ -320,7 +308,8 @@
 		(remove_unused_layers no)
 		(uuid "6c563a81-13cb-4281-9bdd-a48057e6115f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_RCH_RC01937.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_RCH_RC01937.step"
 		(offset
 			(xyz 0 0 0)
 		)

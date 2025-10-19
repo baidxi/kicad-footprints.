@@ -1,7 +1,7 @@
 (footprint "Relay_SPDT_Panasonic_DR-L"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1 latching coil, https://mediap.industry.panasonic.eu/assets/download-files/import/ds_dr_en_discon.pdf")
 	(tags "nais single latch")
@@ -25,18 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "11a2af78-ad1e-4f16-ab1b-60a1f5fc0c5f")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -203,7 +191,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "34183645-f370-4b16-879d-9057d647b373")
 	)
@@ -214,7 +202,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "1a85623e-2d7f-4c9a-ad3a-09ad2ddc33f4")
 	)
@@ -226,7 +214,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "7b9c0a02-ef64-4139-9c0c-684be9e1cf9b")
 	)
@@ -238,7 +226,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "b23d702d-e168-4e78-abab-fa62a172aec8")
 	)
@@ -251,7 +239,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "b39617b6-8c82-4e08-9a8d-e09b52260038")
 	)
@@ -262,7 +250,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "a9aff927-fdc4-4c48-bc93-41e5b4c87360")
 	)
@@ -402,7 +390,8 @@
 		(remove_unused_layers no)
 		(uuid "1b6100b1-6db6-46ed-838f-9445ada9c264")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Panasonic_DR-L.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Panasonic_DR-L.step"
 		(offset
 			(xyz 0 0 0)
 		)

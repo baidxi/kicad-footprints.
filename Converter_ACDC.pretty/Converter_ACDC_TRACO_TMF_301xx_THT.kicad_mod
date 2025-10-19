@@ -1,11 +1,11 @@
 (footprint "Converter_ACDC_TRACO_TMF_301xx_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "ACDC-Converter, TRACO, TMF 301xx, 30W, Rev. October 10. 2024 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tmf30.pdf)")
+	(descr "ACDC-Converter, TRACO, TMF 301xx, 30W, Rev. October 10. 2024, https://www.tracopower.com/products/tmf30.pdf, generated with kicad-footprint-generator StandardBox_generator.py")
 	(tags "ACDC-Converter TRACO TMF30 THT 30W")
 	(property "Reference" "REF**"
-		(at -2.3 -24.34 0)
+		(at 28.05 -24.25 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "Converter_ACDC_TRACO_TMF_301xx_THT"
-		(at 28.05 24.55 0)
+		(at 28.05 24.25 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -26,8 +26,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -4.8 -23.6)
-		(end -1.8 -23.6)
+		(start -4.61 -23.41)
+		(end 60.71 -23.41)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -4.8 -20.6)
-		(end -4.8 -23.6)
+		(start -4.61 -0.296)
+		(end -4.61 -23.41)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +44,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -4.56 -23.36)
-		(end -4.56 23.36)
+		(start -4.61 23.41)
+		(end -4.61 0.296)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +53,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -4.56 -23.36)
-		(end 60.66 -23.36)
+		(start 60.71 -23.41)
+		(end 60.71 23.41)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,102 +62,50 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -4.56 23.36)
-		(end 60.66 23.36)
+		(start 60.71 23.41)
+		(end -4.61 23.41)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start 60.66 -23.36)
-		(end 60.66 23.36)
+	(fp_poly
+		(pts
+			(xy -4.61 0)
+			(xy -5.22 0.44)
+			(xy -5.22 -0.44)
+		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
+		(fill yes)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start -4.76 -23.56)
-		(end -4.76 23.56)
+	(fp_rect
+		(start -4.75 -23.55)
+		(end 60.85 23.55)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -4.76 23.56)
-		(end 60.86 23.56)
-		(stroke
-			(width 0.05)
-			(type solid)
+	(fp_poly
+		(pts
+			(xy -4 -21.8)
+			(xy -4 22.8)
+			(xy 60.1 22.8)
+			(xy 60.1 -22.8)
+			(xy -3 -22.8)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 60.86 -23.56)
-		(end -4.76 -23.56)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 60.86 23.56)
-		(end 60.86 -23.56)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -4 -21.8)
-		(end -3 -22.8)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -4 22.8)
-		(end -4 -21.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -3 -22.8)
-		(end 60.1 -22.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 60.1 -22.8)
-		(end 60.1 22.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 60.1 22.8)
-		(end -4 22.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -170,12 +118,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 2.5 2.5)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
 	)
 	(pad "2" thru_hole circle
 		(at 0 17.5)
@@ -198,7 +147,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_TRACO_TMF_301xx_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_TRACO_TMF_301xx_THT.step"
 		(offset
 			(xyz 0 0 0)
 		)

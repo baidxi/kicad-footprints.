@@ -1,5 +1,5 @@
 (footprint "DSUB-26-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "26-pin D-Sub connector, straight/vertical, THT-mount, socket (female), pitch 2.29x1.98mm, distance of mounting holes 33.3mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
@@ -44,8 +44,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -20.64147 -0.081744)
-		(end -19.812733 4.618256)
+		(start -19.812733 4.618256)
+		(end -20.64147 -0.081744)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -55,15 +55,6 @@
 	(fp_line
 		(start -19.006689 -2.03)
 		(end 1.756689 -2.03)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -18.177952 5.99)
-		(end 0.927952 5.99)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -91,6 +82,15 @@
 	(fp_line
 		(start 0.25 -5.224338)
 		(end 0 -4.791325)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.927952 5.99)
+		(end -18.177952 5.99)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -259,8 +259,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -20.593887 -0.092163)
-		(end -19.76515 4.607837)
+		(start -19.76515 4.607837)
+		(end -20.593887 -0.092163)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -277,8 +277,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -18.189457 5.93)
-		(end 0.939457 5.93)
+		(start 0.939457 5.93)
+		(end -18.189457 5.93)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -598,7 +598,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-26-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-26-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles.step"
 		(offset
 			(xyz 0 0 0)
 		)

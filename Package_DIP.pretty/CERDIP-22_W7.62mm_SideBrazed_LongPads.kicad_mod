@@ -1,5 +1,5 @@
 (footprint "CERDIP-22_W7.62mm_SideBrazed_LongPads"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "22-lead through-hole mounted CERDIP, JEDEC MS-015-AF package, row spacing 7.62mm (300 mils), SideBrazed, LongPads, https://www.jedec.org/system/files/docs/Ms-015a.pdf")
@@ -80,40 +80,14 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -1.45 -1.53)
-		(end -1.45 26.92)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.45 26.92)
 		(end 9.07 26.92)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 9.07 -1.53)
-		(end -1.45 -1.53)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 9.07 26.92)
-		(end 9.07 -1.53)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
@@ -171,12 +145,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 2.4 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
 	)
 	(pad "2" thru_hole oval
 		(at 0 2.54)
@@ -325,7 +300,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/CERDIP-22_W7.62mm_SideBrazed_LongPads.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/CERDIP-22_W7.62mm_SideBrazed_LongPads.step"
 		(offset
 			(xyz 0 0 0)
 		)

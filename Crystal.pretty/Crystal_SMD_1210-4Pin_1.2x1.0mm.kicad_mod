@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_1210-4Pin_1.2x1.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal SERIES SMD1210/4 https://ecsxtal.com/store/pdf/ECX-1048.pdf, 1.2x1.0mm^2 package")
 	(tags "SMT")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7b7777b5-3aa8-490b-a57a-fea915de1cae")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -228,32 +216,33 @@
 	(pad "1" smd roundrect
 		(at -0.335 -0.41 270)
 		(size 0.52 0.47)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6a242bfd-187e-413d-85cd-55be904270c2")
 	)
 	(pad "2" smd roundrect
 		(at -0.335 0.41 270)
 		(size 0.52 0.47)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6d42d8c8-9e9d-4222-b5e0-1cc396014893")
 	)
 	(pad "3" smd roundrect
 		(at 0.335 0.41 270)
 		(size 0.52 0.47)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a9943241-1dea-450b-bd31-21d724c69713")
 	)
 	(pad "4" smd roundrect
 		(at 0.335 -0.41 270)
 		(size 0.52 0.47)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ff3d98a7-1e15-436c-8bd4-943bd11cc599")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_1210-4Pin_1.2x1.0mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_1210-4Pin_1.2x1.0mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,5 +1,5 @@
 (footprint "Molex_Micro-Fit_3.0_43650-0310_1x03-1MP_P3.00mm_Horizontal_PnP"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Molex Micro-Fit 3.0 Connector System, 43650-0310 (compatible alternatives: 43650-0311, 43650-0309), 3 Pins per row (https://www.molex.com/pdm_docs/sd/436500210_sd.pdf), generated with kicad-footprint-generator")
@@ -389,17 +389,17 @@
 	(pad "1" smd rect
 		(at -3 5.12)
 		(size 1.27 2.92)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(pad "2" smd rect
 		(at 0 5.12)
 		(size 1.27 2.92)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(pad "3" smd rect
 		(at 3 5.12)
 		(size 1.27 2.92)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(pad "MP" thru_hole circle
 		(at -5.15 -0.35)
@@ -407,6 +407,7 @@
 		(drill 2.54)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 	)
 	(pad "MP" thru_hole circle
 		(at 5.15 -0.35)
@@ -414,8 +415,10 @@
 		(drill 2.54)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0310_1x03-1MP_P3.00mm_Horizontal_PnP.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0310_1x03-1MP_P3.00mm_Horizontal_PnP.step"
 		(offset
 			(xyz 0 0 0)
 		)

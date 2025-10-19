@@ -1,12 +1,12 @@
 (footprint "L_Changjiang_FXL2213"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Inductor, Changjiang, FXL2213, 22.95x22.0x12.6mm, (https://www.lcsc.com/datasheet/lcsc_datasheet_2404260921_cjiang--Changjiang-Microelectronics-Tech-FXL0420-2R2-M_C167206.pdf), generated with kicad-footprint-generator gen_inductor.py")
-	(tags "Inductor power shielded cjiang fxl")
-	(property "Value" "L_Changjiang_FXL2213"
-		(at 0 12 0)
-		(layer "F.Fab")
+	(tags "power shielded cjiang fxl")
+	(property "Reference" "REF**"
+		(at 0 -11.95 0)
+		(layer "F.SilkS")
 		(effects
 			(font
 				(size 1 1)
@@ -14,9 +14,9 @@
 			)
 		)
 	)
-	(property "Reference" "REF**"
-		(at 0 -12 0)
-		(layer "F.SilkS")
+	(property "Value" "L_Changjiang_FXL2213"
+		(at 0 11.95 0)
+		(layer "F.Fab")
 		(effects
 			(font
 				(size 1 1)
@@ -26,8 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -11.735 -11.26)
-		(end -11.735 -10.06)
+		(start -11.585 -11.11)
+		(end 11.585 -11.11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -11.735 -11.26)
-		(end 11.735 -11.26)
+		(start -11.585 -10.06)
+		(end -11.585 -11.11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +44,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -11.735 11.26)
-		(end -11.735 10.06)
+		(start -11.585 11.11)
+		(end -11.585 10.06)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +53,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -11.735 11.26)
-		(end 11.735 11.26)
+		(start 11.585 -11.11)
+		(end 11.585 -10.06)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,8 +62,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 11.735 -11.26)
-		(end 11.735 -10.06)
+		(start 11.585 10.06)
+		(end 11.585 11.11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -71,8 +71,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 11.735 11.26)
-		(end 11.735 10.06)
+		(start 11.585 11.11)
+		(end -11.585 11.11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -80,8 +80,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -12.25 -11.25)
-		(end -12.25 11.25)
+		(start -12.25 -10.05)
+		(end -11.73 -10.05)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -89,8 +89,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -12.25 11.25)
-		(end 12.25 11.25)
+		(start -12.25 10.05)
+		(end -12.25 -10.05)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -98,8 +98,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 12.25 -11.25)
-		(end -12.25 -11.25)
+		(start -11.73 -11.25)
+		(end 11.73 -11.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -107,8 +107,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 12.25 11.25)
-		(end 12.25 -11.25)
+		(start -11.73 -10.05)
+		(end -11.73 -11.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -116,39 +116,85 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
+		(start -11.73 10.05)
+		(end -12.25 10.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -11.73 11.25)
+		(end -11.73 10.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 11.73 -11.25)
+		(end 11.73 -10.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 11.73 -10.05)
+		(end 12.25 -10.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 11.73 10.05)
+		(end 11.73 11.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 11.73 11.25)
+		(end -11.73 11.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 12.25 -10.05)
+		(end 12.25 10.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 12.25 10.05)
+		(end 11.73 10.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_rect
 		(start -11.475 -11)
-		(end -11.475 11)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -11.475 11)
 		(end 11.475 11)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 11.475 -11)
-		(end -11.475 -11)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 11.475 11)
-		(end 11.475 -11)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -164,16 +210,17 @@
 	(pad "1" smd roundrect
 		(at -9.125 0)
 		(size 5.75 19.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.043478)
 	)
 	(pad "2" smd roundrect
 		(at 9.125 0)
 		(size 5.75 19.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.043478)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Changjiang_FXL2213.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Changjiang_FXL2213.step"
 		(offset
 			(xyz 0 0 0)
 		)

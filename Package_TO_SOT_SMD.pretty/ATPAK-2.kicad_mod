@@ -1,5 +1,5 @@
 (footprint "ATPAK-2"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "ATPAK SMD package, http://www.onsemi.com/pub/Collateral/ENA2192-D.PDF")
@@ -66,49 +66,22 @@
 			(xy -4.95 -3.31)
 			(xy -5.29 -3.78)
 			(xy -4.61 -3.78)
-			(xy -4.95 -3.31)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -6 -3.5)
-		(end -6 3.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -6 3.5)
 		(end 4.81 3.5)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 4.81 -3.5)
-		(end -6 -3.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 4.81 3.5)
-		(end 4.81 -3.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
@@ -148,15 +121,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -3.65 -2.25)
-		(end -2.65 -3.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start -3.65 2)
 		(end -5.35 2)
 		(stroke
@@ -166,44 +130,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -3.65 3.25)
-		(end -3.65 -2.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start -3.3 -2.6)
 		(end -5.35 -2.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2.65 -3.25)
-		(end 3.65 -3.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 3.65 -3.25)
-		(end 3.65 3.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 3.65 3.25)
-		(end -3.65 3.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -237,6 +165,21 @@
 		)
 		(layer "F.Fab")
 	)
+	(fp_poly
+		(pts
+			(xy 3.65 -3.25)
+			(xy 3.65 3.25)
+			(xy -3.65 3.25)
+			(xy -3.65 -2.25)
+			(xy -2.65 -3.25)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -247,23 +190,35 @@
 			)
 		)
 	)
+	(pad "" smd roundrect
+		(at -0.55 -1.7)
+		(size 3.2 3.1)
+		(layers "F.Paste")
+		(roundrect_rratio 0.080645)
+	)
+	(pad "" smd roundrect
+		(at -0.55 1.7)
+		(size 3.2 3.1)
+		(layers "F.Paste")
+		(roundrect_rratio 0.080645)
+	)
+	(pad "" smd roundrect
+		(at 2.95 -1.7)
+		(size 3.2 3.1)
+		(layers "F.Paste")
+		(roundrect_rratio 0.080645)
+	)
+	(pad "" smd roundrect
+		(at 2.95 1.7)
+		(size 3.2 3.1)
+		(layers "F.Paste")
+		(roundrect_rratio 0.080645)
+	)
 	(pad "1" smd roundrect
 		(at -4.95 -2.3)
 		(size 1.6 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.166667)
-	)
-	(pad "2" smd roundrect
-		(at -0.55 -1.7)
-		(size 3.2 3.1)
-		(layers "F.Cu" "F.Paste")
-		(roundrect_rratio 0.080645)
-	)
-	(pad "2" smd roundrect
-		(at -0.55 1.7)
-		(size 3.2 3.1)
-		(layers "F.Cu" "F.Paste")
-		(roundrect_rratio 0.080645)
 	)
 	(pad "2" smd roundrect
 		(at 1.2 0)
@@ -271,25 +226,14 @@
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.038462)
 	)
-	(pad "2" smd roundrect
-		(at 2.95 -1.7)
-		(size 3.2 3.1)
-		(layers "F.Cu" "F.Paste")
-		(roundrect_rratio 0.080645)
-	)
-	(pad "2" smd roundrect
-		(at 2.95 1.7)
-		(size 3.2 3.1)
-		(layers "F.Cu" "F.Paste")
-		(roundrect_rratio 0.080645)
-	)
 	(pad "3" smd roundrect
 		(at -4.95 2.3)
 		(size 1.6 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.166667)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/ATPAK-2.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/ATPAK-2.step"
 		(offset
 			(xyz 0 0 0)
 		)

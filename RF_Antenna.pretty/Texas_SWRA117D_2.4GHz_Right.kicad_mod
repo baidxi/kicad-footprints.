@@ -1,7 +1,7 @@
 (footprint "Texas_SWRA117D_2.4GHz_Right"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.ti.com/lit/an/swra117d/swra117d.pdf")
 	(tags "PCB antenna")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "04883dc2-dc74-41f1-b0d8-28521320b62f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -82,7 +72,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Cu")
 		(uuid "174682c4-67e3-4198-af71-67babe6c5bc0")
 	)
@@ -252,4 +242,5 @@
 		(zone_connect 2)
 		(uuid "6869b156-4bfc-423f-9bbe-5fc2b51c29a8")
 	)
+	(embedded_fonts no)
 )

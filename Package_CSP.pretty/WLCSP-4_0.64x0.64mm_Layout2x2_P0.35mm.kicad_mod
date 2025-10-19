@@ -1,8 +1,8 @@
 (footprint "WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "WLCSP-4, 0.64x0.64mm, 4 Ball, 2x2 Layout, 0.35mm Pitch, https://www.onsemi.com/pdf/datasheet/ncp163-d.pdf#page=23")
+	(descr "WLCSP-4, 0.64x0.64mm, 4 Ball, 2x2 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.onsemi.com/pdf/datasheet/ncp163-d.pdf#page=23")
 	(tags "CSP 4 0.35")
 	(property "Reference" "REF**"
 		(at 0 -1.32 0)
@@ -66,13 +66,12 @@
 			(xy -0.54 -0.54)
 			(xy -1.04 -0.54)
 			(xy -0.54 -1.04)
-			(xy -0.54 -0.54)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -170,27 +169,28 @@
 		(at -0.175 -0.175)
 		(size 0.21 0.21)
 		(property pad_prop_bga)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(pad "A2" smd circle
 		(at 0.175 -0.175)
 		(size 0.21 0.21)
 		(property pad_prop_bga)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(pad "B1" smd circle
 		(at -0.175 0.175)
 		(size 0.21 0.21)
 		(property pad_prop_bga)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(pad "B2" smd circle
 		(at 0.175 0.175)
 		(size 0.21 0.21)
 		(property pad_prop_bga)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_CSP.3dshapes/WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_CSP.3dshapes/WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

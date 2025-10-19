@@ -1,11 +1,11 @@
 (footprint "TO-38-3"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "TO-38-3")
+	(descr "TO-38-3, generated with kicad-footprint-generator TO_SOT_THT_generate.py")
 	(tags "TO-38-3")
 	(property "Reference" "REF**"
-		(at 2.54 -9.77 0)
+		(at 2.54 -9.76 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "TO-38-3"
-		(at 2.54 9.77 0)
+		(at 2.54 9.76 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -27,22 +27,22 @@
 	(attr through_hole)
 	(fp_circle
 		(center 2.54 0)
-		(end 11.31 0)
+		(end 11.3 0)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_circle
-		(center 2.54 -0.01)
-		(end 11.44 -0.01)
+		(center 2.54 0)
+		(end 11.44 0)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_circle
@@ -52,7 +52,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -62,11 +62,11 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.54 -9.77 0)
+		(at 2.54 -9.76 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -96,7 +96,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-38-3.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-38-3.step"
 		(offset
 			(xyz 0 0 0)
 		)

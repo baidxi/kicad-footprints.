@@ -1,5 +1,5 @@
 (footprint "TerminalBlock_RND_205-00058_1x04_P5.00mm_45Degree"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "terminal block RND 205-00058, 45Degree (cable under 45degree), 4 pins, pitch 5mm, size 20x12.6mm, drill diameter 1.3mm, pad diameter 2.5mm, http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00056_DB_EN.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_RND")
@@ -25,15 +25,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -2.62 -6.22)
-		(end -2.62 6.62)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
 	(fp_line
 		(start -2.62 -6.22)
 		(end 17.62 -6.22)
@@ -63,16 +54,7 @@
 	)
 	(fp_line
 		(start -2.62 6.62)
-		(end -0.3 6.62)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -1.5 1.73)
-		(end -1.5 4.5)
+		(end -2.62 -6.22)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -81,7 +63,7 @@
 	)
 	(fp_line
 		(start -1.5 4.5)
-		(end 1.5 4.5)
+		(end -1.5 1.73)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -89,8 +71,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0.3 6.62)
-		(end 17.62 6.62)
+		(start -0.3 6.62)
+		(end -2.62 6.62)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -107,6 +89,15 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 1.5 4.5)
+		(end -1.5 4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 1.73 -1.2)
 		(end 3.754 -1.2)
 		(stroke
@@ -116,17 +107,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 3.5 0.862)
-		(end 3.5 4.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 3.5 4.5)
-		(end 6.5 4.5)
+		(end 3.5 0.862)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -152,8 +134,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 8.5 0.862)
-		(end 8.5 4.5)
+		(start 6.5 4.5)
+		(end 3.5 4.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -162,7 +144,7 @@
 	)
 	(fp_line
 		(start 8.5 4.5)
-		(end 11.5 4.5)
+		(end 8.5 0.862)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -188,8 +170,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 13.5 0.862)
-		(end 13.5 4.5)
+		(start 11.5 4.5)
+		(end 8.5 4.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -198,7 +180,7 @@
 	)
 	(fp_line
 		(start 13.5 4.5)
-		(end 16.5 4.5)
+		(end 13.5 0.862)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -224,6 +206,15 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 16.5 4.5)
+		(end 13.5 4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 17.62 -6.22)
 		(end 17.62 6.62)
 		(stroke
@@ -232,9 +223,18 @@
 		)
 		(layer "F.SilkS")
 	)
+	(fp_line
+		(start 17.62 6.62)
+		(end 0.3 6.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
 	(fp_arc
-		(start -1.600031 -4.699875)
-		(mid -0.000065 -5.95)
+		(start -1.6 -4.7)
+		(mid 0 -5.95)
 		(end 1.6 -4.7)
 		(stroke
 			(width 0.12)
@@ -244,8 +244,8 @@
 	)
 	(fp_arc
 		(start 1.6 -4.7)
-		(mid -0.000065 -3.45)
-		(end -1.600031 -4.700125)
+		(mid 0 -3.45)
+		(end -1.6 -4.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -253,8 +253,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 3.399969 -4.699875)
-		(mid 4.999935 -5.95)
+		(start 3.4 -4.7)
+		(mid 5 -5.95)
 		(end 6.6 -4.7)
 		(stroke
 			(width 0.12)
@@ -264,8 +264,8 @@
 	)
 	(fp_arc
 		(start 6.6 -4.7)
-		(mid 4.999935 -3.45)
-		(end 3.399969 -4.700125)
+		(mid 5 -3.45)
+		(end 3.4 -4.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -273,8 +273,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 8.399969 -4.699875)
-		(mid 9.999935 -5.95)
+		(start 8.4 -4.7)
+		(mid 10 -5.95)
 		(end 11.6 -4.7)
 		(stroke
 			(width 0.12)
@@ -284,8 +284,8 @@
 	)
 	(fp_arc
 		(start 11.6 -4.7)
-		(mid 9.999935 -3.45)
-		(end 8.399969 -4.700125)
+		(mid 10 -3.45)
+		(end 8.4 -4.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -293,8 +293,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_arc
-		(start 13.399969 -4.699875)
-		(mid 14.999935 -5.95)
+		(start 13.4 -4.7)
+		(mid 15 -5.95)
 		(end 16.6 -4.7)
 		(stroke
 			(width 0.12)
@@ -304,8 +304,8 @@
 	)
 	(fp_arc
 		(start 16.6 -4.7)
-		(mid 14.999935 -3.45)
-		(end 13.399969 -4.700125)
+		(mid 15 -3.45)
+		(end 13.4 -4.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -317,13 +317,12 @@
 			(xy 0 6.62)
 			(xy 0.44 7.23)
 			(xy -0.44 7.23)
-			(xy 0 6.62)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -570,9 +569,9 @@
 		(layer "F.Fab")
 	)
 	(fp_arc
-		(start -1.600914 -4.700344)
-		(mid 0.000177 -5.95097)
-		(end 1.601 -4.7)
+		(start -1.6 -4.7)
+		(mid 0 -5.95)
+		(end 1.6 -4.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -581,8 +580,8 @@
 	)
 	(fp_arc
 		(start 1.6 -4.7)
-		(mid -0.000065 -3.45)
-		(end -1.600031 -4.700125)
+		(mid 0 -3.45)
+		(end -1.6 -4.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -590,9 +589,9 @@
 		(layer "F.Fab")
 	)
 	(fp_arc
-		(start 3.399086 -4.700344)
-		(mid 5.000177 -5.95097)
-		(end 6.601 -4.7)
+		(start 3.4 -4.7)
+		(mid 5 -5.95)
+		(end 6.6 -4.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -601,8 +600,8 @@
 	)
 	(fp_arc
 		(start 6.6 -4.7)
-		(mid 4.999935 -3.45)
-		(end 3.399969 -4.700125)
+		(mid 5 -3.45)
+		(end 3.4 -4.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -610,9 +609,9 @@
 		(layer "F.Fab")
 	)
 	(fp_arc
-		(start 8.399086 -4.700344)
-		(mid 10.000177 -5.95097)
-		(end 11.601 -4.7)
+		(start 8.4 -4.7)
+		(mid 10 -5.95)
+		(end 11.6 -4.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -621,8 +620,8 @@
 	)
 	(fp_arc
 		(start 11.6 -4.7)
-		(mid 9.999935 -3.45)
-		(end 8.399969 -4.700125)
+		(mid 10 -3.45)
+		(end 8.4 -4.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -630,9 +629,9 @@
 		(layer "F.Fab")
 	)
 	(fp_arc
-		(start 13.399086 -4.700344)
-		(mid 15.000177 -5.95097)
-		(end 16.601 -4.7)
+		(start 13.4 -4.7)
+		(mid 15 -5.95)
+		(end 16.6 -4.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -641,8 +640,8 @@
 	)
 	(fp_arc
 		(start 16.6 -4.7)
-		(mid 14.999935 -3.45)
-		(end 13.399969 -4.700125)
+		(mid 15 -3.45)
+		(end 13.4 -4.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -688,7 +687,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00058_1x04_P5.00mm_45Degree.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00058_1x04_P5.00mm_45Degree.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Smolhaj_Scale_0.1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "BLÅHAJ , smol 50cm nominal, 1:10 scale (56mm Snoot-Flosse), MPN 205.406.63 (https://www.ikea.com/gb/en/p/blahaj-soft-toy-baby-shark-20540663/)")
 	(tags "Ikea Smol Haj")
@@ -23,19 +23,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "72ce629d-03fd-484b-9349-8f3e0a716020")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -0.6 -8.8 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6ce73d67-cd09-430f-a884-88b17bf1d843")
 		(effects
 			(font
 				(size 1 1)
@@ -6008,7 +5995,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "d182c82b-8cb3-4876-a37c-62f15b164e13")
 	)
@@ -6045,7 +6032,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "63d52148-22d2-422e-8221-a778984f51e7")
 	)
@@ -6078,7 +6065,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "e36da28a-1120-409d-9925-eeaa18cc4b65")
 	)
@@ -6209,7 +6196,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ae1bad8b-7c47-48a8-8af5-1e6d79f71488")
 	)
@@ -6234,17 +6221,6 @@
 			(xy 0 0) (xy -56 0)
 		)
 		(height 15.25)
-		(gr_text "56.0000 mm"
-			(at -28 -16.4 0)
-			(layer "User.2")
-			(uuid "5a6ff977-53c6-4f36-9f80-a0b8f1c6699c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(format
 			(prefix "")
 			(suffix "")
@@ -6256,8 +6232,22 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "56.0000 mm"
+			(at -28 -16.4 0)
+			(layer "User.2")
+			(uuid "5a6ff977-53c6-4f36-9f80-a0b8f1c6699c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 	)
 	(dimension
 		(type leader)
@@ -6265,17 +6255,6 @@
 		(uuid "0ef799ac-5237-47c6-af33-b39d7edf1fea")
 		(pts
 			(xy -25.369121 -10.545923) (xy -19.5 -12.5)
-		)
-		(gr_text "Antenna"
-			(at -14.5 -12.5 0)
-			(layer "User.2")
-			(uuid "0ef799ac-5237-47c6-af33-b39d7edf1fea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(format
 			(prefix "")
@@ -6292,6 +6271,17 @@
 			(text_frame 0)
 			(extension_offset 0.5)
 		)
+		(gr_text "Antenna"
+			(at -14.5 -12.5 0)
+			(layer "User.2")
+			(uuid "0ef799ac-5237-47c6-af33-b39d7edf1fea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 	)
 	(dimension
 		(type leader)
@@ -6299,17 +6289,6 @@
 		(uuid "430bd48d-5f4f-404d-ab84-873bf8d3af80")
 		(pts
 			(xy -51.5 -6) (xy -47.25 -8.25)
-		)
-		(gr_text "Flosse"
-			(at -42.25 -8.25 0)
-			(layer "User.2")
-			(uuid "430bd48d-5f4f-404d-ab84-873bf8d3af80")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(format
 			(prefix "")
@@ -6326,6 +6305,17 @@
 			(text_frame 0)
 			(extension_offset 0.5)
 		)
+		(gr_text "Flosse"
+			(at -42.25 -8.25 0)
+			(layer "User.2")
+			(uuid "430bd48d-5f4f-404d-ab84-873bf8d3af80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 	)
 	(dimension
 		(type leader)
@@ -6333,17 +6323,6 @@
 		(uuid "4d861637-9ea5-4bf9-99cf-016362f0a69b")
 		(pts
 			(xy -6.25 5.5) (xy 1 7.25)
-		)
-		(gr_text "Teethies"
-			(at 6 7.25 0)
-			(layer "User.2")
-			(uuid "4d861637-9ea5-4bf9-99cf-016362f0a69b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(format
 			(prefix "")
@@ -6360,6 +6339,17 @@
 			(text_frame 0)
 			(extension_offset 0.5)
 		)
+		(gr_text "Teethies"
+			(at 6 7.25 0)
+			(layer "User.2")
+			(uuid "4d861637-9ea5-4bf9-99cf-016362f0a69b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 	)
 	(dimension
 		(type leader)
@@ -6367,17 +6357,6 @@
 		(uuid "9800137c-8da3-4742-b1a6-12d8bcd3dc03")
 		(pts
 			(xy 0 0) (xy 2.25 -4)
-		)
-		(gr_text "Boopsnoot"
-			(at 8.25 -4 0)
-			(layer "User.2")
-			(uuid "9800137c-8da3-4742-b1a6-12d8bcd3dc03")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(format
 			(prefix "")
@@ -6394,8 +6373,20 @@
 			(text_frame 0)
 			(extension_offset 0.5)
 		)
+		(gr_text "Boopsnoot"
+			(at 8.25 -4 0)
+			(layer "User.2")
+			(uuid "9800137c-8da3-4742-b1a6-12d8bcd3dc03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Symbol.3dshapes/Smolhaj_Scale_0.1.step"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Symbol.3dshapes/Smolhaj_Scale_0.1.step"
 		(offset
 			(xyz 0 0 0)
 		)

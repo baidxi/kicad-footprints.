@@ -1,7 +1,7 @@
 (footprint "ToolingHole_1.152mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
 	(tags "mounting")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4d57baf0-ed05-4d31-8f22-3b2d1e8a683b")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -75,7 +62,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4ab661cc-c5d2-4d56-ab04-8b7ea2160825")
 	)
@@ -101,7 +88,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "c71142d4-3245-42aa-a0cf-f1f708fcbdd2")
 		(hatch edge 0.5)
 		(connect_pads
@@ -116,6 +108,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -127,8 +123,9 @@
 				(xy -0.397645 -0.576089) (xy -0.523958 -0.464186) (xy -0.619819 -0.325306) (xy -0.679659 -0.167521)
 				(xy -0.7 0) (xy -0.679659 0.167521) (xy -0.619819 0.325306) (xy -0.523958 0.464186) (xy -0.397645 0.576089)
 				(xy -0.248223 0.654511) (xy -0.084376 0.694896) (xy 0.084376 0.694896) (xy 0.248223 0.654511) (xy 0.397645 0.576089)
-				(xy 0.523958 0.464186) (xy 0.619819 0.325306) (xy 0.679659 0.167521) (xy 0.7 0)
+				(xy 0.523958 0.464186) (xy 0.619819 0.325306) (xy 0.679659 0.167521)
 			)
 		)
 	)
+	(embedded_fonts no)
 )

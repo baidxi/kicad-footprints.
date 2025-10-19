@@ -1,7 +1,7 @@
 (footprint "RaspberryPi_Pico_Common_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Raspberry Pi Pico common (Pico & Pico W) through-hole footprint, supports Raspberry Pi Pico 2, default socketed model has height of 8.51mm, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
 	(tags "module usb pcb antenna")
@@ -26,18 +26,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 8.89 24.13 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "009667ca-335a-4690-9547-330c207e2975")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -448,7 +436,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "4aca264f-6f34-4880-b126-cc80b3f96eba")
 	)
@@ -459,7 +447,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "834d1fa7-c403-4798-a22d-0eea1ec9855f")
 	)
@@ -470,7 +458,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "befd5b95-ffd5-412d-a5ff-9eadf0a8db1e")
 	)
@@ -481,7 +469,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "df8d692d-b811-4ff0-8ce0-9867aa868cbd")
 	)
@@ -494,7 +482,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c678a640-8e5b-4768-8227-e637f806a505")
 	)
@@ -575,7 +563,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f9242e89-ae13-4c80-8b25-81b9eae42fef")
 	)
@@ -586,7 +574,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9ebfd55f-d7ec-48a6-b6ec-6fc26a4b8131")
 	)
@@ -597,7 +585,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d7a4e2bd-dab3-45d1-833d-6cd5e177cf28")
 	)
@@ -665,7 +653,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "831a08de-ffd4-4501-8b6f-61a068613bd9")
 	)
@@ -1240,7 +1228,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu" "*.Paste")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "F.Paste"
+			"In6.Cu" "B.Paste" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu"
+			"In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu"
+			"In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu"
+			"In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
 		(uuid "ebc3178d-5081-4530-8c30-87e92b6d79b8")
 		(name "Antenna Copper Keep Out")
 		(hatch full 0.5)
@@ -1255,6 +1248,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -1286,6 +1283,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -1295,13 +1296,6 @@
 				(xy 3.14 -3.57) (xy 4.95 -3.57) (xy 4.95 -3.17) (xy 12.83 -3.17) (xy 12.83 -3.57) (xy 14.64 -3.57)
 				(xy 14.64 -23.07) (xy 3.14 -23.07)
 			)
-		)
-	)
-	(group ""
-		(uuid "b5b84e0b-f437-4b6a-8223-3e9cd661573f")
-		(members "06952b02-f288-4d40-976f-7100ca825fe5" "81ba3927-b3ac-4375-adb8-7bd636423070"
-			"a20c35c5-bd38-411f-85c6-9356a37cb83c" "e86d9008-c23a-401d-82b1-68e40dd8de34"
-			"ebc3178d-5081-4530-8c30-87e92b6d79b8" "ffa1f67f-f66b-4415-8453-1f7d2e1cb5e2"
 		)
 	)
 	(group ""
@@ -1330,6 +1324,13 @@
 			"efd5acec-15ca-4365-b498-438f33b7e2f8" "f083607d-ccd4-4c54-bf23-53abdbeb3b03"
 			"f6afce6f-1985-44fb-8f62-1c50ec051a40" "fa486b5a-acaf-42ba-a401-0009298757f8"
 			"fc53a0e8-1d70-43ca-a565-98375803c030" "fed1f427-c7fb-450f-b195-2218b1ea047d"
+		)
+	)
+	(group ""
+		(uuid "b5b84e0b-f437-4b6a-8223-3e9cd661573f")
+		(members "06952b02-f288-4d40-976f-7100ca825fe5" "81ba3927-b3ac-4375-adb8-7bd636423070"
+			"a20c35c5-bd38-411f-85c6-9356a37cb83c" "e86d9008-c23a-401d-82b1-68e40dd8de34"
+			"ebc3178d-5081-4530-8c30-87e92b6d79b8" "ffa1f67f-f66b-4415-8453-1f7d2e1cb5e2"
 		)
 	)
 	(group ""
@@ -1374,7 +1375,8 @@
 			"f86cfcdf-870a-41c1-9198-3e5a9a38c6ad" "f9242e89-ae13-4c80-8b25-81b9eae42fef"
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_DIP-40_W17.78mm_H8.51mm_Socket.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_PinSockets_H8.50mm.step"
 		(hide yes)
 		(offset
 			(xyz 8.89 -24.13 0)
@@ -1386,7 +1388,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_AddedHeaders.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_AddedHeaders_H2.54mm.step"
 		(hide yes)
 		(offset
 			(xyz 8.89 -24.13 0)
@@ -1398,7 +1400,18 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_AddedHeaders_Socketed.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_H.step"
+		(offset
+			(xyz 8.89 -24.13 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_W_AddedHeaders_H2.54mm.step"
 		(hide yes)
 		(offset
 			(xyz 8.89 -24.13 0)
@@ -1410,66 +1423,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_H.wrl"
-		(offset
-			(xyz 8.89 -24.13 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_H_Socketed.wrl"
-		(hide yes)
-		(offset
-			(xyz 8.89 -24.13 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_W_AddedHeaders.wrl"
-		(hide yes)
-		(offset
-			(xyz 8.89 -24.13 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_W_AddedHeaders_Socketed.wrl"
-		(hide yes)
-		(offset
-			(xyz 8.89 -24.13 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_WH.wrl"
-		(hide yes)
-		(offset
-			(xyz 8.89 -24.13 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_WH_Socketed.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_WH.step"
 		(hide yes)
 		(offset
 			(xyz 8.89 -24.13 0)

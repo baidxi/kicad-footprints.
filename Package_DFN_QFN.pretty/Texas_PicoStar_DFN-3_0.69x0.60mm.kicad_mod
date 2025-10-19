@@ -1,7 +1,7 @@
 (footprint "Texas_PicoStar_DFN-3_0.69x0.60mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Picostar DFN-3, 0.73x0.64mm max, 0.69x0.60mm nom, https://www.ti.com/lit/ds/symlink/csd13380f3.pdf")
 	(tags "TI YJM0003A")
@@ -22,19 +22,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f318e81a-afd5-44ee-97f2-4fbf3b44ac03")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 1.35 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f44ef55c-5a35-4458-8e90-9be41e54e60d")
 		(effects
 			(font
 				(size 1 1)
@@ -96,7 +83,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "9f1c0ccf-05e9-4b39-bb6c-e0de3d7eabf5")
 	)
@@ -199,14 +186,15 @@
 	(pad "3" smd roundrect
 		(at 0.225 0)
 		(size 0.25 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.4)
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
 		(thermal_bridge_angle 45)
 		(uuid "c710e97e-05c5-433d-93d8-c4ce72cdaffe")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_PicoStar_DFN-3_0.69x0.60mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_PicoStar_DFN-3_0.69x0.60mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

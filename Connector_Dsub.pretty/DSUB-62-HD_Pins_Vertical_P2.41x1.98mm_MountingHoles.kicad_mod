@@ -1,5 +1,5 @@
 (footprint "DSUB-62-HD_Pins_Vertical_P2.41x1.98mm_MountingHoles"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "62-pin D-Sub connector, straight/vertical, THT-mount, pins (male), pitch 2.41x1.98mm, distance of mounting holes 63.5mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
@@ -44,8 +44,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -3.57147 -0.281744)
-		(end -2.672202 4.818256)
+		(start -2.672202 4.818256)
+		(end -3.57147 -0.281744)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -55,15 +55,6 @@
 	(fp_line
 		(start -1.936689 -2.23)
 		(end 49.026689 -2.23)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -1.037421 6.19)
-		(end 48.127421 6.19)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -91,6 +82,15 @@
 	(fp_line
 		(start 0.25 -5.224338)
 		(end 0 -4.791325)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 48.127421 6.19)
+		(end -1.037421 6.19)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -259,8 +259,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -3.523887 -0.292163)
-		(end -2.624619 4.807837)
+		(start -2.624619 4.807837)
+		(end -3.523887 -0.292163)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -277,8 +277,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -1.048927 6.13)
-		(end 48.138927 6.13)
+		(start 48.138927 6.13)
+		(end -1.048927 6.13)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -850,7 +850,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-62-HD_Pins_Vertical_P2.41x1.98mm_MountingHoles.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-62-HD_Pins_Vertical_P2.41x1.98mm_MountingHoles.step"
 		(offset
 			(xyz 0 0 0)
 		)
