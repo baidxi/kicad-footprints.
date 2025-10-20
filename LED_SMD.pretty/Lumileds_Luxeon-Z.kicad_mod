@@ -1,0 +1,172 @@
+(footprint "Lumileds_Luxeon-Z"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Color LED, body size 1.3x1.7mm, (Body size source: https://www.mouser.de/datasheet/2/602/DS105-542323.pdf)")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at 0.1 -1.7 0)
+		(layer "F.SilkS")
+		(uuid "a058beaa-7c45-4a55-b198-e52e3cae2779")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Lumileds_Luxeon-Z"
+		(at 0.5 1.8 180)
+		(layer "F.Fab")
+		(uuid "9bec4d95-31bd-4957-9d78-00be6276bd80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1df48b1-65b8-4c2c-880a-eead291f53f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e51aa7c0-8d0d-4af3-b4c3-a582fdb037d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1 0)
+		(end -0.95 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4533bfd5-76fc-4007-bd95-039994f556bc")
+	)
+	(fp_circle
+		(center 0 -0.22)
+		(end 0.02 -0.22)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Cmts.User")
+		(uuid "2d442c86-c572-4da0-b45c-7bed21f0bcca")
+	)
+	(fp_rect
+		(start -0.75 -0.95)
+		(end 0.75 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b82e1a54-fa50-4522-9674-f20828dd0b08")
+	)
+	(fp_rect
+		(start -0.65 -0.85)
+		(end 0.65 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "23b8efd1-1f39-4be0-85de-b8179ae8b454")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "155c353d-135b-4ee3-9fb8-8c78b076dba9")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(dimension
+		(type leader)
+		(layer "Cmts.User")
+		(uuid "5974cf62-850d-4746-a6d7-6ec8d5483b39")
+		(pts
+			(xy 0 -0.163) (xy 0 -0.954)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 0)
+			(units_format 0)
+			(precision 4)
+			(override_value "Optical center")
+		)
+		(style
+			(thickness 0.02)
+			(arrow_length 0.1)
+			(text_position_mode 0)
+			(text_frame 0)
+			(extension_offset 0.2)
+		)
+		(gr_text "Optical center"
+			(at 0 -0.7 0)
+			(layer "Cmts.User")
+			(uuid "5974cf62-850d-4746-a6d7-6ec8d5483b39")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.35 0)
+		(size 0.45 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.166666)
+		(solder_paste_margin -0.075)
+		(uuid "cc67d696-143c-46a8-9440-87e26bfa63f2")
+	)
+	(pad "2" smd roundrect
+		(at 0.35 0 180)
+		(size 0.45 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin -0.075)
+		(uuid "b7db93e3-454d-4a83-8427-b261c1ec643e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
