@@ -3,7 +3,6 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "VQFN-29, 4x4mm, P0.4mm")
 	(tags "Texas")
 	(property "Reference" "REF**"
 		(at -0.4 -3.1 0)
@@ -17,7 +16,7 @@
 		)
 	)
 	(property "Value" "Texas_RQM0029A_VQFN-29_4x4mm_P0.4mm"
-		(at 3.2396 3.0564 0)
+		(at 0 3.1 0)
 		(layer "F.Fab")
 		(uuid "0b803533-34e2-4e2f-9a4a-2cce9d6f3920")
 		(effects
@@ -27,7 +26,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.ti.com/lit/ml/mpqf573/mpqf573.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -65,9 +64,9 @@
 	)
 	(fp_circle
 		(center -2.995 -1.6)
-		(end -2.895 -1.6)
+		(end -2.92 -1.6)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(fill no)
@@ -118,7 +117,7 @@
 		(start -2 -2)
 		(end 2 -2)
 		(stroke
-			(width 0.127)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -128,7 +127,7 @@
 		(start -2 2)
 		(end -2 -2)
 		(stroke
-			(width 0.127)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -138,7 +137,7 @@
 		(start 2 -2)
 		(end 2 2)
 		(stroke
-			(width 0.127)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -148,7 +147,7 @@
 		(start 2 2)
 		(end -2 2)
 		(stroke
-			(width 0.127)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -164,6 +163,18 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "ccb0c721-7d0d-4624-b49d-b99b4936852d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d9918b03-5ded-4891-bb7a-99358fe8d392")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
 	)
 	(pad "1" smd custom
 		(at -1.9 -1.6)
