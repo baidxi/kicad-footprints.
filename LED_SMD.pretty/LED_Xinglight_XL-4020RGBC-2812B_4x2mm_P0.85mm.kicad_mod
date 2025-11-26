@@ -1,0 +1,157 @@
+(footprint "LED_Xinglight_XL-4020RGBC-2812B_4x2mm_P0.85mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4x2m Addressable RGB LED NeoPixel, https://www.lcsc.com/datasheet/C3647024.pdf")
+	(tags "LED RGB NeoPixel 4020")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "e33481b9-4b80-47b2-a796-6e992c1a6064")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_Xinglight_XL-4020RGBC-2812B_4x2mm_P0.85mm"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "184cce2d-eec7-4be7-92bc-88a9287fced7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1e557a1-698c-441e-a447-75f3605b7802")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c239c186-e65d-4681-b439-84b5db826f1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.975 -0.4)
+		(end -1.4 -0.975)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c3fffcec-40ce-4bef-9ce3-bf666b1b5268")
+	)
+	(fp_rect
+		(start -1.975 -0.975)
+		(end 1.975 0.975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a348d363-66a0-4a82-95b3-911326936bb8")
+	)
+	(fp_rect
+		(start -2.05 -1.05)
+		(end 2.05 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9f94a119-dc1d-44a8-b527-05958a73f6d0")
+	)
+	(fp_line
+		(start -1.975 -0.4)
+		(end -1.4 -0.975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a113ef51-8a71-4651-b9e0-c542d6052b42")
+	)
+	(fp_rect
+		(start -1.975 -0.975)
+		(end 1.975 0.975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4cc28112-e3c8-45c3-ad5f-af61694edb31")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.9 0)
+		(layer "F.Fab")
+		(uuid "384985e0-9d96-44d4-a517-d4b5551aea8c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.275 0.3 270)
+		(size 1.15 0.41)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "98c0776d-12ee-4925-979d-e6f185bef9ce")
+	)
+	(pad "2" smd rect
+		(at -0.425 0.3 270)
+		(size 1.15 0.41)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9f7c7f30-2e0e-4df5-af1d-1d3853e2776e")
+	)
+	(pad "3" smd rect
+		(at 0.425 0.3 270)
+		(size 1.15 0.41)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "088f7fe1-40a9-4e05-8019-68bb65ef1a2c")
+	)
+	(pad "4" smd rect
+		(at 1.275 0.3 270)
+		(size 1.15 0.41)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fb2ff826-1449-44e4-95ed-947ecaa01cb9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
