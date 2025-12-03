@@ -3,13 +3,15 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "CompuLab UCM-iMX95 System-on-Module footprint")
+	(tags "ucm imx95 som compulab module")
 	(property "Reference" "REF**"
 		(at 0 -15.65 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "568f0a25-890c-4859-a8bd-91e5228cbccd")
 		(effects
-			(font (size 1 1) (thickness 0.1))
+			(font (size 1 1) (thickness 0.15))
 		)
 	)
 	(property "Value" "MCU_ucm-imx91"
@@ -21,7 +23,7 @@
 			(font (size 1 1) (thickness 0.15))
 		)
 	)
-	(property "Datasheet" "https://www.compulab.com/wp-content/uploads/2025/04/ucm-imx91l_reference-guide_2025-04-06.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -31,7 +33,7 @@
 			(font (size 1 1) (thickness 0.15))
 		)
 	)
-	(property "Description" ""
+	(property "Description" "CompuLab UCM-iMX95 System-on-Module footprint"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -42,13 +44,6 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -14.88 13.85)
-		(end 14.85 13.85)
-		(stroke (width 0.12) (type solid))
-		(layer "F.SilkS")
-		(uuid "5e522c82-050b-4e75-889a-66b4e827680d")
-	)
 	(fp_line
 		(start -14.85 -13.85)
 		(end -14.88 13.85)
@@ -62,6 +57,13 @@
 		(stroke (width 0.12) (type solid))
 		(layer "F.SilkS")
 		(uuid "a0b0e65e-7f6c-4b9a-9a0a-11c191942e66")
+	)
+	(fp_line
+		(start -14.85 13.85)
+		(end 14.85 13.85)
+		(stroke (width 0.12) (type solid))
+		(layer "F.SilkS")
+		(uuid "5e522c82-050b-4e75-889a-66b4e827680d")
 	)
 	(fp_line
 		(start -11.895 -12.6625)
@@ -199,7 +201,7 @@
 	(fp_circle
 		(center -13.8 -12.8)
 		(end -13.409488 -12.8)
-		(stroke (width 0.2) (type solid))
+		(stroke (width 0.15) (type solid))
 		(fill yes)
 		(layer "F.SilkS")
 		(uuid "658d7082-be17-482b-aef9-96b5549db619")
@@ -223,21 +225,21 @@
 	(fp_line
 		(start -15.25 -14.25)
 		(end -15.25 14.25)
-		(stroke (width 0.1) (type solid))
+		(stroke (width 0.05) (type solid))
 		(layer "F.CrtYd")
 		(uuid "f65af0f5-64ca-42cd-811d-597b6c3b38de")
 	)
 	(fp_line
 		(start -15.25 -14.25)
 		(end 15.25 -14.25)
-		(stroke (width 0.1) (type solid))
+		(stroke (width 0.05) (type solid))
 		(layer "F.CrtYd")
 		(uuid "ab0b99f0-2d1e-401f-99c9-8cd833a47de3")
 	)
 	(fp_line
 		(start -15.25 14.25)
 		(end 15.25 14.25)
-		(stroke (width 0.1) (type solid))
+		(stroke (width 0.05) (type solid))
 		(layer "F.CrtYd")
 		(uuid "3e7b0db8-7e31-49e7-a424-ad6f2538b14b")
 	)
@@ -300,28 +302,28 @@
 	(fp_line
 		(start 15.25 14.25)
 		(end 15.25 -14.25)
-		(stroke (width 0.1) (type solid))
+		(stroke (width 0.05) (type solid))
 		(layer "F.CrtYd")
 		(uuid "9674bcba-e22a-4bd0-a4b1-41b6ee2b2bec")
 	)
 	(fp_line
 		(start -15 -14)
 		(end -15 14)
-		(stroke (width 0.15) (type solid))
+		(stroke (width 0.1) (type solid))
 		(layer "F.Fab")
 		(uuid "6b66b474-f057-4252-819e-13c07c70726b")
 	)
 	(fp_line
 		(start -15 -14)
 		(end 15 -14)
-		(stroke (width 0.15) (type solid))
+		(stroke (width 0.1) (type solid))
 		(layer "F.Fab")
 		(uuid "a64818be-ced9-4fe4-99e5-7bfc03000b22")
 	)
 	(fp_line
 		(start -15 14)
 		(end 15 14)
-		(stroke (width 0.15) (type solid))
+		(stroke (width 0.1) (type solid))
 		(layer "F.Fab")
 		(uuid "5e568b8f-2ae1-44a1-a494-298fab067108")
 	)
@@ -412,7 +414,7 @@
 	(fp_line
 		(start 15 14)
 		(end 15 -14)
-		(stroke (width 0.15) (type solid))
+		(stroke (width 0.1) (type solid))
 		(layer "F.Fab")
 		(uuid "9eaca39b-6458-470c-b5d1-e3ba02006823")
 	)
@@ -2022,4 +2024,9 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Module_Generic.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )
