@@ -250,104 +250,25 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -2.51 -2.66)
-		(end -2.51 2.66)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-	)
-	(fp_line
-		(start -2.51 2.66)
 		(end 6.91 2.66)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
+		(fill no)
 		(layer "B.SilkS")
 	)
-	(fp_line
-		(start 6.91 -2.66)
-		(end -2.51 -2.66)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-	)
-	(fp_line
-		(start 6.91 2.66)
-		(end 6.91 -2.66)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-	)
-	(fp_line
+	(fp_rect
 		(start -5.14 -8.23)
-		(end -5.14 28.23)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -5.14 28.23)
 		(end 8.36 28.23)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 8.36 -8.23)
-		(end -5.14 -8.23)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 8.36 28.23)
-		(end 8.36 -8.23)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -4.64 8.2)
-		(end -1.34 8.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -4.64 11.8)
-		(end -4.64 8.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.34 -6.91)
-		(end -1.34 26.91)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
 	)
 	(fp_line
 		(start -1.34 -5.45)
@@ -368,35 +289,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -1.34 8.2)
-		(end -1.34 11.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.34 11.8)
-		(end -4.64 11.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start -1.34 25.45)
 		(end 7.86 25.45)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.34 26.91)
-		(end 7.86 26.91)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -415,15 +309,6 @@
 	(fp_line
 		(start 6.162944 0)
 		(end 7.86 1.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 7.86 -6.91)
-		(end -1.34 -6.91)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -460,15 +345,6 @@
 	(fp_line
 		(start 7.86 19.2)
 		(end 9.46 19.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 7.86 26.91)
-		(end 7.86 -6.91)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -527,6 +403,26 @@
 			(width 0.1)
 			(type solid)
 		)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -4.64 8.2)
+		(end -1.34 11.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -1.34 -6.91)
+		(end 7.86 26.91)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"

@@ -35,26 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.11 -1.61)
-		(end -2.11 2.26)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start -2.11 0.8)
 		(end -1.71 0.8)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -2.11 2.26)
-		(end 16.11 2.26)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -179,15 +161,6 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 16.11 -1.61)
-		(end -2.11 -1.61)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 16.11 0.8)
 		(end 15.71 0.8)
 		(stroke
@@ -196,68 +169,25 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start 16.11 2.26)
-		(end 16.11 -1.61)
+	(fp_rect
+		(start -2.11 -1.61)
+		(end 16.11 2.26)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -2.5 -2)
-		(end -2.5 2.65)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -2.5 2.65)
 		(end 16.5 2.65)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 16.5 -2)
-		(end -2.5 -2)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 16.5 2.65)
-		(end 16.5 -2)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -2 -1.5)
-		(end -2 2.15)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2 2.15)
-		(end 16 2.15)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
 	)
 	(fp_line
 		(start -0.5 -1.5)
@@ -277,22 +207,14 @@
 		)
 		(layer "F.Fab")
 	)
-	(fp_line
-		(start 16 -1.5)
-		(end -2 -1.5)
+	(fp_rect
+		(start -2 -1.5)
+		(end 16 2.15)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 16 2.15)
-		(end 16 -1.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"

@@ -27,11 +27,11 @@
 	(attr smd)
 	(fp_poly
 		(pts
-			(xy -1.51 -0.91)
-			(xy -1.51 1.21)
-			(xy 1.51 1.21)
-			(xy 1.51 -1.21)
 			(xy -1.21 -1.21)
+			(xy 1.51 -1.21)
+			(xy 1.51 1.21)
+			(xy -1.51 1.21)
+			(xy -1.51 -0.91)
 		)
 		(stroke
 			(width 0.12)
@@ -40,59 +40,15 @@
 		(fill no)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -1.5 -1.25)
-		(end -1.5 1.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.5 1.25)
 		(end 1.5 1.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 1.5 -1.25)
-		(end -1.5 -1.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 1.5 1.25)
-		(end 1.5 -1.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1 -1)
-		(end -1 1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1 1)
-		(end 1 1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
 	)
 	(fp_line
 		(start 0 -1)
@@ -103,22 +59,14 @@
 		)
 		(layer "F.Fab")
 	)
-	(fp_line
-		(start 1 -1)
-		(end -1 -1)
+	(fp_rect
+		(start -1 -1)
+		(end 1 1)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 1 1)
-		(end 1 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle

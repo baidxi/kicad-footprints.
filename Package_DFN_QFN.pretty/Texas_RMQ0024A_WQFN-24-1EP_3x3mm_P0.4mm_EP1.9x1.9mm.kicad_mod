@@ -5,7 +5,7 @@
 	(descr "Texas RMQ0024A WQFN, 24 Pin (https://www.ti.com/jp/lit/ml/mpqf398a/mpqf398a.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
 	(tags "Texas WQFN NoLead")
 	(property "Reference" "REF**"
-		(at 0 -2.45 0)
+		(at 0 -2.83 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "Texas_RMQ0024A_WQFN-24-1EP_3x3mm_P0.4mm_EP1.9x1.9mm"
-		(at 0 2.45 0)
+		(at 0 2.83 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -94,7 +94,7 @@
 	)
 	(fp_line
 		(start -1.75 -1.75)
-		(end 1.75 -1.75)
+		(end -1.25 -1.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -122,6 +122,78 @@
 	(fp_line
 		(start -1.75 1.75)
 		(end -1.75 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.25 -2.13)
+		(end 1.25 -2.13)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.25 -1.75)
+		(end -1.25 -2.13)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.25 1.75)
+		(end -1.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.25 2.13)
+		(end -1.25 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.25 -2.13)
+		(end 1.25 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.25 -1.75)
+		(end 1.75 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.25 1.75)
+		(end 1.25 2.13)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.25 2.13)
+		(end -1.25 2.13)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -157,7 +229,7 @@
 	)
 	(fp_line
 		(start 1.75 1.75)
-		(end -1.75 1.75)
+		(end 1.25 1.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -184,11 +256,11 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.5 -0.75)
-			(xy -1.5 1.5)
-			(xy 1.5 1.5)
-			(xy 1.5 -1.5)
 			(xy -0.75 -1.5)
+			(xy 1.5 -1.5)
+			(xy 1.5 1.5)
+			(xy -1.5 1.5)
+			(xy -1.5 -0.75)
 		)
 		(stroke
 			(width 0.1)
