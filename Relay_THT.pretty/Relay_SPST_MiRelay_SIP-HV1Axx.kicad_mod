@@ -1,0 +1,175 @@
+(footprint "Relay_SPST_MiRelay_SIP-HV1Axx"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MiRelay SIP-Relays, Form 1A, see https://www.lcsc.com/datasheet/C22388648.pdf")
+	(tags "Standex Meder SIL reed relais")
+	(property "Reference" "REF**"
+		(at 7.75 -3.95 0)
+		(layer "F.SilkS")
+		(uuid "c5fc4b12-fd4c-471d-9a41-08d565b75a41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Relay_SPST_MiRelay_SIP-HV1Axx"
+		(at 7.65 3.55 0)
+		(layer "F.Fab")
+		(uuid "b0f35246-08d2-4a83-8666-fcc9866dafeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb867e96-034f-4576-98e0-e9373536c55a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b0ec9b8-8fe2-4b7e-b199-b40d9bbec345")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.34 3.55)
+		(end -2.34 2.05)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f87650e1-f10c-4b09-ba69-8c56094f15f6")
+	)
+	(fp_line
+		(start -2.34 3.55)
+		(end -0.84 3.55)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77a87956-e187-4e4b-846f-21fc517f133f")
+	)
+	(fp_rect
+		(start -1.97 -3.18)
+		(end 22.29 3.18)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d7688b3a-5628-4884-a057-e0ca97ff79c4")
+	)
+	(fp_rect
+		(start -2.34 -3.55)
+		(end 22.66 3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d680e4d6-8c4d-4402-a9e2-9232d4ba628d")
+	)
+	(fp_line
+		(start -1.89 1.92)
+		(end -0.71 3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d4bb6666-a272-4af1-8ebf-f7c846f484f5")
+	)
+	(fp_rect
+		(start -1.89 -3.1)
+		(end 22.21 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c9a24558-e92c-41fd-9a1f-1a56116c9c0e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.75 0 0)
+		(layer "F.Fab")
+		(uuid "17b44154-70fc-46dd-8614-fb93112512ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "250504e2-9f79-429e-a2a3-431427fbeced")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b412afa3-1350-40fd-95b6-37411cb5ab30")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7db7f7b2-12b5-4861-9a36-da03738e426c")
+	)
+	(pad "9" thru_hole circle
+		(at 20.32 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "13219447-104c-4eb0-b74c-3f92ee65ba52")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPST_MiRelay_SIP-HV1Axx.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
