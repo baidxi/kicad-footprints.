@@ -3,10 +3,10 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "VQFN-29, 4x4mm, P0.4mm  https://www.ti.com/lit/ml/mpqf573/mpqf573.pdf")
-	(tags "Texas")
+	(descr "Texas RQM0029A VQFN, 29 Pin, https://www.ti.com/lit/ml/mpqf573/mpqf573.pdf")
+	(tags "Texas-Instruments NoLead")
 	(property "Reference" "REF**"
-		(at -0.4 -3.1 0)
+		(at 0 -3.1 0)
 		(layer "F.SilkS")
 		(uuid "0e10b274-e58c-4704-8761-989f2251221f")
 		(effects
@@ -17,13 +17,13 @@
 		)
 	)
 	(property "Value" "Texas_RQM0029A_VQFN-29_4x4mm_P0.4mm"
-		(at 0 3.1 0)
+		(at 0 3.2 0)
 		(layer "F.Fab")
 		(uuid "0b803533-34e2-4e2f-9a4a-2cce9d6f3920")
 		(effects
 			(font
-				(size 0.64 0.64)
-				(thickness 0.1)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -52,27 +52,97 @@
 		)
 	)
 	(attr smd)
-	(fp_rect
-		(start -2.3 -2.3)
-		(end 2.3 2.3)
+	(fp_line
+		(start -2.1 -2.1)
+		(end -1.7 -2.1)
 		(stroke
-			(width 0.12)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(fill no)
 		(layer "F.SilkS")
-		(uuid "0169f4de-a5c1-4eb6-be16-a29af9d71b55")
+		(uuid "8838713a-a79b-4da6-833b-4b2cb45a8b2d")
 	)
-	(fp_circle
-		(center -2.995 -1.6)
-		(end -2.935 -1.6)
+	(fp_line
+		(start -2.1 -1.95)
+		(end -2.1 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "820e805d-0e0b-4874-a7e1-33613881409d")
+	)
+	(fp_line
+		(start -2.1 1.95)
+		(end -2.1 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8868a8df-914a-4091-9d7d-a91bf95d8856")
+	)
+	(fp_line
+		(start -2.1 2.1)
+		(end -1.75 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "447735bd-41b9-4a86-9017-1a168e5ba9be")
+	)
+	(fp_line
+		(start 2.1 -2.1)
+		(end 1.7 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "600e54e3-947d-4cae-b7d7-17b73524c067")
+	)
+	(fp_line
+		(start 2.1 -1.95)
+		(end 2.1 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cbdefd07-b5b2-4d9e-995a-21304618916e")
+	)
+	(fp_line
+		(start 2.1 1.95)
+		(end 2.1 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "37a4158e-87dd-43d1-b8eb-795ac78d1818")
+	)
+	(fp_line
+		(start 2.1 2.1)
+		(end 1.75 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "36043515-e61b-432d-adb2-bdb2e6bd17e0")
+	)
+	(fp_poly
+		(pts
+			(xy -2.461573 -1.598125) (xy -2.791573 -1.358125) (xy -2.791573 -1.838125)
+		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "f917652e-03ba-407b-a968-901680d6d136")
+		(uuid "5942d3b8-ea58-4422-8b83-a633f1f1354a")
 	)
 	(fp_line
 		(start -2.45 -2.45)
@@ -115,7 +185,27 @@
 		(uuid "6068ebd6-2641-480d-8973-ab9af158cef0")
 	)
 	(fp_line
-		(start -2 -2)
+		(start -2 -1)
+		(end -1 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ddf4d6a-4600-4b53-85d0-47ed15854af8")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2ee9e6f-7013-48db-8b01-c37793ed3f23")
+	)
+	(fp_line
+		(start -1 -2)
 		(end 2 -2)
 		(stroke
 			(width 0.1)
@@ -123,16 +213,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "6329223b-5b8f-40ab-9ab8-2722cd3d55c5")
-	)
-	(fp_line
-		(start -2 2)
-		(end -2 -2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "b2ee9e6f-7013-48db-8b01-c37793ed3f23")
 	)
 	(fp_line
 		(start 2 -2)
@@ -154,17 +234,6 @@
 		(layer "F.Fab")
 		(uuid "959c041c-bb9a-43cb-9881-5054f35b2e0d")
 	)
-	(fp_circle
-		(center -2.995 -1.6)
-		(end -2.935 -1.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "ccb0c721-7d0d-4624-b49d-b99b4936852d")
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
@@ -173,7 +242,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -215,7 +284,7 @@
 					(xy 0.455 -0.573) (xy 0.454 -0.57) (xy 0.453 -0.568) (xy 0.452 -0.565) (xy 0.452 -0.563) (xy 0.451 -0.56)
 					(xy 0.451 -0.558) (xy 0.45 -0.555) (xy 0.45 -0.553) (xy 0.45 -0.55) (xy 0.45 -0.1)
 				)
-				(width 0.01)
+				(width 0)
 				(fill yes)
 			)
 		)
@@ -308,7 +377,7 @@
 					(xy -0.093 0.325) (xy -0.095 0.323) (xy -0.096 0.32) (xy -0.097 0.318) (xy -0.098 0.315) (xy -0.098 0.313)
 					(xy -0.099 0.31) (xy -0.099 0.308) (xy -0.1 0.305) (xy -0.1 0.303) (xy -0.1 0.3) (xy -0.1 -0.15)
 				)
-				(width 0.01)
+				(width 0)
 				(fill yes)
 			)
 		)
@@ -394,7 +463,7 @@
 					(xy -0.355 0.573) (xy -0.354 0.57) (xy -0.353 0.568) (xy -0.352 0.565) (xy -0.352 0.563) (xy -0.351 0.56)
 					(xy -0.351 0.558) (xy -0.35 0.555) (xy -0.35 0.553) (xy -0.35 0.55) (xy -0.35 0.1)
 				)
-				(width 0.01)
+				(width 0)
 				(fill yes)
 			)
 		)
@@ -490,7 +559,7 @@
 					(xy -0.4145 -0.565) (xy -0.4145 -0.563) (xy -0.4135 -0.56) (xy -0.4135 -0.558) (xy -0.4125 -0.555)
 					(xy -0.4125 -0.553) (xy -0.4125 -0.55) (xy -0.4125 -0.1)
 				)
-				(width 0.01)
+				(width 0)
 				(fill yes)
 			)
 		)
