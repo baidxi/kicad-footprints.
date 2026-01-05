@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "Wurth LED, SMD, 1212 (3030 Metric)")
+	(tags "LED Wurth 1212 SMD")
 	(property "Reference" "REF**"
 		(at 0 -2.35 0)
 		(unlocked yes)
@@ -11,7 +13,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,8 +60,8 @@
 		(start -2.15 -1.6)
 		(end -2.15 1.6)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.12)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "501b62b8-844d-4078-b4d8-dca12798cc4d")
@@ -68,8 +70,8 @@
 		(start -2.15 1.6)
 		(end 1.5 1.6)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.12)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "52acc2f6-c407-4900-95ee-1bffa52c57f7")
@@ -78,8 +80,8 @@
 		(start 1.5 -1.6)
 		(end -2.15 -1.6)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.12)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "49e9cc1c-b7e1-400d-b146-7927aaf151bb")
@@ -186,30 +188,21 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.9 0)
 		(size 2 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
 		(thermal_bridge_angle 45)
 		(uuid "c8d113a3-29e8-40ab-8d70-ec55a25c3dad")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.35 0)
 		(size 1.1 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2272727273)
 		(thermal_bridge_angle 45)
 		(uuid "26d589b7-a820-4702-be78-8d37aded967d")
 	)
 	(embedded_fonts no)
-	(model "/home/amanning/Downloads/Download_STEP_1583032xxA (rev1).stp"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )
