@@ -1,11 +1,11 @@
-(footprint "D_DO-27_P5.08mm_Vertical_KathodeUp"
+(footprint "D_DO-34_SOD68_P2.54mm_Vertical_CathodeUp"
 	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Diode, DO-27 series, Axial, Vertical, pin pitch=5.08mm, length*diameter=9.52*5.33mm^2, http://www.slottechforum.com/slotinfo/Techstuff/CD2%20Diodes%20and%20Transistors/Cases/Diode%20DO-27.jpg")
-	(tags "Diode DO-27 series Axial Vertical pin pitch 5.08mm  length 9.52mm diameter 5.33mm")
+	(descr "Diode, DO-34_SOD68 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=3.04*1.6mm^2, https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf")
+	(tags "Diode DO-34_SOD68 series Axial Vertical pin pitch 2.54mm  length 3.04mm diameter 1.6mm")
 	(property "Reference" "REF**"
-		(at 2.54 -3.785 0)
+		(at 1.27 -2.25566 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -14,8 +14,8 @@
 			)
 		)
 	)
-	(property "Value" "D_DO-27_P5.08mm_Vertical_KathodeUp"
-		(at 2.54 3.785 0)
+	(property "Value" "D_DO-34_SOD68_P2.54mm_Vertical_CathodeUp"
+		(at 1.27 3.14466 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -26,8 +26,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 2.295 0)
-		(end 1.5 0)
+		(start 1.28434 0)
+		(end 1.05 0)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_circle
-		(center 5.08 0)
-		(end 7.865 0)
+		(center 2.54 0)
+		(end 3.79566 0)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -45,8 +45,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_rect
-		(start -1.45 -2.92)
-		(end 8 2.92)
+		(start -1 -1.05)
+		(end 3.59 1.05)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -56,7 +56,7 @@
 	)
 	(fp_line
 		(start 0 0)
-		(end 5.08 0)
+		(end 2.54 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -64,8 +64,8 @@
 		(layer "F.Fab")
 	)
 	(fp_circle
-		(center 5.08 0)
-		(end 7.745 0)
+		(center 2.54 0)
+		(end 3.34 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -74,7 +74,7 @@
 		(layer "F.Fab")
 	)
 	(fp_text user "K"
-		(at 0 2.2 0)
+		(at -1.75 0 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -84,7 +84,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.54 -3.785 0)
+		(at 1.27 -2.25566 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -94,7 +94,7 @@
 		)
 	)
 	(fp_text user "K"
-		(at 0 2.2 0)
+		(at -1.75 0 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -105,21 +105,21 @@
 	)
 	(pad "1" thru_hole roundrect
 		(at 0 0)
-		(size 2.4 2.4)
-		(drill 1.2)
+		(size 1.5 1.5)
+		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.104167)
+		(roundrect_rratio 0.166667)
 	)
 	(pad "2" thru_hole circle
-		(at 5.08 0)
-		(size 2.4 2.4)
-		(drill 1.2)
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-27_P5.08mm_Vertical_KathodeUp.step"
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-34_SOD68_P2.54mm_Vertical_CathodeUp.step"
 		(offset
 			(xyz 0 0 0)
 		)
