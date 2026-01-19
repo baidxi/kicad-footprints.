@@ -1,7 +1,7 @@
 (footprint "AMASS_XT90PB-F_1x02_P11mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "AMASS female XT90, through hole PCB, vertical, https://www.tme.eu/Document/eadf7facf105d608bc4c50a4b9e8487a/XT90PB%20SPEC.pdf")
 	(tags "RC Connector XT90")
@@ -22,19 +22,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d218f1ac-7af7-4ebc-ad74-04275d3a0298")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "51653463-ba16-478e-b4c8-bb47816c86a6")
 		(effects
 			(font
 				(size 1 1)
@@ -285,8 +272,8 @@
 	)
 	(pad "1" thru_hole roundrect
 		(at 0 0)
-		(size 7.4 7.4)
-		(drill 5.8)
+		(size 7.6 7.6)
+		(drill 6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
@@ -295,13 +282,14 @@
 	)
 	(pad "2" thru_hole circle
 		(at 11 0)
-		(size 7.4 7.4)
-		(drill 5.8)
+		(size 7.6 7.6)
+		(drill 6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "71d28aba-1e8a-454e-89a5-d97384c84233")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT90PB-F_1x02_P11mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT90PB-F_1x02_P11mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
