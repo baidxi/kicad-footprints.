@@ -2,8 +2,8 @@
 	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Inductor, TDK, SLF6028, 6.0mmx6.0mm, https://product.tdk.com/info/en/document/catalog/smd/inductor_commercial_power_slf6028_en.pdf, generated with kicad-footprint-generator StandardBox_generator.py")
-	(tags "Inductor TDK_SLF6028")
+	(descr "Inductor, TDK, SLF6028, 6.0x6.0x2.8mm, (https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_slf6028_en.pdf), generated with kicad-footprint-generator gen_inductor.py")
+	(tags "power shielded")
 	(property "Reference" "REF**"
 		(at 0 -3.95 0)
 		(layer "F.SilkS")
@@ -27,7 +27,7 @@
 	(attr smd)
 	(fp_line
 		(start -3.11 -3.11)
-		(end 3.11 -3.11)
+		(end -3.047 -3.11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,7 +35,7 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -3.11 -2.164)
+		(start -3.11 -1.36)
 		(end -3.11 -3.11)
 		(stroke
 			(width 0.12)
@@ -46,6 +46,15 @@
 	(fp_line
 		(start -3.11 3.11)
 		(end -3.11 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -2.453 -3.11)
+		(end 3.11 -3.11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -81,9 +90,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -3.11 -1.36)
-			(xy -3.654 -1.36)
-			(xy -3.11 -1.904)
+			(xy -2.75 -3.11)
+			(xy -2.99 -3.44)
+			(xy -2.51 -3.44)
 		)
 		(stroke
 			(width 0.12)
@@ -199,6 +208,15 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.4 1.5)
+		(end -2.4 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
 	)
 	(fp_poly
 		(pts
