@@ -1,7 +1,7 @@
 (footprint "Honeywell_ABPDAN"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "board mount pressure sensor, calibrated, temperature compensated, 3.3Vdc or 5.0Vdc, analog or SPI or I2C, 60 mbar to 10 bar, 6 kPa to 1 MPa, 1 psi to 150 psi, https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/pressure-sensors/board-mount-pressure-sensors/basic-abp-series/documents/sps-siot-basic-board-mount-pressure-abp-series-datasheet-32305128-ciid-155789.pdf?download=false")
 	(tags "pressure sensor")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "95d95669-d69a-4b86-bbae-20902e87aced")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -240,7 +227,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "658c985d-eec9-4c7b-98f5-e41362f276f5")
 	)
@@ -251,7 +238,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "07041750-73ab-4440-91cc-823e74f2e98e")
 	)
@@ -262,7 +249,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "03d89f8a-8696-466a-83b5-b27eb0f4c93b")
 	)
@@ -274,7 +261,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "fdce5374-421a-4f48-9dde-2b31afe86fa1")
 	)
@@ -285,7 +272,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "63a0b245-1294-46dd-b028-b9b8b371258c")
 	)
@@ -453,7 +440,8 @@
 		(remove_unused_layers no)
 		(uuid "2705081c-9e7b-4d1a-8626-fc65d6fd1902")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Sensor_Pressure.3dshapes/Honeywell_ABPDAN.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Pressure.3dshapes/Honeywell_ABPDAN.step"
 		(offset
 			(xyz 0 0 0)
 		)
