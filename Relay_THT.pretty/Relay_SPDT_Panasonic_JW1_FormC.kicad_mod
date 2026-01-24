@@ -6,7 +6,7 @@
 	(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 	(tags "Panasonic Relay SPDT")
 	(property "Reference" "REF**"
-		(at 11.7 -11.55 180)
+		(at 11.6 -11.5 180)
 		(layer "F.SilkS")
 		(uuid "1fe0940c-00ea-4520-95bc-66764d107316")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Relay_SPDT_Panasonic_JW1_FormC"
-		(at 12 3.9 180)
+		(at 11.6 3.9 180)
 		(layer "F.Fab")
 		(uuid "f3d6603b-0fb8-44b2-9d80-7b838ed82819")
 		(effects
@@ -86,26 +86,6 @@
 		(uuid "381922fe-8ac7-451b-b4e7-02eb048df867")
 	)
 	(fp_line
-		(start -0.9 -4.15)
-		(end -0.9 -3.45)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "19de27b2-d752-4c9f-a693-9a4bb174c5b7")
-	)
-	(fp_line
-		(start -0.9 -3.45)
-		(end 0.3 -3.45)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "fc7dc9d7-3951-4e36-8156-d66a202aac2a")
-	)
-	(fp_line
 		(start -0.7 2.94)
 		(end -3.04 2.94)
 		(stroke
@@ -116,8 +96,28 @@
 		(uuid "d5fac0e7-aaee-41fa-927b-f86f75c98bd4")
 	)
 	(fp_line
-		(start -0.1 -3.45)
-		(end -0.5 -4.15)
+		(start -0.6 -4.15)
+		(end -0.6 -3.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19de27b2-d752-4c9f-a693-9a4bb174c5b7")
+	)
+	(fp_line
+		(start -0.6 -3.45)
+		(end 0.6 -3.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc7dc9d7-3951-4e36-8156-d66a202aac2a")
+	)
+	(fp_line
+		(start 0.2 -3.45)
+		(end -0.2 -4.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -126,8 +126,8 @@
 		(uuid "69630484-9353-44cc-b8b6-6d39bb53a8dd")
 	)
 	(fp_line
-		(start 0.3 -4.15)
-		(end -0.9 -4.15)
+		(start 0.6 -4.15)
+		(end -0.6 -4.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -136,8 +136,8 @@
 		(uuid "79ea570e-ad17-4543-8911-110f4142ec92")
 	)
 	(fp_line
-		(start 0.3 -3.45)
-		(end 0.3 -4.15)
+		(start 0.6 -3.45)
+		(end 0.6 -4.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -206,18 +206,8 @@
 		(uuid "844892bf-2058-4489-b376-865af5844aa2")
 	)
 	(fp_line
-		(start -3.04 2.94)
-		(end -3.04 0.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "7654d0f7-60ab-4890-9bbf-38317bfaba4c")
-	)
-	(fp_line
 		(start -2.7 -10.2)
-		(end -2.7 1)
+		(end -2.7 1.6)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -226,17 +216,17 @@
 		(uuid "e04ff2a9-0d2a-429c-84a0-a4be6faa4f73")
 	)
 	(fp_line
-		(start -1 2.6)
-		(end -2.7 1)
+		(start -1.7 2.6)
+		(end -2.7 1.6)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "82bad723-d9da-4a17-aec1-990a6561a316")
 	)
 	(fp_line
-		(start -1 2.6)
+		(start -1.7 2.6)
 		(end 25.9 2.6)
 		(stroke
 			(width 0.1)
@@ -246,18 +236,8 @@
 		(uuid "1a61388b-13dd-4acf-a9d2-8a5cd227451c")
 	)
 	(fp_line
-		(start -0.7 2.94)
-		(end -3.04 2.94)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "d4e8bb69-e200-4f61-a27f-4260b5098e97")
-	)
-	(fp_line
-		(start -0.3 -1.55)
-		(end -0.3 -6.05)
+		(start 0 -1.55)
+		(end 0 -6.05)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -296,31 +276,7 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
-		(at 0 0 90)
-		(size 2.5 2.5)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "e1aa83c2-eb0e-4ff0-9762-bce9fd13235f")
-	)
-	(pad "2" thru_hole oval
-		(at 16.5 0 90)
-		(size 2.5 2.5)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "f5a7e9f1-98ab-4bcc-bb84-cc2d02965550")
-	)
-	(pad "4" thru_hole oval
-		(at 23.5 0 90)
-		(size 2.5 2.5)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "0cff0291-1fc8-4f7d-a52c-6461e6c41bda")
-	)
-	(pad "6" thru_hole oval
+	(pad "11" thru_hole oval
 		(at 20 -7.6 90)
 		(size 2.5 2.5)
 		(drill 1.5)
@@ -328,7 +284,31 @@
 		(remove_unused_layers no)
 		(uuid "55ad6f0e-c8b4-4c03-aaff-88db1a0b6cb9")
 	)
-	(pad "8" thru_hole oval
+	(pad "12" thru_hole oval
+		(at 16.5 0 90)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f5a7e9f1-98ab-4bcc-bb84-cc2d02965550")
+	)
+	(pad "14" thru_hole oval
+		(at 23.5 0 90)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0cff0291-1fc8-4f7d-a52c-6461e6c41bda")
+	)
+	(pad "A1" thru_hole rect
+		(at 0 0 90)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e1aa83c2-eb0e-4ff0-9762-bce9fd13235f")
+	)
+	(pad "A2" thru_hole oval
 		(at 0 -7.6 90)
 		(size 2.5 2.5)
 		(drill 1.5)
