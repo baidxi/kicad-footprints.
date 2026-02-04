@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "5-pin SAW filter 1411 package, pin size 0.325x0.25mm, pitch 0.5mm, Body 1.4x1.1 mm ;(see https://ele.kyocera.com/assets/products/saw-device/specification/SF14-2605M5UUA1_DS.pdf)")
-	(tags "1411 saw filter")
+	(descr "5-pin filter, 1411 LGA package, pin size 0.325x0.25mm, pitch 0.5mm,Body 1.4x1.1 mm; (see https://ele.kyocera.com/assets/products/saw-device/specification/SF14-2605M5UUA1_DS.pdf)")
+	(tags "Kyocera SF14 TDK B39 ABRACON AFII")
 	(property "Reference" "REF**"
 		(at 0 1.6 0)
 		(layer "F.SilkS")
@@ -109,10 +109,10 @@
 	)
 	(fp_line
 		(start -0.7 -0.55)
-		(end -0.7 0.55)
+		(end -0.7 -0.15)
 		(stroke (width 0.1) (type solid))
 		(layer "F.Fab")
-		(uuid "f09980e7-136b-4f37-bcdf-0255303e3955")
+		(uuid "7ad4bfe8-01a8-4a93-b736-fe8ca8b8d297")
 	)
 	(fp_line
 		(start -0.7 -0.55)
@@ -120,6 +120,27 @@
 		(stroke (width 0.1) (type solid))
 		(layer "F.Fab")
 		(uuid "d502f23d-1095-4c74-b591-ec3887353b64")
+	)
+	(fp_line
+		(start -0.7 -0.15)
+		(end -0.55 0)
+		(stroke (width 0.1) (type solid))
+		(layer "F.Fab")
+		(uuid "c10b4586-cab2-4a9b-8eed-d0b578026e8f")
+	)
+	(fp_line
+		(start -0.7 0.15)
+		(end -0.7 0.55)
+		(stroke (width 0.1) (type solid))
+		(layer "F.Fab")
+		(uuid "720c7833-1e92-43fc-bbf4-db00d7afed44")
+	)
+	(fp_line
+		(start -0.55 0)
+		(end -0.7 0.15)
+		(stroke (width 0.1) (type solid))
+		(layer "F.Fab")
+		(uuid "2eb74449-557b-474b-be5a-d369c36402b7")
 	)
 	(fp_line
 		(start 0.7 -0.55)
@@ -179,7 +200,7 @@
 		(uuid "8f6ad9b1-f375-47d1-9117-5f1347c521c2")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_1411_5_1.4x1.1mm_P0.5mm.step"
+	(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_1411_5_1.4x1.1mm_P05.step"
 		(offset (xyz 0 0 0))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
