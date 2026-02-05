@@ -1,7 +1,7 @@
 (footprint "BarrelJack_CUI_PJ-079BH_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Barrel Jack, 2.5mm ID, 5.5mm OD, 24V, 5A, switch, https://www.cui.com/product/resource/pj-079bh.pdf ")
 	(tags "barrel jack cui dc power")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9.8 5.6)
 		(end -9.8 -1.5)
@@ -222,7 +223,11 @@
 		(at -3.2 6.3 180)
 		(size 2.13 2.13)
 		(drill 2.13)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d9576fb8-8725-43bc-b35a-d27a0a387508")
 	)
 	(pad "1" thru_hole rect
@@ -231,6 +236,10 @@
 		(drill oval 0.8 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1744f85c-ad57-4a90-8296-57d799b0a3cf")
 	)
 	(pad "2" thru_hole oval
@@ -239,6 +248,10 @@
 		(drill oval 0.8 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "300b71ee-0f46-41b3-9b45-f4fa6cbb087d")
 	)
 	(pad "3" thru_hole oval
@@ -247,6 +260,10 @@
 		(drill oval 0.8 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f5b28878-7113-49f1-9242-fef6dc72d0fe")
 	)
 	(pad "SH" thru_hole oval
@@ -255,6 +272,10 @@
 		(drill oval 0.6 2.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f2c66011-491e-47e4-a5fa-1eb9eab03834")
 	)
 	(pad "SH" thru_hole oval
@@ -263,6 +284,10 @@
 		(drill oval 0.6 2.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6b315482-b1b4-45cb-9994-26352fda097f")
 	)
 	(embedded_fonts no)

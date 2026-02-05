@@ -1,7 +1,7 @@
 (footprint "LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "LED SMD 1206 (3216 Metric), reverse mount, square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 	(tags "diode reverse")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.285 -1.46)
 		(end -2.285 1.46)
@@ -190,6 +191,10 @@
 		(size 1.8 2.4)
 		(drill oval 1.8 2.4)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6f5018ba-081c-4ae8-bf8b-dcb5d05cdd66")
 	)
 	(pad "1" smd roundrect
@@ -197,6 +202,10 @@
 		(size 0.95 1.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ab9886e5-7116-44b6-ae34-3ec4d72ec5e4")
 	)
 	(pad "2" smd roundrect
@@ -204,6 +213,10 @@
 		(size 0.95 1.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "046ac8a4-1147-4fe3-b440-3dfecb3d6589")
 	)
 	(embedded_fonts no)

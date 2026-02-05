@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Keystone_107_1x23mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "http://www.keyelco.com/product-pdf.cfm?p=746")
 	(tags "Keystone type 107 battery holder")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.05 -2.5)
 		(end -2.05 2.5)
@@ -497,6 +498,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "02938728-dc09-4fcf-8839-2cd9ec3e10a8")
 	)
 	(pad "2" thru_hole circle
@@ -505,6 +510,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "35d3471c-9c75-4c7b-b17b-f5cc94be552a")
 	)
 	(embedded_fonts no)

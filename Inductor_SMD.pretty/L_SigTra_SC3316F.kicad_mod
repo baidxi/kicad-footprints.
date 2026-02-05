@@ -1,7 +1,7 @@
 (footprint "L_SigTra_SC3316F"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "http://www.signaltransformer.com/sites/all/pdf/smd/P080_SC3316F.pdf")
 	(tags "Choke ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.1 -2.2)
 		(end -1 -5.1)
@@ -421,12 +422,20 @@
 		(at -5 0)
 		(size 3 3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0dc14b18-51c5-4f49-a6f2-5e1f1592ebc2")
 	)
 	(pad "2" smd rect
 		(at 5 0)
 		(size 3 3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "abadcf9e-641a-43d3-9664-036b84133abe")
 	)
 	(embedded_fonts no)

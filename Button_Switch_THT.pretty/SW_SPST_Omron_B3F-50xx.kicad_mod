@@ -1,7 +1,7 @@
 (footprint "SW_SPST_Omron_B3F-50xx"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SW_THT_Tactile_Omron_B3F-50xx, 12x12x7,3 mm, Through hole switch from the B3F Family manufactured by Omron,  https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 	(tags "tactile omron switch tht B3F-5000 B3F-5050 B3F-5001 B3F-5051  ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.14 -3.61)
 		(end 0.14 -1.1)
@@ -182,14 +183,22 @@
 		(at 6.25 -2)
 		(size 1.8 1.8)
 		(drill 1.8)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c731dd1a-b385-4bdb-a2fd-a23f23f00046")
 	)
 	(pad "" np_thru_hole circle
 		(at 6.25 7)
 		(size 1.8 1.8)
 		(drill 1.8)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cf1c1927-fb0c-4eab-8523-07d3a5940c38")
 	)
 	(pad "1" thru_hole oval
@@ -198,6 +207,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "38722cfd-f012-4150-8089-ae7543b45b8e")
 	)
 	(pad "1" thru_hole oval
@@ -206,6 +219,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4044515a-fd39-43c9-93aa-10f809247229")
 	)
 	(pad "2" thru_hole oval
@@ -214,6 +231,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2d219ff3-4e4e-43da-8ecf-2c7ecf06550b")
 	)
 	(pad "2" thru_hole oval
@@ -222,6 +243,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b88e54c6-e9b0-4766-a0e3-80d4fff07684")
 	)
 	(embedded_fonts no)

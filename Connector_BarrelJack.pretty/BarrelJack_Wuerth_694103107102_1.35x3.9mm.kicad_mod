@@ -1,7 +1,7 @@
 (footprint "BarrelJack_Wuerth_694103107102_1.35x3.9mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Wuerth Elektronik barrel jack connector, SMD, 3.9mm OD, 1.35mm ID, with switch, 18V, 5A, dimensions: 9.3 x 8 x 5.3 mm (L x W x H), datasheet: https://www.we-online.com/components/products/datasheet/694103107102.pdf")
 	(tags "barrel jack Wuerth Elektronik 694103107102")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.1 1.99)
 		(end -4.1 0.21)
@@ -319,14 +320,22 @@
 		(at 0 -3.15 180)
 		(size 1 1)
 		(drill 1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bce6b75c-1597-491e-a121-93ec187a4dc4")
 	)
 	(pad "" np_thru_hole circle
 		(at 0 1.85 180)
 		(size 1 1)
 		(drill 1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6b6eef36-3c31-420c-a674-be5a31da621b")
 	)
 	(pad "1" smd roundrect
@@ -334,6 +343,10 @@
 		(size 2.2 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1136363636)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f78d63a5-905b-4f66-89e6-0ae27e2239f2")
 	)
 	(pad "1" smd roundrect
@@ -341,6 +354,10 @@
 		(size 2.2 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1136363636)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "11289946-063a-4c0c-97cc-41e5ca5c3fb4")
 	)
 	(pad "2" smd roundrect
@@ -348,6 +365,10 @@
 		(size 2.2 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1136363636)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "422bc5a1-b15c-4084-9c09-2c2d60f1f08a")
 	)
 	(pad "3" smd roundrect
@@ -355,6 +376,10 @@
 		(size 2.2 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1136363636)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7a8c392a-624a-4e3e-b10b-e0d6f036f2e6")
 	)
 	(embedded_fonts no)

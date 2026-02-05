@@ -1,7 +1,7 @@
 (footprint "D_MELF-RM10_Universal_Handsoldering"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Diode, Universal, MELF, RM10, Handsoldering, SMD, Thruhole,")
 	(tags "Diode Universal MELF RM10 Handsoldering SMD Thruhole ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.41 -1.61)
 		(end -6.41 1.61)
@@ -244,6 +245,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.0925925926)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "16f14bf4-60d6-4d72-8503-2194a9e1f4fa")
 	)
 	(pad "2" thru_hole roundrect
@@ -255,6 +260,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.0925925926)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7a8a3e64-4b70-4148-8d9f-cf946d974ad6")
 	)
 	(embedded_fonts no)

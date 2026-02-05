@@ -1,7 +1,7 @@
 (footprint "L_Coilcraft_XFL2010"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Coilcraft XFL2010, Shielded power inductor, 0808, 1.9x2.0mm, https://www.coilcraft.com/getmedia/50382b97-998f-4b75-b5ee-4a93b0ac4411/xfl2010.pdf")
 	(tags "miniature")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.125 -1)
 		(end 0.125 -1)
@@ -137,6 +138,10 @@
 		(size 0.6 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6ca08a1a-0ac0-44ba-ba9c-0b071a48803b")
 	)
 	(pad "2" smd roundrect
@@ -144,6 +149,10 @@
 		(size 0.6 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "55693d79-abe4-4740-a81b-602f75f46563")
 	)
 	(embedded_fonts no)

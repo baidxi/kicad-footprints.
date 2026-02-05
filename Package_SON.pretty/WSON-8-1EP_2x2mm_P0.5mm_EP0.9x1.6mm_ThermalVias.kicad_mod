@@ -1,7 +1,7 @@
 (footprint "WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "8-Lead Plastic WSON, 2x2mm Body, 0.5mm Pitch, WSON-8, http://www.ti.com/lit/ds/symlink/lm27761.pdf")
 	(tags "WSON 8 1EP ThermalVias")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.01 -1.14)
 		(end 0.99 -1.14)
@@ -191,12 +192,20 @@
 		(at 0 -0.4)
 		(size 0.75 0.65)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ac91d6b7-21fa-4874-98f0-482c56b0405e")
 	)
 	(pad "" smd rect
 		(at 0 0.4)
 		(size 0.75 0.65)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b4e63be8-a4b8-4231-b35b-848c6c94ad0f")
 	)
 	(pad "1" smd roundrect
@@ -204,6 +213,10 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "31d2ba68-73ad-4dbb-aca8-b91704abcd25")
 	)
 	(pad "2" smd roundrect
@@ -211,6 +224,10 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "733c9366-2e1d-4d43-ae5b-9739c9d57d51")
 	)
 	(pad "3" smd roundrect
@@ -218,6 +235,10 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "00183a28-1573-49e0-9a84-19f0b7981da0")
 	)
 	(pad "4" smd roundrect
@@ -225,6 +246,10 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "aea7af3d-fd29-4c02-898a-57c38bf3adca")
 	)
 	(pad "5" smd roundrect
@@ -232,6 +257,10 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fb3324da-87cc-4343-8994-9ccac8da8d0a")
 	)
 	(pad "6" smd roundrect
@@ -239,6 +268,10 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "141d9d91-7a46-4805-a631-0233ae2bfebd")
 	)
 	(pad "7" smd roundrect
@@ -246,6 +279,10 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5d440f7f-64d3-4794-81c0-f6e717741fce")
 	)
 	(pad "8" smd roundrect
@@ -253,6 +290,10 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cd80fb1d-0b21-4b2f-84c0-8006e2954b64")
 	)
 	(pad "9" thru_hole circle
@@ -262,18 +303,30 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "700d9ec9-ad49-457a-bef4-155f2e0f49dd")
 	)
 	(pad "9" smd rect
 		(at 0 0)
 		(size 0.9 1.6)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "da058403-a95c-4840-bd7a-67cc22943a25")
 	)
 	(pad "9" smd rect
 		(at 0 0)
 		(size 0.9 1.6)
 		(layers "B.Cu")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "867d2ce5-fb3f-4fc6-86a2-2d6cdd4c2629")
 	)
 	(pad "9" thru_hole circle
@@ -283,6 +336,10 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9ee61e08-319c-41ab-989a-38bc3cbf7434")
 	)
 	(embedded_fonts no)

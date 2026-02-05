@@ -1,7 +1,7 @@
 (footprint "Converter_ACDC_RECOM_RAC04-xxSGx_THT"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf")
 	(tags "recom power ac dc")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.5 1)
 		(end -3.5 -1)
@@ -242,6 +243,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1781cd53-d784-4f76-bf28-ed2a93c0c9b2")
 	)
 	(pad "2" thru_hole circle
@@ -250,6 +255,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5106ba3b-6b7b-4329-b1f4-40c4ff5ec90d")
 	)
 	(pad "3" thru_hole circle
@@ -258,6 +267,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "caf5820b-c3e4-42e4-8bab-0460a1c2c39e")
 	)
 	(pad "4" thru_hole circle
@@ -266,6 +279,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e8cc188d-8be1-4348-bcdc-997b81cfc7cc")
 	)
 	(pad "5" thru_hole circle
@@ -274,11 +291,13 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8ce909ca-9bb8-47f7-ab59-0212696be18f")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "ea356861-f264-4547-8356-9a3d67dabe28")
 		(hatch full 0.508)
@@ -286,7 +305,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias allowed)
@@ -301,6 +319,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

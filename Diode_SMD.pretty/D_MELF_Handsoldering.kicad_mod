@@ -1,7 +1,7 @@
 (footprint "D_MELF_Handsoldering"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Diode MELF Handsoldering")
 	(tags "Diode MELF Handsoldering")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.41 -1.61)
 		(end -5.41 1.61)
@@ -240,6 +241,10 @@
 		(size 3.5 2.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.0925925926)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6db78090-4f8e-45f8-9964-8f6b7c7be50a")
 	)
 	(pad "2" smd roundrect
@@ -247,6 +252,10 @@
 		(size 3.5 2.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.0925925926)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9c90ba26-6b61-43f0-8f4d-47b341781933")
 	)
 	(embedded_fonts no)

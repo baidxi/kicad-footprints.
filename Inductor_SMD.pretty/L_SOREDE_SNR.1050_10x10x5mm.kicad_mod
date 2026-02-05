@@ -1,7 +1,7 @@
 (footprint "L_SOREDE_SNR.1050_10x10x5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Sorede 10x10x5mm Power Inductor, https://datasheet.lcsc.com/lcsc/2201141530_SOREDE-SNR-1050-TYD4R7MT00_C2942304.pdf")
 	(tags "Inductor Sorede SNR ")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.1 -5.1)
 		(end 5.1 -5.1)
@@ -154,6 +155,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a295ed9c-70c2-487a-bb6c-a2784d25a0ff")
 	)
 	(pad "2" smd roundrect
@@ -162,6 +167,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6e5627fe-5f6c-414a-b39d-502cac984d24")
 	)
 	(embedded_fonts no)

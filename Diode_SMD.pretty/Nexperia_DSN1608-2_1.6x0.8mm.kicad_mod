@@ -1,7 +1,7 @@
 (footprint "Nexperia_DSN1608-2_1.6x0.8mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Diode SMD DSN1608, 1.6 x 0.8 x 0.29 mm, https://assets.nexperia.com/documents/package-information/SOD964.pdf")
 	(tags "diode SOD964 SOD-964")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.015 -0.61)
 		(end -1.015 0.61)
@@ -190,6 +191,10 @@
 		(size 0.93 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1071428571)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "894630a8-7f08-4c9a-b0a5-8bfa2f56a43e")
 	)
 	(pad "2" smd roundrect
@@ -197,6 +202,10 @@
 		(size 0.3 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8c6ab925-4dc9-454c-a480-e35a0693af67")
 	)
 	(embedded_fonts no)

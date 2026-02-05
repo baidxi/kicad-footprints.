@@ -1,7 +1,7 @@
 (footprint "SW_Push_1P1T-SH_NO_CK_KMR2xxG"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "CK components KMR2 tactile switch with ground pin http://www.ckswitches.com/media/1479/kmr2.pdf")
 	(tags "tactile switch kmr2")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.2 0.05)
 		(end -2.2 -0.05)
@@ -210,30 +211,50 @@
 		(at -2.05 -0.8)
 		(size 0.9 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d68fc201-8cd1-4bf2-9571-76ec4cf02495")
 	)
 	(pad "1" smd rect
 		(at 2.05 -0.8)
 		(size 0.9 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "04b3de0b-ba65-48f4-aa77-8d750d33c3a7")
 	)
 	(pad "2" smd rect
 		(at -2.05 0.8)
 		(size 0.9 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "774998d7-a32b-4788-81d7-d47b9b92db5f")
 	)
 	(pad "2" smd rect
 		(at 2.05 0.8)
 		(size 0.9 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "50f4197b-c050-46e9-8647-6c2139ba6d26")
 	)
 	(pad "SH" smd rect
 		(at 0 -1.425)
 		(size 1.7 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "87e5ac79-64c0-4760-8241-3301d5b73750")
 	)
 	(embedded_fonts no)

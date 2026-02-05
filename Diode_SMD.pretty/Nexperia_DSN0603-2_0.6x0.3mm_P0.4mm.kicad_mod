@@ -1,7 +1,7 @@
 (footprint "Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SOD962-2 silicon, leadless ultra small package; 2 terminals; 0.4 mm pitch; 0.6 mm x 0.3 mm x 0.3 mm body (https://assets.nexperia.com/documents/package-information/SOD962-2.pdf https://www.nexperia.com/packages/SOD962-2.html)")
 	(tags "TVS protection diodes")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.56 0.1)
 		(end -0.56 -0.1)
@@ -166,6 +167,10 @@
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
 		(clearance 0.05)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a0a571e8-761a-4861-89bd-648c09e0c12d")
 	)
 	(pad "2" smd rect
@@ -175,6 +180,10 @@
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
 		(clearance 0.05)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e10e69b5-562e-432d-9bd0-f8ecad1c7bda")
 	)
 	(embedded_fonts no)

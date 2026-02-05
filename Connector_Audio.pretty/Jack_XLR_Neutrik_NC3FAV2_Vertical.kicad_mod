@@ -1,7 +1,7 @@
 (footprint "Jack_XLR_Neutrik_NC3FAV2_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "A Series, 3 pole female XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, vertical PCB mount, https://www.neutrik.com/en/product/nc3fav2")
 	(tags "neutrik xlr a")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -14.71 0)
 		(end -14.71 -4.76)
@@ -933,6 +934,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "abc121b3-a546-43e2-8c99-f826b1880214")
 	)
 	(pad "2" thru_hole circle
@@ -941,6 +946,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8e2ca738-b6d3-40b8-89a0-5cf4996caa5e")
 	)
 	(pad "3" thru_hole circle
@@ -949,6 +958,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bc2a39ae-6ac4-4f38-94b5-6393297a476d")
 	)
 	(pad "G" thru_hole circle
@@ -957,6 +970,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0e982d78-0738-4198-a3d9-ed45bb717414")
 	)
 	(embedded_fonts no)

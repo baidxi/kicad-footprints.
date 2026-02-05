@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_LINX_BAT-HLD-012-SMT"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SMT battery holder for CR1216/1220/1225, https://linxtechnologies.com/wp/wp-content/uploads/bat-hld-012-smt.pdf")
 	(tags "battery holder coin cell cr1216 cr1220 cr1225")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.55 -2.75)
 		(end -4.9 -4.4)
@@ -625,18 +626,30 @@
 		(at -7.6 0)
 		(size 2.5 5.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d2313279-6c73-4c17-9049-74cf3a87dd3c")
 	)
 	(pad "1" smd rect
 		(at 7.6 0)
 		(size 2.5 5.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "62584a88-748b-4949-b238-cc4e3f02c456")
 	)
 	(pad "2" smd circle
 		(at 0 0)
 		(size 10.2 10.2)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fc5f2843-037d-4ed3-b475-9a273dfaa49c")
 	)
 	(embedded_fonts no)

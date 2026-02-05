@@ -1,7 +1,7 @@
 (footprint "BarrelJack_CLIFF_FC681465S_SMT_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Surface-mount DC Barrel Jack, https://www.cliffuk.co.uk/products/dcconnectors/FC681465S.pdf")
 	(tags "Power Jack SMT")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.11 -4.56)
 		(end -4.5 -4.56)
@@ -321,6 +322,10 @@
 		(size 2 1.5)
 		(drill oval 2 1.5)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e152171c-3aaf-4245-a589-3284f0b006e6")
 	)
 	(pad "" np_thru_hole circle
@@ -328,30 +333,50 @@
 		(size 2 2)
 		(drill 2)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "64bf17ad-6770-4737-81d0-c830df227d4e")
 	)
 	(pad "1" smd rect
 		(at -3 -5.5 90)
 		(size 3 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6070d208-790a-4a1c-9f97-17278093aef1")
 	)
 	(pad "1" smd rect
 		(at 3 -5.5 90)
 		(size 3 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e9872db5-126d-4d51-8efd-07067be2eb5a")
 	)
 	(pad "2" smd rect
 		(at 3 5.5 90)
 		(size 3 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "270bc2d3-b291-483e-838d-94d516b4ba19")
 	)
 	(pad "3" smd rect
 		(at -3 5.5 90)
 		(size 3 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d12e023a-74a9-405d-b562-3977c30de64d")
 	)
 	(embedded_fonts no)

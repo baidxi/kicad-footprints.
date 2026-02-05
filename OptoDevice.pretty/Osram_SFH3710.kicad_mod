@@ -1,7 +1,7 @@
 (footprint "Osram_SFH3710"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Osram SHF3710 NPN phototransistor, SMD Chip LED package, 2.0 x 1.25mm, height 0.85mm, https://look.ams-osram.com/m/14a91a7e00106d22/original/SFH-3710.pdf")
 	(tags "phototransistor npn")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.87 0.89)
 		(end -1.87 -0.89)
@@ -162,6 +163,10 @@
 		(size 1 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "19062018-dff2-4822-891d-2dd89dc61674")
 	)
 	(pad "2" smd roundrect
@@ -169,6 +174,10 @@
 		(size 1 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a53dbbd1-03a2-411f-8fff-8496f276a134")
 	)
 	(embedded_fonts no)

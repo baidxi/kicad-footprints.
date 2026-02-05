@@ -1,7 +1,7 @@
 (footprint "L_Neosid_Ms50"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Neosid, Power Inductor, Ms50, SMD, Fixed inductor, https://neosid.de/import-data/product-pdf/neoFestind_Ms50.pdf")
 	(tags "Neosid Power Inductor Ms50 SMD Fixed inductor")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.4 2.2)
 		(end 1.4 2.2)
@@ -229,12 +230,20 @@
 		(at -2.4 0)
 		(size 1.4 2.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "37d7d346-d805-4ed6-8ad9-d1f8851347bd")
 	)
 	(pad "2" smd rect
 		(at 2.4 0)
 		(size 1.4 2.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fa0fab4f-34de-439d-b17c-1eedc25d93ea")
 	)
 	(embedded_fonts no)

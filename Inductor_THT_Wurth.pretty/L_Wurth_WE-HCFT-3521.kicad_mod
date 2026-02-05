@@ -1,7 +1,7 @@
 (footprint "L_Wurth_WE-HCFT-3521"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Shielded High Current Inductor, body 21.5x36mm, https://www.we-online.com/catalog/en/WE-HCFT#/articles/WE-HCFT-3521")
 	(tags "THT")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.75 -2)
 		(end -6.75 2)
@@ -137,6 +138,10 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "50ba3348-d71f-46b0-a6cf-1d6f674ce6a5")
 	)
 	(pad "" thru_hole circle
@@ -145,6 +150,10 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "288cfe46-3426-43e6-9e80-6b33077235dc")
 	)
 	(pad "1" thru_hole rect
@@ -153,6 +162,10 @@
 		(drill oval 3 8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c71109b3-dc16-413e-bdae-f02ec319ee4f")
 	)
 	(pad "2" thru_hole oval
@@ -161,6 +174,10 @@
 		(drill oval 3 8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d40f4490-6c48-4754-b199-7994ed3f7906")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Buzzer_Mallory_AST1240MLQ"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Mallory low-profile piezo buzzer, https://www.mspindy.com/specifications/AST12140MLQ.pdf")
 	(tags "piezo buzzer")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.1 -6.1)
 		(end 6.1 -6.1)
@@ -361,12 +362,20 @@
 		(at -6 0)
 		(size 3 6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9d0b0eaf-01f7-4601-86e6-8b060a57318b")
 	)
 	(pad "2" smd rect
 		(at 6 0)
 		(size 3 6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fc9b6001-c2e3-4ebd-8700-4526d6d588a4")
 	)
 	(embedded_fonts no)

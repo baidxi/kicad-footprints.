@@ -1,7 +1,7 @@
 (footprint "Vishay_TCRT5000"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "IR Reflective Optical Sensor with Transistor Output TCRT5000 https://www.vishay.com/docs/83760/tcrt5000.pdf")
 	(tags "IR Reflective Optical Sensor with Transistor Output TCRT5000 Vishay Distance Sensor")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.66 -1.94)
 		(end -2.66 0.06)
@@ -290,21 +291,33 @@
 		(at -1.9 3.72)
 		(size 1 1)
 		(drill 1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8befa5e9-d827-481b-8bb3-d29582724a2c")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.75 -0.63)
 		(size 2.5 2.5)
 		(drill 2.5)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d57ef708-7385-45aa-b512-1667cdb903d4")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.75 3.17)
 		(size 2.5 2.5)
 		(drill 2.5)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7ff9123e-6538-451c-9ae5-e5420f213d34")
 	)
 	(pad "1" thru_hole roundrect
@@ -314,6 +327,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7dd09188-cc36-417e-ab0f-a236dbf9e856")
 	)
 	(pad "2" thru_hole circle
@@ -322,6 +339,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cb48e4f3-c20d-4a13-9a11-94f0ae9e513d")
 	)
 	(pad "3" thru_hole circle
@@ -330,6 +351,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8fe5a16d-56ee-4ca1-bc58-85c35346ff35")
 	)
 	(pad "4" thru_hole circle
@@ -338,6 +363,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "797b5ef1-6de8-4a48-928c-0f869d4b3c94")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "SW_SPDT_PCM12"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf")
 	(property "Reference" "REF**"
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.45 -0.07)
 		(end -3.45 0.72)
@@ -348,12 +349,20 @@
 		(at -3.65 -0.78)
 		(size 1 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "72ad6616-2da6-4f33-857b-62fa019d27c8")
 	)
 	(pad "" smd rect
 		(at -3.65 1.43)
 		(size 1 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "479c2cab-e32e-4412-b200-b9480399efb8")
 	)
 	(pad "" np_thru_hole circle
@@ -361,6 +370,10 @@
 		(size 0.9 0.9)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f426a162-7ca6-4f63-bf0f-da4db525515e")
 	)
 	(pad "" np_thru_hole circle
@@ -368,36 +381,60 @@
 		(size 0.9 0.9)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c496f6c7-62c4-4d93-b633-1865a965465d")
 	)
 	(pad "" smd rect
 		(at 3.65 -0.78)
 		(size 1 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0aba9ae1-0c0e-4d0f-99ae-c07a5dd490df")
 	)
 	(pad "" smd rect
 		(at 3.65 1.43)
 		(size 1 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6b7d36ff-06f9-4c15-b43d-25f783f0a8fa")
 	)
 	(pad "1" smd rect
 		(at -2.25 -1.43)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "299048f8-c13b-48bf-b7d1-27fc1262eacd")
 	)
 	(pad "2" smd rect
 		(at 0.75 -1.43)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1e2bf2d9-66b0-4133-a876-44e107f2c776")
 	)
 	(pad "3" smd rect
 		(at 2.25 -1.43)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fb73ad09-b71d-43c9-84e5-a13cf14ca903")
 	)
 	(embedded_fonts no)

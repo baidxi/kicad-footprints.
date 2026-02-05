@@ -1,7 +1,7 @@
 (footprint "Jack_6.35mm_Neutrik_NJ6FD-V_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "6.35mm (1/4 in) Vertical Jack, 3 x switching (normalling) stereo jack (T/TN/R/RN/S/SN), https://www.neutrik.com/en/product/nj6fd-v")
 	(tags "neutrik jack vertical")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.52 -1.9)
 		(end -6.52 -0.28)
@@ -355,6 +356,10 @@
 		(size 1.6 1.6)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0aa67974-d79b-4cc0-afc1-dda80a1e92ee")
 	)
 	(pad "" np_thru_hole circle
@@ -362,6 +367,10 @@
 		(size 2.1 2.1)
 		(drill 2.1)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "378ae261-e24a-474d-b02e-7c1c3fab5187")
 	)
 	(pad "R" thru_hole circle
@@ -370,6 +379,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c5b60267-e88a-4b3b-9778-79d50aa1d047")
 	)
 	(pad "RN" thru_hole circle
@@ -378,6 +391,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "61efef71-5125-4192-9829-1840c9d614a3")
 	)
 	(pad "S" thru_hole circle
@@ -386,6 +403,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "49686028-0bf9-4cf9-9ef0-a8e290d39fed")
 	)
 	(pad "SN" thru_hole circle
@@ -394,6 +415,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "472285e6-0f9f-491e-bb7b-1eb7e57f121c")
 	)
 	(pad "T" thru_hole circle
@@ -402,6 +427,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fd634a22-4660-4ec8-9ed6-e63691b8bf1d")
 	)
 	(pad "TN" thru_hole circle
@@ -410,6 +439,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6e9b0653-0b46-4710-9337-2dd804db40fb")
 	)
 	(embedded_fonts no)

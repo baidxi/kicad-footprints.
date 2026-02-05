@@ -1,7 +1,7 @@
 (footprint "ST_D_SMC"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "STMicroelectronics SMC (JEDEC DO-214-D, variant AB), https://www.st.com/resource/en/datasheet/sm15t36a.pdf#page=7")
 	(tags "Diode DO-214AB")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.36 -3.1)
 		(end 3.7 -3.1)
@@ -240,6 +241,10 @@
 		(size 3.14 1.54)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b9c03f19-94f0-481f-9964-8c5a33d54b62")
 	)
 	(pad "2" smd roundrect
@@ -247,6 +252,10 @@
 		(size 3.14 1.54)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "81d1ed68-b6d9-47e8-89e7-537d48fa0cee")
 	)
 	(embedded_fonts no)

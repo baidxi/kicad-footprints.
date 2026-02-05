@@ -1,7 +1,7 @@
 (footprint "Fuseholder_Clip-5x20mm_Keystone_3512_Inline_P23.62x7.27mm_D1.02x1.57mm_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Keystone 3512, http://www.keyelco.com/product-pdf.cfm?p=356")
 	(tags "fuse clip open")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.51 -3.175)
 		(end 0.51 -1.6)
@@ -352,6 +353,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f4f19b50-41f2-4d25-9e20-0ba8b7e9341d")
 	)
 	(pad "1" thru_hole roundrect
@@ -361,6 +366,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d0b95d2b-fcbe-4a4e-bc55-a0bb10a8db6e")
 	)
 	(pad "2" thru_hole oval
@@ -369,6 +378,10 @@
 		(drill oval 1.02 1.87)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "89d56407-28a2-4abe-be89-c96c82f164b8")
 	)
 	(pad "2" thru_hole oval
@@ -377,6 +390,10 @@
 		(drill oval 1.02 1.87)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2e710243-54dd-4d59-ae18-135e4df4f90e")
 	)
 	(embedded_fonts no)

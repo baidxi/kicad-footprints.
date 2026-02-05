@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Alps_RK097_Single_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "1110, Single Pot, Horizontal, Alps RK097 Single,  https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk097/rk097.pdf")
 	(tags "Potentiometer horizontal Alps RK097 Single")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 2.175 -2.37)
 		(end -4.5 -2.37)
@@ -264,6 +265,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1388888889)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f3490fa5-5a27-423b-af60-53609669542c")
 	)
 	(pad "2" thru_hole circle
@@ -272,6 +277,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1860e030-7a36-4298-b7fc-a16d48ab15ba")
 	)
 	(pad "3" thru_hole circle
@@ -280,6 +289,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3dcc657b-55a1-48e0-9667-e01e7b6b08b5")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "L_Ferrocore_DLG-1004"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Ferrocore DLG-1004 unshielded SMD power inductor, 10.0x9.0x4.0mm, https://www.tme.eu/Document/bda580f72a60a2225c2f6576c2740ae1/dlg-0504.pdf")
 	(tags "smd inductor dlg-1004")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.05 -4.61)
 		(end 1.05 -4.61)
@@ -171,12 +172,20 @@
 		(at -3.125 0)
 		(size 3.75 9.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "52f53e63-736f-4783-bea5-9345e6192103")
 	)
 	(pad "2" smd rect
 		(at 3.125 0)
 		(size 3.75 9.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b7a36f93-f8f4-4b46-baf8-5615aa274974")
 	)
 	(embedded_fonts no)

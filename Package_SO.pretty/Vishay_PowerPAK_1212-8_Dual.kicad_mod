@@ -1,7 +1,7 @@
 (footprint "Vishay_PowerPAK_1212-8_Dual"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "PowerPAK 1212-8 Dual (https://www.vishay.com/docs/71656/ppak12128.pdf, https://www.vishay.com/docs/72598/72598.pdf)")
 	(tags "Vishay_PowerPAK_1212-8_Dual")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.635 -1.645)
 		(end 1.635 -1.645)
@@ -231,24 +232,40 @@
 		(at -1.435 -0.99)
 		(size 0.99 0.405)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fb13210f-25b0-4163-b62a-be1291d35175")
 	)
 	(pad "2" smd rect
 		(at -1.435 -0.33)
 		(size 0.99 0.405)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "387f3871-678a-45b4-9c0c-5a8de5192085")
 	)
 	(pad "3" smd rect
 		(at -1.435 0.33)
 		(size 0.99 0.405)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9c0923cc-b68e-49f0-a39e-7b5abdb76f5f")
 	)
 	(pad "4" smd rect
 		(at -1.435 0.99)
 		(size 0.99 0.405)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2ae71757-b64c-4352-bc9d-af56a65737e1")
 	)
 	(pad "5" smd custom
@@ -271,6 +288,10 @@
 				(fill yes)
 			)
 		)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3d6444bf-8e56-4df5-85fb-da00d5f8caf4")
 	)
 	(pad "6" smd custom
@@ -292,6 +313,10 @@
 				(width 0)
 				(fill yes)
 			)
+		)
+		(tenting
+			(front none)
+			(back none)
 		)
 		(uuid "698ad7a5-72ee-4455-8d16-1f3ffc2b9fc5")
 	)

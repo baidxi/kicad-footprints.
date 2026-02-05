@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Bulgin_BX0036_1xC"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)")
 	(tags "Bulgin BX0036")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.81 -17.06)
 		(end -1.81 17.06)
@@ -201,6 +202,10 @@
 		(size 3.8 3.8)
 		(drill 3.8)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d204374d-427d-4184-8cac-34c3c45ae776")
 	)
 	(pad "" np_thru_hole circle
@@ -208,6 +213,10 @@
 		(size 3.8 3.8)
 		(drill 3.8)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "26fa0e55-ded5-4fdc-9c3a-463e0e15d145")
 	)
 	(pad "1" thru_hole rect
@@ -216,6 +225,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "06b0de7a-8452-47e4-8156-099c9b3d0d4a")
 	)
 	(pad "2" thru_hole circle
@@ -224,6 +237,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7076fdf9-3d9e-46dc-8021-cde9c82fa64e")
 	)
 	(embedded_fonts no)

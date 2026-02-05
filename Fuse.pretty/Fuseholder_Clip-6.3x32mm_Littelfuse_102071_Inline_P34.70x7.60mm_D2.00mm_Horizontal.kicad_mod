@@ -1,7 +1,7 @@
 (footprint "Fuseholder_Clip-6.3x32mm_Littelfuse_102071_Inline_P34.70x7.60mm_D2.00mm_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Fuseholder Clips, 6.3x32mm Cylinder Fuse, Pins Inline, Horizontal, Littelfuse 102071, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_520_521_102071_datasheet.pdf.pdf")
 	(tags "fuse clip open")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.3 -3.95)
 		(end 0.3 -1.765)
@@ -352,6 +353,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "acd317df-ee16-48d8-801c-b75bf4dead32")
 	)
 	(pad "1" thru_hole roundrect
@@ -361,6 +366,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6ae1d4ca-b32e-4e9c-9fa2-10eb3b2bd384")
 	)
 	(pad "2" thru_hole circle
@@ -369,6 +378,10 @@
 		(drill 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "660d3e49-aa0a-441f-86f1-1686fd41afd3")
 	)
 	(pad "2" thru_hole circle
@@ -377,6 +390,10 @@
 		(drill 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d65c2928-0a60-47df-93a6-f91c5d748fa8")
 	)
 	(embedded_fonts no)

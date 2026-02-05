@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Bourns_PRS11S_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Potentiometer, vertical, Bourns PRS11S, http://www.bourns.com/docs/Product-Datasheets/PRS11S.pdf")
 	(tags "Potentiometer vertical Bourns PRS11S")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.37 -5.97)
 		(end -6.37 -3.9)
@@ -251,6 +252,10 @@
 		(size 1.5 1.5)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4ea7075d-5bd7-49ba-b0b0-a8de8a561978")
 	)
 	(pad "" np_thru_hole circle
@@ -258,36 +263,60 @@
 		(size 1.5 1.5)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e45365d0-3d21-4571-9152-4e1e25b475d6")
 	)
 	(pad "1" smd rect
 		(at -8.25 -2.5)
 		(size 4 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "31dcd875-8e81-443f-800f-4ea13028f21d")
 	)
 	(pad "2" smd rect
 		(at -8.25 0)
 		(size 4 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ed247fc0-d8a3-4429-ae7b-c4f71b2a56bb")
 	)
 	(pad "3" smd rect
 		(at -8.25 2.5)
 		(size 4 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a20af73d-8b47-4e12-a341-1cdf1f2f9868")
 	)
 	(pad "4" smd rect
 		(at 8.25 -2.5)
 		(size 4 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9c6abadc-b714-478e-a9f7-cd8abc2cc5ec")
 	)
 	(pad "5" smd rect
 		(at 8.25 2.5)
 		(size 4 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "30eba1f3-4d02-42f6-a5ce-0bfc977ad581")
 	)
 	(embedded_fonts no)

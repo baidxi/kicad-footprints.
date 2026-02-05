@@ -1,7 +1,7 @@
 (footprint "D_SMC-RM10_Universal_Handsoldering"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Diode, Universal, SMC (DO-214AB), RM10, Handsoldering, SMD, Thruhole")
 	(tags "Diode Universal SMC (DO-214AB) RM10 Handsoldering SMD Thruhole")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.91 -3.25)
 		(end 4.4 -3.25)
@@ -244,6 +245,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.0757575758)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a7f40892-efce-45e2-8c2d-6721175a4631")
 	)
 	(pad "2" thru_hole roundrect
@@ -255,6 +260,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.0757575758)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "13136f10-1d65-422c-8a9e-1d1188505408")
 	)
 	(embedded_fonts no)

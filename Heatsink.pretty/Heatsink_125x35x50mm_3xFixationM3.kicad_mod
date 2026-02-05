@@ -1,7 +1,7 @@
 (footprint "Heatsink_125x35x50mm_3xFixationM3"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Heatsink, 125x35x50mm, 3 fixation holes 3.2mm")
 	(tags "heatsink")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -62.6 2.65)
 		(end -62.6 -2.57)
@@ -1657,6 +1658,10 @@
 		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "*.Cu" "*.SilkS" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6846cbed-5784-4677-9847-19107d00c49b")
 	)
 	(pad "" np_thru_hole circle
@@ -1664,6 +1669,10 @@
 		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "*.Cu" "*.SilkS" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "853723fe-b20c-4c71-9b2b-da837035c89e")
 	)
 	(pad "" np_thru_hole circle
@@ -1671,6 +1680,10 @@
 		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "*.Cu" "*.SilkS" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d07dd6e8-d684-4a17-96f7-d92a66f70e78")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "BNC_Amphenol_031-5539_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "BNC coaxial connector vertical, Amphenol 031-71059, https://www.amphenolrf.com/library/download/link/link_id/594427/parent/031-5539/")
 	(tags "BNC Amphenol Vertical")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.5 -7.67)
 		(end 7.5 -7.67)
@@ -216,6 +217,10 @@
 		(drill 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "03805aeb-4386-472e-850d-449dbb7b9565")
 	)
 	(pad "" thru_hole circle
@@ -224,6 +229,10 @@
 		(drill 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4a56a46c-3d94-40b7-80e6-a170ff8b6a2f")
 	)
 	(pad "1" thru_hole roundrect
@@ -233,6 +242,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "84b044d8-a43a-41f7-968e-7453f6eafc0b")
 	)
 	(pad "2" thru_hole circle
@@ -241,6 +254,10 @@
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "95faa22d-35b2-443a-8bba-e3bcc7a00f2a")
 	)
 	(embedded_fonts no)

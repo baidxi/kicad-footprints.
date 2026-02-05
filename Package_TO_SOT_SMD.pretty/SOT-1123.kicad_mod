@@ -1,7 +1,7 @@
 (footprint "SOT-1123"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SOT-1123 small outline transistor (see http://www.onsemi.com/pub/Collateral/NST3906F3-D.PDF)")
 	(tags "SOT-1123 transistor")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.86 -0.04)
 		(end -0.86 0.55)
@@ -201,6 +202,10 @@
 		(size 0.34 0.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "864b30d6-9fcd-4517-ad8e-9ca54b7e5c88")
 	)
 	(pad "2" smd roundrect
@@ -208,6 +213,10 @@
 		(size 0.34 0.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2daed678-4111-45ff-992c-63cd6080746f")
 	)
 	(pad "3" smd roundrect
@@ -215,6 +224,10 @@
 		(size 0.34 0.26)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "31b55b4a-3dda-4a7e-bbb0-2309b3b8aca1")
 	)
 	(embedded_fonts no)

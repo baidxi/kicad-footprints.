@@ -1,7 +1,7 @@
 (footprint "CP_Elec_CAP-XX_DMF3Zxxxxxxxx3D"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "5.5V, 470mF supercapacitor, 45mohm, -40ºC to +70ºC, https://www.cap-xx.com/wp-content/uploads/datasheets/CAP-XX-DMF470mF-Datasheet.pdf")
 	(tags "supercap")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -13.425 -6.375)
 		(end -11.175 -6.375)
@@ -444,18 +445,30 @@
 		(at -14 -3.5 180)
 		(size 4 2.5)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4021e16a-2acc-4454-b438-9a04e709dc05")
 	)
 	(pad "2" smd rect
 		(at -14 0 180)
 		(size 4 2.5)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1857d341-b9a6-4dcc-8268-0e1835ecd488")
 	)
 	(pad "3" smd rect
 		(at -14 3.5 180)
 		(size 4 2.5)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1264107e-2d4b-4e98-b7c7-eb6ef798b0dd")
 	)
 	(embedded_fonts no)

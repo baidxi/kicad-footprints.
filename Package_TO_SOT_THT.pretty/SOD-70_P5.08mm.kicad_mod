@@ -1,7 +1,7 @@
 (footprint "SOD-70_P5.08mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Plastic near cylindrical package Sod-70 see: https://www.nxp.com/docs/en/data-sheet/KTY81_SER.pdf  [StepUp generated footprint]")
 	(tags "Sod-70")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 4.287141 1.66)
 		(end 0.792859 1.66)
@@ -255,6 +256,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "84e8581b-d797-4497-9e32-1230521ec71c")
 	)
 	(pad "2" thru_hole oval
@@ -263,6 +268,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "577d9b05-43ca-4003-8dcb-c1773b17087e")
 	)
 	(embedded_fonts no)

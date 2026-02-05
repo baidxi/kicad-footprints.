@@ -1,7 +1,7 @@
 (footprint "Panasonic_EVQPUM_EVQPUD"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf")
 	(tags "SMD SMT SPST EVQPUM EVQPUD")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.45 0.275)
 		(end -2.45 -0.275)
@@ -230,6 +231,10 @@
 		(size 0.75 0.75)
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2fce95e1-edc6-49b3-8166-d0464484e164")
 	)
 	(pad "" np_thru_hole circle
@@ -237,30 +242,50 @@
 		(size 0.75 0.75)
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "eff460af-27f8-4045-a685-ff76d21380fa")
 	)
 	(pad "1" smd rect
 		(at -2.575 -0.85 180)
 		(size 1.45 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bfabd3d8-5f0b-4ac2-b2b2-7e5b5575638f")
 	)
 	(pad "1" smd rect
 		(at 2.575 -0.85 180)
 		(size 1.45 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5127786c-d26f-46fa-91d7-6d6ab81a47b1")
 	)
 	(pad "2" smd rect
 		(at -2.575 0.85 180)
 		(size 1.45 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0b06e953-d19f-4367-b428-cb3d0b4e4f3d")
 	)
 	(pad "2" smd rect
 		(at 2.575 0.85 180)
 		(size 1.45 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "79e55642-5a3c-4f38-ad7c-cf668ca0d457")
 	)
 	(embedded_fonts no)

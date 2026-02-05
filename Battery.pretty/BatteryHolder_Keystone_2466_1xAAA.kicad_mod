@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Keystone_2466_1xAAA"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "1xAAA Battery Holder, Keystone, Plastic Case, http://www.keyelco.com/product-pdf.cfm?p=1031")
 	(tags "AAA battery holder Keystone")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.8 -6.6)
 		(end -2.8 6.6)
@@ -491,6 +492,10 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "296997d5-f8a8-42b7-8daa-842979f75b06")
 	)
 	(pad "2" thru_hole circle
@@ -499,6 +504,10 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "169dd0a9-f3d5-4e60-8114-050dd8011caf")
 	)
 	(embedded_fonts no)

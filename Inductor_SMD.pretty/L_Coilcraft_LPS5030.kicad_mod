@@ -1,7 +1,7 @@
 (footprint "L_Coilcraft_LPS5030"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Shielded Power Inductor SMD, Coilcraft LPS5030, https://www.coilcraft.com/pdfs/lps5030.pdf, StepUp generated footprint")
 	(tags "inductor")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.5 -2.51)
 		(end 0.5 -2.51)
@@ -264,6 +265,10 @@
 				(fill yes)
 			)
 		)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6d4c9034-963f-4bec-a52d-d25f343700bc")
 	)
 	(pad "2" smd custom
@@ -284,6 +289,10 @@
 				(width 0)
 				(fill yes)
 			)
+		)
+		(tenting
+			(front none)
+			(back none)
 		)
 		(uuid "27fd1c59-9c78-4734-99ba-260ef3443e5d")
 	)

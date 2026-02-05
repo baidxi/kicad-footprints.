@@ -1,7 +1,7 @@
 (footprint "AMASS_XT60IPW-M_1x03_P7.20mm_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Connector XT60 Horizontal PCB Male, https://www.tme.eu/Document/a5efb91801d38c85c7a1f61518cd6048/XT60IPW-M.pdf")
 	(tags "RC Connector XT60")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.26 -16.46)
 		(end -4.26 -2.15)
@@ -238,10 +239,10 @@
 		(layer "F.Fab")
 		(uuid "dff62e1d-c592-4963-80cb-25d776cdc1f4")
 	)
-	(fp_text user "+"
-		(at 9.5 1.9 0)
+	(fp_text user "-"
+		(at -2.8 1.9 0)
 		(layer "F.SilkS")
-		(uuid "0a1ac2c6-8da8-4410-b772-69afa2855077")
+		(uuid "c355ca51-32bc-4d88-a250-07d5621dd709")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -249,10 +250,10 @@
 			)
 		)
 	)
-	(fp_text user "-"
-		(at -2.8 1.9 0)
+	(fp_text user "+"
+		(at 9.5 1.9 0)
 		(layer "F.SilkS")
-		(uuid "c355ca51-32bc-4d88-a250-07d5621dd709")
+		(uuid "0a1ac2c6-8da8-4410-b772-69afa2855077")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -277,6 +278,10 @@
 		(drill oval 0.6 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "251435cb-df17-46ab-aac4-3d24ccac8db0")
 	)
 	(pad "" thru_hole rect
@@ -285,6 +290,10 @@
 		(drill oval 0.6 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e68fac9b-3de3-4acb-9bb0-3dee3685df22")
 	)
 	(pad "1" thru_hole roundrect
@@ -294,6 +303,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dacfc6b2-f197-4446-86ee-d141533404be")
 	)
 	(pad "2" thru_hole circle
@@ -302,6 +315,10 @@
 		(drill 2.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7efaeda2-e767-44b9-adb2-3a0c3f4d2f1d")
 	)
 	(pad "3" thru_hole rect
@@ -310,6 +327,10 @@
 		(drill oval 2 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "742f6656-c86d-41c0-937e-ef6ded3bd482")
 	)
 	(embedded_fonts no)

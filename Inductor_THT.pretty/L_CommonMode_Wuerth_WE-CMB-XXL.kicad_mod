@@ -1,7 +1,7 @@
 (footprint "L_CommonMode_Wuerth_WE-CMB-XXL"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Wuerth, WE-CMB, Bauform XXL,")
 	(tags "CommonModeChoke Gleichtaktdrossel ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.3 -16.1)
 		(end 21.3 -16.1)
@@ -536,10 +537,10 @@
 		(layer "F.Fab")
 		(uuid "df39d71b-1bab-4670-b996-95762db9a08c")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 9.5 5 0)
+	(fp_text user "1"
+		(at -0.5 -5.5 0)
 		(layer "F.Fab")
-		(uuid "4dc7d524-6e41-4877-985d-42569a919fb9")
+		(uuid "72ecebcf-a2b0-4ef6-9ffc-c3938dd00742")
 		(effects
 			(font
 				(size 1 1)
@@ -558,21 +559,10 @@
 			)
 		)
 	)
-	(fp_text user "1"
-		(at -0.5 -5.5 0)
+	(fp_text user "${REFERENCE}"
+		(at 9.5 5 0)
 		(layer "F.Fab")
-		(uuid "72ecebcf-a2b0-4ef6-9ffc-c3938dd00742")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "7"
-		(at 19.5 15.5 0)
-		(layer "F.Fab")
-		(uuid "b225d9d0-c5f2-44a9-8520-1b9c5d863494")
+		(uuid "4dc7d524-6e41-4877-985d-42569a919fb9")
 		(effects
 			(font
 				(size 1 1)
@@ -591,12 +581,27 @@
 			)
 		)
 	)
+	(fp_text user "7"
+		(at 19.5 15.5 0)
+		(layer "F.Fab")
+		(uuid "b225d9d0-c5f2-44a9-8520-1b9c5d863494")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 3.5 3.5)
 		(drill 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ba48ea9e-5a5b-42d5-b551-0909dc056720")
 	)
 	(pad "6" thru_hole circle
@@ -605,6 +610,10 @@
 		(drill 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ad881aef-95a9-426d-9bc1-14baf51bfb67")
 	)
 	(pad "7" thru_hole circle
@@ -613,6 +622,10 @@
 		(drill 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b092f280-80e5-42c7-9bc6-becc7ab6c5ef")
 	)
 	(pad "12" thru_hole circle
@@ -621,6 +634,10 @@
 		(drill 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f5559a18-7f35-4326-9dd2-c97ca54f4342")
 	)
 	(embedded_fonts no)

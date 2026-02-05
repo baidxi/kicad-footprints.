@@ -1,7 +1,7 @@
 (footprint "FanPinHeader_1x04_P2.54mm_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf")
 	(tags "pin header 4-pin CPU fan")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.35 -2.6)
 		(end 4.4 -2.6)
@@ -280,6 +281,10 @@
 		(size 1.1 1.1)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "728eca52-59bc-43c8-b3db-e5d58257470d")
 	)
 	(pad "1" thru_hole rect
@@ -288,6 +293,10 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7d83911d-05b3-4c14-bda1-c45fd34caf24")
 	)
 	(pad "2" thru_hole oval
@@ -296,6 +305,10 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "51668fa3-c05f-4d5f-9b5a-a55d1d096270")
 	)
 	(pad "3" thru_hole oval
@@ -304,6 +317,10 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "413f2fc1-6ec4-4da9-8a85-63680d96b26c")
 	)
 	(pad "4" thru_hole oval
@@ -312,6 +329,10 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "287550d0-57c0-4d95-8a67-033135dbf5e7")
 	)
 	(embedded_fonts no)

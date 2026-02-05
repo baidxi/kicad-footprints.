@@ -1,7 +1,7 @@
 (footprint "MMCX_Molex_73415-0961_Horizontal_1.6mm-PCB"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Molex MMCX Horizontal Coaxial https://www.molex.com/pdm_docs/sd/734150961_sd.pdf")
 	(tags "Molex MMCX Horizontal Coaxial")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.69 -2.56)
 		(end 4.01 -2.56)
@@ -270,6 +271,10 @@
 		(at 2.45 0)
 		(size 2.6 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d8eb7845-316f-4f6a-843a-e18106d9aecb")
 	)
 	(pad "2" smd custom
@@ -289,6 +294,10 @@
 				(fill yes)
 			)
 		)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d7955a26-32f4-4e1c-a1cd-3cd70def6c5d")
 	)
 	(pad "2" smd custom
@@ -307,6 +316,10 @@
 				(width 0)
 				(fill yes)
 			)
+		)
+		(tenting
+			(front none)
+			(back none)
 		)
 		(uuid "105313e4-3963-4c3c-bf77-44628b16fabf")
 	)

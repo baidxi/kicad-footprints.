@@ -1,7 +1,7 @@
 (footprint "Relay_SPST_Panasonic_ADW11"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Panasonic power relay, SPST, latching, 10x24mm, 18.8mm height, https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/270")
 	(tags "Panasonic Relay SPST")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.9 -1.7)
 		(end -0.4 -1.7)
@@ -232,6 +233,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c55de2ea-e2db-4fab-93df-60cd396105ea")
 	)
 	(pad "14" thru_hole oval
@@ -240,6 +245,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dc693ad1-1e61-4528-b47d-8ddf90fc0a70")
 	)
 	(pad "A1" thru_hole roundrect
@@ -249,6 +258,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9c9a9838-a01f-4761-ae55-5644b7c1071d")
 	)
 	(pad "A2" thru_hole circle
@@ -257,6 +270,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "aa634950-0769-4450-9b3a-72fd78c49696")
 	)
 	(embedded_fonts no)

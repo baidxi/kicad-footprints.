@@ -1,7 +1,7 @@
 (footprint "Pin_D1.1mm_L8.5mm_W2.5mm_FlatFork"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "solder Pin_ with flat fork, hole diameter 1.1mm, length 8.5mm, width 2.5mm")
 	(tags "solder Pin_ with flat fork")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.3 -1.3)
 		(end 1.3 -1.3)
@@ -191,6 +192,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3d42d0ea-a676-4951-8ca8-54d8c4f21b4d")
 	)
 	(embedded_fonts no)

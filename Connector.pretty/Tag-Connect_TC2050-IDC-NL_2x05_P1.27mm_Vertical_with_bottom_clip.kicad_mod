@@ -1,7 +1,7 @@
 (footprint "Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical_with_bottom_clip"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Tag-Connect programming header with bottom courtyard for TC2050-NL Clip board ; https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-CLIP_Datasheet_25.pdf")
 	(tags "tag connect programming header pogo pins")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.08 -0.65)
 		(end -3.1 -2.05)
@@ -686,9 +687,9 @@
 		)
 	)
 	(fp_text user "6.35mm Z-KEEPOUT"
-		(at 1 2.75 0)
+		(at 1 -2.75 0)
 		(layer "Cmts.User")
-		(uuid "9ee0d5f6-4018-4e18-982c-5c309713cf6e")
+		(uuid "bfb68057-748c-43a2-a88a-c608aa696bc8")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -697,9 +698,9 @@
 		)
 	)
 	(fp_text user "6.35mm Z-KEEPOUT"
-		(at 1 -2.75 0)
+		(at 1 2.75 0)
 		(layer "Cmts.User")
-		(uuid "bfb68057-748c-43a2-a88a-c608aa696bc8")
+		(uuid "9ee0d5f6-4018-4e18-982c-5c309713cf6e")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -723,6 +724,10 @@
 		(size 0.9906 0.9906)
 		(drill 0.9906)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7b916658-fd75-4834-915a-7a01563711a7")
 	)
 	(pad "" np_thru_hole circle
@@ -730,6 +735,10 @@
 		(size 0.9906 0.9906)
 		(drill 0.9906)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5c59ce18-c602-4ecf-bf77-f76b576ddc8f")
 	)
 	(pad "" np_thru_hole circle
@@ -737,71 +746,113 @@
 		(size 0.9906 0.9906)
 		(drill 0.9906)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "254e2d36-5ba6-4a57-be96-d3046a21504c")
 	)
 	(pad "1" connect circle
 		(at -2.54 0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "34550e2e-933d-4d10-9364-0f0080f4c96c")
 	)
 	(pad "2" connect circle
 		(at -1.27 0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e0d5088e-fbc2-4f96-ade3-173a38a3f4f6")
 	)
 	(pad "3" connect circle
 		(at 0 0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8ceb45d0-1b9e-4951-af7f-81a22189042a")
 	)
 	(pad "4" connect circle
 		(at 1.27 0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5696118d-434c-4a4d-a406-db7bf06edcd6")
 	)
 	(pad "5" connect circle
 		(at 2.54 0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "98180ff5-fed6-4fe5-ae84-b439d83effc9")
 	)
 	(pad "6" connect circle
 		(at 2.54 -0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b124cc34-1d6e-4635-ab11-dd8b7799e27a")
 	)
 	(pad "7" connect circle
 		(at 1.27 -0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "291567eb-f1e1-401a-a998-abfd639e4292")
 	)
 	(pad "8" connect circle
 		(at 0 -0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "41c193f4-2305-44a8-acd4-54bd874a030f")
 	)
 	(pad "9" connect circle
 		(at -1.27 -0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "653735c5-9650-4d1c-8fbf-76f3facd394d")
 	)
 	(pad "10" connect circle
 		(at -2.54 -0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "13b6d3be-7559-4809-acf9-0c8bc6eb0995")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "915afd34-85f2-4f65-b2f6-5c607c325148")
 		(hatch full 0.508)
@@ -809,7 +860,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -824,6 +874,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

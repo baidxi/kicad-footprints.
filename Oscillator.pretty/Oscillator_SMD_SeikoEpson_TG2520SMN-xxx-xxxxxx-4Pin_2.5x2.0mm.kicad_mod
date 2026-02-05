@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_SeikoEpson_TG2520SMN-xxx-xxxxxx-4Pin_2.5x2.0mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Miniature Crystal Clock Oscillator TG2520 series, https://support.epson.biz/td/api/doc_check.php?dl=app_TG2520SMN&lang=en")
 	(tags "Miniature Crystal Clock Oscillator TG2520 series SMD SMT")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.11 0.32)
 		(end -1.11 -0.32)
@@ -190,6 +191,10 @@
 		(size 1 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1c941a22-3171-4d7a-b730-a151bde7ede0")
 	)
 	(pad "2" smd roundrect
@@ -197,6 +202,10 @@
 		(size 1 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9a292f7b-cb1b-4920-a7db-2befab82a7cb")
 	)
 	(pad "3" smd roundrect
@@ -204,6 +213,10 @@
 		(size 1 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ea7b0b9f-cfa7-4427-90f1-a3d31052f9a2")
 	)
 	(pad "4" smd roundrect
@@ -211,11 +224,13 @@
 		(size 1 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1d6613e4-7b93-4cd3-bea1-8f2ffac3976a")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.SilkS")
 		(uuid "562a6bc3-812b-47fe-8a4e-daaea6c7d789")
 		(hatch edge 0.508)
@@ -223,7 +238,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -238,6 +252,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

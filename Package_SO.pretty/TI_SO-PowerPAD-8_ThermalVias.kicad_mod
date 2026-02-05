@@ -1,7 +1,7 @@
 (footprint "TI_SO-PowerPAD-8_ThermalVias"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm² body, exposed pad, thermal vias with large copper area, as proposed in http://www.ti.com/lit/ds/symlink/tps5430.pdf")
 	(tags "HTSOP 1.27")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.075 -2.575)
 		(end 2.075 -2.575)
@@ -191,48 +192,80 @@
 		(at -2.7 -1.905)
 		(size 1.55 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6b9e77e3-d0be-495e-bb8f-bff438be5fc4")
 	)
 	(pad "2" smd rect
 		(at -2.7 -0.635)
 		(size 1.55 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "98d44a67-a61c-4648-99d4-6b78f69f33fa")
 	)
 	(pad "3" smd rect
 		(at -2.7 0.635)
 		(size 1.55 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f981daf7-5970-4bcc-99f3-4ff5a5b0a28e")
 	)
 	(pad "4" smd rect
 		(at -2.7 1.905)
 		(size 1.55 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a2661e05-fb09-4514-92db-84753b88482e")
 	)
 	(pad "5" smd rect
 		(at 2.7 1.905)
 		(size 1.55 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4527ef1e-d3d6-435c-b0ad-479738e4ae9d")
 	)
 	(pad "6" smd rect
 		(at 2.7 0.635)
 		(size 1.55 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8c987c0f-d9ce-44e9-94eb-42bdbb4d6472")
 	)
 	(pad "7" smd rect
 		(at 2.7 -0.635)
 		(size 1.55 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b73a66b1-d41f-4e93-903e-d84d9c1e160f")
 	)
 	(pad "8" smd rect
 		(at 2.7 -1.905)
 		(size 1.55 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4e54a4cf-f18a-406b-b35d-fff0c8cec0bb")
 	)
 	(pad "9" thru_hole circle
@@ -241,6 +274,10 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7a0b1d27-eb0c-4232-8171-82c60f809b4d")
 	)
 	(pad "9" thru_hole circle
@@ -249,6 +286,10 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "631e7685-f5a9-45a8-9094-05177d9ea36f")
 	)
 	(pad "9" thru_hole circle
@@ -257,6 +298,10 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "72a6d508-82c0-4751-87d6-e206b945accf")
 	)
 	(pad "9" thru_hole circle
@@ -265,24 +310,40 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8833adba-9a3a-43e4-9561-15e3f36a8ddc")
 	)
 	(pad "9" smd rect
 		(at 0 0)
 		(size 2.6 3.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dafcdc19-3ca3-44cd-a0f1-b0affbcdb922")
 	)
 	(pad "9" smd rect
 		(at 0 0)
 		(size 2.95 4.5)
 		(layers "F.Cu")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b23d09de-c5bd-4860-b894-2a99a595f2ad")
 	)
 	(pad "9" smd rect
 		(at 0 0)
 		(size 2.95 4.5)
 		(layers "B.Cu")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "da8e3227-a937-4eba-af67-c7250c697189")
 	)
 	(pad "9" thru_hole circle
@@ -291,6 +352,10 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "58ed4089-9be8-4bc7-a0e6-94e36b6cb6a4")
 	)
 	(pad "9" thru_hole circle
@@ -299,6 +364,10 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8de84454-d564-4348-9100-7a90909733f1")
 	)
 	(pad "9" thru_hole circle
@@ -307,6 +376,10 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a3ef04df-908a-468c-b6be-69f62f86074d")
 	)
 	(pad "9" thru_hole circle
@@ -315,6 +388,10 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a74d6881-6429-44e6-a656-c91719f2ace6")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "USB_C_Receptacle_G-Switch_GT-USB-7051x"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "USB Type C, vertical, SMT, https://datasheet.lcsc.com/lcsc/2108072030_G-Switch-GT-USB-7051A_C2843970.pdf")
 	(tags "USB C Type-C Receptacle SMD GT-USB-7051A GT-USB-7051B")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.42 -2.17)
 		(end -4.42 -1.67)
@@ -574,14 +575,22 @@
 		(at -3.75 0)
 		(size 0.66 0.66)
 		(drill 0.66)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e25352c4-817d-4256-89d8-35fe3e270df5")
 	)
 	(pad "" np_thru_hole oval
 		(at 3.75 0)
 		(size 1 0.58)
 		(drill oval 1 0.58)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d0559ade-33c4-4fbc-ad55-7c4b1c27cf2b")
 	)
 	(pad "A1" smd roundrect
@@ -589,6 +598,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "33d0e7e5-8941-43b3-adcc-48116271b23a")
 	)
 	(pad "A4" smd roundrect
@@ -596,6 +609,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "37fb08db-85db-43fd-b0c7-45a9416edae6")
 	)
 	(pad "A5" smd roundrect
@@ -603,6 +620,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d80ae2c1-af43-499a-a8ae-c7638db363c6")
 	)
 	(pad "A6" smd roundrect
@@ -610,6 +631,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f96077f4-8d53-4278-8205-3ec514c15ddc")
 	)
 	(pad "A7" smd roundrect
@@ -617,6 +642,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b749f15b-263d-454a-b03b-e53f0573a701")
 	)
 	(pad "A8" smd roundrect
@@ -624,6 +653,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3c4a3d09-707b-4021-9e46-a1f061d2843d")
 	)
 	(pad "A9" smd roundrect
@@ -631,6 +664,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8318df24-5db6-4494-a73b-a0af1b9f50f8")
 	)
 	(pad "A12" smd roundrect
@@ -638,6 +675,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "50cb865e-d41d-449d-ac6e-78377189557e")
 	)
 	(pad "B1" smd roundrect
@@ -645,6 +686,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "98897905-9de2-4d24-87d3-7e6c6d981e17")
 	)
 	(pad "B4" smd roundrect
@@ -652,6 +697,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ce48678e-d7dc-4fdc-9bcf-c6f16291a97f")
 	)
 	(pad "B5" smd roundrect
@@ -659,6 +708,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "490e5f1a-0a88-4ed9-a823-64909b11e3a8")
 	)
 	(pad "B6" smd roundrect
@@ -666,6 +719,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "06b8f1e0-8ed2-40dc-aea7-a79619a23c20")
 	)
 	(pad "B7" smd roundrect
@@ -673,6 +730,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4d2389d4-dcef-49c3-9268-c2454a68b53c")
 	)
 	(pad "B8" smd roundrect
@@ -680,6 +741,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d1f147ea-5aeb-4fae-ba85-a70d8a2e8580")
 	)
 	(pad "B9" smd roundrect
@@ -687,6 +752,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a3c4712b-56ee-4abd-8e53-1ede0b76af8e")
 	)
 	(pad "B12" smd roundrect
@@ -694,6 +763,10 @@
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5e80be4e-70f8-4fc3-bfb4-4db52e41fd77")
 	)
 	(pad "SH" thru_hole circle
@@ -703,6 +776,10 @@
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8822ba42-6302-4ae1-a045-98f8da8310d7")
 	)
 	(pad "SH" thru_hole circle
@@ -712,6 +789,10 @@
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "06109121-6e89-41fd-a280-09a8dac9e0d2")
 	)
 	(pad "SH" thru_hole circle
@@ -721,6 +802,10 @@
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "82da4eab-f40f-49f2-a0df-7d17a0fbc62e")
 	)
 	(pad "SH" thru_hole circle
@@ -730,11 +815,13 @@
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f8892c75-5d6a-4fe8-862b-44a62d5172b2")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "38c1a80f-4c99-46d1-96e7-0434d9f50848")
 		(name "peg")
@@ -743,7 +830,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -758,6 +844,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -766,8 +853,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "81350c31-e221-486e-aed5-80f579950bdf")
 		(name "peg")
@@ -776,7 +861,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -791,6 +875,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

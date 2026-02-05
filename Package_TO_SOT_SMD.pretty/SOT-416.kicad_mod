@@ -1,7 +1,7 @@
 (footprint "SOT-416"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SOT-416, https://www.nxp.com/docs/en/package-information/SOT416.pdf")
 	(tags "SOT-416")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.51 -0.96)
 		(end -0.65 -0.96)
@@ -211,6 +212,10 @@
 		(size 0.6 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "20b7e4a5-bd1f-42e7-adc2-e7d64321cc31")
 	)
 	(pad "2" smd roundrect
@@ -218,6 +223,10 @@
 		(size 0.6 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ed8380dd-2b9e-41ce-a8cc-33c7c5ebd110")
 	)
 	(pad "3" smd roundrect
@@ -225,6 +234,10 @@
 		(size 0.6 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cfbd026d-75e4-48b2-863d-99ea2eedcafd")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Jack_6.35mm_Neutrik_NJ5FD-V_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "6.35mm (1/4 in) Vertical Jack, 2 x switching (normalling) stereo jack (T/TN/R/RN/S), https://www.neutrik.com/en/product/nj5fd-v")
 	(tags "neutrik jack vertical")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.52 -1.9)
 		(end -6.52 -0.28)
@@ -355,6 +356,10 @@
 		(size 1.6 1.6)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8f8e38f2-afe8-4446-9e1e-c5062c685409")
 	)
 	(pad "" np_thru_hole circle
@@ -362,6 +367,10 @@
 		(size 2.1 2.1)
 		(drill 2.1)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c345b574-1b20-464d-80a9-7b20626036aa")
 	)
 	(pad "R" thru_hole circle
@@ -370,6 +379,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9ebb8e0c-cebc-47ad-ae6c-cb165e9c6823")
 	)
 	(pad "RN" thru_hole circle
@@ -378,6 +391,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b9793294-fe3c-4cc2-b8c3-b92a083c535a")
 	)
 	(pad "S" thru_hole circle
@@ -386,6 +403,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7521bf26-f146-4f5a-8a8a-74eda93ea9de")
 	)
 	(pad "T" thru_hole circle
@@ -394,6 +415,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "250a1b7c-6124-4e4d-9f2b-75b7379f81ad")
 	)
 	(pad "TN" thru_hole circle
@@ -402,6 +427,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "37340f32-f3f4-46f2-aba0-5d1f22bc132c")
 	)
 	(embedded_fonts no)

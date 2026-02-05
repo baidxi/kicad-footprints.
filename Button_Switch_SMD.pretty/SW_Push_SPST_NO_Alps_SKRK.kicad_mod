@@ -1,7 +1,7 @@
 (footprint "SW_Push_SPST_NO_Alps_SKRK"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html")
 	(tags "SMD SMT button")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.07 -1.57)
 		(end 2.07 -1.57)
@@ -221,6 +222,10 @@
 		(size 0.8 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "326c8e35-c807-4874-ba94-75c4bfafa144")
 	)
 	(pad "2" smd roundrect
@@ -228,6 +233,10 @@
 		(size 0.8 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c89f8ee5-d4ed-40c3-a1db-83506234bbb6")
 	)
 	(embedded_fonts no)

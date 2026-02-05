@@ -1,7 +1,7 @@
 (footprint "SD_Hirose_DM1AA_SF_PEJ82"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SD, SMD, top-mount, push-push (https://www.hirose.com/product/document?clcode=CL0609-0004-8-82&productname=DM1AA-SF-PEJ(82)&series=DM1&documenttype=2DDrawing&lang=en&documentid=0000915301)")
 	(tags "SD card connector")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -14.2 -15.45)
 		(end -11.7 -15.45)
@@ -624,6 +625,10 @@
 		(size 1.3 1.3)
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5c108806-1db2-4b23-a960-6de429838ab9")
 	)
 	(pad "" np_thru_hole circle
@@ -631,102 +636,170 @@
 		(size 1.3 1.3)
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5b25327d-b8f8-4b35-9a12-c427631ff22e")
 	)
 	(pad "1" smd rect
 		(at 6.075 -14.95)
 		(size 1.1 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "aecc055e-8353-4bc7-b217-2ecf94517814")
 	)
 	(pad "2" smd rect
 		(at 3.575 -14.95)
 		(size 1.1 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7f718a98-d128-4a93-ad16-b028d4697484")
 	)
 	(pad "3" smd rect
 		(at 1.075 -14.95)
 		(size 1.1 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6fa0ac25-88a3-463e-af06-9037237eed22")
 	)
 	(pad "4" smd rect
 		(at -1.425 -14.95)
 		(size 1.1 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4c5572fd-d020-4bfd-ba7f-7f22fab04562")
 	)
 	(pad "5" smd rect
 		(at -3.925 -14.95)
 		(size 1.1 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0e66dc31-faa7-4f2c-9ad5-be7a971a1345")
 	)
 	(pad "6" smd rect
 		(at -6.425 -14.95)
 		(size 1.1 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ffa18222-ee6f-4919-bced-9be738812740")
 	)
 	(pad "7" smd rect
 		(at -8.85 -14.95)
 		(size 1.1 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "813b9e6e-815f-4aa6-a5fb-981962047e83")
 	)
 	(pad "8" smd rect
 		(at -10.55 -14.95)
 		(size 1.1 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f956b17c-88a7-471f-ae9d-9ddb4469e8fe")
 	)
 	(pad "9" smd rect
 		(at 8.575 -14.95)
 		(size 1.1 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "222e9839-dd56-488a-88b8-fd55929e215e")
 	)
 	(pad "CP" smd rect
 		(at -13.6 -3.55)
 		(size 2 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e358666e-d1d1-43f0-9168-853d3d219f39")
 	)
 	(pad "SH" smd rect
 		(at -14.5 -8.2)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "96851fff-6733-46e1-933c-9853a5ba0d67")
 	)
 	(pad "SH" smd rect
 		(at -14.5 10.45)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "51fd5be6-1970-486c-a2db-3001e43d6bcd")
 	)
 	(pad "SH" smd rect
 		(at 14.5 -8.2)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6c8de862-6ff6-4f50-bec0-cc6f3ec286d1")
 	)
 	(pad "SH" smd rect
 		(at 14.5 10.45)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0eebbce7-e5de-4a7f-b929-094712dcef4a")
 	)
 	(pad "SW" smd rect
 		(at -13.6 8)
 		(size 2 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7e1978a2-dccf-4886-bcaa-7b204e38b671")
 	)
 	(pad "WP" smd rect
 		(at -13.6 5.4)
 		(size 2 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f6d72967-1036-4baf-94bd-7b41ae80a5b3")
 	)
 	(embedded_fonts no)

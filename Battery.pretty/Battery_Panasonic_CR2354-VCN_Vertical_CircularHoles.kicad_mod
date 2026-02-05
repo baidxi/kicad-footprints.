@@ -1,7 +1,7 @@
 (footprint "Battery_Panasonic_CR2354-VCN_Vertical_CircularHoles"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Panasonic CR-2354/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D486.PDF")
 	(tags "battery CR-2354/VCN coin cell vertical")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.335 -6.21)
 		(end -7.335 0.21)
@@ -222,6 +223,10 @@
 		(drill 3.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9af5594e-e861-4257-879d-dd72da5cd8d7")
 	)
 	(pad "2" thru_hole circle
@@ -230,6 +235,10 @@
 		(drill 2.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9c94b945-ad5e-443f-8e5c-233dcc011443")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Fuse_Bourns_MF-SM_7.98x5.44mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://www.bourns.com/docs/Product-Datasheets/mfsm.pdf")
 	(tags "bourns ptc resettable fuse polyfuse MF-SM MF-SMHT")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.1 -2.83)
 		(end -4.1 -2.05)
@@ -209,12 +210,20 @@
 		(at -3.7 0)
 		(size 2.3 3.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3c3dd7b4-46c5-4f15-886f-ae7eb9b44838")
 	)
 	(pad "2" smd rect
 		(at 3.7 0)
 		(size 2.3 3.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f15bca7d-e42f-4486-8778-245d3b6c0982")
 	)
 	(embedded_fonts no)

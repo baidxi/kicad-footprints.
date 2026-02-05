@@ -1,7 +1,7 @@
 (footprint "CFSensor_XGZP6897x"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Port External Dia 3.13mm, Port Internal Dia 0.9mm, 8 Pin (https://cfsensor.com/wp-content/uploads/2022/11/XGZP6897D-Pressure-Sensor-V2.7.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py, hand modified")
 	(tags "sop sensor")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.61 -5.61)
 		(end -3.61 -4.545)
@@ -280,19 +281,6 @@
 		(layer "F.Fab")
 		(uuid "38d11f08-6cf6-425d-937b-8c7fdab9b1dd")
 	)
-	(fp_text user "LP"
-		(at -0.9 3.72 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "055369bf-7c57-45cb-a120-23b4e43d619b")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.12)
-				(bold yes)
-			)
-		)
-	)
 	(fp_text user "2"
 		(at -0.9 2.52 0)
 		(unlocked yes)
@@ -306,11 +294,11 @@
 			)
 		)
 	)
-	(fp_text user "HP"
-		(at 0.665 -2.47 0)
+	(fp_text user "LP"
+		(at -0.9 3.72 0)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "733dd2d6-7b3b-4e09-88fb-7b0817191309")
+		(uuid "055369bf-7c57-45cb-a120-23b4e43d619b")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -324,6 +312,19 @@
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "a6e54289-a855-4d36-bc39-331d77a5a9ec")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "HP"
+		(at 0.665 -2.47 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "733dd2d6-7b3b-4e09-88fb-7b0817191309")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -348,6 +349,10 @@
 		(size 2.3 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "08c6ef2d-4bb4-4f60-8955-dd9eb7e005b3")
 	)
 	(pad "2" smd roundrect
@@ -355,6 +360,10 @@
 		(size 2.3 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0a447902-09ff-486e-881c-411fbb088c38")
 	)
 	(pad "3" smd roundrect
@@ -362,6 +371,10 @@
 		(size 2.3 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "93b57d1c-9c81-4323-9108-58e1fcf74a30")
 	)
 	(pad "4" smd roundrect
@@ -369,6 +382,10 @@
 		(size 2.3 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6dee4038-3089-493f-a622-e327b35988f3")
 	)
 	(pad "5" smd roundrect
@@ -376,6 +393,10 @@
 		(size 2.3 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ee56f7a4-c205-4b72-b108-42332a75fd96")
 	)
 	(pad "6" smd roundrect
@@ -383,6 +404,10 @@
 		(size 2.3 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "14f60284-3c39-4659-9010-42fdbf677fbd")
 	)
 	(pad "7" smd roundrect
@@ -390,6 +415,10 @@
 		(size 2.3 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4d9dd409-a551-4a65-8744-5d07c653b185")
 	)
 	(pad "8" smd roundrect
@@ -397,6 +426,10 @@
 		(size 2.3 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "603342c6-c841-4f42-a809-8f4388238f90")
 	)
 	(embedded_fonts no)

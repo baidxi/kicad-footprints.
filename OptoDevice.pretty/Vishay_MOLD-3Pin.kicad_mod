@@ -1,7 +1,7 @@
 (footprint "Vishay_MOLD-3Pin"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "IR Receiver Vishay TSOP-xxxx, MOLD package, see https://www.vishay.com/docs/82669/tsop32s40f.pdf")
 	(tags "IR Receiver Vishay TSOP-xxxx MOLD")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.04 2.3)
 		(end -0.18 2.3)
@@ -224,6 +225,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.138)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c636a45f-7634-4533-bdc6-2e375b87e097")
 	)
 	(pad "2" thru_hole circle
@@ -232,6 +237,10 @@
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "011c9131-6b6a-4071-986b-d17beb656ec5")
 	)
 	(pad "3" thru_hole circle
@@ -240,6 +249,10 @@
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "310dca9c-f99b-4682-92d8-2961e62d8ad7")
 	)
 	(embedded_fonts no)

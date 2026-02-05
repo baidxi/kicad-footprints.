@@ -1,7 +1,7 @@
 (footprint "Battery_Panasonic_CR1220-VCN_Vertical_CircularHoles"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Panasonic CR-1220/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.PDF")
 	(tags "battery CR-1220 coin cell vertical")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.785 -2.66)
 		(end 2.19 -2.66)
@@ -222,6 +223,10 @@
 		(drill 1.09)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2b3e8080-6e59-452f-841b-e804bf3dea49")
 	)
 	(pad "2" thru_hole circle
@@ -230,6 +235,10 @@
 		(drill 1.09)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "29d94e71-4a82-4acd-a9a6-3ce8158eea40")
 	)
 	(embedded_fonts no)

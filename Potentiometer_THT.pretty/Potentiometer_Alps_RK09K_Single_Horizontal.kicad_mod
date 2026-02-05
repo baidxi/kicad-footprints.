@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Alps_RK09K_Single_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "111009J 1110AK4 11100DN 1110AAR 1110077 1110A0J 110AMJ 1110B26 D1110C1A Potentiometer, horizontal, Alps RK09K Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk09k/rk09k.pdf")
 	(tags "Potentiometer horizontal Alps RK09K Single Snapin")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -11.72 5.62)
 		(end -11.72 -0.62)
@@ -353,6 +354,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4495d8e2-b9e1-42e1-b69f-569c6d1eaf7f")
 	)
 	(pad "2" thru_hole circle
@@ -361,6 +366,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b86caebc-3374-4297-962a-87cbbc1abc62")
 	)
 	(pad "3" thru_hole circle
@@ -369,6 +378,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d04333c4-1f4c-4fd6-b034-f908d26abc99")
 	)
 	(pad "MP" thru_hole roundrect
@@ -378,6 +391,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "941fee45-0db9-49b1-9a7d-f55c0afab282")
 	)
 	(pad "MP" thru_hole roundrect
@@ -387,11 +404,13 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5946dc72-7a2e-4085-8338-cfbcbba26565")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "7e64f7ae-4fdd-4615-b8b5-47880c19935c")
 		(name "Copper Keep Out")
@@ -400,7 +419,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -415,6 +433,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -423,8 +442,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "54eb4906-91f8-4f1e-992f-13b644c1e0cf")
 		(name "Copper Keep Out")
@@ -433,7 +450,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -448,6 +464,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

@@ -1,7 +1,7 @@
 (footprint "LED_VCCLite_5381H5_6.35x6.35mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Green 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf")
 	(tags "Green 5381 Series LED")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.032 -2.032)
 		(end -2.032 -1.27)
@@ -334,6 +335,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1c9db52a-6b3a-47f5-bb11-a056b0b1569c")
 	)
 	(pad "2" thru_hole circle
@@ -342,6 +347,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "be883057-d3b6-4c18-9877-1fe3d9c72118")
 	)
 	(embedded_fonts no)

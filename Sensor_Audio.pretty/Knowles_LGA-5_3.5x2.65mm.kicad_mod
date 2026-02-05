@@ -1,7 +1,7 @@
 (footprint "Knowles_LGA-5_3.5x2.65mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://www.knowles.com/docs/default-source/model-downloads/sph0641lu4h-1-revb.pdf")
 	(tags "MEMS Microphone LGA")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.44 1.86)
 		(end -1.44 -1.56)
@@ -256,18 +257,30 @@
 		(size 0.5 0.5)
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6158f568-8f72-4f5a-9d92-1b6ac5610f2b")
 	)
 	(pad "1" smd rect
 		(at -0.8375 -1.304)
 		(size 0.725 0.522)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fa368c8e-cf33-4b27-b64b-578d3599b465")
 	)
 	(pad "2" smd rect
 		(at -0.8375 -0.482)
 		(size 0.725 0.522)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "97d99428-b1d5-46e0-8817-5f0bd1710f81")
 	)
 	(pad "3" smd custom
@@ -287,18 +300,30 @@
 				(fill no)
 			)
 		)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8c2d513b-19ba-4270-bed6-a2599d0a2f44")
 	)
 	(pad "4" smd rect
 		(at 0.8375 -0.482)
 		(size 0.725 0.522)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "52940a40-48af-4424-87be-82eb66cd3630")
 	)
 	(pad "5" smd rect
 		(at 0.8375 -1.304)
 		(size 0.725 0.522)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "752abe99-a60a-4b76-a0b9-b21754997f3d")
 	)
 	(embedded_fonts no)

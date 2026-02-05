@@ -1,7 +1,7 @@
 (footprint "L_CommonMode_Wuerth_WE-CMB-M"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Wuerth, WE-CMB, Bauform M,")
 	(tags "CommonModeChoke Gleichtaktdrossel ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.25 -7.85)
 		(end 11.95 -7.85)
@@ -466,10 +467,10 @@
 		(layer "F.Fab")
 		(uuid "66cb31a7-8387-4c4b-a929-3d11efc6f98a")
 	)
-	(fp_text user "2"
-		(at 7.85 0.25 0)
+	(fp_text user "1"
+		(at 2.85 0.25 0)
 		(layer "F.Fab")
-		(uuid "3e385389-7d98-4235-bba7-4166764f7f89")
+		(uuid "8877633b-1896-4b5d-9f75-32a08ef63d3b")
 		(effects
 			(font
 				(size 1 1)
@@ -477,10 +478,10 @@
 			)
 		)
 	)
-	(fp_text user "1"
-		(at 2.85 0.25 0)
+	(fp_text user "4"
+		(at 2.85 7.75 0)
 		(layer "F.Fab")
-		(uuid "8877633b-1896-4b5d-9f75-32a08ef63d3b")
+		(uuid "ba84d820-065c-4f0b-aa14-a09f216c0402")
 		(effects
 			(font
 				(size 1 1)
@@ -499,10 +500,10 @@
 			)
 		)
 	)
-	(fp_text user "4"
-		(at 2.85 7.75 0)
+	(fp_text user "2"
+		(at 7.85 0.25 0)
 		(layer "F.Fab")
-		(uuid "ba84d820-065c-4f0b-aa14-a09f216c0402")
+		(uuid "3e385389-7d98-4235-bba7-4166764f7f89")
 		(effects
 			(font
 				(size 1 1)
@@ -527,6 +528,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "68c527c6-2a65-442c-bc89-9ae3e2ded72c")
 	)
 	(pad "2" thru_hole circle
@@ -535,6 +540,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dc2f21cc-b979-4329-97e1-5ca9a4ac2266")
 	)
 	(pad "3" thru_hole circle
@@ -543,6 +552,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "18f9e454-9239-4230-a51d-de13a2b072bd")
 	)
 	(pad "4" thru_hole circle
@@ -551,6 +564,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5da2e571-6f98-48ed-a184-87afd8aef2ec")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "LED_RGB_Everlight_EASV3015RGBA0_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "LED, RGB, right-angle, clear, https://everlightamericas.com/index.php?controller=attachment&id_attachment=3220")
 	(tags "LED RGB right-angle")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.96 -1.18)
 		(end -1.55 -1.18)
@@ -222,24 +223,40 @@
 		(at -1.425 -0.53)
 		(size 0.55 0.78)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	)
 	(pad "2" smd rect
 		(at -0.425 -0.75)
 		(size 0.55 0.34)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9538e4ed-27e6-4c37-b989-9859dc0d49e8")
 	)
 	(pad "3" smd rect
 		(at 0.425 -0.75)
 		(size 0.55 0.34)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e1105432-6a2f-45d9-8a08-47401d087cf4")
 	)
 	(pad "4" smd rect
 		(at 1.425 -0.53)
 		(size 0.55 0.78)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6ff874d0-4ac5-414c-83a7-573eda4c7703")
 	)
 	(embedded_fonts no)

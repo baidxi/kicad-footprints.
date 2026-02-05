@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_Qantek_QC5CB-2Pin_5x3.2mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SMD Crystal Qantek QC5CB, https://www.qantek.com/tl_files/products/crystals/QC5CB.pdf")
 	(tags "SMD SMT crystal")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.5 -1.71)
 		(end 2.5 -1.71)
@@ -169,12 +170,20 @@
 		(at -1.8 0)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "93e9d18a-6950-4104-b882-9d7eee28d631")
 	)
 	(pad "2" smd rect
 		(at 1.8 0)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "87d3f233-d3ea-4892-988f-1d5ef758d075")
 	)
 	(embedded_fonts no)

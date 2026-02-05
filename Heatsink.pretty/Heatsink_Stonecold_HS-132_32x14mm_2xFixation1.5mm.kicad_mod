@@ -1,7 +1,7 @@
 (footprint "Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Heatsink, StoneCold HS")
 	(tags "heatsink")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -16 -5)
 		(end 16 -5)
@@ -851,6 +852,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "358447dc-fff4-49e8-99bf-1d2900b1a567")
 	)
 	(pad "1" thru_hole circle
@@ -859,6 +864,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7c7ce70c-03b3-45b7-9e53-d978f7018fd6")
 	)
 	(embedded_fonts no)

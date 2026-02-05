@@ -1,7 +1,7 @@
 (footprint "Jack_XLR_Neutrik_NC3MAH-0_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "A Series, 3 pole male XLR receptacle, grounding: ground contact connected to shell ground, but not to front panel and Pin 1, horizontal PCB mount, https://www.neutrik.com/en/product/nc3mah-0")
 	(tags "neutrik xlr a")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9.11 11.31)
 		(end -5.41 11.31)
@@ -440,6 +441,10 @@
 		(size 1.6 1.6)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d3dab6b8-54b2-4ee8-9951-b4241b248a72")
 	)
 	(pad "" np_thru_hole circle
@@ -447,6 +452,10 @@
 		(size 1.6 1.6)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "922ba81c-bbe3-4691-b097-43eab152e647")
 	)
 	(pad "1" thru_hole circle
@@ -455,6 +464,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7ef42193-c0b5-4bc0-a593-d1f8f0e7ecd3")
 	)
 	(pad "2" thru_hole circle
@@ -463,6 +476,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a2166e34-21e4-4b04-8e9f-9813d006af55")
 	)
 	(pad "3" thru_hole circle
@@ -471,6 +488,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "46276a91-350d-4da6-9188-23ad34a8792f")
 	)
 	(pad "G" thru_hole circle
@@ -479,6 +500,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9028c971-830a-4495-9325-4383e6b79a20")
 	)
 	(embedded_fonts no)

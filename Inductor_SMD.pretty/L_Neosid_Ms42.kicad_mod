@@ -1,7 +1,7 @@
 (footprint "L_Neosid_Ms42"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Neosid, Inductor, SMs42, Fixed inductor, SMD, magneticaly shielded, https://neosid.de/import-data/product-pdf/neoFestind_Ms42.pdf")
 	(tags "Neosid Inductor SMs42 Fixed inductor SMD magneticaly shielded")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.8 -2.2)
 		(end -2.8 -1.5)
@@ -269,12 +270,20 @@
 		(at -2.3 0)
 		(size 1 2.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ac92465b-82e7-4c65-a335-441eedb3bc59")
 	)
 	(pad "2" smd rect
 		(at 2.3 0)
 		(size 1 2.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5d3b0a29-19e7-47e0-9a1f-8fbdc0988f74")
 	)
 	(embedded_fonts no)

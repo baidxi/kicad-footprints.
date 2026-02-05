@@ -1,7 +1,7 @@
 (footprint "Transformer_CHK_EI42-5VA_2xSec"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Trafo, Printtrafo, CHK, EI42, 5VA, 2x Sec,")
 	(tags "Trafo Printtrafo CHK EI42 5VA 2x Sec ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.12 -32.12)
 		(end -6.12 12.12)
@@ -916,10 +917,10 @@
 			)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 12 -10 90)
+	(fp_text user "5"
+		(at 0 -23 0)
 		(layer "F.Fab")
-		(uuid "27ab387a-3e7d-4806-8967-b3cd75380a56")
+		(uuid "80fd61bf-7243-4de3-a827-d9400816f387")
 		(effects
 			(font
 				(size 1 1)
@@ -927,10 +928,10 @@
 			)
 		)
 	)
-	(fp_text user "7"
-		(at 20.5 -13 0)
+	(fp_text user "${REFERENCE}"
+		(at 12 -10 90)
 		(layer "F.Fab")
-		(uuid "55a3d31a-39ac-4bc9-b028-6d0b62607d0c")
+		(uuid "27ab387a-3e7d-4806-8967-b3cd75380a56")
 		(effects
 			(font
 				(size 1 1)
@@ -949,10 +950,32 @@
 			)
 		)
 	)
-	(fp_text user "5"
-		(at 0 -23 0)
+	(fp_text user "7"
+		(at 20.5 -13 0)
 		(layer "F.Fab")
-		(uuid "80fd61bf-7243-4de3-a827-d9400816f387")
+		(uuid "55a3d31a-39ac-4bc9-b028-6d0b62607d0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "9"
+		(at 20.5 -6 0)
+		(layer "F.Fab")
+		(uuid "f6d69390-26cc-4e57-8175-ece38365cdfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "10"
+		(at 20.5 2 0)
+		(layer "F.Fab")
+		(uuid "e15e55ef-ee29-4584-9916-23758a9a3d14")
 		(effects
 			(font
 				(size 1 1)
@@ -982,34 +1005,16 @@
 			)
 		)
 	)
-	(fp_text user "10"
-		(at 20.5 2 0)
-		(layer "F.Fab")
-		(uuid "e15e55ef-ee29-4584-9916-23758a9a3d14")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "9"
-		(at 20.5 -6 0)
-		(layer "F.Fab")
-		(uuid "f6d69390-26cc-4e57-8175-ece38365cdfc")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 3 3)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3b86b6bb-7343-435b-8681-4f1475c367e2")
 	)
 	(pad "2" thru_hole circle
@@ -1018,6 +1023,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b87048c4-fd5d-48b7-9ce7-e7a0b36b5ff0")
 	)
 	(pad "3" thru_hole circle
@@ -1026,6 +1035,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b0e1fc4d-fab7-4757-8813-407d92da8d75")
 	)
 	(pad "4" thru_hole circle
@@ -1034,6 +1047,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3265eafb-fd16-4195-a9b4-a94ea688c8a4")
 	)
 	(pad "5" thru_hole circle
@@ -1042,6 +1059,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c4bec594-2c51-4a37-b02e-8604210ce7b7")
 	)
 	(pad "6" thru_hole circle
@@ -1050,6 +1071,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "41a738d3-4c3b-4460-8231-898918b3d10a")
 	)
 	(pad "7" thru_hole circle
@@ -1058,6 +1083,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5a38887b-dd26-4692-ad61-77a561d8a866")
 	)
 	(pad "8" thru_hole circle
@@ -1066,6 +1095,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9a7147b2-6b7c-4911-9c0b-288053011663")
 	)
 	(pad "9" thru_hole circle
@@ -1074,6 +1107,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "30906fa6-ac9b-4562-9371-5df82719ed21")
 	)
 	(pad "10" thru_hole circle
@@ -1082,6 +1119,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ccd2989b-5e6d-4d00-8a68-dcab194e3104")
 	)
 	(embedded_fonts no)

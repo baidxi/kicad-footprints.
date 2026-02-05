@@ -1,7 +1,7 @@
 (footprint "L_Neosid_SM-PIC0602H"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Neosid, Power Inductor, SM-PIC0602H, Fixed inductor, SMD, https://neosid.de/import-data/product-pdf/neoFestind_SMPIC0602H.pdf")
 	(tags "Neosid Power Inductor SM-PIC0602H Fixed inductor SMD")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.8 -3.3)
 		(end -3.8 -2.4)
@@ -209,12 +210,20 @@
 		(at -3.03 0)
 		(size 2.35 3.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f6336adf-03e6-4ebf-9d66-bd49d17503c7")
 	)
 	(pad "2" smd rect
 		(at 3.03 0)
 		(size 2.35 3.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "caa55afe-39e9-48f0-9616-09d770b43114")
 	)
 	(embedded_fonts no)

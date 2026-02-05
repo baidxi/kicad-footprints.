@@ -1,7 +1,7 @@
 (footprint "Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Buzzer, D12.2mm height 6.5mm, https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf")
 	(tags "buzzer")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_arc
 		(start -3.9 1.499999)
 		(mid -4.073431 0)
@@ -136,6 +137,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "16070c49-c1f2-4789-9c05-3343a44e99b4")
 	)
 	(pad "2" thru_hole circle
@@ -144,6 +149,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3b51edef-3c33-4dd1-8315-cfdaaa127c66")
 	)
 	(embedded_fonts no)

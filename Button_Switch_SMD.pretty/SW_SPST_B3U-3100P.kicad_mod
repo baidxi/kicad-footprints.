@@ -1,7 +1,7 @@
 (footprint "SW_SPST_B3U-3100P"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Side-actuated Model, with Ground Terminal, without Boss")
 	(tags "Tactile Switch")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.65 -2.22)
 		(end 1.65 -2.22)
@@ -399,18 +400,30 @@
 		(at -1.7 -0.82)
 		(size 0.9 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "04a5ba9a-de3a-481e-82be-357bbe8cfbef")
 	)
 	(pad "2" smd rect
 		(at 1.7 -0.82)
 		(size 0.9 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9b5d1886-4431-452e-beef-993a5402dc0a")
 	)
 	(pad "3" smd rect
 		(at 0 0.82)
 		(size 0.8 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "928072b1-b2dc-4dff-8dce-ec40e8f3b500")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "ST_QFN-2L_1.6x1.0mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Unidirectional high power transient voltage suppressor (https://www.st.com/resource/en/datasheet/esda7p120-1u1m.pdf)")
 	(tags "QFN-2L Diode")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.96 -0.66)
 		(end -0.96 0.66)
@@ -211,6 +212,10 @@
 		(size 0.35 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fde30dfe-45cf-4ef8-b855-033527ebd2e7")
 	)
 	(pad "2" smd roundrect
@@ -218,6 +223,10 @@
 		(size 0.35 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "805eb803-ac27-4243-a342-08a927deceb6")
 	)
 	(embedded_fonts no)

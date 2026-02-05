@@ -1,7 +1,7 @@
 (footprint "Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Heatsink, 35mm x 13mm, 2x Fixation 2,5mm Drill, Soldering, Fischer SK104-STC-STIC,")
 	(tags "Heatsink fischer TO-220")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -17.63 -6.51)
 		(end -15.48 -2.74)
@@ -1073,6 +1074,10 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "56751dea-4bd5-4bad-b042-ed9f4a35f782")
 	)
 	(pad "1" thru_hole circle
@@ -1081,6 +1086,10 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9603a5fb-7244-43de-8b2d-0cf6ceb96f09")
 	)
 	(embedded_fonts no)

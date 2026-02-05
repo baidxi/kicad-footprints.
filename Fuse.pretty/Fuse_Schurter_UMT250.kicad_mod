@@ -1,7 +1,7 @@
 (footprint "Fuse_Schurter_UMT250"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Surface Mount Fuse, 3 x 10.1 mm, Time-Lag T, 250 VAC, 125 VDC (https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_UMT_250.pdf)")
 	(tags "Schurter fuse smd")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.05 -1.61)
 		(end 3.05 -1.61)
@@ -230,6 +231,10 @@
 		(size 2 3.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f2b8a2a6-937e-4153-b59e-514f593eb31f")
 	)
 	(pad "2" smd roundrect
@@ -237,6 +242,10 @@
 		(size 2 3.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f500aa01-4a50-41a6-8990-0021bbdb7f5d")
 	)
 	(embedded_fonts no)

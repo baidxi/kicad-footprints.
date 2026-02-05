@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Keystone_2462_2xAA"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "2xAA cell battery holder, Keystone P/N 2462, https://www.keyelco.com/product-pdf.cfm?p=1027")
 	(tags "AA battery cell holder")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.69 -9.065)
 		(end -2.69 24.055)
@@ -565,31 +566,9 @@
 		(uuid "313a0c93-a3fe-40f4-b17c-9c52f322f4a0")
 	)
 	(fp_text user "+"
-		(at 16.355 0 0)
-		(layer "F.SilkS")
-		(uuid "0009cb17-019e-45e1-b7fd-7fa0c2a58b3b")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "+"
 		(at -3.81 0 0)
 		(layer "F.SilkS")
 		(uuid "172059c3-f08e-4cac-8257-a148acf593c7")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "+"
-		(at 37.945 14.99 0)
-		(layer "F.SilkS")
-		(uuid "633761ac-da64-475a-a015-a8e30196ba47")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -608,10 +587,10 @@
 			)
 		)
 	)
-	(fp_text user "-"
-		(at 37.945 0 0)
+	(fp_text user "+"
+		(at 16.355 0 0)
 		(layer "F.SilkS")
-		(uuid "ee3b5a7e-3b5d-4b04-83eb-8fef0aacc56b")
+		(uuid "0009cb17-019e-45e1-b7fd-7fa0c2a58b3b")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -623,6 +602,28 @@
 		(at 16.355 14.99 0)
 		(layer "F.SilkS")
 		(uuid "f3324a6d-dffa-404d-a0a8-66e2fc9af448")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 37.945 0 0)
+		(layer "F.SilkS")
+		(uuid "ee3b5a7e-3b5d-4b04-83eb-8fef0aacc56b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 37.945 14.99 0)
+		(layer "F.SilkS")
+		(uuid "633761ac-da64-475a-a015-a8e30196ba47")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -646,6 +647,10 @@
 		(size 3.3 3.3)
 		(drill 3.3)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "41c09925-e065-42c1-9741-4430ce9762b5")
 	)
 	(pad "" np_thru_hole circle
@@ -653,6 +658,10 @@
 		(size 3.3 3.3)
 		(drill 3.3)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "49ef0bf2-86c3-4d96-8426-3d0f7769c7de")
 	)
 	(pad "1" thru_hole rect
@@ -661,6 +670,10 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "44b2f5c5-cdf4-418c-a278-45882200ebf3")
 	)
 	(pad "2" thru_hole circle
@@ -669,6 +682,10 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6a62d8ab-cbab-4999-8aeb-e888fa03f47d")
 	)
 	(embedded_fonts no)

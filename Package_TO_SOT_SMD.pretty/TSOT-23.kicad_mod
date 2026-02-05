@@ -1,7 +1,7 @@
 (footprint "TSOT-23"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "3-pin TSOT23 package, http://www.analog.com.tw/pdf/All_In_One.pdf")
 	(tags "TSOT-23")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.945 0.69)
 		(end 0.945 1.58)
@@ -212,6 +213,10 @@
 		(size 1.22 0.65)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a945bb75-d004-407d-8b7f-e57d16ca514b")
 	)
 	(pad "2" smd roundrect
@@ -219,6 +224,10 @@
 		(size 1.22 0.65)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5c8cf4ae-d48b-43ed-aeca-5cfb92f27e01")
 	)
 	(pad "3" smd roundrect
@@ -226,6 +235,10 @@
 		(size 1.22 0.65)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "91ffc048-6cc5-4a47-9f80-73c9a7d4c15a")
 	)
 	(embedded_fonts no)

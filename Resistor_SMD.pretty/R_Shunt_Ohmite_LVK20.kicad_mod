@@ -1,7 +1,7 @@
 (footprint "R_Shunt_Ohmite_LVK20"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "4 contacts shunt resistor, https://www.ohmite.com/assets/docs/res_lvk.pdf")
 	(tags "4 contacts resistor smd")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.5 0.6)
 		(end -1.5 -0.6)
@@ -199,24 +200,40 @@
 		(at -1.025 -1.975)
 		(size 1.55 2.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9403a5f5-3032-4eac-9b91-7fd554a09f31")
 	)
 	(pad "2" smd rect
 		(at 1.025 -1.975)
 		(size 1.55 2.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "86b6d8dc-ff69-497f-b4f2-503cefeecc7d")
 	)
 	(pad "3" smd rect
 		(at 1.025 1.975)
 		(size 1.55 2.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "73edc423-e7cc-4d77-98fc-06a7898b09d4")
 	)
 	(pad "4" smd rect
 		(at -1.025 1.975)
 		(size 1.55 2.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b4d5020b-6787-4886-8d21-325e658bc8e4")
 	)
 	(embedded_fonts no)

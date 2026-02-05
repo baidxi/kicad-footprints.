@@ -1,7 +1,7 @@
 (footprint "FanPinHeader_1x03_P2.54mm_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "3-pin CPU fan Through hole pin header, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf")
 	(tags "pin header 3-pin CPU fan")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.35 -2.65)
 		(end 6.45 -2.65)
@@ -251,6 +252,10 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ee1eca3e-1202-492c-91ef-828a4a4ebf0f")
 	)
 	(pad "2" thru_hole oval
@@ -259,6 +264,10 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c5df1c66-5090-49b6-b530-087950cd0090")
 	)
 	(pad "3" thru_hole oval
@@ -267,6 +276,10 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "39f98cf9-ac91-4ab7-b950-1d396ffe20d9")
 	)
 	(embedded_fonts no)

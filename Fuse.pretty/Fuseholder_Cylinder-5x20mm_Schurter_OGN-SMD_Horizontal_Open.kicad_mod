@@ -1,7 +1,7 @@
 (footprint "Fuseholder_Cylinder-5x20mm_Schurter_OGN-SMD_Horizontal_Open"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Fuseholder horizontal open, 5x20mm, 500V, 16A (https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OGN-SMD.pdf)")
 	(tags "Fuseholder horizontal open 5x20 Schurter 0031.8221")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -11.45 -5.5)
 		(end -11.45 -2.5)
@@ -210,6 +211,10 @@
 		(size 6 6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bf7ac7e3-70a4-466d-ab09-adfe3b5a8a45")
 	)
 	(pad "2" smd roundrect
@@ -217,6 +222,10 @@
 		(size 6 6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d18a2267-a94b-4a4e-a8c8-3b36b0d8a9e1")
 	)
 	(embedded_fonts no)

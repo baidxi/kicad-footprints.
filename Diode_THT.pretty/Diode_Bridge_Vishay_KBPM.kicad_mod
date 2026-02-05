@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Vishay_KBPM"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Vishay KBM rectifier package, 3.95mm pitch (http://www.farnell.com/datasheets/2238158.pdf, http://www.cdil.com/s/kbp2005_.pdf)")
 	(tags "Vishay KBM rectifier diode bridge")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.89 -2.71)
 		(end -0.69 -2.71)
@@ -251,6 +252,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3cf0b05d-64ed-4a13-9a5c-b3b2ab0a6f99")
 	)
 	(pad "2" thru_hole circle
@@ -259,6 +264,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5c93cd91-f40c-489d-97a5-9c4e7724ca8c")
 	)
 	(pad "3" thru_hole circle
@@ -267,6 +276,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d917845f-43f9-4157-9990-87ce05134561")
 	)
 	(pad "4" thru_hole circle
@@ -275,6 +288,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6129d450-752a-4b74-ad85-1dfa3081fdf8")
 	)
 	(embedded_fonts no)

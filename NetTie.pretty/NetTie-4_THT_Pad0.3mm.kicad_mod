@@ -1,7 +1,7 @@
 (footprint "NetTie-4_THT_Pad0.3mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Net tie, 4 pin, 0.3mm round THT pads")
 	(tags "net tie")
@@ -57,6 +57,7 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(net_tie_pad_groups "1, 2, 3, 4")
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -0.3 -0.3) (xy 1.5 -0.3) (xy 1.5 1.5) (xy -0.3 1.5)
@@ -87,6 +88,10 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8840a923-3bc4-46e9-99fa-27dc273316f2")
 	)
 	(pad "2" thru_hole circle
@@ -95,6 +100,10 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "09749280-5794-4b43-98b6-0e24a84ac8ef")
 	)
 	(pad "3" thru_hole circle
@@ -103,6 +112,10 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0a91c665-b0b1-428c-b9a6-1d2abf3f2eeb")
 	)
 	(pad "4" thru_hole circle
@@ -111,6 +124,10 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "512b9b2a-682e-43cb-9d83-af6ce375ae42")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Connector XT60 Horizontal PCB Female, https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf")
 	(tags "RC Connector XT60")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.26 -16.46)
 		(end -4.26 -2.15)
@@ -257,6 +258,10 @@
 		(drill oval 0.6 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "72366acb-6c86-4134-89df-01ed6e4dc8e0")
 	)
 	(pad "" thru_hole rect
@@ -265,6 +270,10 @@
 		(drill oval 0.6 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "de552ae9-cde6-4643-8cc7-9de2579dadae")
 	)
 	(pad "1" thru_hole roundrect
@@ -274,6 +283,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f934a442-23d6-4e5b-908f-bb9199ad6f8b")
 	)
 	(pad "2" thru_hole circle
@@ -282,6 +295,10 @@
 		(drill 2.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "386faf3f-2adf-472a-84bf-bd511edf2429")
 	)
 	(embedded_fonts no)

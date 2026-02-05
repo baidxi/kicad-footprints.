@@ -1,7 +1,7 @@
 (footprint "L_Neosid_SM-PIC1004H"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Neosid, Inductor, SM-PIC1004H, Fixed inductor, SMD, https://neosid.de/import-data/product-pdf/neoFestind_SMPIC1004H.pdf")
 	(tags "Neosid Inductor SM-PIC1004H Fixed inductor SMD")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6 -5.15)
 		(end -6 -2.6)
@@ -209,12 +210,20 @@
 		(at -4.75 0)
 		(size 3.6 4.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "112c40a3-6f31-45db-8610-e2768534e75f")
 	)
 	(pad "2" smd rect
 		(at 4.75 0)
 		(size 3.6 4.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "56f7f90d-49d4-490c-a542-db3e90e497ba")
 	)
 	(embedded_fonts no)

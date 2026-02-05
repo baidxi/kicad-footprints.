@@ -1,7 +1,7 @@
 (footprint "Battery_Panasonic_CR1632-V1AN_Vertical_CircularHoles"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Panasonic CR-1632-V1AN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D464.PDF")
 	(tags "battery CR-1632 coin cell vertical")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.91 -3.86)
 		(end 1.81 -3.86)
@@ -222,6 +223,10 @@
 		(drill 1.82)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d94f6a76-1cd8-44c8-b9e0-1b2743a67b84")
 	)
 	(pad "2" thru_hole circle
@@ -230,6 +235,10 @@
 		(drill 1.09)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "55e93042-6fff-4546-87ec-edb8203e9985")
 	)
 	(embedded_fonts no)

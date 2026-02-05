@@ -1,7 +1,7 @@
 (footprint "Jack_XLR_Neutrik_NC4FBV_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "B Series, 4 pole female XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, vertical PCB mount, https://www.neutrik.com/en/product/nc4fbv")
 	(tags "neutrik xlr b")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -15.95 -6.13)
 		(end -15.95 4.9)
@@ -855,6 +856,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "75d2a369-a62c-4acd-a88f-cdde42c9a41a")
 	)
 	(pad "2" thru_hole circle
@@ -863,6 +868,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ca8a284f-174d-47d3-9ab8-ee294fbe6276")
 	)
 	(pad "3" thru_hole circle
@@ -871,6 +880,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b005bd58-53b6-415d-a5bf-16d02bae012f")
 	)
 	(pad "4" thru_hole circle
@@ -879,6 +892,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0030e5eb-3bb5-470a-a6ac-8f51304ce4a9")
 	)
 	(pad "G" thru_hole circle
@@ -887,6 +904,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ac672560-9f60-4e0b-8c72-726fa8e5d8ff")
 	)
 	(embedded_fonts no)

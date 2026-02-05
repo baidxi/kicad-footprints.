@@ -1,7 +1,7 @@
 (footprint "Antenova_SR4G013_GPS"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "GPS/GLONASS/Galileo/BeiDou antenna, 1559-1609Mhz, SMD, https://www.application-datasheet.com/pdf/antenova/sr4g013.pdf")
 	(tags "antenna GPS Antenova Beltii")
@@ -55,6 +55,7 @@
 	)
 	(attr smd)
 	(net_tie_pad_groups "1, 2")
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.05 0)
 		(end -6.9 0)
@@ -242,6 +243,10 @@
 		(size 1.2 3.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "13c2e7fe-f34a-4f66-bb08-1c8e7c162231")
 	)
 	(pad "2" smd roundrect
@@ -251,6 +256,10 @@
 		(roundrect_rratio 0.25)
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d6c430eb-5f29-4668-8fb3-1b559021692b")
 	)
 	(pad "2" smd roundrect
@@ -259,6 +268,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_width 0.5)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2744e7a7-6ae6-4411-a8b2-fa8b79f84c88")
 	)
 	(pad "2" smd roundrect
@@ -267,6 +280,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_width 0.5)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1f071203-5a7a-4b9b-9c1a-9bc457f4452f")
 	)
 	(pad "2" smd roundrect
@@ -275,11 +292,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_width 0.5)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5534aa24-0016-4dd4-9a8a-e6f984beb5e6")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "c26e1f8a-17d3-4099-890c-a3a77c1ac86a")
 		(hatch edge 0.508)
@@ -287,7 +306,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -302,6 +320,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

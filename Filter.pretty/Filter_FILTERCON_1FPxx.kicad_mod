@@ -1,7 +1,7 @@
 (footprint "Filter_FILTERCON_1FPxx"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "0.5A, 250VAC, 50/60Hz line filter (https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf)")
 	(tags "EMI filter")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.36 14.25)
 		(end -4.36 0.75)
@@ -383,6 +384,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "301426cc-cc03-41dc-9ec7-be7813df35fd")
 	)
 	(pad "2" thru_hole circle
@@ -391,6 +396,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e7093c8e-420d-40e4-be48-4ab7137f7b50")
 	)
 	(pad "3" thru_hole circle
@@ -399,6 +408,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ee88de6b-3e9f-48a7-9238-15305f272cae")
 	)
 	(pad "4" thru_hole circle
@@ -407,6 +420,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8ad026da-a4b9-4e23-9e37-82fafd01a154")
 	)
 	(embedded_fonts no)

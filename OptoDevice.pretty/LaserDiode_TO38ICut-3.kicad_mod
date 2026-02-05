@@ -1,7 +1,7 @@
 (footprint "LaserDiode_TO38ICut-3"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Laser Diode, TO-38-ICut, 3pin")
 	(tags "Laser Diode TO38-ICut")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.15 -0.3)
 		(end -0.95 0)
@@ -258,6 +259,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0c9ea9e0-e42e-4ba1-a0f1-f992e4a29d29")
 	)
 	(pad "2" thru_hole circle
@@ -266,6 +271,10 @@
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ae691f6b-4c21-4a51-9f7c-13d5eb062b49")
 	)
 	(pad "3" thru_hole circle
@@ -274,6 +283,10 @@
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "eeb7bf95-a864-46b3-9a91-8ce1d52b3e70")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "SOT-523"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SOT523, https://www.diodes.com/assets/Package-Files/SOT523.pdf")
 	(tags "SOT-523")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.65 -0.9)
 		(end -0.65 -0.9)
@@ -191,6 +192,10 @@
 		(size 0.51 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b2d00d60-7471-4c6a-8b3a-f954f0c214c2")
 	)
 	(pad "2" smd roundrect
@@ -198,6 +203,10 @@
 		(size 0.51 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9638949b-e4b4-43ae-b106-f6fd6bbf1501")
 	)
 	(pad "3" smd roundrect
@@ -205,6 +214,10 @@
 		(size 0.51 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b119f0c8-2364-4020-aabd-f01b47d0c559")
 	)
 	(embedded_fonts no)

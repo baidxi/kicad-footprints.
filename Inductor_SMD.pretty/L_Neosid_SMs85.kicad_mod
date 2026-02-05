@@ -1,7 +1,7 @@
 (footprint "L_Neosid_SMs85"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Neosid, Inductor, SMs85, Fixed inductor, SMD, magnetically shielded, https://neosid.de/import-data/product-pdf/neoFestind_ma_SMs85.pdf")
 	(tags "Neosid Inductor SMs85 Fixed inductor SMD magnetically shielded")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.5 -5.5)
 		(end 4.5 -5.5)
@@ -209,12 +210,20 @@
 		(at -3.38 0)
 		(size 2.25 4.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4e39d4e8-98d1-4ce0-a45b-044f27ec26bd")
 	)
 	(pad "2" smd rect
 		(at 3.38 0)
 		(size 2.25 4.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e01a2e27-bd2c-4d7e-81c6-2100500dcc6e")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Keystone_1060_1x2032"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "http://www.keyelco.com/product-pdf.cfm?p=726")
 	(tags "CR2032 BR2032 BatteryHolder Battery")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -14.55 -3.85)
 		(end -14.55 -2.3)
@@ -622,12 +623,20 @@
 		(at -14.65 0 180)
 		(size 2.6 3.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1571e2ed-fcd5-40b6-9d2a-092df1a13509")
 	)
 	(pad "2" smd rect
 		(at 14.65 0 180)
 		(size 2.6 3.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "36eb9a8b-59c4-4efa-9800-b18b09afd892")
 	)
 	(embedded_fonts no)

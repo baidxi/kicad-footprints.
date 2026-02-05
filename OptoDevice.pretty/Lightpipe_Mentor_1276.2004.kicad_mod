@@ -1,7 +1,7 @@
 (footprint "Lightpipe_Mentor_1276.2004"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://www.mentor-bauelemente.de/katalog/ll/MENTOR-LL.pdf")
 	(tags "planar light pipe 4 way 3mm PLCC-2 PLCC-4")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -17.35 -1.65)
 		(end -17.35 1.65)
@@ -684,6 +685,10 @@
 		(size 2.5 2.5)
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5d8087a9-5ec3-4f52-ab77-d7cc499c310f")
 	)
 	(pad "" np_thru_hole circle
@@ -691,6 +696,10 @@
 		(size 2.5 2.5)
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "167c6c45-88e8-466b-8e3b-8bd77359c54b")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "InvenSense_QFN-24_4x4mm_P0.5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "24-Lead Plastic QFN (4mm x 4mm); Pitch 0.5mm; EP 2.7x2.6mm; for InvenSense motion sensors; keepout area marked (Package see: https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf; See also https://www.invensense.com/wp-content/uploads/2015/02/InvenSense-MEMS-Handling.pdf)")
 	(tags "QFN 0.5")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.15 -1.685)
 		(end -2.15 -1.91)
@@ -236,17 +237,6 @@
 		(layer "F.Fab")
 		(uuid "5fb54969-0540-4640-820e-4f99226a3275")
 	)
-	(fp_text user "Component"
-		(at 0 0.55 0)
-		(layer "Cmts.User")
-		(uuid "369a85e3-b424-4702-9142-503c21eaf610")
-		(effects
-			(font
-				(size 0.2 0.2)
-				(thickness 0.04)
-			)
-		)
-	)
 	(fp_text user "KEEPOUT"
 		(at 0 -0.5 0)
 		(layer "Cmts.User")
@@ -280,6 +270,17 @@
 			)
 		)
 	)
+	(fp_text user "Component"
+		(at 0 0.55 0)
+		(layer "Cmts.User")
+		(uuid "369a85e3-b424-4702-9142-503c21eaf610")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.04)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -296,6 +297,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "94738f25-304b-46b0-87df-486e4ae2e2e4")
 	)
 	(pad "2" smd roundrect
@@ -303,6 +308,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9abbda6a-c43d-44dc-99bb-de0b55217617")
 	)
 	(pad "3" smd roundrect
@@ -310,6 +319,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7d6dafa3-d559-4e06-a0b3-9c105b8d7df0")
 	)
 	(pad "4" smd roundrect
@@ -317,6 +330,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "944c1bbe-d04f-4399-ab93-bd5734ae3262")
 	)
 	(pad "5" smd roundrect
@@ -324,6 +341,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "309b11cf-36e9-4b82-b424-c141cb630c50")
 	)
 	(pad "6" smd roundrect
@@ -331,6 +352,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6ead7cc2-79c2-4e0d-bdac-a79ebda9dd05")
 	)
 	(pad "7" smd roundrect
@@ -338,6 +363,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2889f29e-fab7-4b8a-a694-593cf8f8b5f8")
 	)
 	(pad "8" smd roundrect
@@ -345,6 +374,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9861dce8-76cc-4413-ac8a-06b8d0c1f897")
 	)
 	(pad "9" smd roundrect
@@ -352,6 +385,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "53647fe7-3105-4f2d-a1c2-8f387013f83d")
 	)
 	(pad "10" smd roundrect
@@ -359,6 +396,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3aa94673-49cc-47d4-9edc-4f065b5bafce")
 	)
 	(pad "11" smd roundrect
@@ -366,6 +407,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1e41c076-7c37-4db6-bd9c-51d4986a1e14")
 	)
 	(pad "12" smd roundrect
@@ -373,6 +418,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "75f1c062-ee3a-4f6a-8f86-24882d5e439c")
 	)
 	(pad "13" smd roundrect
@@ -380,6 +429,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c6d97367-3614-41d6-bd5e-b116d698de56")
 	)
 	(pad "14" smd roundrect
@@ -387,6 +440,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "347cd440-8126-40e4-a4ba-902f767ed883")
 	)
 	(pad "15" smd roundrect
@@ -394,6 +451,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3a01278a-bda5-4911-bdfc-64a8ebe46ddb")
 	)
 	(pad "16" smd roundrect
@@ -401,6 +462,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "819ccba0-a485-4cb7-a131-7108d5ccdef6")
 	)
 	(pad "17" smd roundrect
@@ -408,6 +473,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cd3e718e-27d5-4247-8872-aef0a8018358")
 	)
 	(pad "18" smd roundrect
@@ -415,6 +484,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0db64c7b-f9f6-4e4a-a602-c48fd2d79322")
 	)
 	(pad "19" smd roundrect
@@ -422,6 +495,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5916d9f4-22ba-4052-978b-eeeafbe2bf26")
 	)
 	(pad "20" smd roundrect
@@ -429,6 +506,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "acda8071-06ac-4895-bf5c-5953e1cf5b07")
 	)
 	(pad "21" smd roundrect
@@ -436,6 +517,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ea04a2fb-cfad-4383-a98c-2d399360a956")
 	)
 	(pad "22" smd roundrect
@@ -443,6 +528,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4a0935e2-a541-4ec0-a905-6c0c645fac38")
 	)
 	(pad "23" smd roundrect
@@ -450,6 +539,10 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "262f9d75-1818-4e55-90a4-404b63bd4375")
 	)
 	(pad "24" smd roundrect
@@ -457,11 +550,13 @@
 		(size 0.85 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5aa7254d-4d13-4f27-9192-06c9359673c8")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "4de77002-6853-4499-884f-dd2175b42b6e")
 		(hatch full 0.508)
@@ -469,7 +564,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -484,6 +578,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

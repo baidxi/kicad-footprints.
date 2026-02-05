@@ -1,7 +1,7 @@
 (footprint "LED_PLCC_2835"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://www.luckylight.cn/media/component/data-sheet/R2835BC-B2M-M10.pdf")
 	(tags "LED")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.2 -1.6)
 		(end -2.2 1.6)
@@ -189,12 +190,20 @@
 		(at -0.9 0)
 		(size 2.2 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f27b831f-46e7-4d40-bf6e-c86d81803aec")
 	)
 	(pad "2" smd rect
 		(at 1.375 0)
 		(size 1.25 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0f92cede-73bb-403b-8f67-855871880cf2")
 	)
 	(embedded_fonts no)

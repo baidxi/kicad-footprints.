@@ -1,7 +1,7 @@
 (footprint "D_SMB_Handsoldering"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Diode SMB (DO-214AA) Handsoldering")
 	(tags "Diode SMB (DO-214AA) Handsoldering")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.71 -2.15)
 		(end -4.71 2.15)
@@ -240,6 +241,10 @@
 		(size 3.5 2.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1086956522)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8f083005-ab6b-47c1-a92c-9652f3ba11da")
 	)
 	(pad "2" smd roundrect
@@ -247,6 +252,10 @@
 		(size 3.5 2.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1086956522)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fb56f605-8532-457c-bd3e-d1b643b0cc24")
 	)
 	(embedded_fonts no)

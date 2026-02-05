@@ -1,7 +1,7 @@
 (footprint "Osram_BPW82"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "PhotoDiode, BPW82, RM2.54")
 	(tags "PhotoDiode BPW82 RM2.54")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.26 -2.56)
 		(end -1.26 0)
@@ -242,6 +243,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.178)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6c2776ef-75ff-4640-822d-92bb4fb4bd0e")
 	)
 	(pad "2" thru_hole circle
@@ -250,6 +255,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bec1dcba-4001-42f1-988b-07e420279395")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "SW_SPST_EVQP0"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf")
 	(property "Reference" "REF**"
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.35 -3.1)
 		(end 3.35 -3.1)
@@ -239,24 +240,40 @@
 		(at -2.88 -2)
 		(size 2.75 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e406b956-a99e-4587-aacb-6873cc1c9a6c")
 	)
 	(pad "1" smd rect
 		(at 2.88 -2)
 		(size 2.75 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "61d1ab53-ce40-447a-96be-d949395beb58")
 	)
 	(pad "2" smd rect
 		(at -2.88 2)
 		(size 2.75 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bea8a4c6-2307-441d-88da-408fba33ac02")
 	)
 	(pad "2" smd rect
 		(at 2.88 2)
 		(size 2.75 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "82331e63-bf67-4968-b978-8aae4af3c46e")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "L_CommonMode_Wuerth_WE-CMB-XL"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Wuerth, WE-CMB, Bauform XL,")
 	(tags "CommonModeChoke Gleichtaktdrossel ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.6 -2.6)
 		(end -3.6 27.6)
@@ -1006,10 +1007,10 @@
 		(layer "F.Fab")
 		(uuid "a53cac05-de44-478b-9f0e-d3c1748ef42f")
 	)
-	(fp_text user "7"
-		(at 12 25 0)
+	(fp_text user "1"
+		(at 2.5 0 0)
 		(layer "F.Fab")
-		(uuid "19ad26c6-7719-45c2-ba4e-50f957a7e4b6")
+		(uuid "6fe41b90-e886-4a32-93a8-8b75a3865cd8")
 		(effects
 			(font
 				(size 1 1)
@@ -1021,17 +1022,6 @@
 		(at 2.5 25 0)
 		(layer "F.Fab")
 		(uuid "6dc0060d-4c0c-4317-a0ff-bb1b4ecd1e8e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "1"
-		(at 2.5 0 0)
-		(layer "F.Fab")
-		(uuid "6fe41b90-e886-4a32-93a8-8b75a3865cd8")
 		(effects
 			(font
 				(size 1 1)
@@ -1061,12 +1051,27 @@
 			)
 		)
 	)
+	(fp_text user "7"
+		(at 12 25 0)
+		(layer "F.Fab")
+		(uuid "19ad26c6-7719-45c2-ba4e-50f957a7e4b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 2.2 2.2)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ca7c930f-65ab-4ec4-b817-cf39cd197a9a")
 	)
 	(pad "6" thru_hole circle
@@ -1075,6 +1080,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ada97959-eb41-4e71-aaf9-69be49545eed")
 	)
 	(pad "7" thru_hole circle
@@ -1083,6 +1092,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "968c24ed-6f42-48b1-891e-9ea65f758428")
 	)
 	(pad "12" thru_hole circle
@@ -1091,6 +1104,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "35ac9438-2417-48d1-b863-622d18508084")
 	)
 	(embedded_fonts no)

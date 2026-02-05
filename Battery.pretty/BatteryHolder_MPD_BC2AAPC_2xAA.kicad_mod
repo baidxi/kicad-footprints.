@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_MPD_BC2AAPC_2xAA"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "2xAA cell battery holder, Memory Protection Devices P/N BC2AAPC, http://www.memoryprotectiondevices.com/datasheets/BC2AAPC-datasheet.pdf")
 	(tags "AA battery cell holder")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.94 -8.71)
 		(end -2.94 21.99)
@@ -334,10 +335,10 @@
 		(layer "F.Fab")
 		(uuid "ee62a2a1-9ab8-41d4-b507-6a4e57b0fef0")
 	)
-	(fp_text user "-"
-		(at -4.34 13.59 0)
+	(fp_text user "+"
+		(at -4.34 0 0)
 		(layer "F.SilkS")
-		(uuid "182fa5d5-71ed-41dc-93e8-cce3aa70d580")
+		(uuid "eccdb800-4863-46b6-82d8-2a432c135098")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -346,9 +347,9 @@
 		)
 	)
 	(fp_text user "-"
-		(at 36.955 0 0)
+		(at -4.34 13.59 0)
 		(layer "F.SilkS")
-		(uuid "38a305ba-a10c-466b-a2d4-9f38c5f183a9")
+		(uuid "182fa5d5-71ed-41dc-93e8-cce3aa70d580")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -378,10 +379,10 @@
 			)
 		)
 	)
-	(fp_text user "+"
-		(at -4.34 0 0)
+	(fp_text user "-"
+		(at 36.955 0 0)
 		(layer "F.SilkS")
-		(uuid "eccdb800-4863-46b6-82d8-2a432c135098")
+		(uuid "38a305ba-a10c-466b-a2d4-9f38c5f183a9")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -416,6 +417,10 @@
 		(size 3.65 3.65)
 		(drill 3.65)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "44768fb3-bbab-41fb-91ed-1bf9d0db083b")
 	)
 	(pad "1" thru_hole rect
@@ -424,6 +429,10 @@
 		(drill 1.17)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e5c58c93-cf15-4624-a94e-04a368447ccb")
 	)
 	(pad "2" thru_hole circle
@@ -432,6 +441,10 @@
 		(drill 1.17)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "59e312c9-c682-43e1-a7d8-03c5d6e3258a")
 	)
 	(embedded_fonts no)

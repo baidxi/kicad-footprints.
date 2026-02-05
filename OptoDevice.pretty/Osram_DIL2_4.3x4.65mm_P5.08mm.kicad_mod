@@ -1,7 +1,7 @@
 (footprint "Osram_DIL2_4.3x4.65mm_P5.08mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "PhotoDiode, plastic DIL, 4.3x4.65mm², RM5.08")
 	(tags "PhotoDiode plastic DIL RM5.08")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.08 -2.26)
 		(end 0.08 -0.96)
@@ -392,6 +393,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.178)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ad1e2731-3098-4121-b2ef-41878424ebf0")
 	)
 	(pad "2" thru_hole oval
@@ -400,6 +405,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "150b4fbd-ab33-4500-948a-9818f90c02b6")
 	)
 	(embedded_fonts no)

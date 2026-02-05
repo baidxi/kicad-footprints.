@@ -1,7 +1,7 @@
 (footprint "ST_SPBTLE"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Bluetooth Low Energy Module")
 	(tags "ble module st bluetooth")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.85 -8.71)
 		(end 6.85 -8.71)
@@ -303,71 +304,113 @@
 		(at -6.75 -3.19)
 		(size 1.6 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "16020c8b-f60e-4e2c-b891-04098d1450ef")
 	)
 	(pad "2" smd rect
 		(at -6.75 -1.92)
 		(size 1.6 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "583790a4-ffc9-4ddd-830c-dc62e1304222")
 	)
 	(pad "3" smd rect
 		(at -6.75 -0.65)
 		(size 1.6 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "53b53fda-13ab-45a9-bded-533735f04737")
 	)
 	(pad "4" smd rect
 		(at -6.75 0.62)
 		(size 1.6 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4d885227-0820-4441-9817-de91a91502ab")
 	)
 	(pad "5" smd rect
 		(at -6.75 1.89)
 		(size 1.6 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "80ada51c-e76f-4186-aad1-7b33edf22323")
 	)
 	(pad "6" smd rect
 		(at -2.75 2.89 90)
 		(size 1.6 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f40e67df-d9d5-4fa4-86a5-10d4c7f339ff")
 	)
 	(pad "7" smd rect
 		(at 6.75 1.89)
 		(size 1.6 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4baab721-37ea-4239-ab24-b1b226f01196")
 	)
 	(pad "8" smd rect
 		(at 6.75 0.62)
 		(size 1.6 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8cde30ea-f59c-47c7-abf3-56e679fcc165")
 	)
 	(pad "9" smd rect
 		(at 6.75 -0.65)
 		(size 1.6 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ee4f1f2e-cb48-40e3-99bc-460481057bf6")
 	)
 	(pad "10" smd rect
 		(at 6.75 -1.92)
 		(size 1.6 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "58bdbd5a-6874-46d1-bf89-da36033d31d8")
 	)
 	(pad "11" smd rect
 		(at 6.75 -3.19)
 		(size 1.6 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3cdb4e43-6539-4372-bcdb-e56571ded344")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
 			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
 			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
@@ -380,7 +423,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -395,6 +437,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

@@ -1,7 +1,7 @@
 (footprint "Speaker_CUI_CMR-1206S-67"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf")
 	(tags "speaker CUI")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.45 2.6)
 		(end -6.45 3.6)
@@ -309,12 +310,20 @@
 		(at -5.4 2.3 180)
 		(size 1.5 2)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ad56c8fa-4afc-4f62-b12d-0dc4b552ea30")
 	)
 	(pad "2" smd rect
 		(at 5.4 2.3 180)
 		(size 1.5 2)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bf230c2a-591e-4598-8bac-cef07294ae7c")
 	)
 	(embedded_fonts no)

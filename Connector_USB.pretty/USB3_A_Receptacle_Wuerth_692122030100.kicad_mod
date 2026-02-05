@@ -1,7 +1,7 @@
 (footprint "USB3_A_Receptacle_Wuerth_692122030100"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "USB 3.0, type A, right angle (https://www.we-online.com/katalog/datasheet/692122030100.pdf)")
 	(tags "USB 3.0 type A right angle Würth")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.65 8.05)
 		(end -6.65 8.05)
@@ -513,14 +514,22 @@
 		(at -3.4 -3.45)
 		(size 2 2)
 		(drill 2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0b752de3-fff7-4498-8dc5-e254fbf4b6e8")
 	)
 	(pad "" np_thru_hole circle
 		(at 3.4 -3.45)
 		(size 2 2)
 		(drill 2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "15d33ba9-67a6-4431-8cba-40cb1f099b0e")
 	)
 	(pad "1" smd roundrect
@@ -528,6 +537,10 @@
 		(size 0.9 2.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d4d25a67-c40a-41b3-b8fc-63f564232528")
 	)
 	(pad "2" smd roundrect
@@ -535,6 +548,10 @@
 		(size 0.9 2.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e4d51649-ad03-4e12-bc0e-b292418bdbc9")
 	)
 	(pad "3" smd roundrect
@@ -542,6 +559,10 @@
 		(size 0.9 2.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9d487615-729c-4626-bf2f-68332cfee716")
 	)
 	(pad "4" smd roundrect
@@ -549,6 +570,10 @@
 		(size 0.9 2.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f8da32e4-7610-4d03-a06d-7e2e5342e61a")
 	)
 	(pad "5" smd roundrect
@@ -556,6 +581,10 @@
 		(size 0.9 2.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "857bb346-4e35-4c3f-9f24-4ea906d5fb73")
 	)
 	(pad "6" smd roundrect
@@ -563,6 +592,10 @@
 		(size 0.9 2.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d1c959b2-6911-4815-9cf9-f6d32730e347")
 	)
 	(pad "7" smd roundrect
@@ -570,6 +603,10 @@
 		(size 0.9 2.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6b4ba508-ac96-4a56-a20b-d7b08d634fe5")
 	)
 	(pad "8" smd roundrect
@@ -577,6 +614,10 @@
 		(size 0.9 2.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8f6d3e00-8801-4fc4-8b3b-8e48aae2c331")
 	)
 	(pad "9" smd roundrect
@@ -584,6 +625,10 @@
 		(size 0.9 2.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1389f6f4-7a33-4a60-a0bf-86d75a9bcab1")
 	)
 	(pad "SH" thru_hole oval
@@ -593,6 +638,10 @@
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "88961ef2-68c3-468b-9673-d395c5da4f10")
 	)
 	(pad "SH" thru_hole oval
@@ -602,6 +651,10 @@
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bd7d6807-1b05-4872-96e4-4ffd2cb2dd65")
 	)
 	(embedded_fonts no)

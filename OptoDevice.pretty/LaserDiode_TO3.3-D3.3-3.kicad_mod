@@ -1,7 +1,7 @@
 (footprint "LaserDiode_TO3.3-D3.3-3"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Laser Diode, TO-3.3mm, 3pin")
 	(tags "Laser Diode TO3.3")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.35 1.4)
 		(end 0.35 1.7)
@@ -216,6 +217,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7e25958b-c45f-496a-a084-31a4d3a91bfa")
 	)
 	(pad "2" thru_hole circle
@@ -224,6 +229,10 @@
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "800419a0-6318-4cf4-8b0d-a64850b9c857")
 	)
 	(pad "3" thru_hole circle
@@ -232,6 +241,10 @@
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6d2fe39f-3574-4fea-bac9-1c2732c84dd2")
 	)
 	(embedded_fonts no)

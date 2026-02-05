@@ -1,7 +1,7 @@
 (footprint "CP_Elec_3x5.3"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics ")
 	(tags "Capacitor Electrolytic")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.375 -1.435)
 		(end -2 -1.435)
@@ -360,12 +361,20 @@
 		(at -1.5 0)
 		(size 2.2 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "37f71012-7bce-40bd-b612-7a46ff8e09de")
 	)
 	(pad "2" smd rect
 		(at 1.5 0)
 		(size 2.2 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bf67284f-161e-4cfe-9adc-b8ca3afeb393")
 	)
 	(embedded_fonts no)

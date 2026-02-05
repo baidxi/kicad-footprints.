@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Vishay_DFS"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SMD diode bridge DFS, see http://www.vishay.com/docs/88854/padlayouts.pdf")
 	(tags "DFS")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.3 -4.3)
 		(end 3.3 -4.3)
@@ -191,24 +192,40 @@
 		(at -4.37 -2.55)
 		(size 2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5db823c1-6838-4246-8134-88b61078104e")
 	)
 	(pad "2" smd rect
 		(at -4.37 2.55)
 		(size 2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7436e557-0cdc-4d61-97b2-ddd7927938f3")
 	)
 	(pad "3" smd rect
 		(at 4.37 2.55)
 		(size 2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c3d5ce9d-a92b-4b8f-b355-1ac49184181d")
 	)
 	(pad "4" smd rect
 		(at 4.37 -2.55)
 		(size 2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "916e60c7-7d75-4834-bc7a-3179f070195b")
 	)
 	(embedded_fonts no)

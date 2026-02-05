@@ -1,7 +1,7 @@
 (footprint "Osram_LPT80A"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "PhotoTransistor, sidelooker package, RM2.54")
 	(tags "PhotoTransistor sidelooker package RM2.54")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.14 2.05)
 		(end -1.14 0.87)
@@ -326,6 +327,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.156)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0a990892-1154-465a-9df6-905342e712c5")
 	)
 	(pad "2" thru_hole oval
@@ -334,6 +339,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6bde3809-70bb-4d89-b2c1-8e04dade7c8d")
 	)
 	(embedded_fonts no)

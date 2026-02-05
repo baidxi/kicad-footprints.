@@ -1,7 +1,7 @@
 (footprint "Fuse_Littelfuse-LVR100"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Littelfuse, resettable fuse, PTC, polyswitch LVR100, Ih 1A http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lvr_catalog_datasheet.pdf.pdf")
 	(tags "LVR100 PTC resettable polyswitch ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.75 -2.65)
 		(end -3.75 2.65)
@@ -191,6 +192,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "279af8f0-a9ad-4f2d-8d7e-0eb8866aa068")
 	)
 	(pad "2" thru_hole circle
@@ -199,6 +204,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a49f71b2-6634-4b6c-8029-9a0edcf9ddff")
 	)
 	(embedded_fonts no)

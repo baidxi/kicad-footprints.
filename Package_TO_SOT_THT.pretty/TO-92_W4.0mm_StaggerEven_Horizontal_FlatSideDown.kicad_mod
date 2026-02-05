@@ -1,7 +1,7 @@
 (footprint "TO-92_W4.0mm_StaggerEven_Horizontal_FlatSideDown"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "TO-92 horizontal, leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
 	(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.13 3.81)
 		(end 3.67 3.81)
@@ -301,6 +302,10 @@
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c60f7fd6-95e4-4cd7-9051-2f79fcff586b")
 	)
 	(pad "2" thru_hole circle
@@ -309,6 +314,10 @@
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a4723bdf-08c7-47c9-bcad-8be779ed7599")
 	)
 	(pad "3" thru_hole circle
@@ -317,6 +326,10 @@
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "95302721-cfa6-49c1-864d-16085d39d5a1")
 	)
 	(embedded_fonts no)

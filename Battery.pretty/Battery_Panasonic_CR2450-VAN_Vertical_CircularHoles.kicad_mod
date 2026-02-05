@@ -1,7 +1,7 @@
 (footprint "Battery_Panasonic_CR2450-VAN_Vertical_CircularHoles"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Panasonic CR-2450/VAN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D492.PDF")
 	(tags "battery CR-2450 coin cell")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.085 -5.81)
 		(end -8.085 0.21)
@@ -222,6 +223,10 @@
 		(drill 3.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b565bcdc-7041-42d7-a1ac-bd0665414f76")
 	)
 	(pad "2" thru_hole circle
@@ -230,6 +235,10 @@
 		(drill 2.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "86b5d6e3-a69a-4dc4-a68f-53ce703bbaed")
 	)
 	(embedded_fonts no)

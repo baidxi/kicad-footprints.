@@ -1,7 +1,7 @@
 (footprint "Fuseholder_Clip-5x20mm_Bel_FC-203-22_Lateral_P17.80x5.00mm_D1.17mm_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Lateral, Horizontal, Bel FC-203-22, https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0672-fuse-clips-series.pdf")
 	(tags "fuse clip open")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.07 5.04)
 		(end -2.07 -0.04)
@@ -352,6 +353,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3f6533ba-c4f9-46fc-b56b-e4570f6ba8d8")
 	)
 	(pad "1" thru_hole roundrect
@@ -361,6 +366,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f6662114-e94f-4466-8b01-5f4d76363a86")
 	)
 	(pad "2" thru_hole circle
@@ -369,6 +378,10 @@
 		(drill 1.17)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d0d2152d-05bb-45b9-922c-65dc46f5a5df")
 	)
 	(pad "2" thru_hole circle
@@ -377,6 +390,10 @@
 		(drill 1.17)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4f2de74c-a0a3-419c-86d3-f1056d120362")
 	)
 	(embedded_fonts no)

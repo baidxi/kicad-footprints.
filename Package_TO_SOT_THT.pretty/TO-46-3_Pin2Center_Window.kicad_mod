@@ -1,7 +1,7 @@
 (footprint "TO-46-3_Pin2Center_Window"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "TO-46-3, Pin2 at center of package, Thorlabs photodiodes, https://www.thorlabs.de/drawings/374b6862eb3b5a04-9360B5F6-5056-2306-D912111C06C3F830/FDGA05-SpecSheet.pdf")
 	(tags "TO-46-3 Thorlabs")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.58 -0.6)
 		(end -2.58 0.75)
@@ -305,6 +306,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e571e598-8e67-4a09-acec-ae5bf52babc2")
 	)
 	(pad "2" thru_hole oval
@@ -313,6 +318,10 @@
 		(drill 0.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ae111340-23b3-4714-8fc7-e07f427506d7")
 	)
 	(pad "3" thru_hole oval
@@ -321,6 +330,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b171fe2c-c80c-4237-b9f9-714acb1e44fd")
 	)
 	(embedded_fonts no)

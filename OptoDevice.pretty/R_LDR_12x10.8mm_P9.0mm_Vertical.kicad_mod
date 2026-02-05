@@ -1,7 +1,7 @@
 (footprint "R_LDR_12x10.8mm_P9.0mm_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Resistor, LDR 12x10.8mm, see http://yourduino.com/docs/Photoresistor-5516-datasheet.pdf")
 	(tags "Resistor LDR12x10.8mm")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 1.8 -5.5)
 		(end 7.2 -5.5)
@@ -325,6 +326,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9cda373c-ef49-4438-80e8-07c1095d2da8")
 	)
 	(pad "2" thru_hole circle
@@ -333,6 +338,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "222cbce5-cdc8-45ac-ae84-0bcca3e5c1db")
 	)
 	(embedded_fonts no)

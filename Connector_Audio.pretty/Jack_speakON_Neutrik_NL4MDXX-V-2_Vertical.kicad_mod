@@ -1,7 +1,7 @@
 (footprint "Jack_speakON_Neutrik_NL4MDXX-V-2_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "speakON Chassis Connectors, 4 pole chassis connector, black D-size flange, mirrored self tapping screw holes (A-screw), vertical PCB mount, replaces NL4MD-V-2, https://www.neutrik.com/en/product/nl4mdxx-v-2")
 	(tags "neutrik speakon")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -12.42 15.72)
 		(end -12.42 -8.52)
@@ -345,6 +346,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6374193f-13d3-49f0-9f3a-077fa7284d2c")
 	)
 	(pad "1-" thru_hole circle
@@ -353,6 +358,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "847dd13f-b58e-4a75-b33b-e8578000f237")
 	)
 	(pad "2+" thru_hole circle
@@ -361,6 +370,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "89a91afa-3f45-4aae-8335-81ca2131b403")
 	)
 	(pad "2-" thru_hole circle
@@ -369,6 +382,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "70688df6-3295-44a5-9f6b-053e2820b6d8")
 	)
 	(embedded_fonts no)

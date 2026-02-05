@@ -1,7 +1,7 @@
 (footprint "RV_Disc_D21.5mm_W5.1mm_P10mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Varistor, diameter 21.5mm, width 5.1mm, pitch 10mm")
 	(tags "varistor SIOV")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.75 -1.475)
 		(end -5.75 3.625)
@@ -191,6 +192,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "06bca750-03fe-4852-88b9-ae028514d10e")
 	)
 	(pad "2" thru_hole circle
@@ -199,6 +204,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f1d63cbc-fd9b-458f-9d89-65085e7959bc")
 	)
 	(embedded_fonts no)

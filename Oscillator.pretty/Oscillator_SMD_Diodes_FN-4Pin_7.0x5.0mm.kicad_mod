@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_Diodes_FN-4Pin_7.0x5.0mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "FN Series Crystal Clock Oscillator (XO) (https://www.diodes.com/assets/Datasheets/FN_3-3V.pdf)")
 	(tags "Oscillator Crystal SMD SMT")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.2 -3.64)
 		(end 2.5 -3.64)
@@ -253,24 +254,40 @@
 		(at -2.2 -2.54)
 		(size 2 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "44145dd2-d426-45ea-955d-0ebec04d9fe4")
 	)
 	(pad "2" smd rect
 		(at -2.2 2.54)
 		(size 2 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2968ebcc-72f3-480c-9b87-2c676b1b6b8a")
 	)
 	(pad "3" smd rect
 		(at 2.2 2.54)
 		(size 2 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "32be18d2-601b-4ab3-8be9-c8a4d0f44103")
 	)
 	(pad "4" smd rect
 		(at 2.2 -2.54)
 		(size 2 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a6f612d1-4bef-486b-a11f-37c08cc183d0")
 	)
 	(embedded_fonts no)

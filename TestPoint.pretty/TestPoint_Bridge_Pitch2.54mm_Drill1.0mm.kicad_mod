@@ -1,7 +1,7 @@
 (footprint "TestPoint_Bridge_Pitch2.54mm_Drill1.0mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.0mm, wire diameter 0.8mm")
 	(tags "test point wire loop")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.2 -1.2)
 		(end -1.2 1.2)
@@ -161,6 +162,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d90d2be5-21cf-46eb-b4fb-71ed56bc4977")
 	)
 	(pad "1" thru_hole circle
@@ -169,6 +174,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "927100b4-06f5-45c8-8df1-a733f96eedff")
 	)
 	(embedded_fonts no)

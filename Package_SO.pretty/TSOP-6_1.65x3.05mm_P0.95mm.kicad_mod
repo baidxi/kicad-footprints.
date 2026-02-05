@@ -1,7 +1,7 @@
 (footprint "TSOP-6_1.65x3.05mm_P0.95mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "TSOP-6 package (comparable to TSOT-23), https://www.vishay.com/docs/71200/71200.pdf")
 	(tags "Jedec MO-193C TSOP-6L")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.8 -1.6)
 		(end 0.8 -1.6)
@@ -191,36 +192,60 @@
 		(at -1.16 -0.95)
 		(size 0.7 0.51)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a8def91a-42b8-4d3b-9069-45010d9b4a90")
 	)
 	(pad "2" smd rect
 		(at -1.16 0)
 		(size 0.7 0.51)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "28c52adb-bf15-4178-9262-b566787ac0de")
 	)
 	(pad "3" smd rect
 		(at -1.16 0.95)
 		(size 0.7 0.51)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5eade189-788b-443f-b78b-3e8fb15239a4")
 	)
 	(pad "4" smd rect
 		(at 1.16 0.95)
 		(size 0.7 0.51)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "611a67e8-4cec-4a8e-bed4-71039100a45d")
 	)
 	(pad "5" smd rect
 		(at 1.16 0)
 		(size 0.7 0.51)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c5211d95-e445-4c0d-bc9f-1f849f6b6116")
 	)
 	(pad "6" smd rect
 		(at 1.16 -0.95)
 		(size 0.7 0.51)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5a88aa05-cc8a-45ab-8787-2bd89cf69933")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Keystone_106_1x20mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "http://www.keyelco.com/product-pdf.cfm?p=720")
 	(tags "Keystone type 106 battery holder")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.05 -2.5)
 		(end -2.05 2.5)
@@ -497,6 +498,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "82c535a1-531e-46a4-98e4-38379a4a2662")
 	)
 	(pad "2" thru_hole circle
@@ -505,6 +510,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a029179a-de0a-459f-b325-fbfe6680b2ab")
 	)
 	(embedded_fonts no)

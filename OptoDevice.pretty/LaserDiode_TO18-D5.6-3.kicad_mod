@@ -1,7 +1,7 @@
 (footprint "LaserDiode_TO18-D5.6-3"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Laser Diode, TO18-like (D=5.6mm), 3pin")
 	(tags "Laser Diode TO18-like")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.5 2.4)
 		(end 1.4 2.4)
@@ -227,6 +228,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.208)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "73518640-fd6a-424d-8479-97bb68ef9e90")
 	)
 	(pad "2" thru_hole circle
@@ -235,6 +240,10 @@
 		(drill 0.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1a577d2a-c882-49e1-9c48-e5a419986e46")
 	)
 	(pad "3" thru_hole circle
@@ -243,6 +252,10 @@
 		(drill 0.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1e3b0fcc-28d5-4433-bf06-bfdf63313081")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "D_SOD-923"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF#page=4")
 	(tags "Diode SOD923")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.86 -0.4)
 		(end -0.86 0.4)
@@ -320,6 +321,10 @@
 		(size 0.36 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "da7e7dc2-c28a-46d5-84ab-e4c3b3e4b3c2")
 	)
 	(pad "2" smd roundrect
@@ -327,6 +332,10 @@
 		(size 0.36 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "48d51772-ba39-4b52-91fb-8a3ce1d91c8d")
 	)
 	(embedded_fonts no)

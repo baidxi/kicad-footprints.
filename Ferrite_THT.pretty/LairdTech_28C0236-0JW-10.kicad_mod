@@ -1,7 +1,7 @@
 (footprint "LairdTech_28C0236-0JW-10"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters")
 	(tags "Ferrite vertical LairdTech 28C0236-0JW-10")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_arc
 		(start -0.508 1.27)
 		(mid -1.367832 0)
@@ -179,6 +180,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "47e7793e-de30-45af-b57f-1ab41489375b")
 	)
 	(pad "2" thru_hole circle
@@ -187,6 +192,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6366fb9d-6c7a-469b-8f99-488f85062376")
 	)
 	(embedded_fonts no)

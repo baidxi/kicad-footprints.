@@ -1,7 +1,7 @@
 (footprint "L_Coilcraft_LPS4414"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SMD Inductor Coilcraft LPS4414, https://www.coilcraft.com/getmedia/fa8805ca-b278-4819-915a-b5cf632f0239/lps4414.pdf")
 	(tags "L Coilcraft LPS4414")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.57 -2.06)
 		(end 0.57 -2.06)
@@ -264,6 +265,10 @@
 				(fill yes)
 			)
 		)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "07c4f184-e571-4f22-997a-04ca0c1f2c0c")
 	)
 	(pad "2" smd custom
@@ -284,6 +289,10 @@
 				(width 0)
 				(fill yes)
 			)
+		)
+		(tenting
+			(front none)
+			(back none)
 		)
 		(uuid "0064ac66-7041-426e-87ef-cdd08b15b27e")
 	)

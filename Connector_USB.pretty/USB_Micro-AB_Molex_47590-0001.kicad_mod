@@ -1,7 +1,7 @@
 (footprint "USB_Micro-AB_Molex_47590-0001"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Micro USB AB receptacle, right-angle inverted (https://www.molex.com/pdm_docs/sd/475900001_sd.pdf)")
 	(tags "Micro AB USB SMD")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.87 -3.62)
 		(end -3.87 -1.55)
@@ -494,12 +495,20 @@
 		(at -3.5 -0.35)
 		(size 0.3 0.85)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f6d16555-361c-45c0-b638-e30497582a0c")
 	)
 	(pad "" smd rect
 		(at 3.5 -0.35)
 		(size 0.3 0.85)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "098f3983-cc81-4561-b6b3-5fbeddabea75")
 	)
 	(pad "1" smd roundrect
@@ -507,6 +516,10 @@
 		(size 0.4 1.35)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f18640f9-bb70-4637-8b80-13ef4e4668f7")
 	)
 	(pad "2" smd roundrect
@@ -514,6 +527,10 @@
 		(size 0.4 1.35)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "14681c88-b094-46f2-ba05-0a108b5873e0")
 	)
 	(pad "3" smd roundrect
@@ -521,6 +538,10 @@
 		(size 0.4 1.35)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b99f8391-4192-462d-b63f-3c48dbc61c83")
 	)
 	(pad "4" smd roundrect
@@ -528,6 +549,10 @@
 		(size 0.4 1.35)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "80b1b826-b2d9-4a3f-a60f-983859b1fe2d")
 	)
 	(pad "5" smd roundrect
@@ -535,6 +560,10 @@
 		(size 0.4 1.35)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7a5037d8-1adf-4802-9521-386cc4a58105")
 	)
 	(pad "SH" thru_hole oval
@@ -544,12 +573,20 @@
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2a498101-d5c5-4cd8-90c5-73bbbec37691")
 	)
 	(pad "SH" smd rect
 		(at -3.7375 -0.35)
 		(size 0.875 1.9)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1e7c2782-72c9-4974-bc76-c1345656f1ec")
 	)
 	(pad "SH" thru_hole oval
@@ -559,6 +596,10 @@
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2eaa79f2-3c21-4753-9b73-293766af4544")
 	)
 	(pad "SH" smd roundrect
@@ -566,6 +607,10 @@
 		(size 2.9 1.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1315789474)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bbaf77de-f7e5-4a41-9e1b-9dddcbff5b82")
 	)
 	(pad "SH" thru_hole oval
@@ -575,12 +620,20 @@
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "01f02161-1ba3-4dcf-8e86-2976ec735572")
 	)
 	(pad "SH" smd rect
 		(at 3.7375 -0.35)
 		(size 0.875 1.9)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b23bb249-4cd3-40fc-8105-d0d7b8908f58")
 	)
 	(pad "SH" thru_hole oval
@@ -590,6 +643,10 @@
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2f5ca876-b96e-4aec-8976-4c39f69f46be")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "L_Pulse_PA4320"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Inductor SMD Pulse PA4320 http://productfinder.pulseeng.com/products/datasheets/P787.pdf")
 	(tags "Inductor SMD Pulse PA4320")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.12 -6.12)
 		(end -6.12 -3.5)
@@ -289,12 +290,20 @@
 		(at -4.75 0 90)
 		(size 5.6 3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3ce473dc-d33a-44c5-812d-c0de6f6ba4d6")
 	)
 	(pad "2" smd rect
 		(at 4.75 0 90)
 		(size 5.6 3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "adab274a-c690-4fe9-b6e5-49f3dc1139bb")
 	)
 	(embedded_fonts no)

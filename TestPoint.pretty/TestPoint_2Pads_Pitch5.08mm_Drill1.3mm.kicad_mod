@@ -1,7 +1,7 @@
 (footprint "TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Test point with 2 pads, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm")
 	(tags "CONN DEV")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.5 -1.5)
 		(end -1.5 1.5)
@@ -162,6 +163,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "152149cd-0c5d-422f-bdb9-7ac810140159")
 	)
 	(pad "2" thru_hole circle
@@ -170,6 +175,10 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ef117ff5-b2b1-42ca-a1fb-78769d5944c9")
 	)
 	(embedded_fonts no)

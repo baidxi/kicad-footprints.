@@ -1,7 +1,7 @@
 (footprint "D_SOD-110"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SOD-110")
 	(tags "SOD-110")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.61 -0.8)
 		(end -1.61 0.8)
@@ -240,6 +241,10 @@
 		(size 0.8 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cb9f885f-b936-4fd6-ae8c-22aad7ec5e46")
 	)
 	(pad "2" smd roundrect
@@ -247,6 +252,10 @@
 		(size 0.8 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "71fce3e5-e64a-4e50-97a2-1913e4df9c89")
 	)
 	(embedded_fonts no)

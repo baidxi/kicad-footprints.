@@ -1,7 +1,7 @@
 (footprint "Valve_Glimm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Valve Glimm")
 	(tags "Valve Glimm")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.23 2)
 		(end 0.27 2)
@@ -257,6 +258,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2f411b75-3842-4102-b4e1-d64cff7a630a")
 	)
 	(pad "2" thru_hole circle
@@ -265,6 +270,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3939bc2a-9533-4e9e-a776-541f22da39ed")
 	)
 	(embedded_fonts no)

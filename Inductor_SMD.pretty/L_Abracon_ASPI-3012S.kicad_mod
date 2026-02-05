@@ -1,7 +1,7 @@
 (footprint "L_Abracon_ASPI-3012S"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "smd shielded power inductor http://www.abracon.com/Magnetics/power/ASPI-3012S.pdf")
 	(tags "inductor abracon smd shielded")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.8 -1.6)
 		(end 0.8 -1.6)
@@ -249,12 +250,20 @@
 		(at -1.15 0)
 		(size 1 2.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5e832197-b3f5-4d60-8a93-5c36dc953e87")
 	)
 	(pad "2" smd rect
 		(at 1.15 0)
 		(size 1 2.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6293a389-d04c-466c-b4a8-4ce36c97f736")
 	)
 	(embedded_fonts no)

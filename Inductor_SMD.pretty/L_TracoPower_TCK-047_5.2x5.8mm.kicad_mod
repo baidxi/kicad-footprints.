@@ -1,7 +1,7 @@
 (footprint "L_TracoPower_TCK-047_5.2x5.8mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Inductor, Traco, TCK-047, 5.2x5.8mm, https://www.tracopower.com/products/tck047.pdf")
 	(tags "inductor smd traco")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.6 2.8)
 		(end 0.6 2.8)
@@ -171,12 +172,20 @@
 		(at -1.925 0 90)
 		(size 5.5 2.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5dde4dd3-5cc2-4c14-a535-65ec045a743c")
 	)
 	(pad "2" smd rect
 		(at 1.925 0 90)
 		(size 5.5 2.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e5d098fc-4b4d-48d2-ac12-b0861b50fb82")
 	)
 	(embedded_fonts no)

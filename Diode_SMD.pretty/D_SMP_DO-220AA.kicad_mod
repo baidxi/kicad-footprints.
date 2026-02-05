@@ -1,7 +1,7 @@
 (footprint "D_SMP_DO-220AA"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SMP DO-220AA (https://www.vishay.com/docs/89016/esh2pb.pdf)")
 	(tags "SMP DO-220AA")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.29 -1.53)
 		(end -2.29 1.53)
@@ -190,6 +191,10 @@
 		(size 2.67 2.54)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6e0290f5-c2f7-40b4-8786-001ca3c2aa41")
 	)
 	(pad "2" smd roundrect
@@ -197,6 +202,10 @@
 		(size 0.762 1.27)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b2562415-73e3-4ead-8b18-96472423e464")
 	)
 	(embedded_fonts no)

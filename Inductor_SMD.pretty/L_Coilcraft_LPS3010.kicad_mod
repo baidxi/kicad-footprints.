@@ -1,7 +1,7 @@
 (footprint "L_Coilcraft_LPS3010"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Shielded Power Inductor SMD 3x3x1mm, Coilcraft LPS3010, https://www.coilcraft.com/pdfs/lps3010.pdf")
 	(tags "inductor low profile")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.475 -1.725)
 		(end 1.475 -1.725)
@@ -224,6 +225,10 @@
 				(fill yes)
 			)
 		)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b89c04c5-dca2-484c-b6cf-9e9159ac25a3")
 	)
 	(pad "2" smd custom
@@ -244,6 +249,10 @@
 				(width 0)
 				(fill yes)
 			)
+		)
+		(tenting
+			(front none)
+			(back none)
 		)
 		(uuid "9fdd48b4-e39f-471d-bc07-0aa5859a3b98")
 	)

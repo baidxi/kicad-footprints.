@@ -1,7 +1,7 @@
 (footprint "NetTie-3_THT_Pad0.3mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Net tie, 3 pin, 0.3mm round THT pads")
 	(tags "net tie")
@@ -57,6 +57,7 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(net_tie_pad_groups "1, 2, 3")
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy 0 -0.3) (xy 2.4 -0.3) (xy 2.4 0.3) (xy 0 0.3)
@@ -87,6 +88,10 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "67a02784-f1f3-4c14-ac07-f17bcae8311a")
 	)
 	(pad "2" thru_hole circle
@@ -95,6 +100,10 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b12d8815-4827-4eb1-a5f9-97df4402ca08")
 	)
 	(pad "3" thru_hole circle
@@ -103,6 +112,10 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f4962199-5f70-4499-bb71-edc9d9ca10da")
 	)
 	(embedded_fonts no)

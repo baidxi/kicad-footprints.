@@ -1,7 +1,7 @@
 (footprint "Infineon_PG-LLGA-5-2"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Infineon, IP57, XENSIV, LGA-5, https://www.infineon.com/dgdl/Infineon-IM73A135-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c7f2a768a017fadec36b84500")
 	(tags "MEMS Microphone LGA Dust Water")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.18 -1.38)
 		(end -2.18 1.68)
@@ -317,7 +318,11 @@
 		(at 0.68 0 90)
 		(size 0.8 0.8)
 		(drill 0.8)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6158f568-8f72-4f5a-9d92-1b6ac5610f2b")
 	)
 	(pad "1" smd roundrect
@@ -325,6 +330,10 @@
 		(size 0.75 0.45)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "752abe99-a60a-4b76-a0b9-b21754997f3d")
 	)
 	(pad "2" smd roundrect
@@ -332,6 +341,10 @@
 		(size 0.75 0.45)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "52940a40-48af-4424-87be-82eb66cd3630")
 	)
 	(pad "3" smd roundrect
@@ -339,6 +352,10 @@
 		(size 0.75 0.45)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fa368c8e-cf33-4b27-b64b-578d3599b465")
 	)
 	(pad "4" smd roundrect
@@ -346,6 +363,10 @@
 		(size 0.75 0.45)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "97d99428-b1d5-46e0-8817-5f0bd1710f81")
 	)
 	(pad "5" smd custom
@@ -364,6 +385,10 @@
 				(width 0.46)
 				(fill no)
 			)
+		)
+		(tenting
+			(front none)
+			(back none)
 		)
 		(uuid "8c2d513b-19ba-4270-bed6-a2599d0a2f44")
 	)

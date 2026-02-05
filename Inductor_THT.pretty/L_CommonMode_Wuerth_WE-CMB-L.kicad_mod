@@ -1,7 +1,7 @@
 (footprint "L_CommonMode_Wuerth_WE-CMB-L"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Wuerth, WE-CMB, Bauform L,")
 	(tags "CommonModeChoke Gleichtaktdrossel ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.9 18.9)
 		(end -3.9 -8.9)
@@ -477,10 +478,10 @@
 			)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 6 5 0)
+	(fp_text user "4"
+		(at 2.5 10 0)
 		(layer "F.Fab")
-		(uuid "432edb83-a84d-4d70-a2fb-242354080f97")
+		(uuid "9e6ba3ea-b6ea-4be2-a5d6-c0e508a6bc7b")
 		(effects
 			(font
 				(size 1 1)
@@ -488,10 +489,10 @@
 			)
 		)
 	)
-	(fp_text user "7"
-		(at 9.5 10 0)
+	(fp_text user "${REFERENCE}"
+		(at 6 5 0)
 		(layer "F.Fab")
-		(uuid "4c4fe2df-f4d0-4e0d-b752-bac0d5e0958b")
+		(uuid "432edb83-a84d-4d70-a2fb-242354080f97")
 		(effects
 			(font
 				(size 1 1)
@@ -510,10 +511,10 @@
 			)
 		)
 	)
-	(fp_text user "4"
-		(at 2.5 10 0)
+	(fp_text user "7"
+		(at 9.5 10 0)
 		(layer "F.Fab")
-		(uuid "9e6ba3ea-b6ea-4be2-a5d6-c0e508a6bc7b")
+		(uuid "4c4fe2df-f4d0-4e0d-b752-bac0d5e0958b")
 		(effects
 			(font
 				(size 1 1)
@@ -527,6 +528,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f36355d4-bcea-43ec-aa0e-8f92580f1deb")
 	)
 	(pad "4" thru_hole circle
@@ -535,6 +540,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "83daaa0d-6d61-4115-9ab4-8a8599ac51b5")
 	)
 	(pad "7" thru_hole circle
@@ -543,6 +552,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0740e3c8-1cee-41b0-931e-a2087bec1904")
 	)
 	(pad "9" thru_hole circle
@@ -551,6 +564,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e1a194b9-66af-4ab7-ace6-c050ecbf736a")
 	)
 	(embedded_fonts no)

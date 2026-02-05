@@ -1,7 +1,7 @@
 (footprint "SW_SPST_CK_RS282G05A3"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf")
 	(tags "SPST button tactile switch")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.06 -1.85)
 		(end 3.06 -1.85)
@@ -269,12 +270,20 @@
 		(at -3.9 0)
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0e1af636-214f-4e8c-94e4-d5a1fe4a9ee4")
 	)
 	(pad "2" smd rect
 		(at 3.9 0)
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7b64980f-9648-438e-ae36-5c5a0031d803")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "NHD-C12832A1Z-FSRGB"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "128x32 LCD with RGB backlight https://www.newhavendisplay.com/specs/NHD-C12832A1Z-FSRGB-FBW-3V.pdf")
 	(tags "lcd rgb st7565")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.5 1.6)
 		(end 0 1.1)
@@ -209,28 +210,44 @@
 		(at -8.1 -22.95)
 		(size 0.9 0.9)
 		(drill 0.9)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0d2ca545-da50-4802-8047-050dc297acfd")
 	)
 	(pad "" np_thru_hole circle
 		(at -8.1 0.15)
 		(size 0.9 0.9)
 		(drill 0.9)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f0471da0-ba65-44bb-96f4-9c0fcb207ee7")
 	)
 	(pad "" np_thru_hole circle
 		(at 32.1 -22.95)
 		(size 0.9 0.9)
 		(drill 0.9)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0e9ea09b-3729-4959-b60f-ace37029c212")
 	)
 	(pad "" np_thru_hole circle
 		(at 32.1 0.15)
 		(size 0.9 0.9)
 		(drill 0.9)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "851e0ea1-d471-49bb-ac43-5672cd54b420")
 	)
 	(pad "1" thru_hole rect
@@ -239,6 +256,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "856764e2-8ff8-4ecc-aac1-f6384d3e008d")
 	)
 	(pad "2" thru_hole oval
@@ -247,6 +268,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9bf8c92f-3047-4e68-a8a2-379650380d99")
 	)
 	(pad "3" thru_hole oval
@@ -255,6 +280,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "480d03ac-97eb-4d9d-b49e-5d99fbd76970")
 	)
 	(pad "4" thru_hole oval
@@ -263,6 +292,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c2c890d6-60f9-407d-9e1e-8c0111591d90")
 	)
 	(pad "5" thru_hole oval
@@ -271,6 +304,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b3732c11-ee7d-4ba6-bce4-0c220508b668")
 	)
 	(pad "6" thru_hole oval
@@ -279,6 +316,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8049a6a2-c8dc-4674-8bfa-d7243df19fd2")
 	)
 	(pad "7" thru_hole oval
@@ -287,6 +328,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ddc55d21-b84d-4201-bc2d-8bd4dc83f68a")
 	)
 	(pad "8" thru_hole oval
@@ -295,6 +340,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "417f27f5-1f26-4f93-8ccd-cbbf9ef54f71")
 	)
 	(pad "9" thru_hole oval
@@ -303,6 +352,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "13be65d0-77d2-4f72-9f66-be840eace0e4")
 	)
 	(pad "10" thru_hole oval
@@ -311,6 +364,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "de999a7a-1532-4598-8801-6e1da23525b5")
 	)
 	(pad "11" thru_hole oval
@@ -319,6 +376,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "72c5761f-cab4-4df6-9954-12d1dfd6f7b5")
 	)
 	(pad "12" thru_hole oval
@@ -327,6 +388,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "124fa3ff-2120-4505-8f19-8cab96210018")
 	)
 	(pad "13" thru_hole oval
@@ -335,6 +400,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3b9ddc6e-efe2-4a83-b39f-caba2b3fe2b6")
 	)
 	(pad "14" thru_hole oval
@@ -343,6 +412,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "253878d7-836a-4e71-b4b8-719a5e7b3067")
 	)
 	(pad "15" thru_hole oval
@@ -351,6 +424,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a3f2324f-d1dd-4692-988c-daa973088dcb")
 	)
 	(pad "16" thru_hole oval
@@ -359,6 +436,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "09daac40-5936-49af-b9ea-c2cded9c016f")
 	)
 	(pad "17" thru_hole oval
@@ -367,6 +448,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c32517dd-be8e-4fba-a214-76355d167c63")
 	)
 	(pad "18" thru_hole oval
@@ -375,6 +460,10 @@
 		(drill oval 2 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d66c7057-f46c-4d06-b40f-fc7aa76affd4")
 	)
 	(pad "19" thru_hole oval
@@ -383,6 +472,10 @@
 		(drill oval 2 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "af601d64-2920-4210-ae72-241e9929d4fc")
 	)
 	(pad "20" thru_hole oval
@@ -391,6 +484,10 @@
 		(drill oval 2 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ad69aeb1-564c-4438-837b-2272905c2831")
 	)
 	(pad "21" thru_hole oval
@@ -399,6 +496,10 @@
 		(drill oval 2 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5442e1ce-3e2c-43bd-b206-b971246ae918")
 	)
 	(embedded_fonts no)

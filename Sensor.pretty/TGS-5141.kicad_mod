@@ -1,7 +1,7 @@
 (footprint "TGS-5141"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Fixaro carbon monoxide electrochemical sensor, https://figarosensor.com/product/docs/tgs5141-p00_product%20infomation%28fusa%29_rev07.pdf")
 	(tags "Figaro CO sensor")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_arc
 		(start -5.599999 8.95)
 		(mid 0 -3.06095)
@@ -185,6 +186,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "111a0c3d-6201-469a-a1dd-54226a0a8d36")
 	)
 	(pad "2" thru_hole circle
@@ -193,6 +198,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "36b7fc24-1096-4e61-a034-8ff95bd1379a")
 	)
 	(pad "2" thru_hole circle
@@ -201,6 +210,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6585dfb5-4ff9-407e-be4e-67cf9a996ddc")
 	)
 	(embedded_fonts no)

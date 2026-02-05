@@ -1,7 +1,7 @@
 (footprint "SpringContact_Harwin_S1941-46R"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "7.25mm SMT Multi-directional Spring Contact (T+R), https://cdn.harwin.com/pdfs/S1941R.pdf")
 	(tags "spring contact emi emc shield")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.49 -1.75)
 		(end -6.49 1.75)
@@ -435,6 +436,10 @@
 		(at -1.1 0)
 		(size 4.6 5.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9acd437d-6722-418d-85c2-023bf8b34e28")
 	)
 	(embedded_fonts no)

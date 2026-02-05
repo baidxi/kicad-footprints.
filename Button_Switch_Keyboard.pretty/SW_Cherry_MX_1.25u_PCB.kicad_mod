@@ -1,7 +1,7 @@
 (footprint "SW_Cherry_MX_1.25u_PCB"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Cherry MX keyswitch, 1.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 	(tags "Cherry MX keyswitch 1.25u PCB")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9.525 -1.905)
 		(end 4.445 -1.905)
@@ -230,6 +231,10 @@
 		(size 1.7 1.7)
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "06d090ba-6d24-4e8c-ba9b-86c56d1bd698")
 	)
 	(pad "" np_thru_hole circle
@@ -237,6 +242,10 @@
 		(size 4 4)
 		(drill 4)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "15fba09e-e8a4-45cc-85c9-3fb8298dc92a")
 	)
 	(pad "" np_thru_hole circle
@@ -244,6 +253,10 @@
 		(size 1.7 1.7)
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9be71b4b-976f-45e7-97ed-42fe4498c1b0")
 	)
 	(pad "1" thru_hole circle
@@ -252,6 +265,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "73b95d02-93ae-4074-b7dd-1c56e45ac11d")
 	)
 	(pad "2" thru_hole circle
@@ -260,6 +277,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f0933f6a-097c-4c83-88d7-90db622ab056")
 	)
 	(embedded_fonts no)

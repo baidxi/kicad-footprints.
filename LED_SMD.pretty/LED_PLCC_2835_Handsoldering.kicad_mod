@@ -1,7 +1,7 @@
 (footprint "LED_PLCC_2835_Handsoldering"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://www.luckylight.cn/media/component/data-sheet/R2835BC-B2M-M10.pdf")
 	(tags "LED")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.5 -1.6)
 		(end -2.5 1.6)
@@ -189,12 +190,20 @@
 		(at -1.05 0)
 		(size 2.5 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4c9c82bf-eddf-4ce8-a63d-09a09d9dffe8")
 	)
 	(pad "2" smd rect
 		(at 1.525 0)
 		(size 1.55 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9c449f5b-fd21-40d4-ab2b-8f6c936b78fc")
 	)
 	(embedded_fonts no)

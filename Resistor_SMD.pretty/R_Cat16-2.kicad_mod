@@ -1,7 +1,7 @@
 (footprint "R_Cat16-2"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SMT resistor net, Bourns CAT16 series, 2 way")
 	(tags "SMT resistor net Bourns CAT16 series 2 way")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 1.1 -0.9)
 		(end -1.1 -0.9)
@@ -180,24 +181,40 @@
 		(at -0.76 -0.4 180)
 		(size 0.76 0.43)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "825449df-7ba1-4eed-8e2d-06bbfae939fd")
 	)
 	(pad "2" smd rect
 		(at -0.76 0.4 180)
 		(size 0.76 0.43)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b3461a14-9012-41be-865a-c3966415f039")
 	)
 	(pad "3" smd rect
 		(at 0.76 0.4 180)
 		(size 0.76 0.43)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "11d97768-0958-4342-a97f-76cf3a582a8c")
 	)
 	(pad "4" smd rect
 		(at 0.76 -0.4 180)
 		(size 0.76 0.43)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c1bf8d14-1037-42f8-a79b-097b2251e03d")
 	)
 	(embedded_fonts no)

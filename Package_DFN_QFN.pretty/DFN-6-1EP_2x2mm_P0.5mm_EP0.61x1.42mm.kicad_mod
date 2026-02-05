@@ -1,7 +1,7 @@
 (footprint "DFN-6-1EP_2x2mm_P0.5mm_EP0.61x1.42mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "DC6 Package; 6-Lead Plastic DFN (2mm x 2mm) (see Linear Technology DFN_6_05-08-1703.pdf)")
 	(tags "DFN 0.5")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1 -1.11)
 		(end 1 -1.11)
@@ -191,54 +192,90 @@
 		(at 0 -0.355)
 		(size 0.5 0.56)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fdb2b79f-0736-4f60-928e-59caa792bafa")
 	)
 	(pad "" smd rect
 		(at 0 0.355)
 		(size 0.5 0.56)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c7e05084-da6b-487c-8ea9-8c73508b717a")
 	)
 	(pad "1" smd rect
 		(at -0.925 -0.5)
 		(size 0.7 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1b29b13a-ac76-4681-8d58-4e023ddb3334")
 	)
 	(pad "2" smd rect
 		(at -0.925 0)
 		(size 0.7 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4f7bc01d-1b74-42dd-af72-a8f9cc9e7b09")
 	)
 	(pad "3" smd rect
 		(at -0.925 0.5)
 		(size 0.7 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6c9bd05c-d0d5-4e40-8f64-2e1ca87143cc")
 	)
 	(pad "4" smd rect
 		(at 0.925 0.5)
 		(size 0.7 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5482e8ee-ac04-4a18-9f79-23a24b98655b")
 	)
 	(pad "5" smd rect
 		(at 0.925 0)
 		(size 0.7 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "22bab6ac-2c7e-4d80-855c-95ffdbf68495")
 	)
 	(pad "6" smd rect
 		(at 0.925 -0.5)
 		(size 0.7 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ec11465e-dcaf-48f0-9ef4-28f3ce26bde1")
 	)
 	(pad "7" smd rect
 		(at 0 0)
 		(size 0.61 1.42)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "222bf18a-c703-44be-8ff4-cd904d4b2b4f")
 	)
 	(embedded_fonts no)

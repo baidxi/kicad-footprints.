@@ -1,7 +1,7 @@
 (footprint "Jack_XLR_Neutrik_NC3MAFH-PH_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "A Series, Chassis connector H female (A series layout), mates with Phoenix MSTB2,5/3-ST, horizontal PCB mount, https://www.neutrik.com/en/product/nc3mafh-ph")
 	(tags "neutrik xlr a")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 2.78 -1.62)
 		(end 2.78 1.62)
@@ -450,6 +451,10 @@
 		(size 1.6 1.6)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6f7777c2-3eb0-4f05-b349-2e593dc26416")
 	)
 	(pad "1" thru_hole circle
@@ -458,6 +463,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ec503513-bfaa-4658-82ba-4ef2dcbd647f")
 	)
 	(pad "2" thru_hole circle
@@ -466,6 +475,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2ebe0de9-f119-48a4-b1de-d21b58846844")
 	)
 	(pad "3" thru_hole circle
@@ -474,6 +487,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d1de2ead-8a39-4949-be96-c78cae07609a")
 	)
 	(embedded_fonts no)

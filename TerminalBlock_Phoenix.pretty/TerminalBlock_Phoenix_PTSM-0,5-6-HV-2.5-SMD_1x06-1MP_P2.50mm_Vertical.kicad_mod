@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_Phoenix_PTSM-0,5-6-HV-2.5-SMD_1x06-1MP_P2.50mm_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "PhoenixContact PTSM0,5 6 HV 2,5mm vertical SMD spring clamp terminal block connector http://www.phoenixcontact.com/us/products/1778735/pdf")
 	(tags "2.5mm vertical SMD spring clamp terminal block connector ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.25 -3.9)
 		(end 8.25 -3.9)
@@ -490,6 +491,10 @@
 		(size 1 1)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bf218f7f-0296-4b00-a391-8e21c28699ca")
 	)
 	(pad "" np_thru_hole circle
@@ -497,54 +502,90 @@
 		(size 1 1)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "676e4217-0300-48b9-9693-6da424423125")
 	)
 	(pad "1" smd rect
 		(at -6.25 1.65 180)
 		(size 1.2 4.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "526c0c03-9467-4d83-bef7-1fa30ba06499")
 	)
 	(pad "2" smd rect
 		(at -3.75 1.65 180)
 		(size 1.2 4.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "840fb9a1-2ca2-4834-88ed-3988d2421b4b")
 	)
 	(pad "3" smd rect
 		(at -1.25 1.65 180)
 		(size 1.2 4.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fa842ea0-4242-49ba-b58c-fc9d2445d29c")
 	)
 	(pad "4" smd rect
 		(at 1.25 1.65 180)
 		(size 1.2 4.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "171c01ef-ed60-4e8f-9b55-fb57e6bf4460")
 	)
 	(pad "5" smd rect
 		(at 3.75 1.65 180)
 		(size 1.2 4.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6445b051-9675-4cff-ac69-629fe5723176")
 	)
 	(pad "6" smd rect
 		(at 6.25 1.65 180)
 		(size 1.2 4.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a94a06b1-08f6-468c-a2de-255bb4758905")
 	)
 	(pad "MP" smd rect
 		(at -9.55 -1.05 180)
 		(size 2.2 5.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bae519e8-48a1-4a5f-96f0-c9a8870766fd")
 	)
 	(pad "MP" smd rect
 		(at 9.55 -1.05 180)
 		(size 2.2 5.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b34c05be-f75e-4c14-83f4-f8b3aed26c06")
 	)
 	(embedded_fonts no)

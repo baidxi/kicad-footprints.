@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Vishay_KBL"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Vishay KBL rectifier package, 5.08mm pitch, see http://www.vishay.com/docs/88655/kbl005.pdf")
 	(tags "Vishay KBL rectifier diode bridge")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.4 -4.45)
 		(end -1.2 -4.45)
@@ -251,6 +252,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "30386b44-7216-419a-a86f-3f3156e80b3a")
 	)
 	(pad "2" thru_hole circle
@@ -259,6 +264,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "207d8baf-e8de-426c-b4fb-492a1bd166c8")
 	)
 	(pad "3" thru_hole circle
@@ -267,6 +276,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6fc7fa3e-0d67-4a7a-a20a-4b66ad22918f")
 	)
 	(pad "4" thru_hole circle
@@ -275,6 +288,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "759a1408-6d52-4a78-9c74-12484cc30bc5")
 	)
 	(embedded_fonts no)

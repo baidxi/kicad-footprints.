@@ -1,7 +1,7 @@
 (footprint "SW_SPST_B3SL-1022P"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Middle Stroke Tactile Switch, B3SL")
 	(tags "Middle Stroke Tactile Switch")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.25 -3.4)
 		(end -3.25 -2.75)
@@ -240,24 +241,40 @@
 		(at -2.88 -2)
 		(size 2.75 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a15d9670-014c-44e9-9e70-ba46cf29abd1")
 	)
 	(pad "1" smd rect
 		(at 2.88 -2)
 		(size 2.75 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "93ec16df-e6d3-4019-adfa-623db3d6e843")
 	)
 	(pad "2" smd rect
 		(at -2.88 2)
 		(size 2.75 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8dbef2d5-c8a4-43e8-99d4-b1ac3194a046")
 	)
 	(pad "2" smd rect
 		(at 2.88 2)
 		(size 2.75 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cfbc3738-9a01-45bf-87e5-362bd2dc551c")
 	)
 	(embedded_fonts no)

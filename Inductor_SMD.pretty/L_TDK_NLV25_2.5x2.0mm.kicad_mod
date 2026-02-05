@@ -1,7 +1,7 @@
 (footprint "L_TDK_NLV25_2.5x2.0mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "TDK NLV25, 2.5x2.0x1.8mm, https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_standard_nlv25-ef_en.pdf")
 	(tags "tdk nlv25 nlcv25 nlfv25")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.25 -1.11)
 		(end 1.25 -1.11)
@@ -169,12 +170,20 @@
 		(at -1.25 0)
 		(size 1 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "60109bc9-2112-4ae1-bcc8-8c1ddf7e73fa")
 	)
 	(pad "2" smd rect
 		(at 1.25 0)
 		(size 1 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fe035038-98e1-473e-9a39-1132bf46119c")
 	)
 	(embedded_fonts no)

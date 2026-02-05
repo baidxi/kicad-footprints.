@@ -1,7 +1,7 @@
 (footprint "TestPoint_Loop_D2.50mm_Drill1.85mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "wire loop as test point, loop diameter 2.5mm, hole diameter 1.85mm")
 	(tags "test point wire loop bead")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
 		(end 1.9 0)
@@ -133,6 +134,10 @@
 		(drill 1.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e20995c3-763e-4b4f-8af1-95935b36142a")
 	)
 	(embedded_fonts no)

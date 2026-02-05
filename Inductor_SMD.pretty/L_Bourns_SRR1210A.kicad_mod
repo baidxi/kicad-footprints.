@@ -1,7 +1,7 @@
 (footprint "L_Bourns_SRR1210A"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Bourns SRR1210A series SMD inductor https://www.bourns.com/docs/Product-Datasheets/SRR1210A.pdf")
 	(tags "Bourns SRR1210A SMD inductor")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.15 -5.75)
 		(end -6.15 -3)
@@ -452,12 +453,20 @@
 		(at -5.05 0)
 		(size 2.8 5.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1f616f18-2dc6-47bb-bf44-740d14334bfb")
 	)
 	(pad "2" smd rect
 		(at 5.05 0)
 		(size 2.8 5.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "df15df9d-e533-458b-b958-06bd91b474fc")
 	)
 	(embedded_fonts no)

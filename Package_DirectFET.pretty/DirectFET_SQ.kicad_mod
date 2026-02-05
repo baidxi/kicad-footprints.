@@ -1,7 +1,7 @@
 (footprint "DirectFET_SQ"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "DirectFET SQ https://www.infineon.com/dgdl/Infineon-AN-1035-ApplicationNotes-v29_01-EN.pdf?fileId=5546d462533600a40153559159020f76#page=17")
 	(tags "DirectFET SQ MOSFET Infineon")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.84 -1.71)
 		(end -2.06 -1.71)
@@ -379,36 +380,60 @@
 		(at -2.45 -0.825)
 		(size 0.9 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "750e6f76-8289-4eba-ab81-ed49dce2bd62")
 	)
 	(pad "1" smd rect
 		(at -2.45 0.825)
 		(size 0.9 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "648b6f14-3165-49de-8ef5-53f31960e840")
 	)
 	(pad "1" smd rect
 		(at 2.45 -0.825)
 		(size 0.9 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "76e6be1b-6373-40a2-92b1-7577e2eaf4c3")
 	)
 	(pad "1" smd rect
 		(at 2.45 0.825)
 		(size 0.9 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fc254861-cf71-4285-913e-8cf3c0fb94ec")
 	)
 	(pad "2" smd rect
 		(at -0.8 0)
 		(size 0.55 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fadb6725-33fa-48e7-bc48-3c81b373b5b0")
 	)
 	(pad "3" smd rect
 		(at 0.5 0)
 		(size 0.95 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4bb69025-c99d-4967-9a05-1046436433a5")
 	)
 	(embedded_fonts no)

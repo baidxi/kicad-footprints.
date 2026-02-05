@@ -1,7 +1,7 @@
 (footprint "R_LDR_5.2x5.2mm_P3.5mm_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Resistor, LDR 5.2x5.2, upright, see http://cdn-reichelt.de/documents/datenblatt/A500/M996011A.pdf")
 	(tags "Resistor LDR5.2x5.2 ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.05 -0.8)
 		(end -1.05 -0.3)
@@ -311,6 +312,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "107e9989-e704-4638-a7c6-b025aee367e7")
 	)
 	(pad "2" thru_hole circle
@@ -319,6 +324,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "72b199b6-7833-4b74-bdc9-43d66eb561a5")
 	)
 	(embedded_fonts no)

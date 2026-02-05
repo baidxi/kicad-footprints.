@@ -1,7 +1,7 @@
 (footprint "R_Shunt_Vishay_WSR2_WSR3_KelvinConnection"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Power Metal Strip Resistors 0.005 to 0.2, https://www.vishay.com/docs/30101/wsr.pdf")
 	(tags "SMD Shunt Resistor")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.78 -3.89)
 		(end 5.78 -3.89)
@@ -169,24 +170,40 @@
 		(at -6.29 2.91)
 		(size 0.51 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "43c359fb-059e-4544-aa52-b399a73628a6")
 	)
 	(pad "1" smd rect
 		(at -4.575 -0.29)
 		(size 3.94 5.84)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ef8357c8-0cee-47c1-a8fe-d86a933cb8ea")
 	)
 	(pad "2" smd rect
 		(at 4.575 -0.29)
 		(size 3.94 5.84)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9bf14b0e-694d-4ce3-a6b2-4d839c184971")
 	)
 	(pad "2" smd rect
 		(at 6.29 2.91)
 		(size 0.51 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c5335fda-1e6f-4cf9-ae26-bcaeb66713b1")
 	)
 	(embedded_fonts no)

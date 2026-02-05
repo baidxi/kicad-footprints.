@@ -1,7 +1,7 @@
 (footprint "L_Neosid_SMS-ME3015"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Neosid, Power Inductor, SMS-ME3015, Fixed inductor, SMD, magnetically shielded, https://neosid.de/import-data/product-pdf/neoFestind_SMSME3015.pdf")
 	(tags "Neosid Power Inductor SMS-ME3015 Fixed inductor SMD magnetically shielded")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 1.5 -1.7)
 		(end -1.5 -1.7)
@@ -169,12 +170,20 @@
 		(at -1.1 0)
 		(size 1 2.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "07acb911-b244-4c01-9bc5-7caa019644e8")
 	)
 	(pad "2" smd rect
 		(at 1.1 0)
 		(size 1 2.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "587643a2-0a00-4d59-8f31-ae967f505312")
 	)
 	(embedded_fonts no)

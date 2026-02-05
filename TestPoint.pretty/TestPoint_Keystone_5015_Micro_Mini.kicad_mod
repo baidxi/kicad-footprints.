@@ -1,7 +1,7 @@
 (footprint "TestPoint_Keystone_5015_Micro_Mini"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Keystone SMT Micro Mini Test Point 5015, http://www.keyelco.com/product-pdf.cfm?p=1353")
 	(tags "Test Point")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -1.9 -1.1)
 		(end 1.9 1.1)
@@ -132,6 +133,10 @@
 		(size 3.4 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1388888889)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6d1725ac-a682-467a-b920-d0030bba137f")
 	)
 	(embedded_fonts no)

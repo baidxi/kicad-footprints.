@@ -1,7 +1,7 @@
 (footprint "Vishay_MINIMOLD-3Pin"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "IR Receiver Vishay TSOP-xxxx, MINIMOLD package, see https://www.vishay.com/docs/82742/tsop331.pdf")
 	(tags "IR Receiver Vishay TSOP-xxxx MINIMOLD")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.1 1.4)
 		(end -0.1 1.2)
@@ -264,6 +265,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.139)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "93bac2f6-1dec-49cb-955d-47b59edd6af1")
 	)
 	(pad "2" thru_hole circle
@@ -272,6 +277,10 @@
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4066045c-3079-47fd-8a53-7f73465b9163")
 	)
 	(pad "3" thru_hole circle
@@ -280,6 +289,10 @@
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2a091767-ddbc-4511-a47c-073f5afee362")
 	)
 	(embedded_fonts no)

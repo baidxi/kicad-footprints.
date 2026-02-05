@@ -1,7 +1,7 @@
 (footprint "AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Connector XT30 Vertical Cable Male, https://www.tme.eu/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf")
 	(tags "RC Connector XT30")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.71 -1.41)
 		(end -2.71 1.41)
@@ -234,10 +235,10 @@
 		(layer "F.Fab")
 		(uuid "b32caf2c-a76a-4d2a-af90-af84b33771d1")
 	)
-	(fp_text user "+"
-		(at 9 0 0)
+	(fp_text user "-"
+		(at -4 0 0)
 		(layer "F.SilkS")
-		(uuid "bb9f3a5c-cd42-4a2e-af17-c9b5fc33fa6a")
+		(uuid "dc09dfb3-92a8-4a67-939e-df82d0ecfec3")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -245,10 +246,10 @@
 			)
 		)
 	)
-	(fp_text user "-"
-		(at -4 0 0)
+	(fp_text user "+"
+		(at 9 0 0)
 		(layer "F.SilkS")
-		(uuid "dc09dfb3-92a8-4a67-939e-df82d0ecfec3")
+		(uuid "bb9f3a5c-cd42-4a2e-af17-c9b5fc33fa6a")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -274,6 +275,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.2)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4afc9e85-8b2a-4665-901f-7a72bf53cc89")
 	)
 	(pad "2" thru_hole circle
@@ -282,6 +287,10 @@
 		(drill 2.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2b1ec5c7-48e3-493a-9ac8-e3d7186b6b9e")
 	)
 	(embedded_fonts no)

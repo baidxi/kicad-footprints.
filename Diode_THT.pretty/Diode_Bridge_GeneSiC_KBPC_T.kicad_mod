@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_GeneSiC_KBPC_T"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Single phase, Bridge rectifier, 28.55x28.55mm, case KBPC_T(FP), https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc1501t.pdf")
 	(tags "diode module")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.975 -6.875)
 		(end 23.875 -6.875)
@@ -216,18 +217,6 @@
 		(layer "F.Fab")
 		(uuid "e9939655-3099-4b73-abd7-b5a47a274506")
 	)
-	(fp_text user "Mounting Drill Hole"
-		(at 9.48325 6.12475 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "5ac7a1e5-21f3-42ef-8efb-a391ca05c207")
-		(effects
-			(font
-				(size 0.8 0.7)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "(Screw and Washer)"
 		(at 9.48325 4.92475 0)
 		(unlocked yes)
@@ -237,6 +226,18 @@
 			(font
 				(size 0.5 0.6)
 				(thickness 0.125)
+			)
+		)
+	)
+	(fp_text user "Mounting Drill Hole"
+		(at 9.48325 6.12475 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "5ac7a1e5-21f3-42ef-8efb-a391ca05c207")
+		(effects
+			(font
+				(size 0.8 0.7)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -305,6 +306,10 @@
 		(drill oval 7.36 1.01)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "44f176f2-6406-4c40-9476-70c0fee6635f")
 	)
 	(pad "2" thru_hole roundrect
@@ -314,6 +319,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3d223713-97db-454b-8c3f-913420857b6d")
 	)
 	(pad "3" thru_hole roundrect
@@ -323,6 +332,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d9c5fde4-c7f7-448e-8743-2b49b3f067b5")
 	)
 	(pad "4" thru_hole roundrect
@@ -332,6 +345,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a5f2c7bc-f71e-46d6-8455-266520936eb3")
 	)
 	(embedded_fonts no)

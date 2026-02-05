@@ -1,7 +1,7 @@
 (footprint "SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Tactile switch, 12x12 mm, H4.3 mm, round actuator, with pegs, gullwing terminals, https://www.ckswitches.com/media/1462/pts125.pdf")
 	(tags "button tactile switch SPST 1P1T C&K")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.2 -4.6)
 		(end -4.6 -6.2)
@@ -321,6 +322,10 @@
 		(size 2 2)
 		(drill 2)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0cfc5fbd-12c3-491b-a65e-6e5f86587aba")
 	)
 	(pad "" np_thru_hole circle
@@ -328,6 +333,10 @@
 		(size 2 2)
 		(drill 2)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c998faca-e225-4bff-af79-72884abf9ba3")
 	)
 	(pad "1" smd roundrect
@@ -335,6 +344,10 @@
 		(size 2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8b2483fb-5678-42aa-886d-a55a7bdd4ca0")
 	)
 	(pad "1" smd roundrect
@@ -342,6 +355,10 @@
 		(size 2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fbbad34f-d7d3-42c8-a919-408129c72d75")
 	)
 	(pad "2" smd roundrect
@@ -349,6 +366,10 @@
 		(size 2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0e88fafa-4776-40c5-9fb0-ea84b43cc5be")
 	)
 	(pad "2" smd roundrect
@@ -356,6 +377,10 @@
 		(size 2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9bc513d3-7b7f-4333-9abf-c0f49b7e450b")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "LED-L1T2_LUMILEDS"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "http://www.lumileds.com/uploads/438/DS133-pdf")
 	(tags "LUMILEDS LUXEON TX L1T2 LED")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.93 -2.35)
 		(end 1.93 -2.35)
@@ -189,18 +190,30 @@
 		(at 0.45 0.52)
 		(size 0.55 0.38)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "729c14e6-8272-4644-bd11-e1d57ba503ef")
 	)
 	(pad "2" smd rect
 		(at -0.45 0.52)
 		(size 0.55 0.38)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "aaafa543-62c2-40cb-94ef-d55d9d7f2a5d")
 	)
 	(pad "3" smd rect
 		(at 0 -0.52)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "746bdede-620e-4e4a-897c-add260156b88")
 	)
 	(embedded_fonts no)

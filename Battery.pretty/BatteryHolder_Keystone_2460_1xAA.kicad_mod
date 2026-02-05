@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Keystone_2460_1xAA"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://www.keyelco.com/product-pdf.cfm?p=1025")
 	(tags "AA battery cell holder")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.62 -8.565)
 		(end 54.62 -8.565)
@@ -376,6 +377,10 @@
 		(size 2.64 2.64)
 		(drill 2.64)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e821f9df-096f-48cf-a775-2d72ebc38d50")
 	)
 	(pad "" np_thru_hole circle
@@ -383,6 +388,10 @@
 		(size 2.64 2.64)
 		(drill 2.64)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8de0ca7a-f5ec-44c8-add9-7b92fecff59f")
 	)
 	(pad "1" thru_hole rect
@@ -391,6 +400,10 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "286259a1-29f8-456a-b03c-48ace0a2c2db")
 	)
 	(pad "2" thru_hole circle
@@ -399,6 +412,10 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1afe4efe-73f2-4a58-b3a9-79ca21d063ef")
 	)
 	(embedded_fonts no)

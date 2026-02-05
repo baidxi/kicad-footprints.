@@ -1,7 +1,7 @@
 (footprint "Jack_XLR_Neutrik_NC4MBH_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "B Series, 4 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, horizontal PCB mount, https://www.neutrik.com/en/product/nc4mbh")
 	(tags "neutrik xlr b")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.64 10.16)
 		(end -2.39 10.16)
@@ -450,6 +451,10 @@
 		(size 1.6 1.6)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b22a4ca5-d227-43ee-b790-64110f83b82e")
 	)
 	(pad "" np_thru_hole circle
@@ -457,6 +462,10 @@
 		(size 1.6 1.6)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8d6c5e17-63cf-4482-8fad-969b26cfdaa1")
 	)
 	(pad "1" thru_hole circle
@@ -465,6 +474,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "acec7956-8837-4e0b-a91b-91f17219ead1")
 	)
 	(pad "2" thru_hole circle
@@ -473,6 +486,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2d5b934d-29d8-4b02-a036-725fee3ecd4e")
 	)
 	(pad "3" thru_hole circle
@@ -481,6 +498,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7637d958-b527-4fb5-a562-f0a5e9bef25c")
 	)
 	(pad "4" thru_hole circle
@@ -489,6 +510,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "451e1cee-fafa-4f74-ab46-fe3d789076db")
 	)
 	(pad "G" thru_hole circle
@@ -497,6 +522,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "829f78bd-bd5c-44b4-a012-0c0b4963f9b4")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "D_MicroMELF_Handsoldering"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Diode, MicroMELF, Hand Soldering, http://www.vishay.com/docs/85597/bzm55.pdf")
 	(tags "MicroMELF Diode")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.81 -1.01)
 		(end -2.81 1.01)
@@ -240,6 +241,10 @@
 		(size 2.2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7b5a3131-94ce-4be0-be14-9362534f679e")
 	)
 	(pad "2" smd roundrect
@@ -247,6 +252,10 @@
 		(size 2.2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dde48f5a-7a95-407a-a65a-a8b76959c276")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_TXC_AX_8045-2Pin_8.0x4.5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "http://www.txccrystal.com/images/pdf/ax-automotive.pdf")
 	(tags "SMD SMT crystal")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.5 2.4)
 		(end 1.5 2.4)
@@ -210,6 +211,10 @@
 		(size 2.5 3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dbb5491a-1c0f-4cb6-ab28-48405ac20d88")
 	)
 	(pad "2" smd roundrect
@@ -217,6 +222,10 @@
 		(size 2.5 3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5d545986-330f-4703-a53b-b61bb5c0cbe7")
 	)
 	(embedded_fonts no)

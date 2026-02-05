@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Miniature Crystal Clock Oscillator EuroQuartz XO32 series, http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf, 3.2x2.5mm^2 package")
 	(tags "SMD SMT crystal oscillator")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.485 -1.835)
 		(end 1.3 -1.835)
@@ -273,24 +274,40 @@
 		(at -0.775 -1.075 270)
 		(size 1 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "91f7f558-0b9b-49ee-9e90-d473a4152370")
 	)
 	(pad "2" smd rect
 		(at -0.775 1.075 270)
 		(size 1 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1efacea0-b430-4aaa-a313-61aacc438a92")
 	)
 	(pad "3" smd rect
 		(at 0.775 1.075 270)
 		(size 1 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "70b7a7f1-934a-4d77-b6b7-d0ae4b70e0d0")
 	)
 	(pad "4" smd rect
 		(at 0.775 -1.075 270)
 		(size 1 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "79e96bba-491b-4af1-902d-fa156a922245")
 	)
 	(embedded_fonts no)

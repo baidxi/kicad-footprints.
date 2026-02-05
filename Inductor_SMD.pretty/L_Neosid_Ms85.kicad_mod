@@ -1,7 +1,7 @@
 (footprint "L_Neosid_Ms85"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Neosid, Ms85, Ms85T, SMD Inductor, Fixed inductor, SMD, https://neosid.de/import-data/product-pdf/neoFestind_Ms85.pdf")
 	(tags "Neosid Ms85 Ms85T SMD Inductor Fixed inductor SMD")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.2 -4.2)
 		(end -3.2 -2.6)
@@ -269,12 +270,20 @@
 		(at -3.4 0)
 		(size 2.25 4.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a5a9a0e6-986f-4421-8f48-f92c1e2e7d6e")
 	)
 	(pad "2" smd rect
 		(at 3.4 0)
 		(size 2.25 4.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "69cece2f-947c-4eab-a625-9bfa14bb7eac")
 	)
 	(embedded_fonts no)

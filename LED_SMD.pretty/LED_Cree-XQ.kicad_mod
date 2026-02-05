@@ -1,7 +1,7 @@
 (footprint "LED_Cree-XQ"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "LED Cree-XQ http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf")
 	(tags "LED Cree XQ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1 -1)
 		(end -1 -0.6)
@@ -249,12 +250,20 @@
 		(at -0.475 0)
 		(size 0.65 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "94b1c518-10cb-4ee1-897c-61f25752e3a0")
 	)
 	(pad "2" smd rect
 		(at 0.475 0)
 		(size 0.65 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0cc225e5-f39e-4f7a-ba52-22753539327c")
 	)
 	(embedded_fonts no)

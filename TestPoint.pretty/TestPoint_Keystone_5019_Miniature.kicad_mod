@@ -1,7 +1,7 @@
 (footprint "TestPoint_Keystone_5019_Miniature"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Keystone SMT Miniature Test Point 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
 	(tags "Test Point")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -2.1 -1.2)
 		(end 2.1 1.2)
@@ -176,6 +177,10 @@
 		(size 3.8 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "36e9b045-6d4e-4029-9fd2-a9cb2475ece3")
 	)
 	(embedded_fonts no)

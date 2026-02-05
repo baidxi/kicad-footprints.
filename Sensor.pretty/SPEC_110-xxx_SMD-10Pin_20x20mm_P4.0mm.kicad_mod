@@ -1,7 +1,7 @@
 (footprint "SPEC_110-xxx_SMD-10Pin_20x20mm_P4.0mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SPEC Sensors SMD package, 20x20mm, https://www.spec-sensors.com/wp-content/uploads/2016/10/3SP_H2S_50-C-Package-110-304.pdf")
 	(tags "SPEC Sensors gas sensor")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -10.2 -10.2)
 		(end -10.2 10.2)
@@ -375,6 +376,10 @@
 		(size 1.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9282b1ac-58fe-4737-b9a3-1d708c6abb56")
 	)
 	(pad "2" smd roundrect
@@ -382,6 +387,10 @@
 		(size 1.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e2162c97-9777-4322-9dd4-a0d1731f25d5")
 	)
 	(pad "3" smd roundrect
@@ -389,6 +398,10 @@
 		(size 1.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8594f9fb-75f9-4b2f-a07a-24ebe3ee892b")
 	)
 	(pad "4" smd roundrect
@@ -396,6 +409,10 @@
 		(size 1.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bb9358ad-bcb1-4525-8a73-438c251c0ea8")
 	)
 	(pad "5" smd roundrect
@@ -403,6 +420,10 @@
 		(size 1.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dc78996c-f552-48bd-92c4-c5c7913a39b0")
 	)
 	(pad "6" smd roundrect
@@ -410,6 +431,10 @@
 		(size 1.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "142fa2c8-78da-4c4f-8cd1-2a0e76a76a14")
 	)
 	(pad "7" smd roundrect
@@ -417,6 +442,10 @@
 		(size 1.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "24760f94-d551-43a9-afbc-0c7925d8395a")
 	)
 	(pad "8" smd roundrect
@@ -424,6 +453,10 @@
 		(size 1.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c54c8705-f48a-487c-b42e-0a1e54bbd4d3")
 	)
 	(pad "9" smd roundrect
@@ -431,6 +464,10 @@
 		(size 1.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f1b67d46-9175-4db7-8ee7-c1d5d8065970")
 	)
 	(pad "10" smd roundrect
@@ -438,11 +475,13 @@
 		(size 1.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ab7f77d9-7f2a-4d39-b9f3-8bbba8881bf0")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Adhes" "F.Paste")
 		(uuid "0c2e4f0b-2efd-4137-ba73-ea3419c5a6da")
 		(name "Keep out")
@@ -451,7 +490,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -466,6 +504,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -475,8 +514,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Adhes" "F.Paste")
 		(uuid "3b898c84-e31f-438c-abf4-476abc499114")
 		(name "Keep out")
@@ -485,7 +522,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -500,6 +536,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -509,8 +546,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Adhes" "F.Paste")
 		(uuid "17bd2a6e-e45a-425c-9934-d8cdf69b49fa")
 		(name "Keep out")
@@ -519,7 +554,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -534,6 +568,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -543,8 +578,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Adhes" "F.Paste")
 		(uuid "bc33c447-5aab-4458-ad8b-dbf86b478d64")
 		(name "Keep out")
@@ -553,7 +586,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -568,6 +600,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

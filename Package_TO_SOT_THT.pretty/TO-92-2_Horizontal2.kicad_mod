@@ -1,7 +1,7 @@
 (footprint "TO-92-2_Horizontal2"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "2-pin TO-92 horizontal, leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
 	(tags "to-92 sc-43 sc-43a sot54 PA33 temperature sensor diode")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.13 -9)
 		(end -1.13 -3.81)
@@ -231,6 +232,10 @@
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "708ddb7d-0ba0-4731-a1b9-1402b99370fb")
 	)
 	(pad "2" thru_hole circle
@@ -239,6 +244,10 @@
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d74c5fa6-02d2-4038-9382-da0757cf18ce")
 	)
 	(embedded_fonts no)

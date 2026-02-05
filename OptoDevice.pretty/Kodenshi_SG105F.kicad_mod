@@ -1,7 +1,7 @@
 (footprint "Kodenshi_SG105F"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "package for Kodenshi SG-105F, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105F.pdf")
 	(tags "refective opto couple photo coupler")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.8 1.92)
 		(end -0.8 3.3)
@@ -182,6 +183,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.227)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cfdc45fd-ccbb-4fc0-ba5f-20cf53103980")
 	)
 	(pad "2" thru_hole oval
@@ -190,6 +195,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "138817fc-a84c-47d3-9422-a4ad48cb0d21")
 	)
 	(pad "3" thru_hole oval
@@ -198,6 +207,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f497142c-d36e-4466-be0b-dbd5a20e90c1")
 	)
 	(pad "4" thru_hole oval
@@ -206,6 +219,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d5fc382a-08ef-4d08-af49-e1a7e65c5412")
 	)
 	(embedded_fonts no)

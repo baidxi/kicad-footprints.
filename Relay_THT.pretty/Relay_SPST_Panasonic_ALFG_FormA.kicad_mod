@@ -1,7 +1,7 @@
 (footprint "Relay_SPST_Panasonic_ALFG_FormA"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Panasonic Relay SPST, https://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lfg.pdf")
 	(tags "Panasonic Relay SPST")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.35 -2.15)
 		(end -3.35 14.15)
@@ -211,6 +212,10 @@
 		(drill oval 1.1 2.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "36c0db44-ed3b-43ad-ae66-7411e7371b4e")
 	)
 	(pad "14" thru_hole oval
@@ -219,6 +224,10 @@
 		(drill oval 1.1 2.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "df7bdd05-e25c-4183-b6a9-93d220ff647e")
 	)
 	(pad "A1" thru_hole roundrect
@@ -228,6 +237,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8797fa67-fd8a-4d4c-8ac9-c1a34a972622")
 	)
 	(pad "A2" thru_hole oval
@@ -236,6 +249,10 @@
 		(drill oval 2.1 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "93c34b32-cea0-48cd-a3e1-4ee3aa3409b4")
 	)
 	(embedded_fonts no)

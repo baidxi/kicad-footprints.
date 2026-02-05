@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Bourns_3339P_Vertical_HandSoldering"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Potentiometer, vertical, Bourns 3339P, hand-soldering, http://www.bourns.com/docs/Product-Datasheets/3339.pdf")
 	(tags "Potentiometer vertical Bourns 3339P hand-soldering")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 -2.54)
 		(end 3.93 -2.54)
@@ -164,6 +165,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ac2d8d61-fa60-46f1-9b8d-b543ca73087c")
 	)
 	(pad "2" thru_hole circle
@@ -172,6 +177,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2b77be3a-d7eb-4382-ad0a-91e0deb1e9c3")
 	)
 	(pad "3" thru_hole circle
@@ -180,6 +189,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d4dd1e1e-4c04-453a-93d7-ca8f34d3698a")
 	)
 	(embedded_fonts no)

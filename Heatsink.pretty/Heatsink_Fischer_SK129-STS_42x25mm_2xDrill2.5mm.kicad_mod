@@ -1,7 +1,7 @@
 (footprint "Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Heatsink, Fischer SK129")
 	(tags "heatsink fischer")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -20.89 -11.57)
 		(end -16.64 -6.59)
@@ -1837,6 +1838,10 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bc3bb6ee-069e-478d-9840-c95596df1cc5")
 	)
 	(pad "1" thru_hole circle
@@ -1845,6 +1850,10 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "74493e1c-30db-4bde-b37e-95379af8ba38")
 	)
 	(embedded_fonts no)

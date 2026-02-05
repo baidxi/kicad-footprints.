@@ -1,7 +1,7 @@
 (footprint "PUIAudio_SMT_0825_S_4_R"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SMD 8540, http://www.puiaudio.com/product-detail.aspx?partnumber=SMT-0825-S-4-R")
 	(tags "SMD 8540")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.35 -2)
 		(end -4.35 2)
@@ -225,17 +226,6 @@
 			)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0.1 0.1 0)
-		(layer "F.Fab")
-		(uuid "745de5c8-15fa-4359-979e-ae76ad27670b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "+"
 		(at -2.75 -2.75 270)
 		(layer "F.Fab")
@@ -247,28 +237,55 @@
 			)
 		)
 	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 0.1 0)
+		(layer "F.Fab")
+		(uuid "745de5c8-15fa-4359-979e-ae76ad27670b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(pad "1" smd rect
 		(at -3.5 -3.5 270)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4594e273-6f1e-41b1-938c-bebc54391f22")
 	)
 	(pad "2" smd rect
 		(at -3.5 3.5 270)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5e98b08c-fde1-4451-a189-65eb6b92b534")
 	)
 	(pad "3" smd rect
 		(at 3.5 3.5 270)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d523c47b-e021-4286-9c00-ed088e213f04")
 	)
 	(pad "4" smd rect
 		(at 3.5 -3.5 270)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "934250b4-9b9d-4458-aa61-d9bf88826322")
 	)
 	(embedded_fonts no)

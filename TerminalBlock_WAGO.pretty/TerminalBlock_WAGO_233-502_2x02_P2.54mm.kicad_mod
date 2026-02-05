@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_WAGO_233-502_2x02_P2.54mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Terminal Block Wago 233-502, 2 pins, pitch 2.54 mm,  https://www.wago.com/de/leiterplattenanschluss/klemmenleiste-fuer-leiterplatten/p/233-502")
 	(tags "THT")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.05 -2.85)
 		(end -2.05 -2.85)
@@ -264,6 +265,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1388888889)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fd1dcc66-361f-43d2-b4a4-decaf38a5b62")
 	)
 	(pad "1" thru_hole roundrect
@@ -273,6 +278,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1388888889)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e212f4f4-d114-4869-aa30-8c80a05ccba1")
 	)
 	(pad "2" thru_hole oval
@@ -281,6 +290,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cb8ab48f-8232-4cb0-ad96-df27fb1903f8")
 	)
 	(pad "2" thru_hole oval
@@ -289,6 +302,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "60b66bb1-001d-4df0-a0ec-e5f5a025fe29")
 	)
 	(embedded_fonts no)

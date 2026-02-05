@@ -1,7 +1,7 @@
 (footprint "Transformer_CHK_EI48-8VA_1xSec"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Trafo, Printtrafo, CHK, EI48, 8VA, 1x Sec, http://www.eratransformers.com/product-detail/18")
 	(tags "Trafo Printtrafo CHK EI48 8VA 1x Sec ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.42 -37.57)
 		(end -7.42 12.57)
@@ -874,6 +875,17 @@
 		(layer "F.Fab")
 		(uuid "7a4751b7-db4e-4b61-bfd9-8dbdd0c9f2f5")
 	)
+	(fp_text user "Pri"
+		(at -5.25 -12.5 90)
+		(layer "F.SilkS")
+		(uuid "4074dbe1-0da7-40a8-805e-f45535b13041")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "1"
 		(at 0.75 3.5 0)
 		(layer "F.SilkS")
@@ -896,10 +908,10 @@
 			)
 		)
 	)
-	(fp_text user "Pri"
-		(at -5.25 -12.5 90)
-		(layer "F.SilkS")
-		(uuid "4074dbe1-0da7-40a8-805e-f45535b13041")
+	(fp_text user "6"
+		(at -0.25 -29.5 0)
+		(layer "F.Fab")
+		(uuid "632b1df3-126f-44ed-93cb-574efe73f90c")
 		(effects
 			(font
 				(size 1 1)
@@ -918,32 +930,21 @@
 			)
 		)
 	)
-	(fp_text user "11"
-		(at 23.75 -2.5 0)
-		(layer "F.Fab")
-		(uuid "416423ef-88ee-4cb7-acb3-d65da37d1283")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "6"
-		(at -0.25 -29.5 0)
-		(layer "F.Fab")
-		(uuid "632b1df3-126f-44ed-93cb-574efe73f90c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "8"
 		(at 23.75 -21.5 0)
 		(layer "F.Fab")
 		(uuid "deab376e-a720-460b-aee9-ea752e116974")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "11"
+		(at 23.75 -2.5 0)
+		(layer "F.Fab")
+		(uuid "416423ef-88ee-4cb7-acb3-d65da37d1283")
 		(effects
 			(font
 				(size 1 1)
@@ -957,6 +958,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8318685c-1c07-4cf8-8b52-ca4f5c692ab9")
 	)
 	(pad "2" thru_hole circle
@@ -965,6 +970,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "769e225c-e3ae-4ec1-a3de-706af08bfeeb")
 	)
 	(pad "3" thru_hole circle
@@ -973,6 +982,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0539877c-8992-4cf4-9e7f-c3fac7a75ac0")
 	)
 	(pad "4" thru_hole circle
@@ -981,6 +994,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "443c8c02-b3f0-436c-8380-785dd512366e")
 	)
 	(pad "5" thru_hole circle
@@ -989,6 +1006,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "38c1ccf9-cd7b-493f-9b2e-793eb9d1b7cb")
 	)
 	(pad "6" thru_hole circle
@@ -997,6 +1018,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c7dee21f-38e5-4f67-a1d5-fd7353a0cfd1")
 	)
 	(pad "7" thru_hole circle
@@ -1005,6 +1030,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "89a65765-9c42-498b-aaa1-ec3e27727022")
 	)
 	(pad "8" thru_hole circle
@@ -1013,6 +1042,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0cdd4a44-72e0-46a6-91eb-d4d4b4f93de6")
 	)
 	(pad "9" thru_hole circle
@@ -1021,6 +1054,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4a0e1c1f-8ccb-455d-8864-c50ad5cc9b8e")
 	)
 	(pad "10" thru_hole circle
@@ -1029,6 +1066,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "529fcc99-d288-4207-a0e1-da83887bf8e3")
 	)
 	(pad "11" thru_hole circle
@@ -1037,6 +1078,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "baf61581-d4b0-49d5-946d-8c1230504818")
 	)
 	(pad "12" thru_hole circle
@@ -1045,6 +1090,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "961d798e-3c9d-47a1-a5ac-75cfe6e72a2e")
 	)
 	(embedded_fonts no)

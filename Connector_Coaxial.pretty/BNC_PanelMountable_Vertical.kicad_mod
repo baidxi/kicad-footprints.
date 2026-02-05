@@ -1,7 +1,7 @@
 (footprint "BNC_PanelMountable_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Panel-mountable BNC connector mounted through PCB, vertical")
 	(tags "BNC connector")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.08 3.81)
 		(end 1.27 3.81)
@@ -204,6 +205,10 @@
 		(drill 2.54)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c4c8887e-671e-4399-bb7e-f27699d8364e")
 	)
 	(pad "2" thru_hole circle
@@ -212,6 +217,10 @@
 		(drill 9.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "13524e04-563b-425d-a445-b66029e1ae4a")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "ER_OLEDM0.91_1x-I2C"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SSD1306 OLED module, 0.91 inch, 128x32, I2C (https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf)")
 	(tags "EastRising")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.38 0)
 		(end -1.38 1.38)
@@ -159,6 +160,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2bfbab31-b56c-49a6-90eb-6156038400de")
 	)
 	(pad "2" thru_hole circle
@@ -167,6 +172,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8f5759b6-f82f-4cc9-9e37-3afccf9b1c5b")
 	)
 	(pad "3" thru_hole circle
@@ -175,6 +184,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7ca40c21-a6a5-44d1-a658-1a27209d6ff6")
 	)
 	(pad "4" thru_hole circle
@@ -183,6 +196,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cd5f96a4-d9b7-47d9-9cb9-534f707813d1")
 	)
 	(embedded_fonts no)

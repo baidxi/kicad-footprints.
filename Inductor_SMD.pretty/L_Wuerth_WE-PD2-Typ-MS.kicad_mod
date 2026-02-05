@@ -1,7 +1,7 @@
 (footprint "L_Wuerth_WE-PD2-Typ-MS"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Power Inductor, Wuerth Elektronik, WE-PD2, SMD, Typ MS, https://katalog.we-online.com/pbs/datasheet/744774022.pdf")
 	(tags "Choke Power Inductor WE-PD2 TypMS Wuerth")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.4 -2.8)
 		(end 0.4 -2.8)
@@ -171,12 +172,20 @@
 		(at -1.93 0)
 		(size 2.15 5.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ca23a6a6-5bb2-4209-aafd-3a4540a7b7ac")
 	)
 	(pad "2" smd rect
 		(at 1.93 0)
 		(size 2.15 5.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8a3dccef-af4f-4ca0-94b3-eac142738f2d")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Transformer_CHK_EI38-3VA_1xSec"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Trafo, Printtrafo, CHK, EI38, 3VA, 1x Sec, http://www.eratransformers.com/product-detail/20")
 	(tags "Trafo Printtrafo CHK EI38 3VA 1x Sec ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.12 -30.37)
 		(end -5.12 10.37)
@@ -754,6 +755,17 @@
 		(layer "F.Fab")
 		(uuid "29ef0ec6-c304-4078-b49f-0a25ba5124bd")
 	)
+	(fp_text user "Pri"
+		(at -3.5 -10 90)
+		(layer "F.SilkS")
+		(uuid "3dd32351-173d-4f38-a472-7cc59bdd29d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "1"
 		(at 0 4 0)
 		(layer "F.SilkS")
@@ -776,43 +788,10 @@
 			)
 		)
 	)
-	(fp_text user "Pri"
-		(at -3.5 -10 90)
-		(layer "F.SilkS")
-		(uuid "3dd32351-173d-4f38-a472-7cc59bdd29d3")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "5"
 		(at 0 -23 0)
 		(layer "F.Fab")
 		(uuid "242feb6e-6932-465d-abe9-d305594ecc44")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "8"
-		(at 20.5 -3 0)
-		(layer "F.Fab")
-		(uuid "5feb661d-b24e-4b0b-900f-64a62112e9f4")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "7"
-		(at 20.5 -17 0)
-		(layer "F.Fab")
-		(uuid "60ad44ae-bb99-4066-aafe-55b78e1b486c")
 		(effects
 			(font
 				(size 1 1)
@@ -831,12 +810,38 @@
 			)
 		)
 	)
+	(fp_text user "7"
+		(at 20.5 -17 0)
+		(layer "F.Fab")
+		(uuid "60ad44ae-bb99-4066-aafe-55b78e1b486c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "8"
+		(at 20.5 -3 0)
+		(layer "F.Fab")
+		(uuid "5feb661d-b24e-4b0b-900f-64a62112e9f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 3 3)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6044fba3-30d8-458d-8b72-035a585bf38b")
 	)
 	(pad "2" thru_hole circle
@@ -845,6 +850,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5048f58f-c0e5-4a9d-804e-91747226d626")
 	)
 	(pad "3" thru_hole circle
@@ -853,6 +862,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f085a382-bf43-4fc6-9856-af12e545ff1b")
 	)
 	(pad "4" thru_hole circle
@@ -861,6 +874,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "156665a6-1348-4b62-8bfb-95749195b743")
 	)
 	(pad "5" thru_hole circle
@@ -869,6 +886,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0ecb2996-3396-4aa0-93b5-516907c006c6")
 	)
 	(pad "6" thru_hole circle
@@ -877,6 +898,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c78ca0d1-86b4-4095-a0fa-3dafb2fa577c")
 	)
 	(pad "7" thru_hole circle
@@ -885,6 +910,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "63ae35bb-649e-4013-912b-f4fff14b42de")
 	)
 	(pad "8" thru_hole circle
@@ -893,6 +922,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d0a12d13-ecaf-462f-b518-54fc10f10b61")
 	)
 	(pad "9" thru_hole circle
@@ -901,6 +934,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5626ae8c-a546-416f-8da2-4090053af489")
 	)
 	(pad "10" thru_hole circle
@@ -909,6 +946,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e47c31ad-0b5e-4c39-8852-a69f1323913e")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Runtron_RM-065_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Potentiometer, vertical, Trimmer, RM-065 https://components101.com/sites/default/files/component_datasheet/Preset%20Potentiometer%20%28Trimpot%29.pdf")
 	(tags "Potentiometer Trimmer RM-065")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.81 -1.21)
 		(end -0.81 -0.96)
@@ -416,6 +417,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "eaef1172-3351-417c-bfc4-74a598f141cb")
 	)
 	(pad "2" thru_hole circle
@@ -424,6 +429,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f6ee98b5-4773-4eeb-a825-33c1705abace")
 	)
 	(pad "3" thru_hole circle
@@ -432,6 +441,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "08e2d62f-f99a-4268-8b33-617dfcc63e75")
 	)
 	(embedded_fonts no)

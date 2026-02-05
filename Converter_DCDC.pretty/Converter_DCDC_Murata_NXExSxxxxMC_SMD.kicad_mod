@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Murata_NXExSxxxxMC_SMD"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Isolated 1W or 2W Single Output SM DC/DC Converters https://www.murata.com/products/productdata/8807031865374/kdc-nxe1.pdf#page=8 https://www.murata.com/products/productdata/8807031898142/kdc-nxe2.pdf#page=9")
 	(tags "Isolated 1W or 2W Single Output SM DC/DC Converters")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.577 -7.99)
 		(end -5.577 -6.99)
@@ -254,10 +255,10 @@
 		(layer "F.Fab")
 		(uuid "fb8b5e3e-0cff-4d10-afe5-e1c44ae6dd5c")
 	)
-	(fp_text user "Keepout"
-		(at 0.23368 -0.97282 0)
+	(fp_text user "isolation barrier"
+		(at -0.01 0.78 0)
 		(layer "Cmts.User")
-		(uuid "21727af5-5b03-47b8-98ec-fc8831981765")
+		(uuid "ef7cf054-ce05-4cce-beb2-3808bd91bacf")
 		(effects
 			(font
 				(size 1 1)
@@ -265,10 +266,10 @@
 			)
 		)
 	)
-	(fp_text user "isolation barrier"
-		(at -0.01 0.78 0)
+	(fp_text user "Keepout"
+		(at 0.23368 -0.97282 0)
 		(layer "Cmts.User")
-		(uuid "ef7cf054-ce05-4cce-beb2-3808bd91bacf")
+		(uuid "21727af5-5b03-47b8-98ec-fc8831981765")
 		(effects
 			(font
 				(size 1 1)
@@ -291,35 +292,53 @@
 		(at -4.7 -5.08)
 		(size 2.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1eb07d68-333e-4609-a983-dd6ef0d2af14")
 	)
 	(pad "3" smd rect
 		(at -4.7 -2.54)
 		(size 2.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6380a318-24f2-4e5e-8133-c61d42aec8ba")
 	)
 	(pad "7" smd rect
 		(at -4.7 2.54)
 		(size 2.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fb3ee211-f6df-4058-9b59-970016b1dcee")
 	)
 	(pad "8" smd rect
 		(at 4.7 2.54)
 		(size 2.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2e2d4497-b713-4090-a44b-e18b9878fdd6")
 	)
 	(pad "14" smd rect
 		(at 4.7 -5.08)
 		(size 2.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dec92a64-c5e8-47e0-b33e-9e8f4ff73727")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "c6729a93-7d79-4be4-bf99-9153160fffdb")
 		(hatch full 0.508)
@@ -327,7 +346,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -342,6 +360,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

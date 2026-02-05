@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Diotec_ABS"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SMD diode bridge ABS (Diotec), see https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf")
 	(tags "ABS MBLS")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 2.3 -2.61)
 		(end -3 -2.61)
@@ -191,24 +192,40 @@
 		(at -2.975 -2)
 		(size 1 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d99f4910-7ebe-43ca-a155-1be55bb0c180")
 	)
 	(pad "2" smd rect
 		(at -2.975 2)
 		(size 1 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "71a80d5b-f732-4ce8-99e2-a1f4a40eb0c6")
 	)
 	(pad "3" smd rect
 		(at 2.975 2)
 		(size 1 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "84c6d600-2b5f-420d-a568-96a8383b7172")
 	)
 	(pad "4" smd rect
 		(at 2.975 -2)
 		(size 1 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1590c8f9-0c8d-4f50-9f8a-1ee2f799cc06")
 	)
 	(embedded_fonts no)

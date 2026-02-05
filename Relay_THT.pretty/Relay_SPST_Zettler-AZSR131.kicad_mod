@@ -1,7 +1,7 @@
 (footprint "Relay_SPST_Zettler-AZSR131"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "American Zettler RELAY EV CHRG SOLAR SPST 35A 12V, https://zettlerelectronics.com/products/AZSR131.pdf")
 	(tags "SPST")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.8 -2.8)
 		(end -3.8 3.2)
@@ -254,6 +255,10 @@
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e6882743-e9e5-473a-8ca2-9a0bdb554679")
 	)
 	(pad "14" thru_hole circle
@@ -262,6 +267,10 @@
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "492b6391-3d1b-4316-a8ad-498de6ced2fe")
 	)
 	(pad "A1" thru_hole rect
@@ -270,6 +279,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3d5cb91c-79dd-4f5b-8e9a-bd4645051889")
 	)
 	(pad "A2" thru_hole circle
@@ -278,6 +291,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2e7efc41-4117-4982-85f2-1b43dbd1e504")
 	)
 	(embedded_fonts no)

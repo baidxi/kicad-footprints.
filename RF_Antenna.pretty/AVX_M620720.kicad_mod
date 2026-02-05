@@ -1,7 +1,7 @@
 (footprint "AVX_M620720"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "868Mhz, 915Mhz ISM antenna, 6 x 2 x 1.08mm, http://datasheets.avx.com/ethertronics/AVX-E_M620720.pdf")
 	(tags "868 915 Mhz ISM antenna")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.36 -1.09)
 		(end -3.36 1.21)
@@ -210,6 +211,10 @@
 		(size 0.6 0.8)
 		(layers "F.Cu")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8deecfb7-45a4-42ee-974d-2ed2895a0337")
 	)
 	(pad "1" smd roundrect
@@ -217,12 +222,20 @@
 		(size 1.1 2.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2272727273)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "90714570-3e89-47e1-8315-9d7434fe4b4c")
 	)
 	(pad "1" smd rect
 		(at -2.55 3)
 		(size 1.1 8.3)
 		(layers "F.Cu")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bcd0cc6b-5ecf-4fb2-89f4-6a2cd58b17eb")
 	)
 	(pad "2" smd roundrect
@@ -230,12 +243,20 @@
 		(size 1.1 2.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "23a6b673-de88-4b5b-b976-d0e189706a6f")
 	)
 	(pad "2" smd rect
 		(at 4.45 -0.75)
 		(size 4.9 0.8)
 		(layers "F.Cu")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7c1f0d70-fd4d-4a19-83df-c27f5ca74a77")
 	)
 	(pad "3" smd roundrect
@@ -243,11 +264,13 @@
 		(size 1.1 2.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4699bc24-b347-4f2c-87f5-0dafdbd779ad")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "b4f16d63-d877-4cf5-969c-d36939da2ee6")
 		(hatch edge 0.5)
@@ -255,7 +278,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -270,6 +292,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -278,8 +301,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "5cec35b5-2be7-4eb0-9e5a-c339f2760f11")
 		(hatch edge 0.5)
@@ -287,7 +308,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -302,6 +322,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -310,8 +331,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "f12d27d2-56f2-400d-ad57-d4c28c36f2c3")
 		(hatch edge 0.5)
@@ -319,7 +338,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -334,6 +352,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -342,8 +361,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "293fba92-c52f-4e64-aab2-22faaaf4878d")
 		(hatch edge 0.5)
@@ -351,7 +368,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -366,6 +382,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -374,8 +391,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "54bf604c-8b93-46d4-9b7c-5f5bdcfefd8f")
 		(hatch edge 0.5)
@@ -383,7 +398,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -398,6 +412,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -407,8 +422,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "bda85dc7-cba1-49de-b34c-140fa135cae0")
 		(hatch edge 0.508)
@@ -416,7 +429,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -431,6 +443,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -440,8 +453,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
 			"Dwgs.User" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu"
 			"In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu"
@@ -454,7 +465,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -469,6 +479,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

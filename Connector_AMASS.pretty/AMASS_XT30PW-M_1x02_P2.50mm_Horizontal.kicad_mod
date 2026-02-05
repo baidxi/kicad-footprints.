@@ -1,7 +1,7 @@
 (footprint "AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Connector XT30 Horizontal PCB Male, https://www.tme.eu/Document/6eb2005a51a52592b3f19e8a450c54c8/XT30PW-M.pdf")
 	(tags "RC Connector XT30")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.15 -11.11)
 		(end -7.56 -11.11)
@@ -338,10 +339,10 @@
 		(layer "F.Fab")
 		(uuid "79a4e4d6-eaf1-4ec8-80ff-38cdb41d44d3")
 	)
-	(fp_text user "-"
-		(at 3 0 0)
+	(fp_text user "+"
+		(at -8 0 0)
 		(layer "F.SilkS")
-		(uuid "00b15ffc-d08a-4eed-976c-91f58da3cefb")
+		(uuid "25727612-bb91-4e69-af37-c835de7b8a35")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -349,10 +350,10 @@
 			)
 		)
 	)
-	(fp_text user "+"
-		(at -8 0 0)
+	(fp_text user "-"
+		(at 3 0 0)
 		(layer "F.SilkS")
-		(uuid "25727612-bb91-4e69-af37-c835de7b8a35")
+		(uuid "00b15ffc-d08a-4eed-976c-91f58da3cefb")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -377,6 +378,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9eecb55b-25ca-4206-a0d5-9c6d834865a4")
 	)
 	(pad "" thru_hole circle
@@ -385,6 +390,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b8a68313-cd14-4a06-8213-437cc9450e9a")
 	)
 	(pad "1" thru_hole roundrect
@@ -394,6 +403,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.22)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3c08777f-6352-4a31-ad4f-79ad6b02212f")
 	)
 	(pad "2" thru_hole circle
@@ -402,6 +415,10 @@
 		(drill 1.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dcf9b550-d66d-4aed-b629-a4aaa009b914")
 	)
 	(embedded_fonts no)

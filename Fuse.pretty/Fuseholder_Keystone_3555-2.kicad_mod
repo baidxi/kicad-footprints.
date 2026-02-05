@@ -1,7 +1,7 @@
 (footprint "Fuseholder_Keystone_3555-2"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Maxi APX ATX Automotive Blade Fuse Clip Holder https://www.keyelco.com/userAssets/file/M65p40.pdf")
 	(tags "Maxi APX ATX Automotive Blade Fuse Clip Holder")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.5 -3.1)
 		(end -3.5 3.1)
@@ -282,6 +283,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.4)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "05d0f76d-3d2d-436f-98ac-d24a37907723")
 	)
 	(pad "1" thru_hole roundrect
@@ -291,6 +296,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.4)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "563246d3-de4f-4a67-925e-546d7f7e6ed8")
 	)
 	(pad "2" thru_hole circle
@@ -299,6 +308,10 @@
 		(drill 3.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fef47c63-975f-4dc2-95ea-632cf01014af")
 	)
 	(pad "2" thru_hole circle
@@ -307,6 +320,10 @@
 		(drill 3.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1d7b51d8-4c1f-4c19-860d-6cd509a4939d")
 	)
 	(embedded_fonts no)

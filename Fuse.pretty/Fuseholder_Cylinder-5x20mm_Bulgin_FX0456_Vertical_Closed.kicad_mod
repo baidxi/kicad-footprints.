@@ -1,7 +1,7 @@
 (footprint "Fuseholder_Cylinder-5x20mm_Bulgin_FX0456_Vertical_Closed"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Fuseholder, 5x20, closed, vertical, Bulgin, FX0456, https://www.bulgin.com/products/pub/media/bulgin/data/Fuseholders.pdf")
 	(tags "Fuseholder 5x20 closed vertical Bulgin FX0456 Sicherungshalter ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.27 -6.35)
 		(end -1.27 -1.65)
@@ -299,10 +300,10 @@
 		(layer "F.Fab")
 		(uuid "08b1d23a-69c5-4ed2-8446-ffe65d299bde")
 	)
-	(fp_text user "S"
-		(at 8.38 2.67 0)
+	(fp_text user "F"
+		(at 1.78 -2.29 0)
 		(layer "F.Fab")
-		(uuid "59665610-5d68-4543-84ba-015e84ab8d94")
+		(uuid "ee148824-b892-43b2-b4a4-53ca8f819644")
 		(effects
 			(font
 				(size 1 1)
@@ -321,10 +322,10 @@
 			)
 		)
 	)
-	(fp_text user "F"
-		(at 1.78 -2.29 0)
+	(fp_text user "S"
+		(at 8.38 2.67 0)
 		(layer "F.Fab")
-		(uuid "ee148824-b892-43b2-b4a4-53ca8f819644")
+		(uuid "59665610-5d68-4543-84ba-015e84ab8d94")
 		(effects
 			(font
 				(size 1 1)
@@ -337,6 +338,10 @@
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a1cbee1c-6bab-493e-b942-25a44193b172")
 	)
 	(pad "" np_thru_hole circle
@@ -344,6 +349,10 @@
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "98362f75-0af0-448c-aa6f-2a3b68fe0352")
 	)
 	(pad "" np_thru_hole circle
@@ -351,6 +360,10 @@
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6beac081-87b3-445c-8389-323bfb611d27")
 	)
 	(pad "" np_thru_hole circle
@@ -358,6 +371,10 @@
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "81ca508a-499d-4b2e-810f-22343dbcd5c6")
 	)
 	(pad "1" thru_hole circle
@@ -366,6 +383,10 @@
 		(drill 1.35)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dbce3ac9-3178-4bb0-95c5-3affa0d3657d")
 	)
 	(pad "2" thru_hole circle
@@ -374,6 +395,10 @@
 		(drill 1.35)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3a31cd50-554a-48ab-9905-e06cd90e1c12")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "LED_Kingbright_AAA3528ESGCT"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Kingbright, dual LED, 3.5 x 2.8 mm Surface Mount LED Lamp (http://www.kingbrightusa.com/images/catalog/SPEC/AAA3528ESGCT.pdf)")
 	(tags "dual led smd")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.71 1.355)
 		(end -1.71 1.51)
@@ -221,24 +222,40 @@
 		(at -1.4 -0.725)
 		(size 1.2 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9ed53331-8e87-42d3-ae91-2bad7e911a5a")
 	)
 	(pad "2" smd rect
 		(at 1.4 -0.725)
 		(size 1.2 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "09a6cd7f-fc0a-459b-a795-1fb5b3544c79")
 	)
 	(pad "3" smd rect
 		(at 1.4 0.725)
 		(size 1.2 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "54d9a1b3-a688-49e8-a944-8ccef590822a")
 	)
 	(pad "4" smd rect
 		(at -1.4 0.725)
 		(size 1.2 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "74f17eda-9c6c-4698-b56c-090864f82dc3")
 	)
 	(embedded_fonts no)

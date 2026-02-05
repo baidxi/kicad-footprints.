@@ -1,7 +1,7 @@
 (footprint "Nexperia_CFP3_SOD-123W"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
 	(tags "CFP3 SOD-123W")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.26 -0.95)
 		(end -2.26 0.95)
@@ -239,12 +240,20 @@
 		(at -1.4 0)
 		(size 1.2 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ce9054a2-fe12-48a1-8277-195ce9f4e0d1")
 	)
 	(pad "2" smd rect
 		(at 1.4 0)
 		(size 1.2 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "52451b14-8bf6-4686-970b-6aa5cae2f7ab")
 	)
 	(embedded_fonts no)

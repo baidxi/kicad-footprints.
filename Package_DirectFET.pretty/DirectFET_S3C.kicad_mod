@@ -1,7 +1,7 @@
 (footprint "DirectFET_S3C"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "DirectFET S3C https://www.infineon.com/dgdl/Infineon-AN-1035-ApplicationNotes-v29_01-EN.pdf?fileId=5546d462533600a40153559159020f76#page=25")
 	(tags "DirectFET S3C MOSFET Infineon")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.84 -1.71)
 		(end -2.06 -1.71)
@@ -379,48 +380,80 @@
 		(at -2.45 -0.825)
 		(size 0.9 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dfd25165-5e12-4d67-a21c-6b174785023c")
 	)
 	(pad "1" smd rect
 		(at -2.45 0.825)
 		(size 0.9 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "56dae9a4-deb0-44d6-9397-c829d31f6fc0")
 	)
 	(pad "1" smd rect
 		(at 2.45 -0.825)
 		(size 0.9 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1fa52dcb-587c-4687-96af-4fa07ea55761")
 	)
 	(pad "1" smd rect
 		(at 2.45 0.825)
 		(size 0.9 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "04cb7a15-db53-448e-95f2-12a062881dd8")
 	)
 	(pad "2" smd rect
 		(at -0.8 0.65)
 		(size 0.55 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "352f675e-219c-43f8-a0de-3314b96e1dec")
 	)
 	(pad "3" smd rect
 		(at -0.8 -0.55)
 		(size 0.55 0.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "244e88ff-af02-4132-8a62-ef121c0a7723")
 	)
 	(pad "3" smd rect
 		(at 0.45 -0.55)
 		(size 1.25 0.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d15f85d0-4fa2-4b52-a1b5-e094ccd90739")
 	)
 	(pad "3" smd rect
 		(at 0.45 0.55)
 		(size 1.25 0.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "35452922-b6de-4721-8c35-2693a796510c")
 	)
 	(embedded_fonts no)

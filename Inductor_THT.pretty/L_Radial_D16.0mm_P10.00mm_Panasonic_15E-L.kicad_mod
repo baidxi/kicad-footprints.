@@ -1,7 +1,7 @@
 (footprint "L_Radial_D16.0mm_P10.00mm_Panasonic_15E-L"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Panasonic ELC Type 15E-L inductor, radial, shielded, pin pitch=10.00mm, diameter=16.0mm, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AGB0000/AGB0000CE10.pdf")
 	(tags "ELC15ExxxL")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 5 0)
 		(end 13.12 0)
@@ -104,6 +105,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a715a998-bbe4-4895-9712-2efd10716166")
 	)
 	(pad "2" thru_hole circle
@@ -112,6 +117,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6b68172a-a049-4c77-a2d4-319ed2cf8afc")
 	)
 	(pad "MP" thru_hole circle
@@ -120,6 +129,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4c2631da-aa4b-427c-8475-0f86b489339e")
 	)
 	(embedded_fonts no)

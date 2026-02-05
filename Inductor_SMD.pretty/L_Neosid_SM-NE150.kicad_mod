@@ -1,7 +1,7 @@
 (footprint "L_Neosid_SM-NE150"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Neosid, Inductor, SM-NE150, Fixed inductor, SMD, https://neosid.de/import-data/product-pdf/neoFestind_SMNE150.pdf")
 	(tags "Neosid Inductor SM-NE150 Fixed inductor SMD")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.9 1.9)
 		(end -3.9 7.8)
@@ -260,12 +261,20 @@
 		(at -8.2 0 180)
 		(size 3 3.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3835a1a3-b0b7-42fc-ab3c-72f6568c75d4")
 	)
 	(pad "2" smd rect
 		(at 8.2 0)
 		(size 3 3.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ff130908-7748-4d29-8507-1f9d4b2ae70f")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Texas_DSBGA-5_0.822x1.116mm_Layout2x1x2_P0.4mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Texas Instruments, DSBGA, 0.822x1.116mm, 5 bump 2x1x2 array, NSMD pad definition (http://www.ti.com/lit/ds/symlink/opa330.pdf, http://www.ti.com/lit/an/snva009ag/snva009ag.pdf)")
 	(tags "Texas Instruments DSBGA BGA YFF S-XBGA-N5")
@@ -55,6 +55,7 @@
 	)
 	(solder_mask_margin 0.05)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.531 -0.358)
 		(end -0.531 0.678)
@@ -212,30 +213,50 @@
 		(at -0.2 -0.3465)
 		(size 0.25 0.25)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d40589c3-1e52-4756-ab0b-48fce2dbcd71")
 	)
 	(pad "" smd rect
 		(at -0.2 0.3465)
 		(size 0.25 0.25)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "879fad14-f0b7-4a5b-8cb7-1761f062a5f3")
 	)
 	(pad "" smd rect
 		(at 0 0)
 		(size 0.25 0.25)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9b5a0118-51b5-484e-b0c2-f544a753cc85")
 	)
 	(pad "" smd rect
 		(at 0.2 -0.3465)
 		(size 0.25 0.25)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7890cfe6-a8d4-41e7-a8fb-8c6acc0d57ac")
 	)
 	(pad "" smd rect
 		(at 0.2 0.3465)
 		(size 0.25 0.25)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "66e193f0-4ebb-46e0-9aae-d3a29bf5bdd6")
 	)
 	(pad "A1" smd circle
@@ -243,6 +264,10 @@
 		(size 0.225 0.225)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2b03e330-2d30-465a-8ac4-817e5b1b3788")
 	)
 	(pad "A3" smd circle
@@ -250,6 +275,10 @@
 		(size 0.225 0.225)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "59749c98-711d-42a2-ae45-d054960e45db")
 	)
 	(pad "B2" smd circle
@@ -257,6 +286,10 @@
 		(size 0.225 0.225)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "42314c9e-b954-41d3-85c3-aff3865380f0")
 	)
 	(pad "C1" smd circle
@@ -264,6 +297,10 @@
 		(size 0.225 0.225)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ad681c67-a7b1-429a-b1cd-2ab864120c89")
 	)
 	(pad "C3" smd circle
@@ -271,6 +308,10 @@
 		(size 0.225 0.225)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a238c636-4629-4bd6-8e78-0a93d3afc2c6")
 	)
 	(embedded_fonts no)

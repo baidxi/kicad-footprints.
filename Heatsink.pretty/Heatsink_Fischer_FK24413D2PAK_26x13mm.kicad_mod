@@ -1,7 +1,7 @@
 (footprint "Heatsink_Fischer_FK24413D2PAK_26x13mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "26x13 mm SMD heatsink for TO-252 TO-263 TO-268, https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/fk_244_13_d2_pak.pdf")
 	(tags "heatsink TO-252 TO-263 TO-268")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -13.5 -7)
 		(end -6 -7)
@@ -312,6 +313,10 @@
 		(size 3.25 13.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8ebb170e-0377-41bb-9db4-bb5b04ba4799")
 	)
 	(pad "1" smd rect
@@ -319,6 +324,10 @@
 		(size 3.25 13.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a8024d24-4a1c-460c-baaa-932c715c4e71")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "TestPoint_Pad_1.0x1.0mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 	(tags "test point SMD pad rectangle square")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.7 -0.7)
 		(end 0.7 -0.7)
@@ -149,6 +150,10 @@
 		(at 0 0)
 		(size 1 1)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c7a53b80-2670-4411-8770-45df62759000")
 	)
 	(embedded_fonts no)

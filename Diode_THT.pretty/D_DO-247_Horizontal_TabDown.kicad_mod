@@ -1,7 +1,7 @@
 (footprint "D_DO-247_Horizontal_TabDown"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Diode, DO-247 series, Horizontal, TabDown, P 10.9mm")
 	(tags "diode rectifier")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.62 -26.15)
 		(end -2.62 -4.96)
@@ -301,6 +302,10 @@
 		(size 3.6 3.6)
 		(drill 3.6)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "62d63c0b-96d3-4345-9448-704e62e774f3")
 	)
 	(pad "1" thru_hole rect
@@ -309,6 +314,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b23b4b46-9928-467e-8184-aa4ef46ffc43")
 	)
 	(pad "2" thru_hole oval
@@ -317,6 +326,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e5451704-0914-472f-9a61-05e5a45fd731")
 	)
 	(embedded_fonts no)

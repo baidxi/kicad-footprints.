@@ -1,7 +1,7 @@
 (footprint "L_Ferrocore_DLG-0705"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Ferrocore DLG-0705 unshielded SMD power inductor, 7.8x7.0x5.0mm, https://www.tme.eu/Document/bda580f72a60a2225c2f6576c2740ae1/dlg-0504.pdf")
 	(tags "smd inductor dlg-0705")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.8 -3.61)
 		(end 0.8 -3.61)
@@ -171,12 +172,20 @@
 		(at -2.5 0)
 		(size 3 7.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "048c8ff8-d1d5-4b6e-b203-25736d637f93")
 	)
 	(pad "2" smd rect
 		(at 2.5 0)
 		(size 3 7.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5dccbb7d-18a8-4d07-aefc-e17f01a7ec5e")
 	)
 	(embedded_fonts no)

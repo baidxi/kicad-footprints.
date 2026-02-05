@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Bulgin_BX0034_1xAAA"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Battery holder, Bulgin, BX0034, 1xAAA, screw holes, additional tab connections, https://www.bulgin.com/products/pub/media/import/attachments/Battery_holders.pdf")
 	(tags "horizontal single")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.4 -0.5)
 		(end -2.4 0.5)
@@ -535,6 +536,10 @@
 		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c49552e4-ec7f-4fdf-842a-a9e6a3c7d8db")
 	)
 	(pad "" np_thru_hole circle
@@ -542,6 +547,10 @@
 		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2469304c-b5ff-4f0b-b151-8800d3fbf915")
 	)
 	(pad "1" thru_hole roundrect
@@ -551,6 +560,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.08333333333)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bed65269-5571-48f1-9c35-908c41525f3a")
 	)
 	(pad "2" thru_hole circle
@@ -559,6 +572,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8e407acf-711d-4fb1-9a9d-4f3986ea6453")
 	)
 	(embedded_fonts no)

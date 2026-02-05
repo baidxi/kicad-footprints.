@@ -1,7 +1,7 @@
 (footprint "LED_Kingbright_KPBD-3224"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Kingbright, dual LED, red-green, dome lens, 3.2 x 2.4 mm Surface Mount LED Lamp (https://docs.rs-online.com/b881/0900766b81396b45.pdf)")
 	(tags "Kingbright dual LED KPBD-3224")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.32 1.6)
 		(end -1.32 -1.6)
@@ -204,24 +205,40 @@
 		(at -0.7 -1.6 270)
 		(size 1.6 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2e5cd319-866c-472c-b958-7d80cb431df7")
 	)
 	(pad "2" smd oval
 		(at -0.7 1.6 270)
 		(size 1.6 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1e6a4e11-3b89-4791-8a5a-51b532d4d5ba")
 	)
 	(pad "3" smd oval
 		(at 0.7 -1.6 270)
 		(size 1.6 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2ce239cc-7218-469f-82a6-dcd188850dfd")
 	)
 	(pad "4" smd oval
 		(at 0.7 1.6 270)
 		(size 1.6 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "31d563e6-f96d-4aa2-92fa-0f89f7ab173d")
 	)
 	(embedded_fonts no)

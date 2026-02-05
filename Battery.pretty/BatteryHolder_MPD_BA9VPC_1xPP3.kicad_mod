@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_MPD_BA9VPC_1xPP3"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "1xPP3 (9V) battery holder, Memory Protection Devices P/N BA9VPC, http://www.memoryprotectiondevices.com/datasheets/BA9VPC-datasheet.pdf")
 	(tags "PP3 Battery Holder BA9VPC 9V")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.4 -5.55)
 		(end -2.4 -2.55)
@@ -354,6 +355,10 @@
 		(size 2.3 2.3)
 		(drill 2.29)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "74c12323-d0c5-41b9-9de0-8df395f9effd")
 	)
 	(pad "" np_thru_hole circle
@@ -361,6 +366,10 @@
 		(size 2.3 2.3)
 		(drill 2.29)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c4351bb4-d200-4dce-bac8-f6387089cbc8")
 	)
 	(pad "" np_thru_hole circle
@@ -368,6 +377,10 @@
 		(size 2.3 2.3)
 		(drill 2.29)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c0b6c7b3-a963-4bf9-be38-de533b29926d")
 	)
 	(pad "1" thru_hole rect
@@ -376,6 +389,10 @@
 		(drill oval 0.66 2.27)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "af2f6f35-4c43-4b76-97e7-5933f8b3065f")
 	)
 	(pad "2" thru_hole oval
@@ -384,6 +401,10 @@
 		(drill oval 0.66 2.27)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0214faa6-5a71-4bb7-b5e3-55b768220d58")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Pulse_PA2001NL"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SMT Gate Drive Transformer, 1:1, 8.6x6.7x2.5mm (https://productfinder.pulseeng.com/products/datasheets/P663.pdf)")
 	(tags "pulse pa2001nl pe-68386nl")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.43 1.4)
 		(end -4.43 -1.4)
@@ -211,24 +212,40 @@
 		(at -3.8425 -2.54)
 		(size 1.585 1.78)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "393ab440-c9a6-40fd-a7c7-cc071a80d6eb")
 	)
 	(pad "3" smd rect
 		(at -3.8425 2.54)
 		(size 1.585 1.78)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a541a436-43bf-415d-94b9-daa5e1201660")
 	)
 	(pad "4" smd rect
 		(at 3.8425 2.54)
 		(size 1.585 1.78)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "71396368-05f9-44a5-9210-2e76bbb9fdff")
 	)
 	(pad "6" smd rect
 		(at 3.8425 -2.54)
 		(size 1.585 1.78)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "55f0c50d-b338-4dd1-a86a-f2ea582097bf")
 	)
 	(embedded_fonts no)

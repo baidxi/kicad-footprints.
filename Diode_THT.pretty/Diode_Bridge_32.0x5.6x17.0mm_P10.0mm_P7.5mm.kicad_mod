@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Diotec 32x5.6x17mm rectifier package, 7.5mm/10mm pitch, see https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700.pdf")
 	(tags "Diotec rectifier diode bridge")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.8 -3.1)
 		(end -2.5 -3.1)
@@ -251,6 +252,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "24399e96-20ce-4c70-8718-84cfc0869c48")
 	)
 	(pad "2" thru_hole circle
@@ -259,6 +264,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "94e68fd5-9ad0-4a88-ac7a-662b5c5e6666")
 	)
 	(pad "3" thru_hole circle
@@ -267,6 +276,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "52e1dda0-e42b-46c8-9478-f665ffc594d3")
 	)
 	(pad "4" thru_hole circle
@@ -275,6 +288,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9b48cdf0-42fc-4ace-a4cd-d6f692c57380")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Jack_3.5mm_KoreanHropartsElec_PJ-320D-4A_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Korean Hroparts Elec PJ-320D-4A (https://datasheet.lcsc.com/lcsc/1810121716_Korean-Hroparts-Elec-PJ-320D-4A_C95562.pdf)")
 	(tags "smt female jack horizontal")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.47 -2.62)
 		(end -6.47 -2.62)
@@ -302,38 +303,62 @@
 		(at -4.75 0)
 		(size 1.6 1.6)
 		(drill 1.6)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "aeb8cba0-ba15-495c-8dc2-79e706efb28f")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.25 0)
 		(size 1.6 1.6)
 		(drill 1.6)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "014e92b4-6b83-41c0-b9f9-80b877d19784")
 	)
 	(pad "R1" smd rect
 		(at -0.15 -3.25)
 		(size 1.2 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8a0f7214-9d84-4388-b26b-bcbdf74d1011")
 	)
 	(pad "R2" smd rect
 		(at -3.15 -3.25)
 		(size 1.2 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bc58dda6-a6b0-4a74-9f1b-59386e362dca")
 	)
 	(pad "S" smd rect
 		(at 4.95 3.25)
 		(size 1.2 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "81042d6b-f40f-4ea7-9d96-40a0e343a01c")
 	)
 	(pad "T" smd rect
 		(at 3.85 -3.25)
 		(size 1.2 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "328c6857-dfc6-42ef-a4df-d27dbe9ac8dc")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Miniature Crystal Clock Oscillator Abracon ASDMB series, 2.5x2.0mm package, http://www.abracon.com/Oscillators/ASDMB.pdf")
 	(tags "SMD SMT crystal oscillator")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.35 0)
 		(end -1.35 1.14)
@@ -169,24 +170,40 @@
 		(at -0.825 0.775)
 		(size 0.65 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3ef6dd51-1601-4574-9517-deed73524f12")
 	)
 	(pad "2" smd rect
 		(at 0.825 0.775)
 		(size 0.65 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f4744137-d35b-4017-b821-26741a0ef3fb")
 	)
 	(pad "3" smd rect
 		(at 0.825 -0.775)
 		(size 0.65 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7fdfae9a-0c09-4feb-b93e-ec2ecee452a5")
 	)
 	(pad "4" smd rect
 		(at -0.825 -0.775)
 		(size 0.65 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "99350488-ba50-4023-a899-ad99595bb1f3")
 	)
 	(embedded_fonts no)

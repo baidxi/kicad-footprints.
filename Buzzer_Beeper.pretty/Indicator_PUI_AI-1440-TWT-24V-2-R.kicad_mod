@@ -1,7 +1,7 @@
 (footprint "Indicator_PUI_AI-1440-TWT-24V-2-R"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "14mm Indicator, https://www.puiaudio.com/media/SpecSheet/AI-1440-TWT-24V-2-R.pdf")
 	(tags "piezo buzzer self drive oscillator")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_arc
 		(start -3.2 -0.615)
 		(mid 10.826964 0.00257)
@@ -105,6 +106,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.147)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2ffa905d-d429-486d-8007-d4b685b00e49")
 	)
 	(pad "2" thru_hole circle
@@ -113,6 +118,10 @@
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "032b2b95-5bb1-455c-acba-e152f2081895")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Fuseholder_TR5_Littelfuse_No560_No460"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Fuse, Fuseholder, TR5, Littelfuse/Wickmann, No. 460, No560, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_holders/littelfuse_fuse_holder_559_560_datasheet.pdf.pdf")
 	(tags "Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560 ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 5.49 3.99)
 		(end 5.36 3.84)
@@ -333,6 +334,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "74a6c701-7fb4-4e44-a3f9-603808ed11e2")
 	)
 	(pad "2" thru_hole circle
@@ -341,6 +346,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3d00489e-871d-4776-a8ac-adeea8a90580")
 	)
 	(embedded_fonts no)

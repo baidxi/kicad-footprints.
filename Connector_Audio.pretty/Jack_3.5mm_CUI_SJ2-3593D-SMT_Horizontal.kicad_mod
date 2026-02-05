@@ -1,7 +1,7 @@
 (footprint "Jack_3.5mm_CUI_SJ2-3593D-SMT_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cuidevices.com/product/resource/sj2-359x-smt.pdf)")
 	(tags "3.5mm audio cui horizontal jack stereo")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.1 -6.1)
 		(end -2.6 -6.1)
@@ -340,6 +341,10 @@
 		(size 1.7 1.7)
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "677b7121-d976-4376-8272-25f179cbf148")
 	)
 	(pad "" np_thru_hole circle
@@ -347,36 +352,60 @@
 		(size 1.7 1.7)
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7e8a1b5a-9cd6-4453-9889-562c518aa842")
 	)
 	(pad "R" smd rect
 		(at 3.7 -1.7)
 		(size 2.8 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "23a7dd7c-b0a2-46ed-b5fc-ce636f8e154b")
 	)
 	(pad "RN" smd rect
 		(at 3.7 -4.5)
 		(size 2.8 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "72fd8a43-16f9-474f-bacd-362a09f73391")
 	)
 	(pad "S" smd rect
 		(at -3.7 -3.6)
 		(size 2.8 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a386088f-968b-40bb-a2cb-d8bae878f5c5")
 	)
 	(pad "T" smd rect
 		(at -3.7 5.8)
 		(size 2.8 2.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4c3686c3-6d58-4d7d-a22c-7165b41b9544")
 	)
 	(pad "TN" smd rect
 		(at 0.75 9.8)
 		(size 2.8 2.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7775896a-5710-4807-ad0a-3cecdae0282a")
 	)
 	(embedded_fonts no)

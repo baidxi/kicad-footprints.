@@ -1,7 +1,7 @@
 (footprint "HUSON-3-1EP_2x2mm_P1.3mm_EP1.1x1.6mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "HUSON, 3 Pin, SOT1061 (Ref: https://assets.nexperia.com/documents/data-sheet/PMEG2020CPA.pdf)")
 	(tags "huson nolead SOT1061")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 1 -1.2)
 		(end -1 -1.2)
@@ -192,6 +193,10 @@
 		(size 0.64 0.97)
 		(layers "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "aa3a4ac5-488f-470d-93ad-aa2d9df03073")
 	)
 	(pad "" smd roundrect
@@ -199,6 +204,10 @@
 		(size 0.64 0.97)
 		(layers "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "375229b3-2e1b-49f0-bebf-2988ae4e970c")
 	)
 	(pad "1" smd roundrect
@@ -206,6 +215,10 @@
 		(size 0.5 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "249f69db-9f42-4558-8297-7385775151ca")
 	)
 	(pad "2" smd roundrect
@@ -213,18 +226,30 @@
 		(size 0.5 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "52fe298c-7ec0-4110-afab-86d5a1df978f")
 	)
 	(pad "3" smd rect
 		(at 0.25 0)
 		(size 1.1 1.6)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8a9b44c1-d6cc-474f-88fc-699bca820129")
 	)
 	(pad "3" smd rect
 		(at 0.925 0)
 		(size 0.25 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9ff41d84-d23f-471d-966d-a9b877d0b977")
 	)
 	(embedded_fonts no)

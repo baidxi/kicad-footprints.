@@ -1,7 +1,7 @@
 (footprint "SolderWirePad_1x01_SMD_3x6mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Wire Pad, Square, SMD Pad,  3mm x 6mm")
 	(tags "MeasurementPoint Square SMDPad 3mmx6mm ")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -1.75 -3.25)
 		(end 1.75 3.25)
@@ -90,6 +91,10 @@
 		(size 3 6)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9b1c97f7-ae17-44f3-9424-a07cf2ecd34d")
 	)
 	(embedded_fonts no)

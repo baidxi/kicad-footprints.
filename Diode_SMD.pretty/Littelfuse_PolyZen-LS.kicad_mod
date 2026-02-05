@@ -1,7 +1,7 @@
 (footprint "Littelfuse_PolyZen-LS"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf")
 	(tags "Diode Polymer Protected Zener Diode Littelfuse LS")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 2.1 -2.1)
 		(end -2 -2.1)
@@ -211,18 +212,30 @@
 		(at -1.72 0)
 		(size 0.56 2.21)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "775abacd-035f-4eb9-b754-75999569a491")
 	)
 	(pad "2" smd rect
 		(at 1.72 -0.635)
 		(size 0.56 0.94)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d22a3228-5b0a-420e-a65c-d6b1dc96614e")
 	)
 	(pad "3" smd rect
 		(at 1.72 0.635)
 		(size 0.56 0.94)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ac035349-d51c-4306-b108-32db21307768")
 	)
 	(embedded_fonts no)

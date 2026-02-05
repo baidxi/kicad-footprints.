@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_TRACO_TSR-1_THT"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "DCDC-Converter, TRACO, TSR 1-xxxx")
 	(tags "DCDC-Converter TRACO TSR-1")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.75 0)
 		(end -3.75 2.45)
@@ -221,6 +222,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6fe70845-90dc-4023-8743-d7a7c7469a6c")
 	)
 	(pad "2" thru_hole oval
@@ -229,6 +234,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "80733ae6-2fcc-4d4e-a093-466e79e7fa86")
 	)
 	(pad "3" thru_hole oval
@@ -237,6 +246,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c4a485e6-d9b4-4d45-aa18-f1e89ad93a92")
 	)
 	(embedded_fonts no)

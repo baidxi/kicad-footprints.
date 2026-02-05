@@ -1,7 +1,7 @@
 (footprint "Jack_6.35mm_Neutrik_NMJ4HHD2_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "M Series, 6.35mm (1/4in) mono jack, switched, with a half threaded nose and offset PCB pins, https://www.neutrik.com/en/product/nmj4hhd2")
 	(tags "neutrik jack m")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.07 3.645)
 		(end -4.07 3.645)
@@ -371,6 +372,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "692ca653-d940-4cc9-9d9c-a8ac158a9f55")
 	)
 	(pad "SN" thru_hole circle
@@ -379,6 +384,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f682f1d4-f12b-4572-88c4-c95242306ba0")
 	)
 	(pad "T" thru_hole circle
@@ -387,6 +396,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "330fee24-46f9-4614-a122-20dc0af2614d")
 	)
 	(pad "TN" thru_hole circle
@@ -395,6 +408,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "83c95fd6-be5a-4182-a864-60f96739e240")
 	)
 	(embedded_fonts no)

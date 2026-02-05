@@ -1,7 +1,7 @@
 (footprint "Heatsink_AAVID_Extruded_531302B02500G_34.9x12.7mm_H63.5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Extruded 5310, dual radial board level heatsink, TO‐202, TO‐220, 63.5mm height, 2.37mm dia. pins, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf")
 	(tags "heatsink")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -17.251322 -5.347047)
 		(end -15.220495 -3.738486)
@@ -790,6 +791,10 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "29207835-ef82-41f5-88dd-6f6e5080f991")
 	)
 	(pad "1" thru_hole circle
@@ -798,6 +803,10 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3aa59368-9dc7-4f18-b028-e51354444431")
 	)
 	(group ""

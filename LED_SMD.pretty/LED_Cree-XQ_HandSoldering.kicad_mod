@@ -1,7 +1,7 @@
 (footprint "LED_Cree-XQ_HandSoldering"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "LED Cree-XQ handsoldering pads http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf")
 	(tags "LED Cree XQ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.7 -1)
 		(end -1.7 1)
@@ -239,12 +240,20 @@
 		(at -0.88 0)
 		(size 1.25 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "77a269c0-14d5-439f-8db0-a98364b0f89e")
 	)
 	(pad "2" smd rect
 		(at 0.88 0)
 		(size 1.25 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "91c6f9f1-5f8f-40f2-996b-e9080d3ba8ac")
 	)
 	(embedded_fonts no)

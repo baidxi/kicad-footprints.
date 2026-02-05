@@ -1,7 +1,7 @@
 (footprint "Vishay_MINICAST-3Pin"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "IR Receiver Vishay TSOP-xxxx, MINICAST package, see https://www.vishay.com/docs/82669/tsop32s40f.pdf")
 	(tags "IR Receiver Vishay TSOP-xxxx MINICAST")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 5.14 -1.51)
 		(end 2.54 -1.51)
@@ -224,6 +225,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.139)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9bc9ffa9-8960-4e5c-bde2-6a66b0bf581e")
 	)
 	(pad "2" thru_hole circle
@@ -232,6 +237,10 @@
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "56bb5412-8956-4b3a-8b97-483b33a74ed9")
 	)
 	(pad "3" thru_hole circle
@@ -240,6 +249,10 @@
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "794dd9a8-645c-48df-970a-dcc5ecf206a5")
 	)
 	(embedded_fonts no)

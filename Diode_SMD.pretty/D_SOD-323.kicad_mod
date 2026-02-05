@@ -1,7 +1,7 @@
 (footprint "D_SOD-323"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SOD-323")
 	(tags "SOD-323")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.61 -0.85)
 		(end -1.61 0.85)
@@ -240,6 +241,10 @@
 		(size 0.6 0.45)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8ca31b66-f8b6-45f9-8378-2150b0b7a501")
 	)
 	(pad "2" smd roundrect
@@ -247,6 +252,10 @@
 		(size 0.6 0.45)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c9761b48-9e0e-49d7-8a73-4e53ce23d384")
 	)
 	(embedded_fonts no)

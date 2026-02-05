@@ -1,7 +1,7 @@
 (footprint "TO-50-4_LongPad-WithHole_Housing"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "TO-50-4 Macro X Package Style M238")
 	(tags "TO-50-4 Macro X Package Style M238")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy 7.01 -1.21) (xy 6.77 -1.54) (xy 7.25 -1.54) (xy 7.01 -1.21)
@@ -253,30 +254,50 @@
 		(size 5.5 5.5)
 		(drill 5.5)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "33b2bde2-6a34-46b7-9a60-f0fe1c699f9c")
 	)
 	(pad "1" smd rect
 		(at 7.5 0 90)
 		(size 1.5 7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "70a5f34b-bd66-437f-97cd-bbf173798df3")
 	)
 	(pad "2" smd rect
 		(at 0.7 -6.8 90)
 		(size 7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "49a65b2a-4c42-459c-b866-dd78b44908ed")
 	)
 	(pad "3" smd rect
 		(at -7.5 0 90)
 		(size 1.5 10)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d3990f30-41af-42fe-a64a-c5b1f22d6642")
 	)
 	(pad "4" smd rect
 		(at 0.7 6.8 90)
 		(size 7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0b3ce94f-358b-43a0-b82f-9061edafcc6c")
 	)
 	(embedded_fonts no)

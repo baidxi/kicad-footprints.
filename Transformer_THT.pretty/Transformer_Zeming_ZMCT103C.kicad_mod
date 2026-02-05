@@ -1,7 +1,7 @@
 (footprint "Transformer_Zeming_ZMCT103C"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Qingxian Zeming Langxi Electronic ZMCT103C current transformer 1000:1, https://5krorwxhmqqirik.leadongcdn.com/ZMCT103C+specification-aidirBqoKomRilSjpimnokp.pdf")
 	(tags "current transformer ZMCT")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.64 -5.54)
 		(end -2.34 -5.54)
@@ -163,6 +164,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bf22ded6-0379-41dd-89bc-b848fe118884")
 	)
 	(pad "2" thru_hole circle
@@ -171,6 +176,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bc76381d-b443-4610-8338-19590f7a1091")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "R_Array_Convex_2x0606"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Precision Thin Film Chip Resistor Array, VISHAY (see http://www.vishay.com/docs/28770/acasat.pdf)")
 	(tags "resistor array")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.5 -0.97)
 		(end -0.5 -0.97)
@@ -169,24 +170,40 @@
 		(at -0.7 -0.47)
 		(size 0.7 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4d023ee5-fb4c-4175-9931-3034e3a49469")
 	)
 	(pad "2" smd rect
 		(at -0.7 0.47)
 		(size 0.7 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b5556266-477b-4c1a-8d3a-626ee3984666")
 	)
 	(pad "3" smd rect
 		(at 0.7 0.47)
 		(size 0.7 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ba307330-966b-480a-be36-9a4dea8e96f6")
 	)
 	(pad "4" smd rect
 		(at 0.7 -0.47)
 		(size 0.7 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "625028a1-18cf-46d0-ac8a-ec971d71189d")
 	)
 	(embedded_fonts no)

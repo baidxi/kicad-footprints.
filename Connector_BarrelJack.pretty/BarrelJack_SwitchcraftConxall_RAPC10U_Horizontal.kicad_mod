@@ -1,7 +1,7 @@
 (footprint "BarrelJack_SwitchcraftConxall_RAPC10U_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "DC Power Jack, 13A, 24V, Panel Mount,Through-hole, https://www.switchcraft.com/Drawings/RAPC10U_CD.pdf")
 	(tags "barreljack switchcraftconxall dc power")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -18.55 4.945)
 		(end -4.55 4.945)
@@ -331,6 +332,10 @@
 		(drill oval 1.02 4.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "75471c56-27d0-4bf8-a8fa-4ae8e133ea90")
 	)
 	(pad "2" thru_hole oval
@@ -339,6 +344,10 @@
 		(drill oval 1.02 4.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "32dbae5a-f987-4145-b22b-29f10538fa13")
 	)
 	(embedded_fonts no)

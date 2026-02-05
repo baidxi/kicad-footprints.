@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Bourns_PTV112-4_Dual_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "2 Gang dual Through Hole, Snap In potentiometer, https://www.bourns.com/docs/Product-Datasheets/PTVPTT.pdf")
 	(tags "PTV112-4 Dual gang")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.8 -0.5)
 		(end -1.8 0.5)
@@ -719,6 +720,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d51a3ef2-88c8-42ae-a26a-f3eddf3b7ae2")
 	)
 	(pad "2" thru_hole circle
@@ -727,6 +732,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "de2a498c-9040-4756-919e-ec17cb716d07")
 	)
 	(pad "3" thru_hole circle
@@ -735,6 +744,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "699051c1-9b2c-4147-bb9f-4a5949c0e9a5")
 	)
 	(pad "4" thru_hole circle
@@ -743,6 +756,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "80ea9e16-9cd8-426e-949e-55e74110d0bb")
 	)
 	(pad "5" thru_hole circle
@@ -751,6 +768,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "36fe24a5-ed99-453e-b833-323ea8e55811")
 	)
 	(pad "6" thru_hole circle
@@ -759,6 +780,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5e1047ce-007f-4ac5-b358-79a08497e490")
 	)
 	(pad "SH" thru_hole oval
@@ -767,6 +792,10 @@
 		(drill oval 2 2.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b1f1e619-c756-4655-9b9c-046268042768")
 	)
 	(pad "SH" thru_hole oval
@@ -775,11 +804,13 @@
 		(drill oval 2 2.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e130e142-8064-4402-9031-673c4304546c")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "952b17a0-8147-4a7c-82c9-2246ea036ba3")
 		(hatch edge 0.5)
@@ -787,7 +818,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -802,6 +832,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -810,8 +841,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "5c6f33a9-7002-4899-ae0c-fc837e0f853c")
 		(hatch edge 0.5)
@@ -819,7 +848,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -834,6 +862,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

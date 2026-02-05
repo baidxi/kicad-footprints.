@@ -1,7 +1,7 @@
 (footprint "Autotransformer_ZS1052-AC"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Ignition coil for xenon flash, http://www.excelitas.com/downloads/ZS1052ACH.pdf")
 	(tags "ignition coil autotransformer")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.8 5)
 		(end 1.9 5)
@@ -272,6 +273,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6ef83382-67af-415c-b86b-00f106582724")
 	)
 	(pad "2" thru_hole circle
@@ -280,6 +285,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1ed38596-a81b-4abd-a920-dbae37871965")
 	)
 	(pad "3" thru_hole circle
@@ -288,6 +297,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1dec099a-0ea9-4b80-a4ff-bc1db26b3bd9")
 	)
 	(embedded_fonts no)

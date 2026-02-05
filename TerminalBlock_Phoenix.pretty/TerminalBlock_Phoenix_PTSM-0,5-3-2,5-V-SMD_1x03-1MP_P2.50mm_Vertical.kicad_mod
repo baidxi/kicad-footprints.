@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_Phoenix_PTSM-0,5-3-2,5-V-SMD_1x03-1MP_P2.50mm_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "PhoenixContact PTSM0,5 3 2,5mm vertical SMD spring clamp terminal block connector http://www.phoenixcontact.com/us/products/1814715/pdf")
 	(tags "PhoenixContact PTSM0.5 3 2.5mm vertical SMD spring clamp terminal block connector ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5 -3.88)
 		(end 5 -3.88)
@@ -289,30 +290,50 @@
 		(at -2.5 2.13 180)
 		(size 1.4 3.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "259433d4-7c40-4cca-b572-dbac42597745")
 	)
 	(pad "2" smd rect
 		(at 0 2.13 180)
 		(size 1.4 3.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "401c6f48-8857-4606-acb7-57fa37207dea")
 	)
 	(pad "3" smd rect
 		(at 2.5 2.13 180)
 		(size 1.4 3.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5bfe8a72-0dec-44a7-bac6-4c60107d0c95")
 	)
 	(pad "MP" smd rect
 		(at -6.3 -1.03 180)
 		(size 2.3 5.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "15312a43-8743-443c-aa91-ab1d1eee52f5")
 	)
 	(pad "MP" smd rect
 		(at 6.3 -1.03 180)
 		(size 2.3 5.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8bddff27-5c95-4140-ad74-9e0f9b374efb")
 	)
 	(embedded_fonts no)

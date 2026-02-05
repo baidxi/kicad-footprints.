@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Murata_OKI-78SR_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://power.murata.com/data/power/oki-78sr.pdf")
 	(tags "78sr3.3 78sr5 78sr9 78sr12 78srXX")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.79 -2.92)
 		(end -2.79 -1.14)
@@ -381,6 +382,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3d6c8eaa-6ab9-4efa-98c0-62289b160afc")
 	)
 	(pad "2" thru_hole circle
@@ -389,6 +394,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b9e8ce0d-3a37-4ceb-b8cb-8e03df5a9336")
 	)
 	(pad "3" thru_hole circle
@@ -397,6 +406,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dc9183cd-ea2e-4db8-a998-ff5eebee87ed")
 	)
 	(embedded_fonts no)

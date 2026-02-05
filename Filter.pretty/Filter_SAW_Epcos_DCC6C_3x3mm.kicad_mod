@@ -1,7 +1,7 @@
 (footprint "Filter_SAW_Epcos_DCC6C_3x3mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "EPCOS/TDK Electronics/Qualcomm DCC6c SAW filter package based on EPCOS app note 93 (https://www.catagle.com/45-2/PDF_AN93.htm)")
 	(tags "SAW filter 6-pin")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.26 1.76)
 		(end -2.26 0.85)
@@ -215,36 +216,60 @@
 		(at -1 -1.2)
 		(size 2 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e546ff5f-90df-48b3-a28d-5256cf4dfcee")
 	)
 	(pad "2" smd rect
 		(at -1.45 0)
 		(size 1.1 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "40848fed-ce8c-4005-b77c-903d773deecc")
 	)
 	(pad "3" smd rect
 		(at -1.45 1.2)
 		(size 1.1 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5ff135dd-680a-48e3-a060-4f58f2080d8a")
 	)
 	(pad "4" smd rect
 		(at 1.45 1.2)
 		(size 1.1 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e70420b2-5d90-4673-b190-277eb48d994e")
 	)
 	(pad "5" smd rect
 		(at 1.45 0)
 		(size 1.1 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "449ac277-58d6-4aba-b2a5-6e58ea74d430")
 	)
 	(pad "6" smd rect
 		(at 1.45 -1.2)
 		(size 1.1 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7f83f4cc-368d-42ff-b7ec-d3103883a81c")
 	)
 	(embedded_fonts no)

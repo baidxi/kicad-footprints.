@@ -1,7 +1,7 @@
 (footprint "UDFN-4-1EP_1x1mm_P0.65mm_EP0.48x0.48mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "UDFN-4_1x1mm_P0.65mm, http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550x-300mA-Single-Output-LDO-in-Small-Packages-DS20006006A.pdf")
 	(tags "UDFN-4_1x1mm_P0.65mm")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.5 -0.71)
 		(end -0.5 -0.71)
@@ -206,6 +207,10 @@
 				(fill yes)
 			)
 		)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1a21a080-aaf9-4e46-93c6-6858a4b906d8")
 	)
 	(pad "2" smd custom
@@ -226,6 +231,10 @@
 				(width 0)
 				(fill yes)
 			)
+		)
+		(tenting
+			(front none)
+			(back none)
 		)
 		(uuid "84bd9fb1-a724-4016-b9de-c3f94f8ca5b8")
 	)
@@ -248,6 +257,10 @@
 				(fill yes)
 			)
 		)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c141e452-7f32-4699-b9a5-c1a0604d6ac0")
 	)
 	(pad "4" smd custom
@@ -269,12 +282,20 @@
 				(fill yes)
 			)
 		)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1998a2c6-d977-4256-96fe-779952422729")
 	)
 	(pad "5" smd rect
 		(at 0 0 45)
 		(size 0.48 0.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "70dcad89-5843-4cf9-9b69-28d26d21fcda")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "USB_A_Connfly_DS1098_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "USB type A Plug, Horizontal, https://en.connfly.com/static/upload/file//DS1098.pdf")
 	(tags "USB-A")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -10.55 -4.50153) (xy -10.89 -4.97153) (xy -10.21 -4.97153)
@@ -252,6 +253,10 @@
 		(size 1.2 1.2)
 		(drill 1.2)
 		(layers "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c0dcdfd9-59f1-46e9-bf92-23b68263a5d4")
 	)
 	(pad "" np_thru_hole circle
@@ -259,6 +264,10 @@
 		(size 1.2 1.2)
 		(drill 1.2)
 		(layers "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d196123d-c212-428c-af7d-6be79ee68f91")
 	)
 	(pad "1" smd roundrect
@@ -266,6 +275,10 @@
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cb875bb7-8396-4e7f-abf0-603541d00234")
 	)
 	(pad "2" smd roundrect
@@ -273,6 +286,10 @@
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5535874c-7204-495e-bb2c-d68fd6da27fd")
 	)
 	(pad "3" smd roundrect
@@ -280,6 +297,10 @@
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c43a9e45-171b-4bf9-98f3-0a036c5ae827")
 	)
 	(pad "4" smd roundrect
@@ -287,6 +308,10 @@
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "00f01998-aa3d-4289-9457-b4b6ba155489")
 	)
 	(pad "SH" thru_hole oval
@@ -296,6 +321,10 @@
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0270dc3d-5ede-4527-aead-4a18a401baf9")
 	)
 	(pad "SH" thru_hole oval
@@ -305,6 +334,10 @@
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6cec3bbc-9d09-4a82-862b-d2316babbd9f")
 	)
 	(embedded_fonts no)

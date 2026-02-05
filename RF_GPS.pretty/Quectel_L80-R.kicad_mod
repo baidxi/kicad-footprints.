@@ -1,7 +1,7 @@
 (footprint "Quectel_L80-R"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Quectel L80-R GPS Module, Patch on Top, https://www.quectel.com/UploadImage/Downlad/Quectel_L80-R_Hardware_Design_V1.2.pdf")
 	(tags "quectel GPS GNSS")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.11 -8.11)
 		(end -8.11 -6.61)
@@ -232,77 +233,123 @@
 		(at -7.75 -5.85 180)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "08fdf9a5-060a-42d0-b217-ee2306e1305e")
 	)
 	(pad "2" smd rect
 		(at -7.75 -3.31 180)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2d373a3e-20de-4a6e-9065-8a856f7ec38d")
 	)
 	(pad "3" smd rect
 		(at -7.75 -0.77 180)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "63ba71fb-d25b-4f06-9344-c6c504b239be")
 	)
 	(pad "4" smd rect
 		(at -7.75 1.77 180)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a9380d9d-496e-4efb-a1e4-c2ccce6861eb")
 	)
 	(pad "5" smd rect
 		(at -7.75 4.31 180)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3b137aad-b368-4267-b6d8-76d40f87cf81")
 	)
 	(pad "6" smd rect
 		(at -7.75 6.85 180)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "106f6eec-39cc-4dd3-a92e-6f42d1064d3d")
 	)
 	(pad "7" smd rect
 		(at 7.75 6.85 180)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6416ba11-f527-4375-8b05-11b1909ed853")
 	)
 	(pad "8" smd rect
 		(at 7.75 4.31 180)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f83754cc-8751-420a-b219-94e7fcac8fc0")
 	)
 	(pad "9" smd rect
 		(at 7.75 1.77 180)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "baecffcf-0be7-4df2-b702-422c695efce4")
 	)
 	(pad "10" smd rect
 		(at 7.75 -0.77 180)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "13567ef8-601a-4c83-84a3-998a211b1b7e")
 	)
 	(pad "11" smd rect
 		(at 7.75 -3.31 180)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "edff5eb6-e021-4c3f-818c-a2d2bb8d65d6")
 	)
 	(pad "12" smd rect
 		(at 7.75 -5.85 180)
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ab9bad64-13fe-4bef-ad45-841d7408b227")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "98efd7af-8a55-41f9-bf54-01603ec924dd")
 		(hatch full 0.508)
@@ -310,7 +357,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -325,6 +371,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

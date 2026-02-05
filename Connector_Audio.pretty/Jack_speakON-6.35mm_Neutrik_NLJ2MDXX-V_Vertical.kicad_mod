@@ -1,7 +1,7 @@
 (footprint "Jack_speakON-6.35mm_Neutrik_NLJ2MDXX-V_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "speakON Combo, 2 pole combination of speakON socket and 6.35mm (1/4in) jack receptacle, vertical pcb mount, replaces NLJ2MD-V, https://www.neutrik.com/en/product/nlj2mdxx-v")
 	(tags "neutrik speakon combo")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -12.42 15.72)
 		(end -12.42 -8.52)
@@ -344,6 +345,10 @@
 		(size 1.6 1.6)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d2e78df1-b25e-47c9-b590-e382b25e9b1e")
 	)
 	(pad "" np_thru_hole circle
@@ -351,6 +356,10 @@
 		(size 1.6 1.6)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d7a12924-d337-457f-87e0-583fc730c690")
 	)
 	(pad "1+" thru_hole circle
@@ -359,6 +368,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2793da62-0c88-4517-a8ef-f1b5a84b96c5")
 	)
 	(pad "1-" thru_hole circle
@@ -367,6 +380,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4c779345-2b0f-48bf-8773-68a1f8dba082")
 	)
 	(embedded_fonts no)

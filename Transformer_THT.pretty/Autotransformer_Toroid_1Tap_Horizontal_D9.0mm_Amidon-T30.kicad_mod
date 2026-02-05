@@ -1,7 +1,7 @@
 (footprint "Autotransformer_Toroid_1Tap_Horizontal_D9.0mm_Amidon-T30"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Autotransformer, Toroid, horizontal, laying, 1 Tap, Diameter 9mm, Amidon T30,")
 	(tags "Autotransformer Toroid horizontal laying 1 Tap Diameter 9mm Amidon T30 ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 6.5 0)
 		(end 7.6 0.8)
@@ -258,6 +259,17 @@
 		(layer "F.Fab")
 		(uuid "f8087651-a170-4cf5-adb7-97e134fcb6eb")
 	)
+	(fp_text user "Start"
+		(at -2.1 -2.9 0)
+		(layer "F.Fab")
+		(uuid "cfda6fd7-a33a-426e-a7f8-f8d986d9ba5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 6.5 -2.75 0)
 		(layer "F.Fab")
@@ -280,23 +292,16 @@
 			)
 		)
 	)
-	(fp_text user "Start"
-		(at -2.1 -2.9 0)
-		(layer "F.Fab")
-		(uuid "cfda6fd7-a33a-426e-a7f8-f8d986d9ba5d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 3 3)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3db38db7-a286-444c-b676-19019b50a35a")
 	)
 	(pad "2" thru_hole circle
@@ -305,6 +310,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "aea40cd7-7b4c-48bd-8d9b-0fed1825d41b")
 	)
 	(pad "3" thru_hole circle
@@ -313,6 +322,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "efe1a42a-32d2-43c5-a5c7-d448a3ee13c7")
 	)
 	(embedded_fonts no)

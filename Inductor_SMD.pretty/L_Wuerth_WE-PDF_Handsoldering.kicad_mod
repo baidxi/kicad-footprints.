@@ -1,7 +1,7 @@
 (footprint "L_Wuerth_WE-PDF_Handsoldering"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Shielded Power Inductor, Wuerth Elektronik, WE-PDF, SMD, Handsoldering, https://katalog.we-online.de/pbs/datasheet/7447797022.pdf")
 	(tags "Choke Shielded Power Inductor WE-PDF Wuerth Handsoldering")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.2 -5.2)
 		(end 5.2 -5.2)
@@ -624,12 +625,20 @@
 		(at -5.1 0)
 		(size 4.4 3.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4edcf25a-d01e-44bf-8ed7-8d6e3d9f643d")
 	)
 	(pad "2" smd rect
 		(at 5.1 0)
 		(size 4.4 3.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "840f7cf2-c7ae-4e06-88ed-cde1031a48c7")
 	)
 	(embedded_fonts no)

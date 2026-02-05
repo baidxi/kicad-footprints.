@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Alps_RK09L_Double_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "1240015 1240019 12D0A1W 12D0A1T Potentiometer, vertical, Alps RK09L Double, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk09l/rk09l.pdf")
 	(tags "Potentiometer vertical Alps RK09L Double")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 3.38 -3.67)
 		(end 3.38 -0.871)
@@ -274,6 +275,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "99a05ca1-d969-45e2-86c4-d34da3051abd")
 	)
 	(pad "2" thru_hole circle
@@ -282,6 +287,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3bac6dfa-d7fe-489b-a1a7-7651495fe7fa")
 	)
 	(pad "3" thru_hole circle
@@ -290,6 +299,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0e561606-b992-42c4-aef5-458a512f6b6b")
 	)
 	(pad "4" thru_hole circle
@@ -298,6 +311,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "43fb1ad0-b982-4374-be37-b53c9d5c6c69")
 	)
 	(pad "5" thru_hole circle
@@ -306,6 +323,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2db468ce-74b6-4b8e-be3b-d954e0a4d82c")
 	)
 	(pad "6" thru_hole circle
@@ -314,6 +335,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "84f455f6-0e54-4bd9-8a21-565c54e63408")
 	)
 	(pad "MP" thru_hole roundrect
@@ -323,6 +348,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "60dd39b8-21f5-4094-b0e8-eb7921a73060")
 	)
 	(pad "MP" thru_hole roundrect
@@ -332,11 +361,13 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7e50628f-299a-426c-9253-e9120f8f7413")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "db4b3fd7-8808-4be0-88b9-faa4d762c095")
 		(name "Copper Keep Out")
@@ -345,7 +376,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -360,6 +390,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -368,8 +399,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "1399f001-fcc8-44ad-93cd-45f556537d9b")
 		(name "Copper Keep Out")
@@ -378,7 +407,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -393,6 +421,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

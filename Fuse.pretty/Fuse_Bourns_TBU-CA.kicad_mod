@@ -1,7 +1,7 @@
 (footprint "Fuse_Bourns_TBU-CA"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Bourns TBU-CA Fuse, 2 Pin (https://www.bourns.com/data/global/pdfs/TBU-CA.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
 	(tags "Bourns Fuse NoLead")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.25 2.11)
 		(end 3.25 2.11)
@@ -192,12 +193,20 @@
 		(size 2 3.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a043ac45-83ed-4afa-99e3-f7963fdbea40")
 	)
 	(pad "2" smd rect
 		(at 0 0)
 		(size 0.8 3.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "143d3a93-a539-4441-8453-47ed7a50f3b7")
 	)
 	(pad "3" smd roundrect
@@ -205,6 +214,10 @@
 		(size 2 3.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "da1faf44-32ce-4c73-9b4f-15f2707f69bf")
 	)
 	(embedded_fonts no)

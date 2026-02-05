@@ -1,7 +1,7 @@
 (footprint "D_SOD-128"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "D_SOD-128 (CFP5 SlimSMAW), https://assets.nexperia.com/documents/outline-drawing/SOD128.pdf")
 	(tags "D_SOD-128")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.16 -1.36)
 		(end -3.16 1.36)
@@ -250,6 +251,10 @@
 		(size 1.4 2.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1785714286)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6c979a5d-88e3-4895-9c93-bc369e8994b3")
 	)
 	(pad "2" smd roundrect
@@ -257,6 +262,10 @@
 		(size 1.4 2.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1785714286)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e1598ff1-9575-4ede-be78-f4817887dc53")
 	)
 	(embedded_fonts no)

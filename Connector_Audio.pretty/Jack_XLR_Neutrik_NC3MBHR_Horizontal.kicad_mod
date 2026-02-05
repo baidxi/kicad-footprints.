@@ -1,7 +1,7 @@
 (footprint "Jack_XLR_Neutrik_NC3MBHR_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "B Series, 3 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, steel retention lug, lateral right PCB mount, https://www.neutrik.com/en/product/nc3mbhr")
 	(tags "neutrik xlr b")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.54 -2.96)
 		(end -1.54 -1.19)
@@ -470,6 +471,10 @@
 		(size 1.2 1.2)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3486992d-d69f-4b7d-88e1-7e00a507cc27")
 	)
 	(pad "1" thru_hole circle
@@ -478,6 +483,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9e0af92f-1818-4b50-9b60-e1e0542eb096")
 	)
 	(pad "2" thru_hole circle
@@ -486,6 +495,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c0f14f73-438e-4253-9122-99466e5be939")
 	)
 	(pad "3" thru_hole circle
@@ -494,6 +507,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "318a996d-d096-4cd9-a0da-980e3aa277ee")
 	)
 	(pad "G" thru_hole circle
@@ -502,6 +519,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d3b4a91e-73e8-4522-b4f6-55bbacd43f37")
 	)
 	(embedded_fonts no)

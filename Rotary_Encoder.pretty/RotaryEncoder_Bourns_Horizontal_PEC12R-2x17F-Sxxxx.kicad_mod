@@ -1,7 +1,7 @@
 (footprint "RotaryEncoder_Bourns_Horizontal_PEC12R-2x17F-Sxxxx"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Bourns rotary encoder, PEC12R, with switch, horizontal shaft, 17mm shaft length, https://www.bourns.com/docs/product-datasheets/pec12r.pdf")
 	(tags "rotary encoder")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.7 -3.85)
 		(end -1.7 8.85)
@@ -662,6 +663,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1640419948)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6299edf1-531f-4b6f-958c-41e194ccd9c2")
 	)
 	(pad "B" thru_hole circle
@@ -670,6 +675,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "01741995-f689-4940-9a9d-3bac82dddf16")
 	)
 	(pad "C" thru_hole circle
@@ -678,6 +687,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "58d3bbc6-e1ff-4240-8d73-694fb8c24e69")
 	)
 	(pad "S1" thru_hole circle
@@ -686,6 +699,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c645cc1d-c2e3-4d7f-bbd7-9b58848ee114")
 	)
 	(pad "S2" thru_hole circle
@@ -694,6 +711,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "eb6028be-34b7-4a53-b24c-5b468f2871e1")
 	)
 	(pad "SH" thru_hole roundrect
@@ -705,6 +726,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a13dc5d0-ff2d-46a2-a3fe-ad4baec0f886")
 	)
 	(pad "SH" thru_hole roundrect
@@ -716,11 +741,13 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "57ac35dc-aed9-4e8c-9ae9-716f98755216")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "15df1269-855f-4dc1-953b-86ded7ac4a4f")
 		(name "Shell contact")
@@ -729,7 +756,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -744,6 +770,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -752,8 +779,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "f506ba46-e349-4307-8e57-8995a144dfc0")
 		(name "Shell contact")
@@ -762,7 +787,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -777,6 +801,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -785,8 +810,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "d16ae91d-fa2f-44dc-83b1-fdf5b0174236")
 		(name "Shell contact")
@@ -795,7 +818,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -810,6 +832,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -818,8 +841,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "027df58e-fbd5-42fa-aa6b-56494f79c4fc")
 		(name "Shell contact")
@@ -828,7 +849,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -843,6 +863,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

@@ -1,7 +1,7 @@
 (footprint "Filter_SAW-6_3.8x3.8mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "6-pin 3.8 x 3.8mm SAW filter package, https://www.golledge.com/media/3785/mp08167.pdf")
 	(tags "SAW filter 6-pin")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.2 2.1)
 		(end -2.2 1.35)
@@ -241,36 +242,60 @@
 		(at -0.9 -1.27)
 		(size 2.2 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "09830418-2688-4427-9d96-0bd17e604b39")
 	)
 	(pad "2" smd rect
 		(at -1.4 0)
 		(size 1.2 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9ec0d172-0f0b-4160-99a1-1a57e88a976b")
 	)
 	(pad "3" smd rect
 		(at -1.4 1.27)
 		(size 1.2 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "18a248a4-7b01-46ab-a456-fd65e9031186")
 	)
 	(pad "4" smd rect
 		(at 1.4 1.27)
 		(size 1.2 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "35295319-ce8b-4a03-b3f1-3081f75d47e1")
 	)
 	(pad "5" smd rect
 		(at 1.4 0)
 		(size 1.2 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3c7247b0-c32c-4430-a578-e5c9575bc899")
 	)
 	(pad "6" smd rect
 		(at 1.4 -1.27)
 		(size 1.2 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "84fe0e75-cc91-4f61-b277-2d84e86d4def")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Lightpipe_Mentor_1276.1004"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://www.mentor-bauelemente.de/katalog/ll/MENTOR-LL.pdf")
 	(tags "spherical light pipe 4 way 3mm PLCC-2 PLCC-4")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -17.35 -1.65)
 		(end -17.35 1.65)
@@ -685,6 +686,10 @@
 		(size 2.5 2.5)
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8215a2cc-9bd6-4f3f-8073-520e50d039f1")
 	)
 	(pad "" np_thru_hole circle
@@ -692,6 +697,10 @@
 		(size 2.5 2.5)
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ab9a7b5f-6ea6-4629-b584-31ca9c905a66")
 	)
 	(embedded_fonts no)

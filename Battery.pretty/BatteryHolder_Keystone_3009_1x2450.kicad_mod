@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Keystone_3009_1x2450"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "http://www.keyelco.com/product-pdf.cfm?p=787")
 	(tags "Keystone type 3009 coin cell retainer")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -12.85 -6.4)
 		(end -12.85 -1.9)
@@ -541,6 +542,10 @@
 		(drill 1.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f00068ed-1132-478f-a18f-6ec12e24647d")
 	)
 	(pad "1" thru_hole circle
@@ -549,12 +554,20 @@
 		(drill 1.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "77469923-d298-4f3a-bc14-a59eca75a1b3")
 	)
 	(pad "2" smd circle
 		(at 0 0)
 		(size 20 20)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "65fcd214-da6d-4e22-a73b-1c0427be6d6c")
 	)
 	(embedded_fonts no)

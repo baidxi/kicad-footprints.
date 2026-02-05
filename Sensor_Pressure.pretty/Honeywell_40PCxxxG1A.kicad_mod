@@ -1,7 +1,7 @@
 (footprint "Honeywell_40PCxxxG1A"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://www.honeywellscportal.com/index.php?ci_id=138832")
 	(tags "pressure sensor automotive honeywell")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.3 -3.6)
 		(end -5.3 -2.6)
@@ -541,6 +542,10 @@
 		(drill oval 1.5 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "32fd7e0f-6ec0-47bb-bdc0-184383b51068")
 	)
 	(pad "2" thru_hole oval
@@ -549,6 +554,10 @@
 		(drill oval 1.5 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "17118141-10d5-459e-a3aa-a279b7b6eb81")
 	)
 	(pad "3" thru_hole oval
@@ -557,6 +566,10 @@
 		(drill oval 1.5 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2c0ae4ae-4cef-45d6-8ccb-07354699342e")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Diodes_SIP-3_4.1x1.5mm_P2.65mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Diodes SIP-3 Ammo Pack, 2.65mm Pitch (https://www.diodes.com/assets/Package-Files/SIP-3-Ammo-Pack.pdf)")
 	(tags "Diodes SIP-3 Ammo Pack")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.96 -0.68)
 		(end 1.79 -0.68)
@@ -221,6 +222,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b7baa456-a4be-469f-8630-6756f119a9d4")
 	)
 	(pad "2" thru_hole circle
@@ -229,6 +234,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ec147569-3b56-4b64-a12d-55076e4f4eb8")
 	)
 	(pad "3" thru_hole circle
@@ -237,6 +246,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ff51d209-3060-4a38-9482-8cecac8de72d")
 	)
 	(embedded_fonts no)

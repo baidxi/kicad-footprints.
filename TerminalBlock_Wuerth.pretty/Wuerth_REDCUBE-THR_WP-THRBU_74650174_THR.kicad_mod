@@ -1,7 +1,7 @@
 (footprint "Wuerth_REDCUBE-THR_WP-THRBU_74650174_THR"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650174.pdf)")
 	(tags "screw terminal thread redcube thr power connector")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.7 1.2)
 		(end -3.7 -1.2)
@@ -189,24 +190,40 @@
 		(at -2.935 -2.935)
 		(size 3.1 3.1)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "05abba30-df8a-421f-bb4b-6fc819a58da5")
 	)
 	(pad "" smd circle
 		(at -2.935 2.935)
 		(size 3.1 3.1)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5d0946fe-c787-4826-850b-e8016d0b41aa")
 	)
 	(pad "" smd circle
 		(at 2.935 -2.935)
 		(size 3.1 3.1)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9836641b-2c7a-43e9-8011-872171c19691")
 	)
 	(pad "" smd circle
 		(at 2.935 2.935)
 		(size 3.1 3.1)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9aa5d8b3-a2b9-4b5d-a143-724d7e365f5d")
 	)
 	(pad "1" thru_hole circle
@@ -215,6 +232,10 @@
 		(drill 1.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c84142d2-ed0f-4fc8-ab0c-534d83571aea")
 	)
 	(pad "1" thru_hole circle
@@ -223,6 +244,10 @@
 		(drill 1.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b4f99a05-ab52-4b1c-9a50-2a1f18e20f49")
 	)
 	(pad "1" thru_hole circle
@@ -231,6 +256,10 @@
 		(drill 1.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "22995d13-e443-4c93-8991-732aa28e1928")
 	)
 	(pad "1" thru_hole circle
@@ -239,6 +268,10 @@
 		(drill 1.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "544c5268-7006-470c-a2b4-17e1af6b4f72")
 	)
 	(embedded_fonts no)

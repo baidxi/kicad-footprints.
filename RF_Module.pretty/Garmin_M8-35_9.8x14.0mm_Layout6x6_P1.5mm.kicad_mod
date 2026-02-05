@@ -1,7 +1,7 @@
 (footprint "Garmin_M8-35_9.8x14.0mm_Layout6x6_P1.5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "D52M ANT SoC Module https://www.thisisant.com/assets/resources/D00001687_D52_Module_Datasheet.v.2.3_(Garmin).pdf")
 	(tags "RF SoC Radio ANT Bluetooth BLE D52 nRF52 Garmin Canada Dynastream Nordic")
@@ -55,6 +55,7 @@
 	)
 	(solder_mask_margin 0.000001)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5 -7.1)
 		(end -5 7.1)
@@ -1897,10 +1898,10 @@
 		(layer "F.Fab")
 		(uuid "6a831e46-b4f5-4371-8300-d46d0fdd691b")
 	)
-	(fp_text user "KEEP-OUT"
-		(at 0 -4.4 0)
+	(fp_text user "COPPER"
+		(at 0 -6.1 0)
 		(layer "Cmts.User")
-		(uuid "d0758159-616c-4ba0-8de0-320616a1be64")
+		(uuid "e8e96084-d323-4ac0-b948-9ffb1b59bd12")
 		(effects
 			(font
 				(size 1 1)
@@ -1908,10 +1909,10 @@
 			)
 		)
 	)
-	(fp_text user "COPPER"
-		(at 0 -6.1 0)
+	(fp_text user "KEEP-OUT"
+		(at 0 -4.4 0)
 		(layer "Cmts.User")
-		(uuid "e8e96084-d323-4ac0-b948-9ffb1b59bd12")
+		(uuid "d0758159-616c-4ba0-8de0-320616a1be64")
 		(effects
 			(font
 				(size 1 1)
@@ -1934,215 +1935,353 @@
 		(at -2.25 -1.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3efd75c0-5b7a-41c4-ba14-67b96addfecd")
 	)
 	(pad "A3" smd circle
 		(at -0.75 -1.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d68d35c1-cd51-42e8-8aaf-c062affce594")
 	)
 	(pad "A4" smd circle
 		(at 0.75 -1.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b5684773-a776-46da-9c1b-b9071868af1d")
 	)
 	(pad "A5" smd circle
 		(at 2.25 -1.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cee90492-7bd5-4fe8-a4f6-22a839b5d12a")
 	)
 	(pad "A6" smd circle
 		(at 3.75 -1.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1cc02478-3987-4ed2-a923-0ee96e3bcd96")
 	)
 	(pad "B1" smd circle
 		(at -3.75 -0.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4eb978ca-86a1-4df9-86c0-a517c9f4e173")
 	)
 	(pad "B2" smd circle
 		(at -2.25 -0.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "240f2920-9b32-4ce2-9732-f92a16741609")
 	)
 	(pad "B3" smd circle
 		(at -0.75 -0.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cf74b280-7ae0-430c-ba6a-d4a2288605ce")
 	)
 	(pad "B4" smd circle
 		(at 0.75 -0.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6692a3c7-4742-46c5-96ff-4f6fc1b5a353")
 	)
 	(pad "B5" smd circle
 		(at 2.25 -0.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "751c3e89-9588-4837-b4cf-64b9bf6c740f")
 	)
 	(pad "B6" smd circle
 		(at 3.75 -0.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d8928454-35f3-4dfc-9844-7556cf8698bc")
 	)
 	(pad "C1" smd circle
 		(at -3.75 1.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9427233c-3eb2-4e0f-a3cd-627da2ee94b0")
 	)
 	(pad "C2" smd circle
 		(at -2.25 1.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e35f1f86-ff32-4743-ae28-2e380b5c4fbb")
 	)
 	(pad "C3" smd circle
 		(at -0.75 1.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fe9728b3-e526-419e-951b-05d801d21fdd")
 	)
 	(pad "C4" smd circle
 		(at 0.75 1.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c2253a9c-2415-4469-960f-c2bc3ebea7b3")
 	)
 	(pad "C5" smd circle
 		(at 2.25 1.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "90ec98de-f3ab-4c83-ab75-e40c84f8c39d")
 	)
 	(pad "C6" smd circle
 		(at 3.75 1.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7e59b5da-ba31-4527-9d93-48c498c12a44")
 	)
 	(pad "D1" smd circle
 		(at -3.75 2.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a5e864c9-840d-4d4f-9ec1-888c50b6dfd9")
 	)
 	(pad "D2" smd circle
 		(at -2.25 2.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a034834b-a00b-49c0-a188-59cae214d662")
 	)
 	(pad "D3" smd circle
 		(at -0.75 2.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6838538a-2616-4df2-be38-45f9af5eab09")
 	)
 	(pad "D4" smd circle
 		(at 0.75 2.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d8497117-d955-470f-97b1-924d9e951445")
 	)
 	(pad "D5" smd circle
 		(at 2.25 2.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "63c06e51-0011-4fcf-8df4-629193820389")
 	)
 	(pad "D6" smd circle
 		(at 3.75 2.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bc813ee5-6031-482b-b0b6-5181a2e7cc54")
 	)
 	(pad "E1" smd circle
 		(at -3.75 4.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1c404cf7-778e-466e-b345-6b8a082be3eb")
 	)
 	(pad "E2" smd circle
 		(at -2.25 4.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7e1b975f-bacf-4693-bbbb-430807bc5761")
 	)
 	(pad "E3" smd circle
 		(at -0.75 4.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7ec03a22-df76-4cc9-8bed-aa261649dd24")
 	)
 	(pad "E4" smd circle
 		(at 0.75 4.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c42bcdfa-2955-4433-b3ee-a6caf561852a")
 	)
 	(pad "E5" smd circle
 		(at 2.25 4.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e287289b-79cd-4690-a8b2-1f962717dd41")
 	)
 	(pad "E6" smd circle
 		(at 3.75 4.25)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f1e24e4a-93dd-4113-b836-a87a4e72651e")
 	)
 	(pad "F1" smd circle
 		(at -3.75 5.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "44a6eaca-d6f5-4900-92aa-862220a7d67a")
 	)
 	(pad "F2" smd circle
 		(at -2.25 5.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b801ba56-79a3-4992-b96f-73db1dcdd6c9")
 	)
 	(pad "F3" smd circle
 		(at -0.75 5.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "14fb9751-61ae-4b08-8870-bdf942329677")
 	)
 	(pad "F4" smd circle
 		(at 0.75 5.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a68f4e08-1c82-418a-87a0-402f5b6f6622")
 	)
 	(pad "F5" smd circle
 		(at 2.25 5.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2c40cfa7-94c4-497a-be43-22a9cbd81ce9")
 	)
 	(pad "F6" smd circle
 		(at 3.75 5.75)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0ddd3c4d-d50c-487f-bcb7-91dab99855bb")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
 			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
 			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
@@ -2155,7 +2294,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -2170,6 +2308,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

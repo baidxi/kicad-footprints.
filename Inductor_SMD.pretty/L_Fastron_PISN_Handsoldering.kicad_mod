@@ -1,7 +1,7 @@
 (footprint "L_Fastron_PISN_Handsoldering"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Choke, Drossel, PISN, SMD, Fastron,")
 	(tags "Choke Drossel PISN SMD Fastron ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.49 -2.29)
 		(end -6.49 -2.04)
@@ -504,12 +505,20 @@
 		(at 5.67 -0.01)
 		(size 4 3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9faca139-b432-4c63-aa2d-99fb3a40bdf5")
 	)
 	(pad "2" smd rect
 		(at -5.67 0.01)
 		(size 4 3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d0623d50-7bad-41dd-bed8-6cb20d295154")
 	)
 	(embedded_fonts no)

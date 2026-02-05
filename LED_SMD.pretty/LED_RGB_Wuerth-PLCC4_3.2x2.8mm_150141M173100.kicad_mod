@@ -1,7 +1,7 @@
 (footprint "LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "3.2mm x 2.8mm PLCC4 LED, https://www.we-online.de/katalog/datasheet/150141M173100.pdf")
 	(tags "LED RGB Wurth PLCC-4 3528")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.5 -1.2)
 		(end -2.1 -1.6)
@@ -232,24 +233,40 @@
 		(at 1.55 -0.7)
 		(size 1.5 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a775aea8-9ecf-4ab7-af9b-c6e26b1a9890")
 	)
 	(pad "2" smd rect
 		(at 1.55 0.7)
 		(size 1.5 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e1ff8a84-326e-40c7-93c4-893f47fdc1de")
 	)
 	(pad "3" smd rect
 		(at -1.55 -0.7)
 		(size 1.5 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8f37b20e-99d4-41aa-9589-9ab8b6d862a6")
 	)
 	(pad "4" smd rect
 		(at -1.55 0.7)
 		(size 1.5 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "201e05f2-1b6c-4282-a81c-b348fa1b24d9")
 	)
 	(embedded_fonts no)

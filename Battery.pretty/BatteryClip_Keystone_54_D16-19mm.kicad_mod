@@ -1,7 +1,7 @@
 (footprint "BatteryClip_Keystone_54_D16-19mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826")
 	(tags "battery clip 18650 18350 17350 CR123A 2/3A")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.78 -4.6)
 		(end -3.78 4.6)
@@ -264,6 +265,10 @@
 		(drill 1.8288)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ddae2572-061a-4a62-8c41-ea5e4b6237a5")
 	)
 	(pad "1" thru_hole circle
@@ -272,6 +277,10 @@
 		(drill 1.8288)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "211a1e9f-ad4f-4367-891d-2fb8f2c28c24")
 	)
 	(pad "1" thru_hole circle
@@ -280,6 +289,10 @@
 		(drill 1.8288)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "999b0ac4-ed5b-4f6f-8fae-ac3c292c2ba5")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Relay_StandexMeder_UMS"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Standex-Meder SIL-relais, UMS, see http://cdn-reichelt.de/documents/datenblatt/C300/UMS05_1A80_75L_DB.pdf")
 	(tags "Standex Meder SIL reed relais")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.4 -2.05)
 		(end -0.55 -2.05)
@@ -221,6 +222,10 @@
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c4553b80-2543-4d2d-b3de-40f8cddf74b2")
 	)
 	(pad "2" thru_hole circle
@@ -229,6 +234,10 @@
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "abb9faf1-5a92-4fb4-8f3f-a57bef518869")
 	)
 	(pad "3" thru_hole circle
@@ -237,6 +246,10 @@
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3dbf1d58-992b-4c5a-ac39-4a2b97a733fb")
 	)
 	(pad "4" thru_hole circle
@@ -245,6 +258,10 @@
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bcc8a41b-f322-4b3e-9ba9-6088ecbc1ce0")
 	)
 	(embedded_fonts no)

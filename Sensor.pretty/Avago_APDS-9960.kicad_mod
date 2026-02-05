@@ -1,7 +1,7 @@
 (footprint "Avago_APDS-9960"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Digital Proximity, Ambient Light, RGB and Gesture Sensor (https://docs.broadcom.com/doc/AV02-4191EN)")
 	(tags "DFN Sensor optical IR")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.97 -1.29)
 		(end 1.97 -1.29)
@@ -181,11 +182,11 @@
 		(layer "F.Fab")
 		(uuid "f18ec6ea-fd9d-45b7-902b-4e5ba4291579")
 	)
-	(fp_text user "D"
-		(at -0.92 0 90)
+	(fp_text user "U"
+		(at -1.62 0 90)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "1d052412-811d-4384-b62d-b10970534fb5")
+		(uuid "98ff4f6d-a60b-43b0-818a-c3cd573da89f")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -217,11 +218,11 @@
 			)
 		)
 	)
-	(fp_text user "U"
-		(at -1.62 0 90)
+	(fp_text user "D"
+		(at -0.92 0 90)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "98ff4f6d-a60b-43b0-818a-c3cd573da89f")
+		(uuid "1d052412-811d-4384-b62d-b10970534fb5")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -257,48 +258,80 @@
 		(at -1.455 -0.7)
 		(size 0.72 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "50388c76-7fb0-4ded-b3e5-1a78f21f780c")
 	)
 	(pad "2" smd rect
 		(at -0.485 -0.7)
 		(size 0.72 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f0738706-c796-477a-8098-faf24ebd9ee8")
 	)
 	(pad "3" smd rect
 		(at 0.485 -0.7)
 		(size 0.72 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "983fab00-d7e8-42b7-9f62-b060734280f0")
 	)
 	(pad "4" smd rect
 		(at 1.455 -0.7)
 		(size 0.72 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "53d4b768-45c3-4e3f-9f0c-ccbff693339c")
 	)
 	(pad "5" smd rect
 		(at 1.455 0.7)
 		(size 0.72 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "98b26d3a-a9e5-41cd-9a09-9bc93ea8d42f")
 	)
 	(pad "6" smd rect
 		(at 0.485 0.7)
 		(size 0.72 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "df39d976-3d45-4cd3-8748-0690ce2ec925")
 	)
 	(pad "7" smd rect
 		(at -0.485 0.7)
 		(size 0.72 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0742f4de-bcd6-4982-93fd-930d4397423e")
 	)
 	(pad "8" smd rect
 		(at -1.455 0.7)
 		(size 0.72 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c0fbba2a-082a-46ad-a3b5-ebceada24fac")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Banana_Jack_3Pin"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Triple banana socket, footprint - 3 x 6mm drills")
 	(tags "banana socket")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0 5.25)
 		(end 30 5.25)
@@ -221,6 +222,10 @@
 		(drill 6.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2e8239f8-7afd-4bbc-b05b-f9822787c902")
 	)
 	(pad "2" thru_hole circle
@@ -229,6 +234,10 @@
 		(drill 6.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "395a5163-a060-40c9-bff1-133d25874e92")
 	)
 	(pad "3" thru_hole circle
@@ -237,6 +246,10 @@
 		(drill 6.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "710947d5-297f-4e40-ad5a-3b0c3aeea11a")
 	)
 	(embedded_fonts no)

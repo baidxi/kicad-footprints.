@@ -1,7 +1,7 @@
 (footprint "L_Sagami_CWR1242C"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Sagami power inductor, CWR1242C, H=4.5mm (http://www.sagami-elec.co.jp/file/16Car_SMDCwr.pdf)")
 	(tags "inductor sagami cwr12xx smd")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.17 -4.61)
 		(end -6.17 -2)
@@ -330,24 +331,40 @@
 		(at -5.35 0)
 		(size 2.5 3.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a7bfa4d0-5993-4be2-b847-b15d276eeb4c")
 	)
 	(pad "1" smd rect
 		(at 0 5.35)
 		(size 3.6 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f5ec770f-4fc5-45a1-9315-4e8aac094d29")
 	)
 	(pad "2" smd rect
 		(at 0 -5.35)
 		(size 3.6 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "18d4b63d-b86c-4e69-a346-c84405d908ea")
 	)
 	(pad "2" smd rect
 		(at 5.35 0)
 		(size 2.5 3.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8806915f-510b-4266-af28-be835de0de16")
 	)
 	(embedded_fonts no)

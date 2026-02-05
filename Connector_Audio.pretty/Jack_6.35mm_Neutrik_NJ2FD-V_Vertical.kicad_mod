@@ -1,7 +1,7 @@
 (footprint "Jack_6.35mm_Neutrik_NJ2FD-V_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "6.35mm (1/4 in) Vertical Jack, Non-switching mono jack (T/S), https://www.neutrik.com/en/product/nj2fd-v")
 	(tags "neutrik jack vertical")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.52 -1.9)
 		(end -6.52 4.42)
@@ -313,6 +314,10 @@
 		(size 1.6 1.6)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c07670ca-6415-4ce6-b806-1660bc5c56dd")
 	)
 	(pad "" np_thru_hole circle
@@ -320,6 +325,10 @@
 		(size 2.1 2.1)
 		(drill 2.1)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5e219948-8022-4936-aa3c-0a2c0c29fc32")
 	)
 	(pad "S" thru_hole circle
@@ -328,6 +337,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "626f5d9c-f7fd-49ae-a8c7-9c95f4bc0caa")
 	)
 	(pad "T" thru_hole circle
@@ -336,6 +349,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "459b6d9a-cc08-4799-a0fc-df2e03fb8e8c")
 	)
 	(embedded_fonts no)

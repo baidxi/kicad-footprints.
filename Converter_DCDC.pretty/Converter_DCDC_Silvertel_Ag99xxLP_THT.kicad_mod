@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Silvertel_Ag99xxLP_THT"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Converter, DCDC, Silvertel Ag9900 PoE, 1500VDC isolation, Vin 36V - 75V, 4.9W - 10W output, https://silvertel.com/images/datasheets/Ag9900M-datasheet-ultra-miniature-isolated-Power-over-Ethernet-POE-module.pdf")
 	(tags "DCDC converter IEEE 802.3af")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.68 -1.67)
 		(end -1.68 0.78)
@@ -242,6 +243,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.125)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7f3eb118-a20c-4239-b800-c9211c66847d")
 	)
 	(pad "2" thru_hole circle
@@ -250,6 +255,10 @@
 		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "213a2af1-412b-47f4-ab3b-c5f43b6be7a6")
 	)
 	(pad "3" thru_hole circle
@@ -258,6 +267,10 @@
 		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d2de4093-1fc2-4bc1-94b6-4d0fe3426c6f")
 	)
 	(pad "4" thru_hole circle
@@ -266,6 +279,10 @@
 		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "43891a3c-749f-498d-ba99-685a27689b0d")
 	)
 	(pad "5" thru_hole circle
@@ -274,6 +291,10 @@
 		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cbc539d2-6a10-4052-9b7a-f10326dcac67")
 	)
 	(pad "6" thru_hole circle
@@ -282,6 +303,10 @@
 		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "909b030b-fa1a-4fe8-b1ee-422b4d9e23cf")
 	)
 	(pad "7" thru_hole circle
@@ -290,6 +315,10 @@
 		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "936e2ca6-11ae-4f42-9128-52bb329f3d21")
 	)
 	(pad "8" thru_hole circle
@@ -298,11 +327,13 @@
 		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ebadd2a5-21ab-4a7e-b5bc-6f737367e560")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "Dwgs.User")
 		(uuid "dccc48b3-d92e-433f-938c-a63934107a05")
 		(name "Underside")
@@ -311,7 +342,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -326,6 +356,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

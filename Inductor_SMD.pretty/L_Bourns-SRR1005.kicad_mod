@@ -1,7 +1,7 @@
 (footprint "L_Bourns-SRR1005"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Bourns SRR1005 series SMD inductor")
 	(tags "Bourns SRR1005 SMD inductor")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.6 -2.65)
 		(end -6.6 -1.7)
@@ -280,12 +281,20 @@
 		(at -5.15 0)
 		(size 3 2.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b2a73fa7-76d7-4a8f-983b-8c91ea8f78f7")
 	)
 	(pad "2" smd rect
 		(at 5.15 0)
 		(size 3 2.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b8881a0e-6ae5-40fb-bb23-1b354547a81b")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "DX_5R5VxxxxU_D19.0mm_P5.00mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=19mm, Supercapacitor, http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/dx_e.pdf")
 	(tags "CP Radial series Radial pin pitch 5.00mm diameter 19mm supercapacitor")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9.61 0.14)
 		(end -9.61 4.86)
@@ -331,6 +332,10 @@
 		(drill oval 1.5 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "53254f19-5d74-4586-a69f-e5fb17882014")
 	)
 	(pad "2" thru_hole oval
@@ -339,6 +344,10 @@
 		(drill oval 1.5 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "eb953d6d-ea94-4f58-be9e-dd746f167bde")
 	)
 	(embedded_fonts no)

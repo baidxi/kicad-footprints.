@@ -1,7 +1,7 @@
 (footprint "SW_SPST_B3U-1100P-B"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, with Ground Terminal, with Boss")
 	(tags "Tactile Switch")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.65 -2.22)
 		(end 1.65 -2.22)
@@ -271,24 +272,40 @@
 		(size 0.8 0.8)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "71e87f1a-2bbd-487b-8ac7-734f25dbb6dd")
 	)
 	(pad "1" smd rect
 		(at -1.7 -0.82)
 		(size 0.9 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "41062845-8ee9-4ae4-994e-c0aad228941c")
 	)
 	(pad "2" smd rect
 		(at 1.7 -0.82)
 		(size 0.9 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fe3e8b19-81da-4400-9c1a-e43480e268fb")
 	)
 	(pad "3" smd rect
 		(at 0 0.82)
 		(size 0.8 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f8a55c1f-6010-4acc-b9c1-ecf75d25668f")
 	)
 	(embedded_fonts no)

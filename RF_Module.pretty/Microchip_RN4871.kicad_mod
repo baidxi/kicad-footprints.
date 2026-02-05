@@ -1,7 +1,7 @@
 (footprint "Microchip_RN4871"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Microchip RN4871 footprint")
 	(tags "RN4871 BLE")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -4.7 -4.1) (xy -5.2 -4.1) (xy -4.7 -4.6) (xy -4.7 -4.1)
@@ -147,6 +148,17 @@
 		(uuid "5af8c5cc-fa59-4b4d-af1c-b015149cd992")
 	)
 	(fp_text user "KEEP-OUT ZONE"
+		(at -2.575 -2.5 90)
+		(layer "Cmts.User")
+		(uuid "97d27967-ba72-4789-9009-2daf70499c69")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "KEEP-OUT ZONE"
 		(at 0 -7.3 0)
 		(layer "Cmts.User")
 		(uuid "2158a9c6-95b8-4ec2-834a-bbe07aa6c0a0")
@@ -154,6 +166,17 @@
 			(font
 				(size 0.5 0.5)
 				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "No Metal, No Traces, Components"
+		(at 0 -6.2 0)
+		(layer "Cmts.User")
+		(uuid "a6032f96-bd1e-4a99-ad4b-516bfbe306fb")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.05)
 			)
 		)
 	)
@@ -169,31 +192,9 @@
 		)
 	)
 	(fp_text user "KEEP-OUT ZONE"
-		(at -2.575 -2.5 90)
-		(layer "Cmts.User")
-		(uuid "97d27967-ba72-4789-9009-2daf70499c69")
-		(effects
-			(font
-				(size 0.25 0.25)
-				(thickness 0.05)
-			)
-		)
-	)
-	(fp_text user "KEEP-OUT ZONE"
 		(at 1.825 -0.825 90)
 		(layer "Cmts.User")
 		(uuid "9f07ddc9-48ab-4888-a821-eda45ea4b99f")
-		(effects
-			(font
-				(size 0.25 0.25)
-				(thickness 0.05)
-			)
-		)
-	)
-	(fp_text user "No Metal, No Traces, Components"
-		(at 0 -6.2 0)
-		(layer "Cmts.User")
-		(uuid "a6032f96-bd1e-4a99-ad4b-516bfbe306fb")
 		(effects
 			(font
 				(size 0.25 0.25)
@@ -216,101 +217,163 @@
 		(at -4.35 -3.45 90)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "966ea784-1f14-4356-af65-59c41a9b81ea")
 	)
 	(pad "2" smd rect
 		(at -4.35 -2.25 90)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e08ec44e-ccd8-4025-814c-61dfde2aae7b")
 	)
 	(pad "3" smd rect
 		(at -4.35 -1.05 90)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0166cf9b-8d4e-4309-b276-df155c8eef98")
 	)
 	(pad "4" smd rect
 		(at -4.35 0.15 90)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4b4df23d-1d6d-4013-9921-acb327d392ea")
 	)
 	(pad "5" smd rect
 		(at -4.35 1.35 90)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4febdabb-e8a8-4e00-9f19-f5b3b257f222")
 	)
 	(pad "6" smd rect
 		(at -3 3.05)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "35a4a330-cf0a-48f0-9dd2-d1be62d74e54")
 	)
 	(pad "7" smd rect
 		(at -1.8 3.05)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "08ca46bb-8ca1-4388-8d28-9af2294513ab")
 	)
 	(pad "8" smd rect
 		(at -0.6 3.05)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "33ac44c3-6c7d-47b8-9f66-f7b721bf29fa")
 	)
 	(pad "9" smd rect
 		(at 0.6 3.05)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d238bfb3-6fac-494e-8bf8-b8a9580aad5c")
 	)
 	(pad "10" smd rect
 		(at 1.8 3.05)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bd258088-81ab-45a9-9964-6d8ce13bb184")
 	)
 	(pad "11" smd rect
 		(at 3 3.05)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "019ea70f-695c-415c-bde5-3af32b94edba")
 	)
 	(pad "12" smd rect
 		(at 4.35 1.35 90)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9caadaab-0fcc-4a00-b0f9-a0bad635f380")
 	)
 	(pad "13" smd rect
 		(at 4.35 0.15 90)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cf768fbf-951a-43d4-a692-e53285665e20")
 	)
 	(pad "14" smd rect
 		(at 4.35 -1.05 90)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "284e650a-809f-45d8-920d-19343fe8bf81")
 	)
 	(pad "15" smd rect
 		(at 4.35 -2.3 90)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "491fc85a-642a-46cc-9ec2-28cc7eb5cf8b")
 	)
 	(pad "16" smd rect
 		(at 4.35 -3.45 90)
 		(size 0.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "868a1f52-a571-4ec8-b4aa-00ec886bf8c9")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "3016f82c-f9ba-4261-b0a3-5308a5a478cd")
 		(hatch full 0.508)
@@ -318,7 +381,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -333,6 +395,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -341,8 +404,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "19cbda20-8968-4c35-923e-40ce69eb2c34")
 		(hatch full 0.508)
@@ -350,7 +411,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -365,6 +425,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -373,8 +434,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
 			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
 			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
@@ -387,7 +446,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -402,6 +460,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

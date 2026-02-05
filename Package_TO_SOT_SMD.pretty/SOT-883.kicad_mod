@@ -1,7 +1,7 @@
 (footprint "SOT-883"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SOT-883, https://assets.nexperia.com/documents/outline-drawing/SOT883.pdf")
 	(tags "SOT-883")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.81 -0.61)
 		(end 0.35 -0.61)
@@ -190,6 +191,10 @@
 		(size 0.4 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3c4a8723-f4d7-44d1-a581-eb470f16ec58")
 	)
 	(pad "2" smd roundrect
@@ -197,6 +202,10 @@
 		(size 0.4 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6f08405d-cafe-436e-9381-fe822f621bf0")
 	)
 	(pad "3" smd roundrect
@@ -204,6 +213,10 @@
 		(size 0.4 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6b829d23-9a82-4500-ad5c-b9ea75bbecb4")
 	)
 	(embedded_fonts no)

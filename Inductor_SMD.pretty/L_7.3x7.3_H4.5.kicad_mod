@@ -1,7 +1,7 @@
 (footprint "L_7.3x7.3_H4.5"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Choke, SMD, 7.3x7.3mm 4.5mm height")
 	(tags "Choke SMD")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.7 -3.7)
 		(end 3.7 -3.7)
@@ -251,12 +252,20 @@
 		(at -3.2 0)
 		(size 1.5 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1b1681b1-0a20-4015-85ab-c8c526c2da7d")
 	)
 	(pad "2" smd rect
 		(at 3.2 0)
 		(size 1.5 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6e9b81ce-5be7-41fa-82a4-93942212e7ac")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "L_Neosid_Air-Coil_SML_3turn_HAM0331A"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Neosid, Air-Coil, SML, 2turn, HAM0331A,")
 	(tags "Neosid Air-Coil SML 3turn HAM0331A")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.9 -0.7)
 		(end -0.3 0.7)
@@ -289,12 +290,20 @@
 		(at -0.9 2.45)
 		(size 0.6 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fc32f8d1-70d8-4b8b-8993-d77c4f1188e5")
 	)
 	(pad "2" smd rect
 		(at 0.9 -2.45)
 		(size 0.6 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "09d39e9b-bb49-4103-8600-ba5dceb6f1b1")
 	)
 	(embedded_fonts no)

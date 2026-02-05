@@ -1,7 +1,7 @@
 (footprint "L_TDK_NLV32_3.2x2.5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "TDK NLV32, 3.2x2.5x2.2mm, https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_standard_nlv32-ef_en.pdf")
 	(tags "tdk nlv32 nlcv32 nlfv32")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.6 -1.36)
 		(end 1.6 -1.36)
@@ -169,12 +170,20 @@
 		(at -1.6 0)
 		(size 1.2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "34da4ef8-79fa-49b3-bde8-0d10f049ecd5")
 	)
 	(pad "2" smd rect
 		(at 1.6 0)
 		(size 1.2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "370effed-e624-49a5-8981-c07e9fc03e0e")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "SW_SPST_B3U-3000P"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Side-actuated Model, without Ground Terminal, without Boss")
 	(tags "Tactile Switch")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.65 -1.4)
 		(end 1.65 -1.4)
@@ -349,12 +350,20 @@
 		(at -1.7 0)
 		(size 0.9 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bebaa3af-4334-4aa0-97a8-3187b9f162f9")
 	)
 	(pad "2" smd rect
 		(at 1.7 0)
 		(size 0.9 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b745190b-fca3-45f5-8cad-6d4e805c0330")
 	)
 	(embedded_fonts no)

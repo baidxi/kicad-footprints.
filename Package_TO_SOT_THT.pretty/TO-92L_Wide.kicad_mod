@@ -1,7 +1,7 @@
 (footprint "TO-92L_Wide"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 	(tags "TO-92L Molded Wide transistor")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.6 1.7)
 		(end 4.45 1.7)
@@ -241,6 +242,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9ce890ea-fbc7-4077-8671-d4711498d995")
 	)
 	(pad "2" thru_hole circle
@@ -249,6 +254,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0e6d31db-291f-4c6c-ac63-4f2c4a91905c")
 	)
 	(pad "3" thru_hole circle
@@ -257,6 +266,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "894c3f7a-8ec7-4800-8913-bd79f4e90166")
 	)
 	(embedded_fonts no)

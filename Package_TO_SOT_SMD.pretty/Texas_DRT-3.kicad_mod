@@ -1,7 +1,7 @@
 (footprint "Texas_DRT-3"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Texas Instrument DRT-3 1x0.8mm Pitch 0.7mm http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf")
 	(tags "DRT-3 1x0.8mm Pitch 0.7mm")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.65 -0.55)
 		(end -0.45 -0.55)
@@ -212,6 +213,10 @@
 		(size 0.3 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1aefdb81-9413-42a4-9868-e8ff83005f9b")
 	)
 	(pad "2" smd roundrect
@@ -219,6 +224,10 @@
 		(size 0.3 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "516f88ee-d7f6-4c22-95cb-ea4341556b08")
 	)
 	(pad "3" smd roundrect
@@ -226,6 +235,10 @@
 		(size 0.3 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "37e5cfe5-e6e4-46de-a9e4-1fec02bd2212")
 	)
 	(embedded_fonts no)

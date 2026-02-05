@@ -1,7 +1,7 @@
 (footprint "L_Wurth_WE-LQSH-2512"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Semi-Shielded High Saturation Power Inductor, body 2.5x2mm, https://www.we-online.com/catalog/en/WE-LQSH#/articles/WE-LQSH-2512")
 	(tags "SMT")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.25 1.26)
 		(end 1.25 1.26)
@@ -153,12 +154,20 @@
 		(at -0.875 0)
 		(size 0.95 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b0651a18-f829-4954-8869-32bff50db4c5")
 	)
 	(pad "2" smd rect
 		(at 0.875 0)
 		(size 0.95 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ef536099-a2bc-4645-b7fd-fb6c3e07f94f")
 	)
 	(embedded_fonts no)

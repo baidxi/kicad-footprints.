@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Round_D9.8mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "4-lead round diode bridge package, diameter 9.8mm, pin pitch 5.08mm, see http://www.vishay.com/docs/88769/woo5g.pdf")
 	(tags "diode bridge 9.8mm WOG pitch 5.08mm")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.524 -0.381)
 		(end -1.524 5.461)
@@ -153,6 +154,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cc7c89ef-2c99-470c-a91e-cd12c007c58d")
 	)
 	(pad "2" thru_hole oval
@@ -161,6 +166,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dc3baba0-a229-4f16-8baf-b7b2bf558e14")
 	)
 	(pad "3" thru_hole oval
@@ -169,6 +178,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "942263fb-d3aa-4f42-97ca-09d521e149b2")
 	)
 	(pad "4" thru_hole oval
@@ -177,6 +190,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9ba9b03d-8634-4a2b-b68e-dbcb4ad5c39c")
 	)
 	(embedded_fonts no)

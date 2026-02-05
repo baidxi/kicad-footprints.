@@ -1,7 +1,7 @@
 (footprint "L_Sumida_CDMC6D28_7.25x6.5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SMD Power Inductor (http://products.sumida.com/products/pdf/CDMC6D28.pdf)")
 	(tags "Inductor Sumida SMD CDMC6D28")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.36 -1.9)
 		(end -3.36 -2.75)
@@ -377,12 +378,20 @@
 		(at -2.85 0)
 		(size 2 3.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5838e2b3-ff82-446d-a560-2523ffef060b")
 	)
 	(pad "2" smd rect
 		(at 2.85 0)
 		(size 2 3.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e8afcdeb-37d8-4cff-8d64-ec10aa6c813c")
 	)
 	(embedded_fonts no)

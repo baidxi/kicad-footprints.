@@ -1,7 +1,7 @@
 (footprint "Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm body, exposed pad, thermal vias, http://www.ti.com/lit/ds/symlink/drv8870.pdf")
 	(tags "HTSOP 1.27")
@@ -55,6 +55,7 @@
 	)
 	(solder_mask_margin 0.07)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.075 -2.575)
 		(end 2.075 -2.575)
@@ -192,60 +193,100 @@
 		(at 0 0)
 		(size 2.4 3.1)
 		(layers "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d092c425-6b9f-4ffb-b692-b3fce1a78456")
 	)
 	(pad "" smd rect
 		(at 0 0)
 		(size 2.4 3.1)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "64f04556-0088-415d-8f25-4b4e089a0f3b")
 	)
 	(pad "1" smd rect
 		(at -2.875 -1.905)
 		(size 2.2 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b232961f-3da5-406d-b7d4-41f8b84cc335")
 	)
 	(pad "2" smd rect
 		(at -2.875 -0.635)
 		(size 2.2 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "23e4cf06-92c5-4186-aa81-8c4ab51c3dfd")
 	)
 	(pad "3" smd rect
 		(at -2.875 0.635)
 		(size 2.2 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "45d80250-fb4d-49bd-ba4c-ddac71d6bfdc")
 	)
 	(pad "4" smd rect
 		(at -2.875 1.905)
 		(size 2.2 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3d3fb2d3-8c17-4c67-9720-dbcd8c6d99c1")
 	)
 	(pad "5" smd rect
 		(at 2.875 1.905)
 		(size 2.2 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "16a3c4fe-9bd2-47f0-b2ac-9f8270097d2c")
 	)
 	(pad "6" smd rect
 		(at 2.875 0.635)
 		(size 2.2 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bb9448a1-9224-4880-9bb8-298f72ae7e01")
 	)
 	(pad "7" smd rect
 		(at 2.875 -0.635)
 		(size 2.2 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5b528bc2-cb08-4ad0-811e-60b37b53cce5")
 	)
 	(pad "8" smd rect
 		(at 2.875 -1.905)
 		(size 2.2 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "98cb4be0-065c-4d2a-b0d2-afa0efc8b29d")
 	)
 	(pad "9" thru_hole circle
@@ -254,6 +295,10 @@
 		(drill 0.33)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b31fea0b-f024-4a2e-9acd-e0f611012dbb")
 	)
 	(pad "9" thru_hole circle
@@ -262,6 +307,10 @@
 		(drill 0.33)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "05c248bd-d914-44d4-b7c1-7d6abe31035e")
 	)
 	(pad "9" thru_hole circle
@@ -270,18 +319,30 @@
 		(drill 0.33)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ed5b07cc-fda5-4f7c-b195-a4b0ce5eadfc")
 	)
 	(pad "9" smd rect
 		(at 0 0)
 		(size 2.6 3.3)
 		(layers "B.Cu")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cdb6c5be-6eab-4c5f-8b69-8c792669c161")
 	)
 	(pad "9" smd rect
 		(at 0 0)
 		(size 2.95 4.9)
 		(layers "F.Cu")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ddc1cd49-8b63-45bc-b989-638c25b960cf")
 	)
 	(pad "9" thru_hole circle
@@ -290,6 +351,10 @@
 		(drill 0.33)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7712dc25-0eee-4f40-9a2b-9bb8d3fd92d6")
 	)
 	(pad "9" thru_hole circle
@@ -298,6 +363,10 @@
 		(drill 0.33)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a83c1e9c-a6df-4a80-96cc-1fc6f8fa665c")
 	)
 	(pad "9" thru_hole circle
@@ -306,6 +375,10 @@
 		(drill 0.33)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a0a260d2-3c99-4e48-a300-9ce9f8e5ca27")
 	)
 	(embedded_fonts no)

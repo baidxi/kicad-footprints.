@@ -1,7 +1,7 @@
 (footprint "D_SMF"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Diode SMF (DO-219AB), http://www.vishay.com/docs/95572/smf_do-219ab.pdf")
 	(tags "Diode SMF (DO-214AB)")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.36 -1.01)
 		(end -2.36 1.01)
@@ -240,6 +241,10 @@
 		(size 1.3 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "79f1af61-a105-4672-9791-143ee2bc4f4e")
 	)
 	(pad "2" smd roundrect
@@ -247,6 +252,10 @@
 		(size 1.3 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a8350f57-0534-4a70-8189-1f55dd37bad0")
 	)
 	(embedded_fonts no)

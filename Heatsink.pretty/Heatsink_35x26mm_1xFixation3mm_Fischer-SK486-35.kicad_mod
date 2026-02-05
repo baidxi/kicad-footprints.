@@ -1,7 +1,7 @@
 (footprint "Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35")
 	(tags "heatsink")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -26.17 -13.04)
 		(end -26.17 13.2)
@@ -191,6 +192,10 @@
 		(drill 3.0988)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b90671c9-9bc8-4723-b583-7ab7c518475e")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "LED_LiteOn_LTST-C295K_1.6x0.8mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Topview dual http://optoelectronics.liteon.com/upload/download/DS22-2009-0072/LTST-C295KGKRKT.PDF")
 	(tags "SMD Top view Dual colour")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.1 -0.8)
 		(end -0.75 -0.8)
@@ -222,24 +223,40 @@
 		(at -0.6 -0.35 90)
 		(size 0.4 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ebe668ee-c2ae-4f0d-b512-9055f2104b26")
 	)
 	(pad "2" smd rect
 		(at -0.6 0.35 90)
 		(size 0.4 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e0548805-85d9-474b-80be-54e54554d7d1")
 	)
 	(pad "3" smd rect
 		(at 0.6 -0.35 90)
 		(size 0.4 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f00b3084-0e80-4ec3-a8bf-5f1ebcf374f0")
 	)
 	(pad "4" smd rect
 		(at 0.6 0.35 90)
 		(size 0.4 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c3227b9b-92e0-4681-91e6-1523723af8a8")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "RF_Attenuator_Susumu_PAT1220"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "http://www.susumu-usa.com/pdf/Foot_Print_38.pdf, https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf")
 	(tags "2mm 1.2mm")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -1.41 -1.09) (xy -1.69 -1.09) (xy -1.41 -1.37) (xy -1.41 -1.09)
@@ -171,18 +172,30 @@
 		(at -0.75 -0.6)
 		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "20f663a7-00c0-4241-b3e4-6123b147efb9")
 	)
 	(pad "2" smd rect
 		(at 0.75 -0.6)
 		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2451025b-747e-4906-b960-7f49cf54a6f8")
 	)
 	(pad "3" smd rect
 		(at 0 0.6)
 		(size 2.3 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "446f70ec-d850-435d-8e3b-3af0838d46a6")
 	)
 	(embedded_fonts no)

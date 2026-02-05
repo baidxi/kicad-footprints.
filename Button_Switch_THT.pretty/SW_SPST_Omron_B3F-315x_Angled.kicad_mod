@@ -1,7 +1,7 @@
 (footprint "SW_SPST_Omron_B3F-315x_Angled"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "tactile switch, 7.3mm x 6.25mm  x 7.4mm, right angle, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf")
 	(tags "tactile switch Omron B3F right angle through hole")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.52 -2.37)
 		(end -1.52 1.08)
@@ -465,6 +466,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9586d554-520e-417a-9ba1-0083e3736570")
 	)
 	(pad "" thru_hole circle
@@ -473,6 +478,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "54060dee-e242-4799-9d35-0f86cd1c8923")
 	)
 	(pad "1" thru_hole circle
@@ -481,6 +490,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a38f733d-803e-4adf-b803-96f34fb60ea8")
 	)
 	(pad "2" thru_hole circle
@@ -489,6 +502,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d0f2e135-3a09-49ca-8017-384ff9a9336f")
 	)
 	(embedded_fonts no)

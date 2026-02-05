@@ -1,7 +1,7 @@
 (footprint "CUI_PD-30"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "3 pin connector, PD-30, http://www.cui.com/product/resource/pd-30.pdf")
 	(tags "connector 3-pin PD-30 power DIN")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.29 -2.69)
 		(end -2.95 -2.69)
@@ -350,6 +351,10 @@
 		(size 1.7 1.7)
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "904ec07b-0a93-4655-9de8-e253fc303a27")
 	)
 	(pad "" np_thru_hole circle
@@ -357,6 +362,10 @@
 		(size 1.7 1.7)
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "06e459e1-3bf9-4169-a291-6757587acf47")
 	)
 	(pad "1" thru_hole rect
@@ -365,6 +374,10 @@
 		(drill 2.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "11b2c506-5423-422d-b746-a07ad091e302")
 	)
 	(pad "2" thru_hole circle
@@ -373,6 +386,10 @@
 		(drill 2.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b149f347-7c0c-455e-8353-f3590a71e8c2")
 	)
 	(pad "3" thru_hole circle
@@ -381,6 +398,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7cb60274-a560-4677-9c66-9373dab554a2")
 	)
 	(pad "4" thru_hole circle
@@ -389,6 +410,10 @@
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "faf3454a-e84b-4274-a89e-c5f7dc7e61f0")
 	)
 	(embedded_fonts no)

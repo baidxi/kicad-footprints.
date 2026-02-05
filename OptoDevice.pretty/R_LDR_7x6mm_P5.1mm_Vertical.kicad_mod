@@ -1,7 +1,7 @@
 (footprint "R_LDR_7x6mm_P5.1mm_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Resistor, LDR 7x6mm")
 	(tags "Resistor LDR7x6mm")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.2 -3.1)
 		(end 4.9 -3.1)
@@ -325,6 +326,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5903a23a-d3f0-4086-b5fc-73437d175b40")
 	)
 	(pad "2" thru_hole circle
@@ -333,6 +338,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dd58169d-2074-4f85-9818-fc01d9a5cff6")
 	)
 	(embedded_fonts no)

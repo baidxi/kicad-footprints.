@@ -1,7 +1,7 @@
 (footprint "LEM_LA25-NP"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "LEM LA 25-NP Current Transducer (https://www.lem.com/sites/default/files/products_datasheets/la%2025-np.pdf)")
 	(tags "Current sensor LEM")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.69 18.19)
 		(end -3.69 16.76)
@@ -259,10 +260,22 @@
 		(layer "F.Fab")
 		(uuid "fb4594ef-c0ac-47e5-8419-6d3a316da497")
 	)
-	(fp_text user "10"
-		(at 11 -0.5 90)
+	(fp_text user "1"
+		(at 2 -0.29 90)
 		(layer "F.SilkS")
-		(uuid "03b8b7c4-85cb-423e-877b-c9d0c6aadd44")
+		(uuid "d6af72c0-01f3-455a-b062-690f4cf44df2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.12)
+			)
+			(justify right bottom)
+		)
+	)
+	(fp_text user "5"
+		(at 2 9.87 90)
+		(layer "F.SilkS")
+		(uuid "72149d29-55b4-4b0a-b72f-130111f171b5")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -272,10 +285,10 @@
 			(justify right bottom)
 		)
 	)
-	(fp_text user "5"
-		(at 2 9.87 90)
+	(fp_text user "10"
+		(at 11 -0.5 90)
 		(layer "F.SilkS")
-		(uuid "72149d29-55b4-4b0a-b72f-130111f171b5")
+		(uuid "03b8b7c4-85cb-423e-877b-c9d0c6aadd44")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -294,18 +307,6 @@
 				(size 0.5 0.5)
 				(thickness 0.12)
 				(bold yes)
-			)
-			(justify right bottom)
-		)
-	)
-	(fp_text user "1"
-		(at 2 -0.29 90)
-		(layer "F.SilkS")
-		(uuid "d6af72c0-01f3-455a-b062-690f4cf44df2")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.12)
 			)
 			(justify right bottom)
 		)
@@ -329,6 +330,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1640419948)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9db552e8-b343-4913-82fb-5595d8acf051")
 	)
 	(pad "2" thru_hole circle
@@ -338,6 +343,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2bcf506f-a5b3-4fc9-ad80-d78aab726f92")
 	)
 	(pad "3" thru_hole circle
@@ -347,6 +356,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "466ebb10-66bc-45a9-9cb5-0ec50cadced4")
 	)
 	(pad "4" thru_hole circle
@@ -356,6 +369,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7ffe2c36-94d7-4f5b-a3a4-b9344a5862f9")
 	)
 	(pad "5" thru_hole circle
@@ -365,6 +382,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6b64d92a-7956-4b26-a725-2763d4d9e037")
 	)
 	(pad "6" thru_hole circle
@@ -374,6 +395,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "70cd7aae-a622-4f2f-a1d5-3f9e0b8ee930")
 	)
 	(pad "7" thru_hole circle
@@ -383,6 +408,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9b4b7eca-4a11-4c60-9404-328aa5864639")
 	)
 	(pad "8" thru_hole circle
@@ -392,6 +421,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4614c1b9-afc2-4be5-a0ed-0381ce113551")
 	)
 	(pad "9" thru_hole circle
@@ -401,6 +434,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f8b07ad1-b959-4262-99a4-beb6cec8fd3d")
 	)
 	(pad "10" thru_hole circle
@@ -410,6 +447,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "014c8039-37f6-495c-ae71-914773ef558f")
 	)
 	(pad "11" thru_hole circle
@@ -418,6 +459,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3c0566e4-8a10-46ad-b7db-7be8c62c4ac0")
 	)
 	(pad "12" thru_hole circle
@@ -426,6 +471,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "561d45ca-b2ff-45bd-988f-50b69fc7933c")
 	)
 	(pad "13" thru_hole circle
@@ -434,6 +483,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "158add2d-7e46-4845-aebc-1cc763afed30")
 	)
 	(embedded_fonts no)

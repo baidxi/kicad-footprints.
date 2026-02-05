@@ -1,7 +1,7 @@
 (footprint "R_Array_Concave_2x0603"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Thick Film Chip Resistor Array, Wave soldering, Vishay CRA06P (see cra06p.pdf)")
 	(tags "resistor array")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.4 -0.92)
 		(end -0.4 -0.92)
@@ -169,24 +170,40 @@
 		(at -0.85 -0.4)
 		(size 0.9 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b52bedba-a7d9-4489-b73f-4fefc79f7dbb")
 	)
 	(pad "2" smd rect
 		(at -0.85 0.4)
 		(size 0.9 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4565085a-8610-47c1-9b31-2e755b2d7433")
 	)
 	(pad "3" smd rect
 		(at 0.85 0.4)
 		(size 0.9 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "390bf6f4-3d23-4398-91cd-405465f660c4")
 	)
 	(pad "4" smd rect
 		(at 0.85 -0.4)
 		(size 0.9 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "01a75605-05bc-4187-a971-8678404c55ed")
 	)
 	(embedded_fonts no)

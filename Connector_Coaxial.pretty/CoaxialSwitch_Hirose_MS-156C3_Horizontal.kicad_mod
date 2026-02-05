@@ -1,7 +1,7 @@
 (footprint "CoaxialSwitch_Hirose_MS-156C3_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Subminiature Coaxial Switch 1.35mm High, DC to 11GHz")
 	(tags "Switch Coaxial RF")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -1.15 -0.725)
 		(end 1.15 0.725)
@@ -205,6 +206,17 @@
 		(layer "F.Fab")
 		(uuid "de42886e-aa17-42dd-8888-42c6b3cb3134")
 	)
+	(fp_text user "KEEPOUT"
+		(at 0 -0.5 0)
+		(layer "Cmts.User")
+		(uuid "f26c8158-1a1f-424a-88fa-7865ab93bc30")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+			)
+		)
+	)
 	(fp_text user "No Traces"
 		(at 0 0 0)
 		(layer "Cmts.User")
@@ -227,17 +239,6 @@
 			)
 		)
 	)
-	(fp_text user "KEEPOUT"
-		(at 0 -0.5 0)
-		(layer "Cmts.User")
-		(uuid "f26c8158-1a1f-424a-88fa-7865ab93bc30")
-		(effects
-			(font
-				(size 0.4 0.4)
-				(thickness 0.1)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -254,6 +255,10 @@
 		(size 0.3 0.4)
 		(layers "F.Paste")
 		(zone_connect 0)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cf568144-5d9d-44b2-9224-2685a73a4783")
 	)
 	(pad "" smd rect
@@ -261,6 +266,10 @@
 		(size 0.4 0.4)
 		(layers "F.Paste")
 		(zone_connect 0)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e916aeb1-2bda-438f-8521-864e882e2313")
 	)
 	(pad "" smd rect
@@ -268,6 +277,10 @@
 		(size 0.4 0.4)
 		(layers "F.Paste")
 		(zone_connect 0)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fc102e6f-c589-4061-8d9a-0255b4ae46ca")
 	)
 	(pad "" smd rect
@@ -275,6 +288,10 @@
 		(size 0.5 0.3)
 		(layers "F.Paste")
 		(zone_connect 0)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "865aee87-dff1-424d-b6d7-b4ce2253520f")
 	)
 	(pad "" smd rect
@@ -282,6 +299,10 @@
 		(size 0.5 0.3)
 		(layers "F.Paste")
 		(zone_connect 0)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "96b69679-1aef-4c14-b253-04210cf652ed")
 	)
 	(pad "" smd rect
@@ -289,6 +310,10 @@
 		(size 0.4 0.4)
 		(layers "F.Paste")
 		(zone_connect 0)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "47ac7e4a-b115-4adf-ae14-f2177171ae5d")
 	)
 	(pad "" smd rect
@@ -296,6 +321,10 @@
 		(size 0.4 0.4)
 		(layers "F.Paste")
 		(zone_connect 0)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "22525128-1b55-4e32-aa02-5412257d82a3")
 	)
 	(pad "" smd rect
@@ -303,18 +332,30 @@
 		(size 0.3 0.4)
 		(layers "F.Paste")
 		(zone_connect 0)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a00023e4-36ef-499e-a612-6735fd563280")
 	)
 	(pad "A" smd rect
 		(at 0.96 0)
 		(size 0.48 0.5)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2d3a472f-31dc-4493-ac8a-fcfcdc4f21c2")
 	)
 	(pad "C" smd rect
 		(at -0.96 0)
 		(size 0.48 0.5)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "60e570e5-fb71-446e-8cb4-d2ff17860efc")
 	)
 	(pad "G" smd custom
@@ -335,6 +376,10 @@
 				(width 0)
 				(fill yes)
 			)
+		)
+		(tenting
+			(front none)
+			(back none)
 		)
 		(uuid "a37dc7f6-137a-4d35-8158-e28ea1ead979")
 	)
@@ -357,11 +402,13 @@
 				(fill yes)
 			)
 		)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a0f6c3c4-1e2c-43fa-abbf-ad9ab9897a75")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "cc59dc24-a1ee-4bed-97ce-ab037e6f191b")
 		(hatch full 0.508)
@@ -369,7 +416,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -384,6 +430,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -393,8 +440,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "77d14d57-9085-4f50-abb6-179e39dad366")
 		(hatch full 0.508)
@@ -402,7 +447,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -417,6 +461,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

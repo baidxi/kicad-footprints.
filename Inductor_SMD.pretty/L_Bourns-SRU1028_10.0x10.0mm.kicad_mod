@@ -1,7 +1,7 @@
 (footprint "L_Bourns-SRU1028_10.0x10.0mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Bourns SRU1028 series SMD inductor, https://www.bourns.com/docs/Product-Datasheets/SRU1028.pdf")
 	(tags "Bourns SRU1028 SMD inductor")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.8 -5.2)
 		(end -5 -2)
@@ -260,12 +261,20 @@
 		(at -4.5 0)
 		(size 1.8 3.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2cd213e5-da92-4c3d-9c47-e16ca00d910c")
 	)
 	(pad "2" smd rect
 		(at 4.5 0)
 		(size 1.8 3.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5cdad9b9-faa0-4c87-b346-3029fdc767d0")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Plug_3.5mm_CUI_SP-3541"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "4 contacts, 3.5mm audio plug, https://www.cuidevices.com/product/resource/pdf/sp-3541.pdf")
 	(tags "3.5mm plug TRRS")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.6 -0.65)
 		(end -1.5 -0.65)
@@ -832,6 +833,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b467f147-b718-417f-b9ac-8f7b8657e332")
 	)
 	(pad "R2" thru_hole roundrect
@@ -841,6 +846,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d5d6ae79-66a9-47be-b0ab-107f5edda19b")
 	)
 	(pad "S" thru_hole roundrect
@@ -850,6 +859,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fb70f745-cfbf-4fe9-be42-d5b6746590b4")
 	)
 	(pad "T" thru_hole roundrect
@@ -859,6 +872,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c98349ac-d20c-4bc6-99b8-0c200d2a82eb")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Jack_3.5mm_PJ31060-I_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "PJ31060-I 6pin SMD 3.5mm headphones jack (http://www.china-bsun.com/Product48/1577.html)")
 	(tags "headphones jack plug stereo 3.5mm PJ31060-I PJ31060")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.9 -3.4)
 		(end -3.2 -3.4)
@@ -351,42 +352,70 @@
 		(size 1.5 1.5)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a27de3e8-44f9-47e1-8d2b-134d2f797d18")
 	)
 	(pad "R1" smd rect
 		(at -3.65 -1.65)
 		(size 2.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "30a72bae-2871-48bc-9695-a48a7b4feb5d")
 	)
 	(pad "R1N" smd rect
 		(at -3.65 3.45)
 		(size 2.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3f796024-ebff-4e6a-a73d-904b89beca9b")
 	)
 	(pad "R2" smd rect
 		(at 3 -4.35)
 		(size 3.4 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a8b0f727-7971-43bb-863b-4ee8ef2e917a")
 	)
 	(pad "S" smd rect
 		(at -3.65 -4.35)
 		(size 2.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "954e5802-67ad-4510-8009-e9716a3f6040")
 	)
 	(pad "T" smd rect
 		(at 3.65 2.15)
 		(size 2.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "abffaf20-ad35-4eef-9b6c-b252517180cd")
 	)
 	(pad "TN" smd rect
 		(at 3.2 4.35)
 		(size 3.4 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f5c6c4fb-df5b-4d0a-95e5-40e605d7a55b")
 	)
 	(embedded_fonts no)

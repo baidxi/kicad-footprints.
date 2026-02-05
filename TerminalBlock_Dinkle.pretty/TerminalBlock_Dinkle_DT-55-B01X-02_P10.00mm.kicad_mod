@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_Dinkle_DT-55-B01X-02_P10.00mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Dinkle DT-55-B01X Terminal Block  pitch 10.00mm https://www.dinkle.com/en/terminal/DT-55-B01W-XX")
 	(tags "Dinkle DT-55-B01X Terminal Block  pitch 10.00mm")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.35 -8.1)
 		(end -3.85 -8.1)
@@ -705,6 +706,10 @@
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "da8eaf38-c39e-4adb-b277-7b0dcb27bac3")
 	)
 	(pad "2" thru_hole oval
@@ -713,6 +718,10 @@
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2fe0ba70-505e-41b4-80bc-a7a6998f0fe0")
 	)
 	(embedded_fonts no)

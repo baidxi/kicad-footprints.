@@ -1,7 +1,7 @@
 (footprint "R_LDR_D13.8mm_P9.0mm_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Resistor, diameter 13.8mm pitch 9mm, see http://yourduino.com/docs/Photoresistor-5516-datasheet.pdf")
 	(tags "Resistor LDR ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 4.5 0)
 		(end -2.55 0)
@@ -234,6 +235,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "95c8635f-0652-41d2-ae67-1c585d1c4896")
 	)
 	(pad "2" thru_hole circle
@@ -242,6 +247,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "20f9b5c4-e405-477d-93fe-4d08ed8e8201")
 	)
 	(embedded_fonts no)

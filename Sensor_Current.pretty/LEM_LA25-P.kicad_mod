@@ -1,7 +1,7 @@
 (footprint "LEM_LA25-P"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "LEM Current Transducer (https://www.lem.com/sites/default/files/products_datasheets/la_25-p.pdf)")
 	(tags "current transducer")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.7 -6.92)
 		(end -4.7 -5.75)
@@ -291,6 +292,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "372308f6-e907-467f-9b58-8964f8df2395")
 	)
 	(pad "2" thru_hole circle
@@ -299,6 +304,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "67dbb204-1a4a-4be5-b9d3-0aba902ddfa1")
 	)
 	(pad "3" thru_hole circle
@@ -307,6 +316,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "305b5fa9-57bd-45d6-affc-ae42d7c68b7b")
 	)
 	(embedded_fonts no)

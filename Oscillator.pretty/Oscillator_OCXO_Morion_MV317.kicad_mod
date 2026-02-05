@@ -1,7 +1,7 @@
 (footprint "Oscillator_OCXO_Morion_MV317"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://www.morion-us.com/catalog_pdf/mv317.pdf")
 	(tags "OCXO")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.6 -3.6)
 		(end -3.6 22.6)
@@ -195,17 +196,6 @@
 			)
 		)
 	)
-	(fp_text user "RF"
-		(at 21 19 270)
-		(layer "F.SilkS")
-		(uuid "4aa62326-541b-4aa3-a7d9-5b602fedf7f7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "Us"
 		(at -2 19 270)
 		(layer "F.SilkS")
@@ -239,6 +229,17 @@
 			)
 		)
 	)
+	(fp_text user "RF"
+		(at 21 19 270)
+		(layer "F.SilkS")
+		(uuid "4aa62326-541b-4aa3-a7d9-5b602fedf7f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 10.05 10.35 0)
 		(layer "F.Fab")
@@ -256,6 +257,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3e1492dc-047e-4d01-a8a9-62a9a322ad6d")
 	)
 	(pad "2" thru_hole circle
@@ -264,6 +269,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7723607a-3907-436a-ba6f-7c7f44dcf52a")
 	)
 	(pad "3" thru_hole circle
@@ -272,6 +281,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "055b48e8-085f-4470-8b6a-064b9642d490")
 	)
 	(pad "4" thru_hole circle
@@ -280,6 +293,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6dfb597d-39d4-4831-b36d-e1a5e05b4c13")
 	)
 	(pad "5" thru_hole circle
@@ -288,6 +305,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "37eecc14-f2dc-4a5d-83c9-cddffc500bfe")
 	)
 	(embedded_fonts no)

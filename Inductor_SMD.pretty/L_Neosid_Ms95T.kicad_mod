@@ -1,7 +1,7 @@
 (footprint "L_Neosid_Ms95T"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Neosid,Inductor,Ms95, Ms95a, Ms95T, Fixed inductor, SMD, https://neosid.de/import-data/product-pdf/neoFestind_Ms95T.pdf")
 	(tags "NeosidInductorMs95 Ms95a Ms95T Fixed inductor SMD")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.9 -2.8)
 		(end -2.8 -4.9)
@@ -329,12 +330,20 @@
 		(at -5.25 0)
 		(size 2.9 4.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1b5080a8-f217-4830-ae5f-e20779b663eb")
 	)
 	(pad "2" smd rect
 		(at 5.25 0)
 		(size 2.9 4.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7b6d74a4-0ae7-438b-969f-786189314919")
 	)
 	(embedded_fonts no)

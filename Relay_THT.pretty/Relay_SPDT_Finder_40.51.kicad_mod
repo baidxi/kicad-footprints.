@@ -1,7 +1,7 @@
 (footprint "Relay_SPDT_Finder_40.51"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SPDT relay, Finder 40.52, 10/12A, 250V, body size 29x12.4mm, height 25mm, pitch 5x7.5mm, https://cdn.findernet.com/app/uploads/S40EN.pdf")
 	(tags "1-Form-C")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.62 -2.57)
 		(end 26.62 -2.57)
@@ -343,6 +344,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3990c7a5-44a9-45e4-bcd4-d0a840d333d0")
 	)
 	(pad "12" thru_hole circle
@@ -351,6 +356,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5947d879-6774-4922-9b9c-b1257a5b5659")
 	)
 	(pad "14" thru_hole circle
@@ -359,6 +368,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f3fb95e1-a036-40a4-907c-10d069321f74")
 	)
 	(pad "A1" thru_hole roundrect
@@ -368,6 +381,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.08928571429)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "45270179-c599-4b73-88ec-884180978dcb")
 	)
 	(pad "A2" thru_hole circle
@@ -376,6 +393,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c821ec2a-b159-4b20-a3b4-53c600f6b4bd")
 	)
 	(embedded_fonts no)

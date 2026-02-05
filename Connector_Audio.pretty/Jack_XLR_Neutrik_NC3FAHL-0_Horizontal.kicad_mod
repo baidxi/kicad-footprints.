@@ -1,7 +1,7 @@
 (footprint "Jack_XLR_Neutrik_NC3FAHL-0_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "A Series, 3 pole female XLR receptacle, grounding: without ground/shell contact, lateral left PCB mount, retention spring instead of latch, https://www.neutrik.com/en/product/nc3fahl-0")
 	(tags "neutrik xlr a")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9.11 10.75)
 		(end -8.61 -2.55)
@@ -560,6 +561,10 @@
 		(size 1.2 1.2)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "894770ee-c686-4f74-92ac-4073ad0b45bf")
 	)
 	(pad "1" thru_hole circle
@@ -568,6 +573,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "484a315e-68cd-4919-a4b5-8d3254d5f688")
 	)
 	(pad "2" thru_hole circle
@@ -576,6 +585,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e5a12868-c866-4655-a513-704f39add840")
 	)
 	(pad "3" thru_hole circle
@@ -584,6 +597,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8aad273d-93f0-4a64-a901-09b6f9f10d97")
 	)
 	(embedded_fonts no)

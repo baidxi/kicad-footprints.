@@ -1,7 +1,7 @@
 (footprint "L_Wuerth_WE-PD4-Typ-X"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Power Inductor, Wuerth Elektronik, WE-PD4, SMT, Typ X, https://katalog.we-online.de/pbs/datasheet/74458001.pdf")
 	(tags "Choke Power Inductor WE-PD4 TypX Wuerth")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9.4 -2.6)
 		(end -2.5 -7.7)
@@ -566,12 +567,20 @@
 		(at -7.7 0 90)
 		(size 2.79 2.92)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1c62c8a5-b380-4702-8b5a-8397003a1a2b")
 	)
 	(pad "2" smd rect
 		(at 7.7 0 90)
 		(size 2.79 2.92)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8640f58e-c194-4328-a73c-79cd3ba01005")
 	)
 	(embedded_fonts no)

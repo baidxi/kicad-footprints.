@@ -1,7 +1,7 @@
 (footprint "D_PowerDI-123"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "http://www.diodes.com/_files/datasheets/ds30497.pdf")
 	(tags "PowerDI diode vishay")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.31 1.01)
 		(end -2.31 -1.01)
@@ -250,6 +251,10 @@
 		(size 2.4 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f053bb63-ed80-4085-ad09-dad4312e5e5b")
 	)
 	(pad "2" smd roundrect
@@ -257,6 +262,10 @@
 		(size 1.05 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2380952381)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c5f78778-7c2b-43c5-86e6-513673237436")
 	)
 	(embedded_fonts no)

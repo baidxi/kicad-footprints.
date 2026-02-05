@@ -1,7 +1,7 @@
 (footprint "R_MicroMELF_MMU-0102"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Resistor, MicroMELF, MMU-0102, http://www.vishay.com/docs/28713/melfprof.pdf")
 	(tags "MicroMELF Resistor")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.2 -0.7)
 		(end 0.2 -0.7)
@@ -189,12 +190,20 @@
 		(at -0.95 0)
 		(size 1.2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c43f1c71-d317-477c-b112-f522a3fa3228")
 	)
 	(pad "2" smd rect
 		(at 0.95 0)
 		(size 1.2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b449e48e-d2e2-4652-8ef9-28d0c134ce64")
 	)
 	(embedded_fonts no)

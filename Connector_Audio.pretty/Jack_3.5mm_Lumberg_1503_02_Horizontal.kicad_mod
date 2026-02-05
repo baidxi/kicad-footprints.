@@ -1,7 +1,7 @@
 (footprint "Jack_3.5mm_Lumberg_1503_02_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "TRS 3.5mm, horizontal, Surface Mount (SMT), https://downloads.lumberg.com/datenblaetter/en/1503_02.pdf")
 	(tags "TRS audio jack horizontal")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.35 -1.24)
 		(end -3.35 5.29)
@@ -382,14 +383,22 @@
 		(at -2.5 2.5)
 		(size 1.2 1.2)
 		(drill 1.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4686cf23-63b1-44ae-8dfc-a2cf3ec164e2")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.5 2.5)
 		(size 1.2 1.2)
 		(drill 1.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "24be9f4e-b359-4ad5-99fc-d6e8ad28d75b")
 	)
 	(pad "R" smd roundrect
@@ -397,6 +406,10 @@
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f040ef51-1bfb-4b93-bfcf-2c8c07f9f740")
 	)
 	(pad "S" smd roundrect
@@ -404,6 +417,10 @@
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ab9e4c03-5a2e-4a10-b83d-9bc952f1a7e1")
 	)
 	(pad "T" smd roundrect
@@ -411,6 +428,10 @@
 		(size 1.5 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ac5978ec-e859-4b1a-a013-5db3f5d8acaf")
 	)
 	(pad "T" smd roundrect
@@ -418,6 +439,10 @@
 		(size 1.5 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e8799b37-048e-4f7b-ae41-4210d9f72cd2")
 	)
 	(embedded_fonts no)

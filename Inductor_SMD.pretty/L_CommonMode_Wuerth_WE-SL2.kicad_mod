@@ -1,7 +1,7 @@
 (footprint "L_CommonMode_Wuerth_WE-SL2"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "http://katalog.we-online.de/en/pbs/WE-SL2?sid=5fbec16187#vs_t1:c1_ct:1")
 	(tags "Wuerth WE-SL2")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.9 -2.2)
 		(end -4.8 -2.2)
@@ -310,24 +311,40 @@
 		(at -3.75 -1.27)
 		(size 2 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d068672e-48ef-4feb-9ec7-c3630de76bdc")
 	)
 	(pad "2" smd rect
 		(at -3.75 1.27)
 		(size 2 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f8a31fce-e626-4c77-94ce-c4213151f77c")
 	)
 	(pad "3" smd rect
 		(at 3.75 1.27)
 		(size 2 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c6dc3aa4-cf14-4ed0-af6c-03f348f44fae")
 	)
 	(pad "4" smd rect
 		(at 3.75 -1.27)
 		(size 2 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e27df121-02e8-4749-bcdf-a7eb946387d6")
 	)
 	(embedded_fonts no)

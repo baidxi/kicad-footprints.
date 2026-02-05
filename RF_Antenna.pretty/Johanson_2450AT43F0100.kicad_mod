@@ -1,7 +1,7 @@
 (footprint "Johanson_2450AT43F0100"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Johanson 2450AT43F0100 SMD antenna 2400-2500Mhz, 1dBi, https://www.johansontechnology.com/datasheets/2450AT43F0100/2450AT43F0100.pdf")
 	(tags "antenna")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.71 -1.36)
 		(end -3.71 1.36)
@@ -190,6 +191,10 @@
 		(size 1.2 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "70c7c05b-ad77-413b-8061-b396b8219c14")
 	)
 	(pad "2" smd roundrect
@@ -197,6 +202,10 @@
 		(size 1.2 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7ffbd15e-d0c6-4477-9734-bd964d567903")
 	)
 	(embedded_fonts no)

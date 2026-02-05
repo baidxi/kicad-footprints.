@@ -1,7 +1,7 @@
 (footprint "SuperSOT-3"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "3-pin SuperSOT package https://www.fairchildsemi.com/package-drawings/MA/MA03B.pdf")
 	(tags "SuperSOT-3 SSOT-3")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.18 -1.6)
 		(end 0.85 -1.6)
@@ -212,6 +213,10 @@
 		(size 1.4 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3927c6f5-0eca-45ca-8a40-dfa1e0683beb")
 	)
 	(pad "2" smd roundrect
@@ -219,6 +224,10 @@
 		(size 1.4 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ccd9d57c-4452-4eae-982f-c8d8070c027e")
 	)
 	(pad "3" smd roundrect
@@ -226,6 +235,10 @@
 		(size 1.4 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c7a17a1c-8104-43bc-bba4-76757383ecd8")
 	)
 	(embedded_fonts no)

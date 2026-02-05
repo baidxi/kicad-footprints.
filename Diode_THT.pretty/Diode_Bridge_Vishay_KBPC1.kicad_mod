@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Vishay_KBPC1"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Single phase bridge rectifier case KBPC1, see http://www.vishay.com/docs/93585/vs-kbpc1series.pdf")
 	(tags "Diode Bridge")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.9 -0.9)
 		(end -2.9 13.4)
@@ -232,6 +233,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "50f23901-ee57-4483-9d7d-0c48a08b8452")
 	)
 	(pad "2" thru_hole circle
@@ -240,6 +245,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0f1cbffa-1f6a-40c3-a6d8-2061b24d41af")
 	)
 	(pad "3" thru_hole circle
@@ -248,6 +257,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "799adfd4-ad35-4e30-aa25-09bd2e7e8fce")
 	)
 	(pad "4" thru_hole circle
@@ -256,6 +269,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "af83a57f-2cef-4631-a30a-e9441d57eeb9")
 	)
 	(embedded_fonts no)

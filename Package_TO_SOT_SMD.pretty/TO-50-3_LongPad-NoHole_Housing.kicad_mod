@@ -1,7 +1,7 @@
 (footprint "TO-50-3_LongPad-NoHole_Housing"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "TO-50-3 Macro T Package Style M236")
 	(tags "TO-50-3 Macro T Package Style M236")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center -0.7 -3.4)
 		(end -0.7 -6)
@@ -243,18 +244,30 @@
 		(at -7.5 -3.4 90)
 		(size 1.5 7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4948f74b-99b0-4c68-a7c2-216effbc8c9e")
 	)
 	(pad "2" smd rect
 		(at -0.7 3.4 90)
 		(size 7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9b4ea682-0da0-48dd-b4e4-70c6c03074ac")
 	)
 	(pad "3" smd rect
 		(at 7.5 -3.4 90)
 		(size 1.5 10)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ed5660d0-120e-469f-9003-58f35dd3bc2a")
 	)
 	(embedded_fonts no)

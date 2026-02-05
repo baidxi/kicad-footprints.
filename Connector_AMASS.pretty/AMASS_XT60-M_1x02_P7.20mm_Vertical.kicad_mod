@@ -1,7 +1,7 @@
 (footprint "AMASS_XT60-M_1x02_P7.20mm_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf")
 	(tags "XT60 female vertical")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.25 -1.6)
 		(end -4.25 1.55)
@@ -252,6 +253,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a02450fe-4393-4b95-bab8-16ad47b35b01")
 	)
 	(pad "2" thru_hole circle
@@ -260,6 +265,10 @@
 		(drill 4.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c4ee6bef-a52b-4f3c-8ad0-6f34f78b3662")
 	)
 	(embedded_fonts no)

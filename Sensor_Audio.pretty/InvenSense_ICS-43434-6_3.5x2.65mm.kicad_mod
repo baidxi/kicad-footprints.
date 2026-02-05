@@ -1,7 +1,7 @@
 (footprint "InvenSense_ICS-43434-6_3.5x2.65mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "TDK InvenSense MEMS I2S Microphone: https://invensense.tdk.com/products/ics-43434/")
 	(tags "microphone MEMS I2S ICS-43434 TDK InvenSense")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.425 1.85)
 		(end -1.425 -1.55)
@@ -298,18 +299,30 @@
 		(size 0.5 0.5)
 		(drill 0.5)
 		(layers "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9b4e52f5-da36-4e55-8967-8ebbb0d50133")
 	)
 	(pad "1" smd rect
 		(at -0.9 -1.364)
 		(size 0.6 0.522)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "84565542-0188-4498-9f4b-b45cd6688ab7")
 	)
 	(pad "2" smd rect
 		(at -0.9 -0.542)
 		(size 0.6 0.522)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "123f8982-5bf7-46ae-8a7d-b274c6270321")
 	)
 	(pad "3" smd custom
@@ -328,24 +341,40 @@
 				(fill no)
 			)
 		)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e7c54f09-ac5c-4fb9-a483-de41f248a55a")
 	)
 	(pad "4" smd rect
 		(at 0.9 -0.542)
 		(size 0.6 0.522)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "25dab54c-8782-483d-a617-27955def6ffb")
 	)
 	(pad "5" smd rect
 		(at 0.9 -1.364)
 		(size 0.6 0.522)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "abb4a5ca-71a8-4c95-91df-f8acc8b352c1")
 	)
 	(pad "6" smd rect
 		(at 0 -1.364)
 		(size 0.6 0.522)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "348890e6-d22a-4a83-8acd-99c7fcf74918")
 	)
 	(embedded_fonts no)

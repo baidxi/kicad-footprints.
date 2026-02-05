@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Vishay_KBU"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Vishay KBU rectifier package, 5.08mm pitch, see http://www.vishay.com/docs/88656/kbu4.pdf")
 	(tags "Vishay KBU rectifier diode bridge")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.3 -2.3)
 		(end -3.1 -2.3)
@@ -251,6 +252,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f1354aea-2788-431b-ab27-c07bda0dd0b5")
 	)
 	(pad "2" thru_hole circle
@@ -259,6 +264,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2285d01a-2d61-4682-a936-7e24dbcd2e05")
 	)
 	(pad "3" thru_hole circle
@@ -267,6 +276,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bade78f0-1656-4442-acf2-9408f6377803")
 	)
 	(pad "4" thru_hole circle
@@ -275,6 +288,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b5cfc071-77bd-4477-ab2e-ab5801a2f5a1")
 	)
 	(embedded_fonts no)

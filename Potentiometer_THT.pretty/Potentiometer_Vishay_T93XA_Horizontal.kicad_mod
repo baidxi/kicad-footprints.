@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Vishay_T93XA_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Potentiometer, horizontal, Vishay, https://www.vishay.com/docs/51026/t93.pdf, 3/8\" x 3/8\" x 3/16\" (9.7 x 9.8 x 5mm max.)")
 	(tags "Potentiometer horizontal vishay")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.42 -2.61)
 		(end -2.42 2.61)
@@ -285,6 +286,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fff8826e-d005-4a5b-8a76-c058995ba1e6")
 	)
 	(pad "2" thru_hole circle
@@ -293,6 +298,10 @@
 		(drill 0.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "644619ff-9707-45e0-a3b2-35eb10caa363")
 	)
 	(pad "3" thru_hole circle
@@ -301,6 +310,10 @@
 		(drill 0.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "98abf4c1-4f5c-4d4b-b47e-f6776f66d236")
 	)
 	(embedded_fonts no)

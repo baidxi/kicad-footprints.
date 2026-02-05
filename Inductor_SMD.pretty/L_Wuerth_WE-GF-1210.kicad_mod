@@ -1,7 +1,7 @@
 (footprint "L_Wuerth_WE-GF-1210"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Unshielded Inductor, Wuerth Elektronik, WE-GF, SMD, 1210, https://www.we-online.de/katalog/datasheet/74476401.pdf")
 	(tags "Unshielded Inductor WE-GF 1210 Wuerth")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.51 -1.31)
 		(end -1.51 -0.96)
@@ -289,12 +290,20 @@
 		(at -1.4 0)
 		(size 1 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "88dcb4e1-6744-4f92-b4fd-4ff9003d2d79")
 	)
 	(pad "2" smd rect
 		(at 1.4 0)
 		(size 1 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "69d0a166-47fd-44a2-9dc9-e530fa35cb07")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "TSOT-23_HandSoldering"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf")
 	(tags "TSOT-23 Hand-soldering")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.945 0.67)
 		(end 0.945 1.56)
@@ -212,6 +213,10 @@
 		(size 2 0.65)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3caa8293-36ef-4dbd-bb5b-fdcc30a5267a")
 	)
 	(pad "2" smd roundrect
@@ -219,6 +224,10 @@
 		(size 2 0.65)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e19aee19-0c56-4273-9156-82c7df765838")
 	)
 	(pad "3" smd roundrect
@@ -226,6 +235,10 @@
 		(size 2 0.65)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cc0ea941-b066-41d0-8f51-f6d89a26c364")
 	)
 	(embedded_fonts no)

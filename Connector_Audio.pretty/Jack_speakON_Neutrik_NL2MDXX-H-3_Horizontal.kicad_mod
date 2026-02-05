@@ -1,7 +1,7 @@
 (footprint "Jack_speakON_Neutrik_NL2MDXX-H-3_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "speakON Chassis Connectors, 2 pole chassis connector, gray D-size flange, countersunk thru holes, horizontal PCB, replaces NL2MD-H, https://www.neutrik.com/en/product/nl2mdxx-h-3")
 	(tags "neutrik speakon")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 5.32 -8.84)
 		(end 24.59 -8.84)
@@ -391,6 +392,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9e0b7b55-7d54-410c-8410-e6f6c5e3af68")
 	)
 	(pad "1-" thru_hole circle
@@ -399,6 +404,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "11e42807-23ce-4795-a3e0-24922923a583")
 	)
 	(embedded_fonts no)

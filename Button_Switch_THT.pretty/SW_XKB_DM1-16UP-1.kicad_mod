@@ -1,7 +1,7 @@
 (footprint "SW_XKB_DM1-16UP-1"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "1A 30V SPDT Micro Switch rated for one million cycles, W12.7xD5.7xH6.6, https://www.helloxkb.com/public/images/pdf/DMX-XXXP-X.pdf")
 	(tags "SPDT endstop limit switch vertical hook lever XKB DM1-16UP-1")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start 2.4 -1.27)
 		(end 3.6 1.27)
@@ -119,18 +120,6 @@
 		(layer "F.Fab")
 		(uuid "dac55137-e945-4bf4-a405-3859e94376c3")
 	)
-	(fp_text user "NC"
-		(at 10.16 4 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "6d192ec2-2d87-4f17-acb5-666b195900f3")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "C"
 		(at 0 4 0)
 		(unlocked yes)
@@ -148,6 +137,18 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ed75b34e-7bf6-4506-a05f-13c8090e558f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "NC"
+		(at 10.16 4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6d192ec2-2d87-4f17-acb5-666b195900f3")
 		(effects
 			(font
 				(size 1 1)
@@ -173,6 +174,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4605c604-88d0-4b0e-a866-73c7c6b170de")
 	)
 	(pad "2" thru_hole circle
@@ -181,6 +186,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "aeb8af32-040e-4c46-a9d8-0d943af013c3")
 	)
 	(pad "3" thru_hole circle
@@ -189,6 +198,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0b04878a-0226-49ae-aebe-432c0d5c8c51")
 	)
 	(embedded_fonts no)

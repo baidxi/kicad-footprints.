@@ -1,7 +1,7 @@
 (footprint "SW_TH_Tactile_Omron_B3F-100x"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Tactile switch, 6x6 mm, H4.3 mm, 6.5 mm pitch, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf")
 	(tags "Omron B3F-10xx SPST 1P1T")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.13 3.35)
 		(end 0.13 1.15)
@@ -203,6 +204,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ee1616be-3af4-4d1d-96b5-541d19557273")
 	)
 	(pad "1" thru_hole circle
@@ -211,6 +216,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "130b9ada-7aba-4fd3-8830-5ad15b027dac")
 	)
 	(pad "2" thru_hole circle
@@ -219,6 +228,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "daf085bd-70df-419e-a957-02914568e0f9")
 	)
 	(pad "2" thru_hole circle
@@ -227,6 +240,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "65a424f4-9f68-4376-86e4-1cb03f2e6524")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Relay_SPST_RAYEX-L90BS"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf")
 	(tags "Relay RAYEX L90BS SPST NC")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.07 -9.94)
 		(end -4.07 8.14)
@@ -702,6 +703,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9691f049-d76b-4914-ba87-ae0e8c010950")
 	)
 	(pad "12" thru_hole circle
@@ -710,6 +715,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1f3cab2f-7371-4d1b-afc8-8f94faeb5c79")
 	)
 	(pad "A1" thru_hole roundrect
@@ -719,6 +728,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a320815a-481a-49f2-9259-83496e18b2de")
 	)
 	(pad "A2" thru_hole circle
@@ -727,6 +740,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b4aa8a22-f699-44e0-84cb-6e24e2d4084a")
 	)
 	(embedded_fonts no)

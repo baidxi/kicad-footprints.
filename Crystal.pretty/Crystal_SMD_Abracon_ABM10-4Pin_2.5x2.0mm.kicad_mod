@@ -1,7 +1,7 @@
 (footprint "Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Abracon Miniature Ceramic Smd Crystal ABM10 http://www.abracon.com/Resonators/ABM10.pdf")
 	(tags "SMD SMT crystal Abracon ABM10")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.29 -0.75)
 		(end -1.29 -1.54)
@@ -199,24 +200,40 @@
 		(at -0.625 -0.825)
 		(size 0.8 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0bb8492f-fdbe-4b81-beef-f1fb9fd4b4fb")
 	)
 	(pad "2" smd rect
 		(at -0.625 0.825)
 		(size 0.8 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bec4a386-fdd8-4bb5-845f-1fd800367804")
 	)
 	(pad "3" smd rect
 		(at 0.625 0.825)
 		(size 0.8 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b778782d-fe0b-451d-9fa5-65b875987742")
 	)
 	(pad "4" smd rect
 		(at 0.625 -0.825)
 		(size 0.8 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d440c2d4-a167-48a4-b99c-b8a3534bef4b")
 	)
 	(embedded_fonts no)

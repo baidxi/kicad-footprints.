@@ -1,7 +1,7 @@
 (footprint "Osram_SFH225"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "PhotoDiode, SFH225, RM2.54")
 	(tags "PhotoDiode SFH225 RM2.54")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.05 -1.9)
 		(end 3.65 -1.9)
@@ -196,6 +197,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.178)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "24a189c2-1725-4abd-9e48-3c0ccf23310b")
 	)
 	(pad "2" thru_hole circle
@@ -204,6 +209,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ed6feb43-f2c9-4f67-81fc-5f516dcfb8bd")
 	)
 	(embedded_fonts no)

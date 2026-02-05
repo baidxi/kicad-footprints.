@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Comchip_SCVB-L"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Three phase, Bridge, Rectifier, https://www.comchiptech.com/admin/files/product/SC35VB80S-G%20Thru506369.%20SC35VB160S-G%20RevB.pdf")
 	(tags "diode module")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -11.2 -2)
 		(end -11.2 31.8)
@@ -447,6 +448,10 @@
 		(drill oval 6.7 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b4f6c228-8a4a-454f-a81d-4edfe98acb12")
 	)
 	(pad "2" thru_hole roundrect
@@ -456,6 +461,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0b71fa53-309f-40aa-bcb5-43af93156466")
 	)
 	(pad "3" thru_hole roundrect
@@ -465,6 +474,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "64e8ca2c-5222-4582-8262-c45daee271c9")
 	)
 	(pad "4" thru_hole roundrect
@@ -474,6 +487,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "585c6ff6-02c6-42b5-b5db-3634d4469e25")
 	)
 	(pad "5" thru_hole roundrect
@@ -483,6 +500,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "66307a57-3708-438f-a673-291554e216b7")
 	)
 	(embedded_fonts no)

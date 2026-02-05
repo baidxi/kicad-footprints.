@@ -1,7 +1,7 @@
 (footprint "MagneticBuzzer_PUI_AT-0927-TT-6-R"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Buzzer Magnetic 9mm AT-0927-TT-6-R, http://www.puiaudio.com/pdf/AT-0927-TT-6-R.pdf")
 	(tags "Buzzer Magnetic 9mm AT-0927-TT-6-R")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 2 0)
 		(end 6.62 0)
@@ -126,6 +127,10 @@
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "de888422-e88e-48db-8802-aace4ed2f2ac")
 	)
 	(pad "2" thru_hole circle
@@ -134,6 +139,10 @@
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f89cd3a3-5feb-4da0-9736-234a66c1a7fd")
 	)
 	(embedded_fonts no)

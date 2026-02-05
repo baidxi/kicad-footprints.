@@ -1,7 +1,7 @@
 (footprint "D_SC-80_HandSoldering"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "JEITA SC-80")
 	(tags "SC-80")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.91 -0.56)
 		(end 0.7 -0.56)
@@ -240,6 +241,10 @@
 		(size 1.1 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6246cd15-b934-449f-8779-e245c805362f")
 	)
 	(pad "2" smd roundrect
@@ -247,6 +252,10 @@
 		(size 1.1 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "42e8f887-a4c0-4370-8af2-bd5fcade6c02")
 	)
 	(embedded_fonts no)

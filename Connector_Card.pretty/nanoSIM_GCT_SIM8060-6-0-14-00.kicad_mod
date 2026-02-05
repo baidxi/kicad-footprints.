@@ -1,7 +1,7 @@
 (footprint "nanoSIM_GCT_SIM8060-6-0-14-00"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "hinged nano SIM, without card detect, https://gct.co/files/drawings/sim8060.pdf")
 	(tags "nano SIM")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.96 -7.11)
 		(end -5.96 -3.86)
@@ -249,6 +250,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c3dde4b3-cedd-40a2-8dc6-adf699eb1941")
 	)
 	(pad "2" smd roundrect
@@ -257,6 +262,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ffa812aa-c354-4e09-8176-970e3b39fe4e")
 	)
 	(pad "3" smd roundrect
@@ -265,6 +274,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e674eb9c-441a-4e5d-9d11-51edbb3c3d3c")
 	)
 	(pad "5" smd roundrect
@@ -273,6 +286,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "78cfd056-898d-426e-a203-6f58e9d826ef")
 	)
 	(pad "6" smd roundrect
@@ -281,6 +298,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d582c75b-2696-493f-a35a-3b53b71a71a3")
 	)
 	(pad "7" smd roundrect
@@ -289,6 +310,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5d446068-a88f-40fc-8309-e8cc64c314e3")
 	)
 	(pad "SH" smd roundrect
@@ -297,6 +322,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c088482f-8d9e-47ce-bd4b-35edaa0c8bfe")
 	)
 	(pad "SH" smd roundrect
@@ -305,6 +334,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4b18341c-e951-4bd7-859d-d6d7cd95dfb5")
 	)
 	(pad "SH" smd roundrect
@@ -313,6 +346,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "23142a36-ce76-4f6d-81c9-1549ae270e70")
 	)
 	(pad "SH" smd roundrect
@@ -321,11 +358,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8901e69d-5f8c-42f6-922b-41de5e2de607")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.CrtYd")
 		(uuid "a5e03541-4ef4-425b-8eaa-fae9c5b09fd8")
 		(hatch edge 0.5)
@@ -333,7 +372,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -348,6 +386,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -356,8 +395,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.CrtYd")
 		(uuid "7c9cddbf-4370-4fbe-9078-ba6281917835")
 		(hatch edge 0.5)
@@ -365,7 +402,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -380,6 +416,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -388,8 +425,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.CrtYd")
 		(uuid "555f038e-65a3-4bb7-bec9-206da0dfb302")
 		(hatch edge 0.5)
@@ -397,7 +432,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -412,6 +446,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -420,8 +455,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.CrtYd")
 		(uuid "22b43e27-e6bd-460a-bd7b-948bf101c513")
 		(hatch edge 0.5)
@@ -429,7 +462,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -444,6 +476,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -452,8 +485,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.CrtYd")
 		(uuid "0b3c4b90-74ac-43fd-81bd-6c2b5a722f49")
 		(hatch edge 0.5)
@@ -461,7 +492,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -476,6 +506,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -484,8 +515,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.CrtYd")
 		(uuid "822755ad-c886-4ebc-9541-79420c123bfb")
 		(hatch edge 0.5)
@@ -493,7 +522,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -508,6 +536,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

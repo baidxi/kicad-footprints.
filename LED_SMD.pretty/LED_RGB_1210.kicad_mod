@@ -1,7 +1,7 @@
 (footprint "LED_RGB_1210"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN")
 	(tags "LED 3227")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.8 -0.5)
 		(end -2.8 -1.5)
@@ -189,24 +190,40 @@
 		(at -1.75 -0.7 180)
 		(size 1.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "72f8691c-d964-42a5-8481-7c982b8e7b16")
 	)
 	(pad "2" smd rect
 		(at -1.75 0.7 180)
 		(size 1.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "92ae95d9-b9e8-48a9-9152-ea6697008a69")
 	)
 	(pad "3" smd rect
 		(at 1.75 0.7 180)
 		(size 1.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "43aa4e47-49e6-4985-a0fd-9cf8f0de24c3")
 	)
 	(pad "4" smd rect
 		(at 1.75 -0.7 180)
 		(size 1.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bcb90df1-ddea-4b8f-99e9-fcab272833a7")
 	)
 	(embedded_fonts no)

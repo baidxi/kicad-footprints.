@@ -1,7 +1,7 @@
 (footprint "L_Pulse_PA4349"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Shielded Molded High Current Power Inductors 23.5x22mm, https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/pa4349.104anlt")
 	(tags "Shielded Molded High Current Power Inductor")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -12.1 -11.35)
 		(end -11 -11.35)
@@ -309,12 +310,20 @@
 		(at -9.125 0 90)
 		(size 19.6 5.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "019c8b2c-b671-41f2-9315-c7790ab06337")
 	)
 	(pad "2" smd rect
 		(at 9.125 0 90)
 		(size 19.6 5.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1a6d73e4-03cb-4b96-bf6d-109c8705ce10")
 	)
 	(embedded_fonts no)

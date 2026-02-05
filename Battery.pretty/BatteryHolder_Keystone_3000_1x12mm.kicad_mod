@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Keystone_3000_1x12mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "http://www.keyelco.com/product-pdf.cfm?p=777")
 	(tags "Keystone type 3000 coin cell retainer")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.75 -3.45)
 		(end -4.15 -6.05)
@@ -521,18 +522,30 @@
 		(at -7.9 0)
 		(size 3.5 3.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c6e6db5f-b056-4e15-8f37-f7f199ae02fe")
 	)
 	(pad "1" smd rect
 		(at 7.9 0)
 		(size 3.5 3.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "efa20705-c55e-443f-a19c-aebae4a5e95f")
 	)
 	(pad "2" smd circle
 		(at 0 0)
 		(size 10.2 10.2)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1ba33272-8e7d-454c-95b8-82926b8b6ff7")
 	)
 	(embedded_fonts no)

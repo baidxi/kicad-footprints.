@@ -1,7 +1,7 @@
 (footprint "LaserDiode_TO5-D9-3"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Laser Diode, TO5-like (D=9mm), 3pin")
 	(tags "Laser Diode TO5-like")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.75 4.05)
 		(end 1.7 4.05)
@@ -227,6 +228,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.178)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "409b541a-f4ad-4d55-84d5-acb4c6b096b6")
 	)
 	(pad "2" thru_hole circle
@@ -235,6 +240,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2e29e05e-f3c4-4511-a703-7d69d35a8715")
 	)
 	(pad "3" thru_hole circle
@@ -243,6 +252,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dd0384e1-ea9f-490d-9c5a-9a15d8fef5bd")
 	)
 	(embedded_fonts no)

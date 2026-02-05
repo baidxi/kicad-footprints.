@@ -1,7 +1,7 @@
 (footprint "Relay_Socket_DPDT_Omron_PLE08-0"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "29mm Dia, round mounting socket, 10A, 2kV AC / minute, 1e3Mohm, https://www.omron.com.tw/data_pdf/cat/common_sockets_ds_e_6_1_csm1819.pdf?#page=27")
 	(tags "tube type relay")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 12.414732 -11.971834)
 		(end 12.414732 -11.336834)
@@ -215,11 +216,11 @@
 		(layer "User.2")
 		(uuid "85f7afc6-784e-4694-bddb-935fb006047d")
 	)
-	(fp_text user "34x37mm industrial relay area"
-		(at 29.305732 21.810166 180)
+	(fp_text user "31mm Dia for Panel cutout"
+		(at 23.395732 -4.299834 180)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "3191aaed-0354-45e5-b786-60917cb20009")
+		(uuid "c0e3d515-f354-403e-b2d3-5a36b57f498f")
 		(effects
 			(font
 				(size 1 1)
@@ -228,11 +229,11 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "31mm Dia for Panel cutout"
-		(at 23.395732 -4.299834 180)
+	(fp_text user "34x37mm industrial relay area"
+		(at 29.305732 21.810166 180)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "c0e3d515-f354-403e-b2d3-5a36b57f498f")
+		(uuid "3191aaed-0354-45e5-b786-60917cb20009")
 		(effects
 			(font
 				(size 1 1)
@@ -272,6 +273,10 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a7698f35-80a2-4c15-a7a2-fe819c7db970")
 	)
 	(pad "12" thru_hole circle
@@ -280,6 +285,10 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ec7011e7-a356-447c-b584-4dc8d2393b27")
 	)
 	(pad "14" thru_hole circle
@@ -288,6 +297,10 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "adc8b305-8f9f-4fe5-8e2e-584e44972f90")
 	)
 	(pad "21" thru_hole circle
@@ -296,6 +309,10 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5233fd96-b316-4ef0-8921-c6e017fbd35a")
 	)
 	(pad "22" thru_hole circle
@@ -304,6 +321,10 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d54794de-389e-4add-a86d-14a41ea770a5")
 	)
 	(pad "24" thru_hole circle
@@ -312,6 +333,10 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "591c79e7-7798-4c59-bcd9-2ff401d6f779")
 	)
 	(pad "A1" thru_hole roundrect
@@ -321,6 +346,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bb5a1e02-95ad-4d1d-9584-2e219933e017")
 	)
 	(pad "A2" thru_hole circle
@@ -329,6 +358,10 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e114e9c4-ad0d-4f66-a8fb-03fc245a4f4e")
 	)
 	(embedded_fonts no)

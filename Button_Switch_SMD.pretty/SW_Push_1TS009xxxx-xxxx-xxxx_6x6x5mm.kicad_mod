@@ -1,7 +1,7 @@
 (footprint "SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "tactile push button, 6x6mm, height=5mm, 12V 50mA, https://datasheet.lcsc.com/lcsc/1811151231_HYP--Hongyuan-Precision-1TS009A-1800-5000-CT_C319409.pdf")
 	(tags "tact sw push 6mm silicone rubber")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.15 -1.981)
 		(end -2 -3.15)
@@ -422,6 +423,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0411b5d9-2fef-40f3-bb7b-e73db42b5654")
 	)
 	(pad "2" smd roundrect
@@ -430,6 +435,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "294c6cfd-23ff-4056-bec9-d0e2062c1a35")
 	)
 	(embedded_fonts no)

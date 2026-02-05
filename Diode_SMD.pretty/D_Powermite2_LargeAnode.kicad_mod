@@ -1,7 +1,7 @@
 (footprint "D_Powermite2_LargeAnode"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Microsemi Powermite 2 SMD power package, large-pad anode (https://www.microsemi.com/packaging-information/partpackage/details?pid=5341)")
 	(tags "PowerMite2")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.4 -0.755)
 		(end -2.1 -0.755)
@@ -329,12 +330,20 @@
 		(at -2.9825 0)
 		(size 0.762 2.03)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2f709dda-8911-4253-aa89-72afd44b2d54")
 	)
 	(pad "2" smd rect
 		(at 0.6985 0)
 		(size 5.33 4.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1ca71b24-f56c-424e-986a-69a91691bbaf")
 	)
 	(embedded_fonts no)

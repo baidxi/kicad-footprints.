@@ -1,7 +1,7 @@
 (footprint "Texas_SWRA117D_2.4GHz_Right"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "http://www.ti.com/lit/an/swra117d/swra117d.pdf")
 	(tags "PCB antenna")
@@ -55,6 +55,7 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(net_tie_pad_groups "1,2")
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy 2.45 -2.51) (xy 4.45 -2.51) (xy 4.45 -5.15) (xy 7.15 -5.15) (xy 7.15 -2.51) (xy 9.15 -2.51) (xy 9.15 -5.15)
@@ -231,6 +232,10 @@
 		(at 0 0)
 		(size 0.5 0.5)
 		(layers "F.Cu")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cb3c4bd8-b4a2-4f99-9834-42a533655844")
 	)
 	(pad "2" thru_hole rect
@@ -240,6 +245,10 @@
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6869b156-4bfc-423f-9bbe-5fc2b51c29a8")
 	)
 	(embedded_fonts no)

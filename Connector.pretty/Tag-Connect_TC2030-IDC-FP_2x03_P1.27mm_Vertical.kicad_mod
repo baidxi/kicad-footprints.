@@ -1,7 +1,7 @@
 (footprint "Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC.pdf")
 	(tags "tag connect programming header pogo pins")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.905 1.27)
 		(end -1.905 0.635)
@@ -141,6 +142,10 @@
 		(size 2.3749 2.3749)
 		(drill 2.3749)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6d3d3bca-edd4-46c7-9001-f4eadf428439")
 	)
 	(pad "" np_thru_hole circle
@@ -148,6 +153,10 @@
 		(size 0.9906 0.9906)
 		(drill 0.9906)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "60442695-b5a8-4d17-9556-f0aa0163b6ad")
 	)
 	(pad "" np_thru_hole circle
@@ -155,6 +164,10 @@
 		(size 2.3749 2.3749)
 		(drill 2.3749)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9ddad5fc-4d96-4afe-b9de-d17d7fb0ae5b")
 	)
 	(pad "" np_thru_hole circle
@@ -162,6 +175,10 @@
 		(size 2.3749 2.3749)
 		(drill 2.3749)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "04b7da1d-6f2a-4d64-8f33-4ecc3559ff65")
 	)
 	(pad "" np_thru_hole circle
@@ -169,6 +186,10 @@
 		(size 2.3749 2.3749)
 		(drill 2.3749)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5674c167-cfa3-4656-bb0f-f3a61aedd872")
 	)
 	(pad "" np_thru_hole circle
@@ -176,6 +197,10 @@
 		(size 0.9906 0.9906)
 		(drill 0.9906)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5a75ecff-9928-4270-92a6-427b3da81087")
 	)
 	(pad "" np_thru_hole circle
@@ -183,47 +208,73 @@
 		(size 0.9906 0.9906)
 		(drill 0.9906)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "008189ff-e4e2-4d81-892c-78f422db1287")
 	)
 	(pad "1" connect circle
 		(at -1.27 0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2509f2e4-e8d1-4e64-a53b-26904e1cf4d7")
 	)
 	(pad "2" connect circle
 		(at -1.27 -0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a166afca-da26-4e70-8eb4-033185f287c1")
 	)
 	(pad "3" connect circle
 		(at 0 0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fc8656a2-a770-48d5-92be-2d7ab1d405c7")
 	)
 	(pad "4" connect circle
 		(at 0 -0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6909bc0f-dc8d-41d1-8f1a-f628a3fa8e05")
 	)
 	(pad "5" connect circle
 		(at 1.27 0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dd51353d-2cf5-4a4f-9aab-f13c879361a9")
 	)
 	(pad "6" connect circle
 		(at 1.27 -0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c6d7c4bf-8d40-4dd6-98ad-e2c5a2677c2e")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "25ada721-670a-4020-ae0b-77410c4e375a")
 		(hatch full 0.508)
@@ -231,7 +282,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -246,6 +296,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

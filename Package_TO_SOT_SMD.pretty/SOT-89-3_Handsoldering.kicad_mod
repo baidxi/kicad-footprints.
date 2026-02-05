@@ -1,7 +1,7 @@
 (footprint "SOT-89-3_Handsoldering"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SOT-89-3 Handsoldering")
 	(tags "SOT-89-3 Handsoldering")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.36 -2.36)
 		(end 1.36 -2.36)
@@ -222,6 +223,10 @@
 		(size 2.3 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "015e04df-05fc-4313-b578-1bf6adbb036f")
 	)
 	(pad "2" smd custom
@@ -243,6 +248,10 @@
 				(fill yes)
 			)
 		)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "37200321-6665-486e-8e98-207a61faf1f5")
 	)
 	(pad "3" smd roundrect
@@ -250,6 +259,10 @@
 		(size 2.3 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f8684497-efa9-4734-b128-18874a97bece")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf")
 	(tags "ATO FKS blade fuse holder")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.91 -2.06)
 		(end 16.71 -2.06)
@@ -190,7 +191,11 @@
 		(at 6.4 1.25)
 		(size 2.4 2.4)
 		(drill 2.4)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1b28bfc8-4611-43c5-8c4e-f594dd03fc46")
 	)
 	(pad "1" thru_hole circle
@@ -199,6 +204,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3e1e26ee-5029-4b9d-9273-349679058b6b")
 	)
 	(pad "1" thru_hole circle
@@ -207,6 +216,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a6047c94-e7a5-4b80-9193-be0c773035e3")
 	)
 	(pad "1" thru_hole circle
@@ -215,6 +228,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "790f2df9-fcde-4524-9ecd-49873b1873e4")
 	)
 	(pad "1" thru_hole circle
@@ -223,6 +240,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "06b8647c-8688-4791-bbc0-5afff8fa4e21")
 	)
 	(pad "2" thru_hole circle
@@ -231,6 +252,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b8684a09-cb8d-46ef-b36b-7c80f454fec1")
 	)
 	(pad "2" thru_hole circle
@@ -239,6 +264,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bb7274fc-c65d-43e9-b5db-a7bc5390d967")
 	)
 	(pad "2" thru_hole circle
@@ -247,6 +276,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "27802935-6138-4789-bfe9-1e9fddc5fb9b")
 	)
 	(pad "2" thru_hole circle
@@ -255,6 +288,10 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "195941e1-cfb1-4520-86ad-043cf296457d")
 	)
 	(embedded_fonts no)

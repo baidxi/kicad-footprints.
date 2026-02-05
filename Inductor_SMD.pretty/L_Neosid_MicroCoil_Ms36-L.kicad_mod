@@ -1,7 +1,7 @@
 (footprint "L_Neosid_MicroCoil_Ms36-L"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Neosid, Micro Coil, Inductor, Ms36-L, SMD, Fixed inductor, anti clockwise, https://neosid.de/en/products/inductors/rod-core-chokes/smd-rod-core-chokes/52026/ms-36/7-h?c=94")
 	(tags "Neosid Micro Coil Inductor Ms36-L SMD Fixed inductor anti clockwise")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 4 -2)
 		(end -4 -2)
@@ -249,12 +250,20 @@
 		(at -4 0)
 		(size 3 3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2ee96385-4027-42b4-a29f-083e47658ea9")
 	)
 	(pad "2" smd rect
 		(at 4 0)
 		(size 3 3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9c3b83b0-702f-4582-9853-664b35e9c576")
 	)
 	(embedded_fonts no)

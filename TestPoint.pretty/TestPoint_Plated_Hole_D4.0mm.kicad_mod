@@ -1,7 +1,7 @@
 (footprint "TestPoint_Plated_Hole_D4.0mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Plated Hole as test Point, diameter 4.0mm")
 	(tags "test point plated hole")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
 		(end 0 2.75)
@@ -93,6 +94,10 @@
 		(drill 4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e7f0837b-66ed-4ca0-8cad-53cea8e84e78")
 	)
 	(embedded_fonts no)

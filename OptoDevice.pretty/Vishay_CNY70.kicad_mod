@@ -1,7 +1,7 @@
 (footprint "Vishay_CNY70"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "package for Vishay CNY70 refective photo coupler/interrupter, https://www.vishay.com/docs/83751/cny70.pdf")
 	(tags "Vishay CNY70 refective photo coupler")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.48 -2.61)
 		(end -2.48 -1.11)
@@ -396,10 +397,10 @@
 		(layer "F.Fab")
 		(uuid "6976ab04-31a1-4699-beef-01e7ecf80c0f")
 	)
-	(fp_text user "D"
-		(at 2.8 1.27 0)
+	(fp_text user "E"
+		(at 0 1.27 0)
 		(layer "Cmts.User")
-		(uuid "b88f227b-3f3b-458c-b9e2-ae80700abfd5")
+		(uuid "bf937c35-15a7-4d68-bc3d-7a61df2a3a6a")
 		(effects
 			(font
 				(size 1 1)
@@ -407,10 +408,10 @@
 			)
 		)
 	)
-	(fp_text user "E"
-		(at 0 1.27 0)
+	(fp_text user "D"
+		(at 2.8 1.27 0)
 		(layer "Cmts.User")
-		(uuid "bf937c35-15a7-4d68-bc3d-7a61df2a3a6a")
+		(uuid "b88f227b-3f3b-458c-b9e2-ae80700abfd5")
 		(effects
 			(font
 				(size 1 1)
@@ -447,6 +448,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.156)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1d2ad982-6698-4507-bb0f-04a63b5b86e4")
 	)
 	(pad "2" thru_hole circle
@@ -455,6 +460,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fe21b199-84d9-461a-b8d0-a7d7ee8d9f9f")
 	)
 	(pad "3" thru_hole circle
@@ -463,6 +472,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b7a0a3ff-b227-45b3-b52b-95a514274ff9")
 	)
 	(pad "4" thru_hole circle
@@ -471,6 +484,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "507afe37-8b67-40c6-a486-bafc08aecc0b")
 	)
 	(embedded_fonts no)

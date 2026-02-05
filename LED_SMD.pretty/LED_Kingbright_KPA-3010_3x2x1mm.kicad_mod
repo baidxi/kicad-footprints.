@@ -1,7 +1,7 @@
 (footprint "LED_Kingbright_KPA-3010_3x2x1mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Kingbright surface mount LED, right angle, 3.0 x 2.0 x 1.0 mm, https://www.kingbright.com/attachments/file/psearch/000/00/00/KPA-3010SURCK(Ver.26A).pdf")
 	(tags "Kingbright LED right-angle")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.76 0.9)
 		(end -2.76 1.51)
@@ -323,6 +324,10 @@
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a3a7e4b0-153f-4b30-b619-d09cb0f94c1d")
 	)
 	(pad "2" smd roundrect
@@ -330,6 +335,10 @@
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5539aa60-6bbe-45c5-b91d-3509b1060a1c")
 	)
 	(pad "3" smd roundrect
@@ -337,6 +346,10 @@
 		(size 0.9 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f8f190eb-deb0-4277-ac33-ecd1cf4ba45a")
 	)
 	(embedded_fonts no)

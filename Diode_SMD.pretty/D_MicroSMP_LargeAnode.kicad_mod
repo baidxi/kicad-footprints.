@@ -1,7 +1,7 @@
 (footprint "D_MicroSMP_LargeAnode"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Diode MicroSMP (DO-219AD), large-pad anode, https://www.vishay.com/docs/89457/msmp6a.pdf")
 	(tags "Diode MicroSMP (DO-219AD)")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.68 -0.81)
 		(end -1.68 0.81)
@@ -195,12 +196,20 @@
 		(at -1.02 0)
 		(size 0.8 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7957993b-0ffb-46fe-9fb4-276f95980843")
 	)
 	(pad "2" smd rect
 		(at 0.88 0)
 		(size 2 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "04d96c6c-b901-4410-a28d-d95249196be2")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "Buzzer_CUI_CPT-9019S-SMT"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://www.cui.com/product/resource/cpt-9019s-smt.pdf")
 	(tags "buzzer piezo")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.6 -4.6)
 		(end -4.6 -2.4)
@@ -309,12 +310,20 @@
 		(at -4 0)
 		(size 2 4.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d39b202e-62f4-44d8-b5ac-d283e1688a6a")
 	)
 	(pad "2" smd rect
 		(at 4 0)
 		(size 2 4.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ca72a435-1061-4f95-815f-57e78f8b2626")
 	)
 	(embedded_fonts no)

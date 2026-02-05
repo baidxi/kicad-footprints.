@@ -1,7 +1,7 @@
 (footprint "SW_Matias_1.75u"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Matias/ALPS keyswitch, 1.75u, http://matias.ca/switches/")
 	(tags "Matias ALPS keyswitch 1.75u")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -11.35 -2.75)
 		(end 6.35 -2.75)
@@ -231,6 +232,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "417419d3-a589-41a3-91d2-83cdd694d535")
 	)
 	(pad "2" thru_hole circle
@@ -239,6 +244,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4d62b60c-48e6-43ea-9720-e28b976f82c8")
 	)
 	(embedded_fonts no)

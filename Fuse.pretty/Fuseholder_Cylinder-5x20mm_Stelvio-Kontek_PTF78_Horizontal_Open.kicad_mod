@@ -1,7 +1,7 @@
 (footprint "Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://www.tme.eu/en/Document/3b48dbe2b9714a62652c97b08fcd464b/PTF78.pdf")
 	(tags "Fuseholder horizontal open 5x20 Stelvio-Kontek PTF/78")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0 -4.8)
 		(end 22.6 -4.8)
@@ -411,6 +412,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fa917c29-3216-47a1-a3a5-0afc9f6af2ee")
 	)
 	(pad "2" thru_hole circle
@@ -419,6 +424,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "101f71e9-5861-43d3-815d-840995ea243d")
 	)
 	(embedded_fonts no)

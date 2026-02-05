@@ -1,7 +1,7 @@
 (footprint "Relay_SPST_TE_PCH-1xxx2M"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Miniature PCB Relay, PCH Series, 1 Form A (NO), SPST http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FPCH_series_relay_data_sheet_E%7F1215%7Fpdf%7FEnglish%7FENG_DS_PCH_series_relay_data_sheet_E_1215.pdf")
 	(tags "Relay SPST NO")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.17 3.8)
 		(end -1.17 6.9)
@@ -362,6 +363,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.155)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ed08de31-a85c-40ff-94d5-f449711a5ec2")
 	)
 	(pad "2" thru_hole circle
@@ -370,6 +375,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5b67e6c2-6d5a-4e20-a775-5e62450aafbd")
 	)
 	(pad "3" thru_hole circle
@@ -378,6 +387,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8a5b1e18-9694-4626-9492-809c689120d0")
 	)
 	(pad "5" thru_hole circle
@@ -386,6 +399,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dd8d7e61-c042-49e3-8eda-fb2c2f7346b1")
 	)
 	(embedded_fonts no)

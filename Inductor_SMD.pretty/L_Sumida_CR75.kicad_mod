@@ -1,7 +1,7 @@
 (footprint "L_Sumida_CR75"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Inductor, Sumida, 8.1mm × 7.3mm × 5.5 mm, Unshielded, http://products.sumida.com/products/pdf/CR75.pdf")
 	(tags "Inductor SMD CR75 Unshielded")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.26 -3.72)
 		(end 4.26 -3.72)
@@ -190,6 +191,10 @@
 		(size 3 5.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.333)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "39addb90-2da5-427e-b011-0cec9811aa2a")
 	)
 	(pad "2" smd roundrect
@@ -197,6 +202,10 @@
 		(size 3 5.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.333)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "371dcd7e-df7c-4528-816c-3b7d99cdedec")
 	)
 	(embedded_fonts no)

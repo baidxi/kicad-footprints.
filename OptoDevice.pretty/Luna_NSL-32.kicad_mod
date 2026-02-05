@@ -1,7 +1,7 @@
 (footprint "Luna_NSL-32"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Optoisolator with LED and photoresistor")
 	(tags "optoisolator")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.12 1.07)
 		(end 1.87 1.07)
@@ -292,6 +293,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.159)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "64c1e016-db5f-41d6-b50b-09b08dd4054d")
 	)
 	(pad "2" thru_hole oval
@@ -300,6 +305,10 @@
 		(drill 0.81)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "64f19293-c2ce-474d-b9dc-348c8b9a9c6e")
 	)
 	(pad "3" thru_hole oval
@@ -308,6 +317,10 @@
 		(drill 0.81)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "16b5fbb8-ac0f-4a62-aded-5b5c82039d12")
 	)
 	(pad "4" thru_hole oval
@@ -316,6 +329,10 @@
 		(drill 0.81)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5defb0f3-9bb4-4fba-9464-ddd782134233")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf")
 	(tags "Temperature and humidity module DHT22 AM2302")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.1 -1.1)
 		(end -0.1 -1.1)
@@ -409,7 +410,11 @@
 		(at 25.3 3.81)
 		(size 3 3)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "de61bc8c-a969-4f79-b7cd-ec2f3b84531c")
 	)
 	(pad "1" thru_hole rect
@@ -418,6 +423,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8647369b-a737-4705-9088-778c633dd76c")
 	)
 	(pad "2" thru_hole circle
@@ -426,6 +435,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "26e75833-0ec4-4acd-8b58-fd5b8f8cb31e")
 	)
 	(pad "3" thru_hole circle
@@ -434,6 +447,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "23866ba5-5e81-42fa-8121-5b28fa37acb6")
 	)
 	(pad "4" thru_hole circle
@@ -442,6 +459,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "40c33894-85bb-422f-8c12-45bd1fc080da")
 	)
 	(embedded_fonts no)

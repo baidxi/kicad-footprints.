@@ -1,7 +1,7 @@
 (footprint "L_Taiyo-Yuden_NR-50xx"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Inductor, Taiyo Yuden, NR series, Taiyo-Yuden_NR-50xx, 4.9mmx4.9mm")
 	(tags "inductor taiyo-yuden nr smd")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.55 -2.55)
 		(end 2.55 -2.55)
@@ -209,12 +210,20 @@
 		(at -1.8 0)
 		(size 1.5 4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4a49f0a5-3703-4527-997c-5518feca0de9")
 	)
 	(pad "2" smd rect
 		(at 1.8 0)
 		(size 1.5 4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "551d60ad-87e3-481a-8fce-52bb99516fba")
 	)
 	(embedded_fonts no)

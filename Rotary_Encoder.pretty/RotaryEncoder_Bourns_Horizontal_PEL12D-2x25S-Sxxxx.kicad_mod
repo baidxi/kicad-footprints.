@@ -1,7 +1,7 @@
 (footprint "RotaryEncoder_Bourns_Horizontal_PEL12D-2x25S-Sxxxx"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Rotary encoder with switch and illuminated shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf")
 	(tags "rotary encoder illuminated switch horizontal")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.3 -4)
 		(end -3.3 -3.4)
@@ -604,6 +605,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2b858d4b-b7dd-4684-8282-842ecf41d1c5")
 	)
 	(pad "2" thru_hole circle
@@ -612,6 +617,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2c7896f7-ae93-4eef-bff7-0725b1be0ac4")
 	)
 	(pad "3" thru_hole circle
@@ -620,6 +629,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0d13eccb-d148-42e4-a540-4872a4112a9e")
 	)
 	(pad "4" thru_hole circle
@@ -628,6 +641,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fbde5f82-8b88-450a-8562-a64fd091c51c")
 	)
 	(pad "A" thru_hole circle
@@ -636,6 +653,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ee6f403e-0b83-49cb-921a-4957d251bd80")
 	)
 	(pad "B" thru_hole circle
@@ -644,6 +665,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c8d3c523-d212-4e64-bf85-3d69222d5e97")
 	)
 	(pad "C" thru_hole circle
@@ -652,6 +677,10 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5808ecbd-62b4-401e-b72e-2a265d963a05")
 	)
 	(pad "SH" thru_hole oval
@@ -660,6 +689,10 @@
 		(drill oval 2.6 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ff1678ea-49ad-46f5-8f88-d8e978f616ad")
 	)
 	(pad "SH" thru_hole oval
@@ -668,11 +701,13 @@
 		(drill oval 2.6 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "35616727-da64-462d-83ea-6904bc8892fd")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "a2ab0d0a-e06b-46d2-8ee3-60ecc61ca8f7")
 		(hatch edge 0.5)
@@ -680,7 +715,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -695,6 +729,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -703,8 +738,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "ea273939-9e6a-47d1-847f-5c8e35544a8a")
 		(hatch edge 0.5)
@@ -712,7 +745,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -727,6 +759,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -735,8 +768,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Fab")
 		(uuid "0e371525-5e83-4917-a370-e40998e2f476")
 		(hatch edge 0.5)
@@ -744,7 +775,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -759,6 +789,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -767,8 +798,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Fab")
 		(uuid "6566467b-020d-4b2b-9489-57aa2dfb47ab")
 		(hatch edge 0.5)
@@ -776,7 +805,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -791,6 +819,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

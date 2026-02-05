@@ -1,7 +1,7 @@
 (footprint "Filter_Schaffner_FN405"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Compact PCB mounting EMI filter (https://www.schaffner.com/product/FN405/Schaffner_datasheet_FN405.pdf)")
 	(tags "EMI filter")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.8 -0.5)
 		(end -8.3 0)
@@ -252,6 +253,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d1b1ee1f-fe1c-42a9-9907-26ef5c7d5388")
 	)
 	(pad "2" thru_hole circle
@@ -260,6 +265,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "963f1eae-bd0b-4b7f-a6c8-666c27d625b2")
 	)
 	(pad "3" thru_hole circle
@@ -268,6 +277,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e5012446-92f4-445d-b836-776ac1e0bf2a")
 	)
 	(pad "4" thru_hole circle
@@ -276,6 +289,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "be5a0bcc-7393-4232-a79c-8cfa43ca1899")
 	)
 	(pad "5" thru_hole circle
@@ -284,6 +301,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "00f6678b-daf6-4030-9920-cce926fbb4f8")
 	)
 	(embedded_fonts no)

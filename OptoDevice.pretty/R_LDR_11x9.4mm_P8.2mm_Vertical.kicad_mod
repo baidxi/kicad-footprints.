@@ -1,7 +1,7 @@
 (footprint "R_LDR_11x9.4mm_P8.2mm_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Resistor, LDR 11x9.4mm")
 	(tags "Resistor LDR11x9.4mm")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.3 -4.8)
 		(end 7.9 -4.8)
@@ -325,6 +326,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3df83bec-0e1b-4c62-9dba-60ec5b338cb7")
 	)
 	(pad "2" thru_hole circle
@@ -333,6 +338,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4c1dffa3-15d8-432b-a757-6de557ae88b7")
 	)
 	(embedded_fonts no)

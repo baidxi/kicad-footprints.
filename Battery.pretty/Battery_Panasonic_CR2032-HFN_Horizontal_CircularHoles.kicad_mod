@@ -1,7 +1,7 @@
 (footprint "Battery_Panasonic_CR2032-HFN_Horizontal_CircularHoles"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Panasonic CR-2032/HFN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D166.PDF")
 	(tags "battery CR-2032 coin cell")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.15 -2.15)
 		(end -0.15 -1.65)
@@ -289,6 +290,10 @@
 		(drill 0.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2a9d24f8-6fdc-4d62-99e6-b9392298e06f")
 	)
 	(pad "2" thru_hole oval
@@ -297,6 +302,10 @@
 		(drill 0.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "a3e5cac8-ee76-4db4-8b37-708ea64635d6")
 	)
 	(embedded_fonts no)

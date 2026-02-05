@@ -1,7 +1,7 @@
 (footprint "SW_SPST_TS-1088-xR025"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SMD Tactile Switch, 3.9x3x2.5 mm, https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XUNPU-TS-1088-AR02016_C720477.pdf")
 	(tags "Tactile Switch")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.1 -1.65)
 		(end 2.1 -1.65)
@@ -221,6 +222,10 @@
 		(size 1.05 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2380952381)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f5178655-4ae4-4e7c-b5bb-a79d990d08a6")
 	)
 	(pad "2" smd roundrect
@@ -228,6 +233,10 @@
 		(size 1.05 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2380952381)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6f994d3d-2800-47d5-b256-665b170cf7f7")
 	)
 	(embedded_fonts no)

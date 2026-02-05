@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_15.1x15.1x6.3mm_P10.9mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Single phase bridge rectifier case 15.1x15.1mm, pitch 10.9mm, see https://diotec.com/tl_files/diotec/files/pdf/datasheets/pb1000.pdf")
 	(tags "Diode Bridge PB10xxS")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.25 -0.45)
 		(end -1.5 -1.2)
@@ -231,6 +232,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0ad8a61f-595c-46dd-a8a3-df4b5ad5f99b")
 	)
 	(pad "2" thru_hole circle
@@ -239,6 +244,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bb572522-9a7e-4416-88c1-26b113da463b")
 	)
 	(pad "3" thru_hole circle
@@ -247,6 +256,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "01ea10f4-9d4f-4b27-a04f-119e0d347532")
 	)
 	(pad "4" thru_hole circle
@@ -255,6 +268,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fc5ed172-78de-40ba-84af-6b958513c842")
 	)
 	(embedded_fonts no)

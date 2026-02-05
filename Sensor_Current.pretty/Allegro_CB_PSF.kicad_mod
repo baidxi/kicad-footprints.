@@ -1,7 +1,7 @@
 (footprint "Allegro_CB_PSF"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Allegro MicroSystems, CB-PSF Package (http://www.allegromicro.com/en/Products/Current-Sensor-ICs/Fifty-To-Two-Hundred-Amp-Integrated-Conductor-Sensor-ICs/ACS758.aspx)")
 	(tags "Allegro CB-PSF")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.21 -7.18)
 		(end -5.21 -18.3)
@@ -631,6 +632,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4637b968-fc70-458e-8c8a-171ce3ba91f6")
 	)
 	(pad "2" thru_hole circle
@@ -639,6 +644,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "812e4644-bd0f-4271-90aa-53b373ed30fc")
 	)
 	(pad "3" thru_hole circle
@@ -647,18 +656,30 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "618b4f99-3ad1-4b3b-bc78-fb2e644d6210")
 	)
 	(pad "4" smd rect
 		(at 6.91 -24.6)
 		(size 5.5 12)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f61c43e1-bb58-46a2-8cdd-55ab727ef4f5")
 	)
 	(pad "5" smd rect
 		(at -3.09 -24.6)
 		(size 5.5 12)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "238be581-e641-4502-bb37-c4a5ae322784")
 	)
 	(embedded_fonts no)

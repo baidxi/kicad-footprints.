@@ -1,7 +1,7 @@
 (footprint "BJB_Pico_46.110.1001_Receptacle_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "BJB Pico, single terminal block/receptacle, uninsulated, SMD, 6.9x2.3x2.7mm, https://www.bjb.com/media/7a/b3/df/1740905546/DM-6265102-v6_BJB_Datasheet_46.110.1001-0_SMD_Terminal_block_without_housing_Update_03_2022.PDF")
 	(tags "socket")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.05 -1.24)
 		(end -3.65 -1.11)
@@ -309,18 +310,6 @@
 			)
 		)
 	)
-	(fp_text user "15.6mm conn"
-		(at -4.5 0 90)
-		(unlocked yes)
-		(layer "Dwgs.User")
-		(uuid "7ea2b9b2-5afe-43dc-aa79-14e3b45e7048")
-		(effects
-			(font
-				(size 0.3 0.3)
-				(thickness 0.045)
-			)
-		)
-	)
 	(fp_text user "17.6mm conn"
 		(at -6.3 0 90)
 		(unlocked yes)
@@ -345,6 +334,18 @@
 			)
 		)
 	)
+	(fp_text user "15.6mm conn"
+		(at -4.5 0 90)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "7ea2b9b2-5afe-43dc-aa79-14e3b45e7048")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.045)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -362,6 +363,10 @@
 		(layers "F.Paste")
 		(roundrect_rratio 0.1515151515)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5589455a-cfc9-46f1-95dd-c6737acf4d73")
 	)
 	(pad "" smd roundrect
@@ -370,6 +375,10 @@
 		(layers "F.Paste")
 		(roundrect_rratio 0.125)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "de43c6df-1e79-4d99-9deb-d2a0870cf25a")
 	)
 	(pad "" smd roundrect
@@ -378,6 +387,10 @@
 		(layers "F.Paste")
 		(roundrect_rratio 0.125)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6b53701f-4748-4b6b-b8b5-33f6e02b743a")
 	)
 	(pad "1" smd roundrect
@@ -386,6 +399,10 @@
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1515151515)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "30829e38-c8e7-462c-9e9b-0ec2dfeab80a")
 	)
 	(pad "1" smd roundrect
@@ -394,6 +411,10 @@
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.125)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f994c8c5-d50b-4220-abc5-61c2aad59fbc")
 	)
 	(embedded_fonts no)

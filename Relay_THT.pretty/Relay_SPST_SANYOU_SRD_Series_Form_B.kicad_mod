@@ -1,7 +1,7 @@
 (footprint "Relay_SPST_SANYOU_SRD_Series_Form_B"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "relay Sanyou SRD series Form B opener http://www.sanyourelay.ca/public/products/pdf/SRD.pdf")
 	(tags "relay Sanyu SRD form B opener")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.4 -7.8)
 		(end -1.4 -1.2)
@@ -344,10 +345,10 @@
 		(layer "F.Fab")
 		(uuid "74230d57-5f45-4beb-b51f-3e6f2451c053")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 7.1 0.025 0)
+	(fp_text user "1"
+		(at 0 -2.3 0)
 		(layer "F.Fab")
-		(uuid "bb25c2aa-699f-40be-8eeb-a1a7464bd779")
+		(uuid "f26bc423-8ba5-4519-b03a-7d3cabd11d33")
 		(effects
 			(font
 				(size 1 1)
@@ -355,10 +356,10 @@
 			)
 		)
 	)
-	(fp_text user "1"
-		(at 0 -2.3 0)
+	(fp_text user "${REFERENCE}"
+		(at 7.1 0.025 0)
 		(layer "F.Fab")
-		(uuid "f26bc423-8ba5-4519-b03a-7d3cabd11d33")
+		(uuid "bb25c2aa-699f-40be-8eeb-a1a7464bd779")
 		(effects
 			(font
 				(size 1 1)
@@ -372,6 +373,10 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6380eee6-d991-423b-8521-966973eca9f2")
 	)
 	(pad "2" thru_hole circle
@@ -380,6 +385,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f5902320-dc90-44d7-87aa-afb64a9031bf")
 	)
 	(pad "4" thru_hole circle
@@ -388,6 +397,10 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9cf37461-b274-457c-971a-e67030424a2d")
 	)
 	(pad "5" thru_hole circle
@@ -396,6 +409,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f46d6d19-d404-4895-b840-c7eb02855422")
 	)
 	(embedded_fonts no)

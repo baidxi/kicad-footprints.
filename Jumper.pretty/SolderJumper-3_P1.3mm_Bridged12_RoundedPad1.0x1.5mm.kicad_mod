@@ -1,7 +1,7 @@
 (footprint "SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip")
 	(tags "net tie solder jumper bridged")
@@ -56,6 +56,7 @@
 	(zone_connect 1)
 	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 	(net_tie_pad_groups "1,2")
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -0.9 -0.3) (xy -0.4 -0.3) (xy -0.4 0.3) (xy -0.9 0.3)
@@ -264,12 +265,20 @@
 				(fill yes)
 			)
 		)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "04288fe0-9f5d-4d89-808c-b99802a91761")
 	)
 	(pad "2" smd rect
 		(at 0 0)
 		(size 1 1.5)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5d5a181d-5578-4819-92f8-a2b4989dc25c")
 	)
 	(pad "3" smd custom
@@ -302,6 +311,10 @@
 				(width 0)
 				(fill yes)
 			)
+		)
+		(tenting
+			(front none)
+			(back none)
 		)
 		(uuid "b71e2cc9-0e30-4405-87b4-c1efc97a5a48")
 	)

@@ -1,7 +1,7 @@
 (footprint "RV_Disc_D21.5mm_W6.1mm_P7.5mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "varistor")
 	(tags "varistor SIOV")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.112 -1.7145)
 		(end 14.605 -1.7145)
@@ -231,6 +232,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "677a2802-8984-4822-ad3b-ba589263a024")
 	)
 	(pad "2" thru_hole circle
@@ -239,6 +244,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "174e3391-ca08-475d-a7cf-eed06c815819")
 	)
 	(embedded_fonts no)

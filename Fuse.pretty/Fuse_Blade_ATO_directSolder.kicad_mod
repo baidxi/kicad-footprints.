@@ -1,7 +1,7 @@
 (footprint "Fuse_Blade_ATO_directSolder"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "car blade fuse direct solder")
 	(tags "car blade fuse")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.47 -3.12)
 		(end -5.47 3.12)
@@ -241,6 +242,10 @@
 		(drill oval 6 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e77e679f-b315-4fe7-8452-f759e6e286a6")
 	)
 	(pad "2" thru_hole oval
@@ -249,6 +254,10 @@
 		(drill oval 6 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "79f666d8-7a02-4383-a457-28e94d013ebe")
 	)
 	(embedded_fonts no)

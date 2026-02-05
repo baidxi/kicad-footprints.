@@ -1,7 +1,7 @@
 (footprint "Converter_ACDC_MeanWell_IRM-02-xx_THT"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "ACDC-Converter, 2W, Meanwell, IRM-02, THT, https://www.meanwell.co.uk/media/productPDF/IRM-02-spec.pdf")
 	(tags "ACDC-Converter 2W THT")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.97 -3.62)
 		(end 30.97 -3.62)
@@ -231,6 +232,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d026b854-4080-4d0d-b154-f7cd1d1584e7")
 	)
 	(pad "2" thru_hole circle
@@ -239,6 +244,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "41f40438-b363-418e-a89f-197eaa34624d")
 	)
 	(pad "3" thru_hole circle
@@ -247,6 +256,10 @@
 		(drill 0.76)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "98e00509-7077-4deb-9bc0-312316149f1e")
 	)
 	(pad "4" thru_hole circle
@@ -255,6 +268,10 @@
 		(drill 0.76)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "64014e09-9f3a-49ab-8c9b-7678ec0b643c")
 	)
 	(embedded_fonts no)

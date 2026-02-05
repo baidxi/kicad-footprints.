@@ -1,7 +1,7 @@
 (footprint "L_Sagami_CER1277B"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Inductor, Sagami, h=8.0mm, http://www.sagami-elec.co.jp/file/CER1242B-CER1257B-CER1277B.pdf")
 	(tags "inductor sagami cer12xxb smd")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.604 -2.032)
 		(end -1.905 -6.731)
@@ -357,12 +358,20 @@
 		(at -6.125 0)
 		(size 3.55 3.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bb084245-b9ef-471d-94b5-664340bf6f5d")
 	)
 	(pad "2" smd rect
 		(at 6.125 0)
 		(size 3.55 3.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9d367626-6b7f-41a8-8874-78cd51095f9d")
 	)
 	(embedded_fonts no)

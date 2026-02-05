@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_Diotec_MicroDil_3.0x3.0x1.8mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "SMD package Diotec Diotec MicroDil, body 3.0x3.0x1.8mm (e.g. diode bridge), see https://diotec.com/tl_files/diotec/files/pdf/datasheets/mys40.pdf")
 	(tags "Diotec MicroDil diode bridge")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.6 -1.6)
 		(end -1.6 -1.4)
@@ -201,24 +202,40 @@
 		(at -2.3 -0.635)
 		(size 1 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e0314317-1bc8-4229-8aa2-c8c2876e8cb3")
 	)
 	(pad "2" smd rect
 		(at -2.3 0.635)
 		(size 1 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "96cd243d-181b-4fd3-8b21-a6ab70633dff")
 	)
 	(pad "3" smd rect
 		(at 2.3 0.635)
 		(size 1 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1ffc04c1-54ae-4a0e-bfec-e73fd51fd281")
 	)
 	(pad "4" smd rect
 		(at 2.3 -0.635)
 		(size 1 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8de60148-3e5e-490a-a168-17b9e0c6cf88")
 	)
 	(embedded_fonts no)

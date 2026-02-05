@@ -1,7 +1,7 @@
 (footprint "RJ9_Evercom_5301-440xxx_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Evercom 5301-4P4C RJ9 receptacle, unshielded, https://datasheet.lcsc.com/lcsc/2207051802_EVERCOM-5301-4P4C_C3097715.pdf")
 	(tags "RJ9 Connector tab down")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.11 0.765)
 		(end -4.11 -0.765)
@@ -220,6 +221,10 @@
 		(size 3.25 3.25)
 		(drill 3.2)
 		(layers "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "17e2f5bd-56e5-46ac-9e2d-5b4f10151f9c")
 	)
 	(pad "" np_thru_hole circle
@@ -227,6 +232,10 @@
 		(size 3.25 3.25)
 		(drill 3.25)
 		(layers "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c16297a1-b9d0-4319-9866-9c7bdf89dcaf")
 	)
 	(pad "1" thru_hole roundrect
@@ -236,6 +245,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1388888889)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f3b6fa84-78d0-4a05-89ff-06c616266b0c")
 	)
 	(pad "2" thru_hole circle
@@ -244,6 +257,10 @@
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c410741a-389a-4230-aa95-1b88654e7d25")
 	)
 	(pad "3" thru_hole circle
@@ -252,6 +269,10 @@
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fee3c4d5-ce90-429c-b509-11896cfa456b")
 	)
 	(pad "4" thru_hole circle
@@ -260,6 +281,10 @@
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4da5984b-fdff-4189-83c9-3fdb5c29f601")
 	)
 	(embedded_fonts no)

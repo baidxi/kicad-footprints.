@@ -1,7 +1,7 @@
 (footprint "L_Bourns_SDR1806"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://www.bourns.com/docs/Product-Datasheets/SDR1806.pdf")
 	(tags "Bourns SDR1806")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9.15 -2.8)
 		(end -4 -6)
@@ -315,12 +316,20 @@
 		(at -7.85 0)
 		(size 3 2.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2853fd1a-a981-49a8-86e2-4cbce9d58f35")
 	)
 	(pad "2" smd rect
 		(at 7.85 0 180)
 		(size 3 2.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5bffcc26-ad16-4d96-8c89-206e6e1f7ec4")
 	)
 	(embedded_fonts no)

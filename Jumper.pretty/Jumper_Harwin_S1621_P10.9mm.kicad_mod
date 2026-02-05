@@ -1,7 +1,7 @@
 (footprint "Jumper_Harwin_S1621_P10.9mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Harwin SMD jumper link, 12.3x2.3mm, 1.8mm height, 10.9mm pad pitch, https://cdn.harwin.com/pdfs/S1621R.pdf")
 	(tags "SMD jumper link")
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.95 -1.05)
 		(end -2.9 -1.05)
@@ -461,6 +462,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1041666667)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6c82121a-08b3-455a-a1fc-506d417343dd")
 	)
 	(pad "2" smd roundrect
@@ -469,6 +474,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1041666667)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0e579a68-fe5b-4ac0-9c2f-6b6dffa5a96f")
 	)
 	(embedded_fonts no)

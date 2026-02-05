@@ -1,7 +1,7 @@
 (footprint "L_Taiyo-Yuden_MD-4040"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Inductor, Taiyo Yuden, MD series, Taiyo-Yuden_MD-4040, 4.0mmx4.0mm")
 	(tags "inductor taiyo-yuden md smd")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2 -2.1)
 		(end 2 -2.1)
@@ -169,12 +170,20 @@
 		(at -1.4 0)
 		(size 1.2 3.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "39284514-dd54-4c74-821f-8101ec54a566")
 	)
 	(pad "2" smd rect
 		(at 1.4 0)
 		(size 1.2 3.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "96676d2a-7aa1-4ca5-95ad-925f328a9e28")
 	)
 	(embedded_fonts no)

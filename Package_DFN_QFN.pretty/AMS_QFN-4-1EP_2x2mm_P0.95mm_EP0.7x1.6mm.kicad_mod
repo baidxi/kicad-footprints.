@@ -1,7 +1,7 @@
 (footprint "AMS_QFN-4-1EP_2x2mm_P0.95mm_EP0.7x1.6mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "UFD Package, 4-Lead Plastic QFN (2mm x 2mm), http://ams.com/eng/content/download/950231/2267959/483138")
 	(tags "QFN 0.95")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1 1.11)
 		(end 1 1.11)
@@ -191,6 +192,10 @@
 		(at 0 0)
 		(size 0.35 0.8)
 		(layers "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3c55aeae-d2bc-4a4c-9c62-698d7c892caa")
 	)
 	(pad "1" smd rect
@@ -198,6 +203,10 @@
 		(size 0.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin -0.05)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ec85441a-398e-4836-ae1d-bba780cad0f7")
 	)
 	(pad "2" smd rect
@@ -205,6 +214,10 @@
 		(size 0.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin -0.05)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4ada2806-f6d5-4aa5-a82d-64fe79ecd52e")
 	)
 	(pad "3" smd rect
@@ -212,6 +225,10 @@
 		(size 0.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin -0.05)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d4973728-d43a-4a67-9576-8fbfa618bc59")
 	)
 	(pad "4" smd rect
@@ -219,12 +236,20 @@
 		(size 0.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin -0.05)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "522941d2-1085-4dff-8d91-27b4ab4452a1")
 	)
 	(pad "5" smd rect
 		(at 0 0)
 		(size 0.7 1.6)
 		(layers "F.Cu" "F.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8d5426fa-c87b-4714-8516-c1a52a2fc734")
 	)
 	(embedded_fonts no)

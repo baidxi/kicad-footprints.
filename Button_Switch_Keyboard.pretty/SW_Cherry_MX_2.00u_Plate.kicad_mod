@@ -1,7 +1,7 @@
 (footprint "SW_Cherry_MX_2.00u_Plate"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Cherry MX keyswitch, 2.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 	(tags "Cherry MX keyswitch 2.00u plate")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9.525 -1.905)
 		(end 4.445 -1.905)
@@ -230,6 +231,10 @@
 		(size 4 4)
 		(drill 4)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f9090c08-1796-4499-8b9d-971acae7fd74")
 	)
 	(pad "1" thru_hole circle
@@ -238,6 +243,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2db3af06-8cf5-47b1-b47f-32eae9d1b37c")
 	)
 	(pad "2" thru_hole circle
@@ -246,6 +255,10 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0930bfa0-de1e-48ec-86f2-ec6f59fde2e2")
 	)
 	(embedded_fonts no)

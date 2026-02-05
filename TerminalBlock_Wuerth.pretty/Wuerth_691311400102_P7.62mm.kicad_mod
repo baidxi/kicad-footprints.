@@ -1,7 +1,7 @@
 (footprint "Wuerth_691311400102_P7.62mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "1x2 Close Vertical PCB Header WR-TBL Series 3114 https://www.we-online.com/components/products/datasheet/691311400102.pdf")
 	(tags "Wuerth WR-TBL Series 3114 terminal block pitch 7.62mm")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.17 -5.07)
 		(end -4.17 -4.07)
@@ -303,6 +304,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8f52c4f1-95e5-4fb8-b987-5558af5b5ddd")
 	)
 	(pad "2" thru_hole circle
@@ -311,6 +316,10 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "29aafdfd-2ac9-4ac3-959d-03b117ed8ad7")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "L_Vishay_IFSC-1515AH_4x4x1.8mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Low Profile, High Current Inductors (https://www.vishay.com/docs/34295/sc15ah01.pdf)")
 	(tags "SMD Vishay Inductor Low Profile")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2 -2.11)
 		(end 2 -2.11)
@@ -209,12 +210,20 @@
 		(at -1.475 0)
 		(size 1.15 3.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cd631ade-9c51-42af-a56e-099d624199af")
 	)
 	(pad "2" smd rect
 		(at 1.475 0)
 		(size 1.15 3.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cfe9c087-06c2-4e7b-aca1-42af2366ef15")
 	)
 	(embedded_fonts no)

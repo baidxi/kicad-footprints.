@@ -1,7 +1,7 @@
 (footprint "L_Bourns_SRP1245A"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Bourns SRP1245A series SMD inductor http://www.bourns.com/docs/Product-Datasheets/SRP1245A.pdf")
 	(tags "Bourns SRP1245A SMD inductor")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.45 -5.75)
 		(end -6.45 -2.8)
@@ -421,12 +422,20 @@
 		(at -5.55 0)
 		(size 3.1 5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "aea2910a-e861-4e09-b378-a2169c5e03cb")
 	)
 	(pad "2" smd rect
 		(at 5.55 0)
 		(size 3.1 5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f656fcef-b902-4df2-952a-bf560ea141b4")
 	)
 	(embedded_fonts no)

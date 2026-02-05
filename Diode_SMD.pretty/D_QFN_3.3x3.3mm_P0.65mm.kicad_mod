@@ -1,7 +1,7 @@
 (footprint "D_QFN_3.3x3.3mm_P0.65mm"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 	(tags "diode qfn 3.3")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.76 -1.76)
 		(end -1.76 -1.38)
@@ -289,6 +290,10 @@
 		(at 1.4 -0.975)
 		(size 0.8 0.44)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "dc5e9845-8b76-4f88-985b-a90d58d9d0a1")
 	)
 	(pad "1" smd custom
@@ -312,6 +317,10 @@
 				(fill yes)
 			)
 		)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9382597c-1388-4abf-9306-debd6b06cbe3")
 	)
 	(pad "2" smd custom
@@ -332,6 +341,10 @@
 				(width 0)
 				(fill yes)
 			)
+		)
+		(tenting
+			(front none)
+			(back none)
 		)
 		(uuid "bd8e8de8-783d-4a27-86a5-664d85883a21")
 	)

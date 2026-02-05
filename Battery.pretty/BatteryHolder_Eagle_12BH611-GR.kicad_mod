@@ -1,7 +1,7 @@
 (footprint "BatteryHolder_Eagle_12BH611-GR"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "https://eu.mouser.com/datasheet/2/209/EPD-200766-1274481.pdf")
 	(tags "9V Battery Holder")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -51.4 -21.45)
 		(end 3.1 -21.45)
@@ -394,6 +395,17 @@
 		(layer "F.Fab")
 		(uuid "66562051-7e98-44cf-bba6-a06fbbf25d7a")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -24.13 -6.35 180)
+		(layer "F.Fab")
+		(uuid "4ccd0e2d-0f2d-48df-b3f6-5c31626bdd6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "-"
 		(at -7 -12.7 0)
 		(layer "F.Fab")
@@ -416,22 +428,15 @@
 			)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -24.13 -6.35 180)
-		(layer "F.Fab")
-		(uuid "4ccd0e2d-0f2d-48df-b3f6-5c31626bdd6a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "" np_thru_hole circle
 		(at -38.9 -17.45)
 		(size 2.6 2.6)
 		(drill 2.6)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "20799aec-0196-4d10-877f-81667cefbc74")
 	)
 	(pad "" np_thru_hole circle
@@ -439,6 +444,10 @@
 		(size 2.6 2.6)
 		(drill 2.6)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "541193f7-b4d4-4b21-a245-d405144fa241")
 	)
 	(pad "" np_thru_hole circle
@@ -446,6 +455,10 @@
 		(size 2.6 2.6)
 		(drill 2.6)
 		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6868975f-763a-4019-a8da-11a66b70620d")
 	)
 	(pad "1" thru_hole rect
@@ -454,6 +467,10 @@
 		(drill 2.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "224e0654-386f-4cfd-a99c-b38ad221ea64")
 	)
 	(pad "2" thru_hole circle
@@ -462,6 +479,10 @@
 		(drill 2.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4befa7d1-7995-4bc6-878d-d6544c8f6c8a")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "L_Wurth_WE-CAIR-5910"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "WE-CAIR Air coil, https://www.we-online.com/components/products/datasheet/744918254.pdf")
 	(tags "air coil inductor wurth we cair")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.4 -3.3)
 		(end -5.4 3.3)
@@ -185,6 +186,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1225490196)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "80756d26-b818-47ee-a44b-6c56a9e6ba3a")
 	)
 	(pad "2" smd roundrect
@@ -193,6 +198,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1225490196)
 		(thermal_bridge_angle 45)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f280bd06-5c70-4d0e-a22d-ce9fd8d5b9ab")
 	)
 	(embedded_fonts no)

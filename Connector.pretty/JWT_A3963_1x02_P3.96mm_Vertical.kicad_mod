@@ -1,7 +1,7 @@
 (footprint "JWT_A3963_1x02_P3.96mm_Vertical"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "JWT A3963, 3.96mm pitch Pin head connector (http://www.jwt.com.tw/pro_pdf/A3963.pdf)")
 	(tags "connector JWT A3963 pinhead")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.5 -2.2)
 		(end -2.5 0)
@@ -371,6 +372,10 @@
 		(drill 1.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4e9be6ca-8fac-41e3-84c9-b4ff228e254e")
 	)
 	(pad "2" thru_hole circle
@@ -379,6 +384,10 @@
 		(drill 1.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "796ddcd1-a4e2-433c-8a3c-a92d4fc0aa60")
 	)
 	(embedded_fonts no)

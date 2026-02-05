@@ -1,7 +1,7 @@
 (footprint "Jack_3.5mm_Lumberg_1503_07_Horizontal"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "TRS 3.5mm, horizontal, through-hole, height 5mm, width 6.5mm, https://downloads.lumberg.com/datenblaetter/en/1503_07.pdf")
 	(tags "TRS audio jack horizontal")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.5 1.35)
 		(end -0.5 3.1)
@@ -422,14 +423,22 @@
 		(at 0.35 3.5)
 		(size 1.1 1.1)
 		(drill 1.1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8e921e66-8df4-4574-b8f7-a243bc00f274")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.35 3.5)
 		(size 1.1 1.1)
 		(drill 1.1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "74bc3ef7-f292-443f-9f70-163b962ec1e8")
 	)
 	(pad "R" thru_hole oval
@@ -438,6 +447,10 @@
 		(drill oval 0.8 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9673ec25-9b15-4175-a1e8-a481c41b0f85")
 	)
 	(pad "S" thru_hole oval
@@ -446,6 +459,10 @@
 		(drill oval 0.8 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cb52c1e9-579a-4eec-aa84-5e3ad0de18a2")
 	)
 	(pad "T" thru_hole oval
@@ -454,6 +471,10 @@
 		(drill oval 1 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "12682516-36b1-43bc-abb9-a824fcbbc569")
 	)
 	(pad "T" thru_hole oval
@@ -462,6 +483,10 @@
 		(drill oval 1 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "598c1b17-cbaa-4896-8473-3013ace6fce8")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "MouseBite-Slot-Jumper_0201"
-	(version 20241229)
+	(version 20260101)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(descr "Jumper for Mouse slot. SMD 0201 (0603 Metric)")
 	(tags "mousebite resistor jumper")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd board_only exclude_from_pos_files exclude_from_bom dnp)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -0.3 -0.65)
 		(end 0.3 0.65)
@@ -110,6 +111,10 @@
 		(size 0.4 0.46)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "01981737-e89f-4069-81aa-992227e0f266")
 	)
 	(pad "2" smd roundrect
@@ -117,6 +122,10 @@
 		(size 0.4 0.46)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b0a661ef-e47d-4f26-9d64-5ebbab687496")
 	)
 	(embedded_fonts no)
