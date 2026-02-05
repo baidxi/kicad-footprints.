@@ -1,7 +1,7 @@
 (footprint "Sharp_GP2Y0A41SK0F"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/gp2y0a41sk_e.pdf")
 	(tags "Distance Sensor Sharp")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -18.5 -3.8)
 		(end -14.8 -3.8)
@@ -763,9 +764,20 @@
 		(uuid "7a78f932-3e09-4a86-805d-42ec85fc0157")
 	)
 	(fp_text user "Ø->2,5 for thread M3"
-		(at 19.812 -6.096 0)
+		(at -19.812 -6.096 0)
 		(layer "Dwgs.User")
-		(uuid "009dabf0-cb0f-453c-b29a-5be6eae40418")
+		(uuid "ebf513c5-ecad-4b4a-8532-6aad0af435ea")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "Ø->3 for screw+nut"
+		(at -19.812 -5.08 0)
+		(layer "Dwgs.User")
+		(uuid "f0e2354b-17ed-4849-bfee-c71df9813a0e")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -785,20 +797,9 @@
 		)
 	)
 	(fp_text user "Ø->2,5 for thread M3"
-		(at -19.812 -6.096 0)
+		(at 19.812 -6.096 0)
 		(layer "Dwgs.User")
-		(uuid "ebf513c5-ecad-4b4a-8532-6aad0af435ea")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.05)
-			)
-		)
-	)
-	(fp_text user "Ø->3 for screw+nut"
-		(at -19.812 -5.08 0)
-		(layer "Dwgs.User")
-		(uuid "f0e2354b-17ed-4849-bfee-c71df9813a0e")
+		(uuid "009dabf0-cb0f-453c-b29a-5be6eae40418")
 		(effects
 			(font
 				(size 0.5 0.5)

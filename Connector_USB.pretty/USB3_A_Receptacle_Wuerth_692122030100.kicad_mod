@@ -1,7 +1,7 @@
 (footprint "USB3_A_Receptacle_Wuerth_692122030100"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "USB 3.0, type A, right angle (https://www.we-online.com/katalog/datasheet/692122030100.pdf)")
 	(tags "USB 3.0 type A right angle Würth")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.65 8.05)
 		(end -6.65 8.05)
@@ -513,14 +514,14 @@
 		(at -3.4 -3.45)
 		(size 2 2)
 		(drill 2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "0b752de3-fff7-4498-8dc5-e254fbf4b6e8")
 	)
 	(pad "" np_thru_hole circle
 		(at 3.4 -3.45)
 		(size 2 2)
 		(drill 2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "15d33ba9-67a6-4431-8cba-40cb1f099b0e")
 	)
 	(pad "1" smd roundrect

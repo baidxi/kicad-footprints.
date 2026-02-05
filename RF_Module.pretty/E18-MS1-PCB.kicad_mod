@@ -1,7 +1,7 @@
 (footprint "E18-MS1-PCB"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "http://www.cdebyte.com/en/downpdf.aspx?id=122")
 	(tags "Zigbee")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.17 -11.62)
 		(end -7.17 -0.46)
@@ -246,17 +247,6 @@
 		(layer "F.Fab")
 		(uuid "e6ac4d86-9df8-4f3a-8794-252751bd8cd8")
 	)
-	(fp_text user "on any PCB layer."
-		(at 0 -7 180)
-		(layer "Cmts.User")
-		(uuid "1baff4a0-1f6c-4a44-a233-676a853f9a55")
-		(effects
-			(font
-				(size 0.4 0.4)
-				(thickness 0.06)
-			)
-		)
-	)
 	(fp_text user "KEEP-OUT ZONE"
 		(at 0 -10 180)
 		(layer "Cmts.User")
@@ -272,6 +262,17 @@
 		(at 0 -8 180)
 		(layer "Cmts.User")
 		(uuid "b7b868b5-9ee5-4952-8f3d-a8852f866afd")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(fp_text user "on any PCB layer."
+		(at 0 -7 180)
+		(layer "Cmts.User")
+		(uuid "1baff4a0-1f6c-4a44-a233-676a853f9a55")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -435,8 +436,6 @@
 		(uuid "fb1a898e-42f1-461e-b2c4-8de2a6c6b6f8")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
 			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
 			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
@@ -449,7 +448,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -464,6 +462,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

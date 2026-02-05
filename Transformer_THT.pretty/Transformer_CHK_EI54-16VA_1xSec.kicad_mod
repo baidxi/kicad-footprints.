@@ -1,7 +1,7 @@
 (footprint "Transformer_CHK_EI54-16VA_1xSec"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Trafo, Printtrafo, CHK, EI54, 16VA, 1x Sec,http://www.eratransformers.com/product-detail/19")
 	(tags "Trafo Printtrafo CHK EI54 16VA 1x Sec ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.62 -53.12)
 		(end -8.62 23.12)
@@ -985,10 +986,10 @@
 			)
 		)
 	)
-	(fp_text user "Sec"
-		(at 34 -15 90)
+	(fp_text user "1"
+		(at 1 3 0)
 		(layer "F.SilkS")
-		(uuid "83445d28-31d1-4242-88d3-cfdaa4965633")
+		(uuid "8cd358b9-ca66-4d1a-ba32-bab8dc83f95a")
 		(effects
 			(font
 				(size 1 1)
@@ -996,10 +997,10 @@
 			)
 		)
 	)
-	(fp_text user "1"
-		(at 1 3 0)
+	(fp_text user "Sec"
+		(at 34 -15 90)
 		(layer "F.SilkS")
-		(uuid "8cd358b9-ca66-4d1a-ba32-bab8dc83f95a")
+		(uuid "83445d28-31d1-4242-88d3-cfdaa4965633")
 		(effects
 			(font
 				(size 1 1)
@@ -1018,10 +1019,10 @@
 			)
 		)
 	)
-	(fp_text user "9"
-		(at 26 -26 0)
+	(fp_text user "${REFERENCE}"
+		(at 13 -15 90)
 		(layer "F.Fab")
-		(uuid "301bf0de-c0e0-49df-a983-4edf23e6bb6e")
+		(uuid "93b64434-3008-4275-ad53-dd40516e931d")
 		(effects
 			(font
 				(size 1 1)
@@ -1029,10 +1030,10 @@
 			)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 13 -15 90)
+	(fp_text user "9"
+		(at 26 -26 0)
 		(layer "F.Fab")
-		(uuid "93b64434-3008-4275-ad53-dd40516e931d")
+		(uuid "301bf0de-c0e0-49df-a983-4edf23e6bb6e")
 		(effects
 			(font
 				(size 1 1)

@@ -1,7 +1,7 @@
 (footprint "Oscillator_OCXO_Morion_MV267"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "http://www.morion.com.ru/catalog_pdf/MV267.pdf")
 	(tags "OCXO")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -25.6 -5.4)
 		(end -25.6 46)
@@ -194,32 +195,21 @@
 		(layer "F.Fab")
 		(uuid "91dd3e3d-a3b6-41a3-aa9b-9691d26e0052")
 	)
-	(fp_text user "Us"
-		(at 20.2 38 0)
-		(layer "F.SilkS")
-		(uuid "5aafa5f3-cfa6-47c8-a967-f81a62cd165a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "Uin"
-		(at 20.3 3 0)
-		(layer "F.SilkS")
-		(uuid "6aac3835-7a00-4f6f-a7a7-340f3f4a155d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "GND"
 		(at -20.4 38 0)
 		(layer "F.SilkS")
 		(uuid "86ffcd85-deb0-4de9-a96b-524e94aad74c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "RF"
+		(at -20.3 3 0)
+		(layer "F.SilkS")
+		(uuid "f5310495-550f-4cf9-838f-1f897c7612a2")
 		(effects
 			(font
 				(size 1 1)
@@ -238,10 +228,21 @@
 			)
 		)
 	)
-	(fp_text user "RF"
-		(at -20.3 3 0)
+	(fp_text user "Us"
+		(at 20.2 38 0)
 		(layer "F.SilkS")
-		(uuid "f5310495-550f-4cf9-838f-1f897c7612a2")
+		(uuid "5aafa5f3-cfa6-47c8-a967-f81a62cd165a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Uin"
+		(at 20.3 3 0)
+		(layer "F.SilkS")
+		(uuid "6aac3835-7a00-4f6f-a7a7-340f3f4a155d")
 		(effects
 			(font
 				(size 1 1)

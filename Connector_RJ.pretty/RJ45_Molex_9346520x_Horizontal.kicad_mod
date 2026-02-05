@@ -1,7 +1,7 @@
 (footprint "RJ45_Molex_9346520x_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, two LED, tab up")
 	(tags "RJ45 Magjack")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.03 -0.95)
 		(end -4.03 1.05)
@@ -359,14 +360,14 @@
 		(at -1.27 6.35)
 		(size 3.26 3.26)
 		(drill 3.25)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "e91f2b22-5fb2-4e3e-82fe-804e52ac746a")
 	)
 	(pad "" np_thru_hole circle
 		(at 10.16 6.35)
 		(size 3.26 3.26)
 		(drill 3.25)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "5e9f9543-a829-4729-b2eb-d4deff7f4d79")
 	)
 	(pad "2" thru_hole roundrect
@@ -483,8 +484,6 @@
 		(uuid "27ae1275-cbb4-49d5-a1f3-c5887b59e5c1")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "d708a938-9a23-4e98-8238-9b722ea7f508")
 		(name "Copper Keep Out")
@@ -493,7 +492,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -508,6 +506,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -516,8 +515,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "0c5481ff-a675-4d3d-9a74-9920b0ab9405")
 		(name "Copper Keep Out")
@@ -526,7 +523,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -541,6 +537,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -550,8 +547,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "334fe1fb-bcc1-4a93-b453-8f1842c65084")
 		(name "Copper Keep Out")
@@ -560,7 +555,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -575,6 +569,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

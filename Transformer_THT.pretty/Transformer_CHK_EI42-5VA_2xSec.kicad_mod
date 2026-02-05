@@ -1,7 +1,7 @@
 (footprint "Transformer_CHK_EI42-5VA_2xSec"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Trafo, Printtrafo, CHK, EI42, 5VA, 2x Sec,")
 	(tags "Trafo Printtrafo CHK EI42 5VA 2x Sec ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.12 -32.12)
 		(end -6.12 12.12)
@@ -916,10 +917,10 @@
 			)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 12 -10 90)
+	(fp_text user "5"
+		(at 0 -23 0)
 		(layer "F.Fab")
-		(uuid "27ab387a-3e7d-4806-8967-b3cd75380a56")
+		(uuid "80fd61bf-7243-4de3-a827-d9400816f387")
 		(effects
 			(font
 				(size 1 1)
@@ -927,10 +928,10 @@
 			)
 		)
 	)
-	(fp_text user "7"
-		(at 20.5 -13 0)
+	(fp_text user "${REFERENCE}"
+		(at 12 -10 90)
 		(layer "F.Fab")
-		(uuid "55a3d31a-39ac-4bc9-b028-6d0b62607d0c")
+		(uuid "27ab387a-3e7d-4806-8967-b3cd75380a56")
 		(effects
 			(font
 				(size 1 1)
@@ -949,10 +950,32 @@
 			)
 		)
 	)
-	(fp_text user "5"
-		(at 0 -23 0)
+	(fp_text user "7"
+		(at 20.5 -13 0)
 		(layer "F.Fab")
-		(uuid "80fd61bf-7243-4de3-a827-d9400816f387")
+		(uuid "55a3d31a-39ac-4bc9-b028-6d0b62607d0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "9"
+		(at 20.5 -6 0)
+		(layer "F.Fab")
+		(uuid "f6d69390-26cc-4e57-8175-ece38365cdfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "10"
+		(at 20.5 2 0)
+		(layer "F.Fab")
+		(uuid "e15e55ef-ee29-4584-9916-23758a9a3d14")
 		(effects
 			(font
 				(size 1 1)
@@ -975,28 +998,6 @@
 		(at 28.5 -2 90)
 		(layer "F.Fab")
 		(uuid "dc2277b7-e4af-4d6e-a73d-0c0b7d911a90")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "10"
-		(at 20.5 2 0)
-		(layer "F.Fab")
-		(uuid "e15e55ef-ee29-4584-9916-23758a9a3d14")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "9"
-		(at 20.5 -6 0)
-		(layer "F.Fab")
-		(uuid "f6d69390-26cc-4e57-8175-ece38365cdfc")
 		(effects
 			(font
 				(size 1 1)

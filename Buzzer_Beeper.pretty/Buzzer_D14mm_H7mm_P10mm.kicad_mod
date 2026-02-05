@@ -1,7 +1,7 @@
 (footprint "Buzzer_D14mm_H7mm_P10mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Generic Buzzer, D14mm height 7mm with pitch 10mm")
 	(tags "buzzer")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 5 0)
 		(end 12.1 0)
@@ -109,10 +110,10 @@
 			)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 5.32 2.27 0)
+	(fp_text user "+"
+		(at -0.01 -2.54 0)
 		(layer "F.Fab")
-		(uuid "0fbf60a4-f458-405a-93f4-d99e185a6f26")
+		(uuid "7d04f4ab-b19e-4b74-a65e-4cc406872952")
 		(effects
 			(font
 				(size 1 1)
@@ -120,10 +121,10 @@
 			)
 		)
 	)
-	(fp_text user "+"
-		(at -0.01 -2.54 0)
+	(fp_text user "${REFERENCE}"
+		(at 5.32 2.27 0)
 		(layer "F.Fab")
-		(uuid "7d04f4ab-b19e-4b74-a65e-4cc406872952")
+		(uuid "0fbf60a4-f458-405a-93f4-d99e185a6f26")
 		(effects
 			(font
 				(size 1 1)

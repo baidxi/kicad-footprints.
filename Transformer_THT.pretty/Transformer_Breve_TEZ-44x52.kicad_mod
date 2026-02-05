@@ -1,7 +1,7 @@
 (footprint "Transformer_Breve_TEZ-44x52"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "http://www.breve.pl/pdf/ANG/TEZ_ang.pdf")
 	(tags "TEZ PCB Transformer")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -14.62 -35.87)
 		(end -14.62 8.37)
@@ -254,6 +255,17 @@
 		(layer "F.Fab")
 		(uuid "88d735cc-0570-4c38-95e0-d4638a58bc67")
 	)
+	(fp_text user "12"
+		(at 0 -33.75 0)
+		(layer "F.SilkS")
+		(uuid "a292d378-0f35-43bd-a1ea-a92eaccbc7c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "1"
 		(at 0 6.25 0)
 		(layer "F.SilkS")
@@ -265,10 +277,32 @@
 			)
 		)
 	)
-	(fp_text user "8"
-		(at 20 -33.75 0)
+	(fp_text user "11"
+		(at 5 -33.75 0)
 		(layer "F.SilkS")
-		(uuid "097d4859-5906-4aa0-87d2-55ceef276e76")
+		(uuid "376c556a-1a43-4f5b-8a41-f066c84e1bc4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "2"
+		(at 5 6.25 0)
+		(layer "F.SilkS")
+		(uuid "6028490a-caa3-4482-903e-8e76615c0cab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "10"
+		(at 10 -33.75 0)
+		(layer "F.SilkS")
+		(uuid "e5d78823-cae5-45ca-8be3-8ce3cbb01827")
 		(effects
 			(font
 				(size 1 1)
@@ -280,6 +314,39 @@
 		(at 10 6.25 0)
 		(layer "F.SilkS")
 		(uuid "1ccf69d4-bf9d-4959-90a2-9ac14021f60c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "9"
+		(at 15 -33.75 0)
+		(layer "F.SilkS")
+		(uuid "ba639b41-2ba5-458d-a676-c1a18ce32bcb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "4"
+		(at 15 6.25 0)
+		(layer "F.SilkS")
+		(uuid "fe4f0a21-986f-4f9f-8dd6-88313e4c8bed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "8"
+		(at 20 -33.75 0)
+		(layer "F.SilkS")
+		(uuid "097d4859-5906-4aa0-87d2-55ceef276e76")
 		(effects
 			(font
 				(size 1 1)
@@ -309,76 +376,10 @@
 			)
 		)
 	)
-	(fp_text user "11"
-		(at 5 -33.75 0)
-		(layer "F.SilkS")
-		(uuid "376c556a-1a43-4f5b-8a41-f066c84e1bc4")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "6"
 		(at 25 6.25 0)
 		(layer "F.SilkS")
 		(uuid "376d272a-6696-4f48-aaaa-784696209729")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "2"
-		(at 5 6.25 0)
-		(layer "F.SilkS")
-		(uuid "6028490a-caa3-4482-903e-8e76615c0cab")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "12"
-		(at 0 -33.75 0)
-		(layer "F.SilkS")
-		(uuid "a292d378-0f35-43bd-a1ea-a92eaccbc7c6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "9"
-		(at 15 -33.75 0)
-		(layer "F.SilkS")
-		(uuid "ba639b41-2ba5-458d-a676-c1a18ce32bcb")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "10"
-		(at 10 -33.75 0)
-		(layer "F.SilkS")
-		(uuid "e5d78823-cae5-45ca-8be3-8ce3cbb01827")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "4"
-		(at 15 6.25 0)
-		(layer "F.SilkS")
-		(uuid "fe4f0a21-986f-4f9f-8dd6-88313e4c8bed")
 		(effects
 			(font
 				(size 1 1)

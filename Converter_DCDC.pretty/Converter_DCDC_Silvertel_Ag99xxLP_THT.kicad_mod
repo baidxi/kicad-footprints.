@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Silvertel_Ag99xxLP_THT"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Converter, DCDC, Silvertel Ag9900 PoE, 1500VDC isolation, Vin 36V - 75V, 4.9W - 10W output, https://silvertel.com/images/datasheets/Ag9900M-datasheet-ultra-miniature-isolated-Power-over-Ethernet-POE-module.pdf")
 	(tags "DCDC converter IEEE 802.3af")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.68 -1.67)
 		(end -1.68 0.78)
@@ -301,8 +302,6 @@
 		(uuid "ebadd2a5-21ab-4a7e-b5bc-6f737367e560")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "Dwgs.User")
 		(uuid "dccc48b3-d92e-433f-938c-a63934107a05")
 		(name "Underside")
@@ -311,7 +310,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -326,6 +324,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

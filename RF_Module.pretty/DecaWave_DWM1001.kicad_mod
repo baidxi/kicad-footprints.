@@ -1,7 +1,7 @@
 (footprint "DecaWave_DWM1001"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "https://www.decawave.com/sites/default/files/dwm1001_datasheet.pdf")
 	(tags "UWB module")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9.685 8.46)
 		(end -9.685 9.14)
@@ -278,17 +279,6 @@
 			)
 		)
 	)
-	(fp_text user "No bare Cu"
-		(at 5.645 -8.18 0)
-		(layer "Cmts.User")
-		(uuid "daf54d8d-4442-46dc-94e9-666df1462ce1")
-		(effects
-			(font
-				(size 0.15 0.15)
-				(thickness 0.0225)
-			)
-		)
-	)
 	(fp_text user "No components, traces, or copper on any layer"
 		(at 0 -11.5 0)
 		(layer "Cmts.User")
@@ -297,6 +287,17 @@
 			(font
 				(size 0.5 0.5)
 				(thickness 0.075)
+			)
+		)
+	)
+	(fp_text user "No bare Cu"
+		(at 5.645 -8.18 0)
+		(layer "Cmts.User")
+		(uuid "daf54d8d-4442-46dc-94e9-666df1462ce1")
+		(effects
+			(font
+				(size 0.15 0.15)
+				(thickness 0.0225)
 			)
 		)
 	)
@@ -523,8 +524,6 @@
 		(uuid "c62c53bb-ae51-4be6-b95b-cc59c0a7676b")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "5bf2d2e2-420e-4907-bad2-46f21ddad754")
 		(hatch full 0.508)
@@ -532,7 +531,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -547,6 +545,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -555,8 +554,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "0c503172-6c4c-4973-bb24-d0517a5128bc")
 		(hatch full 0.508)
@@ -564,7 +561,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -579,6 +575,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -587,8 +584,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
 			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
 			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
@@ -601,7 +596,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -616,6 +610,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

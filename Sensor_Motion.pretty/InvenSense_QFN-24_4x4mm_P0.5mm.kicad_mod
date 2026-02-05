@@ -1,7 +1,7 @@
 (footprint "InvenSense_QFN-24_4x4mm_P0.5mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "24-Lead Plastic QFN (4mm x 4mm); Pitch 0.5mm; EP 2.7x2.6mm; for InvenSense motion sensors; keepout area marked (Package see: https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf; See also https://www.invensense.com/wp-content/uploads/2015/02/InvenSense-MEMS-Handling.pdf)")
 	(tags "QFN 0.5")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.15 -1.685)
 		(end -2.15 -1.91)
@@ -236,17 +237,6 @@
 		(layer "F.Fab")
 		(uuid "5fb54969-0540-4640-820e-4f99226a3275")
 	)
-	(fp_text user "Component"
-		(at 0 0.55 0)
-		(layer "Cmts.User")
-		(uuid "369a85e3-b424-4702-9142-503c21eaf610")
-		(effects
-			(font
-				(size 0.2 0.2)
-				(thickness 0.04)
-			)
-		)
-	)
 	(fp_text user "KEEPOUT"
 		(at 0 -0.5 0)
 		(layer "Cmts.User")
@@ -273,6 +263,17 @@
 		(at 0 0.25 0)
 		(layer "Cmts.User")
 		(uuid "daad109c-0167-4889-b128-98a289e6bba3")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.04)
+			)
+		)
+	)
+	(fp_text user "Component"
+		(at 0 0.55 0)
+		(layer "Cmts.User")
+		(uuid "369a85e3-b424-4702-9142-503c21eaf610")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -460,8 +461,6 @@
 		(uuid "5aa7254d-4d13-4f27-9192-06c9359673c8")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "4de77002-6853-4499-884f-dd2175b42b6e")
 		(hatch full 0.508)
@@ -469,7 +468,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -484,6 +482,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

@@ -1,7 +1,7 @@
 (footprint "SW_SPST_CK_KMS2xxGP"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm with pegs, https://www.ckswitches.com/media/1482/kms.pdf")
 	(tags "Switch SPST KMS2")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.21 -1.56)
 		(end -1.11 -1.56)
@@ -219,14 +220,14 @@
 		(at -0.975 0.75)
 		(size 0.9 0.9)
 		(drill 0.9)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "0bcc46c3-a666-4a36-b046-996e64bbb050")
 	)
 	(pad "" np_thru_hole circle
 		(at 0.975 0.75)
 		(size 0.9 0.9)
 		(drill 0.9)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "98e3d558-b68c-41b0-97d3-be9e5f3cf0da")
 	)
 	(pad "1" smd roundrect

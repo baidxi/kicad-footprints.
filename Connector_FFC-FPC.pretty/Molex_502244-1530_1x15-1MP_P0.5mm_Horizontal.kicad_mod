@@ -1,7 +1,7 @@
 (footprint "Molex_502244-1530_1x15-1MP_P0.5mm_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 2.33mm Height, Right Angle, Surface Mount, ZIF, Bottom Contact Style, 15 Circuits (http://www.molex.com/pdm_docs/sd/5022441530_sd.pdf)")
 	(tags "molex FFC/FPC connector Pitch 0.5mm right angle")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.11 -2.96)
 		(end -4.1 -2.96)
@@ -451,8 +452,6 @@
 		(uuid "f0e0b6a4-5913-406e-a167-94f9f84d4156")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "a7c3fcf5-c856-4df2-a868-6b7084b83e07")
 		(hatch full 0.508)
@@ -460,7 +459,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -475,6 +473,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -484,8 +483,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "fff0955a-70a8-4e20-bdfc-1fa6f56ab586")
 		(hatch full 0.508)
@@ -493,7 +490,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -508,6 +504,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

@@ -1,7 +1,7 @@
 (footprint "Relay_SPST_TE_PCN-1xxD3MHZ"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1461491%7FG2%7Fpdf%7FEnglish%7FENG_CD_1461491_G2.pdf%7F3-1461491-0")
 	(tags "SPST relay slim")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.59 -1.32)
 		(end -0.1 -1.32)
@@ -354,10 +355,10 @@
 		(layer "F.Fab")
 		(uuid "c43eaf26-fdec-47a2-801a-7db467e18746")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 8.75 1.53 0)
+	(fp_text user "1"
+		(at -0.4 1.95 0)
 		(layer "F.Fab")
-		(uuid "3c4db5b3-afdb-485b-992d-03c3570d3995")
+		(uuid "fbae0d24-720d-4b60-a317-90d8de418a21")
 		(effects
 			(font
 				(size 1 1)
@@ -365,10 +366,10 @@
 			)
 		)
 	)
-	(fp_text user "1"
-		(at -0.4 1.95 0)
+	(fp_text user "${REFERENCE}"
+		(at 8.75 1.53 0)
 		(layer "F.Fab")
-		(uuid "fbae0d24-720d-4b60-a317-90d8de418a21")
+		(uuid "3c4db5b3-afdb-485b-992d-03c3570d3995")
 		(effects
 			(font
 				(size 1 1)

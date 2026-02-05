@@ -1,7 +1,7 @@
 (footprint "Transformer_CHK_EI48-10VA_1xSec"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Trafo, Printtrafo, CHK, EI48, 10VA, 1x Sec,")
 	(tags "Trafo Printtrafo CHK EI48 10VA 1x Sec ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.37 -46.62)
 		(end -7.37 21.62)
@@ -1004,10 +1005,10 @@
 		(layer "F.Fab")
 		(uuid "e317a3c1-b0ba-4bf9-92ab-ff26899a650d")
 	)
-	(fp_text user "Sec"
-		(at 31.75 -13.5 90)
+	(fp_text user "Pri"
+		(at -5.25 -12.5 90)
 		(layer "F.SilkS")
-		(uuid "7771059b-0076-404b-951c-3a4fb31d291f")
+		(uuid "e16f021c-c6ac-40a9-9ac8-e97e8ca20cb0")
 		(effects
 			(font
 				(size 1 1)
@@ -1026,32 +1027,10 @@
 			)
 		)
 	)
-	(fp_text user "Pri"
-		(at -5.25 -12.5 90)
+	(fp_text user "Sec"
+		(at 31.75 -13.5 90)
 		(layer "F.SilkS")
-		(uuid "e16f021c-c6ac-40a9-9ac8-e97e8ca20cb0")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "11"
-		(at 30.75 -4.5 0)
-		(layer "F.Fab")
-		(uuid "e71784ef-a993-4c21-9be8-50a1f3110682")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at 12.5 -12.5 90)
-		(layer "F.Fab")
-		(uuid "eacb5b7a-7b69-4faf-a1b5-93a475a31cb9")
+		(uuid "7771059b-0076-404b-951c-3a4fb31d291f")
 		(effects
 			(font
 				(size 1 1)
@@ -1070,10 +1049,32 @@
 			)
 		)
 	)
+	(fp_text user "${REFERENCE}"
+		(at 12.5 -12.5 90)
+		(layer "F.Fab")
+		(uuid "eacb5b7a-7b69-4faf-a1b5-93a475a31cb9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "8"
 		(at 30.75 -19.5 0)
 		(layer "F.Fab")
 		(uuid "f2cbc250-1b55-4dd8-8176-23b292d0d34c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "11"
+		(at 30.75 -4.5 0)
+		(layer "F.Fab")
+		(uuid "e71784ef-a993-4c21-9be8-50a1f3110682")
 		(effects
 			(font
 				(size 1 1)

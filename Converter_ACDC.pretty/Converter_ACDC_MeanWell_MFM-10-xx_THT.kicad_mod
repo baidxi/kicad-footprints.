@@ -1,7 +1,7 @@
 (footprint "Converter_ACDC_MeanWell_MFM-10-xx_THT"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "AC/DC board mount open frame power converter, input 80 ~ 264 VAC, 10W output, https://www.meanwellusa.com/upload/pdf/MFM-10/MFM-10-spec.pdf")
 	(tags "AC/DC power converter")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.05 1.15)
 		(end -4.05 -1.05)
@@ -305,28 +306,6 @@
 		(layer "F.Fab")
 		(uuid "b6b1a44b-1567-44ce-9263-87d8eda49778")
 	)
-	(fp_text user "-V"
-		(at 38.15 8.7 0)
-		(layer "F.SilkS")
-		(uuid "09d22da5-ae21-4065-a5d5-a0c24c41a10b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "+V"
-		(at 38.35 0.7 0)
-		(layer "F.SilkS")
-		(uuid "50a9f72c-8344-433b-b2f8-71273d4c1d76")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "AC/N"
 		(at 0.35 -2.4 0)
 		(layer "F.SilkS")
@@ -342,6 +321,28 @@
 		(at 3.65 10.7 0)
 		(layer "F.SilkS")
 		(uuid "da930836-09e0-4540-96ca-a1a4feb8e4f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-V"
+		(at 38.15 8.7 0)
+		(layer "F.SilkS")
+		(uuid "09d22da5-ae21-4065-a5d5-a0c24c41a10b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+V"
+		(at 38.35 0.7 0)
+		(layer "F.SilkS")
+		(uuid "50a9f72c-8344-433b-b2f8-71273d4c1d76")
 		(effects
 			(font
 				(size 1 1)

@@ -1,7 +1,7 @@
 (footprint "A20_OLINUXINO_LIME2"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet")
 	(tags "A20 Olimex Olinuxino LIME2 development board")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -36 -28.6)
 		(end -36 -4.1)
@@ -9194,43 +9195,10 @@
 		(layer "F.Fab")
 		(uuid "49ad5989-a8ea-4846-9fb5-bfb8ed1dc1d0")
 	)
-	(fp_text user "GPIO-3"
-		(at 20.05 22.68 0)
-		(layer "F.SilkS")
-		(uuid "024e860b-7136-42fd-bbaf-4f53867d4e37")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.25)
-			)
-		)
-	)
 	(fp_text user "GPIO-4"
 		(at -24.3 -25.35 90)
 		(layer "F.SilkS")
 		(uuid "19d17636-9450-43c0-b7b2-193877025e25")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.25)
-			)
-		)
-	)
-	(fp_text user "LCD_CON"
-		(at 19.85 -22.63 0)
-		(layer "F.SilkS")
-		(uuid "5884e768-a9e5-4211-92d4-830e7b614244")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.25)
-			)
-		)
-	)
-	(fp_text user "GPIO-1"
-		(at -1.03 -16 0)
-		(layer "F.SilkS")
-		(uuid "8ae01cc2-b74d-46ad-9a74-700fb08a2dad")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9249,32 +9217,43 @@
 			)
 		)
 	)
+	(fp_text user "GPIO-1"
+		(at -1.03 -16 0)
+		(layer "F.SilkS")
+		(uuid "8ae01cc2-b74d-46ad-9a74-700fb08a2dad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.25)
+			)
+		)
+	)
+	(fp_text user "LCD_CON"
+		(at 19.85 -22.63 0)
+		(layer "F.SilkS")
+		(uuid "5884e768-a9e5-4211-92d4-830e7b614244")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.25)
+			)
+		)
+	)
+	(fp_text user "GPIO-3"
+		(at 20.05 22.68 0)
+		(layer "F.SilkS")
+		(uuid "024e860b-7136-42fd-bbaf-4f53867d4e37")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.25)
+			)
+		)
+	)
 	(fp_text user "Cutout"
 		(at -30.08 3.19 0)
 		(layer "Dwgs.User")
 		(uuid "2c37204d-85df-4fda-aa5d-ce6538290a86")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user " for shield"
-		(at -1.2 -2.2 0)
-		(layer "Dwgs.User")
-		(uuid "426c7b58-c84a-4532-8821-5774fee29e35")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "required"
-		(at 37.92 -11.81 0)
-		(layer "Dwgs.User")
-		(uuid "44d05a1c-72d6-424f-aa20-62d0ca4f10c9")
 		(effects
 			(font
 				(size 1 1)
@@ -9293,10 +9272,10 @@
 			)
 		)
 	)
-	(fp_text user "Cut out >=22x22mm"
-		(at 3.52 5.29 0)
+	(fp_text user "if using"
+		(at -1.58 7.19 0)
 		(layer "Dwgs.User")
-		(uuid "8c0d526f-18d4-4554-8a07-4973fd115f0e")
+		(uuid "f79c9cc6-5153-4730-864d-2c103473e74a")
 		(effects
 			(font
 				(size 1 1)
@@ -9304,32 +9283,10 @@
 			)
 		)
 	)
-	(fp_text user "CPU 18mmx18mm"
-		(at 2.2 -5.8 0)
+	(fp_text user " for shield"
+		(at -1.2 -2.2 0)
 		(layer "Dwgs.User")
-		(uuid "c31e2355-78c6-4b41-8388-6a02d79cbec3")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "Mininum cut out "
-		(at 2 -4 0)
-		(layer "Dwgs.User")
-		(uuid "d76bf6ef-7dac-45b3-9f91-431d17a12993")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "Cutout"
-		(at 37.92 -13.81 0)
-		(layer "Dwgs.User")
-		(uuid "e670816c-a6db-47c3-9b32-5cf9ac23c9bc")
+		(uuid "426c7b58-c84a-4532-8821-5774fee29e35")
 		(effects
 			(font
 				(size 1 1)
@@ -9348,10 +9305,54 @@
 			)
 		)
 	)
-	(fp_text user "if using"
-		(at -1.58 7.19 0)
+	(fp_text user "Mininum cut out "
+		(at 2 -4 0)
 		(layer "Dwgs.User")
-		(uuid "f79c9cc6-5153-4730-864d-2c103473e74a")
+		(uuid "d76bf6ef-7dac-45b3-9f91-431d17a12993")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "CPU 18mmx18mm"
+		(at 2.2 -5.8 0)
+		(layer "Dwgs.User")
+		(uuid "c31e2355-78c6-4b41-8388-6a02d79cbec3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Cut out >=22x22mm"
+		(at 3.52 5.29 0)
+		(layer "Dwgs.User")
+		(uuid "8c0d526f-18d4-4554-8a07-4973fd115f0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Cutout"
+		(at 37.92 -13.81 0)
+		(layer "Dwgs.User")
+		(uuid "e670816c-a6db-47c3-9b32-5cf9ac23c9bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "required"
+		(at 37.92 -11.81 0)
+		(layer "Dwgs.User")
+		(uuid "44d05a1c-72d6-424f-aa20-62d0ca4f10c9")
 		(effects
 			(font
 				(size 1 1)

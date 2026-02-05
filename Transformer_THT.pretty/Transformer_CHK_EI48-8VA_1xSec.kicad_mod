@@ -1,7 +1,7 @@
 (footprint "Transformer_CHK_EI48-8VA_1xSec"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Trafo, Printtrafo, CHK, EI48, 8VA, 1x Sec, http://www.eratransformers.com/product-detail/18")
 	(tags "Trafo Printtrafo CHK EI48 8VA 1x Sec ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.42 -37.57)
 		(end -7.42 12.57)
@@ -874,6 +875,17 @@
 		(layer "F.Fab")
 		(uuid "7a4751b7-db4e-4b61-bfd9-8dbdd0c9f2f5")
 	)
+	(fp_text user "Pri"
+		(at -5.25 -12.5 90)
+		(layer "F.SilkS")
+		(uuid "4074dbe1-0da7-40a8-805e-f45535b13041")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "1"
 		(at 0.75 3.5 0)
 		(layer "F.SilkS")
@@ -896,10 +908,10 @@
 			)
 		)
 	)
-	(fp_text user "Pri"
-		(at -5.25 -12.5 90)
-		(layer "F.SilkS")
-		(uuid "4074dbe1-0da7-40a8-805e-f45535b13041")
+	(fp_text user "6"
+		(at -0.25 -29.5 0)
+		(layer "F.Fab")
+		(uuid "632b1df3-126f-44ed-93cb-574efe73f90c")
 		(effects
 			(font
 				(size 1 1)
@@ -918,32 +930,21 @@
 			)
 		)
 	)
-	(fp_text user "11"
-		(at 23.75 -2.5 0)
-		(layer "F.Fab")
-		(uuid "416423ef-88ee-4cb7-acb3-d65da37d1283")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "6"
-		(at -0.25 -29.5 0)
-		(layer "F.Fab")
-		(uuid "632b1df3-126f-44ed-93cb-574efe73f90c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "8"
 		(at 23.75 -21.5 0)
 		(layer "F.Fab")
 		(uuid "deab376e-a720-460b-aee9-ea752e116974")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "11"
+		(at 23.75 -2.5 0)
+		(layer "F.Fab")
+		(uuid "416423ef-88ee-4cb7-acb3-d65da37d1283")
 		(effects
 			(font
 				(size 1 1)

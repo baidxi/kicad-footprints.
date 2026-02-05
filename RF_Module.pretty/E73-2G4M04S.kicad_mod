@@ -1,7 +1,7 @@
 (footprint "E73-2G4M04S"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "http://www.cdebyte.com/en/downpdf.aspx?id=243")
 	(tags "BLE BLE5 nRF52832")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.87 -14.47)
 		(end -8.87 -8.49)
@@ -277,10 +278,10 @@
 			)
 		)
 	)
-	(fp_text user "on any PCB layer."
-		(at 0 -10.1 0)
+	(fp_text user "No metal, traces, or components"
+		(at 0 -11.1 0)
 		(layer "Cmts.User")
-		(uuid "99373151-c3da-4d90-8f48-8f4bfe402c09")
+		(uuid "a517cb6c-238d-4b23-a22c-9ebbc913ee1f")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -288,10 +289,10 @@
 			)
 		)
 	)
-	(fp_text user "No metal, traces, or components"
-		(at 0 -11.1 0)
+	(fp_text user "on any PCB layer."
+		(at 0 -10.1 0)
 		(layer "Cmts.User")
-		(uuid "a517cb6c-238d-4b23-a22c-9ebbc913ee1f")
+		(uuid "99373151-c3da-4d90-8f48-8f4bfe402c09")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -575,8 +576,6 @@
 		(uuid "b4d73d50-586e-47db-ac15-6eaf7bae4236")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
 			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
 			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
@@ -589,7 +588,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -604,6 +602,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

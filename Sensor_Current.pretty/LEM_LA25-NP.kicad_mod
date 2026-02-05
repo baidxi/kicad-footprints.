@@ -1,7 +1,7 @@
 (footprint "LEM_LA25-NP"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "LEM LA 25-NP Current Transducer (https://www.lem.com/sites/default/files/products_datasheets/la%2025-np.pdf)")
 	(tags "Current sensor LEM")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.69 18.19)
 		(end -3.69 16.76)
@@ -259,10 +260,22 @@
 		(layer "F.Fab")
 		(uuid "fb4594ef-c0ac-47e5-8419-6d3a316da497")
 	)
-	(fp_text user "10"
-		(at 11 -0.5 90)
+	(fp_text user "1"
+		(at 2 -0.29 90)
 		(layer "F.SilkS")
-		(uuid "03b8b7c4-85cb-423e-877b-c9d0c6aadd44")
+		(uuid "d6af72c0-01f3-455a-b062-690f4cf44df2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.12)
+			)
+			(justify right bottom)
+		)
+	)
+	(fp_text user "5"
+		(at 2 9.87 90)
+		(layer "F.SilkS")
+		(uuid "72149d29-55b4-4b0a-b72f-130111f171b5")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -272,10 +285,10 @@
 			(justify right bottom)
 		)
 	)
-	(fp_text user "5"
-		(at 2 9.87 90)
+	(fp_text user "10"
+		(at 11 -0.5 90)
 		(layer "F.SilkS")
-		(uuid "72149d29-55b4-4b0a-b72f-130111f171b5")
+		(uuid "03b8b7c4-85cb-423e-877b-c9d0c6aadd44")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -294,18 +307,6 @@
 				(size 0.5 0.5)
 				(thickness 0.12)
 				(bold yes)
-			)
-			(justify right bottom)
-		)
-	)
-	(fp_text user "1"
-		(at 2 -0.29 90)
-		(layer "F.SilkS")
-		(uuid "d6af72c0-01f3-455a-b062-690f4cf44df2")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.12)
 			)
 			(justify right bottom)
 		)

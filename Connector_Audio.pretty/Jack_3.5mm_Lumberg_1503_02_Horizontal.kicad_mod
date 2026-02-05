@@ -1,7 +1,7 @@
 (footprint "Jack_3.5mm_Lumberg_1503_02_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "TRS 3.5mm, horizontal, Surface Mount (SMT), https://downloads.lumberg.com/datenblaetter/en/1503_02.pdf")
 	(tags "TRS audio jack horizontal")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.35 -1.24)
 		(end -3.35 5.29)
@@ -382,14 +383,14 @@
 		(at -2.5 2.5)
 		(size 1.2 1.2)
 		(drill 1.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "4686cf23-63b1-44ae-8dfc-a2cf3ec164e2")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.5 2.5)
 		(size 1.2 1.2)
 		(drill 1.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "24be9f4e-b359-4ad5-99fc-d6e8ad28d75b")
 	)
 	(pad "R" smd roundrect

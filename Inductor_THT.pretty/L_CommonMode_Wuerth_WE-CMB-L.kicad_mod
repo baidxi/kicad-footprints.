@@ -1,7 +1,7 @@
 (footprint "L_CommonMode_Wuerth_WE-CMB-L"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Wuerth, WE-CMB, Bauform L,")
 	(tags "CommonModeChoke Gleichtaktdrossel ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.9 18.9)
 		(end -3.9 -8.9)
@@ -477,10 +478,10 @@
 			)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 6 5 0)
+	(fp_text user "4"
+		(at 2.5 10 0)
 		(layer "F.Fab")
-		(uuid "432edb83-a84d-4d70-a2fb-242354080f97")
+		(uuid "9e6ba3ea-b6ea-4be2-a5d6-c0e508a6bc7b")
 		(effects
 			(font
 				(size 1 1)
@@ -488,10 +489,10 @@
 			)
 		)
 	)
-	(fp_text user "7"
-		(at 9.5 10 0)
+	(fp_text user "${REFERENCE}"
+		(at 6 5 0)
 		(layer "F.Fab")
-		(uuid "4c4fe2df-f4d0-4e0d-b752-bac0d5e0958b")
+		(uuid "432edb83-a84d-4d70-a2fb-242354080f97")
 		(effects
 			(font
 				(size 1 1)
@@ -510,10 +511,10 @@
 			)
 		)
 	)
-	(fp_text user "4"
-		(at 2.5 10 0)
+	(fp_text user "7"
+		(at 9.5 10 0)
 		(layer "F.Fab")
-		(uuid "9e6ba3ea-b6ea-4be2-a5d6-c0e508a6bc7b")
+		(uuid "4c4fe2df-f4d0-4e0d-b752-bac0d5e0958b")
 		(effects
 			(font
 				(size 1 1)

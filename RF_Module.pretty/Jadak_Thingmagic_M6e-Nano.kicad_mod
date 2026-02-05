@@ -1,7 +1,7 @@
 (footprint "Jadak_Thingmagic_M6e-Nano"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "UHF RFID reader with one 27dBm antenna port, https://www.jadaktech.com/product/thingmagic-m6e-nano-uhf-rain-rfid/")
 	(tags "Jadak Thingmagic M6e")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -11.1 -13.1)
 		(end -11.1 -11.62)
@@ -1130,8 +1131,6 @@
 		(uuid "2850dfd1-d8a5-40ba-bd6d-eb4cd279b84f")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "Dwgs.User")
 		(uuid "16bfd495-5c8b-4174-bc2d-6c339e9bb9cf")
 		(hatch edge 0.5)
@@ -1139,7 +1138,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -1154,6 +1152,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -1163,8 +1162,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "Dwgs.User")
 		(uuid "00f26354-fd2a-4eb3-8c28-1255b98990c3")
 		(hatch edge 0.5)
@@ -1172,7 +1169,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -1187,6 +1183,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

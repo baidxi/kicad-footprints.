@@ -1,7 +1,7 @@
 (footprint "Infineon_EasyPACK-1B"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "22-lead TH, EasyPACK 1B, https://www.infineon.com/dgdl/Infineon-FS30R06W1E3-DataSheet-v02_01-EN.pdf?fileId=db3a304313b8b5a60113cecd4c3102c1")
 	(tags "igbt diode module")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -15.6 4.4)
 		(end -8.2 4.4)
@@ -448,35 +449,35 @@
 		(at -5.25 -1.2 180)
 		(size 2.3 2.3)
 		(drill 2.3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "38c9d913-451f-4147-baef-1d9162d1e36e")
 	)
 	(pad "" np_thru_hole circle
 		(at -5.25 26.8 180)
 		(size 2.3 2.3)
 		(drill 2.3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "1df8fe6c-36fc-4fca-ac40-26328071975a")
 	)
 	(pad "" np_thru_hole circle
 		(at 6.4 12.8 180)
 		(size 6 6)
 		(drill 6)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "b9bad152-0b5d-4471-a867-7db4a7201766")
 	)
 	(pad "" np_thru_hole circle
 		(at 37.25 -1.2 180)
 		(size 2.3 2.3)
 		(drill 2.3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "9fab9c9b-bc3a-4c8b-a5d8-2cc856b73ac0")
 	)
 	(pad "" np_thru_hole circle
 		(at 37.25 26.8 180)
 		(size 2.3 2.3)
 		(drill 2.3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "1dccf8b0-d7e8-49cf-acbe-645103cff83e")
 	)
 	(pad "EU" thru_hole circle
@@ -656,8 +657,6 @@
 		(uuid "16b62fb0-033b-4d9e-8e6a-68472cfc460e")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
 			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
 			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
@@ -671,7 +670,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -686,6 +684,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -710,8 +709,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
 			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
 			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
@@ -725,7 +722,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -740,6 +736,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

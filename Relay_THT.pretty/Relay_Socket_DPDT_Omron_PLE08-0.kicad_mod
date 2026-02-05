@@ -1,7 +1,7 @@
 (footprint "Relay_Socket_DPDT_Omron_PLE08-0"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "29mm Dia, round mounting socket, 10A, 2kV AC / minute, 1e3Mohm, https://www.omron.com.tw/data_pdf/cat/common_sockets_ds_e_6_1_csm1819.pdf?#page=27")
 	(tags "tube type relay")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 12.414732 -11.971834)
 		(end 12.414732 -11.336834)
@@ -215,11 +216,11 @@
 		(layer "User.2")
 		(uuid "85f7afc6-784e-4694-bddb-935fb006047d")
 	)
-	(fp_text user "34x37mm industrial relay area"
-		(at 29.305732 21.810166 180)
+	(fp_text user "31mm Dia for Panel cutout"
+		(at 23.395732 -4.299834 180)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "3191aaed-0354-45e5-b786-60917cb20009")
+		(uuid "c0e3d515-f354-403e-b2d3-5a36b57f498f")
 		(effects
 			(font
 				(size 1 1)
@@ -228,11 +229,11 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "31mm Dia for Panel cutout"
-		(at 23.395732 -4.299834 180)
+	(fp_text user "34x37mm industrial relay area"
+		(at 29.305732 21.810166 180)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "c0e3d515-f354-403e-b2d3-5a36b57f498f")
+		(uuid "3191aaed-0354-45e5-b786-60917cb20009")
 		(effects
 			(font
 				(size 1 1)

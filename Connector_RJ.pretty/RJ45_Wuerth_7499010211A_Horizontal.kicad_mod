@@ -1,7 +1,7 @@
 (footprint "RJ45_Wuerth_7499010211A_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "RJ45 connector, horizontal, tab down, 10/100Base-TX, with magnetics, green/yellow LEDs, https://katalog.we-online.de/pbs/datasheet/7499010211A.pdf")
 	(tags "RJ45 ethernet magnetic magjack transformer")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.665 -4.12)
 		(end -3.665 -0.4)
@@ -417,8 +418,6 @@
 		(uuid "e8dd4a57-311a-4a88-82b5-8c35bdc7e080")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "b049754f-68ac-4fda-98e5-6a25b68d21dd")
 		(name "Shield-board contact area")
@@ -427,7 +426,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -442,6 +440,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -450,8 +449,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "b2f7228d-07f2-4c9e-ab74-5cc3d298ded1")
 		(name "Shield-board contact area")
@@ -460,7 +457,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -475,6 +471,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -483,8 +480,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "7cdfc4b8-6697-42cb-983e-ea3211f836bd")
 		(name "Shield-board contact area")
@@ -493,7 +488,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -508,6 +502,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

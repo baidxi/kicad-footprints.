@@ -1,7 +1,7 @@
 (footprint "RaspberryPi_Pico_Common_THT"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Raspberry Pi Pico common (Pico & Pico W) through-hole footprint, supports Raspberry Pi Pico 2, default socketed model has height of 8.51mm, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
 	(tags "module usb pcb antenna")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.04 0.8)
 		(end -2.04 -0.8)
@@ -657,18 +658,6 @@
 		(layer "F.Fab")
 		(uuid "831a08de-ffd4-4501-8b6f-61a068613bd9")
 	)
-	(fp_text user "Keep Out"
-		(at 8.89 45.72 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "06952b02-f288-4d40-976f-7100ca825fe5")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "USB Cable"
 		(at 8.89 -13.335 0)
 		(unlocked yes)
@@ -686,6 +675,18 @@
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "a20c35c5-bd38-411f-85c6-9356a37cb83c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Keep Out"
+		(at 8.89 45.72 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "06952b02-f288-4d40-976f-7100ca825fe5")
 		(effects
 			(font
 				(size 1 1)
@@ -1226,8 +1227,6 @@
 		(uuid "c8fe8714-f3b6-4cea-b78b-11ed38c9f8c2")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "F.Paste"
 			"In6.Cu" "B.Paste" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu"
 			"In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu"
@@ -1241,7 +1240,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -1256,6 +1254,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -1265,8 +1264,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.CrtYd")
 		(uuid "59b87f8a-0978-48e6-a101-134595838ecf")
 		(name "USB Cable")
@@ -1275,7 +1272,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias allowed)
@@ -1290,6 +1286,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

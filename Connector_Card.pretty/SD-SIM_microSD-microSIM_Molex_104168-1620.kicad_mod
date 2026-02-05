@@ -1,7 +1,7 @@
 (footprint "SD-SIM_microSD-microSIM_Molex_104168-1620"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "microSD and microSIM connector, https://www.molex.com/pdm_docs/sd/1041681620_sd.pdf")
 	(tags "Combo Connector microSD and microSIM")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.61 -9.335)
 		(end 6.61 -9.335)
@@ -618,8 +619,6 @@
 		(uuid "ad5ef97e-2dbd-49de-863a-0621df383a88")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "065c23b2-19e1-4832-891e-046eb984c762")
 		(hatch edge 0.5)
@@ -627,7 +626,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -642,6 +640,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

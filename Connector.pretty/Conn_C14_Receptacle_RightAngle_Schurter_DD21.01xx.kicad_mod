@@ -1,7 +1,7 @@
 (footprint "Conn_C14_Receptacle_RightAngle_Schurter_DD21.01xx"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "C14 Power Receptacle https://www.schurter.com/en/datasheet/typ_DD21.pdf")
 	(tags "C14 IEC 250V Schurter")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -14.96 9.44)
 		(end -14.96 18.55)
@@ -427,14 +428,14 @@
 		(at -10.35 9.55)
 		(size 3.6 3.6)
 		(drill 3.6)
-		(layers "F&B.Cu")
+		(layers "*.Cu")
 		(uuid "48c7f97e-b53b-4ec6-8469-0606da86304c")
 	)
 	(pad "" np_thru_hole circle
 		(at 45.65 9.55)
 		(size 3.6 3.6)
 		(drill 3.6)
-		(layers "F&B.Cu")
+		(layers "*.Cu")
 		(uuid "29aa7403-ca8d-4357-8b94-892ea25fed0f")
 	)
 	(pad "1" thru_hole roundrect

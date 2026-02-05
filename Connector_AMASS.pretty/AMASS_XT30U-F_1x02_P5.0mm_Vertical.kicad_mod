@@ -1,7 +1,7 @@
 (footprint "AMASS_XT30U-F_1x02_P5.0mm_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/Document/f2d0830114aabe6ea8d4bb128e962790/XT30U-F.pdf")
 	(tags "RC Connector XT30")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.71 -1.41)
 		(end -2.71 1.41)
@@ -234,10 +235,10 @@
 		(layer "F.Fab")
 		(uuid "43af477f-41d6-4988-a469-e50d021e7ebd")
 	)
-	(fp_text user "+"
-		(at 9 0 0)
+	(fp_text user "-"
+		(at -4 0 0)
 		(layer "F.SilkS")
-		(uuid "2c4479c2-be23-43d7-bb53-d0291565944c")
+		(uuid "cc48620a-24f9-40b3-9f0e-74d2053863d1")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -245,10 +246,10 @@
 			)
 		)
 	)
-	(fp_text user "-"
-		(at -4 0 0)
+	(fp_text user "+"
+		(at 9 0 0)
 		(layer "F.SilkS")
-		(uuid "cc48620a-24f9-40b3-9f0e-74d2053863d1")
+		(uuid "2c4479c2-be23-43d7-bb53-d0291565944c")
 		(effects
 			(font
 				(size 1.5 1.5)

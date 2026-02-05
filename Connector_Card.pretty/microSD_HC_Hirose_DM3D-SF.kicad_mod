@@ -1,7 +1,7 @@
 (footprint "microSD_HC_Hirose_DM3D-SF"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Micro SD, SMD, right-angle, push-pull (https://media.digikey.com/PDF/Data%20Sheets/Hirose%20PDFs/DM3D-SF.pdf)")
 	(tags "Micro SD")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.435 -5.785)
 		(end 4.825 -5.785)
@@ -361,17 +362,6 @@
 		(uuid "3656c439-56e5-47b5-9082-851626da609c")
 	)
 	(fp_text user "KEEPOUT"
-		(at -0.275 -0.525 0)
-		(layer "Cmts.User")
-		(uuid "0dcea14b-d924-4e9e-98ea-5c8a3d0bafc5")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-		)
-	)
-	(fp_text user "KEEPOUT"
 		(at -0.725 -4.8 0)
 		(layer "Cmts.User")
 		(uuid "db41573e-7a53-4815-a834-6cbaaec54c8a")
@@ -379,6 +369,17 @@
 			(font
 				(size 0.4 0.4)
 				(thickness 0.06)
+			)
+		)
+	)
+	(fp_text user "KEEPOUT"
+		(at -0.275 -0.525 0)
+		(layer "Cmts.User")
+		(uuid "0dcea14b-d924-4e9e-98ea-5c8a3d0bafc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -478,8 +479,6 @@
 		(uuid "f7f2b870-ce17-48ea-92fd-6f9a2dd57d5a")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "9d20ce5d-1d5d-4fd4-8497-26ff4dad4f80")
 		(hatch full 0.508)
@@ -487,7 +486,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -502,6 +500,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -510,8 +509,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "a9296d74-8121-48a9-8d15-35a879a4540e")
 		(hatch full 0.508)
@@ -519,7 +516,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -534,6 +530,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

@@ -1,7 +1,7 @@
 (footprint "Laird_BL653"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "BL653 Bluetooth 5.1 module, https://www.lairdconnect.com/wireless-modules/bluetooth-modules/bluetooth-5-modules/bl653-series-bluetooth-51-802154-nfc-module")
 	(tags "Wi-Fi Module")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.61 -5.11)
 		(end -2.875 -5.11)
@@ -661,8 +662,6 @@
 		(uuid "50194d9f-b6d3-4a94-a89f-ee21dd66f83c")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "7e034f21-bafd-43c1-9651-65aeb12fe7a4")
 		(hatch edge 0.5)
@@ -670,7 +669,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -685,6 +683,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

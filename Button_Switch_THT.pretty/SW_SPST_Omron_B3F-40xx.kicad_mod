@@ -1,7 +1,7 @@
 (footprint "SW_SPST_Omron_B3F-40xx"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SW_THT_Tactile_Omron_B3F-40xx, 12x12 mm, Through hole switch from the B3F Family manufactured by Omron,  https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 	(tags "tactile switch THT button push B3F-4000 B3F-4050 B3F-4005 B3F-4055  ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0.14 -3.61)
 		(end 0.14 -1.1)
@@ -182,14 +183,14 @@
 		(at 6.25 -2)
 		(size 1.8 1.8)
 		(drill 1.8)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "613d780a-d360-41ee-a172-170412b1be8a")
 	)
 	(pad "" np_thru_hole circle
 		(at 6.25 7)
 		(size 1.8 1.8)
 		(drill 1.8)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "5e9fc912-60d7-4042-abe5-69c8768f57c6")
 	)
 	(pad "1" thru_hole oval

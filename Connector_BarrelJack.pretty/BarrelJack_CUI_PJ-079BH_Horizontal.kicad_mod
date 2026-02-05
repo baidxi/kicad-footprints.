@@ -1,7 +1,7 @@
 (footprint "BarrelJack_CUI_PJ-079BH_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Barrel Jack, 2.5mm ID, 5.5mm OD, 24V, 5A, switch, https://www.cui.com/product/resource/pj-079bh.pdf ")
 	(tags "barrel jack cui dc power")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9.8 5.6)
 		(end -9.8 -1.5)
@@ -222,7 +223,7 @@
 		(at -3.2 6.3 180)
 		(size 2.13 2.13)
 		(drill 2.13)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "d9576fb8-8725-43bc-b35a-d27a0a387508")
 	)
 	(pad "1" thru_hole rect
