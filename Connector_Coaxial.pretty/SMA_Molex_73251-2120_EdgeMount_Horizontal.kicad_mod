@@ -94,35 +94,17 @@
 		(layer "B.Cu")
 		(uuid "0c187791-8b36-40aa-ad80-df3607092f7c")
 	)
-	(fp_line
-		(start -2.9 -0.25)
-		(end -2.9 0.25)
+	(fp_poly
+		(pts
+			(xy -2.9 0.25) (xy -2.9 -0.25) (xy -2.4 0)
+		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "99c42aaa-2e25-43fb-bc91-67ec355c3459")
-	)
-	(fp_line
-		(start -2.9 0.25)
-		(end -2.4 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9ae45933-ed35-4642-8362-39fe7850f522")
-	)
-	(fp_line
-		(start -2.4 0)
-		(end -2.9 -0.25)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "2a12631d-24ee-4abc-819d-12b23d22d10d")
+		(uuid "8bb7fefd-7f6b-47d4-be7c-503a8d680f6b")
 	)
 	(fp_line
 		(start -3.97 -5.33)
@@ -365,36 +347,6 @@
 		(uuid "7c721ef1-c038-4ce0-932b-63b512ae999e")
 	)
 	(fp_line
-		(start -2.9 -0.25)
-		(end -2.4 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "900ec262-dc5c-4aef-a747-96c8805cdc88")
-	)
-	(fp_line
-		(start -2.9 0.25)
-		(end -2.9 -0.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "5cec0d1d-f5f5-4956-b79d-d7c2753fcdb1")
-	)
-	(fp_line
-		(start -2.4 0)
-		(end -2.9 0.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "b2de11f6-73e4-4c35-8896-5f921e62c3ac")
-	)
-	(fp_line
 		(start -1.715 -3.175)
 		(end -1.715 -2.155)
 		(stroke
@@ -554,6 +506,18 @@
 		(layer "F.Fab")
 		(uuid "57dea40a-0743-480c-8239-62692b86543c")
 	)
+	(fp_poly
+		(pts
+			(xy -2.4 0) (xy -2.9 -0.25) (xy -2.9 0.25)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "828a5446-0476-40b4-9bbd-e67862c9c03f")
+	)
 	(fp_text user "PCB Edge"
 		(at 2.155 0 270)
 		(layer "Dwgs.User")
@@ -587,6 +551,7 @@
 		(at -2.985 -3.4925)
 		(size 0.97 0.97)
 		(drill 0.46)
+		(property pad_prop_mechanical)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(uuid "eca67dee-bcaf-4e79-8a3a-3ff413886cfc")
@@ -595,6 +560,7 @@
 		(at -2.985 3.4925)
 		(size 0.97 0.97)
 		(drill 0.46)
+		(property pad_prop_mechanical)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(uuid "bf2df555-a1c8-4f86-ba50-f5b4cb6d0555")
