@@ -1,0 +1,176 @@
+(footprint "L_Abracon_ASPI-0530HI"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "smd shielded power inductor https://abracon.com/Magnetics/power/ASPI-0530HI.pdf")
+	(tags "inductor abracon smd shielded")
+	(property "Reference" "REF**"
+		(at 0 4 0)
+		(layer "F.SilkS")
+		(uuid "c82cb806-f93e-4abd-83e7-d502ea34655c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Abracon_ASPI-0530HI"
+		(at 0 -4 0)
+		(layer "F.Fab")
+		(uuid "3f22f77c-4bfc-428d-8818-3d326cf1f81c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a887292-6909-483b-b948-c945489eec44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2889a88-eea8-4ff4-aa5c-75a96a07b47a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -2.8)
+		(end -3 -1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "073e95ea-1671-46c9-9508-b8b800625f65")
+	)
+	(fp_line
+		(start -3 -2.8)
+		(end 3 -2.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "40c0b15b-cf9b-4ba5-b23f-c2a0f1b34aed")
+	)
+	(fp_line
+		(start -3 2.8)
+		(end -3 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e36d2706-d4dd-43fe-bc76-fb2128a0ea03")
+	)
+	(fp_line
+		(start -3 2.8)
+		(end 3 2.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0893e7f4-f80c-4876-b4e0-18d5df406226")
+	)
+	(fp_line
+		(start 3 -1.5)
+		(end 3 -2.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d206601f-dfdf-43d7-95a0-03e1b43e7ffd")
+	)
+	(fp_line
+		(start 3 1.5)
+		(end 3 2.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "55740c79-663e-44c8-800a-ec5d538152b8")
+	)
+	(fp_rect
+		(start -3.75 -3.1)
+		(end 3.75 3.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "480b9eff-fd7d-473f-aa8f-3ba6f19fc9ab")
+	)
+	(fp_rect
+		(start -2.85 -2.65)
+		(end 2.85 2.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0be66f44-8ffa-4f81-b2c4-cc794bca27a8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b036c013-a245-4a30-a991-b2fcec7e2cde")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.5 0)
+		(size 2 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e60a9b27-f5c0-4f91-82ac-f0a3684089fc")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 0)
+		(size 2 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "d6b9bd45-94a4-4276-9da3-841039137ec2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Abracon_ASPI-0530HI.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
