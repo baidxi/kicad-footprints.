@@ -1,12 +1,12 @@
-(footprint "Filter_1109-5_1.1x0.9mm"
+(footprint "Filter_1109-5_1.1x0.9mm_P0.385mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "5-pin SAW filter package - 1.1x0.9 mm Body; (see https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en-gb)")
-	(tags "Filter 5")
+	(descr "5-pin SAW filter, 1109 LGA package, pin size 0.25x0.18mm, pitch 0.385mm - 1.1x0.9 mm Body; (see https://ele.kyocera.com/assets/products/saw-device/specification/SF11-2442M5UUB1_DS.pdf)")
+	(tags "KyoceraAVX_SF11 Qualcomm_B8813")
 	(property "Reference" "REF**"
-		(at 0 1.6 0)
+		(at 0 1.446 0)
 		(layer "F.SilkS")
 		(uuid "4979c99d-1d25-4408-b83d-e51784a2156a")
 		(effects
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "Filter_1109-5_1.1x0.9mm"
-		(at 0 -1.4 0)
+	(property "Value" "Filter_1109-5_1.1x0.9mm_P0.385mm"
+		(at 0 -1.239 0)
 		(layer "F.Fab")
 		(uuid "5888c89c-76e7-41c9-af02-d070ef166cbc")
 		(effects
@@ -154,7 +154,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "019632b5-f973-4dd8-b101-064dd2c1b7af")
+		(uuid "e06384b6-dd5d-4346-bf6a-e8768744feab")
 	)
 	(fp_line
 		(start -0.55 -0.45)
@@ -174,7 +174,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fefbe30a-8600-466c-a0fe-55d1bb7bbe4d")
+		(uuid "5927b754-8735-48a3-b8e8-741c3952500c")
 	)
 	(fp_line
 		(start -0.55 0.15)
@@ -184,7 +184,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e3b4aef3-dd73-4967-91e9-7a25079ab054")
+		(uuid "67b48618-d8e5-4b1b-ba84-76be7b1dea2d")
 	)
 	(fp_line
 		(start -0.4 0)
@@ -194,7 +194,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "dc6ebb56-37d9-4151-b9c8-0ec1efbbd754")
+		(uuid "c35f9ae8-dfee-421f-bc70-abdc920b46ee")
 	)
 	(fp_line
 		(start 0.55 -0.45)
@@ -217,7 +217,7 @@
 		(uuid "69839045-27a7-4e2a-9442-86c856018a89")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -2.7 0)
+		(at 0 -2.766 0)
 		(layer "F.Fab")
 		(uuid "b619de33-79c4-4239-bb18-85ba59ca3737")
 		(effects
@@ -227,38 +227,43 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.385 0 90)
 		(size 0.25 0.18)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(uuid "51ce9031-6904-4996-bd6f-3f6719db6d23")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0 0.25 90)
 		(size 0.25 0.18)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(uuid "2a4c9e62-8a54-4fe2-b979-8db5a9a2edef")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 0.385 0.25 90)
 		(size 0.25 0.18)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(uuid "fcf5eecd-b261-4c30-8034-bbf2026a1cea")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 0.385 -0.25 90)
 		(size 0.25 0.18)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(uuid "8148804a-843d-4b62-8d51-3e6accd654ad")
 	)
-	(pad "5" smd rect
+	(pad "5" smd roundrect
 		(at 0 -0.25 90)
 		(size 0.25 0.18)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(uuid "7cfffc7f-1f9c-4999-92a5-4fe879a82627")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_1109-5_1.1x0.9mm.step"
+	(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_1109-5_1.1x0.9mm_P0.385mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
