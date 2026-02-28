@@ -1,0 +1,251 @@
+(footprint "RaspberryPi_CM4_Outline"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Raspberry Pi Compute Module 4 footprint, https://pip-assets.raspberrypi.com/categories/634-raspberry-pi-compute-module-4/documents/RP-008168-DS-1-cm4-datasheet.pdf")
+	(tags "compute module outline")
+	(property "Reference" "REF**"
+		(at -7 18.1 0)
+		(layer "F.SilkS")
+		(uuid "999615ef-d69d-462c-b7b6-2a21ff609114")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RaspberryPi_CM4_Outline"
+		(at 0.02 21.79 0)
+		(layer "F.Fab")
+		(uuid "16debf2b-d848-4b0c-a948-5a2c6d1589ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbe44ea9-bcbc-4e87-a21e-415d0e80ae86")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CM4 outline"
+		(at 0 0.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1fa5238-2f05-45e1-b11e-6b44c4441bd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -20 -26.4)
+		(end -20 21.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7062c689-2752-4593-8b6a-e17aee319238")
+	)
+	(fp_line
+		(start -16.5 25.1)
+		(end 16.5 25.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e61b6fc3-1709-41e4-9bbf-f90e8c18c4d6")
+	)
+	(fp_line
+		(start 16.5 -29.9)
+		(end -16.5 -29.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f95f57eb-273b-472a-89f2-69ef50c594b1")
+	)
+	(fp_line
+		(start 20 21.6)
+		(end 20 -26.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4f34c5a-7480-48e8-ac85-e4320b9251f4")
+	)
+	(fp_arc
+		(start -20 -26.4)
+		(mid -18.974874 -28.874874)
+		(end -16.5 -29.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6eae71d8-0fdc-454a-8fe8-45bbc2a1b7ed")
+	)
+	(fp_arc
+		(start -16.5 25.1)
+		(mid -18.974874 24.074874)
+		(end -20 21.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f4ad5eb-ab1e-46f8-b692-a2fe0843d981")
+	)
+	(fp_arc
+		(start 16.5 -29.9)
+		(mid 18.974874 -28.874874)
+		(end 20 -26.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0b9ddf6-eadd-451b-bdd6-80eef3152a6c")
+	)
+	(fp_arc
+		(start 20 21.6)
+		(mid 18.974874 24.074874)
+		(end 16.5 25.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00b47393-6fdd-42a9-901d-bee8f9b41115")
+	)
+	(fp_text user "WiFi antenna keepout"
+		(at -3 -26.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5441bf37-5426-45d4-aa3f-0ce5dce14b39")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.0625)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -9.22 20.46 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "72d5101d-da38-4f5a-bff6-113a72caeb8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(point
+		(at -17 -4.9)
+		(size 1)
+		(layer "F.Fab")
+		(uuid "58522e1c-cb9e-4518-86a3-26913523cad5")
+	)
+	(point
+		(at 17 -4.9)
+		(size 1)
+		(layer "F.Fab")
+		(uuid "f9cd3796-3e51-4063-9153-5699978dcf6a")
+	)
+	(pad "" np_thru_hole circle
+		(at -16.5 -26.4)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 1.7)
+		(clearance 1.7)
+		(uuid "fa6f80fe-76df-46b2-8bd9-8d64612cb0ea")
+	)
+	(pad "" np_thru_hole circle
+		(at -16.5 21.6)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 1.7)
+		(clearance 1.7)
+		(uuid "8a93538c-85c1-4262-9c25-849ec768ba85")
+	)
+	(pad "" np_thru_hole circle
+		(at 16.5 -26.4)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 1.7)
+		(clearance 1.7)
+		(uuid "a0fae1ab-5922-40d1-bae0-e0423aa0c6f0")
+	)
+	(pad "" np_thru_hole circle
+		(at 16.5 21.6)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 1.7)
+		(clearance 1.7)
+		(uuid "28331134-4ed7-40ed-a003-ab8fd9a5975f")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "debc1f24-3cf8-48af-aa95-f752c5275882")
+		(name "WIFI-Keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 6.779891 -23.4) (xy 6.779891 -29.9) (xy -4.220109 -29.9) (xy -4.220109 -23.4)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
