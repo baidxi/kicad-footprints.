@@ -1,7 +1,7 @@
 (footprint "USB_C_Receptacle_GCT_USB4115-03-C"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "USB TYPE C, VERT RCPT PCB, SMT, https://gct.co/files/drawings/usb4115.pdf")
 	(tags "USB C Type-C Receptacle SMD")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.42 -2.17)
 		(end -4.42 -1.67)
@@ -572,14 +573,14 @@
 		(at -3.75 0)
 		(size 0.66 0.66)
 		(drill 0.66)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "8aa1c0d0-713a-4f0f-85f1-441cf6e1592a")
 	)
 	(pad "" np_thru_hole oval
 		(at 3.75 0)
 		(size 1 0.58)
 		(drill oval 1 0.58)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "9b961bec-72e3-437f-aec5-47c220175e93")
 	)
 	(pad "A1" smd rect
@@ -763,8 +764,6 @@
 		(uuid "ef1175f6-e4fe-4e57-9600-b77269a0133b")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "3d495a67-9e1e-4462-9dcc-73fc07bd70ab")
 		(name "peg")
@@ -773,7 +772,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias allowed)
@@ -788,6 +786,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -796,8 +795,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "a1694c94-5a50-4f13-b76a-af2bbba4d12e")
 		(name "peg")
@@ -806,7 +803,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias allowed)
@@ -821,6 +817,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

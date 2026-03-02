@@ -1,7 +1,7 @@
 (footprint "Diode_Bridge_DIGITRON_KBPC_T"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Single phase, Bridge rectifier, 28.614x28.614mm, case KBPC_T(FP), https://www.digitroncorp.com/Digitron/media/Files/Datasheets/KBPC15005-SERIES.pdf")
 	(tags "diode module")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.29025 -7.23225)
 		(end 23.62425 -7.23225)
@@ -216,18 +217,6 @@
 		(layer "F.Fab")
 		(uuid "33718509-d7fa-44d8-a0f2-cd1007465a2c")
 	)
-	(fp_text user "Mounting Drill Hole"
-		(at 9.2 5.8 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "3e083d44-b240-4b14-b700-f5cf6aa80843")
-		(effects
-			(font
-				(size 0.8 0.7)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "(Screw and Washer)"
 		(at 9.2 4.6 0)
 		(unlocked yes)
@@ -237,6 +226,18 @@
 			(font
 				(size 0.5 0.6)
 				(thickness 0.125)
+			)
+		)
+	)
+	(fp_text user "Mounting Drill Hole"
+		(at 9.2 5.8 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "3e083d44-b240-4b14-b700-f5cf6aa80843")
+		(effects
+			(font
+				(size 0.8 0.7)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -264,11 +265,10 @@
 			)
 		)
 	)
-	(fp_text user "~"
-		(at 16.25 0.225 0)
-		(unlocked yes)
+	(fp_text user "${REFERENCE}"
+		(at 9.16675 7.22525 0)
 		(layer "F.Fab")
-		(uuid "ca570c01-ad9c-4e53-bff5-b959dcd431e7")
+		(uuid "f19853ca-8a6f-44c4-85b1-9601f2c533f4")
 		(effects
 			(font
 				(size 1 1)
@@ -288,10 +288,11 @@
 			)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 9.16675 7.22525 0)
+	(fp_text user "~"
+		(at 16.25 0.225 0)
+		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f19853ca-8a6f-44c4-85b1-9601f2c533f4")
+		(uuid "ca570c01-ad9c-4e53-bff5-b959dcd431e7")
 		(effects
 			(font
 				(size 1 1)

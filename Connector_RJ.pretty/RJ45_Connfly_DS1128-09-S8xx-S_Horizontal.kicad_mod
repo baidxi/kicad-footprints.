@@ -1,7 +1,7 @@
 (footprint "RJ45_Connfly_DS1128-09-S8xx-S_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "1 Port RJ45 8p8c receptacle, shielded, through hole, 2 LEDs, tab up, http://en.connfly.group/static/upload/file//DS1128-09.pdf")
 	(tags "RJ45 8p8c ethernet")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.99 -0.64)
 		(end -4.99 -2.71)
@@ -320,14 +321,14 @@
 		(at -2.78 -2.54 180)
 		(size 3.25 3.25)
 		(drill 3.25)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "f48b1e8e-4538-458d-a65c-3138e85ea983")
 	)
 	(pad "" np_thru_hole circle
 		(at 9.92 -2.54 180)
 		(size 3.25 3.25)
 		(drill 3.25)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "185b9caa-e029-4e3c-ac0d-88faa14dbe70")
 	)
 	(pad "1" thru_hole roundrect

@@ -1,7 +1,7 @@
 (footprint "ESP32-C3-WROOM-02"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "RF Module, ESP32-C3 WROOM-02, Wi-Fi and Bluetooth, BLE, onboard antenna, https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf")
 	(tags "ESP32-C3 WROOM-02 espressif")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9.11 -13.21)
 		(end -9.11 -7.4)
@@ -426,10 +427,10 @@
 		(layer "F.Fab")
 		(uuid "5da8266b-1892-4b3d-805a-1e63b28786f7")
 	)
-	(fp_text user "Antenna"
-		(at 0 -10 0)
+	(fp_text user "KEEP-OUT ZONE"
+		(at 0 -16 0)
 		(layer "Cmts.User")
-		(uuid "7ef8f408-800d-47f9-b236-8508a21da774")
+		(uuid "9bc5e4e5-31fa-43b0-9228-fba62f146bce")
 		(effects
 			(font
 				(size 1 1)
@@ -437,10 +438,10 @@
 			)
 		)
 	)
-	(fp_text user "KEEP-OUT ZONE"
-		(at 0 -16 0)
+	(fp_text user "Antenna"
+		(at 0 -10 0)
 		(layer "Cmts.User")
-		(uuid "9bc5e4e5-31fa-43b0-9228-fba62f146bce")
+		(uuid "7ef8f408-800d-47f9-b236-8508a21da774")
 		(effects
 			(font
 				(size 1 1)
@@ -772,8 +773,6 @@
 		(uuid "dafd2eec-d7b0-4b9f-8c92-0382ef8b533b")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
 			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
 			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
@@ -786,7 +785,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -801,6 +799,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

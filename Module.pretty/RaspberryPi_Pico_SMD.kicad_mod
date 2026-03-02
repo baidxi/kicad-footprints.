@@ -1,7 +1,7 @@
 (footprint "RaspberryPi_Pico_SMD"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Raspberry Pi Pico (non-W) surface-mount footprint for reflow soldering with test points and debug pads, supports Raspberry Pi Pico 2 (non-W), https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
 	(tags "module usb pcb swd")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -10.61 -23.07)
 		(end -11.09 -23.07)
@@ -871,18 +872,6 @@
 		(layer "F.Fab")
 		(uuid "4b9b3136-ab78-4463-92b9-f8ef51de9617")
 	)
-	(fp_text user "AGND Plane"
-		(at 5.08 -7.62 90)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "65986948-d0bb-4cad-bec6-ab042a831a94")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.075)
-			)
-		)
-	)
 	(fp_text user "Copper"
 		(at 1 -5.635 0)
 		(unlocked yes)
@@ -916,6 +905,18 @@
 			(font
 				(size 0.3333 0.3333)
 				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "AGND Plane"
+		(at 5.08 -7.62 90)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "65986948-d0bb-4cad-bec6-ab042a831a94")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
 			)
 		)
 	)
@@ -1991,8 +1992,6 @@
 		(uuid "8327bce4-7027-4575-84eb-1eab5477870b")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Paste")
 		(uuid "2c66c56a-d713-497d-85fd-6c4f005566c7")
 		(name "Pad Keep Out TP7")
@@ -2001,7 +2000,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -2016,6 +2014,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -2027,8 +2026,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Paste")
 		(uuid "3073ba68-7e64-4f78-b6fe-f64c4745720e")
 		(name "Pad Keep Out TP7")
@@ -2037,7 +2034,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -2052,6 +2048,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

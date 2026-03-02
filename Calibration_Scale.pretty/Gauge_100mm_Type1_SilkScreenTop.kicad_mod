@@ -1,7 +1,7 @@
 (footprint "Gauge_100mm_Type1_SilkScreenTop"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Gauge, Massstab, 100mm, SilkScreenTop, Type 1,")
 	(tags "Gauge Massstab 100mm SilkScreenTop Type 1")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0 0)
 		(end 0 1.99898)
@@ -364,76 +365,10 @@
 		(layer "F.SilkS")
 		(uuid "11454448-d5ef-4f54-9ed7-d6463e2f8802")
 	)
-	(fp_text user "30"
-		(at 29.99994 2.99974 0)
+	(fp_text user "0"
+		(at 0 2.79908 0)
 		(layer "F.SilkS")
-		(uuid "02fbee94-e9fb-4286-b7cb-16a710e56639")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "60"
-		(at 59.99988 3.10134 0)
-		(layer "F.SilkS")
-		(uuid "16dd7ede-83f3-4859-a0a9-2d7f2dd42c5f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "100mm"
-		(at 100.1014 3.20294 0)
-		(layer "F.SilkS")
-		(uuid "3bedac27-d800-4cbf-9f0b-d3244a72346a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "70"
-		(at 69.99986 3.302 0)
-		(layer "F.SilkS")
-		(uuid "407332db-a12f-4008-a085-5de7a2abc656")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "50"
-		(at 49.9999 3.10134 0)
-		(layer "F.SilkS")
-		(uuid "44c22249-0f44-48fa-a0eb-1720e5ff9761")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "80"
-		(at 79.99984 3.40106 0)
-		(layer "F.SilkS")
-		(uuid "5cf24946-1837-4d78-bf5f-7f881517041b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "20"
-		(at 20.09902 2.90068 0)
-		(layer "F.SilkS")
-		(uuid "5fa07ccb-f742-4bff-8387-d6e246d799ad")
+		(uuid "966c64ea-03b4-4c20-ad21-f80b0748025e")
 		(effects
 			(font
 				(size 1 1)
@@ -463,10 +398,21 @@
 			)
 		)
 	)
-	(fp_text user "0"
-		(at 0 2.79908 0)
+	(fp_text user "20"
+		(at 20.09902 2.90068 0)
 		(layer "F.SilkS")
-		(uuid "966c64ea-03b4-4c20-ad21-f80b0748025e")
+		(uuid "5fa07ccb-f742-4bff-8387-d6e246d799ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "30"
+		(at 29.99994 2.99974 0)
+		(layer "F.SilkS")
+		(uuid "02fbee94-e9fb-4286-b7cb-16a710e56639")
 		(effects
 			(font
 				(size 1 1)
@@ -485,10 +431,65 @@
 			)
 		)
 	)
+	(fp_text user "50"
+		(at 49.9999 3.10134 0)
+		(layer "F.SilkS")
+		(uuid "44c22249-0f44-48fa-a0eb-1720e5ff9761")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "60"
+		(at 59.99988 3.10134 0)
+		(layer "F.SilkS")
+		(uuid "16dd7ede-83f3-4859-a0a9-2d7f2dd42c5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "70"
+		(at 69.99986 3.302 0)
+		(layer "F.SilkS")
+		(uuid "407332db-a12f-4008-a085-5de7a2abc656")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "80"
+		(at 79.99984 3.40106 0)
+		(layer "F.SilkS")
+		(uuid "5cf24946-1837-4d78-bf5f-7f881517041b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "90"
 		(at 90.10142 3.20294 0)
 		(layer "F.SilkS")
 		(uuid "d54bef6f-fcd9-4125-8691-30984dc220f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "100mm"
+		(at 100.1014 3.20294 0)
+		(layer "F.SilkS")
+		(uuid "3bedac27-d800-4cbf-9f0b-d3244a72346a")
 		(effects
 			(font
 				(size 1 1)

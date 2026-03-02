@@ -1,7 +1,7 @@
 (footprint "Smolhaj_Scale_0.1"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "BLÅHAJ , smol 50cm nominal, 1:10 scale (56mm Snoot-Flosse), MPN 205.406.63 (https://www.ikea.com/gb/en/p/blahaj-soft-toy-baby-shark-20540663/)")
 	(tags "Ikea Smol Haj")
@@ -56,8 +56,22 @@
 			)
 		)
 	)
+	(property "Field4" "${REFERENCE}"
+		(at -12 -0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f259b280-ba2d-455c-8fcc-d3646a772475")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(private_layers "User.2")
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -55.897041 7.382052)
 		(end -55.896611 7.455952)
@@ -6200,19 +6214,6 @@
 		(layer "F.SilkS")
 		(uuid "ae1bad8b-7c47-48a8-8af5-1e6d79f71488")
 	)
-	(fp_text user "${REFERENCE}"
-		(at -12 -0.25 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6cf5e634-0bb3-4775-90e4-6ef6696d8f55")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(dimension
 		(type aligned)
 		(layer "User.2")
@@ -6237,7 +6238,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "56.0000 mm"
+		(gr_text "56,0000 mm"
 			(at -28 -16.4 0)
 			(layer "User.2")
 			(uuid "5a6ff977-53c6-4f36-9f80-a0b8f1c6699c")

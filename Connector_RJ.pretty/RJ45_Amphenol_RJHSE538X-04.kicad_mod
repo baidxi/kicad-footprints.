@@ -1,7 +1,7 @@
 (footprint "RJ45_Amphenol_RJHSE538X-04"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Shielded, LEDs, 4 Ports, https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/rjhse538x04.pdf")
 	(tags "RJ45 8p8c quad ethernet cat5")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.5 -1.35)
 		(end -5 -0.85)
@@ -296,7 +297,7 @@
 		(at 57.15 -2.54)
 		(size 3.25 3.25)
 		(drill 3.25)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "64d0edee-3cd8-4708-8900-bc2dea8194ee")
 	)
 	(pad "1" thru_hole rect

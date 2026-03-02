@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Silvertel_Ag54xx"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "DCDC-Converter, 30W POE, Silvertel, pitch 2.54mm, package size 62x19.5x14mm, https://silvertel.com/images/datasheets/Ag5400-datasheet-high%20Efficiency-30W-Power-Over-Ethernet-Plus-Module-PoE+PD.pdf")
 	(tags "DCDC-Converter Silvertel Ag5405 Ag5412 Ag5424 single output POE")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.23 -9.44)
 		(end -5.23 1.8)
@@ -389,8 +390,6 @@
 		(uuid "adf9d4d6-0717-428a-9732-679ffcf91b21")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Fab")
 		(uuid "83c74b33-9410-44d3-bc09-01d3b654d5b9")
 		(name "Isolation_Barrier")
@@ -399,7 +398,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -414,6 +412,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

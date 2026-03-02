@@ -1,7 +1,7 @@
 (footprint "RJ45_Bel_V895-1001-AW_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "1 Port RJ45 Magjack Vertical Connector SMD 10/100 Base-T, https://www.belfuse.com/resources/drawings/magneticsolutions/dr-mag-v895-1001-aw.pdf")
 	(tags "RJ45 Magjack")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.28 -8.42)
 		(end 8.28 -8.42)
@@ -331,14 +332,14 @@
 		(at -5.715 2.99)
 		(size 3.17 3.17)
 		(drill 3.17)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "25e93ff6-1540-4384-8eea-7510ffe3479c")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.715 2.99)
 		(size 3.17 3.17)
 		(drill 3.17)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "3561aa3f-e777-4a2c-9338-82a8dca030d0")
 	)
 	(pad "1" smd roundrect

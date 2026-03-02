@@ -1,7 +1,7 @@
 (footprint "FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf")
 	(tags "ATO FKS blade fuse holder")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.91 -2.06)
 		(end 16.71 -2.06)
@@ -190,7 +191,7 @@
 		(at 6.4 1.25)
 		(size 2.4 2.4)
 		(drill 2.4)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "1b28bfc8-4611-43c5-8c4e-f594dd03fc46")
 	)
 	(pad "1" thru_hole circle

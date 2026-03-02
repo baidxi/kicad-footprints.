@@ -1,7 +1,7 @@
 (footprint "OriginGPS_ORG1510"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "GPS / GNSS Module with integrated antenna, (https://origingps.com/wp-content/uploads/2019/09/HORNET-Modules-Layout-recommendations-and-Integration-Application-Note-Rev-2.0.pdf)")
 	(tags "GPS GNSS OriginGPS Hornet")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.31 -5.11)
 		(end -5.31 -3.232)
@@ -430,8 +431,6 @@
 		(uuid "a22c8baf-30f9-4fdf-9768-0616b49642ed")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "44713fe5-13f7-49ee-bea5-5989580e003e")
 		(hatch edge 0.5)
@@ -439,7 +438,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias allowed)
@@ -454,6 +452,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

@@ -1,7 +1,7 @@
 (footprint "Relay_SPDT_SANYOU_SRD_Series_Form_C"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "relay Sanyou SRD series Form C http://www.sanyourelay.ca/public/products/pdf/SRD.pdf")
 	(tags "relay Sanyu SRD form C")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.4 -7.8)
 		(end -1.4 -1.2)
@@ -354,10 +355,10 @@
 		(layer "F.Fab")
 		(uuid "aa7d98ef-3a93-4a7d-942c-13c4bce5e112")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 7.1 0.025 0)
+	(fp_text user "1"
+		(at 0 -2.3 0)
 		(layer "F.Fab")
-		(uuid "63739b03-662a-4e0b-baed-6e097821a50b")
+		(uuid "f896879a-8a04-4f9e-9958-05bbe8ff4267")
 		(effects
 			(font
 				(size 1 1)
@@ -365,10 +366,10 @@
 			)
 		)
 	)
-	(fp_text user "1"
-		(at 0 -2.3 0)
+	(fp_text user "${REFERENCE}"
+		(at 7.1 0.025 0)
 		(layer "F.Fab")
-		(uuid "f896879a-8a04-4f9e-9958-05bbe8ff4267")
+		(uuid "63739b03-662a-4e0b-baed-6e097821a50b")
 		(effects
 			(font
 				(size 1 1)

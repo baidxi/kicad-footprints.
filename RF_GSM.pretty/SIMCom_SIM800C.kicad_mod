@@ -1,7 +1,7 @@
 (footprint "SIMCom_SIM800C"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Quad-Band GSM/GPRS module, 17.6x15.7x2.3mm, http://simcom.ee/documents/SIM800C/SIM800C_Hardware_Design_V1.05.pdf")
 	(tags "GSM Module SIM800C")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.96 8.91)
 		(end -7.96 6.6)
@@ -366,10 +367,10 @@
 		(layer "F.Fab")
 		(uuid "2c05a1c2-338e-4b13-b0ca-4f94cd6dd0ef")
 	)
-	(fp_text user "of Area"
-		(at 6 -4.97 90)
+	(fp_text user "Keep out "
+		(at 5.18 -4.95 90)
 		(layer "Cmts.User")
-		(uuid "39bda7aa-2231-49f1-a7b6-5da58201733b")
+		(uuid "4299f28a-34a7-4fb8-bdf4-561e59b6894d")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -377,10 +378,10 @@
 			)
 		)
 	)
-	(fp_text user "Keep out "
-		(at 5.18 -4.95 90)
+	(fp_text user "of Area"
+		(at 6 -4.97 90)
 		(layer "Cmts.User")
-		(uuid "4299f28a-34a7-4fb8-bdf4-561e59b6894d")
+		(uuid "39bda7aa-2231-49f1-a7b6-5da58201733b")
 		(effects
 			(font
 				(size 0.5 0.5)

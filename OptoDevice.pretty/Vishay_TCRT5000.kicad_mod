@@ -1,7 +1,7 @@
 (footprint "Vishay_TCRT5000"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "IR Reflective Optical Sensor with Transistor Output TCRT5000 https://www.vishay.com/docs/83760/tcrt5000.pdf")
 	(tags "IR Reflective Optical Sensor with Transistor Output TCRT5000 Vishay Distance Sensor")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.66 -1.94)
 		(end -2.66 0.06)
@@ -290,21 +291,21 @@
 		(at -1.9 3.72)
 		(size 1 1)
 		(drill 1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "8befa5e9-d827-481b-8bb3-d29582724a2c")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.75 -0.63)
 		(size 2.5 2.5)
 		(drill 2.5)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "d57ef708-7385-45aa-b512-1667cdb903d4")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.75 3.17)
 		(size 2.5 2.5)
 		(drill 2.5)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "7ff9123e-6538-451c-9ae5-e5420f213d34")
 	)
 	(pad "1" thru_hole roundrect

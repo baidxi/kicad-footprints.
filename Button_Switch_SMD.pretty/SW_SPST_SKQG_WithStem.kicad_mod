@@ -1,7 +1,7 @@
 (footprint "SW_SPST_SKQG_WithStem"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, With stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAFE010.html")
 	(tags "SPST Button Switch")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.72 1.04)
 		(end -2.72 -1.04)
@@ -345,10 +346,10 @@
 		(layer "F.Fab")
 		(uuid "4feb4ece-fd46-4c31-9d04-ce9dfcd304e2")
 	)
-	(fp_text user "No F.Cu tracks"
-		(at 2.5 0.2 0)
+	(fp_text user "KEEP-OUT ZONE"
+		(at -2.5 -0.2 0)
 		(layer "Cmts.User")
-		(uuid "05910856-9275-4b09-aed7-eea3ff46bad0")
+		(uuid "57c944a7-f33f-4bca-a1b9-ee94705eb4ae")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -368,9 +369,9 @@
 		)
 	)
 	(fp_text user "KEEP-OUT ZONE"
-		(at -2.5 -0.2 0)
+		(at 2.5 -0.2 0)
 		(layer "Cmts.User")
-		(uuid "57c944a7-f33f-4bca-a1b9-ee94705eb4ae")
+		(uuid "bcd4464d-3d3c-4a21-8140-57403b0947f9")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -378,10 +379,10 @@
 			)
 		)
 	)
-	(fp_text user "KEEP-OUT ZONE"
-		(at 2.5 -0.2 0)
+	(fp_text user "No F.Cu tracks"
+		(at 2.5 0.2 0)
 		(layer "Cmts.User")
-		(uuid "bcd4464d-3d3c-4a21-8140-57403b0947f9")
+		(uuid "05910856-9275-4b09-aed7-eea3ff46bad0")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -425,8 +426,6 @@
 		(uuid "dddf9418-190c-4acc-bb4e-7336641d5ae5")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "7e337c1e-4c9b-4795-b7d4-fc2468edaa54")
 		(hatch full 0.508)
@@ -434,7 +433,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -449,6 +447,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -457,8 +456,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "28062907-1887-4639-a25f-e0361ccd41ee")
 		(hatch full 0.508)
@@ -466,7 +463,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -481,6 +477,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

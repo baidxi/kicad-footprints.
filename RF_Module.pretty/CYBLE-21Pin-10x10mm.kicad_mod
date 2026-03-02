@@ -1,7 +1,7 @@
 (footprint "CYBLE-21Pin-10x10mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Cypress EZ-BLE PRoC Module (Bluetooth Smart) 21 Pin Module")
 	(tags "Cypress BT Bluetooth")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.12 -4.3)
 		(end -5.12 0.67)
@@ -276,10 +277,10 @@
 		(layer "F.Fab")
 		(uuid "8386ae45-285b-47a1-b276-e89a1561019b")
 	)
-	(fp_text user "Optional Copper Keep Out"
-		(at 2.54 8.89 0)
+	(fp_text user "Copper Keep Out"
+		(at 1.51 1.22 0)
 		(layer "Cmts.User")
-		(uuid "405e191e-af9b-48d2-af87-eebca2f18462")
+		(uuid "79c37f9c-aef5-418e-81aa-fe6b813f694e")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -287,10 +288,10 @@
 			)
 		)
 	)
-	(fp_text user "Copper Keep Out"
-		(at 1.51 1.22 0)
+	(fp_text user "Optional Copper Keep Out"
+		(at 2.54 8.89 0)
 		(layer "Cmts.User")
-		(uuid "79c37f9c-aef5-418e-81aa-fe6b813f694e")
+		(uuid "405e191e-af9b-48d2-af87-eebca2f18462")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -447,8 +448,6 @@
 		(uuid "1ba8cb03-d330-4a9d-a796-8d1d2a519131")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
 			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
 			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
@@ -461,7 +460,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -476,6 +474,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

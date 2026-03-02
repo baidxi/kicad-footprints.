@@ -1,7 +1,7 @@
 (footprint "Transformer_CHK_UI39-10VA_Flat"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Trafo, Flattrafo, CHK, UI39, 10VA,")
 	(tags "Trafo Flattrafo CHK UI39 10VA ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -11.52 -51.62)
 		(end -11.52 5.62)
@@ -1205,17 +1206,6 @@
 			)
 		)
 	)
-	(fp_text user "Sec"
-		(at 34.5 -23 0)
-		(layer "F.SilkS")
-		(uuid "50ee4043-1776-4213-b56a-304ddd99ed33")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "Pri"
 		(at 7.5 -23 0)
 		(layer "F.SilkS")
@@ -1227,32 +1217,10 @@
 			)
 		)
 	)
-	(fp_text user "4"
-		(at 3.5 -17 0)
-		(layer "F.Fab")
-		(uuid "3b5063e1-82e1-4d2f-bae5-bb07942cd3b7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "13"
-		(at 41.5 -34 0)
-		(layer "F.Fab")
-		(uuid "4b5ec9b4-8a36-4b40-8df4-ad1ad97fc43f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "18"
-		(at 41.5 -12 0)
-		(layer "F.Fab")
-		(uuid "513ed9f4-d6b0-4113-8fb8-8209085c7e1f")
+	(fp_text user "Sec"
+		(at 34.5 -23 0)
+		(layer "F.SilkS")
+		(uuid "50ee4043-1776-4213-b56a-304ddd99ed33")
 		(effects
 			(font
 				(size 1 1)
@@ -1264,6 +1232,28 @@
 		(at 3.5 -48 0)
 		(layer "F.Fab")
 		(uuid "7ec540bb-ad19-4209-b0a8-af76c7105d58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "7"
+		(at 3.5 -29 0)
+		(layer "F.Fab")
+		(uuid "deee701d-f59d-4d64-80c8-433b52ddf788")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "4"
+		(at 3.5 -17 0)
+		(layer "F.Fab")
+		(uuid "3b5063e1-82e1-4d2f-bae5-bb07942cd3b7")
 		(effects
 			(font
 				(size 1 1)
@@ -1293,10 +1283,10 @@
 			)
 		)
 	)
-	(fp_text user "20"
-		(at 41.5 2 0)
+	(fp_text user "13"
+		(at 41.5 -34 0)
 		(layer "F.Fab")
-		(uuid "dae5794b-37bb-47f2-be5d-7b6b275ae39b")
+		(uuid "4b5ec9b4-8a36-4b40-8df4-ad1ad97fc43f")
 		(effects
 			(font
 				(size 1 1)
@@ -1304,10 +1294,21 @@
 			)
 		)
 	)
-	(fp_text user "7"
-		(at 3.5 -29 0)
+	(fp_text user "18"
+		(at 41.5 -12 0)
 		(layer "F.Fab")
-		(uuid "deee701d-f59d-4d64-80c8-433b52ddf788")
+		(uuid "513ed9f4-d6b0-4113-8fb8-8209085c7e1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "20"
+		(at 41.5 2 0)
+		(layer "F.Fab")
+		(uuid "dae5794b-37bb-47f2-be5d-7b6b275ae39b")
 		(effects
 			(font
 				(size 1 1)

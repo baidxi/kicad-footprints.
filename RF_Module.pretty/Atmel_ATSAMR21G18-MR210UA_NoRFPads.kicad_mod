@@ -1,7 +1,7 @@
 (footprint "Atmel_ATSAMR21G18-MR210UA_NoRFPads"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "http://ww1.microchip.com/downloads/en/devicedoc/atmel-42475-atsamr21g18-mr210ua_datasheet.pdf")
 	(tags "module wireless zigbee 802.15.4 flash crypto ATSAMR21G18 AT45DB041E  TECC508A U.Fi")
@@ -56,6 +56,7 @@
 	(solder_mask_margin 0.1)
 	(solder_paste_margin -0.05)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -10.15 -9.65)
 		(end -10.15 -8.125)
@@ -358,21 +359,21 @@
 		(layer "F.Fab")
 		(uuid "7573bde7-5788-4c0c-a970-27f359c53f9b")
 	)
+	(fp_text user "KEEP-OUT Zone"
+		(at 4.5 -8.5 0)
+		(layer "Cmts.User")
+		(uuid "6e24d843-42c2-489b-9407-92b66866ee81")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
 	(fp_text user "Layers with less than"
 		(at 4.5 -7.75 0)
 		(layer "Cmts.User")
 		(uuid "2e3d388b-eeec-42ba-bec2-d5ea1f3bfab9")
-		(effects
-			(font
-				(size 0.4 0.4)
-				(thickness 0.08)
-			)
-		)
-	)
-	(fp_text user "shall not be filled"
-		(at 4.5 -6.25 0)
-		(layer "Cmts.User")
-		(uuid "3be30838-b10d-450c-b9bd-83502baf0eb6")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -391,14 +392,14 @@
 			)
 		)
 	)
-	(fp_text user "KEEP-OUT Zone"
-		(at 4.5 -8.5 0)
+	(fp_text user "shall not be filled"
+		(at 4.5 -6.25 0)
 		(layer "Cmts.User")
-		(uuid "6e24d843-42c2-489b-9407-92b66866ee81")
+		(uuid "3be30838-b10d-450c-b9bd-83502baf0eb6")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
+				(size 0.4 0.4)
+				(thickness 0.08)
 			)
 		)
 	)
@@ -666,8 +667,6 @@
 		(uuid "186183a9-3167-45e8-912a-3d8caf00fda0")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
 			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
 			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
@@ -680,7 +679,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -695,6 +693,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

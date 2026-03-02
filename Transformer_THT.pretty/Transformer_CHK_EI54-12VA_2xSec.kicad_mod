@@ -1,7 +1,7 @@
 (footprint "Transformer_CHK_EI54-12VA_2xSec"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Trafo, Printtrafo, CHK, EI54, 12VA, 2x Sec,http://www.eratransformers.com/product-detail/19")
 	(tags "Trafo Printtrafo CHK EI54 12VA 2x Sec ")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.62 -43.12)
 		(end -8.62 13.12)
@@ -856,32 +857,21 @@
 			)
 		)
 	)
+	(fp_text user "7"
+		(at 3 -30 0)
+		(layer "F.Fab")
+		(uuid "c1de2176-5c72-444b-a052-fa58d02ff99c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 13.5 -15 90)
 		(layer "F.Fab")
 		(uuid "22d03014-9961-49ae-b8fb-e1cae41c6919")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "8"
-		(at 27 -30 0)
-		(layer "F.Fab")
-		(uuid "2bea1dc6-3de9-49b2-81ba-575489449ae4")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "Sec-II"
-		(at 35 -2 90)
-		(layer "F.Fab")
-		(uuid "8d7126e7-43f3-451b-92f3-dc20cd471bc2")
 		(effects
 			(font
 				(size 1 1)
@@ -900,28 +890,6 @@
 			)
 		)
 	)
-	(fp_text user "Sec-I"
-		(at 35 -27 90)
-		(layer "F.Fab")
-		(uuid "995f1676-b540-4875-a5ca-55d2d8f441e0")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "7"
-		(at 3 -30 0)
-		(layer "F.Fab")
-		(uuid "c1de2176-5c72-444b-a052-fa58d02ff99c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "14"
 		(at 25 2 0)
 		(layer "F.Fab")
@@ -933,10 +901,43 @@
 			)
 		)
 	)
+	(fp_text user "8"
+		(at 27 -30 0)
+		(layer "F.Fab")
+		(uuid "2bea1dc6-3de9-49b2-81ba-575489449ae4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "9"
 		(at 27 -25 0)
 		(layer "F.Fab")
 		(uuid "fdfd179b-97f7-4818-85ce-5a34b5c8661a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Sec-I"
+		(at 35 -27 90)
+		(layer "F.Fab")
+		(uuid "995f1676-b540-4875-a5ca-55d2d8f441e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Sec-II"
+		(at 35 -2 90)
+		(layer "F.Fab")
+		(uuid "8d7126e7-43f3-451b-92f3-dc20cd471bc2")
 		(effects
 			(font
 				(size 1 1)

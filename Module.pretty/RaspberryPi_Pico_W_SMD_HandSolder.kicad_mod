@@ -1,7 +1,7 @@
 (footprint "RaspberryPi_Pico_W_SMD_HandSolder"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Raspberry Pi Pico W surface-mount footprint with debug pads for hand soldering (not compatible with non-wireless Pico), supports Raspberry Pi Pico 2 W, https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf")
 	(tags "module usb pcb swd antenna")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -10.61 -23.07)
 		(end -11.09 -23.07)
@@ -867,18 +868,6 @@
 		(layer "F.Fab")
 		(uuid "dd701248-06ab-4f6d-8ba6-524922cdcfe6")
 	)
-	(fp_text user "Antenna"
-		(at 0 19.685 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "0d2094cb-fb49-4747-a977-5f5746fc9318")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "^ Suggested board edge for RF ^"
 		(at -14.05 26.67 0)
 		(unlocked yes)
@@ -891,15 +880,15 @@
 			)
 		)
 	)
-	(fp_text user "Keep unobstructed by metal as far as possible in all dimensions"
-		(at 0 33.9725 0)
+	(fp_text user "Exposed Copper Keep Out"
+		(at -2.5 -14.25 90)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "29962f61-8ec3-48f1-a914-f8074a9420e4")
+		(uuid "ed9b560d-539e-4ff7-9155-7987886cd252")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.075)
+				(size 0.3333 0.3333)
+				(thickness 0.05)
 			)
 		)
 	)
@@ -939,6 +928,30 @@
 			)
 		)
 	)
+	(fp_text user "Copper"
+		(at 0 -23.9825 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "ea255f60-a225-4be6-a6da-d87ec7fab039")
+		(effects
+			(font
+				(size 0.3333 0.3333)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "Keep"
+		(at 0 -21.3175 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "f9b45167-cc69-49db-942e-20438789f661")
+		(effects
+			(font
+				(size 0.3333 0.3333)
+				(thickness 0.05)
+			)
+		)
+	)
 	(fp_text user "Out"
 		(at 0 -20.6825 0)
 		(unlocked yes)
@@ -952,18 +965,6 @@
 		)
 	)
 	(fp_text user "^ Suggested board edge for RF ^"
-		(at 14.05 26.67 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "7cadfa5e-8a04-45f9-b5d0-309f4febd3b4")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.075)
-			)
-		)
-	)
-	(fp_text user "^ Suggested board edge for RF ^"
 		(at 0 17.78 0)
 		(unlocked yes)
 		(layer "Cmts.User")
@@ -972,6 +973,18 @@
 			(font
 				(size 0.5 0.5)
 				(thickness 0.075)
+			)
+		)
+	)
+	(fp_text user "Antenna"
+		(at 0 19.685 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "0d2094cb-fb49-4747-a977-5f5746fc9318")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -999,39 +1012,27 @@
 			)
 		)
 	)
-	(fp_text user "Copper"
-		(at 0 -23.9825 0)
+	(fp_text user "Keep unobstructed by metal as far as possible in all dimensions"
+		(at 0 33.9725 0)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "ea255f60-a225-4be6-a6da-d87ec7fab039")
+		(uuid "29962f61-8ec3-48f1-a914-f8074a9420e4")
 		(effects
 			(font
-				(size 0.3333 0.3333)
-				(thickness 0.05)
+				(size 0.5 0.5)
+				(thickness 0.075)
 			)
 		)
 	)
-	(fp_text user "Exposed Copper Keep Out"
-		(at -2.5 -14.25 90)
+	(fp_text user "^ Suggested board edge for RF ^"
+		(at 14.05 26.67 0)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "ed9b560d-539e-4ff7-9155-7987886cd252")
+		(uuid "7cadfa5e-8a04-45f9-b5d0-309f4febd3b4")
 		(effects
 			(font
-				(size 0.3333 0.3333)
-				(thickness 0.05)
-			)
-		)
-	)
-	(fp_text user "Keep"
-		(at 0 -21.3175 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "f9b45167-cc69-49db-942e-20438789f661")
-		(effects
-			(font
-				(size 0.3333 0.3333)
-				(thickness 0.05)
+				(size 0.5 0.5)
+				(thickness 0.075)
 			)
 		)
 	)
@@ -2010,8 +2011,6 @@
 		(uuid "fb6d9b3e-0adf-469f-b3f3-be9d12fc36e0")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "F.Paste"
 			"In6.Cu" "B.Paste" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu"
 			"In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu"
@@ -2025,7 +2024,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -2040,6 +2038,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -2048,8 +2047,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "F.Paste"
 			"In6.Cu" "B.Paste" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu"
 			"In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu"
@@ -2063,7 +2060,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -2078,6 +2074,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -2087,8 +2084,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Paste")
 		(uuid "5ccbda23-9acf-430e-aa67-4fd854f408de")
 		(name "Pad Keep Out TP6")
@@ -2097,7 +2092,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -2112,6 +2106,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -2124,8 +2119,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Paste")
 		(uuid "2acf6b67-e730-4350-848b-cb76c7369a8e")
 		(name "Pad Keep Out TP3")
@@ -2134,7 +2127,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -2149,6 +2141,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -2161,8 +2154,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Paste")
 		(uuid "ec86efdf-9e37-4431-bf7c-5f84d216f1a1")
 		(name "Pad Keep Out TP4")
@@ -2171,7 +2162,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -2186,6 +2176,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -2198,8 +2189,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Paste")
 		(uuid "876ddab4-8720-4fda-b5fa-84351c2e8758")
 		(name "Pad Keep Out TP3")
@@ -2208,7 +2197,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -2223,6 +2211,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -2235,8 +2224,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Paste")
 		(uuid "53b802c3-72bf-4815-9dd6-da151f1e9165")
 		(name "Pad Keep Out TP1")
@@ -2245,7 +2232,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -2260,6 +2246,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -2272,8 +2259,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Paste")
 		(uuid "61b6e209-0a8d-48b2-ac1c-a02230c6b546")
 		(name "Pad Keep Out TP1")
@@ -2282,7 +2267,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -2297,6 +2281,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -2308,8 +2293,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Paste")
 		(uuid "fec2d731-89f9-4871-9906-2ee387e368e8")
 		(name "Pad Keep Out TP2")
@@ -2318,7 +2301,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -2333,6 +2315,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -2344,8 +2327,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.Paste")
 		(uuid "498fe5a4-b0a2-4c35-b799-ad3e9d089a3f")
 		(name "Pad Keep Out TP2")
@@ -2354,7 +2335,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -2369,6 +2349,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -2380,8 +2361,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "Edge.Cuts")
 		(uuid "4bc7c88f-a45d-4ef3-9c78-71368b527f7f")
 		(name "Board Keep Out USB Cable")
@@ -2390,7 +2369,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias allowed)
@@ -2405,6 +2383,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -2413,8 +2392,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "Edge.Cuts")
 		(uuid "8f2041b0-5409-4450-aebb-a6844bec3e0f")
 		(name "Board Keep Out Suggestion RF")
@@ -2423,7 +2400,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias allowed)
@@ -2438,6 +2414,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -2446,8 +2423,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.CrtYd")
 		(uuid "24aafe1e-e900-4c03-949e-5712552441f4")
 		(name "USB Cable Keep Out")
@@ -2456,7 +2431,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias allowed)
@@ -2471,6 +2445,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

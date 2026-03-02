@@ -1,7 +1,7 @@
 (footprint "Antenova_SR4G013_GPS"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "GPS/GLONASS/Galileo/BeiDou antenna, 1559-1609Mhz, SMD, https://www.application-datasheet.com/pdf/antenova/sr4g013.pdf")
 	(tags "antenna GPS Antenova Beltii")
@@ -55,6 +55,7 @@
 	)
 	(attr smd)
 	(net_tie_pad_groups "1, 2")
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.05 0)
 		(end -6.9 0)
@@ -278,8 +279,6 @@
 		(uuid "5534aa24-0016-4dd4-9a8a-e6f984beb5e6")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "c26e1f8a-17d3-4099-890c-a3a77c1ac86a")
 		(hatch edge 0.508)
@@ -287,7 +286,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -302,6 +300,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

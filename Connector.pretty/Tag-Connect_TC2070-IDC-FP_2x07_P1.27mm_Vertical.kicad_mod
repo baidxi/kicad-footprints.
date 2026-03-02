@@ -1,7 +1,7 @@
 (footprint "Tag-Connect_TC2070-IDC-FP_2x07_P1.27mm_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2070-IDC%20Datasheet.pdf")
 	(tags "tag connect programming header pogo pins")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.445 0.635)
 		(end -4.445 1.27)
@@ -270,8 +271,6 @@
 		(uuid "e0c85292-781c-42ef-8584-d7dff2f93c02")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "1eed5896-aa04-45cd-9356-be7e685c823f")
 		(hatch full 0.508)
@@ -279,7 +278,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -294,6 +292,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

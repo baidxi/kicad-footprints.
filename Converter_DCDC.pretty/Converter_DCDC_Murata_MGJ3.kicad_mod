@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_Murata_MGJ3"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Murata MGJ3, 5.2kVDC Isolated 3W Gate Drive, 15V/5V/5V Configurable, 22.61x23.11x14.19mm, https://power.murata.com/datasheet?/data/power/ncl/kdc_mgj3.pdf")
 	(tags "DCDC SMD")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -11.415 -6.115)
 		(end -11.415 11.665)
@@ -249,8 +250,6 @@
 		(uuid "459e2dce-57c3-49e6-93ba-a6105f005e39")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "415b477b-9485-4254-b864-ae938d3523aa")
 		(hatch full 0.508)
@@ -258,7 +257,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -273,6 +271,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

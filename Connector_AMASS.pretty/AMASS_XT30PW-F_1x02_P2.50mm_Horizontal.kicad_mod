@@ -1,7 +1,7 @@
 (footprint "AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Connector XT30 Horizontal PCB Female, https://www.tme.eu/Document/f383737e340bfdab1f665284174b4ea2/XT30PW-F.pdf")
 	(tags "RC Connector XT30")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.26 -6.11)
 		(end -2.56 -6.11)
@@ -368,10 +369,10 @@
 		(layer "F.Fab")
 		(uuid "2a11b3b7-160e-43cf-b16e-b917319b7259")
 	)
-	(fp_text user "+"
-		(at 8 0 0)
+	(fp_text user "-"
+		(at -3 0 0)
 		(layer "F.SilkS")
-		(uuid "9c8150b4-0a6b-452b-896d-b8f5112545cf")
+		(uuid "ef49ac44-adbc-43a3-9e44-ca0b9001e8e1")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -379,10 +380,10 @@
 			)
 		)
 	)
-	(fp_text user "-"
-		(at -3 0 0)
+	(fp_text user "+"
+		(at 8 0 0)
 		(layer "F.SilkS")
-		(uuid "ef49ac44-adbc-43a3-9e44-ca0b9001e8e1")
+		(uuid "9c8150b4-0a6b-452b-896d-b8f5112545cf")
 		(effects
 			(font
 				(size 1.5 1.5)

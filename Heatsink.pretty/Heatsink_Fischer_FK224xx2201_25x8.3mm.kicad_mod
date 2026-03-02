@@ -1,7 +1,7 @@
 (footprint "Heatsink_Fischer_FK224xx2201_25x8.3mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "25x8.3mm Heatsink, 18K/W, TO-220, https://www.fischerelektronik.de/web_fischer/en_GB/$catalogue/fischerData/PR/FK224_220_1_/datasheet.xhtml?branch=heatsinks")
 	(tags "heatsink TO-220")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.71 1.6)
 		(end -0.71 7.76)
@@ -365,28 +366,6 @@
 		(uuid "9698993a-8ae6-4d10-80d6-a0941f9eebb5")
 	)
 	(fp_text user "COPPER"
-		(at 23.8 5.65 0)
-		(layer "Dwgs.User")
-		(uuid "33ed5aff-0c8d-474e-ad8d-766d3df0834e")
-		(effects
-			(font
-				(size 0.15 0.15)
-				(thickness 0.02)
-			)
-		)
-	)
-	(fp_text user "KEEPOUT"
-		(at 23.8 5.95 0)
-		(layer "Dwgs.User")
-		(uuid "a268b597-2893-4799-9198-c2b952c785af")
-		(effects
-			(font
-				(size 0.15 0.15)
-				(thickness 0.02)
-			)
-		)
-	)
-	(fp_text user "COPPER"
 		(at 0 5.65 0)
 		(layer "Dwgs.User")
 		(uuid "d8d4680c-a449-4367-aebf-bad7474d95fc")
@@ -401,6 +380,28 @@
 		(at 0 5.95 0)
 		(layer "Dwgs.User")
 		(uuid "ddd86c9b-2874-4207-a2d5-13aa19e3ad00")
+		(effects
+			(font
+				(size 0.15 0.15)
+				(thickness 0.02)
+			)
+		)
+	)
+	(fp_text user "COPPER"
+		(at 23.8 5.65 0)
+		(layer "Dwgs.User")
+		(uuid "33ed5aff-0c8d-474e-ad8d-766d3df0834e")
+		(effects
+			(font
+				(size 0.15 0.15)
+				(thickness 0.02)
+			)
+		)
+	)
+	(fp_text user "KEEPOUT"
+		(at 23.8 5.95 0)
+		(layer "Dwgs.User")
+		(uuid "a268b597-2893-4799-9198-c2b952c785af")
 		(effects
 			(font
 				(size 0.15 0.15)
