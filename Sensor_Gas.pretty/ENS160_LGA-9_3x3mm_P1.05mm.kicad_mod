@@ -1,7 +1,7 @@
 (footprint "ENS160_LGA-9_3x3mm_P1.05mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "ScioSense ENS160 multi-gas air quality sensor, LGA-9 3x3 mm package")
 	(tags "ENS160 TVOC eCO2 gas-sensor air-quality")
@@ -9,12 +9,11 @@
 		(at 0.15 -3.18 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "395f8bab-7b9f-4dcf-9207-cf40eea80273")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -22,7 +21,6 @@
 		(at -0.12 -9.07 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "0075e115-06b4-4217-b59a-2f1435e0d0e3")
 		(effects
 			(font
@@ -31,24 +29,10 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
+	(property "Datasheet" "https://www.sciosense.com/wp-content/uploads/2023/12/ENS160-Datasheet.pdf"
+		(at -0.24 -13.28 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "55e167c5-b73f-4c8f-bb66-66f4368c1790")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Datasheet" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
 		(uuid "84175247-fa4c-46cb-a3d2-7031828b1e49")
 		(effects
 			(font
@@ -57,11 +41,10 @@
 			)
 		)
 	)
-	(property "Description" ""
-		(at 0 0 0)
+	(property "Description" "ScioSense ENS160 multi-gas air quality sensor, LGA-9 3x3 mm package"
+		(at 0.64 -10.69 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "aa34fdd3-7152-434c-ad4e-841f353ddcc5")
 		(effects
 			(font
@@ -75,10 +58,10 @@
 		(start -1.6 -1.6)
 		(end 1.6 1.6)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.12)
+			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "9eb726f5-6077-4145-a6e1-4a942a8fe984")
 	)
@@ -86,10 +69,10 @@
 		(start -1.725 -1.75)
 		(end 1.775 1.75)
 		(stroke
-			(width 0.05)
-			(type default)
+			(width 0.01)
+			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "82db910a-4df5-4fc6-8639-b35d7930d61b")
 	)
@@ -98,9 +81,9 @@
 		(end 1.5 1.5)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "af21926f-566a-4c92-b621-1004125a0889")
 	)
@@ -108,10 +91,10 @@
 		(center -1.414 -1.42)
 		(end -1.41 -1.42)
 		(stroke
-			(width 0.05)
-			(type default)
+			(width 0.1)
+			(type solid)
 		)
-		(fill none)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "3ec7a563-fc41-4b9a-9241-b4cef683d97a")
 	)
@@ -130,7 +113,7 @@
 	(pad "1" smd roundrect
 		(at -1.05 -1.05)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "32e93409-1550-44c9-9568-561633d431ed")
@@ -138,7 +121,7 @@
 	(pad "2" smd roundrect
 		(at 0 -1.05)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "fccabcbb-9902-4172-8c2a-477beae6c1d9")
@@ -146,7 +129,7 @@
 	(pad "3" smd roundrect
 		(at 1.05 -1.05)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "92c5cf95-d9f8-4d61-876b-3f82a4c39666")
@@ -154,7 +137,7 @@
 	(pad "4" smd roundrect
 		(at -1.05 0)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "2d429402-6c2d-4b9f-8cae-d6b7f572c782")
@@ -162,7 +145,7 @@
 	(pad "5" smd roundrect
 		(at 0 0)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "f39488f1-dd90-43fb-b954-a371bed26ce6")
@@ -170,7 +153,7 @@
 	(pad "6" smd roundrect
 		(at 1.05 0)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "d00af07c-e14d-4395-b4eb-e2f37c6b1e4c")
@@ -178,7 +161,7 @@
 	(pad "7" smd roundrect
 		(at -1.05 1.05)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "e52578ad-a0c2-4b1c-82f2-9851f5877430")
@@ -186,7 +169,7 @@
 	(pad "8" smd roundrect
 		(at 0 1.05)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "267e88ac-d918-4354-ad17-50a5be93545c")
@@ -194,9 +177,10 @@
 	(pad "9" smd roundrect
 		(at 1.05 1.05)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "5732b650-4031-49a3-a624-44d51097dd92")
 	)
+	(embedded_fonts no)
 )
