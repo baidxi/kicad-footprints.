@@ -77,18 +77,21 @@ model:
         - "**/*.kicad_mod"
 
   before_script:
-    - export DEBIAN_FRONTEND=noninteractive
-    - sudo apt update -qq
-    - sudo apt install curl python3 git -qqy --no-install-recommends
-    - mkdir -p $HOME/.config/kicad/10.0/colors
-    - git clone --depth 1 "${KICAD_LIBRARY_UTILS_REPO}" "$KICAD_LIBRARY_UTILS_DIR" --branch "${KICAD_LIBRARY_UTILS_BRANCH}"
-    - git clone --depth 1 https://gitlab.com/kicad/libraries/kicad-packages3D $CI_BUILDS_DIR/kicad-packages3D
 
-    # ✅ ONLY CHANGE (safe)
-    - sed -i 's/fp.Duplicate()/fp.Duplicate(False)/g' $KICAD_LIBRARY_UTILS_DIR/scripts/create_model_board.py
+  - KICAD_LIBRARY_UTILS_DIR="${KICAD_LIBRARY_UTILS_DIR/#\~/$HOME}"
 
-    - git config --global --add safe.directory $(realpath .)
-    - kicad-cli version --format=about
+  - export DEBIAN_FRONTEND=noninteractive
+  - sudo apt update -qq
+  - sudo apt install curl python3 git -qqy --no-install-recommends
+  - mkdir -p $HOME/.config/kicad/10.0/colors
+
+  - git clone --depth 1 "${KICAD_LIBRARY_UTILS_REPO}" "$KICAD_LIBRARY_UTILS_DIR" --branch "${KICAD_LIBRARY_UTILS_BRANCH}"
+  - git clone --depth 1 https://gitlab.com/kicad/libraries/kicad-packages3D $CI_BUILDS_DIR/kicad-packages3D
+
+  - sed -i 's/fp.Duplicate()/fp.Duplicate(False)/g' "$KICAD_LIBRARY_UTILS_DIR/scripts/create_model_board.py"
+
+  - git config --global --add safe.directory $(realpath .)
+  - kicad-cli version --format=about
 
   script:
     - $KICAD_LIBRARY_UTILS_DIR/tools/gitlabci/screenshot_model.sh
