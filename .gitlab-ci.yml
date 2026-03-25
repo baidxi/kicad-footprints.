@@ -5,5 +5,8 @@
 include:
   - remote: 'https://gitlab.com/kicad/libraries/kicad-library-utils/-/raw/master/tools/gitlabci/gitlab-ci-footprints.yml'
 
-before_script:
-  - sed -i 's/fp.Duplicate()/fp.Duplicate(False)/g' ~/klu/scripts/create_model_board.py
+model:
+  before_script:
+    - echo "Patching file..."
+    - ls "./~/klu/scripts/"
+    - sed -i 's/fp.Duplicate()/fp.Duplicate(False)/g' "./~/klu/scripts/create_model_board.py"
