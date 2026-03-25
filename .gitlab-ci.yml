@@ -1,12 +1,39 @@
-# All the CI config is in the library-utils repo
-#
-# The goal is to have only one place where all the CI
-# related things are.
 include:
   - remote: 'https://gitlab.com/kicad/libraries/kicad-library-utils/-/raw/master/tools/gitlabci/gitlab-ci-footprints.yml'
+
 model:
+  image: kicad/kicad:nightly
+  stage: model
+  allow_failure: true
+  when: manual
+
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      changes:
+        - "**/*.kicad_mod"
+
+  before_script:
+    - export DEBIAN_FRONTEND=noninteractive
+    - sudo apt update -qq
+    - sudo apt install curl python3 git -qqy --no-install-recommends
+    - mkdir -p $HOME/.config/kicad/10.0/colors
+
+    # Clone utils (same as upstream)
+    - git clone --depth 1 "${KICAD_LIBRARY_UTILS_REPO}" "$KICAD_LIBRARY_UTILS_DIR" --branch "${KICAD_LIBRARY_UTILS_BRANCH}"
+
+    # Clone 3D models
+    - git clone --depth 1 https://gitlab.com/kicad/libraries/kicad-packages3D $CI_BUILDS_DIR/kicad-packages3D
+
+    - git config --global --add safe.directory $(realpath .)
+    - kicad-cli version --format=about
+
+    # 🔥 REPLACE BROKEN SCRIPT
+    - cp ci_patches/create_model_board.py "$KICAD_LIBRARY_UTILS_DIR/scripts/create_model_board.py"
+
   script:
-    - echo "Searching for script..."
-    - find . -name create_model_board.py
-    - find . -name create_model_board.py -exec sed -i 's/fp.Duplicate()/fp.Duplicate(False)/g' {} +
     - $KICAD_LIBRARY_UTILS_DIR/tools/gitlabci/screenshot_model.sh
+
+  artifacts:
+    expose_as: 'Model'
+    paths:
+      - screenshots/
