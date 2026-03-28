@@ -1,0 +1,145 @@
+(footprint "PT061"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Strain Gauge https://algragroup.ch/hubfs/139811812/Downloads/G04_DD_014_PT061_Datasheet.pdf")
+	(tags "force-sensor strain-gauge")
+	(property "Reference" "REF**"
+		(at 0 -4.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "343b1afa-7e6a-4377-b9de-3d6e7ac1b44a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PT061"
+		(at -2 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8d8036ae-55a9-407f-aa07-055e37a0359b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9b49c43-be1d-4745-8cfc-0c487865575e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "882ff7bb-4f4a-4634-ada5-71c39e2d2828")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.1 -0.8)
+		(end -1.1 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6067e553-213f-4c9c-a399-30a777799399")
+	)
+	(fp_rect
+		(start -1.25 -3.75)
+		(end 1.25 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bb69d70a-35e6-4e83-9cb6-b28ddc237db2")
+	)
+	(fp_rect
+		(start -1.075 -3.5)
+		(end 1.075 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e80b77b5-6385-4852-80b3-024d7e8a1475")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7049f3a6-09d6-483d-98d3-671b405f1848")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.55 0 90)
+		(size 1.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.2)
+		(uuid "9e26dd36-3ef5-43d3-822b-0d7334759ace")
+	)
+	(pad "2" smd rect
+		(at 0 2.85)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.2)
+		(uuid "e9b09f7b-85df-4e08-aafa-50b669ffd90c")
+	)
+	(pad "3" smd rect
+		(at 0.55 0 90)
+		(size 1.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.2)
+		(uuid "99bc4671-47ce-4b97-8c92-843ba9f80be3")
+	)
+	(pad "4" smd rect
+		(at 0 -2.85)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin -0.2)
+		(uuid "a34ad26c-cb8e-4286-9d8b-d06b6ac6929a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Sensor.3dshapes/PT061.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
