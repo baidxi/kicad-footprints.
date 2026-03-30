@@ -83,7 +83,7 @@ model:
     - git clone --depth 1 https://gitlab.com/kicad/libraries/kicad-packages3D $CI_BUILDS_DIR/kicad-packages3D
 
     # 🔥 FIX KiCad 10 API change
-    - sed -i 's/fp_wrl = fp\.Duplicate()/fp_wrl = fp.Duplicate(True)/g' "$KICAD_LIBRARY_UTILS_DIR/scripts/create_model_board.py"
+    - sed -i 's/fp_wrl[[:space:]]*=[[:space:]]*fp\.Duplicate[[:space:]]*\([[:space:]]*\)/fp_wrl = fp.Duplicate(True)/g' "$KICAD_LIBRARY_UTILS_DIR/scripts/create_model_board.py"
 
     # ✅ VERIFY PATCH (IMPORTANT)
     - echo "VERIFY PATCH:"
