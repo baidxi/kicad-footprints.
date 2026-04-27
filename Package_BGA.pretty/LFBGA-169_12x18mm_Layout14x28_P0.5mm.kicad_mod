@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "JEDEC eMMC AB BGA-169, 12.0x18.0mm, 169 Ball, 14x28 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/sites/default/files/docs/MO-276F.pdf")
+	(descr "JEDEC eMMC AB BGA-169, 12.0x18.0mm, 169 Ball, 14x28 Layout, 0.5mm Pitch, https://www.jedec.org/sites/default/files/docs/MO-276F.pdf")
 	(tags "BGA 169 0.5")
 	(property "Reference" "REF**"
 		(at 0 -10 0)
@@ -17,6 +17,17 @@
 	(property "Value" "LFBGA-169_12x18mm_Layout14x28_P0.5mm"
 		(at 0 10 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

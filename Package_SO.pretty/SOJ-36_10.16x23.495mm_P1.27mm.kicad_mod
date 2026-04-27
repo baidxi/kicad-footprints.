@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "SOJ, 36 Pin (JEDEC MS-027-A, 400 mils width, variation AE, https://www.jedec.org/system/files/docs/Ms-027a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "SOJ, 36 Pin (JEDEC MS-027-A, 400 mils width, variation AE, https://www.jedec.org/system/files/docs/Ms-027a.pdf)")
 	(tags "SOJ SO")
 	(property "Reference" "REF**"
 		(at 0 -12.7 0)
@@ -17,6 +17,17 @@
 	(property "Value" "SOJ-36_10.16x23.495mm_P1.27mm"
 		(at 0 12.7 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

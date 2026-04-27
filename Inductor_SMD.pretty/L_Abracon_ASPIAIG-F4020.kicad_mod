@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Inductor, Abracon, ASPIAIG-F4020, 4.4x4.4x1.9mm, (https://abracon.com/Magnetics/power/ASPIAIG-F4020.pdf), generated with kicad-footprint-generator gen_inductor.py")
+	(descr "Inductor, Abracon, ASPIAIG-F4020, 4.4x4.4x1.9mm, (https://abracon.com/Magnetics/power/ASPIAIG-F4020.pdf)")
 	(tags "power shielded")
 	(property "Reference" "REF**"
 		(at 0 -3.15 0)
@@ -17,6 +17,17 @@
 	(property "Value" "L_Abracon_ASPIAIG-F4020"
 		(at 0 3.15 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "inductor/SMD"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

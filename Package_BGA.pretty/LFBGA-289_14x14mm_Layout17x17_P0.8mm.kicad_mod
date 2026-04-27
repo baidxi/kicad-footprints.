@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "LFBGA-289, 14.0x14.0mm, 289 Ball, 17x17 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32mp131c.pdf")
+	(descr "LFBGA-289, 14.0x14.0mm, 289 Ball, 17x17 Layout, 0.8mm Pitch, https://www.st.com/resource/en/datasheet/stm32mp131c.pdf")
 	(tags "BGA 289 0.8")
 	(solder_mask_margin 0.05)
 	(solder_paste_margin 0.000001)
@@ -19,6 +19,17 @@
 	(property "Value" "LFBGA-289_14x14mm_Layout17x17_P0.8mm"
 		(at 0 8 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

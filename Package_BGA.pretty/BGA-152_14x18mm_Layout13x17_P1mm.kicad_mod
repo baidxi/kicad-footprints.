@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "BGA-152, 14x18mm, 152 Ball, 13x17 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/system/files/docs/MO-304D.pdf")
+	(descr "BGA-152, 14x18mm, 152 Ball, 13x17 Layout, 1mm Pitch, https://www.jedec.org/system/files/docs/MO-304D.pdf")
 	(tags "BGA 152 1 JEDEC MO-304D P18.0x14.0-EJ-152D")
 	(property "Reference" "REF**"
 		(at 0 -10 0)
@@ -17,6 +17,17 @@
 	(property "Value" "BGA-152_14x18mm_Layout13x17_P1mm"
 		(at 0 10 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

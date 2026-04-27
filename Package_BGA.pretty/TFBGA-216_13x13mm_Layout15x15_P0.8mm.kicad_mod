@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "TFBGA-216, 13.0x13.0mm, 216 Ball, 15x15 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f746zg.pdf#page=219")
+	(descr "TFBGA-216, 13.0x13.0mm, 216 Ball, 15x15 Layout, 0.8mm Pitch, http://www.st.com/resource/en/datasheet/stm32f746zg.pdf#page=219")
 	(tags "BGA 216 0.8")
 	(solder_mask_margin 0.035)
 	(solder_paste_margin 0.000001)
@@ -19,6 +19,17 @@
 	(property "Value" "TFBGA-216_13x13mm_Layout15x15_P0.8mm"
 		(at 0 7.5 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "WLCSP-49, 3.89x3.74mm, 49 Ball, 7x7 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f303r8.pdf#page=112")
+	(descr "WLCSP-49, 3.89x3.74mm, 49 Ball, 7x7 Layout, 0.5mm Pitch, http://www.st.com/resource/en/datasheet/stm32f303r8.pdf#page=112")
 	(tags "CSP 49 0.5")
 	(solder_mask_margin 0.03)
 	(solder_paste_margin 0.01)
@@ -19,6 +19,17 @@
 	(property "Value" "ST_WLCSP-49_Die438"
 		(at 0 2.87 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

@@ -2,7 +2,7 @@
 
 This repository contains the official KiCad footprint libraries.
 
-**The libraries in this repository are intended to be used with KiCad version 9.**
+**The libraries in this repository are intended to be used with KiCad version 10.**
 
 Each footprint library is stored as a directory with the `.pretty` suffix. The footprint files are `.kicad_mod` files within.
 

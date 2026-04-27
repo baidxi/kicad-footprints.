@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "TFBGA-265, 14.0x14.0mm, 265 Ball, 17x17 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/DM00387108.pdf#page=223")
+	(descr "TFBGA-265, 14.0x14.0mm, 265 Ball, 17x17 Layout, 0.8mm Pitch, http://www.st.com/resource/en/datasheet/DM00387108.pdf#page=223")
 	(tags "BGA 265 0.8")
 	(solder_mask_margin 0.0325)
 	(solder_paste_ratio 0.0125)
@@ -19,6 +19,17 @@
 	(property "Value" "TFBGA-265_14x14mm_Layout17x17_P0.8mm"
 		(at 0 8 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

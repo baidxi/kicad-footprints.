@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "LGA, 14 Pin (https://www.st.com/resource/en/datasheet/lis2dh12.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "LGA, 14 Pin (https://www.st.com/resource/en/datasheet/lis2dh12.pdf)")
 	(tags "LGA NoLead")
 	(property "Reference" "REF**"
 		(at 0 -1.8 0)
@@ -17,6 +17,17 @@
 	(property "Value" "LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y"
 		(at 0 1.8 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

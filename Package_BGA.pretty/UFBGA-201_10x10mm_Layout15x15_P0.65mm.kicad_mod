@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "UFBGA-201, 10.0x10.0mm, 201 Ball, 15x15 Layout, 0.65mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f207vg.pdf#page=166")
+	(descr "UFBGA-201, 10.0x10.0mm, 201 Ball, 15x15 Layout, 0.65mm Pitch, http://www.st.com/resource/en/datasheet/stm32f207vg.pdf#page=166")
 	(tags "BGA 201 0.65")
 	(solder_mask_margin 0.05)
 	(solder_paste_margin 0.000001)
@@ -19,6 +19,17 @@
 	(property "Value" "UFBGA-201_10x10mm_Layout15x15_P0.65mm"
 		(at 0 6 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

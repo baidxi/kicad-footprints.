@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "ST WLCSP-25, ST die ID 460, 2.3x2.48mm, 25 Ball, 5x5 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32g071eb.pdf")
+	(descr "ST WLCSP-25, ST die ID 460, 2.3x2.48mm, 25 Ball, 5x5 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32g071eb.pdf")
 	(tags "CSP 25 0.4")
 	(solder_mask_margin 0.0325)
 	(solder_paste_margin 0.0125)
@@ -19,6 +19,17 @@
 	(property "Value" "ST_WLCSP-25_2.3x2.48mm_Layout5x5_P0.4mm"
 		(at 0 2.24 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "QFN, 20 Pin (https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "QFN, 20 Pin (https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf)")
 	(tags "QFN NoLead")
 	(property "Reference" "REF**"
 		(at 0 -3.3 0)
@@ -17,6 +17,17 @@
 	(property "Value" "QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
 		(at 0 3.3 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

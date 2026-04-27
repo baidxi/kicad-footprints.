@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "LQFP, 160 Pin (https://www.nxp.com/docs/en/package-information/SOT435-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "LQFP, 160 Pin (https://www.nxp.com/docs/en/package-information/SOT435-1.pdf)")
 	(tags "LQFP QFP")
 	(property "Reference" "REF**"
 		(at 0 -14.38 0)
@@ -17,6 +17,17 @@
 	(property "Value" "LQFP-160_24x24mm_P0.5mm"
 		(at 0 14.38 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

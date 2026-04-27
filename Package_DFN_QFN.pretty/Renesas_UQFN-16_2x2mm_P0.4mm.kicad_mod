@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Renesas  UQFN, 16 Pin (Renesas STQFN-16L, https://www.renesas.com/en/document/dst/slg47011-datasheet#page=228), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "Renesas  UQFN, 16 Pin (Renesas STQFN-16L, https://www.renesas.com/en/document/dst/slg47011-datasheet#page=228)")
 	(tags "Renesas UQFN NoLead")
 	(property "Reference" "REF**"
 		(at 0 -2.08 0)
@@ -17,6 +17,17 @@
 	(property "Value" "Renesas_UQFN-16_2x2mm_P0.4mm"
 		(at 0 2.08 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

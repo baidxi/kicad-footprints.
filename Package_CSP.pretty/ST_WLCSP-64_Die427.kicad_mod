@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "WLCSP-64, 4.539x4.911mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32l152zc.pdf#page=126")
+	(descr "WLCSP-64, 4.539x4.911mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32l152zc.pdf#page=126")
 	(tags "CSP 64 0.4")
 	(solder_mask_margin 0.04)
 	(solder_paste_margin 0.000001)
@@ -19,6 +19,17 @@
 	(property "Value" "ST_WLCSP-64_Die427"
 		(at 0 3.4555 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

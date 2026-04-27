@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "PQFP, 80 Pin (JEITA/EIAJ ED-7311A (variation 80-001-PB) / JEDEC MS-022 (variation GB-2), 2.70mm body thickness, https://www.jeita.or.jp/japanese/standard/book/ED-7311A/#target/page_no=91, https://www.jedec.org/document_search?search_api_views_fulltext=MS-022), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "PQFP, 80 Pin (JEITA/EIAJ ED-7311A (variation 80-001-PB) / JEDEC MS-022 (variation GB-2), 2.70mm body thickness, https://www.jeita.or.jp/japanese/standard/book/ED-7311A/#target/page_no=91, https://www.jedec.org/document_search?search_api_views_fulltext=MS-022)")
 	(tags "PQFP QFP P-QFP080-14.00x20.00-0.80 P-QFP080-1420-0.80 MQFP-80 Onsemi_PQFP80-14x20-/-QIP80E Onsemi_CASE-122BS")
 	(property "Reference" "REF**"
 		(at 0 -12.95 0)
@@ -17,6 +17,17 @@
 	(property "Value" "PQFP-80_14x20mm_P0.8mm"
 		(at 0 12.95 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

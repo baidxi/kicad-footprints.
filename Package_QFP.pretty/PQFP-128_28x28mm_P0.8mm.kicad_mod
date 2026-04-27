@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "PQFP, 128 Pin (JEITA/EIAJ ED-7311A (variation 128-001-KD) / JEDEC MS-022 (variation DB-2), 3.40mm body thickness, https://www.jeita.or.jp/japanese/standard/book/ED-7311A/#target/page_no=78, https://www.jedec.org/document_search?search_api_views_fulltext=MS-022), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "PQFP, 128 Pin (JEITA/EIAJ ED-7311A (variation 128-001-KD) / JEDEC MS-022 (variation DB-2), 3.40mm body thickness, https://www.jeita.or.jp/japanese/standard/book/ED-7311A/#target/page_no=78, https://www.jedec.org/document_search?search_api_views_fulltext=MS-022)")
 	(tags "PQFP QFP P-QFP128-28.00x28.00-0.80 P-QFP128-2828-0.80 MQFP-128")
 	(property "Reference" "REF**"
 		(at 0 -16.95 0)
@@ -17,6 +17,17 @@
 	(property "Value" "PQFP-128_28x28mm_P0.8mm"
 		(at 0 16.95 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

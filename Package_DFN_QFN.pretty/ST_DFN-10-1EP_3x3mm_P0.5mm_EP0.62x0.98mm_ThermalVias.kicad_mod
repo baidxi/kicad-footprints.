@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "ST  DFN, 10 Pin (https://www.st.com/resource/en/datasheet/l7983.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "ST  DFN, 10 Pin (https://www.st.com/resource/en/datasheet/l7983.pdf)")
 	(tags "ST DFN NoLead")
 	(property "Reference" "REF**"
 		(at 0 -2.45 0)
@@ -17,6 +17,17 @@
 	(property "Value" "ST_DFN-10-1EP_3x3mm_P0.5mm_EP0.62x0.98mm_ThermalVias"
 		(at 0 2.45 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

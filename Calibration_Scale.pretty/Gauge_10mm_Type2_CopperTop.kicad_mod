@@ -1,7 +1,7 @@
 (footprint "Gauge_10mm_Type2_CopperTop"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Gauge, Massstab, 10mm, CopperTop, Type 2,")
 	(tags "Gauge Massstab 10mm CopperTop Type 2")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0 -9.99998)
 		(end -1.99898 -9.99998)
@@ -294,6 +295,17 @@
 		(layer "F.Cu")
 		(uuid "5314a6aa-9d79-4241-80e8-16d88dc96484")
 	)
+	(fp_text user "10mm"
+		(at -3.90144 -9.99998 0)
+		(layer "F.SilkS")
+		(uuid "c12d08e9-2c2c-48ba-ac24-3bdaebd79eeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "5"
 		(at -3.10134 -4.89966 0)
 		(layer "F.SilkS")
@@ -305,10 +317,10 @@
 			)
 		)
 	)
-	(fp_text user "10mm"
-		(at 9.99998 2.70002 0)
+	(fp_text user "0"
+		(at -3.10134 0 0)
 		(layer "F.SilkS")
-		(uuid "1e7ec160-a3c9-4695-9899-48f4631cba26")
+		(uuid "20a2449e-e77f-4b8e-92d4-9fef73d54c6b")
 		(effects
 			(font
 				(size 1 1)
@@ -317,9 +329,9 @@
 		)
 	)
 	(fp_text user "0"
-		(at -3.10134 0 0)
+		(at 0 2.79908 0)
 		(layer "F.SilkS")
-		(uuid "20a2449e-e77f-4b8e-92d4-9fef73d54c6b")
+		(uuid "f652e762-4939-4473-8f4f-772500787682")
 		(effects
 			(font
 				(size 1 1)
@@ -339,20 +351,9 @@
 		)
 	)
 	(fp_text user "10mm"
-		(at -3.90144 -9.99998 0)
+		(at 9.99998 2.70002 0)
 		(layer "F.SilkS")
-		(uuid "c12d08e9-2c2c-48ba-ac24-3bdaebd79eeb")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "0"
-		(at 0 2.79908 0)
-		(layer "F.SilkS")
-		(uuid "f652e762-4939-4473-8f4f-772500787682")
+		(uuid "1e7ec160-a3c9-4695-9899-48f4631cba26")
 		(effects
 			(font
 				(size 1 1)
