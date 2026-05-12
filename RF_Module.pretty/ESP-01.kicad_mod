@@ -3,12 +3,12 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Wi-Fi Module, https://docs.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_en.pdf")
+	(descr "Wi-Fi Module, https://aithinker-static.oss-cn-shenzhen.aliyuncs.com/docs/_media_old/esp-01_product_specification_en.pdf")
 	(tags "Wi-Fi Module")
 	(property "Reference" "REF**"
 		(at 3.8 -6.8 0)
 		(layer "F.SilkS")
-		(uuid "d8effc85-5684-4466-8535-a99f82591335")
+		(uuid "e16778b0-8b87-4ea1-b721-55029ed1206d")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "ESP-01"
 		(at 3.7 -19 0)
 		(layer "F.Fab")
-		(uuid "6ffd1dab-5bab-4aa1-96a9-4ab576ada2b3")
+		(uuid "1345b230-eca0-46ea-9e87-16f367dde071")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "757c17aa-3ded-4ed5-876f-63f43c1be221")
+		(uuid "049074a8-85cd-4df3-b1f3-46ddf760fa4f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,11 +43,23 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1c658b4b-0150-4ed8-8493-ad84e7cfc671")
+		(uuid "3ae227ac-7c07-44de-93e6-cca28e6301fb")
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "KLC_7.3_PAD1" "Pad 1 should be retangular, but causes then a missmatch with datasheet"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2a6c291b-c787-4b10-ad88-0582bfb61a01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -62,7 +74,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "a0af32bf-69e2-41bf-9381-c72df5627f57")
+		(uuid "e6acac2d-a548-4f86-b10f-e0154a45ef38")
 	)
 	(fp_rect
 		(start -1.3 -1.3)
@@ -73,7 +85,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "623187d2-2f8c-4776-abac-c60cd51a932c")
+		(uuid "eac15f0f-0195-430b-a319-3582a0eeb66c")
 	)
 	(fp_poly
 		(pts
@@ -85,7 +97,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "aebc66f5-f481-466d-a00d-f3acd30f2fe2")
+		(uuid "ae4e8df3-5682-4046-8d4e-268e624cac70")
 	)
 	(fp_rect
 		(start -3.75 -20.91)
@@ -96,7 +108,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "327597de-7052-49e0-8c10-8573a6444a80")
+		(uuid "46a22d41-3555-4e07-b690-1672d5dc4c14")
 	)
 	(fp_line
 		(start -3.5 -0.96)
@@ -106,7 +118,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "5d4fe3d7-3be4-4b37-94b3-d71cd05d55fe")
+		(uuid "6ae8717f-b496-4de3-b9df-55babdde58ae")
 	)
 	(fp_line
 		(start -1.56 0.03)
@@ -116,7 +128,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "3a343de0-3a81-4549-b63d-00a0550be98f")
+		(uuid "24951e2e-96c2-46e9-aecd-60fa0bc9a05e")
 	)
 	(fp_line
 		(start -1.56 0.03)
@@ -126,7 +138,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "b46dae9f-3633-4c93-b23e-62d2fbf93b7a")
+		(uuid "9981613f-2928-4acb-b907-604f4e052047")
 	)
 	(fp_rect
 		(start -3.5 -20.66)
@@ -137,12 +149,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "cb5e3626-80eb-4434-9838-786c086abb42")
+		(uuid "607548a3-f7f7-4a4d-8b0b-9af85230ec29")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 3.7 -8 0)
 		(layer "F.Fab")
-		(uuid "a2c9e3fb-eee8-454a-a997-836484989193")
+		(uuid "4350f1e3-fe3b-4c9f-8ed4-bf8dd2cf3186")
 		(effects
 			(font
 				(size 1 1)
@@ -156,7 +168,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "5852532e-84b3-44b9-bc38-11e16151ee3f")
+		(uuid "aeb9f119-0000-4ff6-8a1e-d0fc8a727858")
 	)
 	(pad "2" thru_hole circle
 		(at 2.54 0)
@@ -164,7 +176,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "909402fa-089b-4f6b-8cbc-915b46d40474")
+		(uuid "2295fb69-7012-4811-b514-58f0081c668c")
 	)
 	(pad "3" thru_hole circle
 		(at 5.08 0)
@@ -172,7 +184,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "719befbf-94f2-45a3-ac9b-3783f88e9cf7")
+		(uuid "a19644e3-61c0-4003-a824-5a79bce53536")
 	)
 	(pad "4" thru_hole circle
 		(at 7.62 0)
@@ -180,7 +192,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "aaa608a4-7ae2-432e-8850-7cfa198c0648")
+		(uuid "71c3f765-2a70-4291-b11d-1ea814045b08")
 	)
 	(pad "5" thru_hole circle
 		(at 0 2.54)
@@ -188,7 +200,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "3583624a-432f-46a6-8a9d-83df8fc7c556")
+		(uuid "e108a176-dc5f-46b3-ac01-a61cc29c325c")
 	)
 	(pad "6" thru_hole circle
 		(at 2.54 2.54)
@@ -196,7 +208,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "9ca65e8c-7425-49e7-9fdb-ab2b796aeeaf")
+		(uuid "0c64b3a7-2fc3-4f83-9316-9e80e6dd64ee")
 	)
 	(pad "7" thru_hole circle
 		(at 5.08 2.54)
@@ -204,7 +216,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c4127999-49df-4114-af21-509e00bac9a6")
+		(uuid "de655519-f650-434a-a084-1f8d78576563")
 	)
 	(pad "8" thru_hole circle
 		(at 7.62 2.54)
@@ -212,7 +224,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a14575f6-a4c1-4f0f-aaea-ab084bddafd9")
+		(uuid "1180d6b8-6a39-489f-8b70-19dd128ed25d")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
@@ -221,7 +233,7 @@
 			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
 			"In29.Cu" "In30.Cu"
 		)
-		(uuid "9e0b8615-afdf-416b-90a8-5814408a416e")
+		(uuid "5e2a5179-c65e-432d-93fb-1ff487d89a95")
 		(name "No Copper")
 		(hatch edge 0.5)
 		(connect_pads
