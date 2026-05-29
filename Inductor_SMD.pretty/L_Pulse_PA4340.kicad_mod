@@ -2,8 +2,8 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Inductor, Pulse, PA4340, 6.0x5.4x3.0mm, (https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/PA4340.183NLT), generated with kicad-footprint-generator gen_inductor.py")
-	(tags "Pulse SMT PA4340")
+	(descr "Inductor, Pulse, PA4340, 6.0x5.4x3.0mm, (https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/PA4340.183NLT)")
+	(tags "Pulse SMT")
 	(property "Reference" "REF**"
 		(at 0 -3.65 0)
 		(layer "F.SilkS")
@@ -17,6 +17,17 @@
 	(property "Value" "L_Pulse_PA4340"
 		(at 0 3.65 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "inductor/SMD"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

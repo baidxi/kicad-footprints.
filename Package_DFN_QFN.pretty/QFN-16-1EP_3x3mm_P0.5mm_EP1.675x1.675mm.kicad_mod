@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "QFN, 16 Pin (https://media.melexis.com/-/media/files/documents/datasheets/mlx90395-datasheet-melexis.pdf#page=55), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "QFN, 16 Pin (https://media.melexis.com/-/media/files/documents/datasheets/mlx90395-datasheet-melexis.pdf#page=55)")
 	(tags "QFN NoLead")
 	(property "Reference" "REF**"
 		(at 0 -2.83 0)
@@ -17,6 +17,17 @@
 	(property "Value" "QFN-16-1EP_3x3mm_P0.5mm_EP1.675x1.675mm"
 		(at 0 2.83 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

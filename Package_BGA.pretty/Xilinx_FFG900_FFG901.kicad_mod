@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Kintex-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 31x31mm, 900 Ball, 30x30 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=294, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=90")
+	(descr "Kintex-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 31x31mm, 900 Ball, 30x30 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=294, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=90")
 	(tags "BGA 900 1 FF900 FFG900 FFV900 FF901 FFG901 FFV901")
 	(solder_mask_margin 0.05)
 	(property "Reference" "REF**"
@@ -18,6 +18,17 @@
 	(property "Value" "Xilinx_FFG900_FFG901"
 		(at 0 16.5 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "WSON, 8 Pin (http://www.ti.com/lit/ds/symlink/lp2951.pdf#page=27), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "WSON, 8 Pin (http://www.ti.com/lit/ds/symlink/lp2951.pdf#page=27)")
 	(tags "WSON NoLead")
 	(property "Reference" "REF**"
 		(at 0 -2.45 0)
@@ -17,6 +17,17 @@
 	(property "Value" "WSON-8-1EP_3x3mm_P0.5mm_EP1.2x2mm"
 		(at 0 2.45 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

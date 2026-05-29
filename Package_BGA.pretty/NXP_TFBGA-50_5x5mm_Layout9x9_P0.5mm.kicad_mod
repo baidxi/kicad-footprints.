@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "TFBGA-50, 5.0x5.0mm, 50 Ball, 9x9 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.nxp.com/docs/en/package-information/SOT1345-1.pdf")
+	(descr "TFBGA-50, 5.0x5.0mm, 50 Ball, 9x9 Layout, 0.5mm Pitch, https://www.nxp.com/docs/en/package-information/SOT1345-1.pdf")
 	(tags "BGA 50 0.5 SOT1345-1")
 	(solder_mask_margin 0.05)
 	(solder_paste_margin 0.01)
@@ -19,6 +19,17 @@
 	(property "Value" "NXP_TFBGA-50_5x5mm_Layout9x9_P0.5mm"
 		(at 0 3.5 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

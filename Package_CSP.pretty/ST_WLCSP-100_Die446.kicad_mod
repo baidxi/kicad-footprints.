@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "WLCSP-100, 4.775x5.041mm, 100 Ball, 10x10 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f303zd.pdf#page=162")
+	(descr "WLCSP-100, 4.775x5.041mm, 100 Ball, 10x10 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f303zd.pdf#page=162")
 	(tags "CSP 100 0.4")
 	(solder_mask_margin 0.0325)
 	(solder_paste_margin 0.000001)
@@ -19,6 +19,17 @@
 	(property "Value" "ST_WLCSP-100_Die446"
 		(at 0 3.5205 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "VQFN, 28 Pin (Based on JEDEC MO-220-K.01 variation VHHD-3 and exposed pad nominal size from ADI Trinamic / Analog Devices, https://www.jedec.org/system/files/docs/MO-220K01.pdf, https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf#page=83), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "VQFN, 28 Pin (Based on JEDEC MO-220-K.01 variation VHHD-3 and exposed pad nominal size from ADI Trinamic / Analog Devices, https://www.jedec.org/system/files/docs/MO-220K01.pdf, https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf#page=83)")
 	(tags "VQFN NoLead")
 	(property "Reference" "REF**"
 		(at 0 -3.8 0)
@@ -17,6 +17,17 @@
 	(property "Value" "VQFN-28-1EP_5x5mm_P0.5mm_EP3.7x3.7mm_ThermalVias"
 		(at 0 3.8 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

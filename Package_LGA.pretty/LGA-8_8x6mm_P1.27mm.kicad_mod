@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "LGA, 8 Pin (https://datasheet.lcsc.com/lcsc/2005251034_XTX-XTSD01GLGEAG_C558837.pdf#page=6), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "LGA, 8 Pin (https://datasheet.lcsc.com/lcsc/2005251034_XTX-XTSD01GLGEAG_C558837.pdf#page=6)")
 	(tags "LGA NoLead")
 	(property "Reference" "REF**"
 		(at 0 -3.95 0)
@@ -17,6 +17,17 @@
 	(property "Value" "LGA-8_8x6mm_P1.27mm"
 		(at 0 3.95 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

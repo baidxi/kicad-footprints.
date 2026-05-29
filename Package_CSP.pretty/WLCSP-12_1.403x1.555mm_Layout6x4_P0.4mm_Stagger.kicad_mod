@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "WLCSP-12, staggered array, 1.403x1.555mm, 12 Ball, X-staggered 6x4 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://ww1.microchip.com/downloads/en/devicedoc/atmel-8235-8-bit-avr-microcontroller-attiny20_datasheet.pdf#page=208")
+	(descr "WLCSP-12, staggered array, 1.403x1.555mm, 12 Ball, X-staggered 6x4 Layout, 0.4mm Pitch, http://ww1.microchip.com/downloads/en/devicedoc/atmel-8235-8-bit-avr-microcontroller-attiny20_datasheet.pdf#page=208")
 	(tags "CSP 12 0.4")
 	(solder_mask_margin 0.0325)
 	(solder_paste_margin 0.000001)
@@ -19,6 +19,17 @@
 	(property "Value" "WLCSP-12_1.403x1.555mm_Layout6x4_P0.4mm_Stagger"
 		(at 0 1.7775 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

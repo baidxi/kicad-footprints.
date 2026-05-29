@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "QFN, 28 Pin (JEDEC MO-220-K.01, variation VHHD-1,  https://www.jedec.org/system/files/docs/MO-220K01.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "QFN, 28 Pin (JEDEC MO-220-K.01, variation VHHD-1,  https://www.jedec.org/system/files/docs/MO-220K01.pdf)")
 	(tags "QFN NoLead")
 	(property "Reference" "REF**"
 		(at 0 -3.8 0)
@@ -17,6 +17,17 @@
 	(property "Value" "QFN-28-1EP_5x5mm_P0.5mm_EP2.7x2.7mm"
 		(at 0 3.8 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

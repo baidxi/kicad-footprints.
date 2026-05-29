@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "UQFN, 16 Pin (https://www.ti.com/lit/ml/qfnd836/qfnd836.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "UQFN, 16 Pin (https://www.ti.com/lit/ml/qfnd836/qfnd836.pdf)")
 	(tags "UQFN NoLead Texas_RSV0016A")
 	(property "Reference" "REF**"
 		(at 0 -2.6 0)
@@ -17,6 +17,17 @@
 	(property "Value" "UQFN-16_1.8x2.6mm_P0.4mm"
 		(at 0 2.6 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

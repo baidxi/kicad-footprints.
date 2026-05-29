@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "VFBGA-86, 6.0x6.0mm, 86 Ball, 10x10 Layout, 0.55mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.dialog-semiconductor.com/sites/default/files/da1469x_datasheet_3v1.pdf#page=740")
+	(descr "VFBGA-86, 6.0x6.0mm, 86 Ball, 10x10 Layout, 0.55mm Pitch, https://www.dialog-semiconductor.com/sites/default/files/da1469x_datasheet_3v1.pdf#page=740")
 	(tags "BGA 86 0.55")
 	(property "Reference" "REF**"
 		(at 0 -4 0)
@@ -17,6 +17,17 @@
 	(property "Value" "VFBGA-86_6x6mm_Layout10x10_P0.55mm"
 		(at 0 4 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

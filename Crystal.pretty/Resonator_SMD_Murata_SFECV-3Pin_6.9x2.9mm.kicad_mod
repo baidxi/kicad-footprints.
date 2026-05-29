@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Murata SFECV, Resonator/Filter, 6.9x2.9mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf")
+	(descr "Murata SFECV, Resonator/Filter, 6.9x2.9mm package, SMD, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf")
 	(tags "ceramic")
 	(property "Reference" "REF**"
 		(at 0 -2.95 0)
@@ -17,6 +17,17 @@
 	(property "Value" "Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm"
 		(at 0 2.95 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "crystal_resonator_oscillator"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

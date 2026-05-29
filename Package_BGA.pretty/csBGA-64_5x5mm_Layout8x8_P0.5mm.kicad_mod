@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "csBGA-64, 5x5mm, 64 Ball, 8x8 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.latticesemi.com/view_document?document_id=213")
+	(descr "csBGA-64, 5x5mm, 64 Ball, 8x8 Layout, 0.5mm Pitch, https://www.latticesemi.com/view_document?document_id=213")
 	(tags "BGA 64 0.5")
 	(solder_mask_margin -0.05)
 	(solder_paste_margin -0.05)
@@ -19,6 +19,17 @@
 	(property "Value" "csBGA-64_5x5mm_Layout8x8_P0.5mm"
 		(at 0 3.5 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

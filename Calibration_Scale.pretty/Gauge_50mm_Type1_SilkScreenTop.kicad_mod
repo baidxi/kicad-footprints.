@@ -1,7 +1,7 @@
 (footprint "Gauge_50mm_Type1_SilkScreenTop"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Gauge, Massstab, 50mm, SilkScreenTop, Type 1,")
 	(tags "Gauge Massstab 50mm SilkScreenTop Type 1")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0 0)
 		(end 0 1.99898)
@@ -264,17 +265,6 @@
 		(layer "F.SilkS")
 		(uuid "96f74db3-5a48-42b9-b90d-5a0d7613d689")
 	)
-	(fp_text user "10mm"
-		(at 9.99998 2.70002 0)
-		(layer "F.SilkS")
-		(uuid "15ac5b4a-34c6-4364-8bac-fdfd5c19fff8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "0"
 		(at 0 2.79908 0)
 		(layer "F.SilkS")
@@ -286,10 +276,21 @@
 			)
 		)
 	)
-	(fp_text user "40"
-		(at 39.99992 3.10134 0)
+	(fp_text user "5"
+		(at 4.99872 2.90068 0)
 		(layer "F.SilkS")
-		(uuid "5733ec07-c039-43c1-b87d-73860e81e9c3")
+		(uuid "ac03767c-2583-4918-b8d4-173c67c3b77f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "10mm"
+		(at 9.99998 2.70002 0)
+		(layer "F.SilkS")
+		(uuid "15ac5b4a-34c6-4364-8bac-fdfd5c19fff8")
 		(effects
 			(font
 				(size 1 1)
@@ -319,10 +320,10 @@
 			)
 		)
 	)
-	(fp_text user "5"
-		(at 4.99872 2.90068 0)
+	(fp_text user "40"
+		(at 39.99992 3.10134 0)
 		(layer "F.SilkS")
-		(uuid "ac03767c-2583-4918-b8d4-173c67c3b77f")
+		(uuid "5733ec07-c039-43c1-b87d-73860e81e9c3")
 		(effects
 			(font
 				(size 1 1)

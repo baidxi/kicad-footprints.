@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "LQFP, 80 Pin (https://www.renesas.com/eu/en/package-image/pdf/outdrawing/q80.10x10.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "LQFP, 80 Pin (https://www.renesas.com/eu/en/package-image/pdf/outdrawing/q80.10x10.pdf)")
 	(tags "LQFP QFP")
 	(property "Reference" "REF**"
 		(at 0 -7.35 0)
@@ -17,6 +17,17 @@
 	(property "Value" "LQFP-80_10x10mm_P0.4mm"
 		(at 0 7.35 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

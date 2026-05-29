@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Inductor, Wuerth, HCI-1040, 10.2x10.2x4.0mm, (https://www.we-online.com/components/products/datasheet/744355215.pdf), generated with kicad-footprint-generator gen_inductor.py")
+	(descr "Inductor, Wuerth, HCI-1040, 10.2x10.2x4.0mm, (https://www.we-online.com/components/products/datasheet/744355215.pdf)")
 	(tags "flat-wire shielded Würth SMT")
 	(property "Reference" "REF**"
 		(at 0 -6.05 0)
@@ -17,6 +17,17 @@
 	(property "Value" "L_Wuerth_HCI-1040"
 		(at 0 6.05 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "inductor/SMD"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

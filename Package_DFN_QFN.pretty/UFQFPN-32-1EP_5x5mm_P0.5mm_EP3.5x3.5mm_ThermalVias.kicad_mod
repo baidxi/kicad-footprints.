@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "UFQFPN, 32 Pin (https://www.st.com/resource/en/datasheet/stm32g071k8.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "UFQFPN, 32 Pin (https://www.st.com/resource/en/datasheet/stm32g071k8.pdf)")
 	(tags "UFQFPN NoLead")
 	(property "Reference" "REF**"
 		(at 0 -3.83 0)
@@ -17,6 +17,17 @@
 	(property "Value" "UFQFPN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm_ThermalVias"
 		(at 0 3.83 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

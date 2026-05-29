@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "TFBGA-100, NSMD, 5.5x5.5mm, 100 Ball, 10x10 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf")
+	(descr "TFBGA-100, NSMD, 5.5x5.5mm, 100 Ball, 10x10 Layout, 0.5mm Pitch, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf")
 	(tags "BGA 100 0.5 100-ball FBGA")
 	(solder_mask_margin 0.075)
 	(property "Reference" "REF**"
@@ -18,6 +18,17 @@
 	(property "Value" "TFBGA-100_5.5x5.5mm_Layout10x10_P0.5mm"
 		(at 0 3.75 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

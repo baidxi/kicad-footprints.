@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Coilank  common-mode choke, 4 Pin (https://www.lcsc.com/datasheet/C49073870.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "Coilank  common-mode choke, 4 Pin (https://www.lcsc.com/datasheet/C49073870.pdf)")
 	(tags "Coilank common-mode choke NoLead")
 	(property "Reference" "REF**"
 		(at 0 -1.38 0)
@@ -17,6 +17,17 @@
 	(property "Value" "L_CommonModeChoke_Coilank_ACM1608"
 		(at 0 1.38 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)

@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "TQFP, 80 Pin (Based on JEDEC MS-026 variation AEC, 1.00mm body thickness, lead width / tolerances / custom Exposed Pad from Analog Devices, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp_edsv/sv_80_4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "TQFP, 80 Pin (Based on JEDEC MS-026 variation AEC, 1.00mm body thickness, lead width / tolerances / custom Exposed Pad from Analog Devices, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp_edsv/sv_80_4.pdf)")
 	(tags "TQFP QFP Analog-Devices_SV-80-4")
 	(property "Reference" "REF**"
 		(at 0 -9.4 0)
@@ -17,6 +17,17 @@
 	(property "Value" "TQFP-80-1EP_14x14mm_P0.65mm_EP9.5x9.5mm"
 		(at 0 9.4 0)
 		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
 		(effects
 			(font
 				(size 1 1)
