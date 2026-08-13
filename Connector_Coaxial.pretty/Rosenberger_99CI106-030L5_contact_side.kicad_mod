@@ -1,0 +1,150 @@
+(footprint "Rosenberger_99CI106-030L5_contact_side"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Spring loaded pin with controlled impedance, https://products.rosenberger.com/radio-frequency/connectors/347981/99ci106-030l5-spring-loaded-contact-block?c=11#")
+	(tags "spring loaded rf 50")
+	(property "Reference" "REF**"
+		(at -0.75 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9e7a21c6-572e-4a30-b73c-6052519be9bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Rosenberger_99CI106-030L5_contact_side"
+		(at 0 3.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5f030058-c26a-4307-8338-77358937e171")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2aca46b-0618-48fb-8a22-370c7e436ed1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84c62dc9-efdb-4c12-a224-7db0951f3f64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -2.75 -2.75)
+		(end 2.75 2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f326ee27-ac4b-437e-b19a-563822ae9e3e")
+	)
+	(fp_rect
+		(start -3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "444e3288-15a9-4521-bc75-2b9abd421068")
+	)
+	(fp_rect
+		(start -2.75 -2.75)
+		(end 2.75 2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "239d30ce-115e-4da4-a6e4-950a4712890c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "259c9667-9059-4601-af71-9b1ffaf6abae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask")
+		(clearance 1.05)
+		(uuid "b58a36fb-a07d-4971-a312-c90abe101d23")
+	)
+	(pad "2" smd circle
+		(at -1.77 -1.77)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "d6308678-f3a7-470a-9c02-f2ad17cab9d5")
+	)
+	(pad "2" smd circle
+		(at -1.77 1.77 90)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "ef91b2f8-5332-410c-990a-08b790504847")
+	)
+	(pad "2" smd circle
+		(at 1.77 -1.77 270)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "0ca8f461-72ec-43d6-8206-f8709e0dda2b")
+	)
+	(pad "2" smd circle
+		(at 1.77 1.77 180)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "fce47e22-78c5-4456-a66c-9d1813cf92cf")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/Rosenberger_99CI106-030L5_contact_side.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
