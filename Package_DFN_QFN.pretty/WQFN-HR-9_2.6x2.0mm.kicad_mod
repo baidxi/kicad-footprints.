@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Texas Instruments RAK0009A, WQFN-HR (HotRod), 9 pins, 2.6 x 2.0 x 0.8 mm, wettable flanks. Land pattern per TI drawing 4229353/J. Paste apertures per TI stencil example (pads 1 & 3: 91%, pad 2: 84%, split into 2 apertures).")
+	(descr "Texas Instruments RAK0009A, WQFN-HR (HotRod), 9 pins, 2.6 x 2.0 x 0.8 mm, wettable flanks. Land pattern per TI drawing 4229353/J. Paste apertures per TI stencil example (pads 1 & 3: 91%, pad 2: 84%, split into 2 apertures). https://www.ti.com/lit/ds/symlink/lmr60410.pdf")
 	(tags "WQFN-HR RAK0009A HotRod QFN wettable-flank LMR604403")
 	(property "Reference" "REF**"
 		(at 0 -2.2 0)
@@ -12,42 +12,20 @@
 		(uuid "3643e04d-943e-49aa-b98b-c3b278a3f9c7")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1.0 1.0)
 				(thickness 0.15)
 			)
 		)
 	)
-	(property "Value" "TI_RAK0009A_WQFN-HR-9_2.6x2.0mm"
+	(property "Value" "WQFN-HR-9_2.6x2.0mm"
 		(at 0 2.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e429773a-eee8-478b-ab76-6623f88c339c")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1.0 1.0)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Datasheet" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dfb73f88-9b90-49cd-be85-13a5e35482ef")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Description" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e6b8f3a0-c552-4d77-936e-792de6dd70a6")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -449,6 +427,11 @@
 			)
 		)
 		(uuid "3cb83380-14b3-4ad0-8a61-9bf4c4b0cb05")
+	)
+	(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-HR-9_2.6x2.0mm.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 	)
 	(embedded_fonts no)
 )
