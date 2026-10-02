@@ -31,6 +31,7 @@ Specialized scripts are used to generate the following connectors:
 - EH
 - J2100
 - JWPF
+- NH
 - NV
 - PH (only THT version = `*PH-K*`)
 - PHD
