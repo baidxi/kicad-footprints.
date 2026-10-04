@@ -1,0 +1,191 @@
+(footprint "SW_SPST_TL9210"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Long travel, Quiet Tactile Feel, https://www.e-switch.com/wp-content/uploads/2022/06/TL9210.pdf")
+	(tags "SPST Tactile Switch")
+	(property "Reference" "REF**"
+		(at -1.5 -4.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a6f46c46-2e17-4114-ac1e-07e36cab894d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPST_TL9210"
+		(at 0 5.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6e17744c-a2ad-49e2-9f3c-3faa09b86a33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "408cc45c-cdf6-42de-a37f-80724d7d904e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.e-switch.com/wp-content/uploads/2022/06/TL9210.pdf"
+		(at 0 7.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f1bb4ff-15bf-46f3-a6dd-1fcc84402f0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Long travel, Quiet Tactile Feel, https://www.e-switch.com/wp-content/uploads/2022/06/TL9210.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c18286ad-8498-4f4e-bf81-f574279d8cc8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.2 -3.2)
+		(end 3.2 -3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "db01a39c-0e3f-466d-a58c-94125d6a06ef")
+	)
+	(fp_line
+		(start -3.2 -1.2)
+		(end -3.2 -3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df9063d3-bc2b-4821-8ab8-1885b7914b06")
+	)
+	(fp_line
+		(start -3.2 3.2)
+		(end -3.2 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df9063d3-bc2b-4821-8ab8-1885b7914b06")
+	)
+	(fp_line
+		(start 3.2 -3.2)
+		(end 3.2 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e5963fe3-ccc0-4a39-8438-7b16da2a1409")
+	)
+	(fp_line
+		(start 3.2 1.2)
+		(end 3.2 3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e5963fe3-ccc0-4a39-8438-7b16da2a1409")
+	)
+	(fp_line
+		(start 3.2 3.2)
+		(end -3.2 3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a37bc588-add2-479f-8a5c-b3871a224c86")
+	)
+	(fp_rect
+		(start -4.1 -3.4)
+		(end 4.1 3.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7d9fbead-093e-43ec-949e-1a861c25c09e")
+	)
+	(fp_rect
+		(start -3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0dc9c963-3092-43b9-86fb-d32448a3f2d4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "18ae9800-c27b-4bd4-a991-4e55f0e5a556")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3 0)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "d7cd4304-7d92-490a-875a-54ab2ba6a203")
+	)
+	(pad "2" smd roundrect
+		(at 3 0)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "f355bb82-d01e-463a-b85d-ef2d5cf24e0b")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_TL9210.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
