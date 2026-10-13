@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "8 Pol Shallow Latch Connector, Modjack, RJ45 (https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)")
+	(descr "RJ45 8P8C horizontal modjack connector, shallow latch, plastic body, https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf")
 	(tags "RJ45")
 	(property "Reference" "REF**"
 		(at 4.445 -5 0)
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "RJ45_Amphenol_54602-x08_Horizontal"
-		(at 4.445 4 0)
+		(at 4.445 15 0)
 		(layer "F.Fab")
 		(uuid "c96cd34d-0a72-42c7-8ef8-d9df2a1b9a71")
 		(effects
@@ -56,58 +56,28 @@
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -4 -0.5)
-		(end -4 0.5)
+		(start -3.315 8)
+		(end -3.315 -3.880562)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c0d1da72-2973-4194-a1b2-535cebacdbf4")
+		(uuid "ae079ce4-b14f-44e7-9ab2-5275f9f4bc12")
 	)
 	(fp_line
-		(start -4 0.5)
-		(end -3.5 0)
+		(start -0.405009 -3.880562)
+		(end -3.315 -3.880562)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a4ca1a55-2c89-45fc-8d68-ad88d80dfd33")
+		(uuid "0e16dad6-3434-4d23-9cde-1bd28f34821d")
 	)
 	(fp_line
-		(start -3.5 0)
-		(end -4 -0.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e57c7df9-be58-4a3a-8623-0608c190c068")
-	)
-	(fp_line
-		(start -3.315 -3.88)
-		(end -3.315 14.08)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "abdbd1b3-c9d6-4bc4-9783-7e4fbcd47a0f")
-	)
-	(fp_line
-		(start -3.315 14.08)
-		(end 12.205 14.08)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "cbcd8d60-c55b-4d59-99c4-1a60e0ac4c1b")
-	)
-	(fp_line
-		(start 12.205 -3.88)
-		(end -3.315 -3.88)
+		(start 0.4 -3.88)
+		(end 12.205 -3.88)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -116,14 +86,48 @@
 		(uuid "7cd291f0-3a12-4baa-86d7-8876fdaf0131")
 	)
 	(fp_line
-		(start 12.205 -3.88)
-		(end 12.205 14.08)
+		(start 12.205 8)
+		(end 12.205 -3.88)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "df60effc-17a8-4f5a-94de-ff17d6b5a872")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -3.9) (xy -0.34 -4.37) (xy 0.34 -4.37)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "56b50009-1910-44a0-a03d-3ed0bcfeea5e")
+	)
+	(fp_circle
+		(center -1.27 6.35)
+		(end 0.83 6.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "66cfc8bb-8955-484e-a209-3caab4a86257")
+	)
+	(fp_circle
+		(center 10.16 6.35)
+		(end 12.26 6.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "6d524ce3-d3fe-48ab-ac15-badf49a0339d")
 	)
 	(fp_line
 		(start -3.71 -4.27)
@@ -166,30 +170,40 @@
 		(uuid "328ee2fb-f1f4-4df2-b63b-33a57adfab2d")
 	)
 	(fp_line
-		(start -3.205 -2.77)
-		(end -2.205 -3.77)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "7d48f2a4-c482-4728-9f65-54fb4dd33ddf")
-	)
-	(fp_line
 		(start -3.205 13.97)
-		(end -3.205 -2.77)
+		(end -3.205 -3.77)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "b910dda5-24e7-4b9e-b08e-249c667954ba")
 	)
 	(fp_line
-		(start -2.205 -3.77)
-		(end 12.095 -3.77)
+		(start -0.007368 -3.065409)
+		(end -0.512368 -3.770409)
 		(stroke
-			(width 0.12)
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7579e251-263c-432f-8db6-e34e956daabb")
+	)
+	(fp_line
+		(start -0.007368 -3.065409)
+		(end 0.497632 -3.770409)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "56e43da2-1cc3-45cb-9e66-1f136a37ee01")
+	)
+	(fp_line
+		(start 12.095 -3.77)
+		(end -3.205 -3.77)
+		(stroke
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -199,7 +213,7 @@
 		(start 12.095 -3.77)
 		(end 12.095 13.97)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -209,14 +223,14 @@
 		(start 12.095 13.97)
 		(end -3.205 13.97)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "1463cb6c-9934-49b6-8c8c-65bf8cbc586e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 4.445 2 0)
+		(at 4.445 5.1 90)
 		(layer "F.Fab")
 		(uuid "9ea09351-edcb-43f4-934a-a4fc7ab9cd92")
 		(effects
@@ -240,12 +254,13 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "42b25aa3-5280-4ea4-b695-66893dedaeca")
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 1.5 1.5)
 		(drill 0.76)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.1666666667)
 		(uuid "89b582d2-56ca-4006-a634-6efea471d324")
 	)
 	(pad "2" thru_hole circle
