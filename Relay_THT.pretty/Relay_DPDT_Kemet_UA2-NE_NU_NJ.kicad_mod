@@ -1,0 +1,242 @@
+(footprint "Relay_DPDT_Kemet_UA2-NE_NU_NJ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Kemet Miniature Signal Relays, DPDT, 10.6x5.7x8mm, see https://content.kemet.com/datasheets/KEM_R7004_UA2_UB2.pdf")
+	(tags "2-Form-C")
+	(property "Reference" "REF**"
+		(at 2.5 -2.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3255a996-d8b1-4e06-a319-cda5449a192d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Relay_DPDT_Kemet_UA2-NE_NU_NJ"
+		(at 2.462 10.126 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1fe4b65c-7fe3-4f36-96cb-87fcd0529749")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2.616 8.398 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a04d96d-cee8-497f-988a-8f0f3d82cc83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1.6 3.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96e1d5f0-7b99-41a0-bb84-88e78381ce31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.35 -1.6)
+		(end -0.45 -1.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a56a798d-0901-4539-9b6e-b90d9e7a908c")
+	)
+	(fp_line
+		(start -1.35 9.2)
+		(end -1.35 -1.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "269fc11c-7273-459e-858a-75b464634967")
+	)
+	(fp_line
+		(start 0.45 -1.6)
+		(end 4.55 -1.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "682aa106-fc99-4a5b-950f-d3d38809ce58")
+	)
+	(fp_line
+		(start 4.55 -1.6)
+		(end 4.55 9.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b7dc9b69-6001-4d6a-9dea-b09805990614")
+	)
+	(fp_line
+		(start 4.55 9.2)
+		(end -1.35 9.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "22f5e843-412c-451b-b37d-7a66da56ebf4")
+	)
+	(fp_poly
+		(pts
+			(xy 0.233493 -2.033013) (xy -0.016507 -1.6) (xy -0.266507 -2.033013)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "323a2804-96b0-45af-a07a-fc5c427e025d")
+	)
+	(fp_rect
+		(start -1.5 -1.75)
+		(end 4.7 9.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5b5d53c1-4424-4156-b0c8-14eaf86323f7")
+	)
+	(fp_line
+		(start 1.15 0)
+		(end 2.1 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "51f66ddf-4cfe-4e82-b65d-552cbf14af21")
+	)
+	(fp_rect
+		(start -1.25 -1.5)
+		(end 4.45 9.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "378b725e-701e-4aee-8bc7-fa61c370ab00")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.65 3.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "18f873ab-5995-4462-917c-53eff5cb5172")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "11" thru_hole circle
+		(at 0 5.4)
+		(size 1.65 1.65)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2214ac74-4989-437d-b33b-a1501c6b244e")
+	)
+	(pad "12" thru_hole circle
+		(at 0 3.2)
+		(size 1.65 1.65)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1ae96899-8dfb-4b39-8b3b-66f344baf9ff")
+	)
+	(pad "14" thru_hole circle
+		(at 0 7.6)
+		(size 1.65 1.65)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e4e45c3e-efb7-42d5-b4f2-86e673f7e57f")
+	)
+	(pad "21" thru_hole circle
+		(at 3.2 5.4)
+		(size 1.65 1.65)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d0405d8-bb76-4a75-9993-8d5068b1ef30")
+	)
+	(pad "22" thru_hole circle
+		(at 3.2 3.2)
+		(size 1.65 1.65)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "48928a2f-4ab6-4dd2-83d2-817eebfa4823")
+	)
+	(pad "24" thru_hole circle
+		(at 3.2 7.6)
+		(size 1.65 1.65)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6d423cd6-45a7-475c-8b57-99b4f12f607b")
+	)
+	(pad "A1" thru_hole roundrect
+		(at 0 0)
+		(size 1.65 1.65)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1515151515)
+		(uuid "77846b29-5ca0-4c4e-88cc-2d0b15ef3607")
+	)
+	(pad "A2" thru_hole circle
+		(at 3.2 0)
+		(size 1.65 1.65)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8cf5f3b8-7033-4f68-866f-f872e6ff75d3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Kemet_UA2-NE_NU_NJ.wrl"
+		(offset
+			(xyz 1.6 -3.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
