@@ -1,0 +1,201 @@
+(footprint "Diodes_X2-DFN1010-3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "3-pin, No Lead Package, Diodes Inc, X2-DFN1010-3, 1.0x1.0mm, https://www.diodes.com/assets/Package-Files/X2-DFN1010-3.pdf")
+	(tags "Diodes DFN")
+	(property "Reference" "REF**"
+		(at 0 1.5 180)
+		(layer "F.SilkS")
+		(uuid "8509b7e3-bedd-469c-bc3c-cb37691bb548")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "Diodes_X2-DFN1010-3"
+		(at 1.778 1.0668 180)
+		(layer "F.Fab")
+		(uuid "adb2a4d9-2788-41e9-8caf-bec87e952aac")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a888452a-9c83-44f0-90d7-95b1c68239fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9bb378a-101f-4dce-8499-3f028fca9425")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.5 -0.6)
+		(end 0.6 -0.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c03d0c83-60da-449e-b741-31b5e63f5784")
+	)
+	(fp_line
+		(start 0.6 -0.6)
+		(end 0.6 -0.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4ff8b0f4-08dd-4da1-9916-23ae4f229df2")
+	)
+	(fp_line
+		(start 0.6 0.3)
+		(end 0.6 0.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3a9c83fb-846f-4509-9813-556b3fa54905")
+	)
+	(fp_line
+		(start 0.6 0.6)
+		(end -0.5 0.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "872be1a9-de71-49cd-9187-107e2088ffb3")
+	)
+	(fp_circle
+		(center -0.8 -0.3)
+		(end -0.75 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3732538b-1dab-4c3e-bd90-6ae1f99d913f")
+	)
+	(fp_rect
+		(start -0.75 -0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b1e1a982-528a-48fb-b3f3-6c738cd72dce")
+	)
+	(fp_rect
+		(start -0.525 -0.525)
+		(end 0.525 0.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "eaea7250-4c49-442f-981a-0c102f244e7e")
+	)
+	(fp_circle
+		(center -0.8 -0.3)
+		(end -0.75 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b2d9278e-5e2c-44c9-8c69-94b92271ce3d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.65 1.5 0)
+		(layer "F.Fab")
+		(uuid "af8fa8cf-f018-44cc-8a7f-9cacca99d5f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.4275 -0.25 270)
+		(size 0.33 0.445)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "042db68e-55c6-437b-be06-f195ae7774aa")
+	)
+	(pad "2" smd roundrect
+		(at -0.4275 0.25 270)
+		(size 0.33 0.445)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e190b8bb-f0df-4ce9-af57-ac497c26ff50")
+	)
+	(pad "3" smd custom
+		(at 0.2025 0)
+		(size 0.505 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.06)
+		(zone_connect 0)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.2525 -0.45) (xy 0.2525 -0.45) (xy 0.2525 -0.165) (xy 0.4525 -0.165) (xy 0.4525 0.165) (xy 0.2525 0.165)
+					(xy 0.2525 0.45) (xy -0.2525 0.45)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "dd5e52f6-5e24-4bb9-99b7-0dbb44a1bd6f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_X2-DFN1010-3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
